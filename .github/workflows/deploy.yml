@@ -34,7 +34,12 @@ jobs:
 
       - name: pandoc 3.x をインストール
         run: |
-          curl -sL https://github.com/jgm/pandoc/releases/download/3.1.11/pandoc-3.1.11-arm64.tar.gz \
+          case "$(uname -m)" in
+            x86_64)  PANDOC_ARCH=amd64 ;;
+            aarch64) PANDOC_ARCH=arm64 ;;
+            *) echo "unsupported arch: $(uname -m)" >&2; exit 1 ;;
+          esac
+          curl -fsSL "https://github.com/jgm/pandoc/releases/download/3.1.11/pandoc-3.1.11-${PANDOC_ARCH}.tar.gz" \
             | sudo tar xz --strip-components=1 -C /usr/local/bin pandoc
           sudo chmod +x /usr/local/bin/pandoc
           pandoc --version | head -1
