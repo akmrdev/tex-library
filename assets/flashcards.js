@@ -57,11 +57,39 @@
     });
   }
 
+  // 音声選択: OS 内蔵の変な声(Albert・Zarvox など)を避け、自然な英語音声を選ぶ
+  var voice = null;
+  var PREFERRED = ["Samantha", "Daniel", "Karen", "Moira", "Tessa", "Google US English", "Aria", "Ava", "Libby", "Sonia"];
+  var AVOID = /Albert|Bahh|Bells|Boing|Bubbles|Cellos|Jester|Junior|Organ|Trinoids|Whisper|Wobble|Zarvox|Bad News|Good News|Superstar|Grandma|Grandpa|Eddy|Flo|Reed|Rocko|Sandy|Shelley|Fred|Kathy|Ralph/i;
+  function pickVoice() {
+    if (!window.speechSynthesis) return;
+    var en = speechSynthesis.getVoices().filter(function (v) {
+      return /^en([-_]|$)/i.test(v.lang) && !AVOID.test(v.name);
+    });
+    voice = null;
+    for (var i = 0; i < PREFERRED.length && !voice; i++) {
+      voice = en.find(function (v) { return v.name.indexOf(PREFERRED[i]) !== -1; });
+    }
+    if (!voice) voice = en.find(function (v) { return v.lang === "en-US"; }) || en[0] || null;
+    window.__voice = voice; // デバッグ用
+  }
+  if (window.speechSynthesis) {
+    pickVoice();
+    speechSynthesis.onvoiceschanged = pickVoice;
+    // Chromium 系は初回 getVoices() が空のことがあるのでポーリング
+    (function ensureVoices(n) {
+      if (voice || n > 20) return;
+      setTimeout(function () { pickVoice(); ensureVoices(n + 1); }, 300);
+    })(0);
+  }
+
   function speak(text) {
     if (!state.tts || !window.speechSynthesis) return;
     speechSynthesis.cancel();
     var u = new SpeechSynthesisUtterance(text);
     u.lang = "en-US";
+    if (voice) u.voice = voice;
+    u.rate = 0.92;    // 学習用にややゆっくり
     speechSynthesis.speak(u);
   }
 
