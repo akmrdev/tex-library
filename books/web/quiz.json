@@ -1,0 +1,32 @@
+[
+  {
+    "q": "HTML で「文書の意味構造」を担う要素の例は?",
+    "choices": ["<nav> <article> <section>", "<div> <span>", "<script> <style>", "<img> <br>"],
+    "answer": 0,
+    "explain": "セマンティック要素は意味を伝える。div/span は意味を持たない汎用コンテナです。"
+  },
+  {
+    "q": "CSS の「ボックスモデル」の構成(内→外)は?",
+    "choices": ["content → padding → border → margin", "margin → border → padding → content", "content → border → margin", "padding → content → margin"],
+    "answer": 0,
+    "explain": "中身の周りに余白(padding)、線(border)、外余白(margin)の順で層になっています。"
+  },
+  {
+    "q": "querySelector(\"#toc\") が選ぶ要素は?",
+    "choices": ["id=\"toc\" の要素", "class=\"toc\" の要素", "<toc> タグ", "すべての toc"],
+    "answer": 0,
+    "explain": "# は id、. は class のセレクタ記法です。"
+  },
+  {
+    "q": "イベントリスナーを追加する書き方は?",
+    "choices": ["btn.addEventListener(\"click\", fn)", "btn.onClick = fn() のみ", "listen(btn, fn)", "btn.event(fn)"],
+    "answer": 0,
+    "explain": "addEventListener は複数のリスナーを重ねて登録できる標準 API です。"
+  },
+  {
+    "q": "localStorage の特徴は?",
+    "choices": ["ドメインごとに永続保存(文字列のみ)", "サーバーに送られる", "タブを閉じると消える", "数値をそのまま保存できる"],
+    "answer": 0,
+    "explain": "文字列として永続保存されます。この図書館の読書進捗の保存先です。"
+  }
+]

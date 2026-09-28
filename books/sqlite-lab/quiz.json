@@ -1,0 +1,32 @@
+[
+  {
+    "q": "SQLite の対話シェルを起動するコマンドは?",
+    "choices": ["sqlite3 test.db", "sql test.db", "sqlite --open test.db", "db3 test.db"],
+    "answer": 0,
+    "explain": "sqlite3 コマンドに DB ファイル名を渡すと対話モードが始まります。ファイルが無ければ新規作成です。"
+  },
+  {
+    "q": "テーブル構造を確認する特別コマンド(dot コマンド)は?",
+    "choices": [".schema users", "SHOW TABLE users", "DESCRIBE users", "!schema users"],
+    "answer": 0,
+    "explain": "SQLite ではドットで始まるコマンドがシェル機能。CREATE 文が見えます。"
+  },
+  {
+    "q": "この実習書で売上集計に使った主要句の組合せは?",
+    "choices": ["GROUP BY と SUM()", "ORDER と LIMIT", "JOIN と DELETE", "WITH と DROP"],
+    "answer": 0,
+    "explain": "GROUP BY item でグループ化し SUM(amount) で合計。集計の基本形です。"
+  },
+  {
+    "q": "実習でインデックス作成後に確認したことは?",
+    "choices": ["EXPLAIN QUERY PLAN でスキャン方法が変わったこと", "テーブルが速く作成されたこと", "SELECT が自動で速くなったこと(確認なし)", "行数が減ったこと"],
+    "answer": 0,
+    "explain": "EXPLAIN QUERY PLAN で「SCAN」が「SEARCH USING INDEX」に変わることを確認しました。計測してから改良が原則です。"
+  },
+  {
+    "q": "設計課題(課 8)で注释カード式 items 列を正した方法は?",
+    "choices": ["注文明細テーブルを分離し 1 行 1 商品にする", "カンマ区切りのまま検索を工夫する", "JSON に入れて終わり", "列を増やして item1, item2 にする"],
+    "answer": 0,
+    "explain": "1NF 違反の解消は「行を分ける」か「テーブルを分ける」です。item1/item2 の列増設も 1NF 違反の変形です。"
+  }
+]

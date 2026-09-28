@@ -1,0 +1,184 @@
+\documentclass{article}
+\title{正規表現入門 — 30 分から実用まで}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{この教科書のために — 「形」で引っかける}
+
+正規表現は\textbf{文字列の形(パターン)を記述する小さな言語}です。「2026 年の日付を全部探したい」「ログからエラー行だけ抽出したい」——内容を 1 件ずつ確認する代わりに、\textbf{形を 1 回書けば}何百万件でも処理できます。
+
+grep・sed・awk(『シェル \& Linux 入門』)、エディタの検索置換、Python・JavaScript・SQL まで、正規表現はあらゆる道具に組み込まれています。この教科書を読めば「ほとんどの実務ケース」に対応できる実用レベルに到達します。
+
+\section{文字クラスと量指定子 — 基本の 2 輪}
+
+\subsection{文字クラス: 1 文字の候補}
+
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+パターン & 意味 & 例 \\
+\hline
+\texttt{[abc]} & a, b, c のどれか 1 文字 & cat の c \\
+\texttt{[a-z]} & 小文字アルファベット 1 文字 & \\
+\texttt{[0-9]} / \texttt{\textbackslash d} & 数字 1 文字 & \\
+\texttt{\textbackslash w} & 英数字と \texttt{\_} 1 文字 & \\
+\texttt{\textbackslash s} & 空白 1 文字 & \\
+\texttt{.} & 任意の 1 文字(改行以外) & \\
+\texttt{[\^{}0-9]} & 数字\textbf{以外}の 1 文字 & \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{量指定子: 繰り返しの回数}
+
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+パターン & 意味 & 例 \\
+\hline
+\texttt{+} & 1 回以上 & \texttt{\textbackslash d+} = 1 桁以上の数 \\
+\texttt{*} & 0 回以上 & \texttt{a*} = 空も可 \\
+\texttt{?} & 0 か 1 回 & \texttt{https?} = http と https の両方 \\
+\texttt{\{3\}} & ちょうど 3 回 & \texttt{\textbackslash d\{3\}} = 3 桁 \\
+\texttt{\{2,4\}} & 2〜4 回 & \texttt{\textbackslash d\{2,4\}} \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{quote}
+\textbf{【例】}\ 「3 桁の数字」は \texttt{\textbackslash d\{3\}}。「郵便番号 123-4567」は \texttt{\textbackslash d\{3\}-\textbackslash d\{4\}}。\textbf{読める}ようになると、パターンはほぼ日本語の直訳で書けます。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ 「携帯電話番号 090-1234-5678 の形」(\texttt{0(90|80|70)-\textbackslash d\{4\}-\textbackslash d\{4\}})にマッチする正規表現を書け(頭は 090, 080, 070 のいずれか)。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{0(90|80|70)-\textbackslash d\{4\}-\textbackslash d\{4\}}。\texttt{(…)} はグループ(次節)。\texttt{[0-9]\{3\}} と書くと 000 も通ってしまう点に注意。
+
+\section{アンカーと境界 — 位置を指定する}
+
+マッチしたいのは「文字」でなく「\textbf{位置}」のこともあります。
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+パターン & 意味 \\
+\hline
+\texttt{\^{}abc} & 行の\textbf{先頭}から abc が始まる \\
+\texttt{abc\$} & 行の\textbf{末尾}で abc が終わる \\
+\texttt{\textbackslash babc\textbackslash b} & 単語の境界にある abc(abc という\textbf{単語}そのもの) \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{quote}
+\textbf{【例】}\ \texttt{grep abc} だと \texttt{abc123} も \texttt{zzabc} も引っかかります。\textbf{「abc という単語」だけ}欲しければ \texttt{grep -w abc} か \texttt{\textbackslash babc\textbackslash b}。\texttt{\^{}Error} と書けば「行頭の Error」だけで、文中の Error は無視できます。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ 「行頭に \# がある行 = コメント行」だけを除外したい。\texttt{grep} のオプションと正規表現を組み合わせて書け。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{grep -v "\textasciicircum\textbackslash s*\#"}(\texttt{-v} は反転。コメント行の前に空白があってもよいように \texttt{\textbackslash s*} を入れるのが実務版)。
+
+\section{グループとキャプチャ — 一塊にして取り出す}
+
+\texttt{(…)} には 2 つの役割があります:
+\begin{enumerate}
+\item \textbf{一塊にする}: \texttt{(ab)+} は「ab, abab, …」(\texttt{ab+} は abb, abbb… と全く別!)
+\item \textbf{取り出す(キャプチャ)}: マッチした一部を後で利用する(置換やプログラムから)
+\end{enumerate}
+
+\begin{lstlisting}[language=Python]
+import re
+
+text = "2026-09-28 に会議、2026-10-05 に締切"
+# 日付をキャプチャして並べ替え
+pattern = r"(\d{4})-(\d{2})-(\d{2})"
+for m in re.finditer(pattern, text):
+    y, mo, d = m.groups()
+    print(f"{mo}/{d} ({y})")
+# 09/28 (2026) / 10/05 (2026)
+\end{lstlisting}
+
+\texttt{(?:…)} は「グループにするが取り出さない」書き方で、数が増えたときの混乱を防ぎます。
+
+\begin{quote}
+\textbf{【演習】}\ 「山田 太郎」を「太郎・山田」に置換する正規表現を、2 つのキャプチャを使って書け(Python の置換文字列)。
+\end{quote}
+
+\textbf{解答の指針:}\ パターン \texttt{(\textbackslash S+)\textbackslash s+(\textbackslash S+)}, 置換 \texttt{\textbackslash 2・\textbackslash 1}(Python なら \texttt{r"\textbackslash 2・\textbackslash 1"})。
+
+\section{実用パターン集 — これだけは写経しよう}
+
+\begin{itemize}
+\item メールらしきもの: \texttt{[\textbackslash w.\textbackslash -]+@[\textbackslash w.\textbackslash -]+\textbackslash .[\textbackslash w]+}
+\item URL: \texttt{https?://[\textbackslash w./\textbackslash -\%\textbackslash ?=\&]+}
+\item ISO 日付: \texttt{\textbackslash d\{4\}-\textbackslash d\{2\}-\textbackslash d\{2\}}
+\item 時刻 HH:MM: \texttt{([01]\textbackslash d|2[0-3]):[0-5]\textbackslash d}(時間は 00〜23 に制限した版)
+\item 16 進色 \#rrggbb: \texttt{\#[0-9a-fA-F]\{6\}}
+\item 空行の検出: \texttt{\textasciicircum\textbackslash s*\textbackslash \$}
+\item 重複する空白の圧縮(置換): \texttt{\textbackslash s+} → \texttt{ }(半角 1 つ)
+\end{itemize}
+
+\begin{quote}
+\textbf{【注意】}\ メールの完全な仕様に一致させる正規表現は\textbf{現実的に書けません}(仕様が複雑すぎる)。実務では「ある程度絞って、後で送信確認する」が正解です。\textbf{正規表現の検証は「最終の検証」でなく「入力の第一ふるい」}と心得る。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ 「時刻 HH:MM」のパターンでなぜ「\texttt{\textbackslash d\{2\}:\textbackslash d\{2\}}」では不十分か、また改良版が何を排除しているか説明せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{\textbackslash d\{2\}:\textbackslash d\{2\}} は 99:99 も通す。時間側 \texttt{([01]\textbackslash d|2[0-3])} は 00〜23、分側 \texttt{[0-5]\textbackslash d} は 00〜59 に制限し、実在しない時刻を排除している。
+
+\section{grep・sed で使う — 日々の道具に組み込む}
+
+\begin{lstlisting}[language=bash]
+grep -E "\d{4}-\d{2}-\d{2}" report.txt    # 日付行だけ
+grep -rn --include="*.py" "import re" src/ # py ファイルのみ再帰検索
+sed -E 's/([0-9]{4})-([0-9]{2})-([0-9]{2})/\2\/\3\/\1/' dates.txt
+# 2026-09-28 → 09/28/2026 に変換(-E は拡張正規表現)
+\end{lstlisting}
+
+\texttt{-E} を付けると \texttt{(…)} や \texttt{\{n,m\}} の\texttt{\textbackslash} を省ける(拡張正規表現)。エディタ(VS Code など)の検索はほぼ同じ文法なので、覚えた式がそのまま使えます。
+
+\begin{quote}
+\textbf{【演習】}\ CSV の 3 列目が「100 未満の数字」の行を \texttt{awk} ではなく \texttt{grep -E} で抽出したい。逗号区切りの構造を考慮して書けるか?(ヒント: 列の境界は \texttt{,} で挟む)
+\end{quote}
+
+\textbf{解答の指針:}\ 単純な正規表現では CSV の列位置を正確に扱えない場合がある(引用符内のカンマなど)。\textbf{列構造の処理は awk や CSV パーサの担当}——道具の使い分けの見極めも実力です。
+
+\section{罠を知る — 貪欲さ・バックスラッシュ・可読性}
+
+\begin{enumerate}
+\item \textbf{貪欲マッチ}: \texttt{<a>1</a><a>2</a>} に対して \texttt{<.*>} は「最初の \texttt{<} から\textbf{最後の} \texttt{>}」まで取ってしまう。\texttt{<.*?>}(控えめマッチ)で最短に。
+\item \textbf{エスケープ漏れ}: \texttt{.} \texttt{*} \texttt{+} \texttt{?} \texttt{(} \texttt{[} などは特殊文字。\texttt{3.5}(小数点)を探すなら \texttt{3\textbackslash .5}。
+\item \textbf{バックトラック爆発}: 悪いパターン(ネストした \texttt{(a+)+} など)に長い非マッチ文字列を与えると、処理が指数的に遅くなる(ReDoS)。入力が長い場所では注意。
+\item \textbf{可読性}: 3 か月後の自分が読めない式を書かない。長い式は分割するか、\texttt{x} フラグ(コメント可)やプログラム側の分解を使う。
+\end{enumerate}
+
+\begin{quote}
+\textbf{【演習】}\ 「HTML タグを正規表現で全部除去する」の信頼できる性質と危険な点を、貪欲マッチの観点から述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 単純な「< と > 以外の 1 文字以上の繰り返し」パターンは属性に \texttt{>} を含まない通常タグには有効。だが改行をまたぐ・属性値に \texttt{>} を含む・スクリプト本文に \texttt{<} があるなどで破綻しうる。HTML の本格処理は\textbf{パーサ}を使い、正規表現は単純な制御文字列の清掃に留める。
+
+\section{おわりに — 形の読み書き}
+
+この教科書で手に入れた部品: 文字クラスと量指定子(§2)、アンカー(§3)、グループ(§4)、実用パターン(§5)、道具への組み込み(§6)、罠の知識(§7)。正規表現は\textbf{書いて試して}覚える言語です。練習環境(regex101 などのテスタ、または \texttt{grep -E} と小さなテキストファイル)を用意して、この教科書の全パターンを実際に動かしてください。
+
+次の一歩は、『シェル \& Linux 入門』のテキスト処理を正規表現で強化すること、そしてプログラミング言語内での正規表現(キャプチャの名前付け、Unicode 対応)です。
+
+\begin{quote}
+\textbf{【総合演習】}
+\begin{enumerate}
+\item 「半角英字 8〜16 文字のパスワードらしき文字列」にマッチする式を書け。
+\item \texttt{(ab)+} と \texttt{ab+} の違いを、マッチする文字列の例で示せ。
+\item 貪欲マッチの問題を回避する 2 つの方法を挙げよ。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:}\ 1. \texttt{[a-zA-Z]\{8,16\}}。2. \texttt{(ab)+} は \texttt{ab, abab, ababab…}/\texttt{ab+} は \texttt{ab, abb, abbb…}。3. 控えめマッチ \texttt{.*?} を使う、または「区切り文字を含まない繰り返し」を文字クラスで明示する(例: < と > 以外の 1 文字以上)。
+
+\end{document}

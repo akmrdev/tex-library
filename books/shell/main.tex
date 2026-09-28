@@ -1,0 +1,193 @@
+\documentclass{article}
+\title{シェル \& Linux 入門 — ターミナルで自動化する}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{この教科書のために — 小さな道具を繋ぐ思想}
+
+GUI での操作は「人間が 1 回やる」ことに最適化されています。しかし\textbf{毎日・毎週・繰り返す作業}は、コマンドで書いて自動化するほうが速く、確実です。この教科書は、ターミナル操作の基本から、自宅サーバーでの定期自動化(cron)までを通しで学びます。
+
+UNIX 系の設計思想は「\textbf{1 つのことをうまくやる小さな道具を作り、それをパイプで繋ぐ}」です。この思想を掴むことが最大の目的です。
+
+\section{ファイルシステムの基本操作}
+
+Linux のすべては\textbf{木構造のディレクトリ}の下にあります。ルート \texttt{/} から始まり、カレント \texttt{.}、親 \texttt{..}、ホーム \texttt{\textasciitilde} を使って場所を指定します。
+
+\begin{lstlisting}[language=bash]
+pwd                 # 今いる場所
+ls -la              # 隠しファイル含め詳細表示
+cd ~/projects       # ホーム以下へ移動
+mkdir -p a/b/c      # 深いディレクトリを一気に作成
+cp -r src backup/   # 再帰コピー
+mv old.txt new.txt  # 移動・改名
+rm -rf build/       # 再帰削除(取り消せない!)
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【注意】}\ \texttt{rm -rf} に\textbf{ゴミ箱はない}です。削除の前には \texttt{ls} で対象を確認する習慣——特に \texttt{rm -rf \$VAR/} のような変数展開を伴う形は、変数が空だと意図せぬ場所を消す事故の定番です。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ 「カレントディレクトリ以下から、30 日以上更新のない \texttt{.log} ファイルを一覧する」コマンドを \texttt{find} で書け(ヒント: \texttt{find . -name "*.log" -mtime +30})。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{find . -name "*.log" -mtime +30 -ls}。削除も \texttt{-delete} を付け加えるだけで済むが、まず一覧で目視してからにする。
+
+\section{パイプとリダイレクト — 道具を繋ぐ}
+
+\begin{lstlisting}[language=bash]
+command > file.txt     # 出力をファイルへ(上書き)
+command >> file.txt    # 追記
+command 2> err.txt     # エラー出力のみをファイルへ
+cat a.txt | grep 2026 | sort | uniq -c | sort -rn | head -5
+\end{lstlisting}
+
+最後の行が思想の結晶です。左から順に読みます:
+\begin{enumerate}
+\item \texttt{cat}: ファイルの中身を流す
+\item \texttt{grep 2026}: 2026 を含む行だけ残す
+\item \texttt{sort}: 並べ替え(同じ行を隣接させる)
+\item \texttt{uniq -c}: 隣接重複を集計して件数付きで
+\item \texttt{sort -rn}: 件数順(降順)に
+\item \texttt{head -5}: 上位 5 件
+\end{enumerate}
+\textbf{「2026 を含む行の頻度ランキング」}が一行で完成します。
+
+\begin{quote}
+\textbf{【演習】}\ アクセスログ \texttt{access.log} から「IP アドレスごとのリクエスト数上位 10」を求めるパイプラインを書け(IP は行頭にあるものとする)。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{awk '\{print \$1\}' access.log | sort | uniq -c | sort -rn | head -10}。
+
+\section{テキスト処理 — grep・sed・awk}
+
+テキストは Linux の共通言語です。3 大道具を押さえます。
+
+\begin{lstlisting}[language=bash]
+grep -i error app.log          # error を大小無視で抽出
+grep -rn "TODO" src/           # ディレクトリ再帰 + 行番号
+sed 's/2025/2026/g' report.txt # 置換(g は全マッチ)
+sed -n '10,20p' big.txt        # 10〜20 行だけ表示
+awk -F, '{s += $3} END {print s}' data.csv   # 3 列目の合計
+awk '$3 > 1000 {print $1, $3}' data.csv      # 条件付き抽出
+\end{lstlisting}
+
+\texttt{awk} は「行をフィールドに分けて小さな計算をする」道具で、CSV の集計に大変強力です。
+
+\begin{quote}
+\textbf{【演習】}\ \texttt{access.log} から「ステータスコードが 404 の行数」を数えよ(ステータスコードは 9 番目のフィールドとする)。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{awk '\$9 == 404' access.log | wc -l} または \texttt{grep -c " 404 "}。
+
+\section{権限とユーザー — rwx の世界}
+
+\begin{lstlisting}[language=bash]
+ls -l deploy.sh        # -rwxr--r-- 1 user group ...
+chmod +x deploy.sh     # 実行権限を追加
+chmod 600 secret.key   # 所有者のみ読み書き
+sudo apt install jq    # 管理者権限で実行
+\end{lstlisting}
+
+\texttt{-rwxr--r--} は「所有者 rwx(421=7)、グループ r--(4)、他人 r--(4)」で 755。\textbf{秘密鍵は 600}(他人から読めない)が SSH の作法で、緩いと接続を拒否されます。
+
+\begin{quote}
+\textbf{【演習】}\ 「所有者は読み書き実行、グループは読みと実行、他人は読みのみ」の権限を数字で表せ。
+\end{quote}
+
+\textbf{解答の指針:}\ 7(rwx)・5(r-x)・4(r--) → 754。
+
+\section{プロセス管理 — 動いているものを見る・止める}
+
+\begin{lstlisting}[language=bash]
+ps aux | grep python   # プロセス一覧から絞り込み
+top                    # リアルタイム監視
+kill 12345             # PID 12345 を終了要求
+kill -9 12345          # 強制終了(最終手段)
+sleep 300 &            # バックグラウンド実行
+jobs / fg / bg         # ジョブ制御
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ 「CPU 使用率の高い順にプロセス 5 件を表示」するコマンドを書け(ヒント: \texttt{ps aux --sort=-\%cpu | head})。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{ps aux --sort=-\%cpu | head -6}(先頭行がヘッダぶん)。
+
+\section{SSH — リモートを透過的に扱う}
+
+\begin{lstlisting}[language=bash]
+ssh user@host                    # ログイン
+ssh -i ~/.ssh/id_ed25519 host    # 鍵を指定
+scp file.txt host:/tmp/          # ファイル転送
+ssh host "docker ps"             # リモートでコマンド実行
+git archive --format=tar main | ssh host "docker build -t app -"
+\end{lstlisting}
+
+最後の例は「\textbf{ローカルの git アーカイブをリモートの docker build に流し込む}」実用的な一行で、この図書館の作者の自宅サーバー運用(ポート 8786〜 の各アプリのデプロイ)でも実際に使われている手順です。\textbf{パイプはローカルとリモートを跨げる}——SSH は単なるリモートシェルでなく「ストリームの橋」です。
+
+\begin{quote}
+\textbf{【演習】}\ パスワード認証を無効化して鍵認証のみにする理由を、セキュリティの観点から 2 行で述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ パスワードは総当たり(ブルートフォース)攻撃の対象になり続ける。秘密鍵を持つ端末だけがログイン可能になるため、攻撃面が劇的に狭まる。
+
+\section{シェルスクリプト入門 — 処理を 1 つのファイルに}
+
+\begin{lstlisting}[language=bash]
+#!/bin/bash
+# backup.sh — ログを日付付きで保存する
+set -euo pipefail        # エラーで即中止・未定義変数はエラー
+
+SRC=/var/log/app
+DEST=/backup/$(date +%F)
+mkdir -p "$DEST"
+cp "$SRC"/*.log "$DEST/"
+echo "backed up $(ls "$DEST" | wc -l) files"
+\end{lstlisting}
+
+\texttt{set -euo pipefail} は「事故を早く fail させる」ための定番宣言(失敗を黙って続けない)。変数は\textbf{ダブルクォートで囲む}(スペース入りのパス対応)が作法です。
+
+\begin{quote}
+\textbf{【演習】}\ 「引数で渡されたディレクトリ内の \texttt{.tmp} ファイルを削除するスクリプト」を、引数チェック付きで書け。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{[ \$\# -ne 1 ] \&\& echo "usage: \$0 dir" \&\& exit 1; rm -f "\$1"/*.tmp}。
+
+\section{cron — 毎日自動で動かす}
+
+\begin{lstlisting}[language=bash]
+crontab -e          # 自分の cron を編集
+# 分 時 日 月 曜日  コマンド
+0 3 * * *   /home/user/bin/backup.sh        # 毎日 3:00
+*/5 * * * * /home/user/bin/check.sh         # 5 分ごと
+0 9 * * 1-5 /home/user/bin/report.sh        # 平日 9:00
+\end{lstlisting}
+
+cron の罠は 2 つです。\textbf{(1) 環境変数がログインシェルと違う}(PATH が短い)ので、スクリプト内ではフルパスを使う。\textbf{(2) 失敗が黙って消える}ので、ログ出力 \texttt{>> log 2>\&1} を必ず付ける。
+
+\begin{quote}
+\textbf{【演習】}\ 「毎日 4:00 に backup.sh を実行し、出力を cron.log に追記する」1 行を書け。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{0 4 * * * /home/user/bin/backup.sh >> /home/user/cron.log 2>\&1}。
+
+\section{おわりに — 自動化の目}
+
+この教科書で手に入れた道具: ファイル操作、パイプ、grep/sed/awk、権限、プロセス、SSH、スクリプト、cron。\textbf{「繰り返す作業を見つけたら、パイプラインにして cron に預ける」}——これが UNIX 的な生活の形です。
+
+本図書館の運用例: 教科書の自動デプロイ(GitHub Actions)、株板アプリの 5 分ごとの自動デプロイ(cron + 状態ファイル)、ポータルの Docker 再ビルド。いずれもこの教科書の部品の組み合わせです。
+
+\begin{quote}
+\textbf{【総合演習】}
+\begin{enumerate}
+\item カレントディレクトリ以下のファイル数(ディレクトリを除く)を数えるパイプラインを書け。
+\item \texttt{set -euo pipefail} を付けないとどんな事故が起きうるか 1 例で述べよ。
+\item SSH で「リモートのディスク使用率を 1 行で表示」するコマンドを書け。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:}\ 1. \texttt{find . -type f | wc -l}。2. 前段が失敗しても後段が空入力で動き続け、壊れたデータが生成される。3. \texttt{ssh host "df -h /" }。
+
+\end{document}

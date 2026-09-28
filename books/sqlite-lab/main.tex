@@ -1,0 +1,193 @@
+\documentclass{article}
+\title{SQLite 実習書 — 手を動かすデータベース全 8 課}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{この実習書のために — 読まずに打つ}
+
+この本は「読む」教科書ではありません。\textbf{ターミナルを開いて、書いて、壊す}ための実習書です。全 8 課を順にこなすと、図書館の『SQL・データベース入門』の内容が\textbf{手の記憶}になります。
+
+準備は 1 分です。macOS なら \texttt{sqlite3} は最初から入っています(Windows は公式サイトから sqlite-tools をダウンロード)。
+
+\begin{lstlisting}[language=bash]
+sqlite3 shop.db        # 対話モード開始(ファイルが無ければ新規作成)
+.headers on            # ヘッダ表示を有効化
+.mode column           # 列表示にする
+\end{lstlisting}
+
+\section{課 1 — データベースを作る}
+
+まず店の売上データを管理する DB を作ります。
+
+\begin{lstlisting}[language=SQL]
+CREATE TABLE users (
+  id   INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age  INTEGER
+);
+
+CREATE TABLE orders (
+  id      INTEGER PRIMARY KEY,
+  user_id INTEGER NOT NULL REFERENCES users(id),
+  item    TEXT NOT NULL,
+  amount  INTEGER NOT NULL
+);
+.schema                    -- 定義を確認(dot コマンド)
+\end{lstlisting}
+
+\textbf{確認ポイント:} \texttt{PRIMARY KEY} が 1 行を特定し、\texttt{REFERENCES} が users と orders を繋いでいます。\texttt{.schema} で自分が書いた定義を目で見てください。
+
+\begin{quote}
+\textbf{【課題 1】}\ 「商品テーブル items(id, name, price)」を同じ要領で定義し、\texttt{.schema} で確認せよ。
+\end{quote}
+
+\section{課 2 — 入れて・見て・直す(CRUD)}
+
+\begin{lstlisting}[language=SQL]
+INSERT INTO users (id, name, age) VALUES
+  (1, 'Alice', 31), (2, 'Bob', 25), (3, 'Carol', 37);
+
+INSERT INTO orders (id, user_id, item, amount) VALUES
+  (1, 1, 'coffee', 420), (2, 1, 'book', 1500),
+  (3, 2, 'pen', 180),    (4, 3, 'book', 1500);
+
+SELECT * FROM users;                       -- R: 読む
+UPDATE users SET age = 26 WHERE id = 2;    -- U: 更新
+DELETE FROM orders WHERE id = 4;           -- D: 削除
+SELECT * FROM orders;                      -- 変化を確認
+\end{lstlisting}
+
+\textbf{確認ポイント:} \texttt{UPDATE} と \texttt{DELETE} の \texttt{WHERE} を\textbf{わざと一回外して}みてください。全行が変わる恐怖を一度経験すると、実務の「先に SELECT で対象確認」が体に染みます。
+
+\begin{quote}
+\textbf{【課題 2】}\ 「name が B で始まるユーザー」だけ表示せよ。さらに「age が 30 以上のユーザー名を若い順」に表示せよ。
+\end{quote}
+
+\section{課 3 — 集計する}
+
+\begin{lstlisting}[language=SQL]
+SELECT COUNT(*) FROM orders;                        -- 件数
+SELECT SUM(amount), AVG(amount) FROM orders;        -- 合計・平均
+SELECT item, COUNT(*), SUM(amount)
+FROM orders
+GROUP BY item
+ORDER BY SUM(amount) DESC;
+\end{lstlisting}
+
+\textbf{確認ポイント:} \texttt{GROUP BY item} を付けない \texttt{SUM(amount)} と比べてください。\textbf{全体 1 個の値}と\textbf{グループごとの値}の違いが視覚的に分かります。
+
+\begin{quote}
+\textbf{【課題 3】}\ 「ユーザーごとの注文件数」を多い順に表示し、HAVING で「2 件以上」に絞れ。
+\end{quote}
+
+\section{課 4 — 表を繋ぐ(JOIN)}
+
+\begin{lstlisting}[language=SQL]
+-- 注文に注文者の名前を付けて表示
+SELECT u.name, o.item, o.amount
+FROM orders o
+JOIN users u ON o.user_id = u.id;
+
+-- 注文していないユーザー(左結合 + NULL 判定)
+SELECT u.name
+FROM users u
+LEFT JOIN orders o ON o.user_id = u.id
+WHERE o.id IS NULL;
+\end{lstlisting}
+
+\textbf{確認ポイント:} Carol の注文を課 2 で削除したなら、JOIN で Alice の注文に名前が付くのと、LEFT JOIN の NULL パターンの両方を観察してください。
+
+\begin{quote}
+\textbf{【課題 4】}\ 「ユーザー名ごとの合計購入額」を、注文がないユーザーも 0 円で表示せよ(\texttt{COALESCE} を使用)。
+\end{quote}
+
+\section{課 5 — トランザクションを体験する}
+
+\begin{lstlisting}[language=SQL]
+BEGIN;
+UPDATE orders SET amount = amount + 99999 WHERE id = 1;
+SELECT * FROM orders WHERE id = 1;   -- 変わっている!
+ROLLBACK;                            -- もとに戻す
+SELECT * FROM orders WHERE id = 1;   -- 変わっていない!
+\end{lstlisting}
+
+\textbf{確認ポイント:} COMMIT せず ROLLBACK した分の変更は\textbf{全部消えます}。これが原子性。実務の UPDATE の前に BEGIN を張るのは、この「やり直せる安全網」のためです。
+
+\begin{quote}
+\textbf{【課題 5】}\ 「id=1 の amount を +500、id=2 の amount を −500(振替)」をトランザクション内で行い、COMMIT せよ。
+\end{quote}
+
+\section{課 6 — インデックスで速くする}
+
+まず大量データを入れて差を観測します。
+
+\begin{lstlisting}[language=SQL]
+WITH RECURSIVE seq(n) AS (
+  SELECT 1 UNION ALL SELECT n + 1 FROM seq WHERE n < 100000
+)
+INSERT INTO big_orders (id, user_id, item, amount)
+SELECT n, (n % 3) + 1, 'item' || n, (n * 7) % 5000
+FROM seq;
+
+EXPLAIN QUERY PLAN SELECT * FROM big_orders WHERE user_id = 2;
+CREATE INDEX idx_bo_user ON big_orders(user_id);
+EXPLAIN QUERY PLAN SELECT * FROM big_orders WHERE user_id = 2;
+\end{lstlisting}
+
+\textbf{確認ポイント:} インデックス作成前の \texttt{SCAN}(全行なめ)が、作成後は \texttt{SEARCH ... USING INDEX}(索引参照)に変わります。\textbf{10 万行でも一瞬}ですが、100 万行では実時間の差としても体感できます。
+
+\begin{quote}
+\textbf{【課題 6】}\ 「item 列での検索」にもインデックスを張り、EXPLAIN の変化を確認せよ。
+\end{quote}
+
+\section{課 7 — 壊れた設計を直す}
+
+次の悪いテーブルが与えられたとします。
+
+\begin{lstlisting}[language=SQL]
+-- 設計が悪いテーブル
+CREATE TABLE bad_orders (
+  id        INTEGER PRIMARY KEY,
+  user_name TEXT,           -- 名前の重複(改名で全行書き替え)
+  items     TEXT            -- "coffee,book" とカンマ区切り(1NF違反)
+);
+\end{lstlisting}
+
+\textbf{実習の流れ:} (1) このテーブルにデータを入れて、\texttt{items} に coffee を含む注文を数えようとして苦労する。(2) \texttt{users}, \texttt{orders}, \texttt{order\_items}(注文明細)の 3 テーブル設計に組み替える。(3) 目的の集計が簡単な SQL で書けることを確認する。
+
+\begin{quote}
+\textbf{【課題 7】}\ bad\_orders の問題点を「1NF 違反」「3NF 違反」に分類し、正しいテーブル設計(DDL)を書け。
+\end{quote}
+
+\section{課 8 — 仕上げの設計課題}
+
+自分の生活データで 1 つデータベースを設計します。例: 読書記録(本・読書セッション)、家計(支出・カテゴリ)、学習ログ(日付・対象・分数)。
+
+\textbf{要件:}
+\begin{enumerate}
+\item テーブル 2〜3 個、外部キーで繋ぐ
+\item 1NF・3NF を満たす
+\item 代表的な質問 3 つを SQL で書けること(例: 今月のカテゴリ別支出)
+\end{enumerate}
+
+\begin{quote}
+\textbf{【課題 8】}\ 読書記録 DB を設計し、「著者ごとの読了数」「月ごとの読書ページ数」を集計せよ。
+\end{quote}
+
+\section{おわりに — 手の記憶}
+
+8 課を終えると、\textbf{CREATE・CRUD・集計・JOIN・トランザクション・インデックス・正規化}が「読んだ知識」から「打った手順」に変わっているはずです。『SQL・データベース入門』を復習すると、それぞれの節が自分の実習と対応しているのが分かるでしょう。
+
+\begin{quote}
+\textbf{【仕上げの確認】}
+\begin{enumerate}
+\item \texttt{.schema} と \texttt{EXPLAIN QUERY PLAN} の役割を 1 行ずつで述べよ。
+\item BEGIN を張っていない UPDATE が危険な理由を述べよ。
+\item カンマ区切り列が駄目な理由を、集計の観点で述べよ。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:}\ 1. schema = 定義確認 / EXPLAIN = 実行計画(スキャン方法)の確認。2. 失敗しても自動では戻らず、部分的な更新が確定しうる。3. 「coffee を含む」判定が LIKE の泥縄になり、商品単位の集計が不可能になる。
+
+\end{document}

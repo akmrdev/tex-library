@@ -1,0 +1,232 @@
+\documentclass{article}
+\title{機械学習入門 — データから規則を学ぶ}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{この教科書のために — 学習とは最適化である}
+
+機械学習は魔法ではありません。\textbf{「データに対する予測の誤り(損失)を最小にするパラメータを、最適化で探す」}という骨格を持つ統計的手法の総称です。この骨格さえ掴めば、深層学習も同じ枠組みの上にあります。
+
+学習システムの 3 要素:
+\begin{enumerate}
+\item \textbf{モデル}: 予測の式(パラメータ \(\theta\) を含む)。例: \(\hat{y} = \theta_0 + \theta_1 x\)
+\item \textbf{損失関数}: 予測の悪さを 1 つの数値にする。例: 二乗誤差 \(L(\theta) = \frac{1}{n}\sum (y_i - \hat{y}_i)^2\)
+\item \textbf{最適化}: 損失を最小にする \(\theta\) を探す手続き。例: 勾配降下法
+\end{enumerate}
+
+\begin{quote}
+\textbf{【演習】}\ 「猫の画像を分類する学習」を 3 要素に分けて記述せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ モデル = 画像から確率を出す関数(パラメータ多数)。損失 = 正解とのずれ(クロスエントロピーなど)。最適化 = 損失を最小化するパラメータ探索。モデルが複雑でも骨格は同じ。
+
+\section{線形回帰 — 最小二乗法を「学習」として見る}
+
+直線 \(y = a + bx\) で予測し、二乗誤差和
+\[ S(a, b) = \sum_{i=1}^n (y_i - a - bx_i)^2 \]
+を最小化する——これは『統計学入門』第 10 節の最小二乗法そのものです。機械学習では、これを\textbf{学習問題の最も単純な実例}として読み直します。
+
+\begin{itemize}
+\item 損失 \(S(a,b)\) は \(a, b\) の二次関数(凸)なので、最小点は解析的に解ける
+\(\partial S/\partial a = \partial S/\partial b = 0\) の連立方程式の解が最適値
+\end{itemize}
+
+\begin{quote}
+\textbf{【演習】}\ 「モデルが直線でなく二次曲線 \(y = a + bx + cx^2\)」のとき、パラメータは何個になり、損失最小化はどう変わるか述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ パラメータ 3 個 \((a, b, c)\)。損失は 3 変数の凸二次関数になり、同様に偏微分 3 本を 0 とおく連立一次方程式で解ける(正規方程式)。
+
+\section{勾配降下法 — 歩いて谷を降りる}
+
+パラメータが何百万個もあると解析解は無理です。そこで\textbf{勾配降下法}: 現在位置で損失が最も増える方向(勾配)の\textbf{逆}に、学習率 \(\eta\) ずつ進む更新を繰り返します。
+\[ \theta \leftarrow \theta - \eta\, \nabla L(\theta) \]
+
+\begin{lstlisting}[language=Python]
+import math
+
+def gradient_descent(xs, ys, lr=0.01, epochs=5000):
+    a, b = 0.0, 0.0
+    n = len(xs)
+    for _ in range(epochs):
+        pred = [a + b * x for x in xs]
+        err = [p - y for p, y in zip(pred, ys)]
+        ga = 2 * sum(err) / n                 # da への勾配
+        gb = 2 * sum(e * x for e, x in zip(err, xs)) / n
+        a -= lr * ga
+        b -= lr * gb
+    return a, b
+
+xs, ys = [1, 2, 3, 4], [3.1, 5.0, 6.9, 9.2]
+a, b = gradient_descent(xs, ys)
+print(f"y = {a:.2f} + {b:.2f}x")   # ≈ y = 1.1 + 2.0x
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【注意:学習率のトレードオフ】}\ \(\eta\) が小さすぎると収束が遅く、大きすぎると谷を飛び越えて発散します。学習率の調整は機械学習実務の恒常的な作業です。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ 上のコードで lr を 1.0 にしたらどうなるか予想し、実行して確かめよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 更新が振動・発散し、a, b が巨大な値に飛ぶ。勾配の大きさと学習率の積が「一歩の幅」なので、lr は勾配のスケールとセットで考える。
+
+\section{分類とロジスティック回帰 — 「はい/いいえ」を学ぶ}
+
+予測値が「猫か犬か」「買うか買わないか」の\textbf{分類}では、直線の出力を確率に変換したい。\textbf{ロジスティック回帰}は、線形の得点 \(z = w_0 + w_1 x_1 + \cdots + w_p x_p\) をシグモイド関数で 0〜1 に圧縮します:
+\[ P(y = 1 \mid \boldsymbol{x}) = \sigma(z) = \frac{1}{1 + e^{-z}} \]
+
+損失は二乗誤差でなく\textbf{交差エントロピー}(「正解をいくつの確率で当てたか」の対数)を使います。
+
+\begin{quote}
+\textbf{【例】}\ 「過去の取引時間と金額から不正取引か否か」の分類。ロジスティック回帰は各特徴量の\textbf{寄与が符号と大きさで読める}(説明性が高い)ため、金融の不正検知の第一選択として現役です。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ シグモイド関数 \(\sigma(z)\) が \(z \to \pm\infty\) でどう振る舞うか述べ、なぜ「確率の変換」に適しているか説明せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \(z \to \infty\) で 1、\(z \to -\infty\) で 0 に近づき常に (0,1) の値。滑らかに飽和するので「確率」として解釈でき、微分可能で最適化にも使える。
+
+\section{汎化と過学習 — 「練習で強い」の罠}
+
+機械学習の最大の関門は\textbf{過学習}( overfitting )です。
+
+\begin{itemize}
+\item モデルが複雑すぎると、\textbf{訓練データを暗記}して損失はほぼ 0 になる
+\item しかし未知データ(テストデータ)では性能が落ちる
+\item \textbf{訓練データとテストデータを分けて評価する}のが汎化性能の唯一の確かな測り方
+\end{itemize}
+
+\begin{quote}
+\textbf{【例】}\ 5 点のデータに「次数 4 の多項式」を当てると 5 点は完全通過(訓練損失 0)。しかし点と点の間は暴走した曲線になり、新しいデータでの誤差は悲惨。次数(モデルの複雑さ)を上げると\textbf{訓練誤差は単調減少、テスト誤差は U 字型}に悪化する。
+\end{quote}
+
+対策の代表:
+\begin{enumerate}
+\item \textbf{交差検証}: データを複数分割して学習/評価を入れ替え、汎化性能を安定して推定
+\item \textbf{正則化}: 複雑さに罰則を課す(次節)
+\item \textbf{データを増やす}: 最も効果的で最も高価
+\end{enumerate}
+
+\begin{quote}
+\textbf{【演習】}\ 「テストデータで評価してパラメータを調整し、さらにそのテストデータで性能を報告する」手順の問題点を述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ テストデータが実質的に訓練に参加する(情報リーク)。報告用には触ったことのない\textbf{第三のデータ(テストセット)を封印}しておく必要がある。
+
+\section{正則化 — 複雑さに罰則を課す}
+
+損失に「パラメータが大きくなりすぎるな」という罰則を足します:
+\[ L'(\boldsymbol{w}) = \underbrace{\sum (y_i - \hat{y}_i)^2}_{\text{当てはめ}} + \underbrace{\lambda \sum_j w_j^2}_{\text{罰則(L2)}} \]
+
+\begin{itemize}
+\item \textbf{L2 正則化(リッジ)}: 係数を全体的に縮小。滑らかで安定
+\item \textbf{L1 正則化(ラッソ)}: 係数を\textbf{正確に 0 に押し込む} → 特徴量の自動選択
+\item \(\lambda\) は正則化の強さで、交差検証で選ぶ
+\end{itemize}
+
+\begin{quote}
+\textbf{【演習】}\ \(\lambda = 0\) と \(\lambda \to \infty\) の極限でモデルがどうなるか述べ、\(\lambda\) の役割を「当てはめと単純さの天秤」として説明せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \(\lambda = 0\) は通常の最小二乗(複雑さの罰則なし)、\(\lambda \to \infty\) は全係数 0(予測不能なほど単純)。間の適切な \(\lambda\) で汎化が最大化する。
+
+\section{木とアンサンブル — ルールの集まりで学ぶ}
+
+もう一つの大物が\textbf{決定木}です。データを「金額 $>$ 1 万円?」のような質問で分割し続け、葉で予測する構造。解釈が容易ですが、1 本の木は\textbf{過学習しやすい}弱点を持ちます。
+
+そこで\textbf{ランダムフォレスト}: 木を多数(データと特徴量をランダムに変えて)作り、多数決をとる。個々の木の間違いが相殺され、汎化が安定します。\textbf{弱い学習器の集団で強い予測を作る}発想(アンサンブル)は、現代の競技系機械学習の主力(勾配ブースティング)にも通じます。
+
+\begin{quote}
+\textbf{【演習】}\ 「1 本の深い決定木」より「多数の浅い木の多数決」が汎化しやすい理由を、投票のアナロジーで説明せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 個々の木の過学習(暗記)の仕方がランダムに異なるため、多数決で誤りが打ち消される。大数の法則の構造的応用。
+
+\section{評価指標 — 精度だけを見るな}
+
+分類の評価で\textbf{精度(accuracy)だけ}に頼るのは危険です。99\% が正常なデータで「全部正常と予測」でも精度 99\%。
+
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+ & 予測: 不正 & 予測: 正常 \\
+\hline
+実際: 不正 & 真陽性 (TP) & 偽陰性 (FN) \\
+実際: 正常 & 偽陽性 (FP) & 真陰性 (TN) \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+\item \textbf{適合率}( precision ): 不正と予測したうち本当に不正の割合 —— 誤報の少なさ
+\item \textbf{再現率}( recall ): 本当の不正を捕捉できた割合 —— 見逃しの少なさ
+\item 両者はトレードオフで、どちらを重視すべきかは\textbf{コストの所在}で決まる(不正見逃しのコスト vs 誤報のコスト)
+\end{itemize}
+
+\begin{quote}
+\textbf{【演習】}\ 不正取引 10 件を含む 1 万件で、モデルが「不正 20 件を検知(うち正解 8 件)」だった。精度・適合率・再現率を計算せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 精度 \(= (8 + 9998)/10000 \approx 0.9997\)(高くても無意味!)\ 適合率 \(= 8/20 = 0.4\)、再現率 \(= 8/10 = 0.8\)。
+
+\section{実践 — 統計データを学習してみる}
+
+『統計学入門』第 10 節の学習時間と点数のデータを、線形回帰で学習する全行程を書きます。
+
+\begin{lstlisting}[language=Python]
+import statistics, random
+
+xs = [2, 3, 4, 5, 6]                       # 学習時間
+ys = [45, 52, 60, 68, 78]                  # 点数
+
+# 訓練/テスト分割
+train_x, train_y = xs[:4], ys[:4]
+test_x, test_y = xs[4:], ys[4:]
+
+# 勾配降下法で学習
+a, b = 0.0, 0.0
+lr, epochs = 0.01, 20000
+n = len(train_x)
+for _ in range(epochs):
+    pred = [a + b * x for x in train_x]
+    err = [p - y for p, y in zip(pred, train_y)]
+    a -= lr * 2 * sum(err) / n
+    b -= lr * 2 * sum(e * x for e, x in zip(err, train_x)) / n
+
+# テストデータで汎化を評価
+test_pred = [a + b * x for x in test_x]
+test_mae = statistics.mean(abs(p - y) for p, y in zip(test_pred, test_y))
+print(f"モデル: y = {a:.2f} + {b:.2f}x")
+print(f"テスト誤差(MAE): {test_mae:.2f} 点")
+\end{lstlisting}
+
+学習(パラメータ決定)と評価(汎化の確認)が\textbf{別々のデータ}で行われている点が、機械学習の作法の核です。
+
+\begin{quote}
+\textbf{【演習】}\ 上のコードを 5 回に分けて交差検証するには、分割をどう変えればよいか設計を述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 5 点を 1 点ずつテストに回して残り 4 点で学習する操作を 5 回(leave-one-out)。誤差の平均とばらつきで汎化を評価する。
+
+\section{おわりに — 学習の骨格を持ち歩く}
+
+この教科書の骨格を振り返ります。\textbf{モデル・損失・最適化}(§1)が全ての土台。線形回帰(§2)は解析的に解ける最簡例、勾配降下法(§3)は汎用の最適化、ロジスティック回帰(§4)は分類への橋。そして\textbf{汎化の問題}(§5)が機械学習を「当てはめ」から区別し、正則化(§6)とアンサンブル(§7)が対策、評価指標(§8)が正直な測り方を与えます。
+
+深層学習に進むときも、この枠組みは同じです(モデルがニューラルネットに変わるだけ)。まず『統計学入門』の回帰と、この実践コードを往復して、骨格を体で掴んでください。
+
+\begin{quote}
+\textbf{【総合演習】}
+\begin{enumerate}
+\item 過学習の検出方法と対策を 2 つずつ挙げよ。
+\item 精度 99.9\% の不正検知モデルが実務で無価値になりうる状況を説明せよ。
+\item L1 と L2 正則化の違いを「係数の行方」で 1 文ずつ述べよ。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:}\ 1. 検出 = 訓練/テスト誤差の乖離。対策 = 正則化・データ増強・モデル単純化。2. 不正が 0.1\% しかないデータで「全正常」でも精度 99.9\%。適合率/再現率で評価する。3. L1 は係数を 0 に押し込む(選択)、L2 は全体を滑らかに縮小(抑制)。
+
+\end{document}

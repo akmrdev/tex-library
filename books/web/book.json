@@ -1,0 +1,10 @@
+{
+  "slug": "web",
+  "title": "Web フロントエンド入門 — HTML・CSS・JavaScript の骨格",
+  "short": "Webフロント",
+  "desc": "ブラウザの仕組みから HTML の構造、CSS のレイアウト、DOM 操作、イベント、fetch、localStorage まで。この図書館の作り方で学ぶ。",
+  "icon": "🌐",
+  "hue": 210,
+  "category": "プログラミング",
+  "tags": ["HTML", "CSS", "DOM"]
+}

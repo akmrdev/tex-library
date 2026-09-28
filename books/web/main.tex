@@ -1,0 +1,207 @@
+\documentclass{article}
+\title{Web フロントエンド入門 — HTML・CSS・JavaScript の骨格}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{この教科書のために — この図書館の作り方}
+
+あなたが今読んでいるこの図書館は、\textbf{HTML + CSS + JavaScript だけで作られた静的サイト}です。重いフレームワークもサーバーも要りません。この教科書では、読み終わる頃に「この図書館の部品が読める」レベルを狙います。
+
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+言語 & 担当 & 例 \\
+\hline
+HTML & 文書の構造(骨) & 見出し・段落・入力欄 \\
+CSS & 見た目(皮) & 色・余白・配置 \\
+JavaScript & 動き(神経) & クリック反応・検索・進捗保存 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{HTML — 構造を書く}
+
+\begin{lstlisting}[language=HTML]
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>はじめてのページ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>はじめてのページ</h1></header>
+  <main>
+    <p>こんにちは、<strong>HTML</strong> の世界。</p>
+    <a href="https://tex-library.pages.dev">TeX 図書館</a>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
+\end{lstlisting}
+
+ポイントは 2 つです。(1) \textbf{セマンティック要素}(\texttt{header}, \texttt{main}, \texttt{nav}…)は「意味」を伝える。画面には見えないが、検索エンジン・音声読み上げ・将来の自分が読み解くための地図になります。(2) \texttt{head} にメタ情報(文字コード・モバイル対応)、\texttt{body} に中身、と分かれている。
+
+\begin{quote}
+\textbf{【演習】}\ 「見出し・本文・関連リンク」を持つ記事ページの HTML 骨格をセマンティック要素で書け。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{<article>} の中に \texttt{<h1>}, \texttt{<p>}、末尾に \texttt{<aside>} を置き \texttt{<a>} で関連リンク。\texttt{div} だけでなく意味のあるタグを選ぶ。
+
+\section{CSS — 見た目を制御する}
+
+\subsection{セレクタとボックスモデル}
+
+\begin{lstlisting}[language=CSS]
+body { margin: 0; background: #f7f6f2; color: #23272f; }
+h1 { font-size: 1.9rem; border-bottom: 2px solid #5b8def; }
+.card {
+  border: 1px solid #e4e1d8;      /* 線 */
+  border-radius: 14px;            /* 角丸 */
+  padding: 22px;                  /* 内側の余白 */
+  margin: 12px;                   /* 外側の余白 */
+}
+\end{lstlisting}
+
+すべての要素は\textbf{ボックスモデル}(中身 → padding → border → margin の層)でできています。\texttt{margin} は外への余白、\texttt{padding} は内側の余白——この区別がつくとレイアウトの原因不明のズレがほぼ解消されます。
+
+\subsection{Flexbox で整列する}
+
+\begin{lstlisting}[language=CSS]
+.shelf-grid {
+  display: flex;                  /* flex コンテナにする */
+  flex-wrap: wrap;                /* 折り返し可 */
+  gap: 20px;                      /* 間隔 */
+}
+.book-card { flex: 1 1 280px; }   /* 最低 280px で伸縮 */
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ 「縦並びで、下端(フッタ)を画面最下部に固定する」CSS の骨格を書け(\texttt{min-height} と \texttt{flex} の組合せ)。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{body \{ display: flex; flex-direction: column; min-height: 100vh; \}} + \texttt{main \{ flex: 1; \}}。
+
+\section{レスポンシブ — 1 つの HTML で全デバイス}
+
+\begin{lstlisting}[language=CSS]
+@media (max-width: 900px) {
+  #toc { position: fixed; transform: translateX(-100%); } /* 目次を隠す */
+  #content { padding: 20px 16px; }
+  body { font-size: 15px; }
+}
+\end{lstlisting}
+
+\texttt{@media} は「画面幅が条件を満たすときだけ効く CSS」。\texttt{viewport} の meta タグ(\texttt{width=device-width})と組み合わせて、スマホで読みやすい形に切り替えます。この図書館の目次がスマホでは引出し(ドロワー)になるのは、まさにこの仕組みです。
+
+\begin{quote}
+\textbf{【演習】}\ 「600px 以下では 2 列、以上では 3 列のグリッド」を実現する CSS を書け(ヒント: \texttt{display: grid} と \texttt{grid-template-columns})。
+\end{quote}
+
+\textbf{解答の指針:}\ 基本は \texttt{grid-template-columns: repeat(3, 1fr)}、\texttt{@media (max-width: 600px)} 内で \texttt{repeat(2, 1fr)}。
+
+\section{JavaScript — DOM を操作する}
+
+\begin{lstlisting}[language=JavaScript]
+// DOM: HTML を JS から見た木構造
+const input = document.querySelector("#search-input");
+const card = document.querySelector(".book-card");
+
+input.addEventListener("input", () => {
+  const q = input.value.trim();
+  document.querySelectorAll(".book-card").forEach((c) => {
+    c.style.display = c.textContent.includes(q) ? "" : "none";
+  });
+});
+\end{lstlisting}
+
+\begin{enumerate}
+\item \textbf{取得}: \texttt{querySelector}(CSS セレクタで 1 つ)/ \texttt{querySelectorAll}(全部)
+\item \textbf{反応}: \texttt{addEventListener}(イベントに処理を結ぶ)
+\item \textbf{変更}: \texttt{textContent}・\texttt{classList}・\texttt{style} を書き換える
+\end{enumerate}
+この「取得 → 反応 → 変更」の 3 択だけで、検索・タブ・モーダル・ドロワーが全部作れます。
+
+\begin{quote}
+\textbf{【演習】}\ 「ボタンを押すたびに表示が 🌙 と ☀️ で切り替わる」コードの骨格を書け。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{btn.addEventListener("click", () => \{ dark = !dark; btn.textContent = dark ? "☀️" : "🌙"; \})}。
+
+\section{イベントと非同期 — fetch でデータを取る}
+
+\begin{lstlisting}[language=JavaScript]
+const res = await fetch("/search-index.json");
+const entries = await res.json();
+const hits = entries.filter((e) => e.text.includes(query));
+\end{lstlisting}
+
+\texttt{fetch} はネットワーク通信(非同期処理)。応答が来るのを\texttt{await} で待ってから次に進みます。この図書館の横断検索は「\texttt{search-index.json} を fetch して \texttt{filter} する」数十行の JavaScript です。
+
+\begin{quote}
+\textbf{【演習】}\ 「通信に失敗したらエラーメッセージを表示する」ための書き方を述べよ(try/catch)。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{try \{ ... await fetch ... \} catch (e) \{ box.textContent = "読み込みに失敗しました"; \}}。
+
+\section{localStorage — ブラウザに状態を保存する}
+
+\begin{lstlisting}[language=JavaScript]
+// 保存(値は必ず文字列になる)
+localStorage.setItem("texlib-progress:linear-algebra",
+  JSON.stringify({ read: ["sec1", "sec2"], last: "sec2" }));
+
+// 復元
+const progress = JSON.parse(
+  localStorage.getItem("texlib-progress:linear-algebra") ?? "{}"
+);
+\end{lstlisting}
+
+\textbf{ドメインごとに永続保存}され、サーバーには送られません。この図書館の「つづきから」・読了チェック・ダークモード設定はすべて localStorage です。\textbf{値は文字列}なのでオブジェクトは JSON で相互変換します。
+
+\begin{quote}
+\textbf{【演習】}\ 「訪問回数を数えて表示する」コードの骨格を書け。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{const n = (parseInt(localStorage.getItem("visits")) ?? 0) + 1; localStorage.setItem("visits", n);} + 表示。
+
+\section{実践 — 進捗バーを自作する}
+
+学んだ部品を全部使って「読んだら伸びる進捗バー」を作ります。
+
+\begin{lstlisting}[language=JavaScript]
+window.addEventListener("scroll", () => {
+  const total = document.documentElement.scrollHeight - innerHeight;
+  const pct = Math.round((scrollY / total) * 100);
+  document.querySelector("#bar").style.width = pct + "%";
+});
+\end{lstlisting}
+
+HTML は \texttt{<div id="bar"></div>} と \texttt{\#bar}(width: 0、background: \#5b8def) だけ。\textbf{取得(scroll 位置)→ 計算 → 変更(幅)}——この図書館の読書進捗バーと同じ構造の、最小実装です。
+
+\begin{quote}
+\textbf{【演習】}\ 上の進捗バーに「75\% 到達で一度だけ🎉を表示」を足すには、どこに状態管理を足せばよいか述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ ブール変数(または localStorage)で「祝い済みか」を保持し、\texttt{pct >= 75 \&\& !celebrated} のとき表示して旗を立てる。
+
+\section{おわりに — 3 つの言語、1 つの頁}
+
+この教科書の骨格: HTML(§2)は構造、CSS(§3〜4)は見た目と応答、JS(§5〜8)は動きと状態。フレームワーク時代でも、この 3 層は変わりません(フレームワークはこの 3 層を便利にする道具です)。
+
+次の一歩は、実際に 1 ページ作って公開すること(Cloudflare Pages は静的サイトを無料で公開できます)、そして図書館のソース(GitHub: akmrdev/tex-library)を\textbf{教材として読む}ことです。
+
+\begin{quote}
+\textbf{【総合演習】}
+\begin{enumerate}
+\item margin と padding の違いを 1 文で述べよ。
+\item \texttt{querySelector(".card")} と \texttt{querySelector("\#card")} の違いを述べよ。
+\item localStorage に保存する値がオブジェクトの場合、必要な処理は何か。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:}\ 1. padding は境界線の内側の余白、margin は外側の余白。2. \texttt{.card} は class 属性、\texttt{\#card} は id 属性の要素。3. \texttt{JSON.stringify} で保存し \texttt{JSON.parse} で復元する。
+
+\end{document}
