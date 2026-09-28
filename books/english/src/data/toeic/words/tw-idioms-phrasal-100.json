@@ -1,0 +1,1210 @@
+{
+  "meta": {
+    "title": "TOEIC頻出熱語・句動詞100語",
+    "count": 100,
+    "level": 3,
+    "category": "idioms-phrasal"
+  },
+  "words": [
+    {
+      "id": "ti_001",
+      "en": "call off",
+      "ja": "中止する",
+      "pos": "phrase",
+      "ex_en": "The meeting was called off due to the storm.",
+      "ex_ja": "嵐のため会議は中止されました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_002",
+      "en": "put off",
+      "ja": "延期する",
+      "pos": "phrase",
+      "ex_en": "They put off the product launch until next month.",
+      "ex_ja": "彼らは製品の発売を来月まで延期しました。",
+      "level": 3,
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "ti_003",
+      "en": "bring up",
+      "ja": "話題に出す、持ち出す",
+      "pos": "phrase",
+      "ex_en": "She brought up the budget problem at the staff meeting.",
+      "ex_ja": "彼女は職員会議で予算の問題を持ち出しました。",
+      "level": 3,
+      "tags": [
+        "meeting"
+      ]
+    },
+    {
+      "id": "ti_004",
+      "en": "come up with",
+      "ja": "（案・解決策を）思いつく、考案する",
+      "pos": "phrase",
+      "ex_en": "Our team came up with a new marketing idea.",
+      "ex_ja": "私たちのチームは新しいマーケティングの案を考え出しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_005",
+      "en": "break down",
+      "ja": "故障する；（説明などを）分解する",
+      "pos": "verb",
+      "ex_en": "The copier broke down again this morning.",
+      "ex_ja": "コピー機は今朝また故障しました。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_006",
+      "en": "cut down",
+      "ja": "削減する、減らす",
+      "pos": "phrase",
+      "ex_en": "The company cut down on travel expenses last year.",
+      "ex_ja": "会社は昨年、出張費を削減しました。",
+      "level": 3,
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "id": "ti_007",
+      "en": "figure out",
+      "ja": "解決する、理解する",
+      "pos": "phrase",
+      "ex_en": "I can't figure out how to use this software.",
+      "ex_ja": "このソフトの使い方がどうしても分かりません。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_008",
+      "en": "fill out",
+      "ja": "（書類に）記入する",
+      "pos": "phrase",
+      "ex_en": "Please fill out this application form and sign it.",
+      "ex_ja": "この申込書に記入して署名してください。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_009",
+      "en": "turn in",
+      "ja": "提出する；就寝する",
+      "pos": "phrase",
+      "ex_en": "All expense reports must be turned in by Friday.",
+      "ex_ja": "すべての経費精算書は金曜日までに提出しなければなりません。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_010",
+      "en": "hand out",
+      "ja": "配る",
+      "pos": "phrase",
+      "ex_en": "The assistant handed out copies of the agenda.",
+      "ex_ja": "アシスタントは議題のコピーを配りました。",
+      "level": 3,
+      "tags": [
+        "meeting"
+      ]
+    },
+    {
+      "id": "ti_011",
+      "en": "pick up",
+      "ja": "迎えに行く；（技能を）身につける",
+      "pos": "phrase",
+      "ex_en": "I'll pick you up at the hotel at eight o'clock.",
+      "ex_ja": "8時にホテルへお迎えに行きます。",
+      "level": 3,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "ti_012",
+      "en": "drop off",
+      "ja": "送り届ける；（数値が）落ちる",
+      "pos": "phrase",
+      "ex_en": "Sales dropped off sharply during the winter months.",
+      "ex_ja": "冬の時期に売上は急落しました。",
+      "level": 3,
+      "tags": [
+        "sales"
+      ]
+    },
+    {
+      "id": "ti_013",
+      "en": "set up",
+      "ja": "設置する、設立する、手配する",
+      "pos": "verb",
+      "ex_en": "We need to set up a conference call with the client.",
+      "ex_ja": "クライアントとの電話会議を設定する必要があります。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_014",
+      "en": "put together",
+      "ja": "取りまとめる、組み立てる",
+      "pos": "phrase",
+      "ex_en": "Mr. Lee put together a report on overseas sales.",
+      "ex_ja": "リーさんは海外売上に関する報告書を取りまとめました。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_015",
+      "en": "go over",
+      "ja": "確認する、見直す",
+      "pos": "phrase",
+      "ex_en": "Let's go over the contract terms one more time.",
+      "ex_ja": "契約条件をもう一度確認しましょう。",
+      "level": 3,
+      "tags": [
+        "meeting"
+      ]
+    },
+    {
+      "id": "ti_016",
+      "en": "go through",
+      "ja": "詳しく調べる；（困難を）経験する",
+      "pos": "phrase",
+      "ex_en": "The auditors went through all of our financial records.",
+      "ex_ja": "監査人は当社の財務記録をすべて調べました。",
+      "level": 3,
+      "tags": [
+        "finance"
+      ]
+    },
+    {
+      "id": "ti_017",
+      "en": "work out",
+      "ja": "解決する、うまくいく；（計画を）練る",
+      "pos": "phrase",
+      "ex_en": "Everything worked out better than we expected.",
+      "ex_ja": "すべてが予想以上にうまくいきました。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_018",
+      "en": "hold up",
+      "ja": "遅らせる、遅延させる",
+      "pos": "phrase",
+      "ex_en": "The shipment was held up by heavy traffic.",
+      "ex_ja": "出荷品は交通渋滞で遅れました。",
+      "level": 3,
+      "tags": [
+        "logistics"
+      ]
+    },
+    {
+      "id": "ti_019",
+      "en": "keep up with",
+      "ja": "（競争・変化などに）ついていく",
+      "pos": "phrase",
+      "ex_en": "It is hard to keep up with the latest technology.",
+      "ex_ja": "最新技術についていくのは大変です。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_020",
+      "en": "catch up on",
+      "ja": "（遅れた作業などを）片付ける、遅れを取り戻す",
+      "pos": "phrase",
+      "ex_en": "I stayed late to catch up on my email.",
+      "ex_ja": "メールの返信の遅れを取り戻すため、遅くまで残業しました。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_021",
+      "en": "check in",
+      "ja": "チェックインする；連絡を入れる",
+      "pos": "phrase",
+      "ex_en": "Guests can check in at the front desk after 3 p.m.",
+      "ex_ja": "宿泊客は午後3時以降フロントでチェックインできます。",
+      "level": 3,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "ti_022",
+      "en": "check out",
+      "ja": "チェックアウトする；（物事を）確認する",
+      "pos": "phrase",
+      "ex_en": "You must check out of your room by noon.",
+      "ex_ja": "正午までにお部屋からチェックアウトしてください。",
+      "level": 3,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "ti_023",
+      "en": "show up",
+      "ja": "現れる、来る",
+      "pos": "phrase",
+      "ex_en": "Only half of the invited guests showed up.",
+      "ex_ja": "招待されたゲストの半分だけしか現れませんでした。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_024",
+      "en": "end up",
+      "ja": "結局～になる、～することになる",
+      "pos": "phrase",
+      "ex_en": "We ended up extending the deadline by two weeks.",
+      "ex_ja": "結局、締め切りを2週間延長することになりました。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_025",
+      "en": "give up",
+      "ja": "やめる、諦める",
+      "pos": "verb",
+      "ex_en": "Don't give up just because sales are slow.",
+      "ex_ja": "売上が伸び悩んでいるだけで諦めてはいけません。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_026",
+      "en": "take back",
+      "ja": "返品する、引き取る",
+      "pos": "phrase",
+      "ex_en": "The store will take back any defective merchandise.",
+      "ex_ja": "その店は不良品であればどんな商品でも返品を受け付けます。",
+      "level": 3,
+      "tags": [
+        "retail"
+      ]
+    },
+    {
+      "id": "ti_027",
+      "en": "run into",
+      "ja": "（人に）ばったり会う；（問題に）直面する",
+      "pos": "phrase",
+      "ex_en": "I ran into an old colleague at the airport.",
+      "ex_ja": "空港で昔の同僚にばったり会いました。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_028",
+      "en": "come across",
+      "ja": "偶然見つける、たまたま出くわす",
+      "pos": "phrase",
+      "ex_en": "I came across an interesting article on the industry.",
+      "ex_ja": "業界についての興味深い記事を偶然見つけました。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_029",
+      "en": "look over",
+      "ja": "大まかに確認する、ざっと見る",
+      "pos": "phrase",
+      "ex_en": "Please look over the proposal before tomorrow's meeting.",
+      "ex_ja": "明日の会議の前に提案書を確認しておいてください。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_030",
+      "en": "look up",
+      "ja": "（辞書・一覧などで）調べる",
+      "pos": "phrase",
+      "ex_en": "You can look up the product code in the catalog.",
+      "ex_ja": "製品コードはカタログで調べられます。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_031",
+      "en": "back up",
+      "ja": "支持する；（データを）バックアップする",
+      "pos": "phrase",
+      "ex_en": "Remember to back up all files before the system update.",
+      "ex_ja": "システム更新の前にすべてのファイルをバックアップしてください。",
+      "level": 3,
+      "tags": [
+        "computer"
+      ]
+    },
+    {
+      "id": "ti_032",
+      "en": "back out",
+      "ja": "（約束などを）取り消す、辞退する",
+      "pos": "phrase",
+      "ex_en": "The supplier backed out of the deal at the last minute.",
+      "ex_ja": "サプライヤーは土壇場で取引から手を引きました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_033",
+      "en": "sign up",
+      "ja": "登録する、申し込む",
+      "pos": "phrase",
+      "ex_en": "Employees can sign up for the training course online.",
+      "ex_ja": "社員はオンラインで研修コースに申し込めます。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_034",
+      "en": "lay off",
+      "ja": "（一時）解雇する",
+      "pos": "verb",
+      "ex_en": "The factory laid off twenty workers last quarter.",
+      "ex_ja": "工場は前四半期に20人の労働者を解雇しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_035",
+      "en": "take on",
+      "ja": "（仕事・責任を）引き受ける；（従業員を）採用する",
+      "pos": "phrase",
+      "ex_en": "She took on extra duties after the reorganization.",
+      "ex_ja": "彼女は組織再編後に追加の職務を引き受けました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_036",
+      "en": "carry on",
+      "ja": "続ける、継続する",
+      "pos": "phrase",
+      "ex_en": "Please carry on with your work while I am away.",
+      "ex_ja": "私が不在の間も仕事を続けてください。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_037",
+      "en": "hold off",
+      "ja": "（決定・実行を）控える、延期する",
+      "pos": "phrase",
+      "ex_en": "Let's hold off on hiring until sales improve.",
+      "ex_ja": "売上が改善するまで採用は控えましょう。",
+      "level": 3,
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "ti_038",
+      "en": "put up with",
+      "ja": "我慢する、耐える",
+      "pos": "phrase",
+      "ex_en": "Customers should not have to put up with poor service.",
+      "ex_ja": "顧客が悪いサービスを我慢する必要はありません。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_039",
+      "en": "make up for",
+      "ja": "埋め合わせる、取り戻す",
+      "pos": "phrase",
+      "ex_en": "The bonus made up for the long overtime hours.",
+      "ex_ja": "ボーナスが長時間の残業を埋め合わせてくれました。",
+      "level": 3,
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "id": "ti_040",
+      "en": "come down with",
+      "ja": "（病気に）かかる",
+      "pos": "phrase",
+      "ex_en": "Mr. Park came down with a cold and stayed home.",
+      "ex_ja": "パクさんは風邪をひいて家にいました。",
+      "level": 3,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "ti_041",
+      "en": "drop by",
+      "ja": "立ち寄る、顔を出す",
+      "pos": "phrase",
+      "ex_en": "Feel free to drop by my office anytime.",
+      "ex_ja": "いつでも私のオフィスに気軽にお立ち寄りください。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_042",
+      "en": "stop by",
+      "ja": "立ち寄る",
+      "pos": "phrase",
+      "ex_en": "I stopped by the post office during lunch.",
+      "ex_ja": "昼食時に郵便局に立ち寄りました。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_043",
+      "en": "get back to",
+      "ja": "後で折り返し連絡する；～に戻る",
+      "pos": "phrase",
+      "ex_en": "I'll get back to you with an answer by Friday.",
+      "ex_ja": "金曜日までに返事をご連絡します。",
+      "level": 3,
+      "tags": [
+        "phone"
+      ]
+    },
+    {
+      "id": "ti_044",
+      "en": "get through to",
+      "ja": "（電話で）つながる；（人に）伝わる",
+      "pos": "phrase",
+      "ex_en": "I couldn't get through to the head office all morning.",
+      "ex_ja": "午前中いっぱい本社に電話がつながりませんでした。",
+      "level": 3,
+      "tags": [
+        "phone"
+      ]
+    },
+    {
+      "id": "ti_045",
+      "en": "hang up",
+      "ja": "（電話を）切る",
+      "pos": "phrase",
+      "ex_en": "Don't hang up; I'll transfer you to sales.",
+      "ex_ja": "切らずにお待ちください。営業部へおつなぎします。",
+      "level": 3,
+      "tags": [
+        "phone"
+      ]
+    },
+    {
+      "id": "ti_046",
+      "en": "call back",
+      "ja": "折り返し電話する",
+      "pos": "phrase",
+      "ex_en": "Ms. Ortiz will call you back within the hour.",
+      "ex_ja": "オルティスさんが1時間以内に折り返し電話します。",
+      "level": 3,
+      "tags": [
+        "phone"
+      ]
+    },
+    {
+      "id": "ti_047",
+      "en": "wrap up",
+      "ja": "まとめる、終える",
+      "pos": "verb",
+      "ex_en": "Let's wrap up the meeting in ten minutes.",
+      "ex_ja": "10分以内に会議を終えましょう。",
+      "level": 3,
+      "tags": [
+        "meeting"
+      ]
+    },
+    {
+      "id": "ti_048",
+      "en": "kick off",
+      "ja": "開始する、始動する",
+      "pos": "verb",
+      "ex_en": "The campaign kicks off next Monday.",
+      "ex_ja": "キャンペーンは来週月曜日に始動します。",
+      "level": 3,
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "ti_049",
+      "en": "phase out",
+      "ja": "段階的に廃止する",
+      "pos": "verb",
+      "ex_en": "The company is phasing out its older models.",
+      "ex_ja": "会社は旧モデルを段階的に廃止しています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_050",
+      "en": "roll out",
+      "ja": "（新製品などを）投入する、展開する",
+      "pos": "verb",
+      "ex_en": "We plan to roll out the new software nationwide in June.",
+      "ex_ja": "6月に全国向けへ新ソフトウェアを展開する予定です。",
+      "level": 3,
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "ti_051",
+      "en": "stock up",
+      "ja": "（物資を）買いだめする、仕入れる",
+      "pos": "phrase",
+      "ex_en": "Stores stocked up on supplies before the holiday rush.",
+      "ex_ja": "店舗は連休の混雑前に備品を仕入れました。",
+      "level": 3,
+      "tags": [
+        "retail"
+      ]
+    },
+    {
+      "id": "ti_052",
+      "en": "sell out",
+      "ja": "完売する",
+      "pos": "verb",
+      "ex_en": "Tickets for the seminar sold out within two days.",
+      "ex_ja": "セミナーのチケットは2日以内に完売しました。",
+      "level": 3,
+      "tags": [
+        "sales"
+      ]
+    },
+    {
+      "id": "ti_053",
+      "en": "try out",
+      "ja": "試す、試用する",
+      "pos": "verb",
+      "ex_en": "Customers can try out the equipment before buying.",
+      "ex_ja": "お客様は購入前に機器を試用できます。",
+      "level": 3,
+      "tags": [
+        "retail"
+      ]
+    },
+    {
+      "id": "ti_054",
+      "en": "break even",
+      "ja": "損益がとんとんになる",
+      "pos": "verb",
+      "ex_en": "The new branch finally broke even last year.",
+      "ex_ja": "新しい支店はようやく昨年、損益分岐に達しました。",
+      "level": 3,
+      "tags": [
+        "finance"
+      ]
+    },
+    {
+      "id": "ti_055",
+      "en": "cut corners",
+      "ja": "手を抜く、経費を削りすぎる",
+      "pos": "phrase",
+      "ex_en": "Never cut corners when it comes to safety standards.",
+      "ex_ja": "安全基準に関しては決して手を抜いてはいけません。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_056",
+      "en": "draw up",
+      "ja": "（契約書・計画などを）作成する",
+      "pos": "phrase",
+      "ex_en": "Our legal team will draw up the contract this week.",
+      "ex_ja": "法務チームが今週中に契約書を作成します。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_057",
+      "en": "iron out",
+      "ja": "（問題・相違点を）解消する",
+      "pos": "phrase",
+      "ex_en": "The two sides met to iron out their differences.",
+      "ex_ja": "両者は意見の相違を解消するために会いました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_058",
+      "en": "rule out",
+      "ja": "（可能性を）排除する、あり得ないとする",
+      "pos": "phrase",
+      "ex_en": "The doctor did not rule out a minor injury.",
+      "ex_ja": "医師は軽いけがの可能性を排除しませんでした。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_059",
+      "en": "single out",
+      "ja": "（多数の中から）選び出す、取り上げる",
+      "pos": "phrase",
+      "ex_en": "Ms. Adams was singled out for her excellent performance.",
+      "ex_ja": "アダムスさんは優れた業績で特別に取り上げられました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_060",
+      "en": "sort out",
+      "ja": "整理する、解決する",
+      "pos": "verb",
+      "ex_en": "It took an hour to sort out the billing error.",
+      "ex_ja": "請求の誤りを解決するのに1時間かかりました。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_061",
+      "en": "turn down",
+      "ja": "断る；（音量などを）下げる",
+      "pos": "verb",
+      "ex_en": "She turned down the job offer because of the low salary.",
+      "ex_ja": "彼女は給与が低いので内定を断りました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_062",
+      "en": "turn up",
+      "ja": "思いがけず現れる、見つかる",
+      "pos": "phrase",
+      "ex_en": "The missing invoice turned up in another folder.",
+      "ex_ja": "行方不明だった請求書は別のフォルダから見つかりました。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_063",
+      "en": "wear out",
+      "ja": "使い古す、すり減らす；疲れさせる",
+      "pos": "verb",
+      "ex_en": "These office chairs wear out after about five years.",
+      "ex_ja": "このオフィスチェアは約5年で使い古します。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_064",
+      "en": "allow for",
+      "ja": "～を見込む、考慮に入れる",
+      "pos": "phrase",
+      "ex_en": "Allow for possible delays at customs.",
+      "ex_ja": "税関での遅延の可能性を見込んでおいてください。",
+      "level": 3,
+      "tags": [
+        "logistics"
+      ]
+    },
+    {
+      "id": "ti_065",
+      "en": "bear in mind",
+      "ja": "心に留めておく、念頭に置く",
+      "pos": "phrase",
+      "ex_en": "Bear in mind that prices may change without notice.",
+      "ex_ja": "価格は予告なく変更される場合があることをご留意ください。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_066",
+      "en": "break into",
+      "ja": "侵入する；（市場に）参入する",
+      "pos": "verb",
+      "ex_en": "Thieves broke into the warehouse overnight.",
+      "ex_ja": "一夜にして泥棒が倉庫に侵入しました。",
+      "level": 3,
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "ti_067",
+      "en": "bring about",
+      "ja": "引き起こす、もたらす",
+      "pos": "verb",
+      "ex_en": "The merger brought about major changes in management.",
+      "ex_ja": "合併は経営に大きな変化をもたらしました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_068",
+      "en": "bring forward",
+      "ja": "前倒しする、前へ移動する",
+      "pos": "phrase",
+      "ex_en": "The board meeting was brought forward to Tuesday.",
+      "ex_ja": "取締役会は火曜日に前倒しされました。",
+      "level": 3,
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "ti_069",
+      "en": "clear up",
+      "ja": "解決する；（誤解を）解く；（天気が）回復する",
+      "pos": "phrase",
+      "ex_en": "The confusion cleared up after the memo was sent.",
+      "ex_ja": "社内通知が送られた後、混乱は解消されました。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_070",
+      "en": "come along",
+      "ja": "進捗する；（人と）一緒に行く",
+      "pos": "phrase",
+      "ex_en": "How is the renovation project coming along?",
+      "ex_ja": "改装プロジェクトはどのように進んでいますか。",
+      "level": 3,
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "ti_071",
+      "en": "get along with",
+      "ja": "（人と）うまくやっていく、仲良くする",
+      "pos": "phrase",
+      "ex_en": "He gets along well with everyone on the team.",
+      "ex_ja": "彼はチームのみんなとうまくやっていきます。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_072",
+      "en": "run behind schedule",
+      "ja": "予定より遅れている",
+      "pos": "phrase",
+      "ex_en": "Construction is running behind schedule because of rain.",
+      "ex_ja": "雨のため工事は予定より遅れています。",
+      "level": 3,
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "ti_073",
+      "en": "step in",
+      "ja": "介入する、仲裁に入る",
+      "pos": "phrase",
+      "ex_en": "A senior manager stepped in to settle the dispute.",
+      "ex_ja": "上級マネージャーが紛争の解決に介入しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_074",
+      "en": "take up",
+      "ja": "（スペース・時間を）占める；始める",
+      "pos": "phrase",
+      "ex_en": "This desk takes up too much space in the office.",
+      "ex_ja": "この机はオフィスのスペースを取りすぎています。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_075",
+      "en": "go ahead",
+      "ja": "先へ進める；承認する",
+      "pos": "phrase",
+      "ex_en": "Management gave us the go-ahead to start the project.",
+      "ex_ja": "経営陣はプロジェクト開始の承認を出しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_076",
+      "en": "at one's disposal",
+      "ja": "自由に使えて、意のままに",
+      "pos": "phrase",
+      "ex_en": "A company car is at your disposal during the trip.",
+      "ex_ja": "出張中は社用車を自由に使えます。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_077",
+      "en": "back order",
+      "ja": "（在庫切れ品の）取り寄せ注文；入荷待ち",
+      "pos": "phrase",
+      "ex_en": "Item 42 is on back order and will ship next week.",
+      "ex_ja": "42番の商品は取り寄せ中で、来週出荷されます。",
+      "level": 3,
+      "tags": [
+        "logistics"
+      ]
+    },
+    {
+      "id": "ti_078",
+      "en": "be bound to",
+      "ja": "必ず～する、きっと～するはずだ",
+      "pos": "phrase",
+      "ex_en": "Prices are bound to rise before the end of the year.",
+      "ex_ja": "年末までに価格は必ず上がるはずです。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_079",
+      "en": "be in charge of",
+      "ja": "～を担当している、責任者である",
+      "pos": "phrase",
+      "ex_en": "Ms. Ito is in charge of overseas marketing.",
+      "ex_ja": "伊藤さんは海外マーケティングを担当しています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_080",
+      "en": "by means of",
+      "ja": "～によって、～の手段で",
+      "pos": "phrase",
+      "ex_en": "The data was collected by means of an online survey.",
+      "ex_ja": "データはオンライン調査によって収集されました。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_081",
+      "en": "on hand",
+      "ja": "手元にあって、用意されて",
+      "pos": "phrase",
+      "ex_en": "We have extra staff on hand for the holiday season.",
+      "ex_ja": "ホリデーシーズンに備えて追加スタッフが手元にいます。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_082",
+      "en": "on short notice",
+      "ja": "直前の連絡で、急に",
+      "pos": "phrase",
+      "ex_en": "Thank you for arranging the meeting on such short notice.",
+      "ex_ja": "こんな急なお願いでしたが会議の手配ありがとうございます。",
+      "level": 3,
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "ti_083",
+      "en": "out of order",
+      "ja": "故障して；（順序が）乱れて",
+      "pos": "phrase",
+      "ex_en": "The vending machine is out of order again.",
+      "ex_ja": "自動販売機はまた故障しています。",
+      "level": 3,
+      "tags": [
+        "facility"
+      ]
+    },
+    {
+      "id": "ti_084",
+      "en": "out of stock",
+      "ja": "在庫切れで",
+      "pos": "phrase",
+      "ex_en": "That model is currently out of stock.",
+      "ex_ja": "そのモデルは現在在庫切れです。",
+      "level": 3,
+      "tags": [
+        "retail"
+      ]
+    },
+    {
+      "id": "ti_085",
+      "en": "under construction",
+      "ja": "工事中で",
+      "pos": "phrase",
+      "ex_en": "The new training center is still under construction.",
+      "ex_ja": "新しい研修センターはまだ建設中です。",
+      "level": 3,
+      "tags": [
+        "facility"
+      ]
+    },
+    {
+      "id": "ti_086",
+      "en": "up to date",
+      "ja": "最新の、最新情報に基づいた",
+      "pos": "phrase",
+      "ex_en": "Please keep the client list up to date.",
+      "ex_ja": "顧客リストを最新の状態に保ってください。",
+      "level": 3,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "id": "ti_087",
+      "en": "in stock",
+      "ja": "在庫があって",
+      "pos": "phrase",
+      "ex_en": "All sizes are in stock at our downtown store.",
+      "ex_ja": "すべてのサイズが市内店に在庫があります。",
+      "level": 3,
+      "tags": [
+        "retail"
+      ]
+    },
+    {
+      "id": "ti_088",
+      "en": "in terms of",
+      "ja": "～の点で、～という観点から",
+      "pos": "phrase",
+      "ex_en": "The product leads the market in terms of quality.",
+      "ex_ja": "その製品は品質の面で市場をリードしています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_089",
+      "en": "in line with",
+      "ja": "～と一致して、～に沿って",
+      "pos": "phrase",
+      "ex_en": "The raise is in line with company policy.",
+      "ex_ja": "昇給は会社の方針に沿ったものです。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "ti_090",
+      "en": "in favor of",
+      "ja": "賛成して；（支払い先として）指定して",
+      "pos": "phrase",
+      "ex_en": "Most employees were in favor of the new schedule.",
+      "ex_ja": "ほとんどの社員は新しい勤務スケジュールに賛成でした。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_091",
+      "en": "prior to",
+      "ja": "～より前に",
+      "pos": "phrase",
+      "ex_en": "Please confirm your reservation prior to departure.",
+      "ex_ja": "出発前にご予約のご確認をお願いします。",
+      "level": 3,
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "ti_092",
+      "en": "ahead of schedule",
+      "ja": "予定より早く",
+      "pos": "phrase",
+      "ex_en": "The bridge was completed ahead of schedule.",
+      "ex_ja": "橋は予定より早く完成しました。",
+      "level": 3,
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "ti_093",
+      "en": "on schedule",
+      "ja": "予定どおりに",
+      "pos": "phrase",
+      "ex_en": "Despite the storm, deliveries remain on schedule.",
+      "ex_ja": "嵐にもかかわらず、配達は予定どおりです。",
+      "level": 3,
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "ti_094",
+      "en": "keep an eye on",
+      "ja": "～を見守る、注意しておく",
+      "pos": "phrase",
+      "ex_en": "Please keep an eye on the exchange rate this week.",
+      "ex_ja": "今週は為替レートに注目してください。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_095",
+      "en": "make sense",
+      "ja": "筋が通っている、理にかなう",
+      "pos": "phrase",
+      "ex_en": "It makes sense to renew the contract early.",
+      "ex_ja": "契約を早めに更新するのは理にかなっています。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_096",
+      "en": "come in handy",
+      "ja": "役に立つ、重宝する",
+      "pos": "phrase",
+      "ex_en": "A portable charger will come in handy on the trip.",
+      "ex_ja": "旅行ではモバイルバッテリーが役立ちますよ。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_097",
+      "en": "as a matter of fact",
+      "ja": "実際のところ、それどころか",
+      "pos": "phrase",
+      "ex_en": "As a matter of fact, we already finished the report.",
+      "ex_ja": "実は報告書はすでに完成しています。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_098",
+      "en": "in the long run",
+      "ja": "長い目で見れば、結局は",
+      "pos": "phrase",
+      "ex_en": "Investing in training pays off in the long run.",
+      "ex_ja": "研修への投資は長い目で見れば見返りがあります。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_099",
+      "en": "out of the question",
+      "ja": "問題外で、あり得ない",
+      "pos": "phrase",
+      "ex_en": "Delaying the launch again is out of the question.",
+      "ex_ja": "発売を再度延期することは論外です。",
+      "level": 3,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "ti_100",
+      "en": "pay off",
+      "ja": "利益をもたらす、成果が出る；完済する",
+      "pos": "verb",
+      "ex_en": "Their careful planning paid off with record sales.",
+      "ex_ja": "彼らの綿密な計画は記録的な売上という成果につながりました。",
+      "level": 3,
+      "tags": [
+        "money"
+      ]
+    }
+  ]
+}

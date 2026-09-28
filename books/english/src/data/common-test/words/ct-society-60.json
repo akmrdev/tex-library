@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "file": "ct-society-60",
+    "stage": "common-test",
+    "description": "共通テスト社会系テーマ60語"
+  },
+  "words": [
+    {
+      "id": "cts_001",
+      "en": "government",
+      "ja": "政府、統治",
+      "pos": "noun",
+      "ex_en": "The government announced a new policy.",
+      "ex_ja": "政府は新しい政策を発表しました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_002",
+      "en": "policy",
+      "ja": "政策、方針",
+      "pos": "noun",
+      "ex_en": "The new policy will take effect next month.",
+      "ex_ja": "新しい政策は来月から施行されます。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_003",
+      "en": "community",
+      "ja": "共同体、地域社会",
+      "pos": "noun",
+      "ex_en": "She is an active member of the local community.",
+      "ex_ja": "彼女は地域社会の活動的な一員です。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_004",
+      "en": "society",
+      "ja": "社会",
+      "pos": "noun",
+      "ex_en": "Technology has changed our society in many ways.",
+      "ex_ja": "テクノロジーは私たちの社会を多くの面で変えました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_005",
+      "en": "citizen",
+      "ja": "市民、国民",
+      "pos": "noun",
+      "ex_en": "Every citizen has the right to vote.",
+      "ex_ja": "すべての市民には投票する権利があります。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_006",
+      "en": "population",
+      "ja": "人口",
+      "pos": "noun",
+      "ex_en": "The population of the city has doubled since 1990.",
+      "ex_ja": "その都市の人口は1990年以来倍になりました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_007",
+      "en": "welfare",
+      "ja": "福祉",
+      "pos": "noun",
+      "ex_en": "The government increased spending on welfare.",
+      "ex_ja": "政府は福祉への支出を増やしました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_008",
+      "en": "poverty",
+      "ja": "貧困",
+      "pos": "noun",
+      "ex_en": "Many families in the region still live in poverty.",
+      "ex_ja": "その地域の多くの家族が依然として貧困の中で暮らしています。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_009",
+      "en": "equality",
+      "ja": "平等",
+      "pos": "noun",
+      "ex_en": "The law guarantees equality for all people.",
+      "ex_ja": "法律はすべての人々の平等を保証しています。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_010",
+      "en": "right",
+      "ja": "権利",
+      "pos": "noun",
+      "ex_en": "Workers have the right to form unions.",
+      "ex_ja": "労働者には組合を結成する権利があります。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_011",
+      "en": "law",
+      "ja": "法律",
+      "pos": "noun",
+      "ex_en": "Everyone must obey the law.",
+      "ex_ja": "誰もが法律を守らなければなりません。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_012",
+      "en": "election",
+      "ja": "選挙",
+      "pos": "noun",
+      "ex_en": "The general election takes place every four years.",
+      "ex_ja": "総選挙は4年ごとに行われます。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_013",
+      "en": "democracy",
+      "ja": "民主主義",
+      "pos": "noun",
+      "ex_en": "Democracy depends on free and fair elections.",
+      "ex_ja": "民主主義は自由で公正な選挙にかかっています。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_014",
+      "en": "vote",
+      "ja": "投票する",
+      "pos": "verb",
+      "ex_en": "Citizens aged eighteen and over may vote.",
+      "ex_ja": "18歳以上の市民は投票できます。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_015",
+      "en": "parliament",
+      "ja": "議会、国会",
+      "pos": "noun",
+      "ex_en": "Parliament debated the new bill for hours.",
+      "ex_ja": "議会は新しい法案を何時間も討議しました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_016",
+      "en": "authority",
+      "ja": "権威、当局",
+      "pos": "noun",
+      "ex_en": "Local authorities warned residents about the flood.",
+      "ex_ja": "当局は住民に洪水について警告しました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_017",
+      "en": "protest",
+      "ja": "抗議、抗議運動",
+      "pos": "noun",
+      "ex_en": "Thousands joined the protest against the new law.",
+      "ex_ja": "何千人もが新しい法律に反対する抗議に参加しました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_018",
+      "en": "immigration",
+      "ja": "(外国からの)移住、移民",
+      "pos": "noun",
+      "ex_en": "Immigration has shaped the culture of the nation.",
+      "ex_ja": "移民はその国の文化を形作ってきました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_019",
+      "en": "minority",
+      "ja": "少数派、少数民族",
+      "pos": "noun",
+      "ex_en": "The rights of minorities must be protected.",
+      "ex_ja": "少数派の権利は保護されなければなりません。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_020",
+      "en": "generation",
+      "ja": "世代",
+      "pos": "noun",
+      "ex_en": "The older generation often disagrees with the young.",
+      "ex_ja": "年長の世代はしばしば若者と意見が異なります。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cts_021",
+      "en": "tradition",
+      "ja": "伝統",
+      "pos": "noun",
+      "ex_en": "This festival is a tradition going back 400 years.",
+      "ex_ja": "この祭りは400年前にさかのぼる伝統です。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_022",
+      "en": "traditional",
+      "ja": "伝統的な",
+      "pos": "adj",
+      "ex_en": "They performed a traditional dance at the ceremony.",
+      "ex_ja": "彼らは式典で伝統的な舞踊を披露しました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_023",
+      "en": "history",
+      "ja": "歴史",
+      "pos": "noun",
+      "ex_en": "She studies the history of medieval Europe.",
+      "ex_ja": "彼女は中世ヨーロッパの歴史を研究しています。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_024",
+      "en": "ancient",
+      "ja": "古代の",
+      "pos": "adj",
+      "ex_en": "Ancient ruins attract many tourists every year.",
+      "ex_ja": "古代の遺跡は毎年多くの観光客を引きつけます。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_025",
+      "en": "civilization",
+      "ja": "文明",
+      "pos": "noun",
+      "ex_en": "Early civilizations developed along great rivers.",
+      "ex_ja": "初期の文明は大きな川沿いで発展しました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_026",
+      "en": "empire",
+      "ja": "帝国",
+      "pos": "noun",
+      "ex_en": "The Roman Empire lasted for several centuries.",
+      "ex_ja": "ローマ帝国はいくつもの世紀にわたって続きました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_027",
+      "en": "revolution",
+      "ja": "革命",
+      "pos": "noun",
+      "ex_en": "The French Revolution changed Europe forever.",
+      "ex_ja": "フランス革命はヨーロッパを永遠に変えました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_028",
+      "en": "independence",
+      "ja": "独立",
+      "pos": "noun",
+      "ex_en": "The colony declared independence in 1776.",
+      "ex_ja": "その植民地は1776年に独立を宣言しました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_029",
+      "en": "war",
+      "ja": "戦争",
+      "pos": "noun",
+      "ex_en": "The war ended in 1945 after six years.",
+      "ex_ja": "戦争は6年後の1945年に終わりました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_030",
+      "en": "treaty",
+      "ja": "条約",
+      "pos": "noun",
+      "ex_en": "The two nations signed a peace treaty.",
+      "ex_ja": "その二国は平和条約に調印しました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_031",
+      "en": "century",
+      "ja": "世紀",
+      "pos": "noun",
+      "ex_en": "The castle was built in the sixteenth century.",
+      "ex_ja": "その城は16世紀に建てられました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_032",
+      "en": "archaeology",
+      "ja": "考古学",
+      "pos": "noun",
+      "ex_en": "Archaeology shows how ancient people lived.",
+      "ex_ja": "考古学は古代の人々の暮らしを明らかにします。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_033",
+      "en": "heritage",
+      "ja": "遺産、伝統",
+      "pos": "noun",
+      "ex_en": "The old temple is part of our cultural heritage.",
+      "ex_ja": "古い寺院は私たちの文化的遺産の一部です。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_034",
+      "en": "monument",
+      "ja": "記念碑、史跡",
+      "pos": "noun",
+      "ex_en": "A monument was built to honor the fallen soldiers.",
+      "ex_ja": "戦没者をたたえる記念碑が建てられました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_035",
+      "en": "settlement",
+      "ja": "入植、入植地",
+      "pos": "noun",
+      "ex_en": "The first European settlements appeared on the coast.",
+      "ex_ja": "最初のヨーロッパ人の入植地は海岸に現れました。",
+      "level": 3,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cts_036",
+      "en": "economy",
+      "ja": "経済",
+      "pos": "noun",
+      "ex_en": "The national economy grew slowly last year.",
+      "ex_ja": "昨年、国の経済は緩やかに成長しました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_037",
+      "en": "economic",
+      "ja": "経済(上)の",
+      "pos": "adj",
+      "ex_en": "Economic growth slowed after the financial crisis.",
+      "ex_ja": "金融危機の後、経済成長は鈍化しました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_038",
+      "en": "industry",
+      "ja": "産業、工業",
+      "pos": "noun",
+      "ex_en": "The steel industry once employed thousands of workers.",
+      "ex_ja": "鉄鋼業はかつて数千人の労働者を雇っていました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_039",
+      "en": "industrial",
+      "ja": "工業の、産業の",
+      "pos": "adj",
+      "ex_en": "The region became an industrial center in the 1900s.",
+      "ex_ja": "その地域は20世紀初頭に工業の中心地になりました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_040",
+      "en": "trade",
+      "ja": "貿易、商売",
+      "pos": "noun",
+      "ex_en": "International trade benefits both countries.",
+      "ex_ja": "国際貿易は両国に利益をもたらします。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_041",
+      "en": "export",
+      "ja": "輸出する",
+      "pos": "verb",
+      "ex_en": "Japan exports cars and electronics worldwide.",
+      "ex_ja": "日本は世界中に自動車と電化製品を輸出しています。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_042",
+      "en": "import",
+      "ja": "輸入する",
+      "pos": "verb",
+      "ex_en": "The country imports most of its oil.",
+      "ex_ja": "その国は石油の大半を輸入しています。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_043",
+      "en": "unemployment",
+      "ja": "失業、失業率",
+      "pos": "noun",
+      "ex_en": "Unemployment rose sharply during the recession.",
+      "ex_ja": "不況の間、失業率は急激に上昇しました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_044",
+      "en": "inflation",
+      "ja": "インフレーション、物価上昇",
+      "pos": "noun",
+      "ex_en": "Inflation pushed consumer prices up sharply.",
+      "ex_ja": "インフレは消費者物価を急激に押し上げました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_045",
+      "en": "tax",
+      "ja": "税、税金",
+      "pos": "noun",
+      "ex_en": "The government raised taxes on tobacco.",
+      "ex_ja": "政府はタバコの税金を上げました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_046",
+      "en": "income",
+      "ja": "所得、収入",
+      "pos": "noun",
+      "ex_en": "Average household income has fallen in real terms.",
+      "ex_ja": "平均世帯所得は実質ベースで減少しました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_047",
+      "en": "investment",
+      "ja": "投資",
+      "pos": "noun",
+      "ex_en": "Foreign investment created thousands of new jobs.",
+      "ex_ja": "外国からの投資が何千もの新しい雇用を生みました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_048",
+      "en": "profit",
+      "ja": "利益、利潤",
+      "pos": "noun",
+      "ex_en": "The company reported record profits this year.",
+      "ex_ja": "同社は今年、過去最高の利益を報告しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "cts_049",
+      "en": "consumer",
+      "ja": "消費者",
+      "pos": "noun",
+      "ex_en": "Consumers spend less when prices are high.",
+      "ex_ja": "物価が高いと消費者は支出を抑えます。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_050",
+      "en": "currency",
+      "ja": "通貨",
+      "pos": "noun",
+      "ex_en": "The euro is the shared currency of many European nations.",
+      "ex_ja": "ユーロは多くの欧州諸国の共通通貨です。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_052",
+      "en": "development",
+      "ja": "発達、開発、発展",
+      "pos": "noun",
+      "ex_en": "Economic development brought jobs to rural areas.",
+      "ex_ja": "経済発展は農村地域に雇用をもたらしました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_053",
+      "en": "globalization",
+      "ja": "グローバル化",
+      "pos": "noun",
+      "ex_en": "Globalization has linked markets around the world.",
+      "ex_ja": "グローバル化は世界の市場を結びつけました。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cts_054",
+      "en": "corporation",
+      "ja": "企業、株式会社",
+      "pos": "noun",
+      "ex_en": "The corporation employs over ten thousand people.",
+      "ex_ja": "その企業は1万人以上を雇用しています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "cts_055",
+      "en": "employer",
+      "ja": "雇用主、使用者",
+      "pos": "noun",
+      "ex_en": "Employers must provide a safe workplace.",
+      "ex_ja": "雇用主は安全な職場を提供しなければなりません。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "cts_056",
+      "en": "employee",
+      "ja": "従業員、被雇用者",
+      "pos": "noun",
+      "ex_en": "Employees receive paid vacation every year.",
+      "ex_ja": "従業員は毎年有給休暇を受け取ります。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "cts_057",
+      "en": "labor",
+      "ja": "労働、労働力",
+      "pos": "noun",
+      "ex_en": "Cheap labor attracted factories to the region.",
+      "ex_ja": "安価な労働力が工場をその地域に引き寄せました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "cts_058",
+      "en": "union",
+      "ja": "組合、連合",
+      "pos": "noun",
+      "ex_en": "The labor union demanded higher wages.",
+      "ex_ja": "労働組合は賃上げを要求しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "cts_059",
+      "en": "market",
+      "ja": "市場",
+      "pos": "noun",
+      "ex_en": "The company entered the Asian market in 2010.",
+      "ex_ja": "同社は2010年にアジア市場に参入しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "cts_060",
+      "en": "competition",
+      "ja": "競争",
+      "pos": "noun",
+      "ex_en": "Competition among companies keeps prices low.",
+      "ex_ja": "企業間の競争は価格を低く保ちます。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1065 @@
+{
+  "meta": {
+    "file": "jw-level2-jhs-100",
+    "stage": "junior",
+    "description": "中学発展100語"
+  },
+  "words": [
+    {
+      "id": "jw101",
+      "en": "decide",
+      "ja": "決める",
+      "pos": "verb",
+      "ex_en": "We decided to stay home.",
+      "ex_ja": "私たちは家に残ることに決めました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw102",
+      "en": "experience",
+      "ja": "経験",
+      "pos": "noun",
+      "ex_en": "Traveling abroad was a great experience.",
+      "ex_ja": "海外旅行は素晴らしい経験でした。",
+      "level": 2,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "jw104",
+      "en": "communicate",
+      "ja": "伝える、連絡を取る",
+      "pos": "verb",
+      "ex_en": "I communicate with her by email.",
+      "ex_ja": "私は彼女とメールで連絡を取ります。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw105",
+      "en": "improve",
+      "ja": "改善する、上達する",
+      "pos": "verb",
+      "ex_en": "I want to improve my English.",
+      "ex_ja": "私は英語を上達させたいです。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw106",
+      "en": "though",
+      "ja": "〜だけれども",
+      "pos": "conj",
+      "ex_en": "It was cold, though it was May.",
+      "ex_ja": "5月だったけれども、寒かったです。",
+      "level": 2,
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "jw107",
+      "en": "although",
+      "ja": "〜にもかかわらず",
+      "pos": "conj",
+      "ex_en": "Although he is old, he works hard.",
+      "ex_ja": "年をとっているにもかかわらず、彼はよく働きます。",
+      "level": 2,
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "jw108",
+      "en": "since",
+      "ja": "〜なので、〜以来",
+      "pos": "conj",
+      "ex_en": "Since I was tired, I went to bed early.",
+      "ex_ja": "疲れていたので、早く寝ました。",
+      "level": 2,
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "jw109",
+      "en": "during",
+      "ja": "〜の間(じゅう)",
+      "pos": "prep",
+      "ex_en": "During the summer, I visited Kyoto.",
+      "ex_ja": "夏の間に、私は京都を訪れました。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw110",
+      "en": "foreign",
+      "ja": "外国の",
+      "pos": "adj",
+      "ex_en": "Do you speak any foreign languages?",
+      "ex_ja": "何か外国語を話せますか。",
+      "level": 2,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "jw111",
+      "en": "culture",
+      "ja": "文化",
+      "pos": "noun",
+      "ex_en": "Japanese culture interests many people.",
+      "ex_ja": "日本の文化は多くの人々の興味を引きます。",
+      "level": 2,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "jw113",
+      "en": "subject",
+      "ja": "教科、主題",
+      "pos": "noun",
+      "ex_en": "What is your favorite subject?",
+      "ex_ja": "あなたの好きな教科は何ですか。",
+      "level": 2,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jw114",
+      "en": "practice",
+      "ja": "練習",
+      "pos": "noun",
+      "ex_en": "Practice makes perfect.",
+      "ex_ja": "練習は完璧をつくります(習うより慣れよ)。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw115",
+      "en": "receive",
+      "ja": "受け取る",
+      "pos": "verb",
+      "ex_en": "I received a letter from him.",
+      "ex_ja": "私は彼から手紙を受け取りました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw119",
+      "en": "information",
+      "ja": "情報",
+      "pos": "noun",
+      "ex_en": "This website gives useful information.",
+      "ex_ja": "このウェブサイトは役に立つ情報を提供します。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw120",
+      "en": "opinion",
+      "ja": "意見",
+      "pos": "noun",
+      "ex_en": "Please tell me your opinion.",
+      "ex_ja": "あなたの意見を教えてください。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw121",
+      "en": "purpose",
+      "ja": "目的",
+      "pos": "noun",
+      "ex_en": "The purpose of this trip is study.",
+      "ex_ja": "この旅行の目的は勉強です。",
+      "level": 2,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "jw122",
+      "en": "succeed",
+      "ja": "成功する",
+      "pos": "verb",
+      "ex_en": "She succeeded in passing the exam.",
+      "ex_ja": "彼女は試験に合格することに成功しました。",
+      "level": 2,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "jw123",
+      "en": "fail",
+      "ja": "失敗する",
+      "pos": "verb",
+      "ex_en": "Don't be afraid to fail.",
+      "ex_ja": "失敗することを恐れないでください。",
+      "level": 2,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "jw124",
+      "en": "achieve",
+      "ja": "達成する",
+      "pos": "verb",
+      "ex_en": "He achieved his goal at last.",
+      "ex_ja": "彼はついに目標を達成しました。",
+      "level": 2,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "jw125",
+      "en": "goal",
+      "ja": "目標",
+      "pos": "noun",
+      "ex_en": "My goal is to become a doctor.",
+      "ex_ja": "私の目標は医者になることです。",
+      "level": 2,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "jw126",
+      "en": "effort",
+      "ja": "努力",
+      "pos": "noun",
+      "ex_en": "Success needs hard effort.",
+      "ex_ja": "成功には一生懸命な努力が必要です。",
+      "level": 2,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "jw127",
+      "en": "challenge",
+      "ja": "挑戦",
+      "pos": "noun",
+      "ex_en": "Learning English is a big challenge.",
+      "ex_ja": "英語を学ぶことは大きな挑戦です。",
+      "level": 2,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "jw128",
+      "en": "future",
+      "ja": "未来、将来",
+      "pos": "noun",
+      "ex_en": "I want to travel the world in the future.",
+      "ex_ja": "将来は世界を旅行したいです。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw129",
+      "en": "recent",
+      "ja": "最近の",
+      "pos": "adj",
+      "ex_en": "This is a recent photo of my family.",
+      "ex_ja": "これは家族の最近の写真です。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw130",
+      "en": "probably",
+      "ja": "おそらく、たぶん",
+      "pos": "adv",
+      "ex_en": "It will probably rain tomorrow.",
+      "ex_ja": "明日はおそらく雨でしょう。",
+      "level": 2,
+      "tags": [
+        "degree"
+      ]
+    },
+    {
+      "id": "jw131",
+      "en": "especially",
+      "ja": "特に",
+      "pos": "adv",
+      "ex_en": "I like fruit, especially apples.",
+      "ex_ja": "果物、特にりんごが好きです。",
+      "level": 2,
+      "tags": [
+        "degree"
+      ]
+    },
+    {
+      "id": "jw132",
+      "en": "almost",
+      "ja": "ほとんど、もう少しで",
+      "pos": "adv",
+      "ex_en": "I almost finished my homework.",
+      "ex_ja": "宿題をほとんど終えました。",
+      "level": 2,
+      "tags": [
+        "degree"
+      ]
+    },
+    {
+      "id": "jw133",
+      "en": "actually",
+      "ja": "実際に、実は",
+      "pos": "adv",
+      "ex_en": "Actually, I have never been to Tokyo.",
+      "ex_ja": "実は、東京に行ったことがありません。",
+      "level": 2,
+      "tags": [
+        "degree"
+      ]
+    },
+    {
+      "id": "jw134",
+      "en": "instead of",
+      "ja": "〜の代わりに",
+      "pos": "phrase",
+      "ex_en": "I walked instead of taking a bus.",
+      "ex_ja": "バスに乗る代わりに歩きました。",
+      "level": 2,
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "jw135",
+      "en": "each other",
+      "ja": "お互い",
+      "pos": "pron",
+      "ex_en": "We help each other.",
+      "ex_ja": "私たちはお互いを助け合います。",
+      "level": 2,
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "jw136",
+      "en": "by the way",
+      "ja": "ところで",
+      "pos": "phrase",
+      "ex_en": "By the way, do you like music?",
+      "ex_ja": "ところで、音楽は好きですか。",
+      "level": 2,
+      "tags": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "jw137",
+      "en": "for example",
+      "ja": "例えば",
+      "pos": "phrase",
+      "ex_en": "I like sports, for example, soccer.",
+      "ex_ja": "私はスポーツ、例えばサッカーが好きです。",
+      "level": 2,
+      "tags": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "jw138",
+      "en": "as soon as",
+      "ja": "〜するやいなや",
+      "pos": "conj",
+      "ex_en": "As soon as I got home, it started raining.",
+      "ex_ja": "家に着くやいなや、雨が降り始めました。",
+      "level": 2,
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "jw139",
+      "en": "borrow",
+      "ja": "(人から)借りる",
+      "pos": "verb",
+      "ex_en": "May I borrow your dictionary?",
+      "ex_ja": "あなたの辞書を借りてもいいですか。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw140",
+      "en": "lend",
+      "ja": "(人に)貸す",
+      "pos": "verb",
+      "ex_en": "She lent me her umbrella.",
+      "ex_ja": "彼女は私に傘を貸してくれました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw141",
+      "en": "join",
+      "ja": "参加する",
+      "pos": "verb",
+      "ex_en": "Will you join our club?",
+      "ex_ja": "私たちのクラブに参加しませんか。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw142",
+      "en": "explain",
+      "ja": "説明する",
+      "pos": "verb",
+      "ex_en": "Please explain how to use this machine.",
+      "ex_ja": "この機械の使い方を説明してください。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw143",
+      "en": "describe",
+      "ja": "描写する、述べる",
+      "pos": "verb",
+      "ex_en": "Can you describe the man?",
+      "ex_ja": "その男性について描写できますか。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw144",
+      "en": "discuss",
+      "ja": "議論する",
+      "pos": "verb",
+      "ex_en": "We discussed the problem for hours.",
+      "ex_ja": "私たちは何時間もその問題について議論しました。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw145",
+      "en": "agree",
+      "ja": "同意する",
+      "pos": "verb",
+      "ex_en": "I agree with your idea.",
+      "ex_ja": "私はあなたの意見に同意します。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw146",
+      "en": "disagree",
+      "ja": "意見が違う",
+      "pos": "verb",
+      "ex_en": "Sometimes friends disagree.",
+      "ex_ja": "時々友人同士でも意見が合わないことがあります。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw147",
+      "en": "promise",
+      "ja": "約束",
+      "pos": "noun",
+      "ex_en": "Keep your promise.",
+      "ex_ja": "約束を守ってください。",
+      "level": 2,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "jw148",
+      "en": "realize",
+      "ja": "気づく、実感する",
+      "pos": "verb",
+      "ex_en": "I realized the importance of health.",
+      "ex_ja": "私は健康の大切さに気づきました。",
+      "level": 2,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "jw149",
+      "en": "recognize",
+      "ja": "認める、識別する",
+      "pos": "verb",
+      "ex_en": "I couldn't recognize his voice.",
+      "ex_ja": "私は彼の声を識別できませんでした。",
+      "level": 2,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "jw150",
+      "en": "compare",
+      "ja": "比較する",
+      "pos": "verb",
+      "ex_en": "Don't compare yourself with others.",
+      "ex_ja": "自分を他人と比較しないでください。",
+      "level": 2,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "jw153",
+      "en": "cause",
+      "ja": "引き起こす、原因",
+      "pos": "verb",
+      "ex_en": "Smoking causes many diseases.",
+      "ex_ja": "喫煙は多くの病気を引き起こします。",
+      "level": 2,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "jw154",
+      "en": "prevent",
+      "ja": "防ぐ",
+      "pos": "verb",
+      "ex_en": "Exercise prevents illness.",
+      "ex_ja": "運動は病気を防ぎます。",
+      "level": 2,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "jw155",
+      "en": "protect",
+      "ja": "守る",
+      "pos": "verb",
+      "ex_en": "We should protect wild animals.",
+      "ex_ja": "私たちは野生動物を守るべきです。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jw156",
+      "en": "pollute",
+      "ja": "汚染する",
+      "pos": "verb",
+      "ex_en": "Factories pollute the air.",
+      "ex_ja": "工場は空気を汚染します。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jw159",
+      "en": "invent",
+      "ja": "(何か新的なものを)発明する",
+      "pos": "verb",
+      "ex_en": "Edison invented the light bulb.",
+      "ex_ja": "エジソンは電球を発明しました。",
+      "level": 2,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "jw162",
+      "en": "disease",
+      "ja": "病気",
+      "pos": "noun",
+      "ex_en": "Washing hands prevents disease.",
+      "ex_ja": "手洗いは病気を防ぎます。",
+      "level": 2,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jw163",
+      "en": "health",
+      "ja": "健康",
+      "pos": "noun",
+      "ex_en": "Health is more important than money.",
+      "ex_ja": "健康はお金より大切です。",
+      "level": 2,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jw164",
+      "en": "dangerous",
+      "ja": "危険な",
+      "pos": "adj",
+      "ex_en": "It is dangerous to swim here.",
+      "ex_ja": "ここで泳ぐのは危険です。",
+      "level": 2,
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "jw165",
+      "en": "safe",
+      "ja": "安全な",
+      "pos": "adj",
+      "ex_en": "This town is safe at night.",
+      "ex_ja": "この町は夜も安全です。",
+      "level": 2,
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "jw166",
+      "en": "natural",
+      "ja": "自然の",
+      "pos": "adj",
+      "ex_en": "I love natural beauty.",
+      "ex_ja": "私は自然の美しさが大好きです。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jw167",
+      "en": "serious",
+      "ja": "深刻な、まじめな",
+      "pos": "adj",
+      "ex_en": "Air pollution is a serious problem.",
+      "ex_ja": "大気汚染は深刻な問題です。",
+      "level": 2,
+      "tags": [
+        "degree"
+      ]
+    },
+    {
+      "id": "jw168",
+      "en": "common",
+      "ja": "共通の、ありふれた",
+      "pos": "adj",
+      "ex_en": "Rice is common food in Japan.",
+      "ex_ja": "米は日本で一般的な食べ物です。",
+      "level": 2,
+      "tags": [
+        "degree"
+      ]
+    },
+    {
+      "id": "jw169",
+      "en": "special",
+      "ja": "特別な",
+      "pos": "adj",
+      "ex_en": "Today is a special day for me.",
+      "ex_ja": "今日は私にとって特別な日です。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw171",
+      "en": "modern",
+      "ja": "現代の、近代的な",
+      "pos": "adj",
+      "ex_en": "This building is very modern.",
+      "ex_ja": "この建物はとても近代的です。",
+      "level": 2,
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "id": "jw172",
+      "en": "international",
+      "ja": "国際的な",
+      "pos": "adj",
+      "ex_en": "Tokyo is an international city.",
+      "ex_ja": "東京は国際的な都市です。",
+      "level": 2,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "jw173",
+      "en": "local",
+      "ja": "地元の",
+      "pos": "adj",
+      "ex_en": "We buy vegetables at local shops.",
+      "ex_ja": "私たちは地元の店で野菜を買います。",
+      "level": 2,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "jw174",
+      "en": "public",
+      "ja": "公共の、公の",
+      "pos": "adj",
+      "ex_en": "Don't smoke in public places.",
+      "ex_ja": "公共の場所でたばこを吸わないでください。",
+      "level": 2,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "jw175",
+      "en": "personal",
+      "ja": "個人的な",
+      "pos": "adj",
+      "ex_en": "This is my personal opinion.",
+      "ex_ja": "これは私の個人的な意見です。",
+      "level": 2,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "jw176",
+      "en": "possible",
+      "ja": "可能な",
+      "pos": "adj",
+      "ex_en": "It is possible to finish today.",
+      "ex_ja": "今日中に終えるのは可能です。",
+      "level": 2,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "jw177",
+      "en": "impossible",
+      "ja": "不可能な",
+      "pos": "adj",
+      "ex_en": "Nothing is impossible.",
+      "ex_ja": "不可能なことは何もありません。",
+      "level": 2,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "jw178",
+      "en": "necessary",
+      "ja": "必要な",
+      "pos": "adj",
+      "ex_en": "Sleep is necessary for health.",
+      "ex_ja": "睡眠は健康に必要です。",
+      "level": 2,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "jw179",
+      "en": "important",
+      "ja": "重要な",
+      "pos": "adj",
+      "ex_en": "Reading is important for students.",
+      "ex_ja": "読書は学生にとって重要です。",
+      "level": 2,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "jw180",
+      "en": "difficult",
+      "ja": "難しい",
+      "pos": "adj",
+      "ex_en": "This question is difficult.",
+      "ex_ja": "この質問は難しいです。",
+      "level": 2,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jw181",
+      "en": "easy",
+      "ja": "簡単な",
+      "pos": "adj",
+      "ex_en": "The test was easy.",
+      "ex_ja": "そのテストは簡単でした。",
+      "level": 2,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jw182",
+      "en": "careful",
+      "ja": "注意深い",
+      "pos": "adj",
+      "ex_en": "Be careful when you cross the street.",
+      "ex_ja": "通りを横断するときは気をつけてください。",
+      "level": 2,
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "jw183",
+      "en": "popular",
+      "ja": "人気のある",
+      "pos": "adj",
+      "ex_en": "Soccer is popular all over the world.",
+      "ex_ja": "サッカーは世界中で人気があります。",
+      "level": 2,
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "id": "jw184",
+      "en": "famous",
+      "ja": "有名な",
+      "pos": "adj",
+      "ex_en": "Kyoto is famous for old temples.",
+      "ex_ja": "京都は古いお寺で有名です。",
+      "level": 2,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "jw185",
+      "en": "crowded",
+      "ja": "混んでいる",
+      "pos": "adj",
+      "ex_en": "The train was crowded this morning.",
+      "ex_ja": "今朝、電車は混んでいました。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "jw186",
+      "en": "empty",
+      "ja": "空の",
+      "pos": "adj",
+      "ex_en": "The bottle is empty.",
+      "ex_ja": "その瓶は空です。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "jw187",
+      "en": "full",
+      "ja": "いっぱいの",
+      "pos": "adj",
+      "ex_en": "My schedule is full this week.",
+      "ex_ja": "今週、私の予定はいっぱいです。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "jw188",
+      "en": "surprised",
+      "ja": "驚いた",
+      "pos": "adj",
+      "ex_en": "I was surprised at the news.",
+      "ex_ja": "私はその知らせに驚きました。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw189",
+      "en": "excited",
+      "ja": "わくわくした",
+      "pos": "adj",
+      "ex_en": "She was excited about the trip.",
+      "ex_ja": "彼女は旅行にわくわくしていました。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw190",
+      "en": "worried",
+      "ja": "心配な",
+      "pos": "adj",
+      "ex_en": "I am worried about the exam.",
+      "ex_ja": "私は試験が心配です。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw191",
+      "en": "proud",
+      "ja": "誇りに思う",
+      "pos": "adj",
+      "ex_en": "I am proud of my team.",
+      "ex_ja": "私は自分のチームを誇りに思います。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw192",
+      "en": "nervous",
+      "ja": "緊張した",
+      "pos": "adj",
+      "ex_en": "He felt nervous before the game.",
+      "ex_ja": "彼は試合の前に緊張しました。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw193",
+      "en": "relax",
+      "ja": "リラックスする",
+      "pos": "verb",
+      "ex_en": "Music helps me relax.",
+      "ex_ja": "音楽は私のリラックスを助けます。",
+      "level": 2,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jw194",
+      "en": "support",
+      "ja": "支える、応援する",
+      "pos": "verb",
+      "ex_en": "My family always supports me.",
+      "ex_ja": "家族はいつも私を支えてくれます。",
+      "level": 2,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "jw195",
+      "en": "encourage",
+      "ja": "励ます",
+      "pos": "verb",
+      "ex_en": "Teachers encouraged us to keep trying.",
+      "ex_ja": "先生たちは挑戦し続けるよう私たちを励ましました。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw196",
+      "en": "respect",
+      "ja": "尊敬する",
+      "pos": "verb",
+      "ex_en": "We should respect older people.",
+      "ex_ja": "私たちは年上の人々を尊敬すべきです。",
+      "level": 2,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "jw197",
+      "en": "trust",
+      "ja": "信頼する",
+      "pos": "verb",
+      "ex_en": "You can trust her words.",
+      "ex_ja": "彼女の言葉は信頼できます。",
+      "level": 2,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "jw198",
+      "en": "share",
+      "ja": "分け合う、共有する",
+      "pos": "verb",
+      "ex_en": "Let's share our ideas.",
+      "ex_ja": "私たちの考えを分け合いましょう。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw199",
+      "en": "choose",
+      "ja": "選ぶ",
+      "pos": "verb",
+      "ex_en": "Choose the answer you think is right.",
+      "ex_ja": "正しいと思う答えを選びましょう。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw200",
+      "en": "prepare",
+      "ja": "準備する",
+      "pos": "verb",
+      "ex_en": "We prepared food for the party.",
+      "ex_ja": "私たちはパーティーの食べ物を準備しました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    }
+  ]
+}

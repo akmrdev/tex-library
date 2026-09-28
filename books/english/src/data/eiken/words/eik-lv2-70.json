@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "file": "eik-lv2-70",
+    "stage": "eiken",
+    "description": "英検2級レベル70語"
+  },
+  "words": [
+    {
+      "id": "e2_006",
+      "en": "demand",
+      "ja": "需要、要求する",
+      "pos": "noun",
+      "ex_en": "Demand for electric cars is growing.",
+      "ex_ja": "電気自動車の需要は伸びています。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "e2_007",
+      "en": "supply",
+      "ja": "供給、供給する",
+      "pos": "noun",
+      "ex_en": "The storm cut off the city's water supply.",
+      "ex_ja": "嵐で市の水道供給が止まった。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "e2_009",
+      "en": "employment",
+      "ja": "雇用",
+      "pos": "noun",
+      "ex_en": "New factories created employment in the area.",
+      "ex_ja": "新しい工場がその地域に雇用を生んだ。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "e2_013",
+      "en": "invest",
+      "ja": "投資する",
+      "pos": "verb",
+      "ex_en": "He decided to invest his savings in stocks.",
+      "ex_ja": "彼は貯金を株式に投資することにした。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "e2_015",
+      "en": "benefit",
+      "ja": "恩恵、利点",
+      "pos": "noun",
+      "ex_en": "Regular exercise has many health benefits.",
+      "ex_ja": "定期的な運動には多くの健康上の利点があります。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "e2_016",
+      "en": "advantage",
+      "ja": "有利さ、利点",
+      "pos": "noun",
+      "ex_en": "Speaking two languages is a big advantage.",
+      "ex_ja": "二つの言語を話せるのは大きな強みです。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "e2_017",
+      "en": "disadvantage",
+      "ja": "不利、欠点",
+      "pos": "noun",
+      "ex_en": "The main disadvantage of this plan is its cost.",
+      "ex_ja": "この計画の主な欠点はコストです。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "e2_022",
+      "en": "urban",
+      "ja": "都市の",
+      "pos": "adj",
+      "ex_en": "More young people are moving to urban areas.",
+      "ex_ja": "より多くの若者が都市部へ移りつつあります。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "e2_023",
+      "en": "rural",
+      "ja": "田舎の、農村の",
+      "pos": "adj",
+      "ex_en": "They run a small hotel in a rural village.",
+      "ex_ja": "彼らは田舎の村で小さな宿を営んでいる。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "e2_031",
+      "en": "salary",
+      "ja": "給料",
+      "pos": "noun",
+      "ex_en": "He earns a good salary as an engineer.",
+      "ex_ja": "彼はエンジニアとして良い給料を得ている。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "e2_032",
+      "en": "career",
+      "ja": "職業、経歴",
+      "pos": "noun",
+      "ex_en": "She started her career as a newspaper reporter.",
+      "ex_ja": "彼女は新聞記者として職歴を始めた。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "e2_034",
+      "en": "compete",
+      "ja": "競争する",
+      "pos": "verb",
+      "ex_en": "Small shops must compete with large stores.",
+      "ex_ja": "小さな店は大型店と競争しなければならない。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "e2_035",
+      "en": "purchase",
+      "ja": "購入する;購入",
+      "pos": "verb",
+      "ex_en": "Students can purchase tickets at a discount.",
+      "ex_ja": "学生は割引でチケットを購入できます。",
+      "level": 3,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "e2_036",
+      "en": "advertise",
+      "ja": "宣伝する",
+      "pos": "verb",
+      "ex_en": "They advertise their products on social media.",
+      "ex_ja": "彼らはソーシャルメディアで製品を宣伝している。",
+      "level": 3,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "e2_040",
+      "en": "electricity",
+      "ja": "電気",
+      "pos": "noun",
+      "ex_en": "We can make electricity from wind and water.",
+      "ex_ja": "風や水から電気を作ることができます。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "e2_041",
+      "en": "global warming",
+      "ja": "地球温暖化",
+      "pos": "phrase",
+      "ex_en": "Global warming affects weather around the world.",
+      "ex_ja": "地球温暖化は世界中の天候に影響を与えます。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "e2_044",
+      "en": "survive",
+      "ja": "生き残る",
+      "pos": "verb",
+      "ex_en": "These plants can survive long dry summers.",
+      "ex_ja": "これらの植物は長い乾燥した夏を乗り越えられる。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e2_047",
+      "en": "equipment",
+      "ja": "設備、機具",
+      "pos": "noun",
+      "ex_en": "All the lab equipment was replaced last month.",
+      "ex_ja": "実験機器はすべて先月新しいものに替えられた。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "e2_050",
+      "en": "media",
+      "ja": "メディア、報道機関",
+      "pos": "noun",
+      "ex_en": "The news spread quickly through social media.",
+      "ex_ja": "そのニュースはソーシャルメディアですぐに広まった。",
+      "level": 3,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "e2_051",
+      "en": "publish",
+      "ja": "出版する",
+      "pos": "verb",
+      "ex_en": "The university publishes a report every spring.",
+      "ex_ja": "その大学は毎年春に報告書を発行している。",
+      "level": 3,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "e2_052",
+      "en": "article",
+      "ja": "記事",
+      "pos": "noun",
+      "ex_en": "I read an interesting article about robots.",
+      "ex_ja": "ロボットについての面白い記事を読みました。",
+      "level": 3,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "e2_053",
+      "en": "audience",
+      "ja": "聴衆、観客",
+      "pos": "noun",
+      "ex_en": "The audience enjoyed every song.",
+      "ex_ja": "観客はどの曲も楽しんだ。",
+      "level": 3,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "id": "e2_054",
+      "en": "interview",
+      "ja": "インタビュー、面接",
+      "pos": "noun",
+      "ex_en": "She was nervous before her first job interview.",
+      "ex_ja": "彼女は初めての就職面接の前に緊張していた。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "e2_055",
+      "en": "confident",
+      "ja": "自信のある",
+      "pos": "adj",
+      "ex_en": "She felt confident before the exam.",
+      "ex_ja": "彼女は試験の前に自信を感じていた。",
+      "level": 3,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e2_056",
+      "en": "anxious",
+      "ja": "不安な、心配な",
+      "pos": "adj",
+      "ex_en": "He was anxious about the test results.",
+      "ex_ja": "彼はテストの結果を不安に思っていた。",
+      "level": 3,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e2_057",
+      "en": "generous",
+      "ja": "気前のよい",
+      "pos": "adj",
+      "ex_en": "It was generous of him to pay for dinner.",
+      "ex_ja": "彼が夕食をおごるとは気前がいい。",
+      "level": 3,
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "e2_058",
+      "en": "honest",
+      "ja": "正直な",
+      "pos": "adj",
+      "ex_en": "To be honest, I forgot about the meeting.",
+      "ex_ja": "正直に言うと、会議のことを忘れていました。",
+      "level": 3,
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "e2_059",
+      "en": "patient",
+      "ja": "辛抱強い;患者",
+      "pos": "adj",
+      "ex_en": "Be patient — the results take a few days.",
+      "ex_ja": "焦らないで。結果が出るまで数日かかります。",
+      "level": 3,
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "e2_060",
+      "en": "responsible",
+      "ja": "責任がある",
+      "pos": "adj",
+      "ex_en": "You are responsible for your own choices.",
+      "ex_ja": "自分の選択には自分が責任を持ちます。",
+      "level": 3,
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "e2_061",
+      "en": "independent",
+      "ja": "独立した",
+      "pos": "adj",
+      "ex_en": "She became more independent at college.",
+      "ex_ja": "彼女は大学でより自立するようになった。",
+      "level": 3,
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "e2_062",
+      "en": "creative",
+      "ja": "創造的な",
+      "pos": "adj",
+      "ex_en": "Our team needs creative ideas for the project.",
+      "ex_ja": "チームにはプロジェクトのための創造的なアイデアが必要です。",
+      "level": 3,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e2_063",
+      "en": "curious",
+      "ja": "好奇心の強い",
+      "pos": "adj",
+      "ex_en": "Children are curious about everything around them.",
+      "ex_ja": "子供たちは周りのすべてに好奇心を持っています。",
+      "level": 3,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e2_064",
+      "en": "sincere",
+      "ja": "誠実な",
+      "pos": "adj",
+      "ex_en": "Please accept my sincere apologies.",
+      "ex_ja": "心からのお詫びをお受け取りください。",
+      "level": 3,
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "e2_065",
+      "en": "attitude",
+      "ja": "態度、考え方",
+      "pos": "noun",
+      "ex_en": "A positive attitude helps you learn faster.",
+      "ex_ja": "前向きな態度は学びを速めます。",
+      "level": 3,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e2_066",
+      "en": "behavior",
+      "ja": "行動、振る舞い",
+      "pos": "noun",
+      "ex_en": "His behavior at the party surprised everyone.",
+      "ex_ja": "彼のパーティーでの振る舞いはみんなを驚かせた。",
+      "level": 3,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e2_067",
+      "en": "confidence",
+      "ja": "自信",
+      "pos": "noun",
+      "ex_en": "Practice gave her confidence in English.",
+      "ex_ja": "練習のおかげで彼女は英語に自信を持てた。",
+      "level": 3,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e2_068",
+      "en": "decision",
+      "ja": "決断、決定",
+      "pos": "noun",
+      "ex_en": "Buying that house was a good decision.",
+      "ex_ja": "あの家を買ったのは良い決断だった。",
+      "level": 3,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e2_069",
+      "en": "efficiency",
+      "ja": "効率",
+      "pos": "noun",
+      "ex_en": "New machines improved the efficiency of the factory.",
+      "ex_ja": "新しい機械が工場の効率を改善した。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "e2_070",
+      "en": "quality",
+      "ja": "質、品質",
+      "pos": "noun",
+      "ex_en": "The quality of this camera is excellent.",
+      "ex_ja": "このカメラの品質は素晴らしい。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    }
+  ]
+}

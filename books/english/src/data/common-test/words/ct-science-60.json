@@ -1,0 +1,744 @@
+{
+  "meta": {
+    "file": "ct-science-60",
+    "stage": "common-test",
+    "description": "共通テスト科学系テーマ60語"
+  },
+  "words": [
+    {
+      "id": "ctsc_001",
+      "en": "climate",
+      "ja": "気候",
+      "pos": "noun",
+      "ex_en": "The climate of this region is mild.",
+      "ex_ja": "この地域の気候は温暖です。",
+      "level": 3,
+      "tags": [
+        "science",
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_002",
+      "en": "organism",
+      "ja": "生物，有機体",
+      "pos": "noun",
+      "ex_en": "Every living organism needs water to survive.",
+      "ex_ja": "すべての生物は生き延びるために水を必要とする。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_003",
+      "en": "experiment",
+      "ja": "実験",
+      "pos": "noun",
+      "ex_en": "The scientists carried out an experiment on plants.",
+      "ex_ja": "科学者たちは植物について実験を行った。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_004",
+      "en": "device",
+      "ja": "装置，機器",
+      "pos": "noun",
+      "ex_en": "This small device measures your heart rate.",
+      "ex_ja": "この小型の装置は心拍数を測定する。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_005",
+      "en": "energy",
+      "ja": "エネルギー，精力",
+      "pos": "noun",
+      "ex_en": "Solar energy is becoming cheaper every year.",
+      "ex_ja": "太陽エネルギーは毎年安くなりつつある。",
+      "level": 3,
+      "tags": [
+        "science",
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_006",
+      "en": "pollution",
+      "ja": "汚染，公害",
+      "pos": "noun",
+      "ex_en": "Air pollution is a serious problem in big cities.",
+      "ex_ja": "大気汚染は大都市で深刻な問題である。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_007",
+      "en": "environment",
+      "ja": "環境",
+      "pos": "noun",
+      "ex_en": "We must protect the environment for future generations.",
+      "ex_ja": "私たちは未来の世代のために環境を守らなければならない。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_008",
+      "en": "research",
+      "ja": "研究",
+      "pos": "noun",
+      "ex_en": "Recent research shows that sleep affects memory.",
+      "ex_ja": "最近の研究は、睡眠が記憶に影響することを示している。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_009",
+      "en": "scientist",
+      "ja": "科学者",
+      "pos": "noun",
+      "ex_en": "The scientist spent years studying ocean life.",
+      "ex_ja": "その科学者は海の生物を何年もかけて研究した。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_010",
+      "en": "theory",
+      "ja": "理論，学説",
+      "pos": "noun",
+      "ex_en": "Darwin's theory of evolution changed biology.",
+      "ex_ja": "ダーウィンの進化論は生物学を変えた。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_011",
+      "en": "evidence",
+      "ja": "証拠",
+      "pos": "noun",
+      "ex_en": "There is strong evidence that the climate is changing.",
+      "ex_ja": "気候が変化しているという有力な証拠がある。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_012",
+      "en": "observe",
+      "ja": "観察する",
+      "pos": "verb",
+      "ex_en": "She observed the birds through a telescope.",
+      "ex_ja": "彼女は望遠鏡で鳥を観察した。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_013",
+      "en": "measure",
+      "ja": "測定する",
+      "pos": "verb",
+      "ex_en": "The students measured the temperature every hour.",
+      "ex_ja": "学生たちは1時間ごとに温度を測定した。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_014",
+      "en": "analyze",
+      "ja": "分析する",
+      "pos": "verb",
+      "ex_en": "Researchers analyzed the data from over 1,000 patients.",
+      "ex_ja": "研究者たちは1000人以上の患者からのデータを分析した。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_015",
+      "en": "discover",
+      "ja": "発見する",
+      "pos": "verb",
+      "ex_en": "Scientists discovered a new species deep in the ocean.",
+      "ex_ja": "科学者たちは海の深いところで新しい種を発見した。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_016",
+      "en": "develop",
+      "ja": "開発する，発達させる",
+      "pos": "verb",
+      "ex_en": "The company developed a new battery that lasts twice as long.",
+      "ex_ja": "その会社は2倍の寿命を持つ新しい電池を開発した。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_017",
+      "en": "invention",
+      "ja": "発明",
+      "pos": "noun",
+      "ex_en": "The smartphone is one of the greatest inventions of our time.",
+      "ex_ja": "スマートフォンは現代最大の発明の一つである。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_018",
+      "en": "machine",
+      "ja": "機械",
+      "pos": "noun",
+      "ex_en": "This machine can translate ten languages.",
+      "ex_ja": "この機械は10言語を翻訳できる。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_019",
+      "en": "artificial",
+      "ja": "人工の",
+      "pos": "adj",
+      "ex_en": "Artificial intelligence is used in many everyday apps.",
+      "ex_ja": "人工知能は多くの日常的なアプリで使われている。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_020",
+      "en": "digital",
+      "ja": "デジタルの",
+      "pos": "adj",
+      "ex_en": "Digital cameras quickly replaced film cameras.",
+      "ex_ja": "デジタルカメラはすぐにフィルムカメラに取って代わった。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_021",
+      "en": "network",
+      "ja": "ネットワーク，網",
+      "pos": "noun",
+      "ex_en": "A network of satellites covers almost the whole planet.",
+      "ex_ja": "衛星のネットワークが地球のほぼ全体をカバーしている。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_022",
+      "en": "software",
+      "ja": "ソフトウェア",
+      "pos": "noun",
+      "ex_en": "The software updates itself automatically.",
+      "ex_ja": "そのソフトウェアは自動的にアップデートされる。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_023",
+      "en": "data",
+      "ja": "データ，資料",
+      "pos": "noun",
+      "ex_en": "The satellite sends weather data to Earth every day.",
+      "ex_ja": "その衛星は毎日気象データを地球に送信する。",
+      "level": 3,
+      "tags": [
+        "science",
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_024",
+      "en": "species",
+      "ja": "種（しゅ）",
+      "pos": "noun",
+      "ex_en": "About one hundred species become extinct every day.",
+      "ex_ja": "毎日およそ100種が絶滅していると言われる。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ctsc_025",
+      "en": "evolution",
+      "ja": "進化",
+      "pos": "noun",
+      "ex_en": "Evolution explains why animals fit their environments.",
+      "ex_ja": "進化は、なぜ動物がそれぞれの環境に適応しているのかを説明する。",
+      "level": 3,
+      "tags": [
+        "science",
+        "nature"
+      ]
+    },
+    {
+      "id": "ctsc_026",
+      "en": "cell",
+      "ja": "細胞",
+      "pos": "noun",
+      "ex_en": "All living things are made of cells.",
+      "ex_ja": "すべての生物は細胞からできている。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_027",
+      "en": "gene",
+      "ja": "遺伝子",
+      "pos": "noun",
+      "ex_en": "Some genes decide the color of your eyes.",
+      "ex_ja": "一部の遺伝子は目の色を決める。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_028",
+      "en": "bacteria",
+      "ja": "細菌，バクテリア",
+      "pos": "noun",
+      "ex_en": "Some bacteria are useful, but others cause disease.",
+      "ex_ja": "有益な細菌もあるが、病気を引き起こすものもある。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_029",
+      "en": "oxygen",
+      "ja": "酸素",
+      "pos": "noun",
+      "ex_en": "Plants produce oxygen during photosynthesis.",
+      "ex_ja": "植物は光合成の際に酸素を作り出す。",
+      "level": 3,
+      "tags": [
+        "science",
+        "nature"
+      ]
+    },
+    {
+      "id": "ctsc_030",
+      "en": "carbon",
+      "ja": "炭素",
+      "pos": "noun",
+      "ex_en": "Trees absorb carbon dioxide from the air.",
+      "ex_ja": "木々は大気から二酸化炭素を吸収する。",
+      "level": 3,
+      "tags": [
+        "science",
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_031",
+      "en": "resource",
+      "ja": "資源",
+      "pos": "noun",
+      "ex_en": "Oil is a limited natural resource.",
+      "ex_ja": "石油は限りある天然資源である。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_032",
+      "en": "recycle",
+      "ja": "リサイクルする，再利用する",
+      "pos": "verb",
+      "ex_en": "Our town recycles more than half of its waste.",
+      "ex_ja": "私たちの町では廃棄物の半分以上をリサイクルしている。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_033",
+      "en": "waste",
+      "ja": "廃棄物，浪費",
+      "pos": "noun",
+      "ex_en": "Factories must reduce the amount of industrial waste.",
+      "ex_ja": "工場は産業廃棄物の量を減らさなければならない。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_034",
+      "en": "sustainable",
+      "ja": "持続可能な",
+      "pos": "adj",
+      "ex_en": "We need sustainable ways to produce food and energy.",
+      "ex_ja": "食料とエネルギーを持続可能な方法で生産する必要がある。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_035",
+      "en": "renewable",
+      "ja": "再生可能な",
+      "pos": "adj",
+      "ex_en": "Wind is a renewable source of power.",
+      "ex_ja": "風は再生可能な電力源である。",
+      "level": 3,
+      "tags": [
+        "environment",
+        "energy"
+      ]
+    },
+    {
+      "id": "ctsc_036",
+      "en": "generate",
+      "ja": "発生させる，生み出す",
+      "pos": "verb",
+      "ex_en": "The dam generates electricity for the whole valley.",
+      "ex_ja": "そのダムは谷全体に電力を供給している。",
+      "level": 3,
+      "tags": [
+        "energy",
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_037",
+      "en": "nuclear",
+      "ja": "原子核の，核の",
+      "pos": "adj",
+      "ex_en": "Some countries depend on nuclear power plants for electricity.",
+      "ex_ja": "いくつかの国は電力を原子力発電所に依存している。",
+      "level": 3,
+      "tags": [
+        "energy",
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_038",
+      "en": "electric",
+      "ja": "電気の",
+      "pos": "adj",
+      "ex_en": "Electric cars are becoming popular around the world.",
+      "ex_ja": "電気自動車は世界中で人気になりつつある。",
+      "level": 3,
+      "tags": [
+        "technology",
+        "energy"
+      ]
+    },
+    {
+      "id": "ctsc_039",
+      "en": "atmosphere",
+      "ja": "大気，雰囲気",
+      "pos": "noun",
+      "ex_en": "Carbon dioxide in the atmosphere traps heat from the sun.",
+      "ex_ja": "大気中の二酸化炭素は太陽の熱を閉じ込める。",
+      "level": 3,
+      "tags": [
+        "science",
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_040",
+      "en": "global",
+      "ja": "地球の，世界的な",
+      "pos": "adj",
+      "ex_en": "Global temperatures have risen over the past century.",
+      "ex_ja": "世界の気温は過去1世紀で上昇した。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_041",
+      "en": "ecosystem",
+      "ja": "生態系",
+      "pos": "noun",
+      "ex_en": "Pollution can destroy an entire ecosystem.",
+      "ex_ja": "汚染は生態系全体を破壊しうる。",
+      "level": 3,
+      "tags": [
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_042",
+      "en": "extinct",
+      "ja": "絶滅した",
+      "pos": "adj",
+      "ex_en": "Dinosaurs became extinct about 65 million years ago.",
+      "ex_ja": "恐竜は約6500万年前に絶滅した。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ctsc_043",
+      "en": "wildlife",
+      "ja": "野生生物",
+      "pos": "noun",
+      "ex_en": "The national park protects rare wildlife.",
+      "ex_ja": "その国立公園は希少な野生生物を保護している。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ctsc_044",
+      "en": "forest",
+      "ja": "森林",
+      "pos": "noun",
+      "ex_en": "Large areas of tropical forest are disappearing every year.",
+      "ex_ja": "熱帯林の広い範囲が毎年消失している。",
+      "level": 3,
+      "tags": [
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_045",
+      "en": "ocean",
+      "ja": "海洋，大海",
+      "pos": "noun",
+      "ex_en": "The ocean covers about seventy percent of the Earth's surface.",
+      "ex_ja": "海洋は地球表面の約7割を覆っている。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ctsc_046",
+      "en": "satellite",
+      "ja": "人工衛星",
+      "pos": "noun",
+      "ex_en": "The satellite observes weather patterns from space.",
+      "ex_ja": "その人工衛星は宇宙から気象パターンを観測する。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_047",
+      "en": "rocket",
+      "ja": "ロケット",
+      "pos": "noun",
+      "ex_en": "A rocket carried the new telescope into orbit.",
+      "ex_ja": "ロケットが新しい望遠鏡を軌道に運んだ。",
+      "level": 3,
+      "tags": [
+        "technology",
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_048",
+      "en": "astronaut",
+      "ja": "宇宙飛行士",
+      "pos": "noun",
+      "ex_en": "The astronaut trained for five years before the mission.",
+      "ex_ja": "その宇宙飛行士は任務の前に5年間訓練した。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_049",
+      "en": "gravity",
+      "ja": "重力",
+      "pos": "noun",
+      "ex_en": "Without gravity, objects would float in the air.",
+      "ex_ja": "重力がなければ、物体は空中に浮くだろう。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_050",
+      "en": "physical",
+      "ja": "物理的な，身体の",
+      "pos": "adj",
+      "ex_en": "Exercise has many physical and mental benefits.",
+      "ex_ja": "運動には身体的・精神的な多くの利点がある。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_051",
+      "en": "chemical",
+      "ja": "化学の，化学薬品",
+      "pos": "adj",
+      "ex_en": "Chemical reactions release heat and light.",
+      "ex_ja": "化学反応は熱と光を出す。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_052",
+      "en": "substance",
+      "ja": "物質",
+      "pos": "noun",
+      "ex_en": "Water is a substance found in every living thing.",
+      "ex_ja": "水はすべての生物に見られる物質である。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_053",
+      "en": "process",
+      "ja": "過程，プロセス",
+      "pos": "noun",
+      "ex_en": "Photosynthesis is the process by which plants make food.",
+      "ex_ja": "光合成は植物が養分を作る過程である。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_054",
+      "en": "function",
+      "ja": "機能，働き",
+      "pos": "noun",
+      "ex_en": "Scientists studied the function of this part of the brain.",
+      "ex_ja": "科学者たちは脳のこの部分の機能を研究した。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_055",
+      "en": "increase",
+      "ja": "増加する，増やす",
+      "pos": "verb",
+      "ex_en": "The population of the city increased by ten percent.",
+      "ex_ja": "その都市の人口は10％増加した。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "ctsc_056",
+      "en": "decrease",
+      "ja": "減少する，減らす",
+      "pos": "verb",
+      "ex_en": "New technology helped decrease energy use.",
+      "ex_ja": "新技術はエネルギー使用量の削減に役立った。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_057",
+      "en": "effect",
+      "ja": "影響，効果",
+      "pos": "noun",
+      "ex_en": "Scientists are studying the effects of plastic on sea life.",
+      "ex_ja": "科学者たちは海洋生物へのプラスチックの影響を研究している。",
+      "level": 3,
+      "tags": [
+        "science",
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_058",
+      "en": "solution",
+      "ja": "解決策，溶液",
+      "pos": "noun",
+      "ex_en": "Recycling is one solution to the waste problem.",
+      "ex_ja": "リサイクルは廃棄物問題に対する一つの解決策である。",
+      "level": 3,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ctsc_059",
+      "en": "technology",
+      "ja": "技術，テクノロジー",
+      "pos": "noun",
+      "ex_en": "Modern technology has changed how we study science.",
+      "ex_ja": "現代の技術は科学の研究方法を変えた。",
+      "level": 3,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "ctsc_060",
+      "en": "laboratory",
+      "ja": "実験室，研究室",
+      "pos": "noun",
+      "ex_en": "The samples were sent to a laboratory for testing.",
+      "ex_ja": "検体は検査のため実験室に送られた。",
+      "level": 3,
+      "tags": [
+        "science"
+      ]
+    }
+  ]
+}

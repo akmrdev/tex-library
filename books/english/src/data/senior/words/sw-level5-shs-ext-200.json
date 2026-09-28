@@ -1,0 +1,2409 @@
+{
+  "meta": {
+    "file": "sw-level5-shs-ext-200",
+    "stage": "senior",
+    "description": "高校拡張200語"
+  },
+  "words": [
+    {
+      "id": "sx_001",
+      "en": "abandon",
+      "ja": "放棄する、見捨てる",
+      "pos": "verb",
+      "ex_en": "They abandoned the plan due to lack of funds.",
+      "ex_ja": "資金不足のため彼らは計画を放棄しました。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_002",
+      "en": "absorb",
+      "ja": "吸収する",
+      "pos": "verb",
+      "ex_en": "Plants absorb water through their roots.",
+      "ex_ja": "植物は根から水を吸収します。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_003",
+      "en": "abundant",
+      "ja": "豊富な、大量の",
+      "pos": "adj",
+      "ex_en": "The region has abundant natural resources.",
+      "ex_ja": "その地域は天然資源が豊富です。",
+      "level": 4,
+      "tags": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "sx_004",
+      "en": "accompany",
+      "ja": "同行する、伴う",
+      "pos": "verb",
+      "ex_en": "She accompanied her grandmother to the hospital.",
+      "ex_ja": "彼女は祖母に付き添って病院へ行きました。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_005",
+      "en": "accomplish",
+      "ja": "達成する、成し遂げる",
+      "pos": "verb",
+      "ex_en": "The team accomplished its goal ahead of schedule.",
+      "ex_ja": "チームは予定より早く目標を達成しました。",
+      "level": 4,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "sx_006",
+      "en": "accurate",
+      "ja": "正確な",
+      "pos": "adj",
+      "ex_en": "The report gives an accurate description of the accident.",
+      "ex_ja": "その報告書は事故を正確に描写しています。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_007",
+      "en": "accuse",
+      "ja": "告発する、責める",
+      "pos": "verb",
+      "ex_en": "He was accused of stealing the money.",
+      "ex_ja": "彼は金を盗んだとして告発されました。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_008",
+      "en": "acknowledge",
+      "ja": "認める、承認する",
+      "pos": "verb",
+      "ex_en": "She acknowledged that she had made a mistake.",
+      "ex_ja": "彼女は過ちを犯したことを認めました。",
+      "level": 4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sx_009",
+      "en": "adapt",
+      "ja": "適応させる、改変する",
+      "pos": "verb",
+      "ex_en": "Animals must adapt to changes in their environment.",
+      "ex_ja": "動物は環境の変化に適応しなければなりません。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_010",
+      "en": "adequate",
+      "ja": "十分な、適切な",
+      "pos": "adj",
+      "ex_en": "Make sure you get adequate sleep before the exam.",
+      "ex_ja": "試験前に十分な睡眠を取ってください。",
+      "level": 4,
+      "tags": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "sx_011",
+      "en": "adjust",
+      "ja": "調整する、慣らす",
+      "pos": "verb",
+      "ex_en": "You can adjust the height of the chair.",
+      "ex_ja": "椅子の高さを調節できます。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_012",
+      "en": "admire",
+      "ja": "尊敬する、感嘆する",
+      "pos": "verb",
+      "ex_en": "I admire her courage to speak the truth.",
+      "ex_ja": "私は真実を話す彼女の勇気に敬意を抱いています。",
+      "level": 4,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "sx_013",
+      "en": "adopt",
+      "ja": "採用する、養子にする",
+      "pos": "verb",
+      "ex_en": "The school adopted a new teaching method.",
+      "ex_ja": "その学校は新しい教授法を採用しました。",
+      "level": 4,
+      "tags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "sx_014",
+      "en": "advocate",
+      "ja": "提唱する、擁護する",
+      "pos": "verb",
+      "ex_en": "Many experts advocate stricter traffic laws.",
+      "ex_ja": "多くの専門家がより厳しい交通法規を提唱しています。",
+      "level": 4,
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "sx_015",
+      "en": "alter",
+      "ja": "変える、変更する",
+      "pos": "verb",
+      "ex_en": "We had to alter our travel plans.",
+      "ex_ja": "旅行の予定を変更せざるを得ませんでした。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_016",
+      "en": "alternative",
+      "ja": "選択肢、代わりの",
+      "pos": "noun",
+      "ex_en": "We need to find an alternative to plastic bags.",
+      "ex_ja": "ビニール袋の代わりになるものを見つける必要があります。",
+      "level": 4,
+      "tags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "sx_017",
+      "en": "ambitious",
+      "ja": "野心のある、大志を抱いた",
+      "pos": "adj",
+      "ex_en": "He is ambitious and hopes to become a doctor.",
+      "ex_ja": "彼は野心家で、医者になることを望んでいます。",
+      "level": 4,
+      "tags": [
+        "personality"
+      ]
+    },
+    {
+      "id": "sx_018",
+      "en": "amid",
+      "ja": "〜の中で、最中に",
+      "pos": "prep",
+      "ex_en": "The company collapsed amid growing criticism.",
+      "ex_ja": "高まる批判の中でその会社は倒産しました。",
+      "level": 4,
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "sx_019",
+      "en": "analogy",
+      "ja": "類推、類似",
+      "pos": "noun",
+      "ex_en": "The teacher explained the heart by analogy with a pump.",
+      "ex_ja": "先生はポンプとの類推で心臓を説明しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sx_020",
+      "en": "anticipate",
+      "ja": "予期する、期待する",
+      "pos": "verb",
+      "ex_en": "We anticipate that prices will rise next year.",
+      "ex_ja": "来年は物価が上昇すると予想しています。",
+      "level": 4,
+      "tags": [
+        "thinking"
+      ]
+    },
+    {
+      "id": "sx_021",
+      "en": "apparatus",
+      "ja": "装置、器具",
+      "pos": "noun",
+      "ex_en": "The laboratory is equipped with modern apparatus.",
+      "ex_ja": "その実験室には最新の装置が備わっています。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_022",
+      "en": "applaud",
+      "ja": "拍手する、称賛する",
+      "pos": "verb",
+      "ex_en": "The audience applauded loudly after the performance.",
+      "ex_ja": "観客は公演の後、盛大な拍手を送りました。",
+      "level": 4,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "sx_023",
+      "en": "appropriate",
+      "ja": "適切な",
+      "pos": "adj",
+      "ex_en": "Wear clothes appropriate for the occasion.",
+      "ex_ja": "場面にふさわしい服を着てください。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_024",
+      "en": "approve",
+      "ja": "承認する、賛成する",
+      "pos": "verb",
+      "ex_en": "The committee approved the new project.",
+      "ex_ja": "委員会は新しい企画を承認しました。",
+      "level": 4,
+      "tags": [
+        "agreement"
+      ]
+    },
+    {
+      "id": "sx_025",
+      "en": "arbitrary",
+      "ja": "恣意的な、独断的な",
+      "pos": "adj",
+      "ex_en": "The decision seemed completely arbitrary.",
+      "ex_ja": "その決定は全く恣意的に思えました。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_026",
+      "en": "articulate",
+      "ja": "明確に表現する、はっきり話す",
+      "pos": "verb",
+      "ex_en": "She articulated her ideas clearly in the meeting.",
+      "ex_ja": "彼女は会議で自分の考えを明確に表現しました。",
+      "level": 4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sx_027",
+      "en": "ascend",
+      "ja": "登る、上昇する",
+      "pos": "verb",
+      "ex_en": "The climbers ascended the mountain before dawn.",
+      "ex_ja": "登山者たちは夜明け前に山を登りました。",
+      "level": 4,
+      "tags": [
+        "movement"
+      ]
+    },
+    {
+      "id": "sx_028",
+      "en": "assemble",
+      "ja": "組み立てる、集める",
+      "pos": "verb",
+      "ex_en": "Workers assemble the cars at this factory.",
+      "ex_ja": "労働者たちはこの工場で車を組み立てます。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_029",
+      "en": "assess",
+      "ja": "評価する、査定する",
+      "pos": "verb",
+      "ex_en": "Teachers assess students' progress each term.",
+      "ex_ja": "教師は学期ごとに生徒の進歩を評価します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sx_030",
+      "en": "asset",
+      "ja": "資産、強み",
+      "pos": "noun",
+      "ex_en": "Her language skills are a great asset to the company.",
+      "ex_ja": "彼女の語学力は会社の大きな強みです。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_031",
+      "en": "assign",
+      "ja": "割り当てる、任命する",
+      "pos": "verb",
+      "ex_en": "The teacher assigned homework for the weekend.",
+      "ex_ja": "先生は週末の宿題を出しました。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_032",
+      "en": "assist",
+      "ja": "助ける、支援する",
+      "pos": "verb",
+      "ex_en": "A nurse will assist you during your stay.",
+      "ex_ja": "入院中は看護師がお手伝いします。",
+      "level": 4,
+      "tags": [
+        "support"
+      ]
+    },
+    {
+      "id": "sx_033",
+      "en": "assure",
+      "ja": "保証する、安心させる",
+      "pos": "verb",
+      "ex_en": "I assure you that the data is correct.",
+      "ex_ja": "データが正しいことをお約束します。",
+      "level": 4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sx_034",
+      "en": "attain",
+      "ja": "到達する、獲得する",
+      "pos": "verb",
+      "ex_en": "She attained the highest score in the class.",
+      "ex_ja": "彼女はクラスで最高得点を獲得しました。",
+      "level": 4,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "sx_035",
+      "en": "automatic",
+      "ja": "自動的な",
+      "pos": "adj",
+      "ex_en": "The door has an automatic locking system.",
+      "ex_ja": "そのドアには自動施錠システムがあります。",
+      "level": 4,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "sx_036",
+      "en": "autonomous",
+      "ja": "自律的な、自治の",
+      "pos": "adj",
+      "ex_en": "The company is developing autonomous vehicles.",
+      "ex_ja": "その会社は自動運転車を開発しています。",
+      "level": 4,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "sx_037",
+      "en": "barrier",
+      "ja": "障壁、障害物",
+      "pos": "noun",
+      "ex_en": "Language can be a barrier to communication.",
+      "ex_ja": "言語はコミュニケーションの妨げになることがあります。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_038",
+      "en": "betray",
+      "ja": "裏切る",
+      "pos": "verb",
+      "ex_en": "He felt betrayed by his closest friend.",
+      "ex_ja": "彼は最も親しい友人に裏切られたと感じました。",
+      "level": 4,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "sx_039",
+      "en": "bias",
+      "ja": "偏見、バイアス",
+      "pos": "noun",
+      "ex_en": "The article shows a clear political bias.",
+      "ex_ja": "その記事には明白な政治的偏見があります。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_040",
+      "en": "boost",
+      "ja": "高める、押し上げる",
+      "pos": "verb",
+      "ex_en": "The new policy will boost local businesses.",
+      "ex_ja": "その新しい政策は地元企業を活性化させるでしょう。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_041",
+      "en": "boundary",
+      "ja": "境界、限界",
+      "pos": "noun",
+      "ex_en": "The river forms the boundary between the two countries.",
+      "ex_ja": "その川が両国の国境を形作っています。",
+      "level": 4,
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "sx_042",
+      "en": "breed",
+      "ja": "繁殖させる、育てる",
+      "pos": "verb",
+      "ex_en": "Farmers breed cattle for milk production.",
+      "ex_ja": "農家は牛乳生産のために牛を飼育しています。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_043",
+      "en": "brief",
+      "ja": "短時間の、簡潔な",
+      "pos": "adj",
+      "ex_en": "He gave a brief explanation of the rules.",
+      "ex_ja": "彼はルールについて簡潔に説明しました。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_044",
+      "en": "burden",
+      "ja": "負担、重荷",
+      "pos": "noun",
+      "ex_en": "High taxes place a heavy burden on small firms.",
+      "ex_ja": "高い税金は小規模企業に重い負担をかけます。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_045",
+      "en": "calculate",
+      "ja": "計算する",
+      "pos": "verb",
+      "ex_en": "Calculate the total cost of the trip.",
+      "ex_ja": "旅行の総費用を計算してください。",
+      "level": 4,
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "sx_046",
+      "en": "campaign",
+      "ja": "運動、キャンペーン",
+      "pos": "noun",
+      "ex_en": "They launched a campaign to protect endangered animals.",
+      "ex_ja": "彼らは絶滅危惧動物を守るキャンペーンを始めました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_047",
+      "en": "capable",
+      "ja": "有能な、〜できる",
+      "pos": "adj",
+      "ex_en": "She is capable of solving difficult problems.",
+      "ex_ja": "彼女は難しい問題を解決できます。",
+      "level": 4,
+      "tags": [
+        "personality"
+      ]
+    },
+    {
+      "id": "sx_048",
+      "en": "cease",
+      "ja": "やめる、中止する",
+      "pos": "verb",
+      "ex_en": "The factory ceased production last month.",
+      "ex_ja": "その工場は先月生産を停止しました。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_049",
+      "en": "circumstance",
+      "ja": "状況、事情",
+      "pos": "noun",
+      "ex_en": "We cannot control every circumstance in life.",
+      "ex_ja": "人生のすべての状況をコントロールすることはできません。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_050",
+      "en": "clarify",
+      "ja": "明らかにする、明確にする",
+      "pos": "verb",
+      "ex_en": "Could you clarify what you mean by that?",
+      "ex_ja": "それがどういう意味か明確にしていただけますか。",
+      "level": 4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sx_051",
+      "en": "collapse",
+      "ja": "崩壊する、倒れる",
+      "pos": "verb",
+      "ex_en": "The bridge collapsed after the earthquake.",
+      "ex_ja": "地震の後、その橋は崩落しました。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_052",
+      "en": "collide",
+      "ja": "衝突する",
+      "pos": "verb",
+      "ex_en": "Two trains collided near the station.",
+      "ex_ja": "駅付近で2つの列車が衝突しました。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_053",
+      "en": "commit",
+      "ja": "(罪などを)犯す、専念する",
+      "pos": "verb",
+      "ex_en": "He was arrested for committing a crime.",
+      "ex_ja": "彼は犯罪を犯したとして逮捕されました。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_054",
+      "en": "commodity",
+      "ja": "商品、日用品",
+      "pos": "noun",
+      "ex_en": "Rice is a major commodity in this region.",
+      "ex_ja": "米はこの地域の主要な商品です。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_055",
+      "en": "compensate",
+      "ja": "補償する、埋め合わせる",
+      "pos": "verb",
+      "ex_en": "The company compensated the victims for their losses.",
+      "ex_ja": "会社は被害者に損失を補償しました。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_056",
+      "en": "competent",
+      "ja": "有能な、適任の",
+      "pos": "adj",
+      "ex_en": "We need a competent manager for this project.",
+      "ex_ja": "この企画には有能なマネージャーが必要です。",
+      "level": 4,
+      "tags": [
+        "personality"
+      ]
+    },
+    {
+      "id": "sx_057",
+      "en": "compile",
+      "ja": "編集する、まとめる",
+      "pos": "verb",
+      "ex_en": "She compiled a list of useful websites.",
+      "ex_ja": "彼女は役立つウェブサイトのリストをまとめました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sx_058",
+      "en": "complement",
+      "ja": "補完する、引き立てる",
+      "pos": "verb",
+      "ex_en": "The wine complements the dish perfectly.",
+      "ex_ja": "そのワインは料理を完璧に引き立てます。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_059",
+      "en": "compromise",
+      "ja": "妥協、歩み寄り",
+      "pos": "noun",
+      "ex_en": "Both sides finally reached a compromise.",
+      "ex_ja": "両側はついに妥協点に達しました。",
+      "level": 4,
+      "tags": [
+        "agreement"
+      ]
+    },
+    {
+      "id": "sx_060",
+      "en": "conceal",
+      "ja": "隠す",
+      "pos": "verb",
+      "ex_en": "He tried to conceal his disappointment.",
+      "ex_ja": "彼は失望を隠そうとしました。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_061",
+      "en": "concede",
+      "ja": "認める、譲歩する",
+      "pos": "verb",
+      "ex_en": "After the debate, he conceded that he was wrong.",
+      "ex_ja": "討論の後、彼は自分が間違っていたことを認めました。",
+      "level": 4,
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "sx_062",
+      "en": "conceive",
+      "ja": "思いつく、概念化する",
+      "pos": "verb",
+      "ex_en": "It is hard to conceive of life without computers.",
+      "ex_ja": "コンピューターのない生活を想像するのは難しいです。",
+      "level": 4,
+      "tags": [
+        "thinking"
+      ]
+    },
+    {
+      "id": "sx_063",
+      "en": "condemn",
+      "ja": "非難する、(刑を)宣告する",
+      "pos": "verb",
+      "ex_en": "World leaders condemned the attack.",
+      "ex_ja": "世界の指導者たちはその攻撃を非難しました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_064",
+      "en": "confine",
+      "ja": "制限する、閉じ込める",
+      "pos": "verb",
+      "ex_en": "Please confine your comments to the topic.",
+      "ex_ja": "コメントはその話題に限定してください。",
+      "level": 4,
+      "tags": [
+        "restriction"
+      ]
+    },
+    {
+      "id": "sx_065",
+      "en": "conform",
+      "ja": "従う、適合する",
+      "pos": "verb",
+      "ex_en": "All products must conform to safety standards.",
+      "ex_ja": "すべての製品は安全基準に適合しなければなりません。",
+      "level": 4,
+      "tags": [
+        "rule"
+      ]
+    },
+    {
+      "id": "sx_066",
+      "en": "confront",
+      "ja": "立ち向かう、直面する",
+      "pos": "verb",
+      "ex_en": "We must confront the problem directly.",
+      "ex_ja": "私たちは問題に直接立ち向かわなければなりません。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_067",
+      "en": "consent",
+      "ja": "同意、承諾",
+      "pos": "noun",
+      "ex_en": "You need parental consent to join the trip.",
+      "ex_ja": "旅行に参加するには保護者の同意が必要です。",
+      "level": 4,
+      "tags": [
+        "agreement"
+      ]
+    },
+    {
+      "id": "sx_068",
+      "en": "conserve",
+      "ja": "保存する、節約する",
+      "pos": "verb",
+      "ex_en": "We should conserve energy at home.",
+      "ex_ja": "家庭でもエネルギーを節約すべきです。",
+      "level": 4,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "sx_069",
+      "en": "consistent",
+      "ja": "一貫した、矛盾しない",
+      "pos": "adj",
+      "ex_en": "Her story is consistent with the evidence.",
+      "ex_ja": "彼女の話は証拠と一致しています。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_070",
+      "en": "constrain",
+      "ja": "制約する、束縛する",
+      "pos": "verb",
+      "ex_en": "Lack of money constrained their research.",
+      "ex_ja": "資金不足が彼らの研究を制約しました。",
+      "level": 4,
+      "tags": [
+        "restriction"
+      ]
+    },
+    {
+      "id": "sx_071",
+      "en": "consult",
+      "ja": "相談する、参照する",
+      "pos": "verb",
+      "ex_en": "Consult your doctor before taking the medicine.",
+      "ex_ja": "薬を飲む前に医師に相談してください。",
+      "level": 4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sx_072",
+      "en": "contemporary",
+      "ja": "現代の、同時代の",
+      "pos": "adj",
+      "ex_en": "The museum exhibits contemporary art.",
+      "ex_ja": "その美術館は現代美術を展示しています。",
+      "level": 4,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "sx_073",
+      "en": "contradict",
+      "ja": "矛盾する、反論する",
+      "pos": "verb",
+      "ex_en": "His actions contradict his words.",
+      "ex_ja": "彼の行動は言葉と矛盾しています。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_074",
+      "en": "controversy",
+      "ja": "論争、議論",
+      "pos": "noun",
+      "ex_en": "The new law caused a great controversy.",
+      "ex_ja": "新しい法律は大きな論争を引き起こしました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_075",
+      "en": "conventional",
+      "ja": "従来の、慣習的な",
+      "pos": "adj",
+      "ex_en": "Conventional teaching methods are changing.",
+      "ex_ja": "従来の教授法は変わりつつあります。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_076",
+      "en": "convert",
+      "ja": "変換する、転換する",
+      "pos": "verb",
+      "ex_en": "They converted the old warehouse into apartments.",
+      "ex_ja": "彼らは古い倉庫をアパートに改造しました。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_077",
+      "en": "cooperate",
+      "ja": "協力する",
+      "pos": "verb",
+      "ex_en": "The two countries agreed to cooperate on environmental issues.",
+      "ex_ja": "両国は環境問題で協力することに合意しました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_078",
+      "en": "coordinate",
+      "ja": "調整する、連携させる",
+      "pos": "verb",
+      "ex_en": "She coordinates the activities of the volunteer groups.",
+      "ex_ja": "彼女はボランティア団体の活動を調整しています。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_079",
+      "en": "correspond",
+      "ja": "一致する、対応する",
+      "pos": "verb",
+      "ex_en": "His account of the event corresponds with hers.",
+      "ex_ja": "その出来事についての彼の説明は彼女のものと一致しています。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_080",
+      "en": "crucial",
+      "ja": "決定的な、極めて重要な",
+      "pos": "adj",
+      "ex_en": "Water is crucial to all forms of life.",
+      "ex_ja": "水はあらゆる生命にとって極めて重要です。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_081",
+      "en": "cultivate",
+      "ja": "耕す、育てる",
+      "pos": "verb",
+      "ex_en": "Farmers cultivate rice in the valley.",
+      "ex_ja": "農家は谷間で米を栽培しています。",
+      "level": 4,
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "sx_082",
+      "en": "curb",
+      "ja": "抑制する、抑える",
+      "pos": "verb",
+      "ex_en": "The city took steps to curb air pollution.",
+      "ex_ja": "市は大気汚染を抑制する措置を取りました。",
+      "level": 4,
+      "tags": [
+        "restriction"
+      ]
+    },
+    {
+      "id": "sx_083",
+      "en": "debate",
+      "ja": "討論する、議論",
+      "pos": "noun",
+      "ex_en": "The students held a debate on social media.",
+      "ex_ja": "学生たちはソーシャルメディアについての討論会を行いました。",
+      "level": 4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sx_084",
+      "en": "deceive",
+      "ja": "欺く、だます",
+      "pos": "verb",
+      "ex_en": "He deceived his customers with false advertising.",
+      "ex_ja": "彼は虚偽の広告で顧客を欺きました。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_085",
+      "en": "declare",
+      "ja": "宣言する、申告する",
+      "pos": "verb",
+      "ex_en": "The country declared independence in 1960.",
+      "ex_ja": "その国は1960年に独立を宣言しました。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_086",
+      "en": "decline",
+      "ja": "減少する、辞退する",
+      "pos": "verb",
+      "ex_en": "Sales have declined sharply this year.",
+      "ex_ja": "今年は売上が急減しました。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_087",
+      "en": "dedicate",
+      "ja": "捧げる、専念させる",
+      "pos": "verb",
+      "ex_en": "She dedicated her life to medical research.",
+      "ex_ja": "彼女は人生を医学研究に捧げました。",
+      "level": 4,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "sx_088",
+      "en": "deficit",
+      "ja": "赤字、不足",
+      "pos": "noun",
+      "ex_en": "The government faces a huge budget deficit.",
+      "ex_ja": "政府は莫大な財政赤字に直面しています。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_089",
+      "en": "deliberate",
+      "ja": "故意の、慎重な",
+      "pos": "adj",
+      "ex_en": "It was a deliberate attempt to mislead voters.",
+      "ex_ja": "それは有権者を誤導しようとする故意の試みでした。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_090",
+      "en": "deny",
+      "ja": "否定する、拒否する",
+      "pos": "verb",
+      "ex_en": "He denied any involvement in the case.",
+      "ex_ja": "彼はその事件への関与を否定しました。",
+      "level": 4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sx_091",
+      "en": "deprive",
+      "ja": "奪う、剥奪する",
+      "pos": "verb",
+      "ex_en": "No child should be deprived of education.",
+      "ex_ja": "どんな子供も教育を奪われるべきではありません。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_092",
+      "en": "designate",
+      "ja": "指定する、任命する",
+      "pos": "verb",
+      "ex_en": "This area was designated a national park.",
+      "ex_ja": "この地域は国立公園に指定されました。",
+      "level": 4,
+      "tags": [
+        "rule"
+      ]
+    },
+    {
+      "id": "sx_093",
+      "en": "detect",
+      "ja": "検出する、察知する",
+      "pos": "verb",
+      "ex_en": "The sensor can detect small changes in temperature.",
+      "ex_ja": "そのセンサーは温度のわずかな変化を検出できます。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_094",
+      "en": "deviate",
+      "ja": "それる、逸脱する",
+      "pos": "verb",
+      "ex_en": "The plane deviated from its planned route.",
+      "ex_ja": "飛行機は予定航路からそれました。",
+      "level": 4,
+      "tags": [
+        "movement"
+      ]
+    },
+    {
+      "id": "sx_095",
+      "en": "devise",
+      "ja": "考案する、工夫する",
+      "pos": "verb",
+      "ex_en": "They devised a new way to collect data.",
+      "ex_ja": "彼らはデータ収集の新しい方法を考案しました。",
+      "level": 4,
+      "tags": [
+        "thinking"
+      ]
+    },
+    {
+      "id": "sx_096",
+      "en": "devote",
+      "ja": "ささげる、専念する",
+      "pos": "verb",
+      "ex_en": "He devoted his weekends to volunteer work.",
+      "ex_ja": "彼は週末をボランティア活動に捧げました。",
+      "level": 4,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "sx_097",
+      "en": "differentiate",
+      "ja": "区別する、差別化する",
+      "pos": "verb",
+      "ex_en": "Can you differentiate between the two samples?",
+      "ex_ja": "2つのサンプルの違いを区別できますか。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_098",
+      "en": "diminish",
+      "ja": "減らす、弱める",
+      "pos": "verb",
+      "ex_en": "The medicine gradually diminished the pain.",
+      "ex_ja": "薬は痛みを次第に和らげました。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_099",
+      "en": "discard",
+      "ja": "捨てる、廃棄する",
+      "pos": "verb",
+      "ex_en": "Discard any food that has passed its expiry date.",
+      "ex_ja": "賞味期限が過ぎた食品は捨ててください。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_100",
+      "en": "discern",
+      "ja": "見分ける、識別する",
+      "pos": "verb",
+      "ex_en": "It was difficult to discern the details in the dark.",
+      "ex_ja": "暗闇の中では細部を見分けるのが難しかったです。",
+      "level": 4,
+      "tags": [
+        "perception"
+      ]
+    },
+    {
+      "id": "sx_101",
+      "en": "disclose",
+      "ja": "開示する、明かす",
+      "pos": "verb",
+      "ex_en": "The company refused to disclose its financial records.",
+      "ex_ja": "会社は財務記録の開示を拒みました。",
+      "level": 4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sx_102",
+      "en": "dismiss",
+      "ja": "退ける、解雇する",
+      "pos": "verb",
+      "ex_en": "The court dismissed the case for lack of evidence.",
+      "ex_ja": "裁判所は証拠不十分でその訴えを却下しました。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_103",
+      "en": "disperse",
+      "ja": "散らばる、分散させる",
+      "pos": "verb",
+      "ex_en": "The crowd dispersed after the concert ended.",
+      "ex_ja": "コンサートが終わると群衆は散らばりました。",
+      "level": 4,
+      "tags": [
+        "movement"
+      ]
+    },
+    {
+      "id": "sx_104",
+      "en": "displace",
+      "ja": "追い出す、移動させる",
+      "pos": "verb",
+      "ex_en": "Thousands of people were displaced by the flood.",
+      "ex_ja": "何千人もの人々が洪水で家を追われました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_105",
+      "en": "distinguish",
+      "ja": "区別する、識別する",
+      "pos": "verb",
+      "ex_en": "Young children cannot always distinguish right from wrong.",
+      "ex_ja": "幼い子供は必ずしも善悪を区別できません。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_106",
+      "en": "diverse",
+      "ja": "多様な、さまざまな",
+      "pos": "adj",
+      "ex_en": "The city has a diverse population.",
+      "ex_ja": "その都市には多様な人々が暮らしています。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_107",
+      "en": "dominate",
+      "ja": "支配する、占める",
+      "pos": "verb",
+      "ex_en": "One company dominates the entire market.",
+      "ex_ja": "1社が市場全体を支配しています。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_108",
+      "en": "duplicate",
+      "ja": "複製する、写し",
+      "pos": "noun",
+      "ex_en": "Keep a duplicate of all important documents.",
+      "ex_ja": "重要な書類はすべて複製を保管してください。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_109",
+      "en": "dwell",
+      "ja": "住む、長々と考える",
+      "pos": "verb",
+      "ex_en": "Don't dwell on your past failures.",
+      "ex_ja": "過去の失敗をくよくよ考え込まないでください。",
+      "level": 4,
+      "tags": [
+        "thinking"
+      ]
+    },
+    {
+      "id": "sx_110",
+      "en": "elaborate",
+      "ja": "詳細に述べる、入念な",
+      "pos": "adj",
+      "ex_en": "She made elaborate plans for the ceremony.",
+      "ex_ja": "彼女は式典のために入念な計画を立てました。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_111",
+      "en": "elicit",
+      "ja": "引き出す、誘い出す",
+      "pos": "verb",
+      "ex_en": "The survey elicited some surprising answers.",
+      "ex_ja": "その調査は驚くべき回答をいくつか引き出しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sx_112",
+      "en": "eliminate",
+      "ja": "排除する、なくす",
+      "pos": "verb",
+      "ex_en": "We hope to eliminate waste in the process.",
+      "ex_ja": "工程での無駄をなくしたいと考えています。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_113",
+      "en": "emerge",
+      "ja": "現れる、出現する",
+      "pos": "verb",
+      "ex_en": "New facts emerged during the investigation.",
+      "ex_ja": "調査中に新しい事実が明らかになりました。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_114",
+      "en": "emit",
+      "ja": "放出する、発する",
+      "pos": "verb",
+      "ex_en": "Cars emit carbon dioxide into the air.",
+      "ex_ja": "車は二酸化炭素を大気中に排出します。",
+      "level": 4,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "sx_115",
+      "en": "enable",
+      "ja": "可能にする",
+      "pos": "verb",
+      "ex_en": "The app enables users to study anywhere.",
+      "ex_ja": "そのアプリはユーザーがどこでも勉強できるようにします。",
+      "level": 4,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "sx_116",
+      "en": "endeavor",
+      "ja": "努力、試み",
+      "pos": "noun",
+      "ex_en": "Scientific endeavor requires patience and creativity.",
+      "ex_ja": "科学的な努力には忍耐と創造性が必要です。",
+      "level": 4,
+      "tags": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "sx_117",
+      "en": "enforce",
+      "ja": "施行する、強制する",
+      "pos": "verb",
+      "ex_en": "The police enforce traffic laws strictly.",
+      "ex_ja": "警察は交通法規を厳しく執行しています。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_118",
+      "en": "enhance",
+      "ja": "高める、向上させる",
+      "pos": "verb",
+      "ex_en": "Regular practice will enhance your skills.",
+      "ex_ja": "継続的な練習はあなたの技術を向上させます。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_119",
+      "en": "enrich",
+      "ja": "豊かにする、充実させる",
+      "pos": "verb",
+      "ex_en": "Reading enriches our knowledge and imagination.",
+      "ex_ja": "読書は知識と想像力を豊かにしてくれます。",
+      "level": 4,
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "sx_120",
+      "en": "ensure",
+      "ja": "確実にする、保証する",
+      "pos": "verb",
+      "ex_en": "Check the brakes to ensure safe driving.",
+      "ex_ja": "安全運転を確実にするためブレーキを点検してください。",
+      "level": 4,
+      "tags": [
+        "support"
+      ]
+    },
+    {
+      "id": "sx_121",
+      "en": "entail",
+      "ja": "伴う、必要とする",
+      "pos": "verb",
+      "ex_en": "The job entails a lot of travel.",
+      "ex_ja": "その仕事には多くの出張が伴います。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_122",
+      "en": "entity",
+      "ja": "実体、存在",
+      "pos": "noun",
+      "ex_en": "The two companies merged into a single entity.",
+      "ex_ja": "2つの会社は合併して単一の実体になりました。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_123",
+      "en": "equivalent",
+      "ja": "同等の、相当するもの",
+      "pos": "adj",
+      "ex_en": "One mile is equivalent to about 1.6 kilometers.",
+      "ex_ja": "1マイルは約1.6キロメートルに相当します。",
+      "level": 4,
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "sx_124",
+      "en": "erode",
+      "ja": "浸食する、徐々に弱らせる",
+      "pos": "verb",
+      "ex_en": "Waves eroded the base of the cliff.",
+      "ex_ja": "波が崖の基部を浸食しました。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_125",
+      "en": "escalate",
+      "ja": "拡大する、エスカレートする",
+      "pos": "verb",
+      "ex_en": "The conflict escalated into a full-scale war.",
+      "ex_ja": "紛争は全面戦争に拡大しました。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_126",
+      "en": "evoke",
+      "ja": "喚起する、呼び起こす",
+      "pos": "verb",
+      "ex_en": "The song evokes memories of my childhood.",
+      "ex_ja": "その歌は子供時代の思い出を呼び起こします。",
+      "level": 4,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "sx_127",
+      "en": "exceed",
+      "ja": "超える、上回る",
+      "pos": "verb",
+      "ex_en": "The results exceeded all our expectations.",
+      "ex_ja": "結果は私たちの予想をすべて上回りました。",
+      "level": 4,
+      "tags": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "sx_128",
+      "en": "exert",
+      "ja": "及ぼす、発揮する",
+      "pos": "verb",
+      "ex_en": "The moon exerts a strong influence on the tides.",
+      "ex_ja": "月は潮の満ち引きに強い影響を及ぼします。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_129",
+      "en": "exhaust",
+      "ja": "疲れ果てさせる、使い尽くす",
+      "pos": "verb",
+      "ex_en": "The long hike exhausted the students.",
+      "ex_ja": "長いハイキングで学生たちは疲れ果てました。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_130",
+      "en": "exploit",
+      "ja": "利用する、搾取する",
+      "pos": "verb",
+      "ex_en": "We should exploit solar energy more effectively.",
+      "ex_ja": "太陽エネルギーをもっと効果的に利用すべきです。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_131",
+      "en": "expose",
+      "ja": "さらす、暴露する",
+      "pos": "verb",
+      "ex_en": "The report exposed corruption within the agency.",
+      "ex_ja": "その報告書は機関内部の汚職を暴きました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_132",
+      "en": "extract",
+      "ja": "抽出する、抜き取る",
+      "pos": "verb",
+      "ex_en": "Oil is extracted from olives using a press.",
+      "ex_ja": "オリーブオイルは圧搾機を使って抽出されます。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_133",
+      "en": "feasible",
+      "ja": "実行可能な",
+      "pos": "adj",
+      "ex_en": "Is the project financially feasible?",
+      "ex_ja": "その企画は財政的に実行可能ですか。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_134",
+      "en": "fluctuate",
+      "ja": "変動する、上下する",
+      "pos": "verb",
+      "ex_en": "Stock prices fluctuate daily.",
+      "ex_ja": "株価は日々変動します。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_135",
+      "en": "formulate",
+      "ja": "定式化する、考案する",
+      "pos": "verb",
+      "ex_en": "The committee formulated a new set of rules.",
+      "ex_ja": "委員会は新しい規則一式を定めました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sx_136",
+      "en": "foster",
+      "ja": "育成する、促進する",
+      "pos": "verb",
+      "ex_en": "Good teachers foster creativity in their students.",
+      "ex_ja": "優れた教師は生徒の創造性を育みます。",
+      "level": 4,
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "sx_137",
+      "en": "fundamental",
+      "ja": "基本的な、根本的な",
+      "pos": "adj",
+      "ex_en": "Freedom of speech is a fundamental right.",
+      "ex_ja": "言論の自由は基本的な権利です。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_138",
+      "en": "furnish",
+      "ja": "備え付ける、供給する",
+      "pos": "verb",
+      "ex_en": "The apartment is furnished with basic appliances.",
+      "ex_ja": "そのアパートには基本的な家電が備わっています。",
+      "level": 4,
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "sx_139",
+      "en": "genuine",
+      "ja": "本物の、心からの",
+      "pos": "adj",
+      "ex_en": "She showed genuine interest in our problems.",
+      "ex_ja": "彼女は私たちの問題に心から関心を示しました。",
+      "level": 4,
+      "tags": [
+        "personality"
+      ]
+    },
+    {
+      "id": "sx_140",
+      "en": "grasp",
+      "ja": "つかむ、理解する",
+      "pos": "verb",
+      "ex_en": "He quickly grasped the main idea of the lecture.",
+      "ex_ja": "彼は講義の要点をすぐに理解しました。",
+      "level": 4,
+      "tags": [
+        "thinking"
+      ]
+    },
+    {
+      "id": "sx_141",
+      "en": "halt",
+      "ja": "停止する、中止する",
+      "pos": "verb",
+      "ex_en": "Production was halted due to a power failure.",
+      "ex_ja": "停電のため生産が停止しました。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_142",
+      "en": "hamper",
+      "ja": "妨げる、邪魔する",
+      "pos": "verb",
+      "ex_en": "Heavy snow hampered rescue efforts.",
+      "ex_ja": "大雪が救助活動を妨げました。",
+      "level": 4,
+      "tags": [
+        "restriction"
+      ]
+    },
+    {
+      "id": "sx_143",
+      "en": "hinder",
+      "ja": "妨げる、遅らせる",
+      "pos": "verb",
+      "ex_en": "Fear of failure should not hinder your progress.",
+      "ex_ja": "失敗への恐怖があなたの進歩を妨げてはなりません。",
+      "level": 4,
+      "tags": [
+        "restriction"
+      ]
+    },
+    {
+      "id": "sx_144",
+      "en": "hostile",
+      "ja": "敵意のある、不利な",
+      "pos": "adj",
+      "ex_en": "The proposal met a hostile reception from the board.",
+      "ex_ja": "その提案は役員会から敵意ある反応を受けました。",
+      "level": 4,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "sx_145",
+      "en": "identical",
+      "ja": "同一の、全く同じの",
+      "pos": "adj",
+      "ex_en": "The twins wore identical dresses.",
+      "ex_ja": "双子は同じドレスを着ていました。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_146",
+      "en": "ideology",
+      "ja": "イデオロギー、思想",
+      "pos": "noun",
+      "ex_en": "The party's ideology attracts many young voters.",
+      "ex_ja": "その政党のイデオロギーは多くの若い有権者を引きつけています。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_147",
+      "en": "impose",
+      "ja": "課す、押し付ける",
+      "pos": "verb",
+      "ex_en": "The government imposed a tax on sugary drinks.",
+      "ex_ja": "政府は糖分の多い飲料に税を課しました。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_148",
+      "en": "inclined",
+      "ja": "〜しがちな、傾向がある",
+      "pos": "adj",
+      "ex_en": "I am inclined to agree with her opinion.",
+      "ex_ja": "私は彼女の意見に賛成したい気持ちです。",
+      "level": 4,
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "sx_149",
+      "en": "incorporate",
+      "ja": "組み込む、合併する",
+      "pos": "verb",
+      "ex_en": "The design incorporates traditional Japanese elements.",
+      "ex_ja": "そのデザインには日本の伝統要素が組み込まれています。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_150",
+      "en": "indicate",
+      "ja": "示す、指し示す",
+      "pos": "verb",
+      "ex_en": "The data indicates a clear upward trend.",
+      "ex_ja": "データは明確な上昇傾向を示しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sx_151",
+      "en": "induce",
+      "ja": "引き起こす、誘導する",
+      "pos": "verb",
+      "ex_en": "Stress can induce serious health problems.",
+      "ex_ja": "ストレスは深刻な健康問題を引き起こすことがあります。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_152",
+      "en": "infer",
+      "ja": "推論する、推測する",
+      "pos": "verb",
+      "ex_en": "We can infer her feelings from her letter.",
+      "ex_ja": "彼女の手紙から彼女の気持ちを推し量れます。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_153",
+      "en": "initiate",
+      "ja": "開始する、起こす",
+      "pos": "verb",
+      "ex_en": "The government initiated a program to reduce waste.",
+      "ex_ja": "政府はごみ削減プログラムを開始しました。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_154",
+      "en": "innovate",
+      "ja": "革新する、技術開発する",
+      "pos": "verb",
+      "ex_en": "Companies must innovate to survive in the global market.",
+      "ex_ja": "企業が世界市場で生き残るには革新が必要です。",
+      "level": 4,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "sx_155",
+      "en": "insight",
+      "ja": "洞察、見識",
+      "pos": "noun",
+      "ex_en": "The book offers deep insights into human nature.",
+      "ex_ja": "その本は人間性についての深い洞察を与えてくれます。",
+      "level": 4,
+      "tags": [
+        "thinking"
+      ]
+    },
+    {
+      "id": "sx_156",
+      "en": "intact",
+      "ja": "無傷の、原形をとどめた",
+      "pos": "adj",
+      "ex_en": "The ancient temple remained intact for centuries.",
+      "ex_ja": "その古代寺院は何世紀もの間無傷のままでした。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_157",
+      "en": "integral",
+      "ja": "不可欠の、主要な",
+      "pos": "adj",
+      "ex_en": "Music is an integral part of the school curriculum.",
+      "ex_ja": "音楽は学校教育に欠かせない一部です。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_158",
+      "en": "intervene",
+      "ja": "介入する、仲裁する",
+      "pos": "verb",
+      "ex_en": "The UN intervened to stop the fighting.",
+      "ex_ja": "国連は戦闘を止めるために介入しました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_159",
+      "en": "intricate",
+      "ja": "複雑な、入り組んだ",
+      "pos": "adj",
+      "ex_en": "The watch contains an intricate mechanism.",
+      "ex_ja": "その時計には複雑な機構が組み込まれています。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_160",
+      "en": "intrinsic",
+      "ja": "本来備わった、本質的な",
+      "pos": "adj",
+      "ex_en": "Curiosity is intrinsic to human nature.",
+      "ex_ja": "好奇心は人間の本性に本来備わっています。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_161",
+      "en": "invoke",
+      "ja": "行使する、訴える",
+      "pos": "verb",
+      "ex_en": "The union invoked its right to strike.",
+      "ex_ja": "労働組合はストライキ権を行使しました。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_162",
+      "en": "justify",
+      "ja": "正当化する、弁明する",
+      "pos": "verb",
+      "ex_en": "How can you justify spending so much money?",
+      "ex_ja": "そんなにお金を使うことをどう正当化できるのですか。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_163",
+      "en": "legitimate",
+      "ja": "正当な、合法的な",
+      "pos": "adj",
+      "ex_en": "The court recognized their legitimate claim.",
+      "ex_ja": "裁判所は彼らの正当な請求を認めました。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_164",
+      "en": "marginal",
+      "ja": "わずかな、限界の",
+      "pos": "adj",
+      "ex_en": "There was only a marginal improvement in sales.",
+      "ex_ja": "売上はわずかに改善しただけでした。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_165",
+      "en": "mediate",
+      "ja": "仲裁する、調停する",
+      "pos": "verb",
+      "ex_en": "A neutral country mediated between the two sides.",
+      "ex_ja": "中立国が両者の間を調停しました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_166",
+      "en": "merge",
+      "ja": "合併する、融合する",
+      "pos": "verb",
+      "ex_en": "The two banks merged last year.",
+      "ex_ja": "その2つの銀行は昨年合併しました。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_167",
+      "en": "mitigate",
+      "ja": "緩和する、軽減する",
+      "pos": "verb",
+      "ex_en": "Trees help mitigate the effects of climate change.",
+      "ex_ja": "樹木は気候変動の影響を緩和するのに役立ちます。",
+      "level": 4,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "sx_168",
+      "en": "moderate",
+      "ja": "適度な、穏健な",
+      "pos": "adj",
+      "ex_en": "Moderate exercise is good for your health.",
+      "ex_ja": "適度な運動は健康に良いです。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_169",
+      "en": "monitor",
+      "ja": "監視する、モニターする",
+      "pos": "verb",
+      "ex_en": "Doctors monitored the patient's heart rate closely.",
+      "ex_ja": "医師たちは患者の心拍数を綿密に監視しました。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_170",
+      "en": "mutual",
+      "ja": "相互の、共通の",
+      "pos": "adj",
+      "ex_en": "The project was based on mutual trust.",
+      "ex_ja": "その企画は相互信頼に基づいていました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "sx_171",
+      "en": "negate",
+      "ja": "否定する、無効にする",
+      "pos": "verb",
+      "ex_en": "One error can negate all your hard work.",
+      "ex_ja": "1つの誤りが努力のすべてを無効にしかねません。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_172",
+      "en": "notable",
+      "ja": "顕著な、注目すべき",
+      "pos": "adj",
+      "ex_en": "The event was a notable success for the team.",
+      "ex_ja": "そのイベントはチームにとって顕著な成功でした。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_173",
+      "en": "notion",
+      "ja": "概念、考え",
+      "pos": "noun",
+      "ex_en": "He rejected the notion that money brings happiness.",
+      "ex_ja": "彼はお金が幸福をもたらすという考えを拒否しました。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_174",
+      "en": "nourish",
+      "ja": "養う、栄養を与える",
+      "pos": "verb",
+      "ex_en": "Good soil nourishes the growing plants.",
+      "ex_ja": "良い土壌は育つ植物を養います。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "sx_175",
+      "en": "oblige",
+      "ja": "強いる、義務を負わせる",
+      "pos": "verb",
+      "ex_en": "New rules obliged companies to report their emissions.",
+      "ex_ja": "新しい規則で企業は排出量の報告を義務づけられました。",
+      "level": 4,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "sx_176",
+      "en": "obscure",
+      "ja": "不明瞭な、無名の",
+      "pos": "adj",
+      "ex_en": "The meaning of the poem remains obscure.",
+      "ex_ja": "その詩の意味は依然として不明瞭です。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_177",
+      "en": "obstacle",
+      "ja": "障害物、妨げ",
+      "pos": "noun",
+      "ex_en": "Lack of confidence is the biggest obstacle to success.",
+      "ex_ja": "自信のなさが成功への最大の障害です。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_178",
+      "en": "occupy",
+      "ja": "占める、占領する",
+      "pos": "verb",
+      "ex_en": "Reading occupies most of her free time.",
+      "ex_ja": "読書が彼女の自由時間の大半を占めています。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_179",
+      "en": "offset",
+      "ja": "相殺する、埋め合わせる",
+      "pos": "verb",
+      "ex_en": "Higher wages were offset by rising prices.",
+      "ex_ja": "賃上げは物価上昇で相殺されました。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "sx_180",
+      "en": "omit",
+      "ja": "省略する、抜かす",
+      "pos": "verb",
+      "ex_en": "Important details were omitted from the report.",
+      "ex_ja": "重要な詳細が報告書から省略されていました。",
+      "level": 4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sx_181",
+      "en": "oppose",
+      "ja": "反対する、対抗する",
+      "pos": "verb",
+      "ex_en": "Many residents opposed the construction of the new road.",
+      "ex_ja": "多くの住民が新しい道路の建設に反対しました。",
+      "level": 4,
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "sx_182",
+      "en": "opt",
+      "ja": "選ぶ、決める",
+      "pos": "verb",
+      "ex_en": "More students are opting for online courses.",
+      "ex_ja": "ますます多くの学生がオンライン講座を選んでいます。",
+      "level": 4,
+      "tags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "sx_183",
+      "en": "orient",
+      "ja": "方向づける、適応させる",
+      "pos": "verb",
+      "ex_en": "The program is oriented toward beginner learners.",
+      "ex_ja": "そのプログラムは初心者向けに方向づけられています。",
+      "level": 4,
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "sx_184",
+      "en": "originate",
+      "ja": "起源を持つ、始まる",
+      "pos": "verb",
+      "ex_en": "The fire originated in the basement.",
+      "ex_ja": "火事は地下室から発生しました。",
+      "level": 4,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sx_185",
+      "en": "overlap",
+      "ja": "重なる、共通部分",
+      "pos": "noun",
+      "ex_en": "There is some overlap between the two jobs.",
+      "ex_ja": "2つの仕事にはいくつか重なる部分があります。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_186",
+      "en": "oversee",
+      "ja": "監督する、見守る",
+      "pos": "verb",
+      "ex_en": "She oversees the daily operations of the store.",
+      "ex_ja": "彼女は店の日々の運営を監督しています。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_187",
+      "en": "overwhelm",
+      "ja": "圧倒する、圧倒させる",
+      "pos": "verb",
+      "ex_en": "The audience was overwhelmed by the performance.",
+      "ex_ja": "観客はその公演に圧倒されました。",
+      "level": 4,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "sx_188",
+      "en": "paradox",
+      "ja": "逆説、パラドックス",
+      "pos": "noun",
+      "ex_en": "It's a paradox that busy people find more time.",
+      "ex_ja": "忙しい人ほど時間を見つけるというのは逆説です。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_189",
+      "en": "parallel",
+      "ja": "平行な、類似の",
+      "pos": "adj",
+      "ex_en": "The two roads run parallel to each other.",
+      "ex_ja": "2本の道路は互いに平行に走っています。",
+      "level": 4,
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "sx_190",
+      "en": "partial",
+      "ja": "部分の、不公平な",
+      "pos": "adj",
+      "ex_en": "The project received partial funding from the city.",
+      "ex_ja": "その企画は市から部分的な資金援助を受けました。",
+      "level": 4,
+      "tags": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "sx_191",
+      "en": "persist",
+      "ja": "続く、執拗に主張する",
+      "pos": "verb",
+      "ex_en": "If the pain persists, see a doctor.",
+      "ex_ja": "痛みが続く場合は医師に相談してください。",
+      "level": 4,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sx_192",
+      "en": "portray",
+      "ja": "描写する、演じる",
+      "pos": "verb",
+      "ex_en": "The novel portrays life in a fishing village.",
+      "ex_ja": "その小説は漁村の生活を描写しています。",
+      "level": 4,
+      "tags": [
+        "art"
+      ]
+    },
+    {
+      "id": "sx_193",
+      "en": "precede",
+      "ja": "先行する、〜に先立つ",
+      "pos": "verb",
+      "ex_en": "A short speech preceded the award ceremony.",
+      "ex_ja": "授賞式に先立って短いスピーチがありました。",
+      "level": 4,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "sx_194",
+      "en": "precise",
+      "ja": "正確な、精密な",
+      "pos": "adj",
+      "ex_en": "We need precise measurements for this experiment.",
+      "ex_ja": "この実験には正確な測定が必要です。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_195",
+      "en": "predominant",
+      "ja": "支配的な、最も優勢な",
+      "pos": "adj",
+      "ex_en": "Blue is the predominant color in his paintings.",
+      "ex_ja": "青は彼の絵における最も優勢な色です。",
+      "level": 4,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "sx_196",
+      "en": "preliminary",
+      "ja": "予備の、準備の",
+      "pos": "adj",
+      "ex_en": "The preliminary results look promising.",
+      "ex_ja": "予備的な結果は有望に見えます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sx_197",
+      "en": "premise",
+      "ja": "前提",
+      "pos": "noun",
+      "ex_en": "The argument rests on a false premise.",
+      "ex_ja": "その議論は誤った前提に基づいています。",
+      "level": 4,
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "sx_198",
+      "en": "prescribe",
+      "ja": "処方する、規定する",
+      "pos": "verb",
+      "ex_en": "The doctor prescribed medicine for my cold.",
+      "ex_ja": "医師は風邪の薬を処方しました。",
+      "level": 4,
+      "tags": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "sx_199",
+      "en": "presume",
+      "ja": "推定する、当然とみなす",
+      "pos": "verb",
+      "ex_en": "I presume you have already heard the news.",
+      "ex_ja": "もうその知らせはお聞きになっていると思いますが。",
+      "level": 4,
+      "tags": [
+        "thinking"
+      ]
+    },
+    {
+      "id": "sx_200",
+      "en": "prevail",
+      "ja": "勝つ、普及する",
+      "pos": "verb",
+      "ex_en": "Justice prevailed in the end.",
+      "ex_ja": "最後には正義が勝りました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    }
+  ]
+}

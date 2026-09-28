@@ -1,0 +1,873 @@
+{
+  "meta": {
+    "file": "eik-lv4-80",
+    "stage": "eiken",
+    "description": "英検4級レベル80語"
+  },
+  "words": [
+    {
+      "id": "e4_002",
+      "en": "birthday",
+      "ja": "誕生日",
+      "pos": "noun",
+      "ex_en": "My birthday is on May fifth.",
+      "ex_ja": "私の誕生日は5月5日です。",
+      "level": 2,
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "e4_004",
+      "en": "present",
+      "ja": "プレゼント、贈り物",
+      "pos": "noun",
+      "ex_en": "I got a nice present from my aunt.",
+      "ex_ja": "叔母からすてきなプレゼントをもらいました。",
+      "level": 2,
+      "tags": [
+        "thing"
+      ]
+    },
+    {
+      "id": "e4_005",
+      "en": "weather",
+      "ja": "天気、天候",
+      "pos": "noun",
+      "ex_en": "The weather was fine during our trip.",
+      "ex_ja": "旅行中ずっと天気でした。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e4_006",
+      "en": "visit",
+      "ja": "訪れる、訪問する",
+      "pos": "verb",
+      "ex_en": "We visit my grandparents every Sunday.",
+      "ex_ja": "私たちは毎週日曜日に祖父母を訪ねます。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e4_007",
+      "en": "party",
+      "ja": "パーティー、宴会",
+      "pos": "noun",
+      "ex_en": "She invited me to her birthday party.",
+      "ex_ja": "彼女は誕生日パーティーに招待してくれました。",
+      "level": 2,
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "e4_008",
+      "en": "picnic",
+      "ja": "ピクニック",
+      "pos": "noun",
+      "ex_en": "Let's go for a picnic by the lake.",
+      "ex_ja": "湖のほとりにピクニックに行こう。",
+      "level": 2,
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "e4_009",
+      "en": "weekend",
+      "ja": "週末",
+      "pos": "noun",
+      "ex_en": "I usually play tennis on weekends.",
+      "ex_ja": "私はたいてい週末にテニスをします。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "e4_010",
+      "en": "tomorrow",
+      "ja": "明日",
+      "pos": "adv",
+      "ex_en": "I will finish my homework tomorrow.",
+      "ex_ja": "私は明日までに宿題を終えます。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "e4_011",
+      "en": "morning",
+      "ja": "朝",
+      "pos": "noun",
+      "ex_en": "He takes a walk every morning.",
+      "ex_ja": "彼は毎朝散歩します。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "e4_013",
+      "en": "night",
+      "ja": "夜",
+      "pos": "noun",
+      "ex_en": "The stars are beautiful at night.",
+      "ex_ja": "夜は星がきれいです。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "e4_014",
+      "en": "family",
+      "ja": "家族",
+      "pos": "noun",
+      "ex_en": "My family has four members.",
+      "ex_ja": "私の家族は4人家族です。",
+      "level": 2,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "e4_015",
+      "en": "friend",
+      "ja": "友達",
+      "pos": "noun",
+      "ex_en": "Ken is my best friend at school.",
+      "ex_ja": "ケンは学校での一番の友達です。",
+      "level": 2,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "e4_016",
+      "en": "student",
+      "ja": "学生、生徒",
+      "pos": "noun",
+      "ex_en": "There are thirty students in my class.",
+      "ex_ja": "私のクラスには生徒が30人います。",
+      "level": 2,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "e4_017",
+      "en": "teacher",
+      "ja": "先生、教師",
+      "pos": "noun",
+      "ex_en": "Our English teacher speaks very clearly.",
+      "ex_ja": "英語の先生はとてもはっきり話します。",
+      "level": 2,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "e4_018",
+      "en": "school",
+      "ja": "学校",
+      "pos": "noun",
+      "ex_en": "I go to school by bicycle.",
+      "ex_ja": "私は自転車で通学しています。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_019",
+      "en": "classroom",
+      "ja": "教室",
+      "pos": "noun",
+      "ex_en": "Please clean the classroom after school.",
+      "ex_ja": "放課後に教室を掃除してください。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_020",
+      "en": "homework",
+      "ja": "宿題",
+      "pos": "noun",
+      "ex_en": "I have a lot of homework today.",
+      "ex_ja": "今日は宿題がたくさんあります。",
+      "level": 2,
+      "tags": [
+        "study"
+      ]
+    },
+    {
+      "id": "e4_022",
+      "en": "kitchen",
+      "ja": "台所、厨房",
+      "pos": "noun",
+      "ex_en": "Mom is cooking in the kitchen.",
+      "ex_ja": "母は台所で料理をしています。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_023",
+      "en": "bedroom",
+      "ja": "寝室",
+      "pos": "noun",
+      "ex_en": "My bedroom is on the second floor.",
+      "ex_ja": "私の寝室は2階にあります。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_024",
+      "en": "window",
+      "ja": "窓",
+      "pos": "noun",
+      "ex_en": "Please open the window. It's hot.",
+      "ex_ja": "窓を開けてください。暑いので。",
+      "level": 2,
+      "tags": [
+        "house"
+      ]
+    },
+    {
+      "id": "e4_025",
+      "en": "door",
+      "ja": "ドア、扉",
+      "pos": "noun",
+      "ex_en": "Someone is knocking on the door.",
+      "ex_ja": "誰かがドアをノックしています。",
+      "level": 2,
+      "tags": [
+        "house"
+      ]
+    },
+    {
+      "id": "e4_026",
+      "en": "floor",
+      "ja": "床、(建物の)階",
+      "pos": "noun",
+      "ex_en": "Don't leave your toys on the floor.",
+      "ex_ja": "おもちゃを床に置いたままにしないで。",
+      "level": 2,
+      "tags": [
+        "house"
+      ]
+    },
+    {
+      "id": "e4_027",
+      "en": "desk",
+      "ja": "机、勉強机",
+      "pos": "noun",
+      "ex_en": "My dictionary is on the desk.",
+      "ex_ja": "私の辞書は机の上にあります。",
+      "level": 2,
+      "tags": [
+        "furniture"
+      ]
+    },
+    {
+      "id": "e4_028",
+      "en": "shelf",
+      "ja": "棚",
+      "pos": "noun",
+      "ex_en": "Put the books back on the shelf.",
+      "ex_ja": "本を棚に戻してください。",
+      "level": 2,
+      "tags": [
+        "furniture"
+      ]
+    },
+    {
+      "id": "e4_029",
+      "en": "lamp",
+      "ja": "ランプ、照明",
+      "pos": "noun",
+      "ex_en": "Turn on the lamp. It's getting dark.",
+      "ex_ja": "ランプをつけて。暗くなってきたから。",
+      "level": 2,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "e4_030",
+      "en": "mirror",
+      "ja": "鏡",
+      "pos": "noun",
+      "ex_en": "She looked at herself in the mirror.",
+      "ex_ja": "彼女は鏡で自分を見ました。",
+      "level": 2,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "e4_031",
+      "en": "clock",
+      "ja": "時計",
+      "pos": "noun",
+      "ex_en": "The clock on the wall stopped.",
+      "ex_ja": "壁の時計が止まりました。",
+      "level": 2,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "e4_032",
+      "en": "camera",
+      "ja": "カメラ",
+      "pos": "noun",
+      "ex_en": "I took a photo with my new camera.",
+      "ex_ja": "新しいカメラで写真を撮りました。",
+      "level": 2,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "e4_033",
+      "en": "computer",
+      "ja": "コンピューター、パソコン",
+      "pos": "noun",
+      "ex_en": "He uses the computer to do his homework.",
+      "ex_ja": "彼は宿題をするのにコンピューターを使います。",
+      "level": 2,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "e4_034",
+      "en": "phone",
+      "ja": "電話",
+      "pos": "noun",
+      "ex_en": "May I use your phone?",
+      "ex_ja": "電話を借りてもいいですか?",
+      "level": 2,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "e4_035",
+      "en": "wallet",
+      "ja": "財布",
+      "pos": "noun",
+      "ex_en": "I left my wallet at home.",
+      "ex_ja": "財布を家に忘れてきました。",
+      "level": 2,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "e4_036",
+      "en": "umbrella",
+      "ja": "傘",
+      "pos": "noun",
+      "ex_en": "Take your umbrella. It may rain.",
+      "ex_ja": "傘を持って行きなさい。雨が降るかもしれない。",
+      "level": 2,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "e4_037",
+      "en": "key",
+      "ja": "鍵",
+      "pos": "noun",
+      "ex_en": "I can't find the key to my room.",
+      "ex_ja": "部屋の鍵が見つかりません。",
+      "level": 2,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "e4_038",
+      "en": "box",
+      "ja": "箱",
+      "pos": "noun",
+      "ex_en": "The cat is sleeping in the box.",
+      "ex_ja": "猫が箱の中で眠っています。",
+      "level": 2,
+      "tags": [
+        "container"
+      ]
+    },
+    {
+      "id": "e4_039",
+      "en": "bottle",
+      "ja": "びん",
+      "pos": "noun",
+      "ex_en": "Drink some water from this bottle.",
+      "ex_ja": "このびんから水を少し飲んで。",
+      "level": 2,
+      "tags": [
+        "container"
+      ]
+    },
+    {
+      "id": "e4_040",
+      "en": "cup",
+      "ja": "カップ、茶わん",
+      "pos": "noun",
+      "ex_en": "Would you like a cup of tea?",
+      "ex_ja": "お茶を1杯いかがですか?",
+      "level": 2,
+      "tags": [
+        "container"
+      ]
+    },
+    {
+      "id": "e4_041",
+      "en": "plate",
+      "ja": "皿",
+      "pos": "noun",
+      "ex_en": "She put the cake on a plate.",
+      "ex_ja": "彼女はケーキを皿にのせました。",
+      "level": 2,
+      "tags": [
+        "container"
+      ]
+    },
+    {
+      "id": "e4_042",
+      "en": "fork",
+      "ja": "フォーク",
+      "pos": "noun",
+      "ex_en": "We need forks for the spaghetti.",
+      "ex_ja": "スパゲッティを食べるのにフォークが要ります。",
+      "level": 2,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "e4_043",
+      "en": "spoon",
+      "ja": "スプーン",
+      "pos": "noun",
+      "ex_en": "Give me a spoon for my soup, please.",
+      "ex_ja": "スープ用のスプーンをください。",
+      "level": 2,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "e4_044",
+      "en": "chopsticks",
+      "ja": "はし",
+      "pos": "noun",
+      "ex_en": "I can use chopsticks very well.",
+      "ex_ja": "私ははしを上手に使えます。",
+      "level": 2,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "e4_045",
+      "en": "breakfast",
+      "ja": "朝食",
+      "pos": "noun",
+      "ex_en": "I had bread and milk for breakfast.",
+      "ex_ja": "朝食にパンと牛乳を食べました。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_046",
+      "en": "lunch",
+      "ja": "昼食",
+      "pos": "noun",
+      "ex_en": "Let's have lunch together after class.",
+      "ex_ja": "授業のあと一緒にお昼を食べましょう。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_047",
+      "en": "dinner",
+      "ja": "夕食",
+      "pos": "noun",
+      "ex_en": "Dinner will be ready in ten minutes.",
+      "ex_ja": "夕食はあと10分でできます。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_048",
+      "en": "rice",
+      "ja": "米、ご飯",
+      "pos": "noun",
+      "ex_en": "Japanese people eat rice every day.",
+      "ex_ja": "日本人は毎日ご飯を食べます。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_049",
+      "en": "bread",
+      "ja": "パン",
+      "pos": "noun",
+      "ex_en": "This bakery sells fresh bread.",
+      "ex_ja": "このパン屋は焼きたてのパンを売っています。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_050",
+      "en": "noodle",
+      "ja": "麺",
+      "pos": "noun",
+      "ex_en": "Ramen is a kind of noodle dish.",
+      "ex_ja": "ラーメンは麺料理の一種です。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_051",
+      "en": "meat",
+      "ja": "肉",
+      "pos": "noun",
+      "ex_en": "I don't eat meat very often.",
+      "ex_ja": "私はあまり肉を食べません。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_052",
+      "en": "vegetable",
+      "ja": "野菜",
+      "pos": "noun",
+      "ex_en": "Eat more vegetables. They are good for you.",
+      "ex_ja": "もっと野菜を食べなさい。体にいいから。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_054",
+      "en": "apple",
+      "ja": "りんご",
+      "pos": "noun",
+      "ex_en": "An apple a day keeps the doctor away.",
+      "ex_ja": "1日1個のりんごは医者を遠ざける。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_055",
+      "en": "orange",
+      "ja": "オレンジ、みかん",
+      "pos": "noun",
+      "ex_en": "There are six oranges in the bag.",
+      "ex_ja": "かばんの中にオレンジが6個あります。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_056",
+      "en": "egg",
+      "ja": "卵",
+      "pos": "noun",
+      "ex_en": "I ate two eggs this morning.",
+      "ex_ja": "今朝、卵を2個食べました。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e4_057",
+      "en": "milk",
+      "ja": "牛乳",
+      "pos": "noun",
+      "ex_en": "Drink your milk before it gets warm.",
+      "ex_ja": "温くなる前に牛乳を飲んで。",
+      "level": 2,
+      "tags": [
+        "drink"
+      ]
+    },
+    {
+      "id": "e4_058",
+      "en": "juice",
+      "ja": "ジュース",
+      "pos": "noun",
+      "ex_en": "I bought a bottle of orange juice.",
+      "ex_ja": "オレンジジュースを1本買いました。",
+      "level": 2,
+      "tags": [
+        "drink"
+      ]
+    },
+    {
+      "id": "e4_059",
+      "en": "tea",
+      "ja": "お茶",
+      "pos": "noun",
+      "ex_en": "My grandmother drinks tea after meals.",
+      "ex_ja": "祖母は食後にお茶を飲みます。",
+      "level": 2,
+      "tags": [
+        "drink"
+      ]
+    },
+    {
+      "id": "e4_060",
+      "en": "water",
+      "ja": "水",
+      "pos": "noun",
+      "ex_en": "Please give me some water. I'm thirsty.",
+      "ex_ja": "水を少し下さい。喉が渇いたので。",
+      "level": 2,
+      "tags": [
+        "drink"
+      ]
+    },
+    {
+      "id": "e4_061",
+      "en": "train",
+      "ja": "列車、電車",
+      "pos": "noun",
+      "ex_en": "We went to Kyoto by train.",
+      "ex_ja": "私たちは電車で京都に行きました。",
+      "level": 2,
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "e4_062",
+      "en": "bus",
+      "ja": "バス",
+      "pos": "noun",
+      "ex_en": "The bus for the station leaves at nine.",
+      "ex_ja": "駅行きのバスは9時に出ます。",
+      "level": 2,
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "e4_063",
+      "en": "bicycle",
+      "ja": "自転車",
+      "pos": "noun",
+      "ex_en": "I ride my bicycle to school.",
+      "ex_ja": "私は自転車で通学しています。",
+      "level": 2,
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "e4_064",
+      "en": "airport",
+      "ja": "空港",
+      "pos": "noun",
+      "ex_en": "My uncle works at Narita Airport.",
+      "ex_ja": "叔父は成田空港で働いています。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_065",
+      "en": "ticket",
+      "ja": "切符、券",
+      "pos": "noun",
+      "ex_en": "I bought two tickets for the movie.",
+      "ex_ja": "映画のチケットを2枚買いました。",
+      "level": 2,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "e4_066",
+      "en": "map",
+      "ja": "地図",
+      "pos": "noun",
+      "ex_en": "Let's check the map before we start.",
+      "ex_ja": "出発する前に地図を確認しよう。",
+      "level": 2,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "e4_067",
+      "en": "trip",
+      "ja": "旅行",
+      "pos": "noun",
+      "ex_en": "Our class trip is in October.",
+      "ex_ja": "クラスの旅行は10月です。",
+      "level": 2,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "e4_069",
+      "en": "park",
+      "ja": "公園",
+      "pos": "noun",
+      "ex_en": "The children are playing in the park.",
+      "ex_ja": "子どもたちは公園で遊んでいます。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_070",
+      "en": "zoo",
+      "ja": "動物園",
+      "pos": "noun",
+      "ex_en": "We saw lions and monkeys at the zoo.",
+      "ex_ja": "動物園でライオンとサルを見ました。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_072",
+      "en": "hospital",
+      "ja": "病院",
+      "pos": "noun",
+      "ex_en": "She was in the hospital for a week.",
+      "ex_ja": "彼女は1週間入院していました。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_073",
+      "en": "restaurant",
+      "ja": "レストラン、食堂",
+      "pos": "noun",
+      "ex_en": "This restaurant is famous for its pizza.",
+      "ex_ja": "このレストランはピザで有名です。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_074",
+      "en": "store",
+      "ja": "店",
+      "pos": "noun",
+      "ex_en": "There's a new store near my house.",
+      "ex_ja": "家の近くに新しいお店ができました。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_075",
+      "en": "station",
+      "ja": "駅",
+      "pos": "noun",
+      "ex_en": "Meet me in front of the station.",
+      "ex_ja": "駅の前で会いましょう。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_076",
+      "en": "church",
+      "ja": "教会",
+      "pos": "noun",
+      "ex_en": "The old church is near the river.",
+      "ex_ja": "古い教会は川の近くにあります。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e4_078",
+      "en": "river",
+      "ja": "川",
+      "pos": "noun",
+      "ex_en": "They swim in the river every summer.",
+      "ex_ja": "彼らは毎年夏に川で泳ぎます。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e4_079",
+      "en": "flower",
+      "ja": "花",
+      "pos": "noun",
+      "ex_en": "She gave her mother some flowers.",
+      "ex_ja": "彼女は母に花を少し上げました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e4_080",
+      "en": "animal",
+      "ja": "動物",
+      "pos": "noun",
+      "ex_en": "Dogs are popular animals in Japan.",
+      "ex_ja": "犬は日本で人気のある動物です。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    }
+  ]
+}

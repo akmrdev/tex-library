@@ -16,25 +16,56 @@
     try { localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress)); } catch (e) {}
   }
 
-  // ---- 目次リンク生成 ----
+  // ---- 目次リンク生成(節クリックでサブ節の開閉ができるグループ構造) ----
   var links = [];
   tocData.forEach(function (sec) {
+    var group = document.createElement("div");
+    group.className = "toc-group";
+    var row = document.createElement("div");
+    row.className = "toc-row";
     var a = document.createElement("a");
     a.href = "#" + sec.id;
     a.textContent = sec.num + ". " + sec.title;
     a.dataset.sec = sec.id;
-    tocNav.appendChild(a);
+    row.appendChild(a);
     links.push(a);
-    sec.subs.forEach(function (sub) {
-      var sa = document.createElement("a");
-      sa.href = "#" + sub.id;
-      sa.textContent = sub.num + " " + sub.title;
-      sa.className = "sub";
-      sa.dataset.sec = sub.id;
-      tocNav.appendChild(sa);
-      links.push(sa);
-    });
+    if (sec.subs.length > 0) {
+      var tog = document.createElement("button");
+      tog.className = "toc-toggle";
+      tog.type = "button";
+      tog.setAttribute("aria-label", "サブ節の開閉");
+      tog.textContent = "▸";
+      tog.addEventListener("click", function () {
+        group.classList.toggle("closed");
+        tog.textContent = group.classList.contains("closed") ? "▸" : "▾";
+      });
+      row.appendChild(tog);
+      sec.subs.forEach(function (sub) {
+        var sa = document.createElement("a");
+        sa.href = "#" + sub.id;
+        sa.textContent = sub.num + " " + sub.title;
+        sa.className = "sub";
+        sa.dataset.sec = sub.id;
+        group.appendChild(sa);
+        links.push(sa);
+      });
+      group.classList.add("closed"); // サブ節は既定で折りたたみ
+    }
+    group.insertBefore(row, group.firstChild);
+    tocNav.appendChild(group);
   });
+
+  function expandGroup(id) {
+    links.forEach(function (a) {
+      if (a.dataset.sec !== id) return;
+      var group = a.closest(".toc-group");
+      if (group) {
+        group.classList.remove("closed");
+        var tog = group.querySelector(".toc-toggle");
+        if (tog) tog.textContent = "▾";
+      }
+    });
+  }
 
   function markDone(id, done) {
     links.forEach(function (a) {
@@ -60,6 +91,7 @@
     if (cur.id !== activeId) {
       activeId = cur.id;
       links.forEach(function (a) { a.classList.toggle("active", a.dataset.sec === activeId); });
+      expandGroup(activeId);
       var a = tocNav.querySelector('a[data-sec="' + activeId + '"]');
       if (a) a.scrollIntoView({ block: "nearest" });
     }

@@ -1,0 +1,2425 @@
+{
+ "meta": {
+  "file": "jw-level4-elementary-200",
+  "stage": "junior",
+  "description": "中学基礎拡張200語"
+ },
+ "words": [
+  {
+   "id": "jy_001",
+   "en": "bed",
+   "ja": "ベッド",
+   "pos": "noun",
+   "ex_en": "I go to bed at eleven every night.",
+   "ex_ja": "毎晩11時に寝ます。",
+   "level": 1,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jy_002",
+   "en": "rain",
+   "ja": "雨",
+   "pos": "noun",
+   "ex_en": "It looks like rain today.",
+   "ex_ja": "今日は雨が降りそうです。",
+   "level": 1,
+   "tags": [
+    "weather"
+   ]
+  },
+  {
+   "id": "jy_003",
+   "en": "wind",
+   "ja": "風",
+   "pos": "noun",
+   "ex_en": "The wind is strong by the sea.",
+   "ex_ja": "海のそばは風が強いです。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_004",
+   "en": "ship",
+   "ja": "船",
+   "pos": "noun",
+   "ex_en": "The ship left the port in the morning.",
+   "ex_ja": "船は朝、港を出発しました。",
+   "level": 1,
+   "tags": [
+    "transport"
+   ]
+  },
+  {
+   "id": "jy_005",
+   "en": "wall",
+   "ja": "壁",
+   "pos": "noun",
+   "ex_en": "There is a big picture on the wall.",
+   "ex_ja": "壁に大きな絵がかかっています。",
+   "level": 1,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jy_006",
+   "en": "sea",
+   "ja": "海",
+   "pos": "noun",
+   "ex_en": "We swam in the sea last summer.",
+   "ex_ja": "去年の夏、海で泳ぎました。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_007",
+   "en": "star",
+   "ja": "星",
+   "pos": "noun",
+   "ex_en": "Many stars were shining in the sky.",
+   "ex_ja": "空にたくさんの星が輝いていました。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_008",
+   "en": "moon",
+   "ja": "月",
+   "pos": "noun",
+   "ex_en": "The moon was bright last night.",
+   "ex_ja": "昨夜は月が明るかったです。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_009",
+   "en": "bird",
+   "ja": "鳥",
+   "pos": "noun",
+   "ex_en": "A small bird is singing outside.",
+   "ex_ja": "小さな鳥が外で歌っています。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_010",
+   "en": "fish",
+   "ja": "魚",
+   "pos": "noun",
+   "ex_en": "My father caught three fish yesterday.",
+   "ex_ja": "父は昨日魚を3匹釣りました。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_011",
+   "en": "horse",
+   "ja": "馬",
+   "pos": "noun",
+   "ex_en": "She can ride a horse very well.",
+   "ex_ja": "彼女は馬に乗るのがとても上手です。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_012",
+   "en": "pig",
+   "ja": "豚",
+   "pos": "noun",
+   "ex_en": "There are five pigs on the farm.",
+   "ex_ja": "農場に豚が5頭います。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_013",
+   "en": "sheep",
+   "ja": "羊",
+   "pos": "noun",
+   "ex_en": "Sheep are eating grass on the hill.",
+   "ex_ja": "羊が丘の上で草を食べています。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_014",
+   "en": "duck",
+   "ja": "アヒル",
+   "pos": "noun",
+   "ex_en": "Two ducks are swimming in the pond.",
+   "ex_ja": "アヒルが2羽、池で泳いでいます。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_015",
+   "en": "chicken",
+   "ja": "鶏；チキン",
+   "pos": "noun",
+   "ex_en": "We had fried chicken for dinner.",
+   "ex_ja": "夕食にフライドチキンを食べました。",
+   "level": 1,
+   "tags": [
+    "animal",
+    "food"
+   ]
+  },
+  {
+   "id": "jy_016",
+   "en": "potato",
+   "ja": "ジャガイモ",
+   "pos": "noun",
+   "ex_en": "Please buy some potatoes at the store.",
+   "ex_ja": "店でジャガイモを買ってきてください。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_017",
+   "en": "salt",
+   "ja": "塩",
+   "pos": "noun",
+   "ex_en": "This soup needs a little more salt.",
+   "ex_ja": "このスープは塩が少し足りません。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_018",
+   "en": "sugar",
+   "ja": "砂糖",
+   "pos": "noun",
+   "ex_en": "Do you take sugar in your coffee?",
+   "ex_ja": "コーヒーに砂糖を入れますか。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_019",
+   "en": "glass",
+   "ja": "コップ；ガラス",
+   "pos": "noun",
+   "ex_en": "May I have a glass of water?",
+   "ex_ja": "コップ1杯の水をいただけますか。",
+   "level": 1,
+   "tags": [
+    "home",
+    "object"
+   ]
+  },
+  {
+   "id": "jy_020",
+   "en": "bag",
+   "ja": "かばん；袋",
+   "pos": "noun",
+   "ex_en": "My bag is heavier than yours.",
+   "ex_ja": "私のかばんはあなたのより重いです。",
+   "level": 1,
+   "tags": [
+    "school",
+    "object"
+   ]
+  },
+  {
+   "id": "jy_021",
+   "en": "lock",
+   "ja": "錠；施錠する",
+   "pos": "noun",
+   "ex_en": "Remember to lock the door when you leave.",
+   "ex_ja": "出るときはドアに鍵をかけるのを忘れないで。",
+   "level": 2,
+   "tags": [
+    "home",
+    "action"
+   ]
+  },
+  {
+   "id": "jy_022",
+   "en": "page",
+   "ja": "ページ",
+   "pos": "noun",
+   "ex_en": "Open your book to page twenty.",
+   "ex_ja": "本の20ページを開いてください。",
+   "level": 1,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jy_023",
+   "en": "line",
+   "ja": "線；列",
+   "pos": "noun",
+   "ex_en": "Draw a straight line under the word.",
+   "ex_ja": "その単語の下にまっすぐ線を引きなさい。",
+   "level": 1,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jy_024",
+   "en": "square",
+   "ja": "正方形；広場",
+   "pos": "noun",
+   "ex_en": "A square has four equal sides.",
+   "ex_ja": "正方形は4つの辺が同じ長さです。",
+   "level": 2,
+   "tags": [
+    "shape"
+   ]
+  },
+  {
+   "id": "jy_025",
+   "en": "team",
+   "ja": "チーム",
+   "pos": "noun",
+   "ex_en": "Our team won the game yesterday.",
+   "ex_ja": "昨日、私たちのチームは試合に勝ちました。",
+   "level": 1,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jy_026",
+   "en": "club",
+   "ja": "クラブ；部活動",
+   "pos": "noun",
+   "ex_en": "I joined the music club this year.",
+   "ex_ja": "今年、音楽部に入りました。",
+   "level": 1,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jy_027",
+   "en": "game",
+   "ja": "試合；ゲーム",
+   "pos": "noun",
+   "ex_en": "Did you watch the baseball game?",
+   "ex_ja": "野球の試合を見ましたか。",
+   "level": 1,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jy_028",
+   "en": "song",
+   "ja": "歌",
+   "pos": "noun",
+   "ex_en": "This song is popular among students.",
+   "ex_ja": "この歌は学生の間で人気があります。",
+   "level": 1,
+   "tags": [
+    "music"
+   ]
+  },
+  {
+   "id": "jy_029",
+   "en": "dance",
+   "ja": "踊る；ダンス",
+   "pos": "verb",
+   "ex_en": "They danced all night at the party.",
+   "ex_ja": "彼らはパーティーで一晩中踊りました。",
+   "level": 1,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jy_030",
+   "en": "picture",
+   "ja": "絵；写真",
+   "pos": "noun",
+   "ex_en": "She drew a picture of her family.",
+   "ex_ja": "彼女は家族の絵を描きました。",
+   "level": 1,
+   "tags": [
+    "art"
+   ]
+  },
+  {
+   "id": "jy_031",
+   "en": "photo",
+   "ja": "写真",
+   "pos": "noun",
+   "ex_en": "Let me take a photo of you two.",
+   "ex_ja": "お二人の写真を撮りましょう。",
+   "level": 1,
+   "tags": [
+    "media"
+   ]
+  },
+  {
+   "id": "jy_032",
+   "en": "dream",
+   "ja": "夢",
+   "pos": "noun",
+   "ex_en": "My dream is to become a doctor.",
+   "ex_ja": "私の夢は医者になることです。",
+   "level": 1,
+   "tags": [
+    "mind"
+   ]
+  },
+  {
+   "id": "jy_033",
+   "en": "noise",
+   "ja": "騒音；物音",
+   "pos": "noun",
+   "ex_en": "I heard a strange noise upstairs.",
+   "ex_ja": "2階で変な物音が聞こえました。",
+   "level": 2,
+   "tags": [
+    "sound"
+   ]
+  },
+  {
+   "id": "jy_034",
+   "en": "voice",
+   "ja": "声",
+   "pos": "noun",
+   "ex_en": "I knew her at once by her voice.",
+   "ex_ja": "声ですぐに彼女と分かりました。",
+   "level": 1,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jy_035",
+   "en": "smile",
+   "ja": "微笑む；笑顔",
+   "pos": "verb",
+   "ex_en": "She smiled at me and said hello.",
+   "ex_ja": "彼女は私に微笑んで挨拶しました。",
+   "level": 1,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jy_036",
+   "en": "cry",
+   "ja": "泣く",
+   "pos": "verb",
+   "ex_en": "The baby started to cry loudly.",
+   "ex_ja": "赤ちゃんが大声で泣き始めました。",
+   "level": 1,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jy_037",
+   "en": "swim",
+   "ja": "泳ぐ",
+   "pos": "verb",
+   "ex_en": "Can you swim across this river?",
+   "ex_ja": "この川を泳いで渡れますか。",
+   "level": 1,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jy_038",
+   "en": "fly",
+   "ja": "飛ぶ",
+   "pos": "verb",
+   "ex_en": "Birds fly south in winter.",
+   "ex_ja": "鳥は冬に南へ飛んでいきます。",
+   "level": 1,
+   "tags": [
+    "movement"
+   ]
+  },
+  {
+   "id": "jy_039",
+   "en": "push",
+   "ja": "押す",
+   "pos": "verb",
+   "ex_en": "Push the door gently, please.",
+   "ex_ja": "ドアをやさしく押してください。",
+   "level": 1,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jy_040",
+   "en": "pull",
+   "ja": "引く",
+   "pos": "verb",
+   "ex_en": "Pull the chair closer to the desk.",
+   "ex_ja": "椅子を机の近くに引いてください。",
+   "level": 1,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jy_041",
+   "en": "carry",
+   "ja": "運ぶ",
+   "pos": "verb",
+   "ex_en": "He carried the box up the stairs.",
+   "ex_ja": "彼は箱を持って階段を上がりました。",
+   "level": 1,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jy_042",
+   "en": "wear",
+   "ja": "着る；（めがね等を）かける",
+   "pos": "verb",
+   "ex_en": "She wears glasses when she reads.",
+   "ex_ja": "彼女は読書するときめがねをかけます。",
+   "level": 1,
+   "tags": [
+    "clothes"
+   ]
+  },
+  {
+   "id": "jy_043",
+   "en": "wash",
+   "ja": "洗う",
+   "pos": "verb",
+   "ex_en": "Wash your hands before dinner.",
+   "ex_ja": "夕食の前に手を洗ってください。",
+   "level": 1,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jy_044",
+   "en": "clean",
+   "ja": "きれいな；掃除する",
+   "pos": "adj",
+   "ex_en": "Please keep your room clean.",
+   "ex_ja": "部屋をきれいにしておいてください。",
+   "level": 1,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_045",
+   "en": "sell",
+   "ja": "売る",
+   "pos": "verb",
+   "ex_en": "This shop sells fresh vegetables.",
+   "ex_ja": "この店は新鮮な野菜を売っています。",
+   "level": 1,
+   "tags": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "jy_046",
+   "en": "pay",
+   "ja": "払う",
+   "pos": "verb",
+   "ex_en": "I paid ten dollars for this book.",
+   "ex_ja": "私はこの本に10ドル払いました。",
+   "level": 1,
+   "tags": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "jy_047",
+   "en": "send",
+   "ja": "送る",
+   "pos": "verb",
+   "ex_en": "I will send you an email tonight.",
+   "ex_ja": "今夜あなたにメールを送ります。",
+   "level": 1,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jy_048",
+   "en": "teach",
+   "ja": "教える",
+   "pos": "verb",
+   "ex_en": "Mr. Sato teaches us math twice a week.",
+   "ex_ja": "佐藤先生は週2回数学を教えてくれます。",
+   "level": 1,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jy_049",
+   "en": "speak",
+   "ja": "話す；（言語を）話す",
+   "pos": "verb",
+   "ex_en": "Do you speak any other languages?",
+   "ex_ja": "他の言語を話せますか。",
+   "level": 1,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jy_050",
+   "en": "sky",
+   "ja": "空",
+   "pos": "noun",
+   "ex_en": "The sky is clear and blue today.",
+   "ex_ja": "今日は空が晴れて青いです。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_051",
+   "en": "cloud",
+   "ja": "雲",
+   "pos": "noun",
+   "ex_en": "Dark clouds covered the whole sky.",
+   "ex_ja": "黒い雲が空一面を覆いました。",
+   "level": 1,
+   "tags": [
+    "weather"
+   ]
+  },
+  {
+   "id": "jy_052",
+   "en": "storm",
+   "ja": "嵐",
+   "pos": "noun",
+   "ex_en": "The storm knocked down many trees.",
+   "ex_ja": "嵐で多くの木が倒れました。",
+   "level": 2,
+   "tags": [
+    "weather"
+   ]
+  },
+  {
+   "id": "jy_053",
+   "en": "snow",
+   "ja": "雪",
+   "pos": "noun",
+   "ex_en": "Heavy snow closed the mountain road.",
+   "ex_ja": "大雪で山道が通行止めになりました。",
+   "level": 1,
+   "tags": [
+    "weather"
+   ]
+  },
+  {
+   "id": "jy_054",
+   "en": "ice",
+   "ja": "氷",
+   "pos": "noun",
+   "ex_en": "The lake is covered with ice in winter.",
+   "ex_ja": "冬、湖は氷で覆われます。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_055",
+   "en": "light",
+   "ja": "光；明るい",
+   "pos": "noun",
+   "ex_en": "Turn off the light before you sleep.",
+   "ex_ja": "寝る前に電気を消してね。",
+   "level": 1,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "jy_056",
+   "en": "dark",
+   "ja": "暗い",
+   "pos": "adj",
+   "ex_en": "It gets dark early in winter.",
+   "ex_ja": "冬は早く暗くなります。",
+   "level": 1,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_057",
+   "en": "air",
+   "ja": "空気",
+   "pos": "noun",
+   "ex_en": "Open the window and let in some fresh air.",
+   "ex_ja": "窓を開けて新鮮な空気を入れてください。",
+   "level": 1,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "jy_058",
+   "en": "earth",
+   "ja": "地球；土",
+   "pos": "noun",
+   "ex_en": "The earth goes around the sun.",
+   "ex_ja": "地球は太陽の周りを回ります。",
+   "level": 1,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "jy_059",
+   "en": "stone",
+   "ja": "石",
+   "pos": "noun",
+   "ex_en": "He threw a stone into the river.",
+   "ex_ja": "彼は川に石を投げました。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_060",
+   "en": "sand",
+   "ja": "砂",
+   "pos": "noun",
+   "ex_en": "Children were playing in the sand.",
+   "ex_ja": "子どもたちは砂遊びをしていました。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_061",
+   "en": "rock",
+   "ja": "岩",
+   "pos": "noun",
+   "ex_en": "We sat on a big rock by the shore.",
+   "ex_ja": "私たちは海岸の大きな岩に座りました。",
+   "level": 2,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_062",
+   "en": "wood",
+   "ja": "木；木材",
+   "pos": "noun",
+   "ex_en": "This table is made of wood.",
+   "ex_ja": "このテーブルは木製です。",
+   "level": 1,
+   "tags": [
+    "material"
+   ]
+  },
+  {
+   "id": "jy_063",
+   "en": "paper",
+   "ja": "紙",
+   "pos": "noun",
+   "ex_en": "Please write your name on this piece of paper.",
+   "ex_ja": "この紙に名前を書いてください。",
+   "level": 1,
+   "tags": [
+    "material",
+    "school"
+   ]
+  },
+  {
+   "id": "jy_064",
+   "en": "string",
+   "ja": "ひも",
+   "pos": "noun",
+   "ex_en": "Tie the package with a piece of string.",
+   "ex_ja": "荷物をひもで縛ってください。",
+   "level": 2,
+   "tags": [
+    "object"
+   ]
+  },
+  {
+   "id": "jy_065",
+   "en": "rope",
+   "ja": "ロープ",
+   "pos": "noun",
+   "ex_en": "Hold the rope tightly with both hands.",
+   "ex_ja": "両手でロープをしっかり握って。",
+   "level": 2,
+   "tags": [
+    "object"
+   ]
+  },
+  {
+   "id": "jy_066",
+   "en": "pillow",
+   "ja": "まくら",
+   "pos": "noun",
+   "ex_en": "She put her head on the soft pillow.",
+   "ex_ja": "彼女は柔らかいまくらに頭を乗せました。",
+   "level": 2,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jy_067",
+   "en": "towel",
+   "ja": "タオル",
+   "pos": "noun",
+   "ex_en": "Bring a towel when you go swimming.",
+   "ex_ja": "水泳に行くときはタオルを持ってきて。",
+   "level": 1,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jy_068",
+   "en": "soap",
+   "ja": "石けん",
+   "pos": "noun",
+   "ex_en": "Wash your hands with soap and water.",
+   "ex_ja": "石けんと水で手を洗いなさい。",
+   "level": 1,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jy_069",
+   "en": "knife",
+   "ja": "ナイフ",
+   "pos": "noun",
+   "ex_en": "Use this knife to cut the bread.",
+   "ex_ja": "パンを切るのにこのナイフを使って。",
+   "level": 1,
+   "tags": [
+    "kitchen"
+   ]
+  },
+  {
+   "id": "jy_070",
+   "en": "leg",
+   "ja": "脚",
+   "pos": "noun",
+   "ex_en": "My leg hurts after running.",
+   "ex_ja": "走った後、脚が痛いです。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_071",
+   "en": "arm",
+   "ja": "腕",
+   "pos": "noun",
+   "ex_en": "She broke her arm playing soccer.",
+   "ex_ja": "彼女はサッカーで腕を骨折しました。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_072",
+   "en": "knee",
+   "ja": "ひざ",
+   "pos": "noun",
+   "ex_en": "I hurt my knee in gym class.",
+   "ex_ja": "体育の授業でひざを痛めました。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_073",
+   "en": "shoulder",
+   "ja": "肩",
+   "pos": "noun",
+   "ex_en": "He put his hand on my shoulder.",
+   "ex_ja": "彼は私の肩に手を置きました。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_074",
+   "en": "stomach",
+   "ja": "胃；お腹",
+   "pos": "noun",
+   "ex_en": "My stomach aches a little.",
+   "ex_ja": "お腹が少し痛いです。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_075",
+   "en": "skin",
+   "ja": "皮膚；肌",
+   "pos": "noun",
+   "ex_en": "Be careful not to burn your skin in the sun.",
+   "ex_ja": "日焼けで肌を焼かないように注意して。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_076",
+   "en": "hair",
+   "ja": "髪",
+   "pos": "noun",
+   "ex_en": "She has long black hair.",
+   "ex_ja": "彼女は黒い長い髪をしています。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_077",
+   "en": "face",
+   "ja": "顔",
+   "pos": "noun",
+   "ex_en": "His face turned red when he ran.",
+   "ex_ja": "走ったとき彼の顔は赤くなりました。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_078",
+   "en": "mouth",
+   "ja": "口",
+   "pos": "noun",
+   "ex_en": "Don't talk with your mouth full.",
+   "ex_ja": "口に物を入れたまま話さないで。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_079",
+   "en": "nose",
+   "ja": "鼻",
+   "pos": "noun",
+   "ex_en": "The dog touched my hand with its nose.",
+   "ex_ja": "犬が鼻で私の手に触れました。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_080",
+   "en": "ear",
+   "ja": "耳",
+   "pos": "noun",
+   "ex_en": "I listened to music with both ears.",
+   "ex_ja": "両耳で音楽を聞きました。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_081",
+   "en": "tooth",
+   "ja": "歯",
+   "pos": "noun",
+   "ex_en": "Brush your teeth after every meal.",
+   "ex_ja": "毎食後に歯を磨きなさい。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_082",
+   "en": "neck",
+   "ja": "首",
+   "pos": "noun",
+   "ex_en": "She wore a small necklace around her neck.",
+   "ex_ja": "彼女は首に小さなネックレスをしていました。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_083",
+   "en": "finger",
+   "ja": "指",
+   "pos": "noun",
+   "ex_en": "She wears a ring on her little finger.",
+   "ex_ja": "彼女は小指に指輪をしています。",
+   "level": 1,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jy_084",
+   "en": "uncle",
+   "ja": "おじ；伯父",
+   "pos": "noun",
+   "ex_en": "My uncle lives in Osaka with his family.",
+   "ex_ja": "おじは家族と大阪に住んでいます。",
+   "level": 1,
+   "tags": [
+    "people"
+   ]
+  },
+  {
+   "id": "jy_085",
+   "en": "nephew",
+   "ja": "甥",
+   "pos": "noun",
+   "ex_en": "My nephew is five years old.",
+   "ex_ja": "私の甥は5歳です。",
+   "level": 2,
+   "tags": [
+    "people"
+   ]
+  },
+  {
+   "id": "jy_086",
+   "en": "niece",
+   "ja": "姪",
+   "pos": "noun",
+   "ex_en": "I bought a present for my niece.",
+   "ex_ja": "姪にプレゼントを買いました。",
+   "level": 2,
+   "tags": [
+    "people"
+   ]
+  },
+  {
+   "id": "jy_087",
+   "en": "husband",
+   "ja": "夫",
+   "pos": "noun",
+   "ex_en": "Her husband works at a hospital.",
+   "ex_ja": "彼女の夫は病院で働いています。",
+   "level": 1,
+   "tags": [
+    "people"
+   ]
+  },
+  {
+   "id": "jy_088",
+   "en": "wife",
+   "ja": "妻",
+   "pos": "noun",
+   "ex_en": "He introduced us to his wife.",
+   "ex_ja": "彼は私たちに奥さんを紹介しました。",
+   "level": 1,
+   "tags": [
+    "people"
+   ]
+  },
+  {
+   "id": "jy_089",
+   "en": "neighbor",
+   "ja": "隣人",
+   "pos": "noun",
+   "ex_en": "Our neighbor helped us move the piano.",
+   "ex_ja": "隣人がピアノを動かすのを手伝ってくれました。",
+   "level": 2,
+   "tags": [
+    "people"
+   ]
+  },
+  {
+   "id": "jy_090",
+   "en": "farmer",
+   "ja": "農家；農場主",
+   "pos": "noun",
+   "ex_en": "The farmer grows rice every year.",
+   "ex_ja": "その農家は毎年米を作っています。",
+   "level": 1,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jy_091",
+   "en": "driver",
+   "ja": "運転手",
+   "pos": "noun",
+   "ex_en": "The bus driver knows all the streets here.",
+   "ex_ja": "バスの運転手はここの道をすべて知っています。",
+   "level": 1,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jy_092",
+   "en": "pilot",
+   "ja": "操縦士",
+   "pos": "noun",
+   "ex_en": "He wants to be a pilot someday.",
+   "ex_ja": "彼はいつか操縦士になりたいと思っています。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jy_093",
+   "en": "sailor",
+   "ja": "船員",
+   "pos": "noun",
+   "ex_en": "The sailor has traveled around the world.",
+   "ex_ja": "その船員は世界中を旅したことがあります。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jy_094",
+   "en": "musician",
+   "ja": "音楽家",
+   "pos": "noun",
+   "ex_en": "She plays the piano like a real musician.",
+   "ex_ja": "彼女はまるでプロの音楽家のようにピアノを弾きます。",
+   "level": 2,
+   "tags": [
+    "job",
+    "music"
+   ]
+  },
+  {
+   "id": "jy_095",
+   "en": "engineer",
+   "ja": "技師；エンジニア",
+   "pos": "noun",
+   "ex_en": "My brother is an engineer at a car company.",
+   "ex_ja": "兄は自動車会社のエンジニアです。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jy_096",
+   "en": "waiter",
+   "ja": "ウェイター",
+   "pos": "noun",
+   "ex_en": "The waiter brought our drinks quickly.",
+   "ex_ja": "ウェイターは飲み物をすぐに持ってきました。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jy_097",
+   "en": "winter",
+   "ja": "冬",
+   "pos": "noun",
+   "ex_en": "We build snowmen every winter.",
+   "ex_ja": "毎年冬に雪だるまを作ります。",
+   "level": 1,
+   "tags": [
+    "time",
+    "season"
+   ]
+  },
+  {
+   "id": "jy_098",
+   "en": "summer",
+   "ja": "夏",
+   "pos": "noun",
+   "ex_en": "Summer vacation starts next week.",
+   "ex_ja": "来週から夏休みです。",
+   "level": 1,
+   "tags": [
+    "time",
+    "season"
+   ]
+  },
+  {
+   "id": "jy_099",
+   "en": "spring",
+   "ja": "春",
+   "pos": "noun",
+   "ex_en": "Cherry trees bloom in spring.",
+   "ex_ja": "春には桜が咲きます。",
+   "level": 1,
+   "tags": [
+    "time",
+    "season"
+   ]
+  },
+  {
+   "id": "jy_100",
+   "en": "season",
+   "ja": "季節",
+   "pos": "noun",
+   "ex_en": "Which season do you like best?",
+   "ex_ja": "どの季節が一番好きですか。",
+   "level": 1,
+   "tags": [
+    "time",
+    "season"
+   ]
+  },
+  {
+   "id": "jy_101",
+   "en": "north",
+   "ja": "北",
+   "pos": "noun",
+   "ex_en": "Hokkaido is in the north of Japan.",
+   "ex_ja": "北海道は日本の北にあります。",
+   "level": 1,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jy_102",
+   "en": "south",
+   "ja": "南",
+   "pos": "noun",
+   "ex_en": "We drove south along the coast.",
+   "ex_ja": "私たちは海岸に沿って南へ車で行きました。",
+   "level": 1,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jy_103",
+   "en": "east",
+   "ja": "東",
+   "pos": "noun",
+   "ex_en": "The sun rises in the east.",
+   "ex_ja": "太陽は東から昇ります。",
+   "level": 1,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jy_104",
+   "en": "west",
+   "ja": "西",
+   "pos": "noun",
+   "ex_en": "The wind blows from the west today.",
+   "ex_ja": "今日は西から風が吹いています。",
+   "level": 1,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jy_105",
+   "en": "direction",
+   "ja": "方向",
+   "pos": "noun",
+   "ex_en": "Which direction is the station?",
+   "ex_ja": "駅はどちらの方向ですか。",
+   "level": 2,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jy_106",
+   "en": "distance",
+   "ja": "距離",
+   "pos": "noun",
+   "ex_en": "The school is a short distance from my house.",
+   "ex_ja": "学校は家から少し離れた距離にあります。",
+   "level": 2,
+   "tags": [
+    "measure"
+   ]
+  },
+  {
+   "id": "jy_107",
+   "en": "meter",
+   "ja": "メートル",
+   "pos": "noun",
+   "ex_en": "The pool is twenty-five meters long.",
+   "ex_ja": "そのプールは25メートルの長さです。",
+   "level": 1,
+   "tags": [
+    "measure"
+   ]
+  },
+  {
+   "id": "jy_108",
+   "en": "weight",
+   "ja": "重さ；重量",
+   "pos": "noun",
+   "ex_en": "Check the weight of your bag before the trip.",
+   "ex_ja": "旅行の前にかばんの重さを確かめて。",
+   "level": 2,
+   "tags": [
+    "measure"
+   ]
+  },
+  {
+   "id": "jy_109",
+   "en": "size",
+   "ja": "大きさ；サイズ",
+   "pos": "noun",
+   "ex_en": "What size shoes do you wear?",
+   "ex_ja": "靴のサイズはいくつですか。",
+   "level": 1,
+   "tags": [
+    "measure"
+   ]
+  },
+  {
+   "id": "jy_110",
+   "en": "shape",
+   "ja": "形",
+   "pos": "noun",
+   "ex_en": "This cloud has a strange shape.",
+   "ex_ja": "この雲は変な形をしています。",
+   "level": 1,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_111",
+   "en": "color",
+   "ja": "色",
+   "pos": "noun",
+   "ex_en": "What color is your new bicycle?",
+   "ex_ja": "新しい自転車は何色ですか。",
+   "level": 1,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_112",
+   "en": "taste",
+   "ja": "味；味わう",
+   "pos": "noun",
+   "ex_en": "This cake has a wonderful taste.",
+   "ex_ja": "このケーキはとてもおいしい味がします。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_113",
+   "en": "smell",
+   "ja": "匂い；匂う",
+   "pos": "noun",
+   "ex_en": "I love the smell of fresh bread.",
+   "ex_ja": "焼きたてのパンの匂いが大好きです。",
+   "level": 1,
+   "tags": [
+    "sense"
+   ]
+  },
+  {
+   "id": "jy_114",
+   "en": "sound",
+   "ja": "音；聞こえる",
+   "pos": "noun",
+   "ex_en": "I heard the sound of rain outside.",
+   "ex_ja": "外で雨の音が聞こえました。",
+   "level": 1,
+   "tags": [
+    "sound"
+   ]
+  },
+  {
+   "id": "jy_115",
+   "en": "prize",
+   "ja": "賞；賞品",
+   "pos": "noun",
+   "ex_en": "She won first prize in the speech contest.",
+   "ex_ja": "彼女はスピーチコンテストで優勝しました。",
+   "level": 2,
+   "tags": [
+    "achievement"
+   ]
+  },
+  {
+   "id": "jy_116",
+   "en": "medal",
+   "ja": "メダル",
+   "pos": "noun",
+   "ex_en": "He got a gold medal at the Olympics.",
+   "ex_ja": "彼はオリンピックで金メダルを取りました。",
+   "level": 2,
+   "tags": [
+    "sports",
+    "achievement"
+   ]
+  },
+  {
+   "id": "jy_117",
+   "en": "score",
+   "ja": "得点；得点する",
+   "pos": "noun",
+   "ex_en": "Our score was two to one.",
+   "ex_ja": "スコアは2対1でした。",
+   "level": 2,
+   "tags": [
+    "sports",
+    "school"
+   ]
+  },
+  {
+   "id": "jy_118",
+   "en": "result",
+   "ja": "結果",
+   "pos": "noun",
+   "ex_en": "I was happy with the result of the test.",
+   "ex_ja": "テストの結果に満足しています。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jy_119",
+   "en": "race",
+   "ja": "レース；競争",
+   "pos": "noun",
+   "ex_en": "He ran a race against his best friend.",
+   "ex_ja": "彼は親友とレースをしました。",
+   "level": 1,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jy_120",
+   "en": "stadium",
+   "ja": "スタジアム；球場",
+   "pos": "noun",
+   "ex_en": "Thousands of fans filled the stadium.",
+   "ex_ja": "何千人ものファンがスタジアムを埋めました。",
+   "level": 2,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jy_121",
+   "en": "quiet",
+   "ja": "静かな",
+   "pos": "adj",
+   "ex_en": "Please be quiet in the library.",
+   "ex_ja": "図書館では静かにしてください。",
+   "level": 1,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_122",
+   "en": "noisy",
+   "ja": "うるさい",
+   "pos": "adj",
+   "ex_en": "The street is noisy at night.",
+   "ex_ja": "その通りは夜うるさいです。",
+   "level": 1,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_123",
+   "en": "clever",
+   "ja": "頭が良い；器用な",
+   "pos": "adj",
+   "ex_en": "She found a clever way to solve the problem.",
+   "ex_ja": "彼女は問題を解く賢い方法を見つけました。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_124",
+   "en": "wise",
+   "ja": "賢い；知的な",
+   "pos": "adj",
+   "ex_en": "It was wise of you to ask for help.",
+   "ex_ja": "助けを求めたのは賢明でしたね。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_125",
+   "en": "lazy",
+   "ja": "怠けた；なまけた",
+   "pos": "adj",
+   "ex_en": "Don't be lazy about your homework.",
+   "ex_ja": "宿題をサボってはいけません。",
+   "level": 1,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_126",
+   "en": "gentle",
+   "ja": "やさしい；穏やかな",
+   "pos": "adj",
+   "ex_en": "She spoke to the baby in a gentle voice.",
+   "ex_ja": "彼女は赤ちゃんにやさしい声で話しかけました。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_127",
+   "en": "careless",
+   "ja": "不注意な；うっかりした",
+   "pos": "adj",
+   "ex_en": "Careless mistakes cost him the game.",
+   "ex_ja": "うっかりミスで彼は試合に負けました。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jy_128",
+   "en": "lucky",
+   "ja": "運のよい",
+   "pos": "adj",
+   "ex_en": "You are lucky to have such good friends.",
+   "ex_ja": "こんな良い友だちがいて幸運ですね。",
+   "level": 1,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jy_129",
+   "en": "unhappy",
+   "ja": "不幸せな；悲しい",
+   "pos": "adj",
+   "ex_en": "He looked unhappy after the test.",
+   "ex_ja": "テストの後、彼は悲しそうでした。",
+   "level": 1,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jy_130",
+   "en": "angry",
+   "ja": "怒った",
+   "pos": "adj",
+   "ex_en": "Dad was angry because I came home late.",
+   "ex_ja": "帰宅が遅かったので父は怒っていました。",
+   "level": 1,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jy_131",
+   "en": "sad",
+   "ja": "悲しい",
+   "pos": "adj",
+   "ex_en": "The movie had a sad ending.",
+   "ex_ja": "その映画は悲しい結末でした。",
+   "level": 1,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jy_132",
+   "en": "return",
+   "ja": "戻る；返す",
+   "pos": "verb",
+   "ex_en": "I will return this book to the library tomorrow.",
+   "ex_ja": "明日この本を図書館に返します。",
+   "level": 1,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jy_133",
+   "en": "leave",
+   "ja": "出発する；残す",
+   "pos": "verb",
+   "ex_en": "What time does your train leave?",
+   "ex_ja": "あなたの電車は何時に出ますか。",
+   "level": 1,
+   "tags": [
+    "movement"
+   ]
+  },
+  {
+   "id": "jy_134",
+   "en": "remember",
+   "ja": "覚えている；思い出す",
+   "pos": "verb",
+   "ex_en": "I remember meeting her last year.",
+   "ex_ja": "去年彼女に会ったことを覚えています。",
+   "level": 1,
+   "tags": [
+    "mind"
+   ]
+  },
+  {
+   "id": "jy_135",
+   "en": "forget",
+   "ja": "忘れる",
+   "pos": "verb",
+   "ex_en": "Don't forget to bring your lunch.",
+   "ex_ja": "昼食を持ってくるのを忘れないで。",
+   "level": 1,
+   "tags": [
+    "mind"
+   ]
+  },
+  {
+   "id": "jy_136",
+   "en": "understand",
+   "ja": "理解する；わかる",
+   "pos": "verb",
+   "ex_en": "Now I understand how this works.",
+   "ex_ja": "これがどう動くのか今なら分かります。",
+   "level": 1,
+   "tags": [
+    "mind"
+   ]
+  },
+  {
+   "id": "jy_137",
+   "en": "wish",
+   "ja": "願う；願い",
+   "pos": "verb",
+   "ex_en": "Happy birthday! We wish you a wonderful year.",
+   "ex_ja": "誕生日おめでとう!素敵な一年になりますように!",
+   "level": 1,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jy_138",
+   "en": "hide",
+   "ja": "隠れる；隠す",
+   "pos": "verb",
+   "ex_en": "The cat likes to hide under the bed.",
+   "ex_ja": "猫はベッドの下に隠れるのが好きです。",
+   "level": 1,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jy_139",
+   "en": "catch",
+   "ja": "捕まえる；（ボールを）取る",
+   "pos": "verb",
+   "ex_en": "Can you catch the ball with one hand?",
+   "ex_ja": "片手でボールを取れますか。",
+   "level": 1,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jy_140",
+   "en": "throw",
+   "ja": "投げる",
+   "pos": "verb",
+   "ex_en": "Throw the ball to me when you're ready.",
+   "ex_ja": "準備ができたらボールを投げて。",
+   "level": 1,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jy_141",
+   "en": "kick",
+   "ja": "ける",
+   "pos": "verb",
+   "ex_en": "He kicked the ball over the fence.",
+   "ex_ja": "彼はボールを塀の向こうへ蹴りました。",
+   "level": 1,
+   "tags": [
+    "action",
+    "sports"
+   ]
+  },
+  {
+   "id": "jy_142",
+   "en": "hit",
+   "ja": "打つ；ぶつかる",
+   "pos": "verb",
+   "ex_en": "She hit the ball farther than anyone.",
+   "ex_ja": "彼女は誰よりも遠くにボールを打ちました。",
+   "level": 1,
+   "tags": [
+    "action",
+    "sports"
+   ]
+  },
+  {
+   "id": "jy_143",
+   "en": "ride",
+   "ja": "乗る；一乗り",
+   "pos": "verb",
+   "ex_en": "I ride my bike to school every day.",
+   "ex_ja": "毎日自転車で通学しています。",
+   "level": 1,
+   "tags": [
+    "transport"
+   ]
+  },
+  {
+   "id": "jy_144",
+   "en": "skate",
+   "ja": "スケートをする",
+   "pos": "verb",
+   "ex_en": "We skate on the pond in winter.",
+   "ex_ja": "冬には池でスケートをします。",
+   "level": 2,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jy_145",
+   "en": "dive",
+   "ja": "飛び込む；ダイビングする",
+   "pos": "verb",
+   "ex_en": "He dove into the pool from the high board.",
+   "ex_ja": "彼は高い台からプールに飛び込みました。",
+   "level": 2,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jy_146",
+   "en": "sail",
+   "ja": "航海する；帆走する",
+   "pos": "verb",
+   "ex_en": "They sailed around the island in a small boat.",
+   "ex_ja": "彼らは小さな舟で島を一周しました。",
+   "level": 2,
+   "tags": [
+    "transport"
+   ]
+  },
+  {
+   "id": "jy_147",
+   "en": "drive",
+   "ja": "運転する",
+   "pos": "verb",
+   "ex_en": "My mother drives me to practice on Saturdays.",
+   "ex_ja": "土曜日は母が練習まで送ってくれます。",
+   "level": 1,
+   "tags": [
+    "transport"
+   ]
+  },
+  {
+   "id": "jy_148",
+   "en": "butter",
+   "ja": "バター",
+   "pos": "noun",
+   "ex_en": "Spread some butter on the toast.",
+   "ex_ja": "トーストにバターを塗ってください。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_149",
+   "en": "honey",
+   "ja": "はちみつ",
+   "pos": "noun",
+   "ex_en": "Bees make honey from flowers.",
+   "ex_ja": "蜂は花からはちみつを作ります。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_150",
+   "en": "pepper",
+   "ja": "こしょう",
+   "pos": "noun",
+   "ex_en": "Add a little pepper to the soup.",
+   "ex_ja": "スープにこしょうを少々加えてください。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_151",
+   "en": "oil",
+   "ja": "油",
+   "pos": "noun",
+   "ex_en": "Heat the oil before you fry the fish.",
+   "ex_ja": "魚を焼く前に油を熱してください。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_152",
+   "en": "sandwich",
+   "ja": "サンドイッチ",
+   "pos": "noun",
+   "ex_en": "I made egg sandwiches for lunch.",
+   "ex_ja": "昼食に卵サンドイッチを作りました。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_153",
+   "en": "hamburger",
+   "ja": "ハンバーガー",
+   "pos": "noun",
+   "ex_en": "Let's get hamburgers after the game.",
+   "ex_ja": "試合の後にハンバーガーを食べよう。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_154",
+   "en": "salad",
+   "ja": "サラダ",
+   "pos": "noun",
+   "ex_en": "This salad is made of fresh vegetables.",
+   "ex_ja": "このサラダは新鮮な野菜で作られています。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_155",
+   "en": "soup",
+   "ja": "スープ",
+   "pos": "noun",
+   "ex_en": "A hot soup is good on cold days.",
+   "ex_ja": "寒い日には熱いスープがいいですね。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_156",
+   "en": "snack",
+   "ja": "間食；おやつ",
+   "pos": "noun",
+   "ex_en": "Have an apple as a snack instead of chips.",
+   "ex_ja": "ポテトチップスの代わりにりんごをおやつに食べなさい。",
+   "level": 2,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_157",
+   "en": "candy",
+   "ja": "キャンディ；あめ",
+   "pos": "noun",
+   "ex_en": "Too much candy is bad for your teeth.",
+   "ex_ja": "あめの食べすぎは歯に良くありません。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_158",
+   "en": "cookie",
+   "ja": "クッキー",
+   "pos": "noun",
+   "ex_en": "She baked cookies for the school fair.",
+   "ex_ja": "彼女は学校のバザー用にクッキーを焼きました。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_159",
+   "en": "popcorn",
+   "ja": "ポップコーン",
+   "pos": "noun",
+   "ex_en": "We ate popcorn while watching the movie.",
+   "ex_ja": "映画を見ながらポップコーンを食べました。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_160",
+   "en": "cheese",
+   "ja": "チーズ",
+   "pos": "noun",
+   "ex_en": "Mice love cheese, they say.",
+   "ex_ja": "ネズミはチーズが大好きらしいです。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_161",
+   "en": "bacon",
+   "ja": "ベーコン",
+   "pos": "noun",
+   "ex_en": "I had bacon and eggs for breakfast.",
+   "ex_ja": "朝食にベーコンエッグを食べました。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_162",
+   "en": "sausage",
+   "ja": "ソーセージ",
+   "pos": "noun",
+   "ex_en": "Grill the sausages for five minutes.",
+   "ex_ja": "ソーセージを5分焼いてください。",
+   "level": 1,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_163",
+   "en": "shrimp",
+   "ja": "エビ",
+   "pos": "noun",
+   "ex_en": "Shrimp is popular in Japanese cooking.",
+   "ex_ja": "エビは日本料理で人気があります。",
+   "level": 2,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jy_164",
+   "en": "crab",
+   "ja": "カニ",
+   "pos": "noun",
+   "ex_en": "We caught a small crab at the beach.",
+   "ex_ja": "浜辺で小さなカニを捕まえました。",
+   "level": 2,
+   "tags": [
+    "animal",
+    "food"
+   ]
+  },
+  {
+   "id": "jy_165",
+   "en": "octopus",
+   "ja": "タコ",
+   "pos": "noun",
+   "ex_en": "An octopus has eight arms.",
+   "ex_ja": "タコには8本の足があります。",
+   "level": 2,
+   "tags": [
+    "animal",
+    "food"
+   ]
+  },
+  {
+   "id": "jy_166",
+   "en": "island",
+   "ja": "島",
+   "pos": "noun",
+   "ex_en": "Japan is made up of many islands.",
+   "ex_ja": "日本は多くの島からできています。",
+   "level": 1,
+   "tags": [
+    "geography"
+   ]
+  },
+  {
+   "id": "jy_167",
+   "en": "wave",
+   "ja": "波",
+   "pos": "noun",
+   "ex_en": "Big waves hit the shore during the storm.",
+   "ex_ja": "嵐の間、大きな波が岸に打ち寄せました。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_168",
+   "en": "pond",
+   "ja": "池",
+   "pos": "noun",
+   "ex_en": "There are goldfish in the park pond.",
+   "ex_ja": "公園の池には金魚がいます。",
+   "level": 1,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_169",
+   "en": "valley",
+   "ja": "谷",
+   "pos": "noun",
+   "ex_en": "A river runs through the valley below.",
+   "ex_ja": "下の谷を川が流れています。",
+   "level": 2,
+   "tags": [
+    "geography"
+   ]
+  },
+  {
+   "id": "jy_170",
+   "en": "planet",
+   "ja": "惑星",
+   "pos": "noun",
+   "ex_en": "Earth is the third planet from the sun.",
+   "ex_ja": "地球は太陽から3番目の惑星です。",
+   "level": 2,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "jy_171",
+   "en": "tail",
+   "ja": "しっぽ",
+   "pos": "noun",
+   "ex_en": "My dog wags its tail when it's happy.",
+   "ex_ja": "うちの犬はうれしいとしっぽを振ります。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_172",
+   "en": "wing",
+   "ja": "翼；羽",
+   "pos": "noun",
+   "ex_en": "The bird broke its wing and couldn't fly.",
+   "ex_ja": "その鳥は翼を痛めて飛べませんでした。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_173",
+   "en": "feather",
+   "ja": "羽根",
+   "pos": "noun",
+   "ex_en": "I found a white feather on the grass.",
+   "ex_ja": "草の上に白い羽毛を見つけました。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_174",
+   "en": "shell",
+   "ja": "貝殻；殻",
+   "pos": "noun",
+   "ex_en": "She collects shells at the beach every summer.",
+   "ex_ja": "彼女は毎年夏、浜辺で貝殻を集めます。",
+   "level": 2,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jy_175",
+   "en": "ant",
+   "ja": "アリ",
+   "pos": "noun",
+   "ex_en": "Ants were carrying food to their nest.",
+   "ex_ja": "アリが巣に食べ物を運んでいました。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_176",
+   "en": "bee",
+   "ja": "ミツバチ",
+   "pos": "noun",
+   "ex_en": "A bee flew from flower to flower.",
+   "ex_ja": "ミツバチが花から花へ飛んでいきました。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_177",
+   "en": "butterfly",
+   "ja": "ちょう",
+   "pos": "noun",
+   "ex_en": "Two butterflies landed on our garden flowers.",
+   "ex_ja": "蝶が2匹、庭の花にとまりました。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_178",
+   "en": "spider",
+   "ja": "クモ",
+   "pos": "noun",
+   "ex_en": "There's a spider web in the corner.",
+   "ex_ja": "隅にクモの巣があります。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_179",
+   "en": "snake",
+   "ja": "ヘビ",
+   "pos": "noun",
+   "ex_en": "Some snakes are dangerous, but most are not.",
+   "ex_ja": "危険なヘビもありますが、ほとんどは安全です。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_180",
+   "en": "turtle",
+   "ja": "カメ",
+   "pos": "noun",
+   "ex_en": "Sea turtles lay their eggs on warm beaches.",
+   "ex_ja": "ウミガメは暖かい浜辺に卵を産みます。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_181",
+   "en": "frog",
+   "ja": "カエル",
+   "pos": "noun",
+   "ex_en": "Frogs sing loudly near the rice fields.",
+   "ex_ja": "田んぼの近くでカエルが大声で鳴いています。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_182",
+   "en": "whale",
+   "ja": "クジラ",
+   "pos": "noun",
+   "ex_en": "Whales are the largest animals on earth.",
+   "ex_ja": "クジラは地球上で最大の動物です。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_183",
+   "en": "dolphin",
+   "ja": "イルカ",
+   "pos": "noun",
+   "ex_en": "Dolphins are known to be very smart.",
+   "ex_ja": "イルカはとても賢いことで知られています。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_184",
+   "en": "shark",
+   "ja": "サメ",
+   "pos": "noun",
+   "ex_en": "We saw sharks at the aquarium.",
+   "ex_ja": "水族館でサメを見ました。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_185",
+   "en": "monkey",
+   "ja": "サル",
+   "pos": "noun",
+   "ex_en": "Monkeys climbed the trees for bananas.",
+   "ex_ja": "サルがバナナを求めて木に登りました。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_186",
+   "en": "zebra",
+   "ja": "シマウマ",
+   "pos": "noun",
+   "ex_en": "Each zebra has a different pattern of stripes.",
+   "ex_ja": "シマウマのしま模様は1頭ずつ違います。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_187",
+   "en": "rabbit",
+   "ja": "ウサギ",
+   "pos": "noun",
+   "ex_en": "The rabbit ate all the carrots in the garden.",
+   "ex_ja": "ウサギが庭のにんじんを全部食べました。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_188",
+   "en": "mouse",
+   "ja": "ネズミ",
+   "pos": "noun",
+   "ex_en": "A little mouse ran across the kitchen floor.",
+   "ex_ja": "小さなネズミが台所の床を走り抜けました。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_189",
+   "en": "wolf",
+   "ja": "オオカミ",
+   "pos": "noun",
+   "ex_en": "Wolves hunt together in groups.",
+   "ex_ja": "オオカミは群れで一緒に狩りをします。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_190",
+   "en": "bear",
+   "ja": "クマ",
+   "pos": "noun",
+   "ex_en": "Bears sleep through the winter in their caves.",
+   "ex_ja": "クマは冬の間、ほら穴で冬眠します。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_191",
+   "en": "eagle",
+   "ja": "ワシ",
+   "pos": "noun",
+   "ex_en": "An eagle was flying high above the mountains.",
+   "ex_ja": "ワシが山の上高く飛んでいました。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_192",
+   "en": "owl",
+   "ja": "フクロウ",
+   "pos": "noun",
+   "ex_en": "Owls hunt at night and sleep in the day.",
+   "ex_ja": "フクロウは夜に狩りをし、昼に眠ります。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_193",
+   "en": "penguin",
+   "ja": "ペンギン",
+   "pos": "noun",
+   "ex_en": "Penguins cannot fly, but they swim well.",
+   "ex_ja": "ペンギンは飛べませんが、泳ぎは上手です。",
+   "level": 1,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_194",
+   "en": "parrot",
+   "ja": "オウム",
+   "pos": "noun",
+   "ex_en": "That parrot can say a few English words.",
+   "ex_ja": "あのオウムは英語を少し話せます。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jy_195",
+   "en": "shirt",
+   "ja": "シャツ",
+   "pos": "noun",
+   "ex_en": "Put on a clean shirt before dinner.",
+   "ex_ja": "夕食前にきれいなシャツに着替えて。",
+   "level": 1,
+   "tags": [
+    "clothes"
+   ]
+  },
+  {
+   "id": "jy_196",
+   "en": "skirt",
+   "ja": "スカート",
+   "pos": "noun",
+   "ex_en": "She bought a new skirt for spring.",
+   "ex_ja": "彼女は春に向けて新しいスカートを買いました。",
+   "level": 1,
+   "tags": [
+    "clothes"
+   ]
+  },
+  {
+   "id": "jy_197",
+   "en": "coat",
+   "ja": "コート",
+   "pos": "noun",
+   "ex_en": "Take your coat; it's cold outside.",
+   "ex_ja": "外は寒いからコートを持って行きなさい。",
+   "level": 1,
+   "tags": [
+    "clothes"
+   ]
+  },
+  {
+   "id": "jy_198",
+   "en": "jacket",
+   "ja": "ジャケット；上着",
+   "pos": "noun",
+   "ex_en": "He left his jacket on the chair.",
+   "ex_ja": "彼は上着を椅子にかけておいたままにしました。",
+   "level": 1,
+   "tags": [
+    "clothes"
+   ]
+  },
+  {
+   "id": "jy_199",
+   "en": "sweater",
+   "ja": "セーター",
+   "pos": "noun",
+   "ex_en": "Wear a sweater under your jacket in winter.",
+   "ex_ja": "冬はジャケットの下にセーターを着なさい。",
+   "level": 1,
+   "tags": [
+    "clothes"
+   ]
+  },
+  {
+   "id": "jy_200",
+   "en": "hat",
+   "ja": "帽子",
+   "pos": "noun",
+   "ex_en": "Wear a hat on sunny days at the beach.",
+   "ex_ja": "晴れた日の海では帽子をかぶりましょう。",
+   "level": 1,
+   "tags": [
+    "clothes"
+   ]
+  }
+ ]
+}

@@ -412,6 +412,50 @@ e^x &= 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots \\
 
 \textbf{解答の指針:} \(x = \frac{1}{2}\) を代入すると \(\frac{1/2}{(1/2)^2} = 2\)。
 
+\section{総合問題集}
+
+本編で学んだ内容を総点検する 10 問です。手を止めて解いてから「解答を表示」を開いてください。難易度は本編の例題よりやや上に設定してあります。
+
+\textbf{問題 1.}\ \(\boldsymbol{a} = \begin{pmatrix} 2 \\ -1 \end{pmatrix}\) と直交し、大きさが \(\sqrt{5}\) であるベクトルを 2 つ求めよ。
+
+\textbf{解答の指針:}\ 直交条件 \(\boldsymbol{a} \cdot \boldsymbol{x} = 0\) は \(2x - y = 0\)。\(y = 2x\) なので \(\boldsymbol{x} = \begin{pmatrix} 1 \\ 2 \end{pmatrix} t\)。大きさが \(\sqrt{5}\) となるのは \(t = \pm 1\)、よって \(\pm\begin{pmatrix} 1 \\ 2 \end{pmatrix}\)。
+
+\textbf{問題 2.}\ \(A = \begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix}\) の逆行列を求めよ。
+
+\textbf{解答の指針:}\ \(\det A = 4 - 6 = -2\) より \(A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -3 \\ -2 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 3/2 \\ 1 & -1/2 \end{pmatrix}\)。
+
+\textbf{問題 3.}\ 連立方程式 \(\begin{cases} x + 2y = 4 \\ 2x + 4y = k \end{cases}\) について、\(k\) の値による解の分類を述べよ。
+
+\textbf{解答の指針:}\ 第2式は第1式の2倍。\(k = 8\) のとき解は無数にあり \((x, y) = (4 - 2t, t)\)、\(k \neq 8\) のとき解なし。一意解となる \(k\) は存在しない(係数行列が正則でないため)。
+
+\textbf{問題 4.}\ \(A = \begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}\) を対角化せよ。
+
+\textbf{解答の指針:}\ 固有値は \(\lambda = 1, 3\)。対応する固有ベクトルはそれぞれ \(\begin{pmatrix} 1 \\ 0 \end{pmatrix}, \begin{pmatrix} 1 \\ 1 \end{pmatrix}\) より \(P = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}\)、\(A = P \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix} P^{-1}\)。
+
+\textbf{問題 5.}\ \(f(x) = x^3 - 6x^2 + 9x\) のグラフの概形を描け(極値・変曲点)。
+
+\textbf{解答の指針:}\ \(f'(x) = 3x^2 - 12x + 9 = 3(x-1)(x-3)\) より \(x=1\) で極大値 4、\(x=3\) で極小値 0。\(f''(x) = 6x - 12\) より変曲点は \((2, 2)\)。
+
+\textbf{問題 6.}\ \(\displaystyle \int_0^1 (x^2 + 2x)\, e^x\, dx\) を求めよ。
+
+\textbf{解答の指針:}\ 部分積分を2回。\(\int (x^2+2x)e^x dx = (x^2+2x)e^x - \int (2x+2)e^x dx = (x^2+2x)e^x - (2x)e^x + \int 2e^x dx = x^2 e^x + C\)。よって定積分値は \([x^2 e^x]_0^1 = e\)。
+
+\textbf{問題 7.}\ \(f(x, y) = x^2 + xy + y^2 - 3x\) の極値を求めよ。
+
+\textbf{解答の指針:}\ \(\frac{\partial f}{\partial x} = 2x + y - 3 = 0\), \(\frac{\partial f}{\partial y} = x + 2y = 0\) より \(x = 2, y = -1\)。\(D = f_{xx} f_{yy} - f_{xy}^2 = 2 \cdot 2 - 1 = 3 > 0\) かつ \(f_{xx} = 2 > 0\) で極小。値は \(f(2, -1) = -3\)。
+
+\textbf{問題 8.}\ \(\displaystyle \sum_{k=1}^{\infty} \frac{1}{k(k+1)}\) の和を求めよ。ヒント: \(\frac{1}{k(k+1)} = \frac{1}{k} - \frac{1}{k+1}\)。
+
+\textbf{解答の指針:}\ 部分和 \(S_n = 1 - \frac{1}{n+1} \to 1\)(望遠級数)。
+
+\textbf{問題 9.}\ 3次正方行列 \(A\) の固有値が \(1, 2, 3\) のとき、\(\det A\) と \(\mathrm{tr}(A)\)(対角和)を求めよ。
+
+\textbf{解答の指針:}\ \(\det A\) は固有値の積で \(6\)、\(\mathrm{tr}(A)\) は固有値の和で \(6\)。偶然一致するが意味は異なる。
+
+\textbf{問題 10.}\ \(\boldsymbol{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}\) を、(1, 1) 方向と (1, −1) 方向の単位ベクトル \(\boldsymbol{u}_1, \boldsymbol{u}_2\) の線形結合で表せ。また直交基底で分解する利点を一言で述べよ。
+
+\textbf{解答の指針:}\ \(\boldsymbol{u}_1 = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ 1 \end{pmatrix}\), \(\boldsymbol{u}_2 = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ -1 \end{pmatrix}\) なので \(\boldsymbol{v} = \sqrt{2}\,\boldsymbol{u}_1 + 0 \cdot \boldsymbol{u}_2\)。直交基底で分解すると各成分が独立に計算でき、他の成分に影響を与えずに座標を扱えることが利点。
+
 \section{おわりに — 線形と非線形の間で}
 
 この教科書で学んだ2つの柱を振り返ります。

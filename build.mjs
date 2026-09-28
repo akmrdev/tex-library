@@ -18,9 +18,9 @@ const SRC = join(ROOT, "src");
 const req = createRequire(import.meta.url);
 const katex = req(join(ROOT, "vendor/katex/katex.min.cjs"));
 
-function runPandoc(texPath) {
+function runPandoc(texPath, format) {
   const r = spawnSync("pandoc", [
-    "-f", "latex",
+    "-f", format,
     "-t", "html5",
     "--math-method=mathjax",
     "--no-highlight",
@@ -45,7 +45,7 @@ function prerenderMath(body) {
     .replace(/&amp;/g, "&");
   const render = (tex, displayMode) => {
     try {
-      return katex.renderToString(tex, { throwOnError: false, displayMode, output: "html" });
+      return katex.renderToString(tex, { throwOnError: false, displayMode });
     } catch (e) {
       console.warn(`KaTeX error: ${tex.slice(0, 40)}…\n${e.message}`);
       return `<code class="tex-error">${tex}</code>`;
@@ -99,7 +99,7 @@ function numberHeadings(parts, sections) {
     let n = 0;
     return part
       .replace(/(<h1[^>]*>)/, `$1<span class="sec-num">${sec.num}</span>`)
-      .replace(/(<h2[^>]*>)/g, () => `<span class="sec-num">${sec.num}.${++n}</span>`);
+      .replace(/(<h2[^>]*>)/g, (_, tag) => `${tag}<span class="sec-num">${sec.num}.${++n}</span>`);
   });
 }
 
@@ -125,6 +125,7 @@ function texForPdf(tex, slug) {
 \\IfFontExistsTF{Noto Sans CJK JP}{\\setCJKsansfont{Noto Sans CJK JP}}{\\setCJKsansfont{Hiragino Sans}}
 \\lstdefinelanguage{TypeScript}{sensitive=true,morekeywords={function,const,let,type,interface,class,return,if,else,async,await,new,private,public,protected,readonly,extends,implements,constructor,throw,while,for,of,in,import,from,export,switch,case,break,number,string,boolean,void,never,unknown,Promise,Record},morecomment=[l]{//},morecomment=[s]{/*}{*/},morestring=[b]'}
 \\lstdefinelanguage{JavaScript}{sensitive=true,morekeywords={function,return,const},morecomment=[l]{//},morestring=[b]'}
+\\lstdefinelanguage{Python}{sensitive=true,morekeywords={def,return,import,from,for,in,if,else,elif,print,len,range,sum,float,int,round,lambda,with,open,as,mean,statistics},morecomment=[l]{\\#},morestring=[b]',morestring=[b]"}
 \\lstset{basicstyle=\\ttfamily\\footnotesize,breaklines=true,frame=single,backgroundcolor=\\color{gray!8},columns=fullflexible}
 \\setlength{\\parskip}{0.4em}
 `;
@@ -159,7 +160,9 @@ function buildBook(dir, wantPdf) {
     return null;
   }
   const meta = JSON.parse(readFileSync(metaPath, "utf8"));
-  const rawBody = runPandoc(join(BOOKS_DIR, dir, "main.tex"));
+  const srcFile = existsSync(join(BOOKS_DIR, dir, "main.tex")) ? "main.tex" : "main.md";
+  const srcFormat = srcFile === "main.tex" ? "latex" : "markdown";
+  const rawBody = runPandoc(join(BOOKS_DIR, dir, srcFile), srcFormat);
   let body = rawBody;
   body = fixCodeLangs(body);
   body = fixFigurePaths(body, slug);
@@ -179,9 +182,9 @@ function buildBook(dir, wantPdf) {
   const figuresDir = join(BOOKS_DIR, dir, "figures");
   if (existsSync(figuresDir)) cpSync(figuresDir, join(outDir, "figures"), { recursive: true });
 
-  // PDF(要求され、tectonic があれば生成)
+  // PDF(tex の本のみ、tectonic がある場合に生成)
   let hasPdf = false;
-  if (wantPdf && tectonicAvailable()) {
+  if (wantPdf && srcFormat === "latex" && tectonicAvailable()) {
     hasPdf = buildPdf(slug, join(outDir, "book.pdf"));
     if (hasPdf) console.log(`built pdf: ${slug}`);
   }
@@ -361,5 +364,13 @@ for (const f of ["manifest.webmanifest", "icon.svg", "_headers"]) {
 const version = Date.now().toString(36);
 const sw = readFileSync(join(SRC, "sw.js"), "utf8").replace(/__BUILD_VERSION__/g, version);
 writeFileSync(join(DIST, "sw.js"), sw);
+
+// 整合性検証(アンカー・TOC・search-index・quiz)
+const v = spawnSync(process.execPath, [join(ROOT, "tools", "validate.mjs")], { encoding: "utf8" });
+console.log(v.stdout.trim());
+if (v.status !== 0) {
+  console.error(v.stderr.trim());
+  process.exit(1);
+}
 
 console.log(`done: ${books.length} books → dist/ (sw v${version})`);

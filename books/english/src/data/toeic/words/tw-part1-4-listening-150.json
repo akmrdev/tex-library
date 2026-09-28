@@ -1,0 +1,1809 @@
+{
+  "meta": {
+    "file": "tw-part1-4-listening-150",
+    "stage": "toeic",
+    "description": "TOEICリスニング頻出150語"
+  },
+  "words": [
+    {
+      "id": "tl_001",
+      "en": "announcer",
+      "ja": "アナウンサー、構内放送係",
+      "pos": "noun",
+      "ex_en": "The announcer asked passengers to board at Gate 5.",
+      "ex_ja": "アナウンサーは乗客に5番ゲートからの搭乗を求めました。",
+      "level": 3,
+      "tags": [
+        "situation"
+      ]
+    },
+    {
+      "id": "tl_002",
+      "en": "boardroom",
+      "ja": "取締役会議室",
+      "pos": "noun",
+      "ex_en": "The meeting will be held in the boardroom.",
+      "ex_ja": "会議は取締役会議室で開催されます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_003",
+      "en": "brochure",
+      "ja": "パンフレット",
+      "pos": "noun",
+      "ex_en": "Visitors can pick up a free brochure at the information desk.",
+      "ex_ja": "訪問者はインフォメーションデスクで無料のパンフレットを受け取れます。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_004",
+      "en": "cashier",
+      "ja": "レジ係、会計係",
+      "pos": "noun",
+      "ex_en": "The cashier is ringing up the customer's purchases.",
+      "ex_ja": "レジ係が客の購入品を打ち込んでいます。",
+      "level": 3,
+      "tags": [
+        "situation"
+      ]
+    },
+    {
+      "id": "tl_005",
+      "en": "clearance",
+      "ja": "（セールの）在庫一掃；（物の）すき間",
+      "pos": "noun",
+      "ex_en": "Everything is half price during the clearance sale.",
+      "ex_ja": "在庫一掃セール中はすべて半額です。",
+      "level": 3,
+      "tags": [
+        "situation"
+      ]
+    },
+    {
+      "id": "tl_006",
+      "en": "commuter",
+      "ja": "通勤者、定期利用客",
+      "pos": "noun",
+      "ex_en": "Commuters were waiting on the platform for the morning train.",
+      "ex_ja": "通勤者たちは朝の電車をホームで待っていました。",
+      "level": 3,
+      "tags": [
+        "situation"
+      ]
+    },
+    {
+      "id": "tl_007",
+      "en": "concierge",
+      "ja": "コンシェルジュ、案内係",
+      "pos": "noun",
+      "ex_en": "The concierge can arrange a taxi for you.",
+      "ex_ja": "コンシェルジュがタクシーを手配してくれます。",
+      "level": 3,
+      "tags": [
+        "situation"
+      ]
+    },
+    {
+      "id": "tl_008",
+      "en": "counter",
+      "ja": "カウンター、勘定台",
+      "pos": "noun",
+      "ex_en": "Please pay at the counter.",
+      "ex_ja": "カウンターでお支払いください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_009",
+      "en": "display",
+      "ja": "陳列、展示；ディスプレー",
+      "pos": "noun",
+      "ex_en": "The new products are on display in the window.",
+      "ex_ja": "新製品がショーウィンドーに展示されています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_010",
+      "en": "elevator",
+      "ja": "エレベーター",
+      "pos": "noun",
+      "ex_en": "Take the elevator to the tenth floor.",
+      "ex_ja": "エレベーターで10階へ行ってください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_011",
+      "en": "escalator",
+      "ja": "エスカレーター",
+      "pos": "noun",
+      "ex_en": "Stand on the right side of the escalator.",
+      "ex_ja": "エスカレーターの右側に立ってください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_012",
+      "en": "exhibit",
+      "ja": "展示品、展示",
+      "pos": "noun",
+      "ex_en": "The museum's newest exhibit opens next week.",
+      "ex_ja": "その博物館の最新の展示は来週始まります。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_013",
+      "en": "foyer",
+      "ja": "玄関ホール、ロビー",
+      "pos": "noun",
+      "ex_en": "Guests gathered in the foyer before the performance.",
+      "ex_ja": "客たちは公演前にホールに集まりました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_014",
+      "en": "front desk",
+      "ja": "フロント、受付カウンター",
+      "pos": "phrase",
+      "ex_en": "Check-in starts at the front desk at 3 p.m.",
+      "ex_ja": "チェックインは午後3時にフロントで始まります。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_015",
+      "en": "garage",
+      "ja": "車庫、ガレージ；修理工場",
+      "pos": "noun",
+      "ex_en": "He parked his car in the garage overnight.",
+      "ex_ja": "彼は車を一晩ガレージに停めました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_016",
+      "en": "gate",
+      "ja": "（空港の）搭乗口；門",
+      "pos": "noun",
+      "ex_en": "Flight 208 departs from Gate 12.",
+      "ex_ja": "208便は12番搭乗口から出発します。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_017",
+      "en": "gymnasium",
+      "ja": "体育館",
+      "pos": "noun",
+      "ex_en": "The ceremony was moved to the gymnasium because of rain.",
+      "ex_ja": "雨のため式典は体育館に移されました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_018",
+      "en": "hallway",
+      "ja": "廊下",
+      "pos": "noun",
+      "ex_en": "Coats are hanging along the hallway.",
+      "ex_ja": "廊下に沿ってコートが掛かっています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_019",
+      "en": "kiosk",
+      "ja": "小型売店、キオスク端末",
+      "pos": "noun",
+      "ex_en": "You can buy tickets at the self-service kiosk.",
+      "ex_ja": "セルフサービスのキオスクで切符を買えます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_020",
+      "en": "lobby",
+      "ja": "ロビー",
+      "pos": "noun",
+      "ex_en": "Please wait for your guide in the hotel lobby.",
+      "ex_ja": "ホテルのロビーでガイドをお待ちください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_021",
+      "en": "notice board",
+      "ja": "掲示板",
+      "pos": "phrase",
+      "ex_en": "The new schedule has been posted on the notice board.",
+      "ex_ja": "新しいスケジュールが掲示板に貼り出されました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_022",
+      "en": "parking lot",
+      "ja": "駐車場",
+      "pos": "phrase",
+      "ex_en": "Several cars are parked in the parking lot.",
+      "ex_ja": "駐車場に何台かの車が止まっています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_023",
+      "en": "platform",
+      "ja": "プラットフォーム、ホーム",
+      "pos": "noun",
+      "ex_en": "The express train arrives at Platform 3.",
+      "ex_ja": "急行電車は3番ホームに到着します。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_024",
+      "en": "receptionist",
+      "ja": "受付係",
+      "pos": "noun",
+      "ex_en": "The receptionist is answering the phone.",
+      "ex_ja": "受付係が電話に出ています。",
+      "level": 3,
+      "tags": [
+        "situation"
+      ]
+    },
+    {
+      "id": "tl_025",
+      "en": "restroom",
+      "ja": "トイレ、化粧室",
+      "pos": "noun",
+      "ex_en": "The restrooms are down the hall on the left.",
+      "ex_ja": "トイレは廊下を下った左側です。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_026",
+      "en": "showroom",
+      "ja": "ショールーム",
+      "pos": "noun",
+      "ex_en": "Customers can test-drive the new models at the showroom.",
+      "ex_ja": "お客様はショールームで新型車を試乗できます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_027",
+      "en": "stationery",
+      "ja": "文房具",
+      "pos": "noun",
+      "ex_en": "The drawer contains pens, paper, and other stationery.",
+      "ex_ja": "引き出しにはペンや紙などの文房具が入っています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_028",
+      "en": "stock room",
+      "ja": "在庫保管室、ストックルーム",
+      "pos": "phrase",
+      "ex_en": "More supplies are kept in the stock room.",
+      "ex_ja": "追加の備品はストックルームに保管されています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_029",
+      "en": "storeroom",
+      "ja": "物置部屋、貯蔵室",
+      "pos": "noun",
+      "ex_en": "Cleaning equipment is stored in the storeroom.",
+      "ex_ja": "清掃用具は物置部屋にしまわれています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_030",
+      "en": "terminal",
+      "ja": "（空港・港などの）ターミナル；端末",
+      "pos": "noun",
+      "ex_en": "Shuttle buses run between the terminals every ten minutes.",
+      "ex_ja": "シャトルバスがターミナル間を10分おきに運行しています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_031",
+      "en": "ticket booth",
+      "ja": "切符売り場、チケットブース",
+      "pos": "phrase",
+      "ex_en": "There is a long line in front of the ticket booth.",
+      "ex_ja": "切符売り場の前には長い列ができています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_032",
+      "en": "vending machine",
+      "ja": "自動販売機",
+      "pos": "phrase",
+      "ex_en": "A vending machine was installed near the elevator.",
+      "ex_ja": "エレベーターの近くに自動販売機が設置されました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_033",
+      "en": "aisle",
+      "ja": "（店・劇場の）通路",
+      "pos": "noun",
+      "ex_en": "The store keeps bread at the end of Aisle 4.",
+      "ex_ja": "その店ではパンを4番通路の突き当たりに置いています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_034",
+      "en": "amphitheater",
+      "ja": "円形劇場、野外劇場",
+      "pos": "noun",
+      "ex_en": "The concert will take place in the open-air amphitheater.",
+      "ex_ja": "コンサートは野外円形劇場で開催されます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_035",
+      "en": "aquarium",
+      "ja": "水族館；水槽",
+      "pos": "noun",
+      "ex_en": "Schoolchildren are touring the aquarium today.",
+      "ex_ja": "本日、子どもたちが水族館を見学しています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_036",
+      "en": "arcade",
+      "ja": "アーケード商店街；ゲームセンター",
+      "pos": "noun",
+      "ex_en": "Shoppers walked through the covered arcade.",
+      "ex_ja": "買い物客が屋根付きアーケードを歩いていました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_037",
+      "en": "atrium",
+      "ja": "吹き抜け大ホール（アトリウム）",
+      "pos": "noun",
+      "ex_en": "The reception will be held beneath the glass atrium.",
+      "ex_ja": "レセプションはガラス張りのアトリウムの下で行われます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_038",
+      "en": "auditorium",
+      "ja": "講堂、大ホール",
+      "pos": "noun",
+      "ex_en": "Please find your seat inside the auditorium.",
+      "ex_ja": "講堂内でお席をお探しください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_039",
+      "en": "balcony",
+      "ja": "バルコニー；（劇場の）観覧席",
+      "pos": "noun",
+      "ex_en": "She stood on the balcony overlooking the lobby.",
+      "ex_ja": "彼女はロビーを見下ろすバルコニーに立っていました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_040",
+      "en": "banquet hall",
+      "ja": "宴会場",
+      "pos": "phrase",
+      "ex_en": "The awards dinner is booked at the banquet hall.",
+      "ex_ja": "表彰ディナーは宴会場を予約して行われます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_041",
+      "en": "bench",
+      "ja": "ベンチ、腰掛け",
+      "pos": "noun",
+      "ex_en": "Two men are sitting on a park bench.",
+      "ex_ja": "二人の男性が公園のベンチに座っています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_042",
+      "en": "bicycle rack",
+      "ja": "駐輪ラック、自転車置き場",
+      "pos": "phrase",
+      "ex_en": "Bicycles should be locked to the bicycle rack.",
+      "ex_ja": "自転車はラックに施錠してください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_043",
+      "en": "billboard",
+      "ja": "広告看板",
+      "pos": "noun",
+      "ex_en": "A large billboard advertises a new smartphone.",
+      "ex_ja": "大きな看板が新型スマートフォンを宣伝しています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_044",
+      "en": "booth",
+      "ja": "ブース、出店小屋",
+      "pos": "noun",
+      "ex_en": "Staff are setting up booths for the job fair.",
+      "ex_ja": "スタッフが就職フェア用のブースを設営しています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_045",
+      "en": "break room",
+      "ja": "休憩室",
+      "pos": "phrase",
+      "ex_en": "Employees are having coffee in the break room.",
+      "ex_ja": "従業員たちが休憩室でコーヒーを飲んでいます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_046",
+      "en": "bulletin board",
+      "ja": "掲示板",
+      "pos": "phrase",
+      "ex_en": "Job openings are listed on the bulletin board.",
+      "ex_ja": "求人情報が掲示板に載っています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_047",
+      "en": "taxi stand",
+      "ja": "タクシー乗り場",
+      "pos": "phrase",
+      "ex_en": "Taxis wait for passengers at the taxi stand.",
+      "ex_ja": "タクシーたちが乗り場で客を待っています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_048",
+      "en": "cafeteria",
+      "ja": "食堂、カフェテリア",
+      "pos": "noun",
+      "ex_en": "Lunch is served in the staff cafeteria from noon.",
+      "ex_ja": "昼食は正午から社員食堂で提供されます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_049",
+      "en": "canopy",
+      "ja": "日よけ覆い、天蓋",
+      "pos": "noun",
+      "ex_en": "A canvas canopy shades the outdoor seating.",
+      "ex_ja": "帆布の日よけが屋外席を覆っています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_050",
+      "en": "car dealership",
+      "ja": "自動車販売店、カーディーラー",
+      "pos": "phrase",
+      "ex_en": "New sedans are lined up outside the car dealership.",
+      "ex_ja": "新型セダンがディーラーの外に並んでいます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_051",
+      "en": "checkout",
+      "ja": "（スーパーの）レジ、精算",
+      "pos": "noun",
+      "ex_en": "Only two lanes are open at the checkout.",
+      "ex_ja": "レジでは2つのレーンしか開いていません。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_052",
+      "en": "clinic",
+      "ja": "診療所、クリニック",
+      "pos": "noun",
+      "ex_en": "The dental clinic closes early on Fridays.",
+      "ex_ja": "歯科クリニックは金曜日は早く閉まります。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_053",
+      "en": "construction site",
+      "ja": "建設現場",
+      "pos": "phrase",
+      "ex_en": "Workers wear helmets at the construction site.",
+      "ex_ja": "作業員は建設現場でヘルメットを着用します。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_054",
+      "en": "corridor",
+      "ja": "廊下、回廊",
+      "pos": "noun",
+      "ex_en": "Rooms 201 to 210 are along this corridor.",
+      "ex_ja": "201号室から210号室まではこの廊下沿いです。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_055",
+      "en": "courtyard",
+      "ja": "中庭",
+      "pos": "noun",
+      "ex_en": "Employees eat lunch in the office courtyard.",
+      "ex_ja": "従業員は会社の中庭で昼食をとります。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_056",
+      "en": "crosswalk",
+      "ja": "横断歩道",
+      "pos": "noun",
+      "ex_en": "Pedestrians should cross only at the crosswalk.",
+      "ex_ja": "歩行者は横断歩道だけを渡ってください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_057",
+      "en": "cubicle",
+      "ja": "（オフィスの）仕切り区画",
+      "pos": "noun",
+      "ex_en": "Each employee works in a small cubicle.",
+      "ex_ja": "各従業員は小さな仕切り区画で仕事をしています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_058",
+      "en": "dining hall",
+      "ja": "大食堂",
+      "pos": "phrase",
+      "ex_en": "Students lined up outside the university dining hall.",
+      "ex_ja": "学生たちが大学の食堂の外に並んでいました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_059",
+      "en": "doorway",
+      "ja": "戸口、入り口",
+      "pos": "noun",
+      "ex_en": "Boxes are stacked beside the doorway.",
+      "ex_ja": "戸口の横に箱が積まれています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_060",
+      "en": "drinking fountain",
+      "ja": "（飲料水）給水器",
+      "pos": "phrase",
+      "ex_en": "Refill your bottle at the drinking fountain.",
+      "ex_ja": "給水器でボトルに水を補充してください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_061",
+      "en": "entrance",
+      "ja": "入口",
+      "pos": "noun",
+      "ex_en": "Tickets are sold at the main entrance.",
+      "ex_ja": "チケットは正面入口で販売しています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_062",
+      "en": "exit",
+      "ja": "出口",
+      "pos": "noun",
+      "ex_en": "The emergency exit is clearly marked.",
+      "ex_ja": "非常口にははっきりと表示があります。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_063",
+      "en": "faucet",
+      "ja": "蛇口",
+      "pos": "noun",
+      "ex_en": "A plumber came to repair the leaking faucet.",
+      "ex_ja": "配管工が蛇口の水漏れを修理しに来ました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_064",
+      "en": "fire extinguisher",
+      "ja": "消火器",
+      "pos": "phrase",
+      "ex_en": "Every floor must have an accessible fire extinguisher.",
+      "ex_ja": "すべての階に手の届く消火器が必要です。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_065",
+      "en": "flower bed",
+      "ja": "花壇",
+      "pos": "phrase",
+      "ex_en": "Gardeners are planting tulips in the flower bed.",
+      "ex_ja": "造園担当者が花壇にチューリップを植えています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_066",
+      "en": "fountain",
+      "ja": "噴水",
+      "pos": "noun",
+      "ex_en": "Children threw coins into the fountain.",
+      "ex_ja": "子どもたちは噴水に硬貨を投げ入れました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_067",
+      "en": "furniture store",
+      "ja": "家具店",
+      "pos": "phrase",
+      "ex_en": "The furniture store is offering twenty percent off sofas.",
+      "ex_ja": "家具店はソファを20％引きにしています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_068",
+      "en": "gas station",
+      "ja": "ガソリンスタンド",
+      "pos": "phrase",
+      "ex_en": "Fill up the tank before you pass the gas station.",
+      "ex_ja": "ガソリンスタンドを通過する前にタンクを満タンにしてください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_069",
+      "en": "grocery store",
+      "ja": "食料品店",
+      "pos": "phrase",
+      "ex_en": "She stopped by the grocery store after work.",
+      "ex_ja": "彼女は仕事の後に食料品店に立ち寄りました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_070",
+      "en": "hardware store",
+      "ja": "金物屋、工具店",
+      "pos": "phrase",
+      "ex_en": "Buy extra screws at the hardware store.",
+      "ex_ja": "金物屋でネジを追加で買ってきてください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_071",
+      "en": "intersection",
+      "ja": "交差点",
+      "pos": "noun",
+      "ex_en": "Turn left at the next intersection.",
+      "ex_ja": "次の交差点を左折してください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_072",
+      "en": "laundromat",
+      "ja": "コインランドリー",
+      "pos": "noun",
+      "ex_en": "The laundromat is busiest on Sunday mornings.",
+      "ex_ja": "そのコインランドリーは日曜の朝が最も混みます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_073",
+      "en": "lawn",
+      "ja": "芝生",
+      "pos": "noun",
+      "ex_en": "Groundskeepers are mowing the lawn behind the building.",
+      "ex_ja": "管理スタッフが建物裏の芝生を刈っています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_074",
+      "en": "loading dock",
+      "ja": "荷積み・荷下ろし場",
+      "pos": "phrase",
+      "ex_en": "Deliveries arrive at the rear loading dock before 8 a.m.",
+      "ex_ja": "荷物は午前8時前に裏の荷積み場に到着します。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_075",
+      "en": "locker",
+      "ja": "ロッカー",
+      "pos": "noun",
+      "ex_en": "Store your belongings in the locker provided.",
+      "ex_ja": "備え付けのロッカーに持ち物を入れてください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_076",
+      "en": "mailbox",
+      "ja": "郵便受け、郵便ポスト",
+      "pos": "noun",
+      "ex_en": "Letters are collected from the mailbox twice daily.",
+      "ex_ja": "郵便物はポストから1日に2回集められます。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_077",
+      "en": "shopping mall",
+      "ja": "ショッピングモール",
+      "pos": "phrase",
+      "ex_en": "The shopping mall opens at ten on weekends.",
+      "ex_ja": "そのショッピングモールは週末は10時に開きます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_078",
+      "en": "meeting room",
+      "ja": "会議室",
+      "pos": "phrase",
+      "ex_en": "The meeting room has been reserved until noon.",
+      "ex_ja": "会議室は正午まで予約されています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_079",
+      "en": "newsstand",
+      "ja": "新聞・雑誌売店",
+      "pos": "noun",
+      "ex_en": "Magazines are displayed at the airport newsstand.",
+      "ex_ja": "雑誌が空港の売店に並んでいます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_080",
+      "en": "office building",
+      "ja": "オフィスビル",
+      "pos": "phrase",
+      "ex_en": "The law firm occupies the top floors of the office building.",
+      "ex_ja": "法律事務所がそのオフィスビルの最上階に入居しています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_081",
+      "en": "overpass",
+      "ja": "立体交差橋、歩道橋",
+      "pos": "noun",
+      "ex_en": "Traffic slowed under the newly painted overpass.",
+      "ex_ja": "新しく塗り直された高架橋の下で交通が緩やかになりました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_082",
+      "en": "pharmacy",
+      "ja": "薬局",
+      "pos": "noun",
+      "ex_en": "The pharmacy fills prescriptions until 7 p.m.",
+      "ex_ja": "薬局は処方箋を午後7時まで受け付けています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_083",
+      "en": "playground",
+      "ja": "遊び場、運動場",
+      "pos": "noun",
+      "ex_en": "Children are climbing on the playground equipment.",
+      "ex_ja": "子どもたちが遊具で遊んでいます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_084",
+      "en": "podium",
+      "ja": "講台、演壇",
+      "pos": "noun",
+      "ex_en": "The speaker stepped up to the podium.",
+      "ex_ja": "講師が演壇に上がりました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_085",
+      "en": "poolside",
+      "ja": "プールサイド",
+      "pos": "noun",
+      "ex_en": "Guests relaxed poolside with cold drinks.",
+      "ex_ja": "宿泊客は冷たい飲み物を持ってプールサイドでくつろぎました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_086",
+      "en": "projection screen",
+      "ja": "映写用スクリーン",
+      "pos": "phrase",
+      "ex_en": "Pull down the projection screen before the presentation starts.",
+      "ex_ja": "プレゼン開始前にスクリーンを下ろしてください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_087",
+      "en": "ramp",
+      "ja": "斜路、スロープ",
+      "pos": "noun",
+      "ex_en": "Use the ramp instead of the stairs for carts.",
+      "ex_ja": "台車には階段ではなくスロープを使ってください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_088",
+      "en": "reception area",
+      "ja": "受付エリア",
+      "pos": "phrase",
+      "ex_en": "Visitors are asked to wait in the reception area.",
+      "ex_ja": "訪問者は受付エリアでお待ちいただくようお願いしています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_089",
+      "en": "registration desk",
+      "ja": "受付デスク、登録カウンター",
+      "pos": "phrase",
+      "ex_en": "Pick up your name tag at the registration desk.",
+      "ex_ja": "名札を受付デスクでお受け取りください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_090",
+      "en": "revolving door",
+      "ja": "回転ドア",
+      "pos": "phrase",
+      "ex_en": "Push the cart through the revolving door slowly.",
+      "ex_ja": "台車は回転ドアをゆっくり押して通ってください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_091",
+      "en": "roundabout",
+      "ja": "環状交差点、ラウンドアバウト",
+      "pos": "noun",
+      "ex_en": "Take the second exit at the roundabout.",
+      "ex_ja": "ラウンドアバウトでは2つ目の出口に出てください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_092",
+      "en": "scaffolding",
+      "ja": "足場",
+      "pos": "noun",
+      "ex_en": "Scaffolding covers the building's east wall.",
+      "ex_ja": "足場が建物の東側の壁を覆っています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_093",
+      "en": "security guard",
+      "ja": "警備員",
+      "pos": "phrase",
+      "ex_en": "A security guard checks badges at the door.",
+      "ex_ja": "警備員が入り口でIDカードを確認しています。",
+      "level": 3,
+      "tags": [
+        "situation"
+      ]
+    },
+    {
+      "id": "tl_094",
+      "en": "service counter",
+      "ja": "サービスカウンター",
+      "pos": "phrase",
+      "ex_en": "Bring faulty items to the service counter for exchange.",
+      "ex_ja": "不良品は交換のためサービスカウンターへお持ちください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_095",
+      "en": "sidewalk",
+      "ja": "歩道",
+      "pos": "noun",
+      "ex_en": "Café tables line the sidewalk outside the bistro.",
+      "ex_ja": "ビストロ前の歩道にカフェテーブルが並んでいます。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_096",
+      "en": "skyscraper",
+      "ja": "高層ビル、摩天楼",
+      "pos": "noun",
+      "ex_en": "The city's tallest skyscraper houses several banks.",
+      "ex_ja": "市内一の高層ビルには複数の銀行が入っています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_097",
+      "en": "staircase",
+      "ja": "階段",
+      "pos": "noun",
+      "ex_en": "Take the staircase to reach the mezzanine.",
+      "ex_ja": "中二階へは階段をご利用ください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_098",
+      "en": "streetlight",
+      "ja": "街灯",
+      "pos": "noun",
+      "ex_en": "Streetlights turned on as dusk fell over the plaza.",
+      "ex_ja": "夕暮れが広場を包むと街灯がともりました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_099",
+      "en": "subway station",
+      "ja": "地下鉄の駅",
+      "pos": "phrase",
+      "ex_en": "Meet me outside the Riverside subway station.",
+      "ex_ja": "リバーサイド地下鉄駅の外でお会いしましょう。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_100",
+      "en": "suitcase",
+      "ja": "スーツケース",
+      "pos": "noun",
+      "ex_en": "Travelers rolled their suitcases toward the exit.",
+      "ex_ja": "旅行者たちはスーツケースを転がしながら出口へ向かいました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_101",
+      "en": "supermarket",
+      "ja": "スーパーマーケット",
+      "pos": "noun",
+      "ex_en": "The supermarket offers discounts to members on Wednesdays.",
+      "ex_ja": "そのスーパーは水曜日に会員向けの割引を実施しています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_102",
+      "en": "tablecloth",
+      "ja": "テーブルクロス、卓布",
+      "pos": "noun",
+      "ex_en": "White tablecloths cover the banquet tables.",
+      "ex_ja": "白いテーブルクロスが宴会のテーブルを覆っています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_103",
+      "en": "toll booth",
+      "ja": "料金所",
+      "pos": "phrase",
+      "ex_en": "Traffic backs up at the toll booth during rush hour.",
+      "ex_ja": "ラッシュ時には料金所で渋滞が起こります。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_104",
+      "en": "traffic light",
+      "ja": "信号機",
+      "pos": "phrase",
+      "ex_en": "Go straight until the second traffic light.",
+      "ex_ja": "2つ目の信号まで直進してください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_105",
+      "en": "train station",
+      "ja": "鉄道の駅",
+      "pos": "phrase",
+      "ex_en": "The train station is a five-minute walk from here.",
+      "ex_ja": "駅はここから徒歩5分です。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_106",
+      "en": "trolley",
+      "ja": "（空港・店内用）カート、トロリー",
+      "pos": "noun",
+      "ex_en": "Return your airport trolley before entering the terminal.",
+      "ex_ja": "ターミナルに入る前に空港のカートを返却してください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_107",
+      "en": "turnstile",
+      "ja": "回転改札口",
+      "pos": "noun",
+      "ex_en": "Swipe your card at the turnstile before going to the platform.",
+      "ex_ja": "改札でカードを通してからホームへお入りください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_108",
+      "en": "waiting room",
+      "ja": "待合室",
+      "pos": "phrase",
+      "ex_en": "Patients filled the clinic's waiting room.",
+      "ex_ja": "患者たちで診療所の待合室がいっぱいになりました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_109",
+      "en": "workstation",
+      "ja": "ワークステーション、作業スペース",
+      "pos": "noun",
+      "ex_en": "Keep your workstation tidy before you leave for the day.",
+      "ex_ja": "退勤前に作業スペースを整頓してください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_110",
+      "en": "ATM",
+      "ja": "現金自動預払機（ATM）",
+      "pos": "noun",
+      "ex_en": "There is an ATM next to the convenience store.",
+      "ex_ja": "コンビニの隣にATMがあります。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_111",
+      "en": "apron",
+      "ja": "エプロン",
+      "pos": "noun",
+      "ex_en": "The chef wiped his hands on his apron.",
+      "ex_ja": "料理人がエプロンで手を拭きました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_112",
+      "en": "art gallery",
+      "ja": "美術館、ギャラリー",
+      "pos": "phrase",
+      "ex_en": "The art gallery displays modern sculptures.",
+      "ex_ja": "そのギャラリーは現代彫刻を展示しています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_113",
+      "en": "assembly line",
+      "ja": "組立ライン、流れ作業場",
+      "pos": "phrase",
+      "ex_en": "Robots speed up the factory's assembly line.",
+      "ex_ja": "ロボットが工場の組立ラインを高速化しています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_114",
+      "en": "baggage claim",
+      "ja": "手荷物受取所",
+      "pos": "phrase",
+      "ex_en": "Meet our driver at baggage claim in Arrivals.",
+      "ex_ja": "到着フロアの手荷物受取所でドライバーとお会いください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_115",
+      "en": "bakery",
+      "ja": "ベーカリー、パン屋",
+      "pos": "noun",
+      "ex_en": "Fresh bread cools on racks at the bakery.",
+      "ex_ja": "焼きたてのパンがベーカリーの棚で冷めています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_116",
+      "en": "bookshelf",
+      "ja": "本棚",
+      "pos": "noun",
+      "ex_en": "Reference books fill the office bookshelf.",
+      "ex_ja": "参考書がオフィスの本棚に並んでいます。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_117",
+      "en": "bus stop",
+      "ja": "バス停",
+      "pos": "phrase",
+      "ex_en": "The shuttle stops at the bus stop every fifteen minutes.",
+      "ex_ja": "シャトルバスは15分おきにバス停にとまります。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_118",
+      "en": "cash register",
+      "ja": "金銭登録機、レジ",
+      "pos": "phrase",
+      "ex_en": "The clerk opened the cash register for change.",
+      "ex_ja": "店員は釣銭のためにレジを開けました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_119",
+      "en": "conveyor belt",
+      "ja": "ベルトコンベヤー",
+      "pos": "phrase",
+      "ex_en": "Packages move along the conveyor belt for sorting.",
+      "ex_ja": "小包は仕分けのためベルトコンベヤーを流れていきます。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_120",
+      "en": "copy machine",
+      "ja": "コピー機",
+      "pos": "phrase",
+      "ex_en": "Report to the office manager if the copy machine jams.",
+      "ex_ja": "コピー機が詰まったらマネージャーに報告してください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_121",
+      "en": "crate",
+      "ja": "木箱、梱包容器",
+      "pos": "noun",
+      "ex_en": "Fruit crates were stacked near the loading bay.",
+      "ex_ja": "果物の木箱が搬入口の近くに積まれていました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_122",
+      "en": "awning",
+      "ja": "日よけ、雨よけの覆い",
+      "pos": "noun",
+      "ex_en": "A striped awning covers the cafe entrance.",
+      "ex_ja": "縞模様の日よけがカフェの入り口を覆っています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_123",
+      "en": "curtain",
+      "ja": "カーテン、幕",
+      "pos": "noun",
+      "ex_en": "Heavy curtains darken the conference hall.",
+      "ex_ja": "厚いカーテンが会議ホールを暗くしています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_124",
+      "en": "dock",
+      "ja": "波止場、船着き場；ドック",
+      "pos": "noun",
+      "ex_en": "Cargo ships moored along the dock.",
+      "ex_ja": "貨物船が波止場沿いに係留されていました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_125",
+      "en": "driveway",
+      "ja": "私道、進入路",
+      "pos": "noun",
+      "ex_en": "A delivery van pulled into the driveway.",
+      "ex_ja": "配達車が私道に入ってきました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_126",
+      "en": "fence",
+      "ja": "柵、フェンス",
+      "pos": "noun",
+      "ex_en": "A wooden fence surrounds the playground.",
+      "ex_ja": "木製の柵が遊び場を囲んでいます。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_127",
+      "en": "first aid kit",
+      "ja": "救急箱",
+      "pos": "phrase",
+      "ex_en": "Locate the first aid kit before starting repairs.",
+      "ex_ja": "修理を始める前に救急箱の場所を確認してください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_128",
+      "en": "flagpole",
+      "ja": "旗竿",
+      "pos": "noun",
+      "ex_en": "The company flag flies on the flagpole out front.",
+      "ex_ja": "会社の旗が玄関前の旗竿にかかげられています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_129",
+      "en": "greenhouse",
+      "ja": "温室",
+      "pos": "noun",
+      "ex_en": "Volunteers water seedlings inside the greenhouse.",
+      "ex_ja": "ボランティアが温室の中で苗に水をやっています。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_130",
+      "en": "handrail",
+      "ja": "手すり",
+      "pos": "noun",
+      "ex_en": "Hold the handrail while riding the escalator.",
+      "ex_ja": "エスカレーターに乗る際は手すりをおつかまりください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_131",
+      "en": "helmet",
+      "ja": "ヘルメット、保護帽",
+      "pos": "noun",
+      "ex_en": "All riders must wear a safety helmet.",
+      "ex_ja": "乗務員は必ず安全ヘルメットを着用してください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_132",
+      "en": "ladder",
+      "ja": "脚立、はしご",
+      "pos": "noun",
+      "ex_en": "The painter climbed a ladder to reach the ceiling.",
+      "ex_ja": "塗装職人が天井に届くよう脚立を登りました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_133",
+      "en": "microphone",
+      "ja": "マイクロフォン、マイク",
+      "pos": "noun",
+      "ex_en": "Adjust the microphone before the panel discussion begins.",
+      "ex_ja": "パネル討論の開始前にマイクを調整してください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_134",
+      "en": "pallet",
+      "ja": "パレット",
+      "pos": "noun",
+      "ex_en": "Forklifts move pallets across the storage floor.",
+      "ex_ja": "フォークリフトが保管フロアでパレットを運んでいます。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_135",
+      "en": "parking garage",
+      "ja": "立体駐車場",
+      "pos": "phrase",
+      "ex_en": "Park in the parking garage behind the tower.",
+      "ex_ja": "タワーの裏にある立体駐車場に駐車してください。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_136",
+      "en": "pedestal",
+      "ja": "台座",
+      "pos": "noun",
+      "ex_en": "The trophy sits on a marble pedestal.",
+      "ex_ja": "トロフィーが大理石の台座に飾られています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_137",
+      "en": "piano",
+      "ja": "ピアノ",
+      "pos": "noun",
+      "ex_en": "A pianist plays soft music on the lobby piano.",
+      "ex_ja": "ピアニストがロビーのピアノで静かな曲を弾いています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_138",
+      "en": "poster",
+      "ja": "ポスター、貼り紙",
+      "pos": "noun",
+      "ex_en": "Concert posters decorate the community center walls.",
+      "ex_ja": "コンサートのポスターが公民館の壁を飾っています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_139",
+      "en": "projector",
+      "ja": "プロジェクター",
+      "pos": "noun",
+      "ex_en": "Connect the laptop to the projector before the seminar.",
+      "ex_ja": "セミナーの前にノートパソコンをプロジェクターにつないでください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_140",
+      "en": "shopping cart",
+      "ja": "買い物カート",
+      "pos": "phrase",
+      "ex_en": "Return your shopping cart to the front of the store.",
+      "ex_ja": "買い物カートは店頭へ返してください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_141",
+      "en": "stage",
+      "ja": "舞台",
+      "pos": "noun",
+      "ex_en": "The band set up their instruments on the stage.",
+      "ex_ja": "バンドが舞台に楽器をセットしました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_142",
+      "en": "statue",
+      "ja": "像、彫像",
+      "pos": "noun",
+      "ex_en": "Tourists photographed the bronze statue in the square.",
+      "ex_ja": "観光客が広場の銅像を撮影しました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_143",
+      "en": "storefront",
+      "ja": "店面、店の正面部分",
+      "pos": "noun",
+      "ex_en": "The boutique renovated its red storefront.",
+      "ex_ja": "そのブティックは赤い店面を改装しました。",
+      "level": 3,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tl_144",
+      "en": "toolbox",
+      "ja": "道具箱、工具箱",
+      "pos": "noun",
+      "ex_en": "Carry the toolbox up to the third floor.",
+      "ex_ja": "工具箱を3階まで持っていってください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_145",
+      "en": "traffic cone",
+      "ja": "（道路規制用）コーン",
+      "pos": "phrase",
+      "ex_en": "Traffic cones mark off the area with wet paint.",
+      "ex_ja": "コーンがペンキ未乾燥エリアを囲んでいます。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_146",
+      "en": "tray",
+      "ja": "盆、トレイ",
+      "pos": "noun",
+      "ex_en": "Cafeteria workers stack clean trays by the sink.",
+      "ex_ja": "食堂スタッフが流しのそばにきれいなトレイを積んでいます。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_147",
+      "en": "wheelchair",
+      "ja": "車椅子",
+      "pos": "noun",
+      "ex_en": "Ramps provide access for wheelchair users.",
+      "ex_ja": "スロープが車椅子利用者のアクセスを可能にしています。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_148",
+      "en": "whiteboard",
+      "ja": "ホワイトボード",
+      "pos": "noun",
+      "ex_en": "New ideas were jotted across the whiteboard.",
+      "ex_ja": "新しいアイデアがホワイトボードに書かれました。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_149",
+      "en": "utensil",
+      "ja": "調理器具、食器類",
+      "pos": "noun",
+      "ex_en": "Wash the cooking utensils after each shift.",
+      "ex_ja": "各シフト後に調理器具を洗ってください。",
+      "level": 3,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "tl_150",
+      "en": "pedestrian",
+      "ja": "歩行者",
+      "pos": "noun",
+      "ex_en": "Pedestrians share this street with bicycles.",
+      "ex_ja": "この通りは歩行者も自転車も利用します。",
+      "level": 3,
+      "tags": [
+        "situation"
+      ]
+    }
+  ]
+}

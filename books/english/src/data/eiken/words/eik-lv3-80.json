@@ -1,0 +1,945 @@
+{
+  "meta": {
+    "file": "eik-lv3-80",
+    "stage": "eiken",
+    "description": "英検3級レベル80語"
+  },
+  "words": [
+    {
+      "id": "e3_001",
+      "en": "arrive",
+      "ja": "到着する",
+      "pos": "verb",
+      "ex_en": "We arrived at the airport at seven.",
+      "ex_ja": "私たちは7時に空港に到着しました。",
+      "level": 2,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "e3_002",
+      "en": "beach",
+      "ja": "浜辺、海岸",
+      "pos": "noun",
+      "ex_en": "We played volleyball on the beach.",
+      "ex_ja": "私たちは浜辺でバレーボールをしました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e3_003",
+      "en": "become",
+      "ja": "～になる",
+      "pos": "verb",
+      "ex_en": "She wants to become a doctor.",
+      "ex_ja": "彼女は医者になりたいと思っています。",
+      "level": 2,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "e3_004",
+      "en": "believe",
+      "ja": "信じる",
+      "pos": "verb",
+      "ex_en": "I believe you can pass the test.",
+      "ex_ja": "あなたならテストに合格できると信じています。",
+      "level": 2,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e3_005",
+      "en": "belong",
+      "ja": "属する",
+      "pos": "verb",
+      "ex_en": "This cap belongs to my brother.",
+      "ex_ja": "この帽子は兄のものです。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_006",
+      "en": "boring",
+      "ja": "退屈な",
+      "pos": "adj",
+      "ex_en": "The movie was so boring that I fell asleep.",
+      "ex_ja": "その映画はとても退屈なので眠ってしまいました。",
+      "level": 2,
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "e3_007",
+      "en": "brave",
+      "ja": "勇敢な",
+      "pos": "adj",
+      "ex_en": "The brave firefighter saved the child.",
+      "ex_ja": "勇敢な消防士がその子を救助しました。",
+      "level": 2,
+      "tags": [
+        "personality"
+      ]
+    },
+    {
+      "id": "e3_008",
+      "en": "build",
+      "ja": "建てる",
+      "pos": "verb",
+      "ex_en": "They will build a new library here.",
+      "ex_ja": "彼らはここに新しい図書館を建てる予定です。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e3_009",
+      "en": "cheap",
+      "ja": "安い",
+      "pos": "adj",
+      "ex_en": "These shoes were cheap but comfortable.",
+      "ex_ja": "この靴は安いのに履き心地がよいです。",
+      "level": 2,
+      "tags": [
+        "thing"
+      ]
+    },
+    {
+      "id": "e3_010",
+      "en": "climb",
+      "ja": "登る",
+      "pos": "verb",
+      "ex_en": "We climbed Mt. Fuji last summer.",
+      "ex_ja": "私たちは去年の夏、富士山に登りました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e3_011",
+      "en": "collect",
+      "ja": "集める",
+      "pos": "verb",
+      "ex_en": "My sister collects stamps from many countries.",
+      "ex_ja": "姉はいろいろな国の切手を集めています。",
+      "level": 2,
+      "tags": [
+        "hobby"
+      ]
+    },
+    {
+      "id": "e3_012",
+      "en": "comfortable",
+      "ja": "快適な",
+      "pos": "adj",
+      "ex_en": "This sofa is very comfortable.",
+      "ex_ja": "このソファはとても座り心地が良いです。",
+      "level": 2,
+      "tags": [
+        "thing"
+      ]
+    },
+    {
+      "id": "e3_013",
+      "en": "corner",
+      "ja": "角、コーナー",
+      "pos": "noun",
+      "ex_en": "There is a bakery on the street corner.",
+      "ex_ja": "通りの角にベーカリーがあります。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e3_014",
+      "en": "cost",
+      "ja": "かかる（費用）",
+      "pos": "verb",
+      "ex_en": "How much did your new bike cost?",
+      "ex_ja": "新しい自転車はいくらかかりましたか。",
+      "level": 2,
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "id": "e3_015",
+      "en": "crowd",
+      "ja": "人混み",
+      "pos": "noun",
+      "ex_en": "A large crowd watched the parade.",
+      "ex_ja": "大勢の人混みがパレードを見ました。",
+      "level": 2,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "e3_016",
+      "en": "customer",
+      "ja": "客、顧客",
+      "pos": "noun",
+      "ex_en": "The shop is always full of customers.",
+      "ex_ja": "その店はいつもお客さんでいっぱいです。",
+      "level": 2,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "e3_017",
+      "en": "delicious",
+      "ja": "おいしい",
+      "pos": "adj",
+      "ex_en": "Grandma made a delicious cake for us.",
+      "ex_ja": "祖母は私たちにおいしいケーキを作ってくれました。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e3_018",
+      "en": "dentist",
+      "ja": "歯医者",
+      "pos": "noun",
+      "ex_en": "I go to the dentist twice a year.",
+      "ex_ja": "私は年2回歯医者に行きます。",
+      "level": 2,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "e3_019",
+      "en": "depart",
+      "ja": "出発する",
+      "pos": "verb",
+      "ex_en": "The train departs from platform three.",
+      "ex_ja": "電車は3番ホームから出発します。",
+      "level": 2,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "e3_020",
+      "en": "desert",
+      "ja": "砂漠",
+      "pos": "noun",
+      "ex_en": "Camels can travel a long way in the desert.",
+      "ex_ja": "ラクダは砂漠を長距離移動できます。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e3_021",
+      "en": "either",
+      "ja": "（either A or B）AかBのどちらか",
+      "pos": "conj",
+      "ex_en": "You can have either tea or coffee.",
+      "ex_ja": "紅茶かコーヒーのどちらでもいいですよ。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_022",
+      "en": "enter",
+      "ja": "入る",
+      "pos": "verb",
+      "ex_en": "Please knock before you enter the room.",
+      "ex_ja": "部屋に入る前にノックしてください。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e3_023",
+      "en": "evening",
+      "ja": "夕方",
+      "pos": "noun",
+      "ex_en": "We take a walk every evening.",
+      "ex_ja": "私たちは毎日夕方に散歩をします。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "e3_024",
+      "en": "event",
+      "ja": "行事、出来事",
+      "pos": "noun",
+      "ex_en": "Sports Day is the biggest school event.",
+      "ex_ja": "運動会は学校で一番大きな行事です。",
+      "level": 2,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "e3_025",
+      "en": "exactly",
+      "ja": "ちょうど、正確に",
+      "pos": "adv",
+      "ex_en": "The bus arrived at exactly nine o'clock.",
+      "ex_ja": "バスはちょうど9時に到着しました。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "e3_026",
+      "en": "exciting",
+      "ja": "わくわくさせる",
+      "pos": "adj",
+      "ex_en": "The soccer game was really exciting.",
+      "ex_ja": "そのサッカーの試合は本当にわくわくするものでした。",
+      "level": 2,
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "e3_027",
+      "en": "exercise",
+      "ja": "運動する",
+      "pos": "verb",
+      "ex_en": "I exercise at the gym three times a week.",
+      "ex_ja": "私は週3回ジムで運動します。",
+      "level": 2,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "e3_028",
+      "en": "expensive",
+      "ja": "高価な",
+      "pos": "adj",
+      "ex_en": "That camera is too expensive for me.",
+      "ex_ja": "あのカメラは私には高すぎます。",
+      "level": 2,
+      "tags": [
+        "thing"
+      ]
+    },
+    {
+      "id": "e3_029",
+      "en": "fall",
+      "ja": "落ちる",
+      "pos": "verb",
+      "ex_en": "Leaves fall from the trees in autumn.",
+      "ex_ja": "秋には木々から葉が落ちます。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e3_030",
+      "en": "farm",
+      "ja": "農場",
+      "pos": "noun",
+      "ex_en": "My uncle works on a sheep farm.",
+      "ex_ja": "おじは羊の農場で働いています。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e3_031",
+      "en": "festival",
+      "ja": "お祭り",
+      "pos": "noun",
+      "ex_en": "We enjoyed music and food at the summer festival.",
+      "ex_ja": "夏祭りで音楽と食べ物を楽しみました。",
+      "level": 2,
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "id": "e3_032",
+      "en": "field",
+      "ja": "野原",
+      "pos": "noun",
+      "ex_en": "Horses were running in the green field.",
+      "ex_ja": "緑の野原を馬が走っていました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e3_033",
+      "en": "fight",
+      "ja": "けんかする",
+      "pos": "verb",
+      "ex_en": "Brothers often fight about small things.",
+      "ex_ja": "兄弟はよく小さなことでけんかします。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e3_034",
+      "en": "fill",
+      "ja": "満たす",
+      "pos": "verb",
+      "ex_en": "Please fill this bottle with water.",
+      "ex_ja": "このボトルに水を入れてください。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e3_035",
+      "en": "finish",
+      "ja": "終える",
+      "pos": "verb",
+      "ex_en": "I finished my homework before dinner.",
+      "ex_ja": "夕食の前に宿題を終えました。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_036",
+      "en": "fix",
+      "ja": "修理する",
+      "pos": "verb",
+      "ex_en": "Dad fixed my broken bicycle yesterday.",
+      "ex_ja": "父は昨日、壊れた自転車を直してくれました。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_037",
+      "en": "flight",
+      "ja": "飛行機の便",
+      "pos": "noun",
+      "ex_en": "Our flight to Osaka leaves at noon.",
+      "ex_ja": "大阪行きの便は正午に出発します。",
+      "level": 2,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "e3_038",
+      "en": "fog",
+      "ja": "霧",
+      "pos": "noun",
+      "ex_en": "Heavy fog covered the road this morning.",
+      "ex_ja": "今朝、濃い霧が道路をおおいました。",
+      "level": 2,
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "e3_039",
+      "en": "follow",
+      "ja": "従う、あとについていく",
+      "pos": "verb",
+      "ex_en": "Follow the signs to the station.",
+      "ex_ja": "駅へは案内表示に従って進んでください。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e3_041",
+      "en": "fresh",
+      "ja": "新鮮な",
+      "pos": "adj",
+      "ex_en": "We buy fresh vegetables at the market.",
+      "ex_ja": "市場で新鮮な野菜を買います。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e3_042",
+      "en": "friendly",
+      "ja": "友好的な、親切な",
+      "pos": "adj",
+      "ex_en": "Everyone in the town was kind and friendly.",
+      "ex_ja": "その町のみんなは親切で友好的でした。",
+      "level": 2,
+      "tags": [
+        "personality"
+      ]
+    },
+    {
+      "id": "e3_043",
+      "en": "fruit",
+      "ja": "果物",
+      "pos": "noun",
+      "ex_en": "Eating fruit every day is good for you.",
+      "ex_ja": "毎日果物を食べるのは体に良いです。",
+      "level": 2,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "e3_044",
+      "en": "garden",
+      "ja": "庭",
+      "pos": "noun",
+      "ex_en": "Grandpa grows roses in his garden.",
+      "ex_ja": "祖父は庭にバラを育てています。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e3_045",
+      "en": "gift",
+      "ja": "贈り物",
+      "pos": "noun",
+      "ex_en": "I bought a birthday gift for my mom.",
+      "ex_ja": "母に誕生日の贈り物を買いました。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_046",
+      "en": "glad",
+      "ja": "うれしい",
+      "pos": "adj",
+      "ex_en": "I'm glad you could come to my party.",
+      "ex_ja": "パーティーに来られてうれしいです。",
+      "level": 2,
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "e3_047",
+      "en": "ground",
+      "ja": "地面",
+      "pos": "noun",
+      "ex_en": "The apple fell to the ground.",
+      "ex_ja": "リンゴが地面に落ちました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e3_048",
+      "en": "grow",
+      "ja": "成長する、育つ",
+      "pos": "verb",
+      "ex_en": "Rice grows well in this warm area.",
+      "ex_ja": "この暖かい地域では米がよく育ちます。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e3_049",
+      "en": "guest",
+      "ja": "客、来賓",
+      "pos": "noun",
+      "ex_en": "We invited thirty guests to the wedding.",
+      "ex_ja": "結婚式に30人のゲストを招きました。",
+      "level": 2,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "e3_050",
+      "en": "habit",
+      "ja": "習慣",
+      "pos": "noun",
+      "ex_en": "Brushing your teeth is a good habit.",
+      "ex_ja": "歯磨きは良い習慣です。",
+      "level": 2,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "e3_051",
+      "en": "happen",
+      "ja": "起こる",
+      "pos": "verb",
+      "ex_en": "What happened to your leg?",
+      "ex_ja": "足に何が起こったのですか。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_052",
+      "en": "hate",
+      "ja": "嫌う",
+      "pos": "verb",
+      "ex_en": "I hate getting up early in winter.",
+      "ex_ja": "私は冬に早く起きることが嫌いです。",
+      "level": 2,
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "e3_053",
+      "en": "healthy",
+      "ja": "健康的な",
+      "pos": "adj",
+      "ex_en": "Vegetables keep us healthy.",
+      "ex_ja": "野菜は私たちを健康的に保ってくれます。",
+      "level": 2,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "e3_054",
+      "en": "heavy",
+      "ja": "重い",
+      "pos": "adj",
+      "ex_en": "This suitcase is heavier than mine.",
+      "ex_ja": "このスーツケースは私のより重いです。",
+      "level": 2,
+      "tags": [
+        "thing"
+      ]
+    },
+    {
+      "id": "e3_055",
+      "en": "hill",
+      "ja": "丘",
+      "pos": "noun",
+      "ex_en": "There is an old church on the hill.",
+      "ex_ja": "丘の上に古い教会があります。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e3_056",
+      "en": "hobby",
+      "ja": "趣味",
+      "pos": "noun",
+      "ex_en": "My hobby is taking pictures of birds.",
+      "ex_ja": "私の趣味は鳥の写真を撮ることです。",
+      "level": 2,
+      "tags": [
+        "hobby"
+      ]
+    },
+    {
+      "id": "e3_057",
+      "en": "holiday",
+      "ja": "休日、祝日",
+      "pos": "noun",
+      "ex_en": "Monday is a national holiday.",
+      "ex_ja": "月曜日は国民の祝日です。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "e3_058",
+      "en": "hotel",
+      "ja": "ホテル",
+      "pos": "noun",
+      "ex_en": "We stayed at a small hotel near the lake.",
+      "ex_ja": "湖の近くにある小さなホテルに泊まりました。",
+      "level": 2,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "e3_059",
+      "en": "hungry",
+      "ja": "空腹な",
+      "pos": "adj",
+      "ex_en": "I'm so hungry; let's eat lunch.",
+      "ex_ja": "とてもお腹がすいたので、昼食を食べましょう。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "e3_060",
+      "en": "hurry",
+      "ja": "急ぐ",
+      "pos": "verb",
+      "ex_en": "Hurry up, or we'll miss the train.",
+      "ex_ja": "急がないと、電車に乗り遅れてしまいますよ。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_061",
+      "en": "hurt",
+      "ja": "痛む",
+      "pos": "verb",
+      "ex_en": "My knee hurts after running.",
+      "ex_ja": "走った後、膝が痛みます。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "e3_062",
+      "en": "imagine",
+      "ja": "想像する",
+      "pos": "verb",
+      "ex_en": "Can you imagine life without smartphones?",
+      "ex_ja": "スマートフォンのない生活を想像できますか。",
+      "level": 2,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "e3_063",
+      "en": "immediately",
+      "ja": "すぐに",
+      "pos": "adv",
+      "ex_en": "Please call me immediately when you arrive.",
+      "ex_ja": "到着したらすぐに私に電話してください。",
+      "level": 2,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "e3_064",
+      "en": "inside",
+      "ja": "～の中に",
+      "pos": "prep",
+      "ex_en": "The keys are inside the box.",
+      "ex_ja": "鍵は箱の中にあります。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e3_065",
+      "en": "invite",
+      "ja": "招待する",
+      "pos": "verb",
+      "ex_en": "She invited me to her birthday party.",
+      "ex_ja": "彼女は私を誕生日パーティーに招待しました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e3_066",
+      "en": "jump",
+      "ja": "跳ぶ",
+      "pos": "verb",
+      "ex_en": "The cat jumped onto the table.",
+      "ex_ja": "猫はテーブルの上に跳び乗りました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e3_067",
+      "en": "lake",
+      "ja": "湖",
+      "pos": "noun",
+      "ex_en": "We swam in the clear lake.",
+      "ex_ja": "私たちは澄んだ湖で泳ぎました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e3_068",
+      "en": "laugh",
+      "ja": "笑う",
+      "pos": "verb",
+      "ex_en": "Everyone laughed at his funny story.",
+      "ex_ja": "みんな彼の面白い話に笑いました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "e3_069",
+      "en": "library",
+      "ja": "図書館",
+      "pos": "noun",
+      "ex_en": "I borrowed three books from the library.",
+      "ex_ja": "図書館から本を3冊借りました。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e3_070",
+      "en": "lonely",
+      "ja": "寂しい",
+      "pos": "adj",
+      "ex_en": "He felt lonely when he moved to a new city.",
+      "ex_ja": "新しい街に引っ越したとき、彼は寂しく感じました。",
+      "level": 2,
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "e3_071",
+      "en": "lose",
+      "ja": "失う、なくす",
+      "pos": "verb",
+      "ex_en": "Don't lose your train ticket.",
+      "ex_ja": "電車の切符をなくさないでください。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_072",
+      "en": "luck",
+      "ja": "運",
+      "pos": "noun",
+      "ex_en": "Good luck with your exam tomorrow!",
+      "ex_ja": "明日の試験がうまくいきますように。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_073",
+      "en": "message",
+      "ja": "伝言、メッセージ",
+      "pos": "noun",
+      "ex_en": "I left a message on her phone.",
+      "ex_ja": "彼女の電話に伝言を残しました。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_074",
+      "en": "miss",
+      "ja": "乗り遅れる、見逃す",
+      "pos": "verb",
+      "ex_en": "We missed the last bus and walked home.",
+      "ex_ja": "最終バスに乗り遅れて、歩いて帰りました。",
+      "level": 2,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "e3_075",
+      "en": "mistake",
+      "ja": "間違い",
+      "pos": "noun",
+      "ex_en": "I made a mistake in the math test.",
+      "ex_ja": "数学のテストで間違えてしまいました。",
+      "level": 2,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "e3_076",
+      "en": "mountain",
+      "ja": "山",
+      "pos": "noun",
+      "ex_en": "Mt. Fuji is the tallest mountain in Japan.",
+      "ex_ja": "富士山は日本で一番高い山です。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "e3_077",
+      "en": "movie",
+      "ja": "映画",
+      "pos": "noun",
+      "ex_en": "We watched a funny movie last night.",
+      "ex_ja": "昨夜、面白い映画を見ました。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "e3_078",
+      "en": "museum",
+      "ja": "博物館",
+      "pos": "noun",
+      "ex_en": "The science museum is closed on Mondays.",
+      "ex_ja": "科学博物館は月曜日は閉館です。",
+      "level": 2,
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "e3_079",
+      "en": "news",
+      "ja": "知らせ、ニュース",
+      "pos": "noun",
+      "ex_en": "Did you hear the news about the new teacher?",
+      "ex_ja": "新しい先生についての知らせを聞きましたか。",
+      "level": 2,
+      "tags": [
+        "daily"
+      ]
+    }
+  ]
+}

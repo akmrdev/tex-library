@@ -1,0 +1,1137 @@
+{
+  "meta": {
+    "file": "jw-level1-core-100",
+    "stage": "junior",
+    "description": "中学必須コア100語"
+  },
+  "words": [
+    {
+      "id": "jw001",
+      "en": "do",
+      "ja": "する；（疑問・否定を作る助動詞）",
+      "pos": "verb",
+      "ex_en": "What did you do last weekend?",
+      "ex_ja": "先週の週末は何をしましたか。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw002",
+      "en": "have",
+      "ja": "持っている；（完了の助動詞）～したところだ",
+      "pos": "verb",
+      "ex_en": "I have two brothers.",
+      "ex_ja": "私には兄弟が二人います。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw003",
+      "en": "go",
+      "ja": "行く",
+      "pos": "verb",
+      "ex_en": "We go to school by bus.",
+      "ex_ja": "私たちはバスで学校へ通います。",
+      "level": 1,
+      "tags": [
+        "movement"
+      ]
+    },
+    {
+      "id": "jw004",
+      "en": "come",
+      "ja": "来る",
+      "pos": "verb",
+      "ex_en": "Please come to my birthday party.",
+      "ex_ja": "私の誕生日パーティーに来てください。",
+      "level": 1,
+      "tags": [
+        "movement"
+      ]
+    },
+    {
+      "id": "jw005",
+      "en": "make",
+      "ja": "作る；～させる",
+      "pos": "verb",
+      "ex_en": "My mother made cookies for us.",
+      "ex_ja": "母は私たちにクッキーを作ってくれました。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw006",
+      "en": "take",
+      "ja": "取る；連れて行く；（時間が）かかる",
+      "pos": "verb",
+      "ex_en": "It takes ten minutes to walk there.",
+      "ex_ja": "そこまで歩いて10分かかります。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw007",
+      "en": "get",
+      "ja": "手に入れる；受け取る；～になる",
+      "pos": "verb",
+      "ex_en": "I got a letter from my friend.",
+      "ex_ja": "友達から手紙を受け取りました。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw008",
+      "en": "say",
+      "ja": "言う",
+      "pos": "verb",
+      "ex_en": "She said, \"See you tomorrow.\"",
+      "ex_ja": "彼女は「また明日」と言いました。",
+      "level": 1,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw009",
+      "en": "see",
+      "ja": "見える；会う；わかる",
+      "pos": "verb",
+      "ex_en": "I saw a rainbow yesterday.",
+      "ex_ja": "昨日虹を見ました。",
+      "level": 1,
+      "tags": [
+        "perception"
+      ]
+    },
+    {
+      "id": "jw010",
+      "en": "think",
+      "ja": "考える；思う",
+      "pos": "verb",
+      "ex_en": "I think this movie is interesting.",
+      "ex_ja": "この映画は面白いと思います。",
+      "level": 1,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "jw011",
+      "en": "know",
+      "ja": "知っている",
+      "pos": "verb",
+      "ex_en": "Do you know her phone number?",
+      "ex_ja": "彼女の電話番号を知っていますか。",
+      "level": 1,
+      "tags": [
+        "mind"
+      ]
+    },
+    {
+      "id": "jw012",
+      "en": "want",
+      "ja": "～がほしい；～したいと望む",
+      "pos": "verb",
+      "ex_en": "I want a new bicycle.",
+      "ex_ja": "新しい自転車がほしいです。",
+      "level": 1,
+      "tags": [
+        "desire"
+      ]
+    },
+    {
+      "id": "jw013",
+      "en": "look",
+      "ja": "見る；～に見える",
+      "pos": "verb",
+      "ex_en": "Look at that beautiful sunset.",
+      "ex_ja": "あの美しい夕焼けを見てごらん。",
+      "level": 1,
+      "tags": [
+        "perception"
+      ]
+    },
+    {
+      "id": "jw014",
+      "en": "give",
+      "ja": "与える；あげる",
+      "pos": "verb",
+      "ex_en": "He gave me a present on my birthday.",
+      "ex_ja": "彼は私の誕生日にプレゼントをくれました。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw015",
+      "en": "find",
+      "ja": "見つける",
+      "pos": "verb",
+      "ex_en": "I can't find my glasses.",
+      "ex_ja": "眼鏡が見つかりません。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw016",
+      "en": "tell",
+      "ja": "話す；伝える",
+      "pos": "verb",
+      "ex_en": "Tell me about your hometown.",
+      "ex_ja": "あなたのふるさとについて教えてください。",
+      "level": 1,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw017",
+      "en": "feel",
+      "ja": "感じる；（触って）感じる",
+      "pos": "verb",
+      "ex_en": "I felt happy when I passed the test.",
+      "ex_ja": "テストに合格してうれしく感じました。",
+      "level": 1,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw018",
+      "en": "put",
+      "ja": "置く",
+      "pos": "verb",
+      "ex_en": "Put your shoes by the door.",
+      "ex_ja": "靴はドアのそばに置いてください。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw019",
+      "en": "keep",
+      "ja": "保ち続ける；（物を）保管する",
+      "pos": "verb",
+      "ex_en": "Please keep this secret.",
+      "ex_ja": "これは秘密にしておいてください。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw020",
+      "en": "help",
+      "ja": "助ける；手伝う",
+      "pos": "verb",
+      "ex_en": "Can you help me with my homework?",
+      "ex_ja": "宿題を手伝ってくれますか。",
+      "level": 1,
+      "tags": [
+        "support"
+      ]
+    },
+    {
+      "id": "jw021",
+      "en": "use",
+      "ja": "使う",
+      "pos": "verb",
+      "ex_en": "May I use your pen?",
+      "ex_ja": "あなたのペンを使ってもいいですか。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw022",
+      "en": "talk",
+      "ja": "話す；おしゃべりする",
+      "pos": "verb",
+      "ex_en": "We talked about music for hours.",
+      "ex_ja": "私たちは何時間も音楽について話しました。",
+      "level": 1,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw023",
+      "en": "turn",
+      "ja": "曲がる；回る；（状態が）変わる",
+      "pos": "verb",
+      "ex_en": "Turn left at the next corner.",
+      "ex_ja": "次の角を左に曲がってください。",
+      "level": 1,
+      "tags": [
+        "movement"
+      ]
+    },
+    {
+      "id": "jw024",
+      "en": "start",
+      "ja": "始める；始まる",
+      "pos": "verb",
+      "ex_en": "School starts at eight thirty.",
+      "ex_ja": "学校は8時半に始まります。",
+      "level": 1,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw025",
+      "en": "show",
+      "ja": "見せる；示す",
+      "pos": "verb",
+      "ex_en": "She showed me some photos of her trip.",
+      "ex_ja": "彼女は旅行の写真を何枚か見せてくれました。",
+      "level": 1,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw026",
+      "en": "call",
+      "ja": "～と呼ぶ；電話をかける",
+      "pos": "verb",
+      "ex_en": "They call their dog Pochi.",
+      "ex_ja": "彼らは犬をポチと呼んでいます。",
+      "level": 1,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw027",
+      "en": "try",
+      "ja": "～しようとする；試す",
+      "pos": "verb",
+      "ex_en": "I tried to open the window, but it was stuck.",
+      "ex_ja": "窓を開けようとしたけど、動かなかった。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw028",
+      "en": "ask",
+      "ja": "尋ねる；（人に）頼む",
+      "pos": "verb",
+      "ex_en": "May I ask you a question?",
+      "ex_ja": "質問してもいいですか。",
+      "level": 1,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "jw029",
+      "en": "need",
+      "ja": "必要とする",
+      "pos": "verb",
+      "ex_en": "Plants need water and sunlight.",
+      "ex_ja": "植物には水と日光が必要です。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw030",
+      "en": "work",
+      "ja": "働く；（機械などが）動く",
+      "pos": "verb",
+      "ex_en": "My father works at a hospital.",
+      "ex_ja": "父は病院で働いています。",
+      "level": 1,
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "jw031",
+      "en": "live",
+      "ja": "住む；生きる",
+      "pos": "verb",
+      "ex_en": "My grandparents live in Kyoto.",
+      "ex_ja": "祖父母は京都に住んでいます。",
+      "level": 1,
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "jw032",
+      "en": "play",
+      "ja": "遊ぶ；（スポーツ・楽器を）する",
+      "pos": "verb",
+      "ex_en": "The children are playing soccer in the park.",
+      "ex_ja": "子どもたちは公園でサッカーをしています。",
+      "level": 1,
+      "tags": [
+        "activity"
+      ]
+    },
+    {
+      "id": "jw033",
+      "en": "read",
+      "ja": "読む",
+      "pos": "verb",
+      "ex_en": "I read a book before bed every night.",
+      "ex_ja": "毎晩寝る前に本を読みます。",
+      "level": 1,
+      "tags": [
+        "study"
+      ]
+    },
+    {
+      "id": "jw034",
+      "en": "write",
+      "ja": "書く",
+      "pos": "verb",
+      "ex_en": "Write your name on this line.",
+      "ex_ja": "この線の上に名前を書いてください。",
+      "level": 1,
+      "tags": [
+        "study"
+      ]
+    },
+    {
+      "id": "jw035",
+      "en": "study",
+      "ja": "勉強する；調べる",
+      "pos": "verb",
+      "ex_en": "She studies English after dinner.",
+      "ex_ja": "彼女は夕食後に英語を勉強します。",
+      "level": 1,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jw036",
+      "en": "learn",
+      "ja": "学ぶ；～できるようになる",
+      "pos": "verb",
+      "ex_en": "I'm learning how to cook rice.",
+      "ex_ja": "ご飯の炊き方を習っています。",
+      "level": 1,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jw037",
+      "en": "buy",
+      "ja": "買う",
+      "pos": "verb",
+      "ex_en": "We bought some fruit at the market.",
+      "ex_ja": "市場で果物を少し買いました。",
+      "level": 1,
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "jw038",
+      "en": "eat",
+      "ja": "食べる",
+      "pos": "verb",
+      "ex_en": "Don't eat too many sweets.",
+      "ex_ja": "甘いものを食べすぎないで。",
+      "level": 1,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "jw039",
+      "en": "drink",
+      "ja": "飲む",
+      "pos": "verb",
+      "ex_en": "Drink lots of water when it's hot.",
+      "ex_ja": "暑いときはたくさん水を飲んでください。",
+      "level": 1,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "jw040",
+      "en": "walk",
+      "ja": "歩く",
+      "pos": "verb",
+      "ex_en": "I walk to the station every morning.",
+      "ex_ja": "毎朝駅まで歩いて行きます。",
+      "level": 1,
+      "tags": [
+        "movement"
+      ]
+    },
+    {
+      "id": "jw041",
+      "en": "run",
+      "ja": "走る；（店などが）経営している",
+      "pos": "verb",
+      "ex_en": "He runs faster than anyone in his class.",
+      "ex_ja": "彼はクラスの誰よりも速く走ります。",
+      "level": 1,
+      "tags": [
+        "movement"
+      ]
+    },
+    {
+      "id": "jw042",
+      "en": "sit",
+      "ja": "座る",
+      "pos": "verb",
+      "ex_en": "Please sit down and be quiet.",
+      "ex_ja": "座って静かにしてください。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw043",
+      "en": "stand",
+      "ja": "立つ",
+      "pos": "verb",
+      "ex_en": "A tall tree stands by the gate.",
+      "ex_ja": "門のそばに高い木が立っています。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw044",
+      "en": "stop",
+      "ja": "止まる；やめる",
+      "pos": "verb",
+      "ex_en": "The bus stopped in front of the hotel.",
+      "ex_ja": "バスはホテルの前で止まりました。",
+      "level": 1,
+      "tags": [
+        "movement"
+      ]
+    },
+    {
+      "id": "jw045",
+      "en": "wait",
+      "ja": "待つ",
+      "pos": "verb",
+      "ex_en": "Wait for me at the coffee shop.",
+      "ex_ja": "喫茶店で私を待っていてください。",
+      "level": 1,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw046",
+      "en": "open",
+      "ja": "開ける；開く",
+      "pos": "verb",
+      "ex_en": "Open your books to page ten.",
+      "ex_ja": "10ページを開いてください。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw047",
+      "en": "close",
+      "ja": "閉める；閉じる",
+      "pos": "verb",
+      "ex_en": "Close the window before you leave.",
+      "ex_ja": "出かける前に窓を閉めてください。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jw048",
+      "en": "like",
+      "ja": "好きである；（～したい）望む",
+      "pos": "verb",
+      "ex_en": "I like listening to music in my room.",
+      "ex_ja": "部屋で音楽を聴くのが好きです。",
+      "level": 1,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw049",
+      "en": "love",
+      "ja": "大好きである；愛する",
+      "pos": "verb",
+      "ex_en": "I love spending time with my family.",
+      "ex_ja": "家族と過ごす時間が大好きです。",
+      "level": 1,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw050",
+      "en": "hope",
+      "ja": "望む；～といいと思う",
+      "pos": "verb",
+      "ex_en": "I hope it will be sunny tomorrow.",
+      "ex_ja": "明日は晴れるといいなと思います。",
+      "level": 1,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "jw051",
+      "en": "time",
+      "ja": "時間；回数；時",
+      "pos": "noun",
+      "ex_en": "What time do you get up?",
+      "ex_ja": "あなたは何時に起きますか。",
+      "level": 1,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw052",
+      "en": "day",
+      "ja": "日；昼間",
+      "pos": "noun",
+      "ex_en": "There are seven days in a week.",
+      "ex_ja": "1週間には7日あります。",
+      "level": 1,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw053",
+      "en": "year",
+      "ja": "年",
+      "pos": "noun",
+      "ex_en": "She is in her second year of junior high.",
+      "ex_ja": "彼女は中学2年生です。",
+      "level": 1,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw054",
+      "en": "week",
+      "ja": "週",
+      "pos": "noun",
+      "ex_en": "I see my grandparents once a week.",
+      "ex_ja": "週に一度祖父母に会います。",
+      "level": 1,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw055",
+      "en": "people",
+      "ja": "人々",
+      "pos": "noun",
+      "ex_en": "Many people visit this park on Sundays.",
+      "ex_ja": "日曜日には多くの人がこの公園を訪れます。",
+      "level": 1,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "jw056",
+      "en": "thing",
+      "ja": "物；こと",
+      "pos": "noun",
+      "ex_en": "What's that thing on the table?",
+      "ex_ja": "テーブルの上のあれは何ですか。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw057",
+      "en": "way",
+      "ja": "道；方法；方向",
+      "pos": "noun",
+      "ex_en": "Can you tell me the way to the station?",
+      "ex_ja": "駅への行き方を教えてくれますか。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw058",
+      "en": "place",
+      "ja": "場所",
+      "pos": "noun",
+      "ex_en": "This is my favorite place in the city.",
+      "ex_ja": "ここは街で一番好きな場所です。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw064",
+      "en": "home",
+      "ja": "家；わが家",
+      "pos": "noun",
+      "ex_en": "I got home at six o'clock.",
+      "ex_ja": "6時に家に着きました。",
+      "level": 1,
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "jw065",
+      "en": "house",
+      "ja": "家；住宅",
+      "pos": "noun",
+      "ex_en": "Their house has a small garden.",
+      "ex_ja": "彼らの家には小さな庭があります。",
+      "level": 1,
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "jw066",
+      "en": "word",
+      "ja": "言葉；単語",
+      "pos": "noun",
+      "ex_en": "I don't know this word. What does it mean?",
+      "ex_ja": "この単語を知りません。どういう意味ですか。",
+      "level": 1,
+      "tags": [
+        "study"
+      ]
+    },
+    {
+      "id": "jw067",
+      "en": "question",
+      "ja": "質問；問い",
+      "pos": "noun",
+      "ex_en": "If you have any questions, please ask me.",
+      "ex_ja": "質問があれば聞いてください。",
+      "level": 1,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jw068",
+      "en": "answer",
+      "ja": "答え；（電話・手紙の）返事",
+      "pos": "noun",
+      "ex_en": "Your answer to question three is wrong.",
+      "ex_ja": "問3のあなたの答えは間違っています。",
+      "level": 1,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jw069",
+      "en": "book",
+      "ja": "本",
+      "pos": "noun",
+      "ex_en": "This book is easy to read.",
+      "ex_ja": "この本は読みやすいです。",
+      "level": 1,
+      "tags": [
+        "study"
+      ]
+    },
+    {
+      "id": "jw070",
+      "en": "name",
+      "ja": "名前",
+      "pos": "noun",
+      "ex_en": "What's the name of this song?",
+      "ex_ja": "この曲のタイトルは何ですか。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw071",
+      "en": "life",
+      "ja": "生活；命；人生",
+      "pos": "noun",
+      "ex_en": "Life in the country is quiet.",
+      "ex_ja": "田舎の生活は静かです。",
+      "level": 1,
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "jw072",
+      "en": "child",
+      "ja": "子ども",
+      "pos": "noun",
+      "ex_en": "That child is playing with a puppy.",
+      "ex_ja": "あの子は子犬と遊んでいます。",
+      "level": 1,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "jw073",
+      "en": "food",
+      "ja": "食べ物；食料",
+      "pos": "noun",
+      "ex_en": "Japanese food is popular around the world.",
+      "ex_ja": "日本食は世界中で人気があります。",
+      "level": 1,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "jw075",
+      "en": "money",
+      "ja": "お金",
+      "pos": "noun",
+      "ex_en": "I saved money to buy a new game.",
+      "ex_ja": "新しいゲームを買うためにお金を貯めました。",
+      "level": 1,
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "jw076",
+      "en": "good",
+      "ja": "良い；上手な",
+      "pos": "adj",
+      "ex_en": "He is good at playing the piano.",
+      "ex_ja": "彼はピアノを弾くのが上手です。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw077",
+      "en": "new",
+      "ja": "新しい",
+      "pos": "adj",
+      "ex_en": "I got a new school bag.",
+      "ex_ja": "新しいランドセルを買いました。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw078",
+      "en": "big",
+      "ja": "大きい；大きな",
+      "pos": "adj",
+      "ex_en": "There is a big tree in our yard.",
+      "ex_ja": "庭に大きな木があります。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw079",
+      "en": "small",
+      "ja": "小さい；少ない",
+      "pos": "adj",
+      "ex_en": "Our classroom is small but clean.",
+      "ex_ja": "私たちの教室は小さいけれどきれいです。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw080",
+      "en": "many",
+      "ja": "多くの（数えられる物）",
+      "pos": "adj",
+      "ex_en": "Many students joined the club.",
+      "ex_ja": "多くの生徒がその部活に入りました。",
+      "level": 1,
+      "tags": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "jw081",
+      "en": "much",
+      "ja": "たくさんの（数えられない物）；とても",
+      "pos": "adv",
+      "ex_en": "How much time do we have?",
+      "ex_ja": "時間はどのくらいありますか。",
+      "level": 1,
+      "tags": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "jw082",
+      "en": "little",
+      "ja": "小さい；少しの（量）",
+      "pos": "adj",
+      "ex_en": "There is a little milk in the glass.",
+      "ex_ja": "コップに牛乳が少し入っています。",
+      "level": 1,
+      "tags": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "jw083",
+      "en": "long",
+      "ja": "長い；長く",
+      "pos": "adj",
+      "ex_en": "How long does it take to get there?",
+      "ex_ja": "そこまでどのくらいかかりますか。",
+      "level": 1,
+      "tags": [
+        "measure"
+      ]
+    },
+    {
+      "id": "jw084",
+      "en": "short",
+      "ja": "短い；背が低い",
+      "pos": "adj",
+      "ex_en": "Her hair is short and black.",
+      "ex_ja": "彼女の髪は短くて黒いです。",
+      "level": 1,
+      "tags": [
+        "measure"
+      ]
+    },
+    {
+      "id": "jw085",
+      "en": "high",
+      "ja": "高い（高さが）",
+      "pos": "adj",
+      "ex_en": "That building is very high.",
+      "ex_ja": "あの建物はとても高いです。",
+      "level": 1,
+      "tags": [
+        "measure"
+      ]
+    },
+    {
+      "id": "jw086",
+      "en": "old",
+      "ja": "古い；（年齢が）～歳の；年をとった",
+      "pos": "adj",
+      "ex_en": "My grandfather is seventy years old.",
+      "ex_ja": "祖父は70歳です。",
+      "level": 1,
+      "tags": [
+        "measure"
+      ]
+    },
+    {
+      "id": "jw087",
+      "en": "young",
+      "ja": "若い",
+      "pos": "adj",
+      "ex_en": "Our new teacher is young and funny.",
+      "ex_ja": "新しい先生は若くて面白いです。",
+      "level": 1,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "jw088",
+      "en": "first",
+      "ja": "最初の；一番目の；最初に",
+      "pos": "adj",
+      "ex_en": "Sunday is the first day of the week.",
+      "ex_ja": "日曜日は週の最初の日です。",
+      "level": 1,
+      "tags": [
+        "order"
+      ]
+    },
+    {
+      "id": "jw089",
+      "en": "last",
+      "ja": "最後の；この前の；最後に",
+      "pos": "adj",
+      "ex_en": "December is the last month of the year.",
+      "ex_ja": "12月は年の最後の月です。",
+      "level": 1,
+      "tags": [
+        "order"
+      ]
+    },
+    {
+      "id": "jw090",
+      "en": "next",
+      "ja": "次の；隣の",
+      "pos": "adj",
+      "ex_en": "See you next Monday.",
+      "ex_ja": "また来週の月曜日に。",
+      "level": 1,
+      "tags": [
+        "order"
+      ]
+    },
+    {
+      "id": "jw091",
+      "en": "same",
+      "ja": "同じ",
+      "pos": "adj",
+      "ex_en": "We go to the same school.",
+      "ex_ja": "私たちは同じ学校に通っています。",
+      "level": 1,
+      "tags": [
+        "order"
+      ]
+    },
+    {
+      "id": "jw092",
+      "en": "other",
+      "ja": "他の；残りの",
+      "pos": "adj",
+      "ex_en": "Do you have any other questions?",
+      "ex_ja": "他に質問はありますか。",
+      "level": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "jw093",
+      "en": "very",
+      "ja": "とても",
+      "pos": "adv",
+      "ex_en": "This test was very easy for me.",
+      "ex_ja": "このテストは私にはとても簡単でした。",
+      "level": 1,
+      "tags": [
+        "degree"
+      ]
+    },
+    {
+      "id": "jw094",
+      "en": "often",
+      "ja": "しばしば；よく",
+      "pos": "adv",
+      "ex_en": "I often play tennis with my father.",
+      "ex_ja": "父とよくテニスをします。",
+      "level": 1,
+      "tags": [
+        "frequency"
+      ]
+    },
+    {
+      "id": "jw095",
+      "en": "always",
+      "ja": "いつも",
+      "pos": "adv",
+      "ex_en": "She always smiles at everyone.",
+      "ex_ja": "彼女はいつもみんなに笑顔です。",
+      "level": 1,
+      "tags": [
+        "frequency"
+      ]
+    },
+    {
+      "id": "jw096",
+      "en": "usually",
+      "ja": "普段は；たいてい",
+      "pos": "adv",
+      "ex_en": "I usually take the bus to school.",
+      "ex_ja": "たいていバスで通学しています。",
+      "level": 1,
+      "tags": [
+        "frequency"
+      ]
+    },
+    {
+      "id": "jw097",
+      "en": "never",
+      "ja": "決して～ない；一度も～ない",
+      "pos": "adv",
+      "ex_en": "He never gives up easily.",
+      "ex_ja": "彼は簡単に諦めたりしません。",
+      "level": 1,
+      "tags": [
+        "frequency"
+      ]
+    },
+    {
+      "id": "jw098",
+      "en": "before",
+      "ja": "～の前に；前に",
+      "pos": "prep",
+      "ex_en": "Wash your hands before dinner.",
+      "ex_ja": "夕食の前に手を洗ってください。",
+      "level": 1,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw099",
+      "en": "after",
+      "ja": "～の後に；後で",
+      "pos": "prep",
+      "ex_en": "After school, I play with my friends.",
+      "ex_ja": "放課後に友達と遊びます。",
+      "level": 1,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jw100",
+      "en": "because",
+      "ja": "なぜなら～だから",
+      "pos": "conj",
+      "ex_en": "I stayed home because I had a cold.",
+      "ex_ja": "風邪をひいたので家にいました。",
+      "level": 1,
+      "tags": [
+        "logic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1265 @@
+{
+  "meta": {
+    "file": "tw-core-100",
+    "stage": "toeic",
+    "description": "TOEIC頻出コア100語"
+  },
+  "words": [
+    {
+      "id": "tc_001",
+      "en": "contract",
+      "ja": "契約",
+      "pos": "noun",
+      "ex_en": "We signed a two-year contract with the supplier.",
+      "ex_ja": "弊社はサプライヤーと2年間の契約を結びました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_002",
+      "en": "client",
+      "ja": "顧客、依頼人",
+      "pos": "noun",
+      "ex_en": "The client requested a revised proposal by Friday.",
+      "ex_ja": "顧客は金曜日までに修正版の提案書を求めました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_003",
+      "en": "order",
+      "ja": "注文",
+      "pos": "noun",
+      "ex_en": "We placed an order for fifty new desks.",
+      "ex_ja": "弊社は新しい机50台の注文をしました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_004",
+      "en": "receipt",
+      "ja": "領収書",
+      "pos": "noun",
+      "ex_en": "Please keep the receipt for your expense report.",
+      "ex_ja": "経費精算のために領収書を保管してください。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_005",
+      "en": "delivery",
+      "ja": "配達、配送",
+      "pos": "noun",
+      "ex_en": "The delivery arrived two days earlier than scheduled.",
+      "ex_ja": "配達は予定より2日早く到着しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_006",
+      "en": "headquarters",
+      "ja": "本社",
+      "pos": "noun",
+      "ex_en": "Our headquarters is located in downtown Chicago.",
+      "ex_ja": "当社の本社はシカゴのダウンタウンにあります。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_007",
+      "en": "branch",
+      "ja": "支店、支社",
+      "pos": "noun",
+      "ex_en": "She manages the Osaka branch office.",
+      "ex_ja": "彼女は大阪支店を統括しています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_008",
+      "en": "department",
+      "ja": "部門、部署",
+      "pos": "noun",
+      "ex_en": "He works in the marketing department.",
+      "ex_ja": "彼はマーケティング部門で働いています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_009",
+      "en": "manager",
+      "ja": "管理者、マネージャー",
+      "pos": "noun",
+      "ex_en": "The store manager will interview you tomorrow.",
+      "ex_ja": "店長が明日あなたの面接を行います。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_010",
+      "en": "executive",
+      "ja": "役員、経営幹部",
+      "pos": "noun",
+      "ex_en": "Senior executives attended the annual meeting.",
+      "ex_ja": "上級役員たちが年次総会に出席しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_011",
+      "en": "colleague",
+      "ja": "同僚",
+      "pos": "noun",
+      "ex_en": "My colleagues helped me prepare the presentation.",
+      "ex_ja": "同僚たちがプレゼンテーションの準備を手伝ってくれました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_012",
+      "en": "staff",
+      "ja": "スタッフ、職員",
+      "pos": "noun",
+      "ex_en": "The hotel staff greeted every guest politely.",
+      "ex_ja": "ホテルのスタッフはすべてのお客様に丁寧に挨拶しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_013",
+      "en": "applicant",
+      "ja": "応募者",
+      "pos": "noun",
+      "ex_en": "Over eighty applicants applied for the position.",
+      "ex_ja": "80人以上の応募者がその職に応募しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_014",
+      "en": "resume",
+      "ja": "履歴書",
+      "pos": "noun",
+      "ex_en": "Send your resume to the human resources office.",
+      "ex_ja": "履歴書を人事部宛てに送ってください。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_015",
+      "en": "hire",
+      "ja": "雇う、採用する",
+      "pos": "verb",
+      "ex_en": "The company plans to hire ten new engineers.",
+      "ex_ja": "同社は新しいエンジニアを10人雇う予定です。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_016",
+      "en": "trainee",
+      "ja": "研修生",
+      "pos": "noun",
+      "ex_en": "Each trainee is assigned an experienced mentor.",
+      "ex_ja": "各研修生には経験豊富な指導担当者が付けられます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_017",
+      "en": "intern",
+      "ja": "インターン生、実習生",
+      "pos": "noun",
+      "ex_en": "The intern supported the sales team last summer.",
+      "ex_ja": "そのインターン生は昨夏、営業チームを支援しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_018",
+      "en": "payroll",
+      "ja": "給与支払い、給与台帳",
+      "pos": "noun",
+      "ex_en": "Payroll is processed on the twenty-fifth of each month.",
+      "ex_ja": "給与は毎月25日に処理されます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_019",
+      "en": "wage",
+      "ja": "賃金、(時間)給",
+      "pos": "noun",
+      "ex_en": "The minimum wage will rise in April.",
+      "ex_ja": "最低賃金は4月に引き上げられます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_020",
+      "en": "bonus",
+      "ja": "ボーナス、賞与",
+      "pos": "noun",
+      "ex_en": "Employees receive a year-end bonus based on performance.",
+      "ex_ja": "従業員は業績に応じて年末ボーナスを受け取ります。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_021",
+      "en": "margin",
+      "ja": "利ざや、マージン",
+      "pos": "noun",
+      "ex_en": "Cutting costs widened the company's margins.",
+      "ex_ja": "コスト削減により会社のマージンが拡大しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_022",
+      "en": "loss",
+      "ja": "損失",
+      "pos": "noun",
+      "ex_en": "The company reported a small loss last year.",
+      "ex_ja": "同社は昨年、わずかな損失を計上しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_023",
+      "en": "cash flow",
+      "ja": "資金繰り、キャッシュフロー",
+      "pos": "noun",
+      "ex_en": "Careful planning improved the firm's cash flow.",
+      "ex_ja": "綿密な計画によって会社のキャッシュフローが改善されました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_024",
+      "en": "accountant",
+      "ja": "会計士、経理担当者",
+      "pos": "noun",
+      "ex_en": "Our accountant reviews the books every month.",
+      "ex_ja": "経理担当者が毎月帳簿を確認します。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_025",
+      "en": "payment",
+      "ja": "支払い",
+      "pos": "noun",
+      "ex_en": "Full payment is due within thirty days.",
+      "ex_ja": "全額のお支払いは30日以内が期日です。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_026",
+      "en": "deposit",
+      "ja": "頭金、預け入れ、内金",
+      "pos": "noun",
+      "ex_en": "A ten percent deposit is required to reserve the venue.",
+      "ex_ja": "会場の予約には1割の内金が必要です。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_027",
+      "en": "loan",
+      "ja": "ローン、借入",
+      "pos": "noun",
+      "ex_en": "The bank approved a loan for the new factory.",
+      "ex_ja": "銀行は新工場向けのローンを承認しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_028",
+      "en": "mortgage",
+      "ja": "住宅ローン、担保",
+      "pos": "noun",
+      "ex_en": "They took out a mortgage to buy the office building.",
+      "ex_ja": "彼らは社屋購入のために住宅ローン(不動産担保融資)を組みました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_029",
+      "en": "insurance",
+      "ja": "保険",
+      "pos": "noun",
+      "ex_en": "Health insurance covers all full-time employees.",
+      "ex_ja": "健康保険はすべての正社員を対象としています。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_030",
+      "en": "transaction",
+      "ja": "取引",
+      "pos": "noun",
+      "ex_en": "Each transaction is recorded in the ledger.",
+      "ex_ja": "各取引は台帳に記録されます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_031",
+      "en": "customs",
+      "ja": "税関、通関",
+      "pos": "noun",
+      "ex_en": "The package cleared customs this morning.",
+      "ex_ja": "その小包は今朝、通関しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_032",
+      "en": "wholesale",
+      "ja": "卸売りの",
+      "pos": "adj",
+      "ex_en": "Members get wholesale prices on bulk items.",
+      "ex_ja": "会員はまとめ買い商品を卸値で購入できます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_033",
+      "en": "retail",
+      "ja": "小売り",
+      "pos": "noun",
+      "ex_en": "Retail sales rose five percent in June.",
+      "ex_ja": "小売売上は6月に5%増加しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_034",
+      "en": "merchandise",
+      "ja": "商品、品物",
+      "pos": "noun",
+      "ex_en": "All merchandise must be inspected before shipping.",
+      "ex_ja": "すべての商品は出荷前に検査が必要です。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_035",
+      "en": "warehouse",
+      "ja": "倉庫",
+      "pos": "noun",
+      "ex_en": "The warehouse stores spare parts for all models.",
+      "ex_ja": "その倉庫には全機種の予備部品が保管されています。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_036",
+      "en": "courier",
+      "ja": "宅配便、運送業者",
+      "pos": "noun",
+      "ex_en": "Send the documents by courier tonight.",
+      "ex_ja": "その書類は今夜中に宅配便で送ってください。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_037",
+      "en": "freight",
+      "ja": "貨物、運賃",
+      "pos": "noun",
+      "ex_en": "Freight charges are included in the total price.",
+      "ex_ja": "運賃は合計価格に含まれています。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_038",
+      "en": "cargo",
+      "ja": "積荷、貨物",
+      "pos": "noun",
+      "ex_en": "The cargo was loaded onto the ship at noon.",
+      "ex_ja": "積荷は正午に船に積み込まれました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_039",
+      "en": "stock",
+      "ja": "在庫、株式",
+      "pos": "noun",
+      "ex_en": "That model is out of stock until September.",
+      "ex_ja": "そのモデルは9月まで在庫切れです。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_040",
+      "en": "backorder",
+      "ja": "取り寄せ(在庫切れ注文)",
+      "pos": "noun",
+      "ex_en": "The item is on backorder and will ship in two weeks.",
+      "ex_ja": "その商品は取り寄せ中で、2週間後に出荷されます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_041",
+      "en": "expenditure",
+      "ja": "支出、経費",
+      "pos": "noun",
+      "ex_en": "The report lists all expenditures for the last quarter.",
+      "ex_ja": "その報告書には前四半期のすべての支出が記載されています。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_042",
+      "en": "bid",
+      "ja": "入札、見積もり",
+      "pos": "noun",
+      "ex_en": "Our bid was the lowest of the five submitted.",
+      "ex_ja": "弊社の入札額は提出された5社の中で最低でした。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_043",
+      "en": "auction",
+      "ja": "競売、オークション",
+      "pos": "noun",
+      "ex_en": "The equipment will be sold at auction next month.",
+      "ex_ja": "その設備は来月、競売にかけられます。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_044",
+      "en": "lease",
+      "ja": "賃貸契約、リース",
+      "pos": "noun",
+      "ex_en": "The lease on the office runs until March.",
+      "ex_ja": "オフィスの賃貸契約は3月まで有効です。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_045",
+      "en": "tenant",
+      "ja": "賃借人、テナント",
+      "pos": "noun",
+      "ex_en": "Tenants must report maintenance issues promptly.",
+      "ex_ja": "テナントは設備の問題を速やかに報告しなければなりません。",
+      "level": 3,
+      "tags": [
+        "business",
+        "real-estate"
+      ]
+    },
+    {
+      "id": "tc_046",
+      "en": "landlord",
+      "ja": "家主、貸し主",
+      "pos": "noun",
+      "ex_en": "The landlord agreed to renew the contract early.",
+      "ex_ja": "家主は契約の早期更新に同意しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "real-estate"
+      ]
+    },
+    {
+      "id": "tc_047",
+      "en": "property",
+      "ja": "不動産、物件",
+      "pos": "noun",
+      "ex_en": "The company owns property near the station.",
+      "ex_ja": "同社は駅近くの不動産を所有しています。",
+      "level": 3,
+      "tags": [
+        "business",
+        "real-estate"
+      ]
+    },
+    {
+      "id": "tc_048",
+      "en": "renovate",
+      "ja": "改修する、リフォームする",
+      "pos": "verb",
+      "ex_en": "They plan to renovate the lobby in October.",
+      "ex_ja": "彼らは10月にロビーを改修する予定です。",
+      "level": 3,
+      "tags": [
+        "business",
+        "real-estate"
+      ]
+    },
+    {
+      "id": "tc_049",
+      "en": "facility",
+      "ja": "施設、設備",
+      "pos": "noun",
+      "ex_en": "The training facility opens at eight sharp.",
+      "ex_ja": "研修施設はきっかり8時に開きます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "real-estate"
+      ]
+    },
+    {
+      "id": "tc_050",
+      "en": "utilities",
+      "ja": "水道光熱費、公共料金",
+      "pos": "noun",
+      "ex_en": "Utilities are included in the monthly rent.",
+      "ex_ja": "水道光熱費は月額賃料に含まれています。",
+      "level": 3,
+      "tags": [
+        "business",
+        "finance"
+      ]
+    },
+    {
+      "id": "tc_051",
+      "en": "commute",
+      "ja": "通勤する",
+      "pos": "verb",
+      "ex_en": "She commutes to the head office by train.",
+      "ex_ja": "彼女は電車で本社に通勤しています。",
+      "level": 3,
+      "tags": [
+        "business",
+        "office"
+      ]
+    },
+    {
+      "id": "tc_052",
+      "en": "relocate",
+      "ja": "移転する、異動させる",
+      "pos": "verb",
+      "ex_en": "The firm will relocate to a larger building.",
+      "ex_ja": "その会社はより大きい建物へ移転します。",
+      "level": 3,
+      "tags": [
+        "business",
+        "office"
+      ]
+    },
+    {
+      "id": "tc_053",
+      "en": "coworker",
+      "ja": "同僚、仕事仲間",
+      "pos": "noun",
+      "ex_en": "My coworkers organized a farewell lunch for her.",
+      "ex_ja": "同僚たちは彼女のために送別ランチを企画しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "office"
+      ]
+    },
+    {
+      "id": "tc_054",
+      "en": "supervisor",
+      "ja": "上司、監督者",
+      "pos": "noun",
+      "ex_en": "Ask your supervisor before taking a day off.",
+      "ex_ja": "休暇を取る前に上司に確認してください。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_055",
+      "en": "subordinate",
+      "ja": "部下",
+      "pos": "noun",
+      "ex_en": "A good manager listens carefully to subordinates.",
+      "ex_ja": "優れた管理者は部下の話に注意深く耳を傾けます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_056",
+      "en": "candidate",
+      "ja": "候補者、志願者",
+      "pos": "noun",
+      "ex_en": "Each candidate will be interviewed twice.",
+      "ex_ja": "各候補者は2回面接を受けます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_057",
+      "en": "recruiter",
+      "ja": "採用担当者、人材紹介会社",
+      "pos": "noun",
+      "ex_en": "The recruiter scheduled a phone screening for Tuesday.",
+      "ex_ja": "採用担当者は火曜日に電話での選考を予約しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_058",
+      "en": "layoff",
+      "ja": "一時解雇、人員整理",
+      "pos": "noun",
+      "ex_en": "The plant avoided layoffs by cutting overtime.",
+      "ex_ja": "工場は残業削減によって解雇を回避しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_059",
+      "en": "mentor",
+      "ja": "指導役、メンター",
+      "pos": "noun",
+      "ex_en": "Each new hire is paired with a mentor.",
+      "ex_ja": "各新入社員にはメンターが付けられます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_060",
+      "en": "appraisal",
+      "ja": "人事評価、査定",
+      "pos": "noun",
+      "ex_en": "Annual appraisals begin in January.",
+      "ex_ja": "年次評価は1月に始まります。",
+      "level": 3,
+      "tags": [
+        "business",
+        "hr"
+      ]
+    },
+    {
+      "id": "tc_061",
+      "en": "itinerary",
+      "ja": "旅行日程、旅程表",
+      "pos": "noun",
+      "ex_en": "The manager approved the travel itinerary for Boston.",
+      "ex_ja": "マネージャーはボストン出張の旅程表を承認しました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "travel"
+      ]
+    },
+    {
+      "id": "tc_062",
+      "en": "accommodation",
+      "ja": "宿泊施設",
+      "pos": "noun",
+      "ex_en": "Accommodation is booked at a hotel near the venue.",
+      "ex_ja": "宿泊施設は会場近くのホテルに予約されています。",
+      "level": 3,
+      "tags": [
+        "business",
+        "travel"
+      ]
+    },
+    {
+      "id": "tc_063",
+      "en": "luggage",
+      "ja": "荷物、スーツケース",
+      "pos": "noun",
+      "ex_en": "Collect your luggage before going to customs.",
+      "ex_ja": "税関へ進む前に荷物をお受け取りください。",
+      "level": 3,
+      "tags": [
+        "business",
+        "travel"
+      ]
+    },
+    {
+      "id": "tc_064",
+      "en": "passport",
+      "ja": "パスポート",
+      "pos": "noun",
+      "ex_en": "Please have your passport ready at the counter.",
+      "ex_ja": "カウンターでパスポートをご用意ください。",
+      "level": 3,
+      "tags": [
+        "business",
+        "travel"
+      ]
+    },
+    {
+      "id": "tc_065",
+      "en": "reservation",
+      "ja": "予約",
+      "pos": "noun",
+      "ex_en": "I made a reservation for six under Mr. Tanaka.",
+      "ex_ja": "田中様名義で6名の予約を入れました。",
+      "level": 3,
+      "tags": [
+        "business",
+        "travel"
+      ]
+    },
+    {
+      "id": "tc_066",
+      "en": "schedule",
+      "ja": "予定、スケジュール",
+      "pos": "noun",
+      "ex_en": "The revised schedule was emailed this morning.",
+      "ex_ja": "修正版のスケジュールは今朝メールで送られました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_067",
+      "en": "punctual",
+      "ja": "時間に正確な、時間どおりの",
+      "pos": "adj",
+      "ex_en": "Our couriers are always punctual.",
+      "ex_ja": "当社の配達員はいつも時間を守ります。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_068",
+      "en": "prompt",
+      "ja": "即時の、迅速な",
+      "pos": "adj",
+      "ex_en": "Thank you for your prompt reply to our inquiry.",
+      "ex_ja": "お問い合わせへの迅速なご返信ありがとうございます。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_069",
+      "en": "courteous",
+      "ja": "丁寧な、礼儀正しい",
+      "pos": "adj",
+      "ex_en": "The front desk staff were courteous at all times.",
+      "ex_ja": "フロント係は終始丁寧な対応でした。",
+      "level": 3,
+      "tags": [
+        "business",
+        "service"
+      ]
+    },
+    {
+      "id": "tc_070",
+      "en": "complimentary",
+      "ja": "無料の、無償の",
+      "pos": "adj",
+      "ex_en": "Guests receive a complimentary breakfast until ten.",
+      "ex_ja": "宿泊客は10時まで無料の朝食を受け取れます。",
+      "level": 3,
+      "tags": [
+        "business",
+        "service"
+      ]
+    },
+    {
+      "id": "tc_071",
+      "en": "mandatory",
+      "ja": "必須の、義務的な",
+      "pos": "adj",
+      "ex_en": "Safety training is mandatory for all new hires.",
+      "ex_ja": "安全研修はすべての新入社員にとって必須です。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_072",
+      "en": "optional",
+      "ja": "任意の、選択できる",
+      "pos": "adj",
+      "ex_en": "The afternoon tour is optional this year.",
+      "ex_ja": "午後の見学ツアーは今年は任意参加です。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_073",
+      "en": "inform",
+      "ja": "知らせる、通知する",
+      "pos": "verb",
+      "ex_en": "We will inform you of any changes to the plan.",
+      "ex_ja": "計画に変更があればお知らせします。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_074",
+      "en": "respond",
+      "ja": "返事をする、対応する",
+      "pos": "verb",
+      "ex_en": "Please respond to the survey by June 30.",
+      "ex_ja": "6月30日までにアンケートにご回答ください。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_075",
+      "en": "follow up",
+      "ja": "フォローアップする、後日確認する",
+      "pos": "phrase",
+      "ex_en": "I will follow up on your request next week.",
+      "ex_ja": "来週、ご依頼の件をフォローアップいたします。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_076",
+      "en": "participate",
+      "ja": "参加する",
+      "pos": "verb",
+      "ex_en": "Over two hundred employees participated in the workshop.",
+      "ex_ja": "200人以上の従業員がワークショップに参加しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_077",
+      "en": "register",
+      "ja": "登録する、受付する",
+      "pos": "verb",
+      "ex_en": "Register online before September 10 to save on fees.",
+      "ex_ja": "9月10日までにオンライン登録すると費用が割引になります。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_078",
+      "en": "submit",
+      "ja": "提出する",
+      "pos": "verb",
+      "ex_en": "Submit the completed form to the front desk.",
+      "ex_ja": "記入済みの用紙をフロントに提出してください。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_079",
+      "en": "address",
+      "ja": "対処する、扱う",
+      "pos": "verb",
+      "ex_en": "The report addresses concerns about shipping delays.",
+      "ex_ja": "その報告書は出荷遅延への懸念に対処しています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_080",
+      "en": "fulfill",
+      "ja": "果たす、(注文を)履行する",
+      "pos": "verb",
+      "ex_en": "The warehouse fulfills orders within one day.",
+      "ex_ja": "その倉庫は注文を1日以内に処理します。",
+      "level": 3,
+      "tags": [
+        "business",
+        "logistics"
+      ]
+    },
+    {
+      "id": "tc_081",
+      "en": "approximately",
+      "ja": "約、おおよそ",
+      "pos": "adv",
+      "ex_en": "The ceremony will last approximately two hours.",
+      "ex_ja": "式典は約2時間にわたります。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_082",
+      "en": "currently",
+      "ja": "現在、目下",
+      "pos": "adv",
+      "ex_en": "We are currently reviewing your application.",
+      "ex_ja": "弊社ではただいまお客様のお申し込みを審査中です。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_083",
+      "en": "temporarily",
+      "ja": "一時的に、仮に",
+      "pos": "adv",
+      "ex_en": "The lobby is temporarily closed for repairs.",
+      "ex_ja": "ロビーは改修のため一時的に閉鎖されています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_084",
+      "en": "annually",
+      "ja": "毎年、年1回",
+      "pos": "adv",
+      "ex_en": "The board meets annually in November.",
+      "ex_ja": "取締役会は毎年11月に開催されます。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_085",
+      "en": "shortly",
+      "ja": "まもなく、すぐに",
+      "pos": "adv",
+      "ex_en": "The results will be announced shortly after five.",
+      "ex_ja": "結果は5時すぎにまもなく発表されます。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_086",
+      "en": "in advance",
+      "ja": "前もって、事前に",
+      "pos": "phrase",
+      "ex_en": "Please notify us in advance if you cannot attend.",
+      "ex_ja": "出席できない場合はあらかじめご連絡ください。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_087",
+      "en": "on time",
+      "ja": "時間どおりに、定刻に",
+      "pos": "phrase",
+      "ex_en": "The shuttle bus is rarely on time during rush hour.",
+      "ex_ja": "ラッシュ時、シャトルバスはめったに定刻に来ません。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_088",
+      "en": "as soon as possible",
+      "ja": "できるだけ早く、大至急",
+      "pos": "phrase",
+      "ex_en": "Please confirm the order as soon as possible.",
+      "ex_ja": "注文をできるだけ早くご確認ください。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_089",
+      "en": "on behalf of",
+      "ja": "〜を代表して、〜の代わりに",
+      "pos": "phrase",
+      "ex_en": "I am writing on behalf of the organizing committee.",
+      "ex_ja": "開催委員会を代表してご連絡いたします。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_090",
+      "en": "be responsible for",
+      "ja": "〜に責任がある、〜を担当している",
+      "pos": "phrase",
+      "ex_en": "Ms. Lee is responsible for overseas accounts.",
+      "ex_ja": "リーさんは海外顧客を担当しています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_091",
+      "en": "look into",
+      "ja": "調査する、調べる",
+      "pos": "phrase",
+      "ex_en": "We are looking into the cause of the delay.",
+      "ex_ja": "遅延の原因を調査中です。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_092",
+      "en": "take over",
+      "ja": "引き継ぐ、買収する",
+      "pos": "phrase",
+      "ex_en": "Mr. Sato will take over the project in April.",
+      "ex_ja": "佐藤さんが4月からプロジェクトを引き継ぎます。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_093",
+      "en": "run out of",
+      "ja": "使い果たす、(在庫が)なくなる",
+      "pos": "phrase",
+      "ex_en": "We have run out of printer paper again.",
+      "ex_ja": "またプリンター用紙がなくなりました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_094",
+      "en": "comply with",
+      "ja": "〜に従う、遵守する",
+      "pos": "phrase",
+      "ex_en": "All branches must comply with the new policy.",
+      "ex_ja": "すべての支店は新しい方針を遵守しなければなりません。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_095",
+      "en": "account for",
+      "ja": "〜を占める、説明する",
+      "pos": "phrase",
+      "ex_en": "Exports account for sixty percent of our sales.",
+      "ex_ja": "輸出は売上の60%を占めています。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_096",
+      "en": "be subject to",
+      "ja": "〜を条件とする、〜の対象となる",
+      "pos": "phrase",
+      "ex_en": "Prices are subject to change without notice.",
+      "ex_ja": "価格は予告なく変更される場合があります。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_097",
+      "en": "due to",
+      "ja": "〜のため、〜が原因で",
+      "pos": "prep",
+      "ex_en": "Due to heavy snow, all flights were canceled.",
+      "ex_ja": "大雪のため、全便が欠航しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_098",
+      "en": "regarding",
+      "ja": "〜に関して",
+      "pos": "prep",
+      "ex_en": "Regarding your invoice, we need one more detail.",
+      "ex_ja": "請求書について、もう1点確認が必要です。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_099",
+      "en": "despite",
+      "ja": "〜にもかかわらず",
+      "pos": "prep",
+      "ex_en": "Despite the rain, attendance remained high.",
+      "ex_ja": "雨にもかかわらず、出席者数は多かったです。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tc_100",
+      "en": "whereas",
+      "ja": "一方、〜に対して",
+      "pos": "conj",
+      "ex_en": "Sales rose in Asia, whereas they fell in Europe.",
+      "ex_ja": "アジアで売上は伸びた一方、ヨーロッパでは減少しました。",
+      "level": 3,
+      "tags": [
+        "business"
+      ]
+    }
+  ]
+}

@@ -115,6 +115,14 @@ html[data-theme="dark"] #toc { background: #141821; }
 }
 .pdf-link:hover { color: #fff; }
 #toc-nav a { display: block; color: #aab4c8; text-decoration: none; padding: 5px 20px; border-left: 3px solid transparent; line-height: 1.5; }
+#toc-nav .toc-row { display: flex; align-items: center; }
+#toc-nav .toc-row a { flex: 1; }
+#toc-nav .toc-toggle {
+  flex-shrink: 0; width: 22px; height: 22px; margin-right: 6px; border: none; border-radius: 5px;
+  background: transparent; color: #8792a8; font-size: .7rem; cursor: pointer; line-height: 1;
+}
+#toc-nav .toc-toggle:hover { background: rgba(255,255,255,.1); color: #fff; }
+#toc-nav .toc-group.closed a.sub { display: none; }
 #toc-nav a.sub { padding-left: 38px; font-size: .78rem; color: #8792a8; }
 #toc-nav a:hover { color: #fff; }
 #toc-nav a.active { color: #fff; border-left-color: hsl(var(--hue, 220), 70%, 60%); background: rgba(255,255,255,.05); }
@@ -152,7 +160,7 @@ html[data-theme="dark"] #search-results mark, html[data-theme="dark"] .answer-bo
 #search-results .no-hit { padding: 10px 14px; color: var(--ink-soft); font-size: .84rem; }
 
 #book-body { max-width: 760px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 40px 48px 32px; font-family: var(--serif); font-size: var(--body-fs); transition: background .2s, border-color .2s; }
-.sec { padding-bottom: 8px; margin-bottom: 36px; border-bottom: 1px dashed var(--line); }
+.sec { padding-bottom: 8px; margin-bottom: 36px; border-bottom: 1px dashed var(--line); content-visibility: auto; contain-intrinsic-size: auto 800px; }
 .sec:last-child { border-bottom: none; margin-bottom: 0; }
 .sec h1 { font-family: var(--serif); font-size: 1.5rem; margin: 28px 0 16px; padding-bottom: 8px; border-bottom: 2px solid hsl(var(--hue, 220), 55%, 55%); }
 .sec h2 { font-family: var(--serif); font-size: 1.2rem; margin: 28px 0 10px; }

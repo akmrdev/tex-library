@@ -1,0 +1,1809 @@
+{
+  "meta": {
+    "file": "ct-basic-150",
+    "stage": "common-test",
+    "description": "共通テスト基礎英語150語"
+  },
+  "words": [
+    {
+      "id": "cb_001",
+      "en": "sweep",
+      "ja": "掃く",
+      "pos": "verb",
+      "ex_en": "She sweeps the kitchen floor every morning.",
+      "ex_ja": "彼女は毎朝台所の床を掃きます。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_002",
+      "en": "stir",
+      "ja": "かき混ぜる",
+      "pos": "verb",
+      "ex_en": "Stir the soup gently so it does not burn.",
+      "ex_ja": "スープが焦げないようにやさしくかき混ぜてください。",
+      "level": 1,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_003",
+      "en": "chop",
+      "ja": "刻む",
+      "pos": "verb",
+      "ex_en": "Chop the onions into small pieces.",
+      "ex_ja": "たまねぎを小さく刻んでください。",
+      "level": 1,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_004",
+      "en": "peel",
+      "ja": "皮をむく",
+      "pos": "verb",
+      "ex_en": "Peel the apples before you cut them.",
+      "ex_ja": "りんごは切る前に皮をむいてください。",
+      "level": 1,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_005",
+      "en": "grate",
+      "ja": "すりおろす",
+      "pos": "verb",
+      "ex_en": "Grate the cheese over the hot pasta.",
+      "ex_ja": "熱々のパスタの上にチーズをすりおろします。",
+      "level": 2,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_006",
+      "en": "knead",
+      "ja": "こねる",
+      "pos": "verb",
+      "ex_en": "Knead the dough for ten minutes.",
+      "ex_ja": "生地を10分間こねます。",
+      "level": 2,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_007",
+      "en": "dust",
+      "ja": "ほこりを払う",
+      "pos": "verb",
+      "ex_en": "She dusts the shelves every Saturday.",
+      "ex_ja": "彼女は毎週土曜日に棚のほこりを払います。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_008",
+      "en": "polish",
+      "ja": "磨く",
+      "pos": "verb",
+      "ex_en": "He polished his shoes before the interview.",
+      "ex_ja": "彼は面接の前に靴を磨きました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_009",
+      "en": "sew",
+      "ja": "縫う",
+      "pos": "verb",
+      "ex_en": "My grandmother taught me how to sew.",
+      "ex_ja": "祖母は私に縫い方を教えてくれました。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_010",
+      "en": "knit",
+      "ja": "編む",
+      "pos": "verb",
+      "ex_en": "Mom is knitting a scarf for winter.",
+      "ex_ja": "母は冬用のマフラーを編んでいます。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_011",
+      "en": "dig",
+      "ja": "掘る",
+      "pos": "verb",
+      "ex_en": "The dog digs a hole in the garden.",
+      "ex_ja": "犬が庭に穴を掘ります。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_012",
+      "en": "bury",
+      "ja": "埋める",
+      "pos": "verb",
+      "ex_en": "They buried the treasure under the old tree.",
+      "ex_ja": "彼らは古い木の下に宝物を埋めました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_013",
+      "en": "plant",
+      "ja": "植える",
+      "pos": "verb",
+      "ex_en": "We plant flowers along the fence every spring.",
+      "ex_ja": "私たちは毎春垣根に沿って花を植えます。",
+      "level": 1,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_014",
+      "en": "harvest",
+      "ja": "収穫する",
+      "pos": "verb",
+      "ex_en": "Farmers harvest rice in autumn.",
+      "ex_ja": "農家は秋に米を収穫します。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_015",
+      "en": "graze",
+      "ja": "草を食む",
+      "pos": "verb",
+      "ex_en": "Cows graze quietly in the meadow.",
+      "ex_ja": "牛が牧草地で静かに草を食みます。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_016",
+      "en": "tame",
+      "ja": "飼い慣らす",
+      "pos": "verb",
+      "ex_en": "It took months to tame the wild horse.",
+      "ex_ja": "その野生の馬を飼い慣らすには数か月かかりました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_017",
+      "en": "hatch",
+      "ja": "孵化する",
+      "pos": "verb",
+      "ex_en": "The eggs will hatch in about two weeks.",
+      "ex_ja": "卵はおよそ2週間で孵化します。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_018",
+      "en": "mow",
+      "ja": "草を刈る",
+      "pos": "verb",
+      "ex_en": "Dad mows the lawn every Sunday morning.",
+      "ex_ja": "父は毎週日曜日の朝に芝刈りをします。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_019",
+      "en": "rake",
+      "ja": "熊手で集める",
+      "pos": "verb",
+      "ex_en": "He raked the dead leaves into a pile.",
+      "ex_ja": "彼は枯れ葉を熊手で一山に集めました。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_020",
+      "en": "sow",
+      "ja": "種をまく",
+      "pos": "verb",
+      "ex_en": "Farmers sow wheat seeds in October.",
+      "ex_ja": "農家は10月に小麦の種をまきます。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_021",
+      "en": "scatter",
+      "ja": "まき散らす",
+      "pos": "verb",
+      "ex_en": "The wind scattered the papers across the floor.",
+      "ex_ja": "風が紙を床中にまき散らしました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_022",
+      "en": "pluck",
+      "ja": "摘む",
+      "pos": "verb",
+      "ex_en": "She plucked a flower from the garden.",
+      "ex_ja": "彼女は庭から花を一本摘みました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_023",
+      "en": "shred",
+      "ja": "細切りにする",
+      "pos": "verb",
+      "ex_en": "Shred the cabbage finely for the salad.",
+      "ex_ja": "サラダ用にキャベツを細かく千切りにしてください。",
+      "level": 2,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_024",
+      "en": "slice",
+      "ja": "薄切りにする",
+      "pos": "verb",
+      "ex_en": "Slice the bread while it is still warm.",
+      "ex_ja": "パンは温かいうちに薄切りにしてください。",
+      "level": 1,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_025",
+      "en": "dice",
+      "ja": "さいの目に切る",
+      "pos": "verb",
+      "ex_en": "Dice the carrots and add them to the stew.",
+      "ex_ja": "にんじんをさいの目に切ってシチューに加えます。",
+      "level": 2,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_026",
+      "en": "mash",
+      "ja": "つぶして混ぜる",
+      "pos": "verb",
+      "ex_en": "Mash the potatoes with a little butter.",
+      "ex_ja": "じゃがいもにバターを少し加えてつぶして混ぜます。",
+      "level": 1,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_027",
+      "en": "steam",
+      "ja": "蒸す",
+      "pos": "verb",
+      "ex_en": "Steam the vegetables until they are soft.",
+      "ex_ja": "野菜が柔らかくなるまで蒸してください。",
+      "level": 1,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_028",
+      "en": "roast",
+      "ja": "オーブンで焼く",
+      "pos": "verb",
+      "ex_en": "We roasted a chicken for dinner.",
+      "ex_ja": "夕食にチキンを丸ごと焼きました。",
+      "level": 2,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_029",
+      "en": "grill",
+      "ja": "網で焼く",
+      "pos": "verb",
+      "ex_en": "They grilled fish by the river.",
+      "ex_ja": "彼らは川辺で魚を焼きました。",
+      "level": 1,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_030",
+      "en": "simmer",
+      "ja": "弱火で煮る",
+      "pos": "verb",
+      "ex_en": "Let the soup simmer for twenty minutes.",
+      "ex_ja": "スープを20分間弱火で煮てください。",
+      "level": 2,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_031",
+      "en": "whisk",
+      "ja": "泡立てる",
+      "pos": "verb",
+      "ex_en": "Whisk the eggs until they are fluffy.",
+      "ex_ja": "卵がふわふわになるまで泡立ててください。",
+      "level": 2,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_032",
+      "en": "melt",
+      "ja": "溶ける",
+      "pos": "verb",
+      "ex_en": "The ice cream melted quickly in the sun.",
+      "ex_ja": "アイスクリームは日差しの中ですぐに溶けました。",
+      "level": 1,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_033",
+      "en": "freeze",
+      "ja": "凍る",
+      "pos": "verb",
+      "ex_en": "Water freezes at zero degrees Celsius.",
+      "ex_ja": "水は摂氏0度で凍ります。",
+      "level": 1,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cb_034",
+      "en": "sip",
+      "ja": "すすって飲む",
+      "pos": "verb",
+      "ex_en": "She sipped her hot tea slowly.",
+      "ex_ja": "彼女は熱いお茶をゆっくりすすって飲みました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_035",
+      "en": "swallow",
+      "ja": "飲み込む",
+      "pos": "verb",
+      "ex_en": "He swallowed the medicine with water.",
+      "ex_ja": "彼は水と一緒に薬を飲み込みました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_036",
+      "en": "soak",
+      "ja": "ひたす",
+      "pos": "verb",
+      "ex_en": "Soak the beans overnight before cooking.",
+      "ex_ja": "豆は調理前に一晩ひたしてください。",
+      "level": 2,
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cb_037",
+      "en": "wring",
+      "ja": "絞る",
+      "pos": "verb",
+      "ex_en": "She wrung out the wet towel.",
+      "ex_ja": "彼女は濡れたタオルを絞りました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_038",
+      "en": "bleach",
+      "ja": "漂白する",
+      "pos": "verb",
+      "ex_en": "Bleach the white shirts to remove the stains.",
+      "ex_ja": "白いシャツのしみを落とすために漂白してください。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_039",
+      "en": "hem",
+      "ja": "裾を上げる",
+      "pos": "verb",
+      "ex_en": "The tailor hemmed my new trousers.",
+      "ex_ja": "仕立屋は私の新しいズボンの裾を上げました。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_040",
+      "en": "patch",
+      "ja": "継ぎ当てする",
+      "pos": "verb",
+      "ex_en": "Grandma patched the knee of my jeans.",
+      "ex_ja": "祖母はジーンズの膝を継ぎ当てしました。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_041",
+      "en": "crochet",
+      "ja": "かぎ針で編む",
+      "pos": "verb",
+      "ex_en": "She learned to crochet hats from online videos.",
+      "ex_ja": "彼女はネット動画で帽子のかぎ針編みを覚えました。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_042",
+      "en": "embroider",
+      "ja": "刺繍する",
+      "pos": "verb",
+      "ex_en": "My mother embroidered my name on the bag.",
+      "ex_ja": "母はかばんに私の名前を刺繍しました。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_043",
+      "en": "weave",
+      "ja": "織る",
+      "pos": "verb",
+      "ex_en": "The women weave baskets from bamboo.",
+      "ex_ja": "女性たちは竹でかごを編みます。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_044",
+      "en": "spin",
+      "ja": "紡ぐ",
+      "pos": "verb",
+      "ex_en": "They spin wool into thread.",
+      "ex_ja": "彼らは羊毛を糸に紡ぎます。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_045",
+      "en": "dye",
+      "ja": "染める",
+      "pos": "verb",
+      "ex_en": "He dyed his shirt blue for the festival.",
+      "ex_ja": "彼はお祭りのためにシャツを青く染めました。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_046",
+      "en": "hammer",
+      "ja": "ハンマーで打つ",
+      "pos": "verb",
+      "ex_en": "Hammer the nails into the board.",
+      "ex_ja": "板にくぎを打ってください。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_047",
+      "en": "drill",
+      "ja": "穴をあける",
+      "pos": "verb",
+      "ex_en": "Drill a hole in the wall for the shelf.",
+      "ex_ja": "棚のための穴を壁にあけてください。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_048",
+      "en": "saw",
+      "ja": "のこぎりで切る",
+      "pos": "verb",
+      "ex_en": "He sawed the branch off the tree.",
+      "ex_ja": "彼は木から枝をのこぎりで切り落としました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_049",
+      "en": "varnish",
+      "ja": "ニスを塗る",
+      "pos": "verb",
+      "ex_en": "Varnish the table to protect the wood.",
+      "ex_ja": "木を保護するためにテーブルにニスを塗ります。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_050",
+      "en": "weld",
+      "ja": "溶接する",
+      "pos": "verb",
+      "ex_en": "Workers welded the steel beams together.",
+      "ex_ja": "作業員たちが鉄骨を溶接してつなぎました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_051",
+      "en": "forge",
+      "ja": "鍛造する",
+      "pos": "verb",
+      "ex_en": "The blacksmith forged a new horseshoe.",
+      "ex_ja": "鍛冶屋は新しい蹄鉄を鍛えました。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_052",
+      "en": "sharpen",
+      "ja": "研ぐ",
+      "pos": "verb",
+      "ex_en": "Sharpen your pencil before the test.",
+      "ex_ja": "テストの前に鉛筆を削ってください。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_053",
+      "en": "chisel",
+      "ja": "ノミで彫る",
+      "pos": "verb",
+      "ex_en": "He chiseled his name into the stone.",
+      "ex_ja": "彼は石に自分の名前をノミで彫りました。",
+      "level": 2,
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "cb_054",
+      "en": "creep",
+      "ja": "忍び寄る",
+      "pos": "verb",
+      "ex_en": "The cat crept toward the bird quietly.",
+      "ex_ja": "猫は鳥に静かに忍び寄りました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_055",
+      "en": "stride",
+      "ja": "大股で歩く",
+      "pos": "verb",
+      "ex_en": "She strode across the stage to get her award.",
+      "ex_ja": "彼女は賞を受け取るために舞台を大股で渡りました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_056",
+      "en": "roam",
+      "ja": "歩き回る",
+      "pos": "verb",
+      "ex_en": "Wild deer roam these mountains.",
+      "ex_ja": "野生の鹿がこれらの山を歩き回っています。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "cb_057",
+      "en": "sprint",
+      "ja": "全速力で走る",
+      "pos": "verb",
+      "ex_en": "He sprinted to catch the last train.",
+      "ex_ja": "彼は終電に間に合うように全速力で走りました。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_058",
+      "en": "jog",
+      "ja": "ジョギングをする",
+      "pos": "verb",
+      "ex_en": "I jog around the park every morning.",
+      "ex_ja": "私は毎朝公園の周りをジョギングします。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_059",
+      "en": "trot",
+      "ja": "速足で進む",
+      "pos": "verb",
+      "ex_en": "The pony trotted around the paddock.",
+      "ex_ja": "ポニーは小放牧場を速足で回りました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_060",
+      "en": "gallop",
+      "ja": "駆け足で走る",
+      "pos": "verb",
+      "ex_en": "The horses galloped across the field.",
+      "ex_ja": "馬たちは野原を駆け足で駆け抜けました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_061",
+      "en": "waddle",
+      "ja": "よちよち歩く",
+      "pos": "verb",
+      "ex_en": "Ducks waddle down to the pond every morning.",
+      "ex_ja": "アヒルは毎朝よちよち歩いて池へ下りていきます。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_062",
+      "en": "stagger",
+      "ja": "よろめく",
+      "pos": "verb",
+      "ex_en": "He staggered under the weight of the big box.",
+      "ex_ja": "彼は大きな箱の重さによろめきました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_063",
+      "en": "stumble",
+      "ja": "つまずく",
+      "pos": "verb",
+      "ex_en": "She stumbled on a rock but did not fall.",
+      "ex_ja": "彼女は岩につまずいたけれど転びませんでした。",
+      "level": 1,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_064",
+      "en": "sneak",
+      "ja": "こっそり忍ぶ",
+      "pos": "verb",
+      "ex_en": "The cat sneaked into the kitchen at night.",
+      "ex_ja": "猫は夜こっそり台所に入りました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_065",
+      "en": "lurk",
+      "ja": "潜む",
+      "pos": "verb",
+      "ex_en": "A crocodile lurked under the surface of the river.",
+      "ex_ja": "ワニが川の水面下に潜んでいました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_066",
+      "en": "prowl",
+      "ja": "うろつく",
+      "pos": "verb",
+      "ex_en": "A fox prowled around the chicken coop at night.",
+      "ex_ja": "夜、キツネが鶏小屋の周りをうろつきました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_067",
+      "en": "perch",
+      "ja": "とまる",
+      "pos": "verb",
+      "ex_en": "A small bird perched on the windowsill.",
+      "ex_ja": "小鳥が窓枠にとまりました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_068",
+      "en": "crouch",
+      "ja": "しゃがむ",
+      "pos": "verb",
+      "ex_en": "He crouched behind the wall to hide.",
+      "ex_ja": "彼は隠れるために塀の後ろにしゃがみました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_069",
+      "en": "squat",
+      "ja": "うずくまる",
+      "pos": "verb",
+      "ex_en": "The farmer squatted down to check the soil.",
+      "ex_ja": "農夫は土を確かめるためにしゃがみました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_070",
+      "en": "shrug",
+      "ja": "肩をすくめる",
+      "pos": "verb",
+      "ex_en": "She shrugged when I asked her about the plan.",
+      "ex_ja": "私が計画について尋ねると彼女は肩をすくめました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_071",
+      "en": "frown",
+      "ja": "顔をしかめる",
+      "pos": "verb",
+      "ex_en": "The teacher frowned at the noisy students.",
+      "ex_ja": "先生は騒がしい生徒たちに眉をひそめました。",
+      "level": 1,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "cb_072",
+      "en": "giggle",
+      "ja": "くすくす笑う",
+      "pos": "verb",
+      "ex_en": "The girls giggled at the funny story.",
+      "ex_ja": "少女たちはおかしな話にくすくす笑いました。",
+      "level": 1,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "cb_073",
+      "en": "chuckle",
+      "ja": "含み笑いをする",
+      "pos": "verb",
+      "ex_en": "Grandpa chuckled as he read the comic.",
+      "ex_ja": "おじいちゃんは漫画を読みながらくすっと笑いました。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "cb_074",
+      "en": "sob",
+      "ja": "すすり泣く",
+      "pos": "verb",
+      "ex_en": "She sobbed when she heard the sad news.",
+      "ex_ja": "悲しい知らせを聞いて彼女はすすり泣きました。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "cb_075",
+      "en": "sniff",
+      "ja": "匂いをかぐ",
+      "pos": "verb",
+      "ex_en": "The dog sniffed the ground looking for food.",
+      "ex_ja": "犬は食べ物を探して地面の匂いをかぎました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_076",
+      "en": "sigh",
+      "ja": "ため息をつく",
+      "pos": "verb",
+      "ex_en": "He sighed and put down his pen.",
+      "ex_ja": "彼はため息をついてペンを置きました。",
+      "level": 1,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "cb_077",
+      "en": "gasp",
+      "ja": "息をのむ",
+      "pos": "verb",
+      "ex_en": "She gasped when she saw the beautiful view.",
+      "ex_ja": "美しい景色を見て彼女ははっと息をのみました。",
+      "level": 2,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "cb_078",
+      "en": "blink",
+      "ja": "まばたきする",
+      "pos": "verb",
+      "ex_en": "Blink your eyes to keep them from getting dry.",
+      "ex_ja": "目が乾かないようにまばたきをしてください。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_079",
+      "en": "wink",
+      "ja": "ウインクする",
+      "pos": "verb",
+      "ex_en": "He winked at me to show he was joking.",
+      "ex_ja": "冗談だとわかるように彼は私にウインクしました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_080",
+      "en": "stare",
+      "ja": "じっと見つめる",
+      "pos": "verb",
+      "ex_en": "It is rude to stare at people.",
+      "ex_ja": "人をじっと見つめるのは失礼です。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_081",
+      "en": "glance",
+      "ja": "ちらっと見る",
+      "pos": "verb",
+      "ex_en": "She glanced at her watch during the meeting.",
+      "ex_ja": "彼女は会議中に時計をちらっと見ました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_082",
+      "en": "peer",
+      "ja": "じっとのぞき込む",
+      "pos": "verb",
+      "ex_en": "He peered through the thick fog trying to see the road.",
+      "ex_ja": "彼は道路を見ようと濃い霧の中をのぞき込みました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_083",
+      "en": "peek",
+      "ja": "ちらっとのぞく",
+      "pos": "verb",
+      "ex_en": "The kids peeked at their presents hidden in the closet.",
+      "ex_ja": "子供たちは押し入れに隠されたプレゼントをのぞき見しました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_084",
+      "en": "squint",
+      "ja": "目を細める",
+      "pos": "verb",
+      "ex_en": "Squint if the sunlight is too bright.",
+      "ex_ja": "日差しが強すぎるなら目を細めてください。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_085",
+      "en": "murmur",
+      "ja": "小声でつぶやく",
+      "pos": "verb",
+      "ex_en": "The students murmured softly during the exam.",
+      "ex_ja": "生徒たちは試験中に小さな声でささやきました。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "cb_086",
+      "en": "mutter",
+      "ja": "ぶつぶつ言う",
+      "pos": "verb",
+      "ex_en": "He muttered an apology and walked away.",
+      "ex_ja": "彼はぶつぶつ言い訳をして立ち去りました。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "cb_087",
+      "en": "scold",
+      "ja": "叱る",
+      "pos": "verb",
+      "ex_en": "Mom scolded me for coming home late.",
+      "ex_ja": "母は帰宅が遅かったことで私を叱りました。",
+      "level": 1,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "cb_088",
+      "en": "tease",
+      "ja": "からかう",
+      "pos": "verb",
+      "ex_en": "Please do not tease your little brother.",
+      "ex_ja": "弟をからかわないでください。",
+      "level": 1,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "cb_089",
+      "en": "mock",
+      "ja": "あざける",
+      "pos": "verb",
+      "ex_en": "It is unkind to mock someone's mistakes.",
+      "ex_ja": "人の失敗をあざけるのは思いやりがありません。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "cb_090",
+      "en": "greet",
+      "ja": "挨拶する",
+      "pos": "verb",
+      "ex_en": "The host greeted every guest at the door.",
+      "ex_ja": "主人はドアですべてのお客に挨拶しました。",
+      "level": 1,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "cb_091",
+      "en": "forgive",
+      "ja": "許す",
+      "pos": "verb",
+      "ex_en": "She forgave him for breaking her cup.",
+      "ex_ja": "彼女は彼がコップを割ったことを許しました。",
+      "level": 1,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "cb_092",
+      "en": "plead",
+      "ja": "懇願する",
+      "pos": "verb",
+      "ex_en": "He pleaded with his parents to buy him a bike.",
+      "ex_ja": "彼は両親に自転車を買ってほしいと懇願しました。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "cb_093",
+      "en": "urge",
+      "ja": "促す",
+      "pos": "verb",
+      "ex_en": "The doctor urged him to rest more.",
+      "ex_ja": "医師は彼にもっと休養するよう促しました。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "cb_094",
+      "en": "threaten",
+      "ja": "脅す",
+      "pos": "verb",
+      "ex_en": "The storm threatened our picnic plans.",
+      "ex_ja": "嵐がピクニックの計画を脅かしました。",
+      "level": 2,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "cb_095",
+      "en": "obey",
+      "ja": "従う",
+      "pos": "verb",
+      "ex_en": "Soldiers must obey their orders.",
+      "ex_ja": "兵士は命令に従わなければなりません。",
+      "level": 1,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cb_096",
+      "en": "surrender",
+      "ja": "降参する",
+      "pos": "verb",
+      "ex_en": "The army surrendered after the long battle.",
+      "ex_ja": "軍隊は長い戦いの後に降参しました。",
+      "level": 2,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cb_097",
+      "en": "retreat",
+      "ja": "後退する",
+      "pos": "verb",
+      "ex_en": "Our team retreated to plan a better strategy.",
+      "ex_ja": "私たちのチームはより良い作戦を立てるために退きました。",
+      "level": 2,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "cb_098",
+      "en": "defend",
+      "ja": "守る",
+      "pos": "verb",
+      "ex_en": "She defended her friend from the unfair criticism.",
+      "ex_ja": "彼女は不当な批判から友人を守りました。",
+      "level": 1,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cb_099",
+      "en": "rescue",
+      "ja": "救出する",
+      "pos": "verb",
+      "ex_en": "Firefighters rescued a cat from the tall tree.",
+      "ex_ja": "消防士が高い木から猫を救い出しました。",
+      "level": 1,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cb_100",
+      "en": "hunt",
+      "ja": "狩る",
+      "pos": "verb",
+      "ex_en": "Wolves hunt together in packs.",
+      "ex_ja": "オオカミは群れで一緒に狩りをします。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_101",
+      "en": "release",
+      "ja": "解放する",
+      "pos": "verb",
+      "ex_en": "They released the birds back into the wild.",
+      "ex_ja": "彼らは鳥を自然に返して解放しました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "cb_102",
+      "en": "sprout",
+      "ja": "芽を出す",
+      "pos": "verb",
+      "ex_en": "New leaves sprouted on the branches in spring.",
+      "ex_ja": "春に枝に新しい葉が出ました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "cb_103",
+      "en": "bloom",
+      "ja": "咲く",
+      "pos": "verb",
+      "ex_en": "Cherry trees bloom in April.",
+      "ex_ja": "桜の木は4月に咲きます。",
+      "level": 1,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "cb_104",
+      "en": "wither",
+      "ja": "しぼむ",
+      "pos": "verb",
+      "ex_en": "The flowers withered because nobody watered them.",
+      "ex_ja": "誰も水をやらなかったので花はしぼんでしまいました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "cb_105",
+      "en": "ripen",
+      "ja": "熟す",
+      "pos": "verb",
+      "ex_en": "Tomatoes ripen best in full sunshine.",
+      "ex_ja": "トマトは日当たりが良いところで一番よく熟します。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_106",
+      "en": "germinate",
+      "ja": "発芽する",
+      "pos": "verb",
+      "ex_en": "Seeds germinate faster when the soil is warm.",
+      "ex_ja": "土が温かいと種は早く発芽します。",
+      "level": 2,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cb_107",
+      "en": "pollinate",
+      "ja": "受粉させる",
+      "pos": "verb",
+      "ex_en": "Bees pollinate flowers as they collect nectar.",
+      "ex_ja": "ミツバチは蜜を集める間に花を受粉させます。",
+      "level": 2,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cb_108",
+      "en": "irrigate",
+      "ja": "灌漑する",
+      "pos": "verb",
+      "ex_en": "Farmers irrigate their fields during the dry season.",
+      "ex_ja": "農家は乾季に畑に水を引いて潤します。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_109",
+      "en": "compost",
+      "ja": "堆肥にする",
+      "pos": "verb",
+      "ex_en": "We compost vegetable peels for the garden.",
+      "ex_ja": "私たちは野菜の皮を庭用に堆肥にします。",
+      "level": 2,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "cb_110",
+      "en": "graft",
+      "ja": "接ぎ木する",
+      "pos": "verb",
+      "ex_en": "He grafted a new branch onto the apple tree.",
+      "ex_ja": "彼はリンゴの木に新しい枝を接ぎ木しました。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_111",
+      "en": "calf",
+      "ja": "子牛",
+      "pos": "noun",
+      "ex_en": "The cow stood beside her newborn calf.",
+      "ex_ja": "雌牛は生まれたばかりの子牛のそばに立っていました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_112",
+      "en": "lamb",
+      "ja": "子羊",
+      "pos": "noun",
+      "ex_en": "In spring the fields are full of lambs.",
+      "ex_ja": "春には野原が子羊でいっぱいになります。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_113",
+      "en": "kitten",
+      "ja": "子猫",
+      "pos": "noun",
+      "ex_en": "Our cat had three kittens last week.",
+      "ex_ja": "先週うちの猫が3匹の子猫を産みました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_114",
+      "en": "puppy",
+      "ja": "子犬",
+      "pos": "noun",
+      "ex_en": "The children played with the golden retriever puppy.",
+      "ex_ja": "子供たちはゴールデンレトリバーの子犬と遊びました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_115",
+      "en": "cub",
+      "ja": "子グマ・幼獣",
+      "pos": "noun",
+      "ex_en": "A mother bear watched over her two cubs.",
+      "ex_ja": "母熊が2頭の子グマを見守っていました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_116",
+      "en": "flock",
+      "ja": "群れ",
+      "pos": "noun",
+      "ex_en": "A flock of sheep moved slowly down the hill.",
+      "ex_ja": "羊の群れがゆっくりと丘を下っていきました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_117",
+      "en": "herd",
+      "ja": "群れ",
+      "pos": "noun",
+      "ex_en": "A herd of cattle grazed near the river.",
+      "ex_ja": "牛の群れが川の近くで草を食んでいました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_118",
+      "en": "swarm",
+      "ja": "群れ",
+      "pos": "noun",
+      "ex_en": "A swarm of bees settled in the old oak tree.",
+      "ex_ja": "ミツバチの群れが古いオークの木に止まりました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cb_119",
+      "en": "pasture",
+      "ja": "牧草地",
+      "pos": "noun",
+      "ex_en": "The horses spend summer out in the pasture.",
+      "ex_ja": "馬たちは夏の間、外の牧草地で過ごします。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_120",
+      "en": "coop",
+      "ja": "鶏小屋",
+      "pos": "noun",
+      "ex_en": "We keep six hens in the backyard coop.",
+      "ex_ja": "裏庭の鶏小屋で6羽のめん鳥を飼っています。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_121",
+      "en": "crop",
+      "ja": "作物",
+      "pos": "noun",
+      "ex_en": "This year's rice crop is excellent.",
+      "ex_ja": "今年の米の収穫は素晴らしい出来です。",
+      "level": 1,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_122",
+      "en": "grain",
+      "ja": "穀物",
+      "pos": "noun",
+      "ex_en": "Bread is made from grain.",
+      "ex_ja": "パンは穀物から作られます。",
+      "level": 1,
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "cb_123",
+      "en": "silo",
+      "ja": "サイロ",
+      "pos": "noun",
+      "ex_en": "The grain is stored in a tall silver silo.",
+      "ex_ja": "穀物は高い銀色のサイロに保管されます。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_124",
+      "en": "tractor",
+      "ja": "トラクター",
+      "pos": "noun",
+      "ex_en": "The tractor plowed the field before planting.",
+      "ex_ja": "播種の前にトラクターが畑を耕しました。",
+      "level": 1,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_125",
+      "en": "harvester",
+      "ja": "収穫機",
+      "pos": "noun",
+      "ex_en": "Modern harvesters can gather wheat very quickly.",
+      "ex_ja": "現代のコンバインは小麦をとても速く集められます。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "cb_126",
+      "en": "damp",
+      "ja": "湿った",
+      "pos": "adj",
+      "ex_en": "The towels were still damp after hanging outside.",
+      "ex_ja": "タオルは外に干した後もまだ湿っていました。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_127",
+      "en": "moist",
+      "ja": "しっとりした",
+      "pos": "adj",
+      "ex_en": "The cake stays moist because of the honey.",
+      "ex_ja": "そのケーキは蜂蜜のおかげでしっとりしています。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_128",
+      "en": "lush",
+      "ja": "青々とした",
+      "pos": "adj",
+      "ex_en": "Lush green grass covered the hillsides.",
+      "ex_ja": "青々とした緑の草が丘の斜面を覆っていました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "cb_129",
+      "en": "sparse",
+      "ja": "まばらな",
+      "pos": "adj",
+      "ex_en": "Trees grow sparse near the desert.",
+      "ex_ja": "砂漠の近くでは木がまばらにしか育ちません。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_130",
+      "en": "vast",
+      "ja": "広大な",
+      "pos": "adj",
+      "ex_en": "They crossed the vast desert by camel.",
+      "ex_ja": "彼らはラクダで広大な砂漠を横断しました。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_131",
+      "en": "tiny",
+      "ja": "とても小さい",
+      "pos": "adj",
+      "ex_en": "A tiny ladybug landed on her hand.",
+      "ex_ja": "とても小さいテントウムシが彼女の手に止まりました。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_132",
+      "en": "huge",
+      "ja": "巨大な",
+      "pos": "adj",
+      "ex_en": "A huge elephant blocked the road.",
+      "ex_ja": "巨大なゾウが道をふさいでいました。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_133",
+      "en": "enormous",
+      "ja": "莫大な・ものすごく大きい",
+      "pos": "adj",
+      "ex_en": "They live in an enormous house with ten rooms.",
+      "ex_ja": "彼らは10部屋もある巨大な家に住んでいます。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_134",
+      "en": "slender",
+      "ja": "ほっそりした",
+      "pos": "adj",
+      "ex_en": "The slender birch trees swayed in the wind.",
+      "ex_ja": "ほっそりとした白樺が風に揺れていました。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_135",
+      "en": "chubby",
+      "ja": "ふっくらした",
+      "pos": "adj",
+      "ex_en": "The chubby baby laughed and clapped his hands.",
+      "ex_ja": "ふっくらした赤ちゃんが笑って手を叩きました。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_136",
+      "en": "plump",
+      "ja": "丸々とした",
+      "pos": "adj",
+      "ex_en": "She picked a plump, ripe peach.",
+      "ex_ja": "彼女は丸々と熟した桃をひとつ選びました。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_137",
+      "en": "skinny",
+      "ja": "やせた",
+      "pos": "adj",
+      "ex_en": "The skinny stray cat needed food and care.",
+      "ex_ja": "やせた野良猫には食べ物と世話が必要でした。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_138",
+      "en": "muscular",
+      "ja": "筋肉質の",
+      "pos": "adj",
+      "ex_en": "The muscular farmer carried two heavy buckets.",
+      "ex_ja": "筋肉質の農夫は重いバケツを2つ運びました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "cb_139",
+      "en": "sturdy",
+      "ja": "頑丈な",
+      "pos": "adj",
+      "ex_en": "These sturdy boots will last for years.",
+      "ex_ja": "この頑丈なブーツは何年ももつでしょう。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_140",
+      "en": "fragile",
+      "ja": "壊れやすい",
+      "pos": "adj",
+      "ex_en": "Handle the fragile glass vase carefully.",
+      "ex_ja": "壊れやすいガラスの花瓶は丁寧に扱ってください。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_141",
+      "en": "rough",
+      "ja": "ざらざらした",
+      "pos": "adj",
+      "ex_en": "His hands were rough from farm work.",
+      "ex_ja": "彼の手は農作業でざらざらしていました。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_142",
+      "en": "smooth",
+      "ja": "つるつるした",
+      "pos": "adj",
+      "ex_en": "The stones at the beach feel smooth.",
+      "ex_ja": "その浜辺の石はつるつるした手触りがします。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_143",
+      "en": "greasy",
+      "ja": "脂っこい",
+      "pos": "adj",
+      "ex_en": "Wash your hands after eating greasy chips.",
+      "ex_ja": "脂っこいポテトチップスを食べた後は手を洗ってください。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_144",
+      "en": "sticky",
+      "ja": "べたべたする",
+      "pos": "adj",
+      "ex_en": "The sticky jam stuck to my fingers.",
+      "ex_ja": "べたべたしたジャムが指にくっつきました。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_145",
+      "en": "slimy",
+      "ja": "ぬるぬるした",
+      "pos": "adj",
+      "ex_en": "Frogs have slimy skin.",
+      "ex_ja": "カエルの肌はぬるぬるしています。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_146",
+      "en": "fuzzy",
+      "ja": "毛羽だった",
+      "pos": "adj",
+      "ex_en": "A fuzzy caterpillar crawled along the branch.",
+      "ex_ja": "毛羽だった毛虫が枝を這っていきました。",
+      "level": 2,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_147",
+      "en": "woolen",
+      "ja": "毛糸の",
+      "pos": "adj",
+      "ex_en": "She wore warm woolen socks in the snow.",
+      "ex_ja": "彼女は雪の中で暖かい毛糸の靴下をはいていました。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_148",
+      "en": "silky",
+      "ja": "絹のような",
+      "pos": "adj",
+      "ex_en": "The cat's fur is soft and silky.",
+      "ex_ja": "その猫の毛は柔らかくて絹のようです。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_149",
+      "en": "muddy",
+      "ja": "泥だらけの",
+      "pos": "adj",
+      "ex_en": "Take off your muddy boots at the door.",
+      "ex_ja": "泥だらけのブーツは玄関で脱いでください。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "cb_150",
+      "en": "dusty",
+      "ja": "ほこりだらけの",
+      "pos": "adj",
+      "ex_en": "The dusty attic was full of old boxes.",
+      "ex_ja": "ほこりだらけの屋根裏部屋は古い箱でいっぱいでした。",
+      "level": 1,
+      "tags": [
+        "quality"
+      ]
+    }
+  ]
+}

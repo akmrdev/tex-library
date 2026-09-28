@@ -1,0 +1,38 @@
+[
+  {
+    "q": "She ___ a nurse. の空欄に入る語は?(主語は3人称単数)",
+    "choices": ["am", "is", "are", "be"],
+    "answer": 1,
+    "explain": "he/she/it など単数の主語には is を使います。be動詞は「自分は am、単数は is、複数と you は are」。"
+  },
+  {
+    "q": "I have lived here ___ 2010.(2010年からずっと住んでいる)に入る前置詞は?",
+    "choices": ["from", "since", "for", "at"],
+    "answer": 1,
+    "explain": "完了形で起点を表すのは since。期間の長さなら for(例: for ten years)。"
+  },
+  {
+    "q": "「これは本です」の正しい否定文は?",
+    "choices": ["This is not a book.", "This not is a book.", "This isn't be a book.", "This no book."],
+    "answer": 0,
+    "explain": "be動詞の否定は be の直後に not。短縮形は isn't / aren't(am not に短縮形はない)。"
+  },
+  {
+    "q": "If I ___ you, I would take the job.(仮定法過去)に入る動詞は?",
+    "choices": ["am", "was", "were", "will be"],
+    "answer": 2,
+    "explain": "仮定法過去では主語にかかわらず were を使うのが正式。If I were you(私があなたなら)は定型表現。"
+  },
+  {
+    "q": "The book ___ I bought yesterday was interesting.(関係代名詞)に入る語の組み合わせは?",
+    "choices": ["who または whom", "which または that", "whose または who", "what または which"],
+    "answer": 1,
+    "explain": "先行詞が物(book)なので which または that。who は人に使います。"
+  },
+  {
+    "q": "He is ___ tall ___ his brother.(兄と同じくらい背が高い)に入る組合せは?",
+    "choices": ["so / that", "as / as", "more / than", "too / to"],
+    "answer": 1,
+    "explain": "原級の等しい比較は as ... as。否定形は not as ... as(= not so ... as)。"
+  }
+]

@@ -1,0 +1,849 @@
+{
+  "meta": {
+    "file": "eik-pre2-70",
+    "stage": "eiken",
+    "description": "英検準2級レベル70語"
+  },
+  "words": [
+    {
+      "id": "ep2_001",
+      "en": "afford",
+      "ja": "～する余裕がある、買う余裕がある",
+      "pos": "verb",
+      "ex_en": "We can't afford to buy a new car this year.",
+      "ex_ja": "今年は新しい車を買う余裕がありません。",
+      "level": 3,
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "id": "ep2_002",
+      "en": "appear",
+      "ja": "現れる、～のように見える",
+      "pos": "verb",
+      "ex_en": "A rainbow appeared in the sky after the rain.",
+      "ex_ja": "雨の後、空に虹が現れました。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ep2_003",
+      "en": "arrange",
+      "ja": "手配する、整理する",
+      "pos": "verb",
+      "ex_en": "She arranged the flowers in a vase.",
+      "ex_ja": "彼女は花瓶に花をきれいに生けました。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_004",
+      "en": "attend",
+      "ja": "出席する",
+      "pos": "verb",
+      "ex_en": "All students must attend the morning meeting.",
+      "ex_ja": "全ての生徒は朝のミーティングに出席しなければなりません。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_005",
+      "en": "celebrate",
+      "ja": "祝う",
+      "pos": "verb",
+      "ex_en": "We celebrated her birthday with a big cake.",
+      "ex_ja": "私たちは大きなケーキで彼女の誕生日を祝いました。",
+      "level": 3,
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ep2_006",
+      "en": "connect",
+      "ja": "つなぐ、結び付ける",
+      "pos": "verb",
+      "ex_en": "This bridge connects the two islands.",
+      "ex_ja": "この橋はその二つの島をつないでいます。",
+      "level": 3,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "ep2_007",
+      "en": "expect",
+      "ja": "予期する、期待する",
+      "pos": "verb",
+      "ex_en": "I expect the package to arrive tomorrow.",
+      "ex_ja": "その荷物は明日届くと予想しています。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_008",
+      "en": "gather",
+      "ja": "集める、集まる",
+      "pos": "verb",
+      "ex_en": "The children gathered around the campfire.",
+      "ex_ja": "子どもたちはキャンプファイヤーの周りに集まりました。",
+      "level": 3,
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ep2_009",
+      "en": "include",
+      "ja": "含む",
+      "pos": "verb",
+      "ex_en": "The price includes breakfast and dinner.",
+      "ex_ja": "その料金には朝食と夕食が含まれています。",
+      "level": 3,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "ep2_010",
+      "en": "introduce",
+      "ja": "紹介する、導入する",
+      "pos": "verb",
+      "ex_en": "Let me introduce my friend Ken to you.",
+      "ex_ja": "私の友人のケンを紹介します。",
+      "level": 3,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "ep2_011",
+      "en": "manage",
+      "ja": "なんとかやり遂げる、管理する",
+      "pos": "verb",
+      "ex_en": "She managed to finish her homework before dinner.",
+      "ex_ja": "彼女は夕食前に何とか宿題を終えました。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_012",
+      "en": "notice",
+      "ja": "気付く",
+      "pos": "verb",
+      "ex_en": "I noticed that he looked tired today.",
+      "ex_ja": "今日、彼が疲れているように見えたことに気付きました。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_013",
+      "en": "offer",
+      "ja": "申し出る、提供する",
+      "pos": "verb",
+      "ex_en": "He offered to help me carry the boxes.",
+      "ex_ja": "彼は箱を運ぶのを手伝おうと申し出てくれました。",
+      "level": 3,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "ep2_014",
+      "en": "organize",
+      "ja": "企画する、組織する",
+      "pos": "verb",
+      "ex_en": "Our class organized a charity sale last month.",
+      "ex_ja": "私たちのクラスは先月、チャリティー販売を企画しました。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_015",
+      "en": "produce",
+      "ja": "作り出す、生産する",
+      "pos": "verb",
+      "ex_en": "This factory produces thousands of toys every day.",
+      "ex_ja": "この工場は毎日何千個ものおもちゃを生産しています。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "ep2_016",
+      "en": "refuse",
+      "ja": "断る、拒否する",
+      "pos": "verb",
+      "ex_en": "She refused his invitation because she was busy.",
+      "ex_ja": "彼女は忙しかったので、彼の招待を断りました。",
+      "level": 3,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "ep2_017",
+      "en": "remind",
+      "ja": "思い出させる",
+      "pos": "verb",
+      "ex_en": "This song reminds me of my childhood.",
+      "ex_ja": "この歌を聞くと子どもの頃を思い出します。",
+      "level": 3,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "ep2_018",
+      "en": "reply",
+      "ja": "返事をする",
+      "pos": "verb",
+      "ex_en": "Please reply to my email by Friday.",
+      "ex_ja": "金曜日までに私のメールに返事をください。",
+      "level": 3,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "ep2_019",
+      "en": "warn",
+      "ja": "警告する",
+      "pos": "verb",
+      "ex_en": "The weather report warned us about the typhoon.",
+      "ex_ja": "気象情報は私たちに台風について警告しました。",
+      "level": 3,
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "ep2_020",
+      "en": "advice",
+      "ja": "助言、アドバイス",
+      "pos": "noun",
+      "ex_en": "My teacher gave me useful advice about studying.",
+      "ex_ja": "先生は勉強について役に立つ助言をしてくれました。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_021",
+      "en": "delay",
+      "ja": "遅れ、遅延",
+      "pos": "noun",
+      "ex_en": "There was a two-hour delay at the airport because of the storm.",
+      "ex_ja": "嵐のため空港で2時間の遅れがありました。",
+      "level": 3,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "ep2_022",
+      "en": "detail",
+      "ja": "細部、詳細",
+      "pos": "noun",
+      "ex_en": "The police asked him for every detail of the accident.",
+      "ex_ja": "警察は彼に事故のあらゆる詳細を尋ねました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "ep2_023",
+      "en": "knowledge",
+      "ja": "知識",
+      "pos": "noun",
+      "ex_en": "Reading books gives you knowledge about the world.",
+      "ex_ja": "本を読むことで世界についての知識が得られます。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_024",
+      "en": "skill",
+      "ja": "技能、技術",
+      "pos": "noun",
+      "ex_en": "Cooking is an important skill for living alone.",
+      "ex_ja": "料理はひとり暮らしをするうえで重要な技能です。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_025",
+      "en": "success",
+      "ja": "成功",
+      "pos": "noun",
+      "ex_en": "Hard work led to his success in the contest.",
+      "ex_ja": "一生懸命努力したことが、コンテストでの彼の成功につながりました。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_026",
+      "en": "trouble",
+      "ja": "苦労、面倒、困難",
+      "pos": "noun",
+      "ex_en": "He had trouble finding the station in the dark.",
+      "ex_ja": "彼は暗い中で駅を見つけるのに苦労しました。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_027",
+      "en": "value",
+      "ja": "価値",
+      "pos": "noun",
+      "ex_en": "I learned the value of friendship from this experience.",
+      "ex_ja": "私はこの経験から友情の価値を学びました。",
+      "level": 3,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "ep2_028",
+      "en": "excellent",
+      "ja": "すばらしい、優れた",
+      "pos": "adj",
+      "ex_en": "She got an excellent score on the English test.",
+      "ex_ja": "彼女は英語のテストですばらしい点数を取りました。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_029",
+      "en": "familiar",
+      "ja": "よく知られた、おなじみの",
+      "pos": "adj",
+      "ex_en": "This melody sounds familiar to me.",
+      "ex_ja": "このメロディーはどこかで聞いたことがある気がします。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_030",
+      "en": "grateful",
+      "ja": "感謝して、ありがたく思って",
+      "pos": "adj",
+      "ex_en": "I am grateful to you for your kind help.",
+      "ex_ja": "あなたの親切な助けに感謝しています。",
+      "level": 3,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "ep2_031",
+      "en": "polite",
+      "ja": "礼儀正しい",
+      "pos": "adj",
+      "ex_en": "It is polite to say thank you when you receive a gift.",
+      "ex_ja": "贈り物をもらったらお礼を言うのが礼儀正しいふるまいです。",
+      "level": 3,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "ep2_032",
+      "en": "unusual",
+      "ja": "普通でない、珍しい",
+      "pos": "adj",
+      "ex_en": "Snow in April is very unusual in this town.",
+      "ex_ja": "この町では4月に雪が降るのはとても珍しいことです。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ep2_033",
+      "en": "abroad",
+      "ja": "外国で、海外へ",
+      "pos": "adv",
+      "ex_en": "She studied abroad in Australia for a year.",
+      "ex_ja": "彼女は1年間オーストラリアに留学していました。",
+      "level": 3,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "ep2_034",
+      "en": "instead",
+      "ja": "その代わりに",
+      "pos": "adv",
+      "ex_en": "I didn't take the bus. I walked home instead.",
+      "ex_ja": "バスには乗りませんでした。その代わりに歩いて家に帰りました。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_035",
+      "en": "hardly",
+      "ja": "ほとんど～ない",
+      "pos": "adv",
+      "ex_en": "I was so tired that I could hardly keep my eyes open.",
+      "ex_ja": "とても疲れていて、ほとんど目を開けていられませんでした。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_036",
+      "en": "complete",
+      "ja": "完了する、完成させる",
+      "pos": "verb",
+      "ex_en": "He completed the marathon in just under four hours.",
+      "ex_ja": "彼は4時間弱でマラソンを完走しました。",
+      "level": 3,
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "id": "ep2_037",
+      "en": "announce",
+      "ja": "発表する",
+      "pos": "verb",
+      "ex_en": "The school announced the results of the speech contest.",
+      "ex_ja": "学校はスピーチコンテストの結果を発表しました。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_038",
+      "en": "appreciate",
+      "ja": "感謝する、高く評価する",
+      "pos": "verb",
+      "ex_en": "I really appreciate your quick response.",
+      "ex_ja": "あなたの素早い対応に本当に感謝します。",
+      "level": 3,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "ep2_039",
+      "en": "argue",
+      "ja": "言い争う、主張する",
+      "pos": "verb",
+      "ex_en": "The two brothers often argue about small things.",
+      "ex_ja": "その兄弟はよく小さなことで言い争います。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_040",
+      "en": "earn",
+      "ja": "稼ぐ、（評判などを）得る",
+      "pos": "verb",
+      "ex_en": "She earns money by teaching piano on weekends.",
+      "ex_ja": "彼女は週末にピアノを教えてお金を稼いでいます。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "ep2_041",
+      "en": "escape",
+      "ja": "逃げる、避ける",
+      "pos": "verb",
+      "ex_en": "The dog escaped from the yard last night.",
+      "ex_ja": "その犬は昨夜、庭から逃げ出しました。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_042",
+      "en": "gain",
+      "ja": "得る、増やす",
+      "pos": "verb",
+      "ex_en": "He gained a lot of experience through the part-time job.",
+      "ex_ja": "彼はアルバイトを通してたくさんの経験を得ました。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "ep2_043",
+      "en": "handle",
+      "ja": "処理する、扱う",
+      "pos": "verb",
+      "ex_en": "Can you handle the situation by yourself?",
+      "ex_ja": "その状況を自分ひとりで処理できますか。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_044",
+      "en": "overcome",
+      "ja": "克服する",
+      "pos": "verb",
+      "ex_en": "She overcame her fear of speaking in public.",
+      "ex_ja": "彼女は人前で話すことへの恐怖を克服しました。",
+      "level": 3,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "ep2_045",
+      "en": "persuade",
+      "ja": "説得する",
+      "pos": "verb",
+      "ex_en": "I persuaded my parents to let me go camping with my friends.",
+      "ex_ja": "私は友達とキャンプに行かせてもらえるよう両親を説得しました。",
+      "level": 3,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "ep2_046",
+      "en": "praise",
+      "ja": "褒める、賞賛する",
+      "pos": "verb",
+      "ex_en": "The coach praised the team for their hard work.",
+      "ex_ja": "コーチはチームの努力を褒めました。",
+      "level": 3,
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "id": "ep2_047",
+      "en": "raise",
+      "ja": "上げる、（お金を）集める、育てる",
+      "pos": "verb",
+      "ex_en": "They raised money for the animal shelter.",
+      "ex_ja": "彼らは動物保護施設のためにお金を集めました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "ep2_048",
+      "en": "recommend",
+      "ja": "推薦する、勧める",
+      "pos": "verb",
+      "ex_en": "Can you recommend a good restaurant near here?",
+      "ex_ja": "この近くのおいしいレストランをお勧めできますか。",
+      "level": 3,
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "ep2_049",
+      "en": "regret",
+      "ja": "後悔する",
+      "pos": "verb",
+      "ex_en": "I regret not studying harder when I was a student.",
+      "ex_ja": "学生のときにもっと一生懸命勉強しなかったことを後悔しています。",
+      "level": 3,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "ep2_050",
+      "en": "convince",
+      "ja": "確信させる、納得させる",
+      "pos": "verb",
+      "ex_en": "It took time to convince her that the plan was safe.",
+      "ex_ja": "その計画が安全だと彼女を納得させるのに時間がかかりました。",
+      "level": 3,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "ep2_051",
+      "en": "ability",
+      "ja": "能力",
+      "pos": "noun",
+      "ex_en": "She has the ability to learn languages quickly.",
+      "ex_ja": "彼女には語学をすばやく学ぶ能力があります。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_052",
+      "en": "attempt",
+      "ja": "試み",
+      "pos": "noun",
+      "ex_en": "His first attempt to climb the mountain ended in failure.",
+      "ex_ja": "その山に登ろうとした最初の試みは失敗に終わりました。",
+      "level": 3,
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "id": "ep2_053",
+      "en": "courage",
+      "ja": "勇気",
+      "pos": "noun",
+      "ex_en": "It takes courage to say sorry first.",
+      "ex_ja": "最初に謝るのには勇気が必要です。",
+      "level": 3,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "ep2_054",
+      "en": "duty",
+      "ja": "義務、責任",
+      "pos": "noun",
+      "ex_en": "It is our duty to keep the classroom clean.",
+      "ex_ja": "教室をきれいに保つのは私たちの義務です。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_055",
+      "en": "memory",
+      "ja": "記憶、思い出",
+      "pos": "noun",
+      "ex_en": "The old photo brought back happy memories of that summer.",
+      "ex_ja": "その古い写真はあの夏の楽しい思い出を思い出させました。",
+      "level": 3,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "ep2_056",
+      "en": "pride",
+      "ja": "誇り",
+      "pos": "noun",
+      "ex_en": "She takes great pride in her work.",
+      "ex_ja": "彼女は自分の仕事をとても誇りに思っています。",
+      "level": 3,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "ep2_057",
+      "en": "request",
+      "ja": "依頼、要請",
+      "pos": "noun",
+      "ex_en": "We received a request to help at the festival.",
+      "ex_ja": "祭りでお手伝いしてほしいという依頼を受けました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "ep2_058",
+      "en": "accident",
+      "ja": "事故",
+      "pos": "noun",
+      "ex_en": "He was late because of a traffic accident on the highway.",
+      "ex_ja": "高速道路の交通事故のため、彼は遅刻しました。",
+      "level": 3,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "ep2_059",
+      "en": "appearance",
+      "ja": "外見、見かけ",
+      "pos": "noun",
+      "ex_en": "Don't judge a person by their appearance.",
+      "ex_ja": "人を外見で判断してはいけません。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_060",
+      "en": "amazing",
+      "ja": "びっくりするような、すばらしい",
+      "pos": "adj",
+      "ex_en": "The view from the top of the mountain was amazing.",
+      "ex_ja": "山の頂上からの景色は息をのむほどすばらしかったです。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ep2_061",
+      "en": "convenient",
+      "ja": "便利な",
+      "pos": "adj",
+      "ex_en": "The station is close to my house, which is very convenient.",
+      "ex_ja": "駅が家の近くにあるのはとても便利です。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_062",
+      "en": "eager",
+      "ja": "熱心な、しきりに望んで",
+      "pos": "adj",
+      "ex_en": "The students were eager to start the new project.",
+      "ex_ja": "生徒たちは新しい企画を始めるのをとても楽しみにしていました。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_063",
+      "en": "rude",
+      "ja": "失礼な、無礼な",
+      "pos": "adj",
+      "ex_en": "It is rude to talk with your mouth full.",
+      "ex_ja": "口に食べ物を入れたまま話すのは失礼です。",
+      "level": 3,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "ep2_064",
+      "en": "shy",
+      "ja": "内気な、はずかしがりの",
+      "pos": "adj",
+      "ex_en": "He is so shy that he cannot speak in front of the class.",
+      "ex_ja": "彼はとても内気なので、クラスのみんなの前で話すことができません。",
+      "level": 3,
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "ep2_065",
+      "en": "bright",
+      "ja": "明るい、賢い",
+      "pos": "adj",
+      "ex_en": "The classroom becomes bright when the sun rises.",
+      "ex_ja": "太陽が昇ると教室は明るくなります。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ep2_066",
+      "en": "calm",
+      "ja": "穏やかな、静かな",
+      "pos": "adj",
+      "ex_en": "The lake was calm early in the morning.",
+      "ex_ja": "湖は早朝、穏やかでした。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ep2_067",
+      "en": "gradually",
+      "ja": "だんだんと、徐々に",
+      "pos": "adv",
+      "ex_en": "The weather is gradually getting warmer.",
+      "ex_ja": "天気はだんだんと暖かくなっています。",
+      "level": 3,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "ep2_068",
+      "en": "nearly",
+      "ja": "ほとんど、もう少しで",
+      "pos": "adv",
+      "ex_en": "The movie lasted nearly three hours.",
+      "ex_ja": "その映画は3時間近く続きました。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "id": "ep2_069",
+      "en": "certainly",
+      "ja": "確かに、きっと",
+      "pos": "adv",
+      "ex_en": "He will certainly pass the exam if he keeps studying.",
+      "ex_ja": "勉強を続けていれば、彼はきっと試験に合格するでしょう。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "ep2_070",
+      "en": "completely",
+      "ja": "完全に、すっかり",
+      "pos": "adv",
+      "ex_en": "I completely forgot about the meeting this morning.",
+      "ex_ja": "今朝の会議のことを完全に忘れていました。",
+      "level": 3,
+      "tags": [
+        "daily"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "file": "sw-level4-academic-70",
+    "stage": "senior",
+    "description": "学术レベル70語"
+  },
+  "words": [
+    {
+      "id": "sw081",
+      "en": "significant",
+      "ja": "重要な、意味深な",
+      "pos": "adj",
+      "ex_en": "This is a significant discovery.",
+      "ex_ja": "これは重大な発見です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw082",
+      "en": "consequence",
+      "ja": "結果、帰結",
+      "pos": "noun",
+      "ex_en": "Climate change is a consequence of human activity.",
+      "ex_ja": "気候変動は人間の活動の結果である。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw083",
+      "en": "demonstrate",
+      "ja": "実証する、明らかに示す",
+      "pos": "verb",
+      "ex_en": "The study demonstrates that exercise improves memory.",
+      "ex_ja": "その研究は運動が記憶力を高めることを実証している。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "research"
+      ]
+    },
+    {
+      "id": "sw084",
+      "en": "hypothesis",
+      "ja": "仮説",
+      "pos": "noun",
+      "ex_en": "Our hypothesis was supported by the data.",
+      "ex_ja": "我々の仮説はデータによって裏付けられた。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "research"
+      ]
+    },
+    {
+      "id": "sw085",
+      "en": "ambiguous",
+      "ja": "曖昧な、二通りに解せる",
+      "pos": "adj",
+      "ex_en": "His answer was deliberately ambiguous.",
+      "ex_ja": "彼の答えは意図的に曖昧だった。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw086",
+      "en": "phenomenon",
+      "ja": "現象",
+      "pos": "noun",
+      "ex_en": "Rainbows are a natural optical phenomenon.",
+      "ex_ja": "虹は自然な光学現象である。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "science"
+      ]
+    },
+    {
+      "id": "sw087",
+      "en": "criterion",
+      "ja": "判断基準(複数形 criteria)",
+      "pos": "noun",
+      "ex_en": "Fluency is the main criterion for grading.",
+      "ex_ja": "流ちょうさが採点の主な基準である。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw088",
+      "en": "comprehensive",
+      "ja": "包括的な、網羅的な",
+      "pos": "adj",
+      "ex_en": "She wrote a comprehensive report on pollution.",
+      "ex_ja": "彼女は汚染に関する包括的な報告書を書いた。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw089",
+      "en": "substantial",
+      "ja": "相当の、実質的な",
+      "pos": "adj",
+      "ex_en": "The project required a substantial amount of money.",
+      "ex_ja": "その事業には多額の資金が必要だった。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw090",
+      "en": "derive",
+      "ja": "由来する、導き出す",
+      "pos": "verb",
+      "ex_en": "The word derives from ancient Greek.",
+      "ex_ja": "その語は古代ギリシャ語に由来する。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "language"
+      ]
+    },
+    {
+      "id": "sw091",
+      "en": "imply",
+      "ja": "暗示する、含意する",
+      "pos": "verb",
+      "ex_en": "The data implies a link between diet and health.",
+      "ex_ja": "そのデータは食事と健康の関連を示唆している。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw092",
+      "en": "explicit",
+      "ja": "明示的な、はっきりした",
+      "pos": "adj",
+      "ex_en": "The rules were made explicit at the start.",
+      "ex_ja": "規則は最初にはっきり示された。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw093",
+      "en": "implicit",
+      "ja": "暗黙の、言外の",
+      "pos": "adj",
+      "ex_en": "There was an implicit criticism in her remarks.",
+      "ex_ja": "彼女の発言には暗黙の批判があった。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw094",
+      "en": "empirical",
+      "ja": "実証的な、経験に基づく",
+      "pos": "adj",
+      "ex_en": "We need empirical evidence to support the claim.",
+      "ex_ja": "その主張を支えるには実証的証拠が必要だ。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "research"
+      ]
+    },
+    {
+      "id": "sw095",
+      "en": "theoretical",
+      "ja": "理論上の",
+      "pos": "adj",
+      "ex_en": "The model is sound in theoretical terms.",
+      "ex_ja": "そのモデルは理論的には妥当である。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "science"
+      ]
+    },
+    {
+      "id": "sw096",
+      "en": "variable",
+      "ja": "変数、可変の要因",
+      "pos": "noun",
+      "ex_en": "Keep all other variables constant during the test.",
+      "ex_ja": "テスト中は他の変数をすべて一定に保ちなさい。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "science"
+      ]
+    },
+    {
+      "id": "sw097",
+      "en": "component",
+      "ja": "構成要素、部品",
+      "pos": "noun",
+      "ex_en": "Trust is a key component of friendship.",
+      "ex_ja": "信頼は友情の重要な構成要素である。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw098",
+      "en": "mechanism",
+      "ja": "機構、メカニズム",
+      "pos": "noun",
+      "ex_en": "Scientists studied the mechanism of the disease.",
+      "ex_ja": "科学者たちはその病気のメカニズムを研究した。",
+      "level": 4,
+      "tags": [
+        "science",
+        "academic"
+      ]
+    },
+    {
+      "id": "sw099",
+      "en": "integrate",
+      "ja": "統合する、一体にする",
+      "pos": "verb",
+      "ex_en": "The app integrates text, audio, and video.",
+      "ex_ja": "そのアプリはテキスト・音声・動画を統合している。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw100",
+      "en": "distribute",
+      "ja": "分配する、分布させる",
+      "pos": "verb",
+      "ex_en": "The charity distributed food to the refugees.",
+      "ex_ja": "その慈善団体は難民に食料を配った。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw101",
+      "en": "evaluate",
+      "ja": "評価する、査定する",
+      "pos": "verb",
+      "ex_en": "Teachers evaluate students on several criteria.",
+      "ex_ja": "教師はいくつかの基準で学生を評価する。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw102",
+      "en": "interpret",
+      "ja": "解釈する",
+      "pos": "verb",
+      "ex_en": "How do you interpret this poem?",
+      "ex_ja": "あなたはこの詩をどう解釈しますか。",
+      "level": 4,
+      "tags": [
+        "language",
+        "academic"
+      ]
+    },
+    {
+      "id": "sw103",
+      "en": "perceive",
+      "ja": "知覚する、〜と捉える",
+      "pos": "verb",
+      "ex_en": "People perceive risk in different ways.",
+      "ex_ja": "人はリスクをさまざまに捉える。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "psychology"
+      ]
+    },
+    {
+      "id": "sw104",
+      "en": "attribute",
+      "ja": "〜に帰する、〜のせいだとする",
+      "pos": "verb",
+      "ex_en": "They attributed the failure to poor planning.",
+      "ex_ja": "彼らは失敗を計画不足のせいにした。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw105",
+      "en": "constitute",
+      "ja": "構成する、成立させる",
+      "pos": "verb",
+      "ex_en": "Women constitute sixty percent of the staff.",
+      "ex_ja": "女性が職員の六割を占める。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw106",
+      "en": "denote",
+      "ja": "表示する、意味する",
+      "pos": "verb",
+      "ex_en": "In this chart, red denotes danger.",
+      "ex_ja": "この図では赤は危険を表す。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "language"
+      ]
+    },
+    {
+      "id": "sw107",
+      "en": "facilitate",
+      "ja": "容易にする、促進する",
+      "pos": "verb",
+      "ex_en": "Computers facilitate communication between cultures.",
+      "ex_ja": "コンピュータは文化間のコミュニケーションを促進する。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw108",
+      "en": "inhibit",
+      "ja": "抑制する、妨げる",
+      "pos": "verb",
+      "ex_en": "Fear can inhibit learning.",
+      "ex_ja": "恐怖は学習を妨げることがある。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "psychology"
+      ]
+    },
+    {
+      "id": "sw109",
+      "en": "manipulate",
+      "ja": "操作する、操る",
+      "pos": "verb",
+      "ex_en": "Advertisers manipulate our emotions.",
+      "ex_ja": "広告は私たちの感情を操る。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "media"
+      ]
+    },
+    {
+      "id": "sw110",
+      "en": "modify",
+      "ja": "修正する、変更する",
+      "pos": "verb",
+      "ex_en": "We modified the design after testing.",
+      "ex_ja": "テスト後にデザインを修正した。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw111",
+      "en": "subsequent",
+      "ja": "その後の、後続の",
+      "pos": "adj",
+      "ex_en": "Subsequent studies confirmed the result.",
+      "ex_ja": "その後の研究でその結果が確認された。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw112",
+      "en": "prior",
+      "ja": "前の、以前の",
+      "pos": "adj",
+      "ex_en": "No prior experience is required.",
+      "ex_ja": "事前の経験は必要ありません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw113",
+      "en": "potential",
+      "ja": "潜在的な、可能性のある",
+      "pos": "adj",
+      "ex_en": "Solar energy has enormous potential benefits.",
+      "ex_ja": "太陽エネルギーには大きな潜在的利益がある。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw114",
+      "en": "sufficient",
+      "ja": "十分な",
+      "pos": "adj",
+      "ex_en": "We lack sufficient data to draw conclusions.",
+      "ex_ja": "結論を出すのに十分なデータがない。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw115",
+      "en": "inevitable",
+      "ja": "避けられない、必然の",
+      "pos": "adj",
+      "ex_en": "Some change is inevitable in any society.",
+      "ex_ja": "どんな社会でもある程度の変化は避けられない。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw117",
+      "en": "analysis",
+      "ja": "分析",
+      "pos": "noun",
+      "ex_en": "A careful analysis revealed the error.",
+      "ex_ja": "注意深い分析がその誤りを明らかにした。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "research"
+      ]
+    },
+    {
+      "id": "sw118",
+      "en": "concept",
+      "ja": "概念",
+      "pos": "noun",
+      "ex_en": "Gravity is a basic concept in physics.",
+      "ex_ja": "重力は物理学の基本概念である。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw119",
+      "en": "context",
+      "ja": "文脈、状況",
+      "pos": "noun",
+      "ex_en": "The meaning depends on the context.",
+      "ex_ja": "意味は文脈によって異なる。",
+      "level": 4,
+      "tags": [
+        "language",
+        "academic"
+      ]
+    },
+    {
+      "id": "sw120",
+      "en": "framework",
+      "ja": "枠組み、フレームワーク",
+      "pos": "noun",
+      "ex_en": "The theory provides a framework for future research.",
+      "ex_ja": "その理論は今後の研究の枠組みを提供する。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw121",
+      "en": "perspective",
+      "ja": "視点、観点",
+      "pos": "noun",
+      "ex_en": "Try to see the issue from a historical perspective.",
+      "ex_ja": "その問題を歴史的な視点から見てみよう。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw122",
+      "en": "assumption",
+      "ja": "前提、仮定",
+      "pos": "noun",
+      "ex_en": "The argument rests on a false assumption.",
+      "ex_ja": "その議論は誤った前提に基づいている。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw123",
+      "en": "principle",
+      "ja": "原則、原理",
+      "pos": "noun",
+      "ex_en": "The experiment follows a simple physical principle.",
+      "ex_ja": "その実験は単純な物理的原理に基づく。",
+      "level": 4,
+      "tags": [
+        "science",
+        "academic"
+      ]
+    },
+    {
+      "id": "sw124",
+      "en": "structure",
+      "ja": "構造",
+      "pos": "noun",
+      "ex_en": "The essay has a clear structure.",
+      "ex_ja": "そのエッセイには明確な構成がある。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw126",
+      "en": "factor",
+      "ja": "要因、要素",
+      "pos": "noun",
+      "ex_en": "Stress is a major factor in illness.",
+      "ex_ja": "ストレスは病気の主要な要因である。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw127",
+      "en": "impact",
+      "ja": "影響、衝撃",
+      "pos": "noun",
+      "ex_en": "Tourism has a huge impact on the local economy.",
+      "ex_ja": "観光は地域経済に多大な影響を与える。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw128",
+      "en": "trend",
+      "ja": "傾向、動向",
+      "pos": "noun",
+      "ex_en": "The trend toward remote work is accelerating.",
+      "ex_ja": "リモートワークへの傾向が加速している。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw129",
+      "en": "issue",
+      "ja": "問題、争点",
+      "pos": "noun",
+      "ex_en": "Poverty remains a global issue.",
+      "ex_ja": "貧困は依然として世界的な問題である。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "social"
+      ]
+    },
+    {
+      "id": "sw130",
+      "en": "approach",
+      "ja": "アプローチ、取り組み方",
+      "pos": "noun",
+      "ex_en": "We adopted a new approach to teaching grammar.",
+      "ex_ja": "私たちは文法教育への新しい取り入れ方を採用した。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw133",
+      "en": "involve",
+      "ja": "伴う、巻き込む",
+      "pos": "verb",
+      "ex_en": "The job involves a lot of travel.",
+      "ex_ja": "その仕事には出張が多い。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw134",
+      "en": "contribute",
+      "ja": "寄与する、貢献する",
+      "pos": "verb",
+      "ex_en": "Volcanoes contribute to air pollution.",
+      "ex_ja": "火山は大気汚染の一因となる。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw135",
+      "en": "acquire",
+      "ja": "獲得する、習得する",
+      "pos": "verb",
+      "ex_en": "Children acquire language naturally.",
+      "ex_ja": "子どもは言語を自然に習得する。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "language"
+      ]
+    },
+    {
+      "id": "sw137",
+      "en": "maintain",
+      "ja": "維持する、主張する",
+      "pos": "verb",
+      "ex_en": "It is hard to maintain a high standard.",
+      "ex_ja": "高い水準を維持するのは難しい。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw138",
+      "en": "obtain",
+      "ja": "入手する、得る",
+      "pos": "verb",
+      "ex_en": "You must obtain permission before copying the data.",
+      "ex_ja": "データを複製する前に許可を得なければならない。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw139",
+      "en": "possess",
+      "ja": "所有する、備えている",
+      "pos": "verb",
+      "ex_en": "The region possesses rich natural resources.",
+      "ex_ja": "その地域は豊かな天然資源を有する。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw140",
+      "en": "estimate",
+      "ja": "見積もる、推定する",
+      "pos": "verb",
+      "ex_en": "Scientists estimate the quake's magnitude at seven.",
+      "ex_ja": "科学者たちは地震の規模を7と推定している。",
+      "level": 4,
+      "tags": [
+        "science",
+        "academic"
+      ]
+    },
+    {
+      "id": "sw141",
+      "en": "identify",
+      "ja": "特定する、識別する",
+      "pos": "verb",
+      "ex_en": "Researchers identified three causes of the error.",
+      "ex_ja": "研究者たちはその誤りの原因を3つ特定した。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "research"
+      ]
+    },
+    {
+      "id": "sw142",
+      "en": "establish",
+      "ja": "確立する、設立する",
+      "pos": "verb",
+      "ex_en": "The study established a link between the two diseases.",
+      "ex_ja": "その研究で2つの病気の関連が確立された。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "research"
+      ]
+    },
+    {
+      "id": "sw143",
+      "en": "emphasize",
+      "ja": "強調する",
+      "pos": "verb",
+      "ex_en": "The report emphasizes the need for reform.",
+      "ex_ja": "報告書は改革の必要性を強調している。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw144",
+      "en": "reveal",
+      "ja": "明らかにする",
+      "pos": "verb",
+      "ex_en": "The survey revealed surprising results.",
+      "ex_ja": "その調査は驚くべき結果を明らかにした。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "research"
+      ]
+    },
+    {
+      "id": "sw145",
+      "en": "confirm",
+      "ja": "確認する、裏付ける",
+      "pos": "verb",
+      "ex_en": "Further tests confirmed the diagnosis.",
+      "ex_ja": "追加の検査で診断が確定した。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw146",
+      "en": "exclude",
+      "ja": "除外する、締め出す",
+      "pos": "verb",
+      "ex_en": "They excluded unreliable data from the analysis.",
+      "ex_ja": "彼らは信頼できないデータを分析から除外した。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "sw147",
+      "en": "distinct",
+      "ja": "明らかに異なる、別個の",
+      "pos": "adj",
+      "ex_en": "The two species are quite distinct.",
+      "ex_ja": "その2種はまったく異なる。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "biology"
+      ]
+    },
+    {
+      "id": "sw148",
+      "en": "dominant",
+      "ja": "優勢な、支配的な",
+      "pos": "adj",
+      "ex_en": "English is the dominant language online.",
+      "ex_ja": "英語はネット上で支配的な言語である。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "social"
+      ]
+    },
+    {
+      "id": "sw149",
+      "en": "rigorous",
+      "ja": "厳密な、厳格な",
+      "pos": "adj",
+      "ex_en": "The drug passed rigorous safety tests.",
+      "ex_ja": "その薬剤は厳しい安全試験に合格した。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "research"
+      ]
+    },
+    {
+      "id": "sw150",
+      "en": "plausible",
+      "ja": "もっともらしい、信じられそうな",
+      "pos": "adj",
+      "ex_en": "His explanation sounds plausible, but is it true?",
+      "ex_ja": "彼の説明はもっともらしいが、本当だろうか。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    }
+  ]
+}

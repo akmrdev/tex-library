@@ -1,0 +1,1209 @@
+{
+  "meta": {
+    "file": "tw-business-100",
+    "stage": "toeic",
+    "description": "TOEICビジネス発展100語"
+  },
+  "words": [
+    {
+      "id": "tb_001",
+      "en": "comply",
+      "ja": "遵守する、従う",
+      "pos": "verb",
+      "ex_en": "All employees must comply with the safety rules.",
+      "ex_ja": "全従業員は安全規則を守らなければなりません。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_002",
+      "en": "implement",
+      "ja": "実施する、実装する",
+      "pos": "verb",
+      "ex_en": "The company will implement a new training program next month.",
+      "ex_ja": "会社は来月新しい研修プログラムを実施します。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_003",
+      "en": "accordance",
+      "ja": "一致、調和（in accordance with：〜に従って）",
+      "pos": "noun",
+      "ex_en": "The products were shipped in accordance with the contract.",
+      "ex_ja": "製品は契約に従って出荷されました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_004",
+      "en": "eligible",
+      "ja": "資格のある、適格な",
+      "pos": "adj",
+      "ex_en": "Employees with over one year of service are eligible for paid leave.",
+      "ex_ja": "勤続1年以上の社員は有給休暇の資格があります。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_005",
+      "en": "incentive",
+      "ja": "奨励金、報奨、動機づけ",
+      "pos": "noun",
+      "ex_en": "The firm offers financial incentives to top-performing staff.",
+      "ex_ja": "その会社は成績上位の社員に金銭的な報奨を提供しています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_006",
+      "en": "turnover",
+      "ja": "売上高、離職率、入れ替わり",
+      "pos": "noun",
+      "ex_en": "The branch doubled its annual turnover within three years.",
+      "ex_ja": "その支店は3年以内に年間売上高を2倍にしました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_007",
+      "en": "procurement",
+      "ja": "調達、購入",
+      "pos": "noun",
+      "ex_en": "The procurement team sources materials from local suppliers.",
+      "ex_ja": "調達チームは地元のサプライヤーから材料を仕入れています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_008",
+      "en": "logistics",
+      "ja": "物流、物流業務",
+      "pos": "noun",
+      "ex_en": "Good logistics ensure that orders arrive on time.",
+      "ex_ja": "適切な物流があれば注文は時間通りに届きます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_009",
+      "en": "franchise",
+      "ja": "フランチャイズ、特約販売権",
+      "pos": "noun",
+      "ex_en": "She opened a franchise of a well-known coffee chain.",
+      "ex_ja": "彼女は有名コーヒーチェーンのフランチャイズ店を開きました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_010",
+      "en": "subsidiary",
+      "ja": "子会社",
+      "pos": "noun",
+      "ex_en": "Our subsidiary in Singapore handles sales across Asia.",
+      "ex_ja": "当社のシンガポール子会社がアジア全域の販売を担当しています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_011",
+      "en": "liability",
+      "ja": "責任、債務、不利な点",
+      "pos": "noun",
+      "ex_en": "The company accepted liability for the shipping damage.",
+      "ex_ja": "会社は輸送中の破損について責任を負いました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_012",
+      "en": "audit",
+      "ja": "監査する、会計検査する／監査",
+      "pos": "verb",
+      "ex_en": "An independent firm audits our accounts every year.",
+      "ex_ja": "独立系の会社が毎年当社の会計を監査します。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_013",
+      "en": "quarterly",
+      "ja": "四半期ごとの、3か月ごとの",
+      "pos": "adj",
+      "ex_en": "The board reviews quarterly earnings reports.",
+      "ex_ja": "取締役会は四半期ごとの決算報告を確認します。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_014",
+      "en": "forecast",
+      "ja": "予測する／予測、見通し",
+      "pos": "verb",
+      "ex_en": "Analysts forecast steady growth for the retail sector.",
+      "ex_ja": "アナリストは小売業界の着実な成長を予測しています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_015",
+      "en": "negotiate",
+      "ja": "交渉する",
+      "pos": "verb",
+      "ex_en": "Management agreed to negotiate with the supplier on price.",
+      "ex_ja": "経営陣は価格についてサプライヤーと交渉することに同意しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_016",
+      "en": "shipment",
+      "ja": "出荷、積荷",
+      "pos": "noun",
+      "ex_en": "The next shipment leaves the factory on Friday.",
+      "ex_ja": "次の出荷は金曜日に工場を出発します。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_017",
+      "en": "inventory",
+      "ja": "在庫、棚卸し",
+      "pos": "noun",
+      "ex_en": "The warehouse checks its inventory at the end of each month.",
+      "ex_ja": "倉庫では毎月末に在庫確認を行います。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_018",
+      "en": "expense",
+      "ja": "費用、経費",
+      "pos": "noun",
+      "ex_en": "Travel expenses must be submitted by the tenth of each month.",
+      "ex_ja": "旅費の申請は毎月10日までに提出しなければなりません。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_019",
+      "en": "budget",
+      "ja": "予算／予算を組む",
+      "pos": "noun",
+      "ex_en": "The marketing budget was increased by fifteen percent.",
+      "ex_ja": "マーケティング予算は15％増額されました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_020",
+      "en": "deadline",
+      "ja": "締め切り、提出期限",
+      "pos": "noun",
+      "ex_en": "We are working overtime to meet the Friday deadline.",
+      "ex_ja": "金曜日の期限に間に合わせるため残業しています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_021",
+      "en": "appointment",
+      "ja": "予約、面会の約束；任命",
+      "pos": "noun",
+      "ex_en": "I have an appointment with the client at two o'clock.",
+      "ex_ja": "2時にクライアントとの面会の予定があります。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_022",
+      "en": "conference",
+      "ja": "会議、大会",
+      "pos": "noun",
+      "ex_en": "She will present her findings at the annual conference.",
+      "ex_ja": "彼女は年次会議で調査結果を発表する予定です。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_023",
+      "en": "strategy",
+      "ja": "戦略、方針",
+      "pos": "noun",
+      "ex_en": "The company changed its strategy to focus on online sales.",
+      "ex_ja": "会社はオンライン販売に注力するよう戦略を変更しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_024",
+      "en": "objective",
+      "ja": "目標、目的／客観的な",
+      "pos": "noun",
+      "ex_en": "Our main objective this year is to reduce costs.",
+      "ex_ja": "今年の主な目標はコスト削減です。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_025",
+      "en": "performance",
+      "ja": "業績、性能；公演",
+      "pos": "noun",
+      "ex_en": "Her performance exceeded all of the sales targets.",
+      "ex_ja": "彼女の業績はすべての販売目標を上回りました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_026",
+      "en": "productivity",
+      "ja": "生産性、能率",
+      "pos": "noun",
+      "ex_en": "The new software improved productivity by twenty percent.",
+      "ex_ja": "新しいソフトウェアによって生産性が20％向上しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_027",
+      "en": "capacity",
+      "ja": "能力、収容力、生産能力",
+      "pos": "noun",
+      "ex_en": "The plant is running at full capacity this month.",
+      "ex_ja": "その工場は今月フル稼働しています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_028",
+      "en": "expand",
+      "ja": "拡大する、拡張する",
+      "pos": "verb",
+      "ex_en": "The chain plans to expand into overseas markets.",
+      "ex_ja": "そのチェーンは海外市場へ拡大する計画です。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_029",
+      "en": "merger",
+      "ja": "合併",
+      "pos": "noun",
+      "ex_en": "The merger created one of the largest banks in the region.",
+      "ex_ja": "その合併により地域最大級の銀行が誕生しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_030",
+      "en": "acquisition",
+      "ja": "買収、取得",
+      "pos": "noun",
+      "ex_en": "The acquisition of the startup cost over ten million dollars.",
+      "ex_ja": "そのスタートアップの買収には1,000万ドル以上かかりました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_031",
+      "en": "stakeholder",
+      "ja": "利害関係者、株主",
+      "pos": "noun",
+      "ex_en": "All stakeholders were invited to review the proposal.",
+      "ex_ja": "すべての利害関係者が提案内容の確認に招かれました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_032",
+      "en": "shareholder",
+      "ja": "株主",
+      "pos": "noun",
+      "ex_en": "Shareholders will vote on the plan at the annual meeting.",
+      "ex_ja": "株主は年次総会でその計画について採決します。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_033",
+      "en": "dividend",
+      "ja": "配当、配当金",
+      "pos": "noun",
+      "ex_en": "The company pays a dividend twice a year.",
+      "ex_ja": "その会社は年に2回配当を支払います。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_034",
+      "en": "revenue",
+      "ja": "収入、売上高",
+      "pos": "noun",
+      "ex_en": "Advertising revenue rose sharply in the second quarter.",
+      "ex_ja": "第2四半期に広告収入が急増しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_035",
+      "en": "invoice",
+      "ja": "請求書／請求書を発行する",
+      "pos": "noun",
+      "ex_en": "Please send the invoice to the accounting department.",
+      "ex_ja": "請求書は経理部にお送りください。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_036",
+      "en": "quotation",
+      "ja": "見積もり、見積書；引用",
+      "pos": "noun",
+      "ex_en": "We received a competitive quotation from three vendors.",
+      "ex_ja": "3社のベンダーから競争力のある見積もりを受け取りました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_037",
+      "en": "proposal",
+      "ja": "提案、企画案",
+      "pos": "noun",
+      "ex_en": "The committee rejected the budget proposal.",
+      "ex_ja": "委員会は予算案を却下しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_038",
+      "en": "termination",
+      "ja": "終了、解雇、契約解除",
+      "pos": "noun",
+      "ex_en": "Either party may give notice of termination thirty days in advance.",
+      "ex_ja": "いずれかの当事者は30日前に予告して契約を解除できます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_039",
+      "en": "renewal",
+      "ja": "更新、更新手続き",
+      "pos": "noun",
+      "ex_en": "The contract is up for renewal in March.",
+      "ex_ja": "その契約は3月に更新時期を迎えます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_040",
+      "en": "breach",
+      "ja": "違反（契約などの）；破る",
+      "pos": "noun",
+      "ex_en": "Late delivery was considered a breach of the agreement.",
+      "ex_ja": "遅延納品は合意違反とみなされました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_041",
+      "en": "obligation",
+      "ja": "義務、責任",
+      "pos": "noun",
+      "ex_en": "We have a legal obligation to protect customer data.",
+      "ex_ja": "顧客データを保護する法的義務があります。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_042",
+      "en": "regulation",
+      "ja": "規制、規則",
+      "pos": "noun",
+      "ex_en": "New safety regulations take effect in January.",
+      "ex_ja": "新しい安全規制は1月から施行されます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_043",
+      "en": "legislation",
+      "ja": "法律、立法",
+      "pos": "noun",
+      "ex_en": "New legislation will affect small businesses.",
+      "ex_ja": "新しい法律は中小企業に影響します。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_044",
+      "en": "authorization",
+      "ja": "承認、認可；許可",
+      "pos": "noun",
+      "ex_en": "Purchases over $500 require a manager's authorization.",
+      "ex_ja": "500ドルを超える購入にはマネージャーの承認が必要です。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_045",
+      "en": "certification",
+      "ja": "証明書、認定",
+      "pos": "noun",
+      "ex_en": "All inspectors must complete safety certification.",
+      "ex_ja": "すべての検査員は安全認定を修了しなければなりません。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_046",
+      "en": "qualification",
+      "ja": "資格、適性",
+      "pos": "noun",
+      "ex_en": "Applicants must have the right qualifications for the post.",
+      "ex_ja": "応募者はその職位にふさわしい資格を持たなければなりません。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_047",
+      "en": "credential",
+      "ja": "資格証明書、経歴証明",
+      "pos": "noun",
+      "ex_en": "Please bring your credentials to the interview.",
+      "ex_ja": "面接には資格証明書をお持ちください。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_048",
+      "en": "supervision",
+      "ja": "監督、管理",
+      "pos": "noun",
+      "ex_en": "Trainees work under the supervision of senior staff.",
+      "ex_ja": "研修生は上級スタッフの監督のもとで働きます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_049",
+      "en": "coordination",
+      "ja": "調整、連携",
+      "pos": "noun",
+      "ex_en": "Good coordination between departments prevents delays.",
+      "ex_ja": "部門間の適切な連携が遅延を防ぎます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_050",
+      "en": "delegation",
+      "ja": "委任、権限委譲；代表団",
+      "pos": "noun",
+      "ex_en": "Effective delegation frees managers to focus on strategy.",
+      "ex_ja": "効果的な委任があればマネージャーは戦略に集中できます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_051",
+      "en": "outsourcing",
+      "ja": "外部委託、アウトソーシング",
+      "pos": "noun",
+      "ex_en": "Outsourcing payroll saved the firm both time and money.",
+      "ex_ja": "給与計算の外部委託で会社は時間と費用を節約しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_052",
+      "en": "streamline",
+      "ja": "合理化する、効率化する",
+      "pos": "verb",
+      "ex_en": "The office streamlined its approval process last year.",
+      "ex_ja": "そのオフィスは昨年承認プロセスを合理化しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_053",
+      "en": "optimize",
+      "ja": "最適化する",
+      "pos": "verb",
+      "ex_en": "The team optimized the delivery routes to save fuel.",
+      "ex_ja": "チームは燃料を節約するため配送ルートを最適化しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_054",
+      "en": "allocate",
+      "ja": "割り当てる、配分する",
+      "pos": "verb",
+      "ex_en": "Each department must allocate funds carefully.",
+      "ex_ja": "各部門は資金を慎重に割り当てなければなりません。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_055",
+      "en": "prioritize",
+      "ja": "優先順位をつける",
+      "pos": "verb",
+      "ex_en": "Managers should prioritize urgent tasks first.",
+      "ex_ja": "マネージャーは緊急の業務を優先すべきです。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_056",
+      "en": "delegate",
+      "ja": "（仕事・権限を）委任する",
+      "pos": "verb",
+      "ex_en": "A good leader knows when to delegate tasks.",
+      "ex_ja": "優れたリーダーはいつ業務を委任すべきかを知っています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_057",
+      "en": "authorize",
+      "ja": "承認する、許可する",
+      "pos": "verb",
+      "ex_en": "Only the director can authorize overtime pay.",
+      "ex_ja": "残業代を承認できるのはディレクターだけです。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_058",
+      "en": "supervise",
+      "ja": "監督する、指導する",
+      "pos": "verb",
+      "ex_en": "She supervises a team of twelve engineers.",
+      "ex_ja": "彼女は12名のエンジニアのチームを監督しています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_059",
+      "en": "collaborate",
+      "ja": "協力する、共同作業をする",
+      "pos": "verb",
+      "ex_en": "Our designers collaborate with engineers on every project.",
+      "ex_ja": "当社のデザイナーはすべてのプロジェクトでエンジニアと協力します。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_060",
+      "en": "expedite",
+      "ja": "促進する、（手続きを）速める",
+      "pos": "verb",
+      "ex_en": "We paid extra fees to expedite the shipment.",
+      "ex_ja": "出荷を早めるために追加料金を支払いました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_061",
+      "en": "postpone",
+      "ja": "延期する",
+      "pos": "verb",
+      "ex_en": "The board voted to postpone the product launch.",
+      "ex_ja": "取締役会は製品発売の延期を決議しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_062",
+      "en": "reschedule",
+      "ja": "予定を組み直す、日程変更する",
+      "pos": "verb",
+      "ex_en": "The meeting was rescheduled for Thursday morning.",
+      "ex_ja": "会議は木曜日の午前に日程変更されました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_063",
+      "en": "cancel",
+      "ja": "取り消す、キャンセルする",
+      "pos": "verb",
+      "ex_en": "They canceled the order because of the long lead time.",
+      "ex_ja": "納期が長いため注文をキャンセルしました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_064",
+      "en": "attendance",
+      "ja": "出席、出勤；出席者数",
+      "pos": "noun",
+      "ex_en": "Attendance at the seminar exceeded expectations.",
+      "ex_ja": "セミナーの出席者数は予想を上回りました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_065",
+      "en": "absence",
+      "ja": "欠席、不在",
+      "pos": "noun",
+      "ex_en": "Please report any absence to your supervisor by nine.",
+      "ex_ja": "欠勤する場合は9時までに上司に連絡してください。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_066",
+      "en": "overtime",
+      "ja": "残業、超過勤務",
+      "pos": "noun",
+      "ex_en": "Staff receive extra pay for working overtime.",
+      "ex_ja": "社員は残業すると追加の手当を受け取ります。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_067",
+      "en": "workload",
+      "ja": "仕事量、作業負荷",
+      "pos": "noun",
+      "ex_en": "Extra staff were hired to handle the increased workload.",
+      "ex_ja": "増加した仕事量に対応するため追加スタッフを採用しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_068",
+      "en": "workforce",
+      "ja": "労働力、従業員全体",
+      "pos": "noun",
+      "ex_en": "The company plans to expand its workforce by ten percent.",
+      "ex_ja": "会社は従業員数を10％拡大する計画です。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_069",
+      "en": "staffing",
+      "ja": "人員配置、人材補充",
+      "pos": "noun",
+      "ex_en": "A staffing shortage forced us to limit weekend hours.",
+      "ex_ja": "人員不足のため週末の営業時間を短縮せざるを得ませんでした。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_070",
+      "en": "recruitment",
+      "ja": "採用、募集",
+      "pos": "noun",
+      "ex_en": "Recruitment of bilingual staff is underway.",
+      "ex_ja": "バイリンガルスタッフの採用が進行中です。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_071",
+      "en": "resign",
+      "ja": "辞任する、退職する",
+      "pos": "verb",
+      "ex_en": "He resigned after ten years with the company.",
+      "ex_ja": "彼は10年勤めた会社を辞めました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_072",
+      "en": "retirement",
+      "ja": "退職、定年",
+      "pos": "noun",
+      "ex_en": "She announced her retirement at the staff meeting.",
+      "ex_ja": "彼女は職員会議で退職を発表しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_073",
+      "en": "promotion",
+      "ja": "昇進、宣伝、販売促進",
+      "pos": "noun",
+      "ex_en": "His promotion to branch manager was well deserved.",
+      "ex_ja": "支店長への彼の昇進は当然の成果でした。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_074",
+      "en": "transfer",
+      "ja": "異動させる、移す／異動",
+      "pos": "verb",
+      "ex_en": "She was transferred to the Osaka office in April.",
+      "ex_ja": "彼女は4月に大阪オフィスへ異動しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_075",
+      "en": "assignment",
+      "ja": "割り当てられた仕事、任務",
+      "pos": "noun",
+      "ex_en": "The overseas assignment lasts for two years.",
+      "ex_ja": "その海外赴任は2年間続きます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_076",
+      "en": "orientation",
+      "ja": "オリエンテーション、研修；方向づけ",
+      "pos": "noun",
+      "ex_en": "New hires attend orientation on their first day.",
+      "ex_ja": "新入社員は初日にオリエンテーションに参加します。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_077",
+      "en": "seminar",
+      "ja": "セミナー、研究会",
+      "pos": "noun",
+      "ex_en": "The finance seminar is open to all employees.",
+      "ex_ja": "その財務セミナーは全社員に開放されています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_078",
+      "en": "workshop",
+      "ja": "ワークショップ、研修会；作業場",
+      "pos": "noun",
+      "ex_en": "A communication workshop will be held next week.",
+      "ex_ja": "来週、コミュニケーション研修会が開催されます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_079",
+      "en": "briefing",
+      "ja": "ブリーフィング、状況説明",
+      "pos": "noun",
+      "ex_en": "There will be a short briefing before the tour begins.",
+      "ex_ja": "見学開始前に簡単な説明があります。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_080",
+      "en": "agenda",
+      "ja": "議題、議事日程",
+      "pos": "noun",
+      "ex_en": "Budget cuts top the agenda for today's meeting.",
+      "ex_ja": "今日の会議の議題の筆頭は予算削減です。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_081",
+      "en": "minutes",
+      "ja": "議事録",
+      "pos": "noun",
+      "ex_en": "Please read the minutes from the last meeting.",
+      "ex_ja": "前回の会議の議事録をお読みください。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_082",
+      "en": "memorandum",
+      "ja": "社内通知書、メモ（略：memo）",
+      "pos": "noun",
+      "ex_en": "A memorandum about the new policy was sent to all staff.",
+      "ex_ja": "新しい方針についての社内通知が全社員に送られました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_083",
+      "en": "correspondence",
+      "ja": "文書、往復書簡；通信",
+      "pos": "noun",
+      "ex_en": "All business correspondence should be filed by date.",
+      "ex_ja": "業務文書は日付順にファイリングしてください。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_084",
+      "en": "acknowledgment",
+      "ja": "受領の確認、謝辞",
+      "pos": "noun",
+      "ex_en": "We received your payment and sent an acknowledgment.",
+      "ex_ja": "お支払いを確認し、受領確認をお送りしました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_085",
+      "en": "inquiry",
+      "ja": "問い合わせ、照会",
+      "pos": "noun",
+      "ex_en": "For further inquiries, contact our support desk.",
+      "ex_ja": "さらにご質問がある場合はサポート窓口にお問い合わせください。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_086",
+      "en": "complaint",
+      "ja": "苦情、クレーム",
+      "pos": "noun",
+      "ex_en": "The manager responded to every complaint within a day.",
+      "ex_ja": "マネージャーはすべての苦情に1日以内に対応しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_087",
+      "en": "refund",
+      "ja": "返金する／返金",
+      "pos": "verb",
+      "ex_en": "The store refunded the full amount within three days.",
+      "ex_ja": "その店は3日以内に全額を返金しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_088",
+      "en": "compensation",
+      "ja": "補償、賠償金；報酬",
+      "pos": "noun",
+      "ex_en": "Workers received compensation for the overtime hours.",
+      "ex_ja": "労働者は残業時間分の補償を受け取りました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_089",
+      "en": "reimbursement",
+      "ja": "弁済、払い戻し",
+      "pos": "noun",
+      "ex_en": "Submit receipts to claim reimbursement for travel costs.",
+      "ex_ja": "旅費の払い戻しを請求するには領収書を提出してください。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_090",
+      "en": "discount",
+      "ja": "割引／割り引く",
+      "pos": "noun",
+      "ex_en": "Bulk orders receive a ten percent discount.",
+      "ex_ja": "大量注文には10％の割引が適用されます。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_091",
+      "en": "surcharge",
+      "ja": "追加料金、割増料金",
+      "pos": "noun",
+      "ex_en": "A fuel surcharge applies to all international deliveries.",
+      "ex_ja": "国際配送にはすべて燃料追加料金がかかります。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_092",
+      "en": "warranty",
+      "ja": "保証（書）",
+      "pos": "noun",
+      "ex_en": "The printer comes with a two-year warranty.",
+      "ex_ja": "そのプリンターには2年保証が付いています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_093",
+      "en": "guarantee",
+      "ja": "保証する；保証",
+      "pos": "verb",
+      "ex_en": "We cannot guarantee delivery before noon during holidays.",
+      "ex_ja": "祝日期間中は正午前のお届けは保証できません。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_094",
+      "en": "maintenance",
+      "ja": "保守、メンテナンス；維持",
+      "pos": "noun",
+      "ex_en": "Regular maintenance keeps the machines running smoothly.",
+      "ex_ja": "定期的なメンテナンスにより機械は円滑に動いています。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_095",
+      "en": "inspection",
+      "ja": "検査、点検",
+      "pos": "noun",
+      "ex_en": "A safety inspection is required before reopening the plant.",
+      "ex_ja": "工場の再開には安全検査が必要です。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_096",
+      "en": "installation",
+      "ja": "設置、取り付け；インストール",
+      "pos": "noun",
+      "ex_en": "Installation of the new system takes about two hours.",
+      "ex_ja": "新システムの設置には2時間ほどかかります。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_097",
+      "en": "operation",
+      "ja": "運営、操作；事業",
+      "pos": "noun",
+      "ex_en": "The new factory began operations last spring.",
+      "ex_ja": "新しい工場は昨春から操業を始めました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_098",
+      "en": "manufacturer",
+      "ja": "製造業者、メーカー",
+      "pos": "noun",
+      "ex_en": "The manufacturer recalled the defective model.",
+      "ex_ja": "メーカーは欠陥モデルを回収しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_099",
+      "en": "supplier",
+      "ja": "供給業者、サプライヤー",
+      "pos": "noun",
+      "ex_en": "We switched suppliers to lower our costs.",
+      "ex_ja": "コスト削減のため供給業者を変更しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "tb_100",
+      "en": "vendor",
+      "ja": "販売業者、ベンダー",
+      "pos": "noun",
+      "ex_en": "Three vendors submitted bids for the project.",
+      "ex_ja": "3社の業者がそのプロジェクトに入札しました。",
+      "level": 4,
+      "tags": [
+        "business"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2409 @@
+{
+ "meta": {
+  "file": "sw-level7-advanced-200",
+  "stage": "senior",
+  "description": "上級語彙200語(難関大・専門書レベル)"
+ },
+ "words": [
+  {
+   "id": "sz_001",
+   "en": "aberration",
+   "ja": "逸脱、異常",
+   "pos": "noun",
+   "ex_en": "The warm winter was an aberration from normal weather patterns.",
+   "ex_ja": "その暖冬は通常の気象パターンからの逸脱でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_002",
+   "en": "abstruse",
+   "ja": "難解な",
+   "pos": "adj",
+   "ex_en": "The professor's lecture on quantum physics was too abstruse for most students.",
+   "ex_ja": "その教授の量子物理学の講義は、ほとんどの学生には難解すぎました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_003",
+   "en": "acrimonious",
+   "ja": "辛辣な、激しい(議論など)",
+   "pos": "adj",
+   "ex_en": "The divorce proceedings turned acrimonious when both sides hired lawyers.",
+   "ex_ja": "双方が弁護士を雇ったとき、離婚手続きは辛辣なものになりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_004",
+   "en": "adage",
+   "ja": "格言、諺",
+   "pos": "noun",
+   "ex_en": "As the old adage goes, practice makes perfect.",
+   "ex_ja": "古い格言にあるように、習うより慣れよです。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_005",
+   "en": "affable",
+   "ja": "愛想の良い、感じの良い",
+   "pos": "adj",
+   "ex_en": "Our new manager is affable and easy to talk to.",
+   "ex_ja": "新しいマネージャーは愛想が良く、話しやすい人です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_006",
+   "en": "alacrity",
+   "ja": "迅速さ、生き生きとした意欲",
+   "pos": "noun",
+   "ex_en": "She accepted the invitation to speak with alacrity.",
+   "ex_ja": "彼女は講演の招きを快く、即座に受け入れました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_007",
+   "en": "ameliorate",
+   "ja": "改善する、改良する",
+   "pos": "verb",
+   "ex_en": "The new policy was designed to ameliorate working conditions.",
+   "ex_ja": "その新政策は労働条件を改善するために策定されました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_008",
+   "en": "anachronism",
+   "ja": "時代錯誤",
+   "pos": "noun",
+   "ex_en": "A horse-drawn carriage in the city center is a complete anachronism.",
+   "ex_ja": "市の中心部を走る馬車は完全に時代錯誤です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_009",
+   "en": "anecdote",
+   "ja": "逸話、小話",
+   "pos": "noun",
+   "ex_en": "He opened his speech with a humorous anecdote about his childhood.",
+   "ex_ja": "彼は子供の頃についてのユーモラスな逸話でスピーチを始めました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_010",
+   "en": "antipathy",
+   "ja": "反感、嫌悪",
+   "pos": "noun",
+   "ex_en": "She felt a deep antipathy toward dishonest politicians.",
+   "ex_ja": "彼女は不誠実な政治家に対して深い反感を抱いていました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_011",
+   "en": "apathy",
+   "ja": "無関心、冷淡",
+   "pos": "noun",
+   "ex_en": "Voter apathy is a serious problem in local elections.",
+   "ex_ja": "有権者の無関心は地方選挙における深刻な問題です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_012",
+   "en": "archetype",
+   "ja": "原型、典型",
+   "pos": "noun",
+   "ex_en": "Sherlock Holmes is the archetype of the brilliant detective.",
+   "ex_ja": "シャーロック・ホームズは優れた探偵の原型的な存在です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_013",
+   "en": "ardor",
+   "ja": "情熱、熱意",
+   "pos": "noun",
+   "ex_en": "He pursued his research with great ardor despite the setbacks.",
+   "ex_ja": "彼は挫折にもかかわらず、大きな情熱をもって研究に打ち込みました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_014",
+   "en": "artful",
+   "ja": "狡猾な、工夫を凝らした",
+   "pos": "adj",
+   "ex_en": "The artful salesman convinced customers to buy things they did not need.",
+   "ex_ja": "その狡猾なセールスマンは、客に不要な品を買わせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_015",
+   "en": "ascetic",
+   "ja": "禁欲的な(人)",
+   "pos": "noun",
+   "ex_en": "The monk lived an ascetic life with few possessions.",
+   "ex_ja": "その僧はほとんど財産を持たず、禁欲的な生活を送りました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_016",
+   "en": "assuage",
+   "ja": "和らげる、満たす",
+   "pos": "verb",
+   "ex_en": "A warm meal helped assuage her grief after the long day.",
+   "ex_ja": "長い一日の後、温かい食事が彼女の悲しみを和らげました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_017",
+   "en": "atrophy",
+   "ja": "萎縮、衰退",
+   "pos": "noun",
+   "ex_en": "Muscle atrophy sets in quickly when patients stay in bed for weeks.",
+   "ex_ja": "患者が数週間寝たきりになると、筋肉の萎縮がすぐに始まります。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_018",
+   "en": "avarice",
+   "ja": "強欲、貪欲",
+   "pos": "noun",
+   "ex_en": "His avarice led him to cheat even his closest friends.",
+   "ex_ja": "彼の強欲さは、親しい友人さえも欺く結果になりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_019",
+   "en": "banal",
+   "ja": "陳腐な、ありふれた",
+   "pos": "adj",
+   "ex_en": "The critic dismissed the film as banal and predictable.",
+   "ex_ja": "批評家はその映画を陳腐で予想通りだと退けました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_020",
+   "en": "bellicose",
+   "ja": "好戦的な",
+   "pos": "adj",
+   "ex_en": "The bellicose tone of the speech alarmed neighboring countries.",
+   "ex_ja": "その演説の好戦的な調子は近隣諸国を警戒させました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_021",
+   "en": "benign",
+   "ja": "良性の、温和な",
+   "pos": "adj",
+   "ex_en": "Fortunately, the tumor proved to be benign.",
+   "ex_ja": "幸いにも、その腫瘍は良性であることがわかりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_022",
+   "en": "blandishment",
+   "ja": "お世辞、甘言",
+   "pos": "noun",
+   "ex_en": "Despite her blandishments, he refused to change his decision.",
+   "ex_ja": "彼女のお世辞にもかかわらず、彼は決断を変えることを拒みました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_023",
+   "en": "boisterous",
+   "ja": "騒々しい、わんぱくな",
+   "pos": "adj",
+   "ex_en": "The boisterous crowd cheered loudly at the concert.",
+   "ex_ja": "騒々しい群衆はコンサートで大声で歓声を上げました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_024",
+   "en": "brusque",
+   "ja": "ぶっきらぼうな、そっけない",
+   "pos": "adj",
+   "ex_en": "The doctor's brusque manner upset many of his patients.",
+   "ex_ja": "その医師のぶっきらぼうな態度は多くの患者を不快にさせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_025",
+   "en": "cacophony",
+   "ja": "不協和音、耳障りな音の連続",
+   "pos": "noun",
+   "ex_en": "A cacophony of car horns filled the busy intersection.",
+   "ex_ja": "車のクラクションの不協和音が混雑した交差点に響きました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_026",
+   "en": "capricious",
+   "ja": "気まぐれな、移り気な",
+   "pos": "adj",
+   "ex_en": "The capricious weather ruined our plans for the picnic.",
+   "ex_ja": "気まぐれな天候のせいで、ピクニックの計画は台無しになりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_027",
+   "en": "castigate",
+   "ja": "厳しく批判する、痛烈に非難する",
+   "pos": "verb",
+   "ex_en": "The editorial castigated the government for its slow response to the disaster.",
+   "ex_ja": "その社説は、災害への政府の遅い対応を痛烈に批判しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_028",
+   "en": "chicanery",
+   "ja": "詐術、欺瞞的な策略",
+   "pos": "noun",
+   "ex_en": "The company was shut down for financial chicanery.",
+   "ex_ja": "その会社は財務上の詐術を働いたため閉鎖されました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_029",
+   "en": "circumspect",
+   "ja": "慎重な、用心深い",
+   "pos": "adj",
+   "ex_en": "Be circumspect when signing contracts you have not read carefully.",
+   "ex_ja": "よく読んでいない契約書に署名するときは慎重になりなさい。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_030",
+   "en": "clamor",
+   "ja": "騒ぎ、大声の要求",
+   "pos": "noun",
+   "ex_en": "The public clamor for tax reform grew louder every month.",
+   "ex_ja": "税制改革を求める世論の騒ぎは月ごとに大きくなりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_031",
+   "en": "coalesce",
+   "ja": "合体する、統合する",
+   "pos": "verb",
+   "ex_en": "Small protest groups coalesced into a powerful national movement.",
+   "ex_ja": "小さな抗議グループが合体して強力な全国運動になりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_032",
+   "en": "coddle",
+   "ja": "甘やかす、過保護にする",
+   "pos": "verb",
+   "ex_en": "His parents coddled him so much that he could not do laundry alone.",
+   "ex_ja": "両親が彼を甘やかしすぎたので、一人では洗濯もできません。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_033",
+   "en": "cogent",
+   "ja": "説得力のある",
+   "pos": "adj",
+   "ex_en": "She presented a cogent argument for reducing carbon emissions.",
+   "ex_ja": "彼女は炭素排出削減について説得力のある議論を展開しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_034",
+   "en": "complacency",
+   "ja": "自己満足、油断",
+   "pos": "noun",
+   "ex_en": "Complacency about safety rules led to the factory accident.",
+   "ex_ja": "安全規則に対する自己満足が工場の事故につながりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_035",
+   "en": "conciliatory",
+   "ja": "懐柔的な、融和的な",
+   "pos": "adj",
+   "ex_en": "The union made a conciliatory gesture by withdrawing some demands.",
+   "ex_ja": "労働組合は一部の要求を撤回して融和的な姿勢を見せました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_036",
+   "en": "pugnacious",
+   "ja": "好戦的な、けんかっ早い",
+   "pos": "adj",
+   "ex_en": "The pugnacious boxer never backed down from a challenge.",
+   "ex_ja": "その好戦的なボクサーは挑戦から決して逃げませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_037",
+   "en": "conundrum",
+   "ja": "難問、謎",
+   "pos": "noun",
+   "ex_en": "Raising prices or cutting quality is a real conundrum for the company.",
+   "ex_ja": "値上げするか品質を下げるかは、その会社にとって本当に難しい問題です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_038",
+   "en": "copious",
+   "ja": "豊富な、多量の",
+   "pos": "adj",
+   "ex_en": "She took copious notes during every lecture.",
+   "ex_ja": "彼女は毎回の講義で膨大なノートを取りました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_039",
+   "en": "cornucopia",
+   "ja": "豊饒の角、豊富な供給",
+   "pos": "noun",
+   "ex_en": "The market is a cornucopia of fresh fruits and vegetables.",
+   "ex_ja": "その市場は新鮮な果物と野菜がふんだんに並ぶ場所です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_040",
+   "en": "craven",
+   "ja": "臆病な",
+   "pos": "adj",
+   "ex_en": "It was a craven decision to blame a junior employee for the error.",
+   "ex_ja": "そのミスの責任を若手社員に押し付けるのは臆病な決断でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_041",
+   "en": "credulous",
+   "ja": "人を信じやすい、騙されやすい",
+   "pos": "adj",
+   "ex_en": "Credulous investors lost money in the obvious scam.",
+   "ex_ja": "信じやすい投資家たちは、明白な詐欺で損をしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_042",
+   "en": "cursory",
+   "ja": "粗略な、上っ面の",
+   "pos": "adj",
+   "ex_en": "Even a cursory glance at the report reveals several errors.",
+   "ex_ja": "報告書をざっと見ただけでも、いくつもの誤りがわかります。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_043",
+   "en": "dearth",
+   "ja": "不足、欠乏",
+   "pos": "noun",
+   "ex_en": "There is a dearth of qualified engineers in this region.",
+   "ex_ja": "この地域には有資格の技術者が不足しています。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_044",
+   "en": "deferential",
+   "ja": "敬意を払う、従順な",
+   "pos": "adj",
+   "ex_en": "The interns were deferential toward the senior partners.",
+   "ex_ja": "インターンたちは上級パートナーに対して敬意を払っていました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_045",
+   "en": "deleterious",
+   "ja": "有害な",
+   "pos": "adj",
+   "ex_en": "Smoking has deleterious effects on nearly every organ.",
+   "ex_ja": "喫煙はほぼすべての臓器に有害な影響を及ぼします。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_046",
+   "en": "demagogue",
+   "ja": "扇動政治家、民衆煽動家",
+   "pos": "noun",
+   "ex_en": "The demagogue stirred up fear to win votes.",
+   "ex_ja": "その扇動政治家は票を得るために恐怖をあおりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_047",
+   "en": "diatribe",
+   "ja": "痛烈な長広舌、悪口雑言",
+   "pos": "noun",
+   "ex_en": "His speech turned into a bitter diatribe against the media.",
+   "ex_ja": "彼の演説はメディアに対する辛辣な非難の連続になりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_048",
+   "en": "diffidence",
+   "ja": "自信のなさ、遠慮",
+   "pos": "noun",
+   "ex_en": "Her diffidence prevented her from applying for the promotion.",
+   "ex_ja": "自信のなさから、彼女は昇進に応募できませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_049",
+   "en": "dilettante",
+   "ja": "好事家、素人趣味の人",
+   "pos": "noun",
+   "ex_en": "He is a dilettante who paints on weekends but never studies seriously.",
+   "ex_ja": "彼は週末だけ絵を描く本格的に学ばない好事家です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_050",
+   "en": "dirge",
+   "ja": "哀歌、葬送歌",
+   "pos": "noun",
+   "ex_en": "A mournful dirge was played at the state funeral.",
+   "ex_ja": "国葬では悲しげな葬送歌が演奏されました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_051",
+   "en": "discursive",
+   "ja": "とりとめのない、話が脱線する",
+   "pos": "adj",
+   "ex_en": "His discursive essay wandered far from the main topic.",
+   "ex_ja": "彼のとりとめのないエッセイは主題から大きくそれました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_052",
+   "en": "disingenuous",
+   "ja": "不誠実な、心からでない",
+   "pos": "adj",
+   "ex_en": "It was disingenuous of him to claim he knew nothing about the plan.",
+   "ex_ja": "その計画を何も知らないと主張したのは不誠実でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_053",
+   "en": "dismissive",
+   "ja": "軽蔑的な、一蹴するような",
+   "pos": "adj",
+   "ex_en": "Her dismissive attitude discouraged junior staff from sharing ideas.",
+   "ex_ja": "彼女の一蹴するような態度のため、若手はアイデアを出しづらくなりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_054",
+   "en": "ebullience",
+   "ja": "活気、溢れるような元気",
+   "pos": "noun",
+   "ex_en": "The children's ebullience filled the classroom with energy.",
+   "ex_ja": "子どもたちのあふれる元気が教室を明るくしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_055",
+   "en": "edify",
+   "ja": "教化する、精神的に高める",
+   "pos": "verb",
+   "ex_en": "Traveling abroad can edify young people in ways textbooks cannot.",
+   "ex_ja": "海外旅行は教科書では得られない形で若者を教化します。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_056",
+   "en": "efface",
+   "ja": "消す、(記憶などを)拭い去る",
+   "pos": "verb",
+   "ex_en": "Time has not effaced the memories of that summer.",
+   "ex_ja": "時が経っても、あの夏の記憶は消えません。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_057",
+   "en": "effusive",
+   "ja": "感情をあらわにした、熱烈な",
+   "pos": "adj",
+   "ex_en": "The critic was effusive in her praise of the novel.",
+   "ex_ja": "批評家はその小説を絶賛しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_058",
+   "en": "egregious",
+   "ja": "並外れて悪質な、甚だしい",
+   "pos": "adj",
+   "ex_en": "The referee made an egregious error that changed the game.",
+   "ex_ja": "審判は試合を左右する甚だしいミスを犯しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_059",
+   "en": "elucidate",
+   "ja": "解明する、明らかにする",
+   "pos": "verb",
+   "ex_en": "The diagrams elucidate how the immune system works.",
+   "ex_ja": "その図解は免疫システムの仕組みを解き明かします。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_060",
+   "en": "emollient",
+   "ja": "鎮静的な、なだめるような",
+   "pos": "adj",
+   "ex_en": "His emollient words calmed the angry customers.",
+   "ex_ja": "彼のなだめるような言葉は怒った客たちを落ち着かせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_061",
+   "en": "endearing",
+   "ja": "愛らしい、好感の持てる",
+   "pos": "adj",
+   "ex_en": "The puppy's clumsy attempts to climb stairs were endearing.",
+   "ex_ja": "子犬の不器用な階段登りの挑戦は愛らしいものでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_062",
+   "en": "enervate",
+   "ja": "活力を奪う、弱らせる",
+   "pos": "verb",
+   "ex_en": "The intense heat enervated the hikers before they reached the summit.",
+   "ex_ja": "猛烈な暑さに、登山者たちは頂上に着く前に体力を奪われました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_063",
+   "en": "ephemeral",
+   "ja": "つかの間の、短命の",
+   "pos": "adj",
+   "ex_en": "Fame on social media is often ephemeral.",
+   "ex_ja": "SNS上の名声はしばしばつかの間のもので終わります。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_064",
+   "en": "epiphany",
+   "ja": "頓悟、突然の悟り",
+   "pos": "noun",
+   "ex_en": "She had an epiphany and finally understood what she wanted from life.",
+   "ex_ja": "彼女はふと悟り、自分が人生で何を望むのかようやく分かりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_065",
+   "en": "equanimity",
+   "ja": "平静さ、沈着",
+   "pos": "noun",
+   "ex_en": "She accepted the disappointing results with equanimity.",
+   "ex_ja": "彼女は残念な結果を静かに受け入れました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_066",
+   "en": "evince",
+   "ja": "示す、表す",
+   "pos": "verb",
+   "ex_en": "The students evinced great interest in the robotics workshop.",
+   "ex_ja": "学生たちはロボット工学のワークショップに大きな関心を示しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_067",
+   "en": "exasperate",
+   "ja": "いらいらさせる、憤慨させる",
+   "pos": "verb",
+   "ex_en": "Constant delays exasperated even the most patient passengers.",
+   "ex_ja": "度重なる遅延は最も忍耐強い乗客さえもいらいらさせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_068",
+   "en": "exculpate",
+   "ja": "無罪放免にする、責任を免れさせる",
+   "pos": "verb",
+   "ex_en": "New DNA evidence exculpated the man who had spent years in prison.",
+   "ex_ja": "新しいDNA証拠により、長年投獄されていた男性の容疑は晴れました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_069",
+   "en": "expedient",
+   "ja": "都合の良い、その場しのぎの",
+   "pos": "adj",
+   "ex_en": "Cutting corners may be expedient now, but it costs more later.",
+   "ex_ja": "手を抜くのは今は都合が良いかもしれませんが、後で代償を払うことになります。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_070",
+   "en": "extricate",
+   "ja": "(困難などから)抜け出させる",
+   "pos": "verb",
+   "ex_en": "Firefighters extricated the driver from the wrecked car.",
+   "ex_ja": "消防士たちは大破した車から運転手を救い出しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_071",
+   "en": "facetious",
+   "ja": "ふざけた、冗談めいた",
+   "pos": "adj",
+   "ex_en": "He was being facetious when he said he would quit school to become a clown.",
+   "ex_ja": "学校を辞めて道化師になると言ったのは、彼の冗談でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_072",
+   "en": "fallacious",
+   "ja": "誤謬のある、誤った",
+   "pos": "adj",
+   "ex_en": "The argument is fallacious because it confuses correlation with causation.",
+   "ex_ja": "その議論は相関と因果を混同しているため誤りです。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_073",
+   "en": "fastidious",
+   "ja": "細部にこだわる、潔癖な",
+   "pos": "adj",
+   "ex_en": "The fastidious chef inspects every ingredient personally.",
+   "ex_ja": "その細部にこだわるシェフはすべての材料を自ら確認します。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_074",
+   "en": "fawning",
+   "ja": "ごますりのような、へつらう",
+   "pos": "adj",
+   "ex_en": "He grew tired of his assistant's fawning compliments.",
+   "ex_ja": "彼はアシスタントのへつらうようなお世辞にうんざりしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_075",
+   "en": "fecund",
+   "ja": "肥沃な、実り多い",
+   "pos": "adj",
+   "ex_en": "The fecund soil of the valley supports dozens of family farms.",
+   "ex_ja": "谷の肥沃な土壌は数十軒の家族経営農場を支えています。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_076",
+   "en": "felicity",
+   "ja": "幸福、適切な表現",
+   "pos": "noun",
+   "ex_en": "They looked back on their years in the countryside with great felicity.",
+   "ex_ja": "彼らは田舎で過ごした年月を大きな幸福感とともに振り返りました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_077",
+   "en": "fervent",
+   "ja": "熱烈な、熱心な",
+   "pos": "adj",
+   "ex_en": "She is a fervent supporter of public libraries.",
+   "ex_ja": "彼女は公立図書館の熱心な支持者です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_078",
+   "en": "fetter",
+   "ja": "足かせ、束縛",
+   "pos": "noun",
+   "ex_en": "Outdated regulations act as a fetter on small businesses.",
+   "ex_ja": "時代遅れの規制は中小企業の足かせとなっています。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_079",
+   "en": "fickle",
+   "ja": "気まぐれな、浮気な",
+   "pos": "adj",
+   "ex_en": "Fickle fans abandoned the band as soon as its popularity faded.",
+   "ex_ja": "気まぐれなファンは、バンドの人気が落ちるとすぐ離れていきました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_080",
+   "en": "filch",
+   "ja": "(こっそり)盗む",
+   "pos": "verb",
+   "ex_en": "Someone filched cookies from the kitchen while we were out.",
+   "ex_ja": "外出中に誰かが台所からクッキーを盗みました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_081",
+   "en": "flair",
+   "ja": "才能、妙技",
+   "pos": "noun",
+   "ex_en": "She has a flair for turning simple ingredients into elegant dishes.",
+   "ex_ja": "彼女にはシンプルな材料を上品な料理に変える才能があります。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_082",
+   "en": "flippant",
+   "ja": "軽薄な、ふざけた",
+   "pos": "adj",
+   "ex_en": "His flippant reply offended the grieving family.",
+   "ex_ja": "彼の軽薄な返事は、悲しみの中の遺族を怒らせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_083",
+   "en": "florid",
+   "ja": "飾りすぎの、紅潮した",
+   "pos": "adj",
+   "ex_en": "The novel's florid style distracted readers from the story.",
+   "ex_ja": "その小説の装飾過多な文体は、読者の物語への集中を妨げました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_084",
+   "en": "forbearance",
+   "ja": "忍耐、寛容",
+   "pos": "noun",
+   "ex_en": "The teacher showed remarkable forbearance with the noisy class.",
+   "ex_ja": "その教師は騒がしいクラスに対して驚くべき忍耐を示しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_085",
+   "en": "fortuitous",
+   "ja": "偶然の、思いがけない",
+   "pos": "adj",
+   "ex_en": "Meeting her future business partner at the cafe was entirely fortuitous.",
+   "ex_ja": "カフェで将来のビジネスパートナーに出会ったのは完全な偶然でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_086",
+   "en": "fractious",
+   "ja": "気難しい、不機嫌な",
+   "pos": "adj",
+   "ex_en": "The fractious committee argued over every minor detail.",
+   "ex_ja": "気難しい委員会は些細な細部ごとに言い争いました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_087",
+   "en": "futile",
+   "ja": "無駄な、役に立たない",
+   "pos": "adj",
+   "ex_en": "Their efforts to revive the dying language proved futile.",
+   "ex_ja": "消えゆく言語を復活させようとする努力は無駄に終わりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_088",
+   "en": "garrulous",
+   "ja": "おしゃべりな、多弁な",
+   "pos": "adj",
+   "ex_en": "Our garrulous neighbor talks to us for an hour every morning.",
+   "ex_ja": "おしゃべりな隣人は毎朝1時間も話しかけてきます。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_089",
+   "en": "gauche",
+   "ja": "不器用な、世慣れない",
+   "pos": "adj",
+   "ex_en": "His gauche remark at the dinner embarrassed everyone.",
+   "ex_ja": "夕食での彼の不躾な発言は皆を困らせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_090",
+   "en": "germaine",
+   "ja": "適切な、関連のある",
+   "pos": "adj",
+   "ex_en": "Please keep your questions germaine to the topic of the seminar.",
+   "ex_ja": "質問はセミナーの主題に関連するものにしてください。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_091",
+   "en": "glib",
+   "ja": "口先だけの、すらすらと口が回る",
+   "pos": "adj",
+   "ex_en": "The glib salesman made promises he never intended to keep.",
+   "ex_ja": "その口先だけのセールスマンは守るつもりのない約束をしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_092",
+   "en": "gossamer",
+   "ja": "薄い、軽い、繊細な",
+   "pos": "adj",
+   "ex_en": "A gossamer veil of mist covered the lake at dawn.",
+   "ex_ja": "夜明け、薄絹のような霧が湖を覆っていました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_093",
+   "en": "grandiloquent",
+   "ja": "大げさな、仰々しい言葉づかいの",
+   "pos": "adj",
+   "ex_en": "The politician's grandiloquent speech said very little of substance.",
+   "ex_ja": "その政治家の大げさな演説には実質的な内容がほとんどありませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_094",
+   "en": "gratuity",
+   "ja": "心付け、チップ",
+   "pos": "noun",
+   "ex_en": "A gratuity of 15 percent is customary at American restaurants.",
+   "ex_ja": "アメリカのレストランでは15パーセントのチップを渡すのが一般的です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_095",
+   "en": "gregarious",
+   "ja": "社交的な",
+   "pos": "adj",
+   "ex_en": "Gregarious by nature, she makes friends wherever she goes.",
+   "ex_ja": "生来社交的なので、彼女はどこへ行っても友達ができます。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_096",
+   "en": "hackneyed",
+   "ja": "陳腐な、使い古された",
+   "pos": "adj",
+   "ex_en": "The movie relied on hackneyed plots and tired jokes.",
+   "ex_ja": "その映画は陳腐な筋書きと古びた冗談に頼っていました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_097",
+   "en": "hallowed",
+   "ja": "神聖化された、崇められた",
+   "pos": "adj",
+   "ex_en": "They visited the hallowed grounds of the ancient battlefield.",
+   "ex_ja": "彼らは古代の戦場の聖地を訪れました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_098",
+   "en": "haughty",
+   "ja": "傲慢な、高慢な",
+   "pos": "adj",
+   "ex_en": "The haughty manager refused to listen to new employees.",
+   "ex_ja": "傲慢なマネージャーは新人の意見に耳を貸そうとしませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_099",
+   "en": "hedonist",
+   "ja": "快楽主義者",
+   "pos": "noun",
+   "ex_en": "As a committed hedonist, he spends every weekend at spas and fine restaurants.",
+   "ex_ja": "徹底した快楽主義者として、彼は毎週末をスパや高級レストランで過ごします。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_100",
+   "en": "heresy",
+   "ja": "異端、異説",
+   "pos": "noun",
+   "ex_en": "In the 17th century, questioning the church was treated as heresy.",
+   "ex_ja": "17世紀には、教会に疑問を呈することは異端として扱われました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_101",
+   "en": "iconoclast",
+   "ja": "既成概念に挑む人、聖像破壊主義者",
+   "pos": "noun",
+   "ex_en": "The young chef was an iconoclast who rejected every traditional recipe.",
+   "ex_ja": "その若いシェフは伝統的なレシピをすべて否定する既成概念の挑戦者でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_102",
+   "en": "idyllic",
+   "ja": "のどかな、牧歌的な",
+   "pos": "adj",
+   "ex_en": "They spent an idyllic week in a cottage by the sea.",
+   "ex_ja": "彼らは海辺のコテージでのどかな一週間を過ごしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_103",
+   "en": "ignominious",
+   "ja": "恥ずべき、不名誉な",
+   "pos": "adj",
+   "ex_en": "The champion suffered an ignominious defeat in the first round.",
+   "ex_ja": "優勝候補は初戦で不名誉な敗北を喫しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_104",
+   "en": "imbue",
+   "ja": "(思想などを)注ぎ込む、染み込ませる",
+   "pos": "verb",
+   "ex_en": "Her parents imbued her with a love of learning.",
+   "ex_ja": "両親は彼女に学ぶことへの愛情を植え付けました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_105",
+   "en": "impasse",
+   "ja": "行き詰まり、膠着状態",
+   "pos": "noun",
+   "ex_en": "Peace talks reached an impasse after both sides rejected the proposal.",
+   "ex_ja": "双方が提案を拒否した後、和平交渉は行き詰まりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_106",
+   "en": "impetuous",
+   "ja": "衝動的な、性急な",
+   "pos": "adj",
+   "ex_en": "His impetuous decision to quit cost him the promotion.",
+   "ex_ja": "衝動的に辞めた判断のせいで、彼は昇進を逃しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_107",
+   "en": "implacable",
+   "ja": "なだめられない、容赦ない",
+   "pos": "adj",
+   "ex_en": "The committee faced implacable opposition from local residents.",
+   "ex_ja": "委員会は地元住民からの譲らない反対に直面しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_108",
+   "en": "importune",
+   "ja": "しつこく頼む、せがむ",
+   "pos": "verb",
+   "ex_en": "Charities importuned him for donations almost every week.",
+   "ex_ja": "慈善団体はほぼ毎週、しつこく寄付を求めてきました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_109",
+   "en": "impudent",
+   "ja": "厚かましい、図々しい",
+   "pos": "adj",
+   "ex_en": "The impudent student talked back to the principal.",
+   "ex_ja": "その図々しい生徒は校長に口答えをしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_110",
+   "en": "incandescent",
+   "ja": "白熱の、輝かしい",
+   "pos": "adj",
+   "ex_en": "The city banned incandescent bulbs to save energy.",
+   "ex_ja": "市は省エネルギーのために白熱電球を禁止しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_111",
+   "en": "inchoate",
+   "ja": "始まったばかりの、未発達の",
+   "pos": "adj",
+   "ex_en": "The rebellion was still inchoate and lacked clear leadership.",
+   "ex_ja": "その反乱はまだ初期段階で、明確な指導部を持っていませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_112",
+   "en": "incipient",
+   "ja": "初期の、発生しかけている",
+   "pos": "adj",
+   "ex_en": "Doctors caught the disease at its incipient stage.",
+   "ex_ja": "医師たちは病気を初期段階で発見しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_113",
+   "en": "incongruous",
+   "ja": "不釣り合いな、場違いな",
+   "pos": "adj",
+   "ex_en": "A skyscraper would look incongruous in this historic village.",
+   "ex_ja": "この歴史的な村に超高層ビルは場違いに見えるでしょう。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_114",
+   "en": "indolent",
+   "ja": "怠惰な、無気力な",
+   "pos": "adj",
+   "ex_en": "The indolent cat sleeps eighteen hours a day.",
+   "ex_ja": "その怠惰な猫は1日18時間眠ります。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_115",
+   "en": "ineffable",
+   "ja": "言葉では言い表せない",
+   "pos": "adj",
+   "ex_en": "Standing on the summit, they felt an ineffable sense of peace.",
+   "ex_ja": "頂上に立つと、言葉にならない安らぎを感じました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_116",
+   "en": "ineluctable",
+   "ja": "避けがたい、不可避の",
+   "pos": "adj",
+   "ex_en": "Aging is an ineluctable fact of life.",
+   "ex_ja": "老化は避けがたい人生の現実です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_117",
+   "en": "ingratiate",
+   "ja": "ご機嫌を取る、取り入る",
+   "pos": "verb",
+   "ex_en": "He tried to ingratiate himself with the boss by working late.",
+   "ex_ja": "彼は遅くまで働いて上司に取り入ろうとしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_118",
+   "en": "innocuous",
+   "ja": "無害な、悪意のない",
+   "pos": "adj",
+   "ex_en": "It seemed like an innocuous question, but it started a heated debate.",
+   "ex_ja": "無害な質問に見えましたが、激しい議論の火種になりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_119",
+   "en": "inscrutable",
+   "ja": "得体の知れない、読めない",
+   "pos": "adj",
+   "ex_en": "The negotiator kept an inscrutable expression throughout the meeting.",
+   "ex_ja": "交渉担当者は会議中ずっと読み取れない表情を保ちました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_120",
+   "en": "insipid",
+   "ja": "味気ない、面白みに欠ける",
+   "pos": "adj",
+   "ex_en": "The soup was so insipid that no one asked for seconds.",
+   "ex_ja": "そのスープは味気なく、おかわりを頼む人はいませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_121",
+   "en": "insolent",
+   "ja": "無礼な、傲慢な",
+   "pos": "adj",
+   "ex_en": "The insolent clerk refused to help the elderly customer.",
+   "ex_ja": "その無礼な店員は高齢の客を助けようとしませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_122",
+   "en": "intransigent",
+   "ja": "非妥協的な、強硬な",
+   "pos": "adj",
+   "ex_en": "Neither side budged, and both remained intransigent until midnight.",
+   "ex_ja": "どちらの側も譲らず、深夜まで強硬な姿勢を貫きました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_123",
+   "en": "inundate",
+   "ja": "あふれさせる、殺到させる",
+   "pos": "verb",
+   "ex_en": "The hotline was inundated with calls after the news broke.",
+   "ex_ja": "ニュースが報じられた後、電話窓口には問い合わせが殺到しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_124",
+   "en": "invective",
+   "ja": "悪口、痛烈な非難の言葉",
+   "pos": "noun",
+   "ex_en": "The debate quickly descended into personal invective.",
+   "ex_ja": "討論はたちまち人身攻撃の罵倒合戦になりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_125",
+   "en": "irreverent",
+   "ja": "不敬な、敬意を払わない",
+   "pos": "adj",
+   "ex_en": "His irreverent jokes about the professor shocked the serious students.",
+   "ex_ja": "教授についての不敬な冗談は、真面目な学生たちを驚かせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_126",
+   "en": "itinerant",
+   "ja": "巡回する、放浪の",
+   "pos": "adj",
+   "ex_en": "An itinerant preacher visited remote villages twice a year.",
+   "ex_ja": "巡回説教師が年2回、辺鄙な村を訪れました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_127",
+   "en": "jaded",
+   "ja": "飽き飽きした、冷淡になった",
+   "pos": "adj",
+   "ex_en": "After twenty years on the police force, he had grown jaded.",
+   "ex_ja": "20年の警察生活で、彼はすっかり冷めきっていました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_128",
+   "en": "jejune",
+   "ja": "無味乾燥な、未成熟な",
+   "pos": "adj",
+   "ex_en": "The critics called the novel jejune and predictable.",
+   "ex_ja": "批評家たちはその小説を無味乾燥で予想通りだと評しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_129",
+   "en": "jubilant",
+   "ja": "大喜びの、歓喜に満ちた",
+   "pos": "adj",
+   "ex_en": "Jubilant fans flooded the streets after the championship win.",
+   "ex_ja": "優勝後、歓喜のファンが街にあふれました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_130",
+   "en": "laconic",
+   "ja": "簡潔な、言葉数の少ない",
+   "pos": "adj",
+   "ex_en": "The laconic farmer answered every question with one word.",
+   "ex_ja": "その寡黙な農夫はどんな質問にも一言で答えました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_131",
+   "en": "lassitude",
+   "ja": "けだるさ、無気力",
+   "pos": "noun",
+   "ex_en": "The summer heat produced a pleasant lassitude in everyone.",
+   "ex_ja": "夏の暑さが、皆に心地よいけだるさをもたらしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_132",
+   "en": "latent",
+   "ja": "潜在する、隠れた",
+   "pos": "adj",
+   "ex_en": "She discovered a latent talent for painting in her forties.",
+   "ex_ja": "彼女は40代になって絵の潜在才能を発見しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_133",
+   "en": "laudable",
+   "ja": "称賛に値する",
+   "pos": "adj",
+   "ex_en": "Their effort to clean up the river is highly laudable.",
+   "ex_ja": "彼らの川の清掃活動は大いに称賛に値します。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_134",
+   "en": "libertine",
+   "ja": "道楽者、放縦な人",
+   "pos": "noun",
+   "ex_en": "The novel portrays the count as a libertine who squandered his fortune.",
+   "ex_ja": "その小説では、伯爵は財産を浪費した道楽者として描かれています。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_135",
+   "en": "limpid",
+   "ja": "澄んだ、明瞭な",
+   "pos": "adj",
+   "ex_en": "We could see fish swimming in the limpid water of the stream.",
+   "ex_ja": "小川の澄んだ水の中を魚が泳ぐのが見えました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_136",
+   "en": "lithe",
+   "ja": "しなやかな、柔軟な",
+   "pos": "adj",
+   "ex_en": "The lithe dancer moved across the stage effortlessly.",
+   "ex_ja": "しなやかなダンサーは楽々と舞台を横切りました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_137",
+   "en": "loquacious",
+   "ja": "おしゃべりな、多弁な",
+   "pos": "adj",
+   "ex_en": "Our loquacious tour guide never paused for breath.",
+   "ex_ja": "おしゃべりなツアーガイドは一度も息を止めませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_138",
+   "en": "lucid",
+   "ja": "明晰な、明白な",
+   "pos": "adj",
+   "ex_en": "The professor gave a lucid explanation of a complex theory.",
+   "ex_ja": "教授は複雑な理論を明晰に説明しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_139",
+   "en": "magnanimous",
+   "ja": "度量の大きい、寛大な",
+   "pos": "adj",
+   "ex_en": "The magnanimous champion praised her defeated rival.",
+   "ex_ja": "その寛大な王者は破れたライバルを褒めました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_140",
+   "en": "malediction",
+   "ja": "呪い、悪口",
+   "pos": "noun",
+   "ex_en": "Legend says a witch's malediction still haunts the castle.",
+   "ex_ja": "伝説によれば、魔女の呪いが今も城に取り付いています。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_141",
+   "en": "martinet",
+   "ja": "厳格な規律主義者",
+   "pos": "noun",
+   "ex_en": "The new coach was a martinet who fined players for untidy uniforms.",
+   "ex_ja": "新しいコーチは制服の乱れに罰金を科す厳格な規律主義者でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_142",
+   "en": "mendacious",
+   "ja": "嘘つきの、虚偽の",
+   "pos": "adj",
+   "ex_en": "The mendacious report hid the true cost of the project.",
+   "ex_ja": "その虚偽の報告書はプロジェクトの真のコストを隠していました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_143",
+   "en": "mercurial",
+   "ja": "気分屋の、変わりやすい",
+   "pos": "adj",
+   "ex_en": "The director is mercurial: cheerful at breakfast, furious by lunch.",
+   "ex_ja": "その監督は気分屋で、朝は陽気でも昼には激怒します。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_144",
+   "en": "mettle",
+   "ja": "気骨、度胸",
+   "pos": "noun",
+   "ex_en": "The marathon tested the mettle of even experienced runners.",
+   "ex_ja": "マラソンは経験豊富なランナーさえ試練に立たせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_145",
+   "en": "misanthrope",
+   "ja": "人間嫌い、世捨て人",
+   "pos": "noun",
+   "ex_en": "The old misanthrope never answered his door, even to neighbors.",
+   "ex_ja": "その人間嫌いの老人は、近所の人にも一切ドアを開けませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_146",
+   "en": "mollify",
+   "ja": "なだめる、和らげる",
+   "pos": "verb",
+   "ex_en": "A sincere apology mollified the angry customer.",
+   "ex_ja": "心からの謝罪が怒った客をなだめました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_147",
+   "en": "morose",
+   "ja": "不機嫌な、陰気な",
+   "pos": "adj",
+   "ex_en": "He has been morose since he lost his job.",
+   "ex_ja": "失業してから、彼はずっとふさぎ込んでいます。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_148",
+   "en": "munificent",
+   "ja": "気前の良い、手厚い",
+   "pos": "adj",
+   "ex_en": "A munificent donation allowed the library to stay open all week.",
+   "ex_ja": "気前のよい寄付のおかげで、図書館は週末も開館できました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_149",
+   "en": "nadir",
+   "ja": "どん底、最下点",
+   "pos": "noun",
+   "ex_en": "Losing both games marked the nadir of the team's season.",
+   "ex_ja": "連敗はチームのシーズンのどん底となりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_150",
+   "en": "nefarious",
+   "ja": "極悪な、邪悪な",
+   "pos": "adj",
+   "ex_en": "Police uncovered a nefarious plot to steal patients' records.",
+   "ex_ja": "警察は患者記録を盗む極悪な計画を暴きました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_151",
+   "en": "nexus",
+   "ja": "結びつき、連鎖の中心",
+   "pos": "noun",
+   "ex_en": "The city is a nexus of trade between East and West.",
+   "ex_ja": "その都市は東西貿易の結節点です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_152",
+   "en": "noisome",
+   "ja": "悪臭を放つ、不快な",
+   "pos": "adj",
+   "ex_en": "A noisome smell rose from the neglected drain.",
+   "ex_ja": "手入れされていない排水溝から鼻をつく悪臭が立ち上りました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_153",
+   "en": "obdurate",
+   "ja": "頑固な、強情な",
+   "pos": "adj",
+   "ex_en": "The mayor remained obdurate despite weeks of protests.",
+   "ex_ja": "市長は数週間の抗議にもかかわらず頑として譲りませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_154",
+   "en": "obfuscate",
+   "ja": "不明瞭にする、ごまかす",
+   "pos": "verb",
+   "ex_en": "Jargon was used to obfuscate the contract's real meaning.",
+   "ex_ja": "専門用語が契約書の本当の意味をごまかすために使われました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_155",
+   "en": "obsequious",
+   "ja": "卑屈な、ごますりの",
+   "pos": "adj",
+   "ex_en": "The obsequious waiter hovered over the wealthy regulars.",
+   "ex_ja": "その卑屈なウェイターは金持ちの常連客にまとわりつきました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_156",
+   "en": "obstreperous",
+   "ja": "騒がしい、手に負えない",
+   "pos": "adj",
+   "ex_en": "The obstreperous toddlers would not settle down for their nap.",
+   "ex_ja": "騒がしい幼児たちは昼寝の時間になっても静まりませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_157",
+   "en": "odium",
+   "ja": "憎しみ、悪評",
+   "pos": "noun",
+   "ex_en": "The scandal brought odium on the entire board of directors.",
+   "ex_ja": "そのスキャンダルは役員会全体に悪評をもたらしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_158",
+   "en": "onerous",
+   "ja": "重い(負担の)、厄介な",
+   "pos": "adj",
+   "ex_en": "The new paperwork imposes an onerous burden on small clinics.",
+   "ex_ja": "新しい書類作業は小さな診療所に重い負担を強いています。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_159",
+   "en": "opulent",
+   "ja": "豪華な、富裕な",
+   "pos": "adj",
+   "ex_en": "They dined in an opulent hall hung with crystal chandeliers.",
+   "ex_ja": "彼らはクリスタルのシャンデリアが下がる豪華な広間で食事をしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_160",
+   "en": "oratory",
+   "ja": "弁論術、雄弁",
+   "pos": "noun",
+   "ex_en": "Churchill's oratory inspired Britain during the war.",
+   "ex_ja": "チャーチルの弁説は戦時中のイギリスを奮い立たせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_161",
+   "en": "ostensible",
+   "ja": "表向きの、うわべの",
+   "pos": "adj",
+   "ex_en": "The meeting's ostensible purpose was budgeting, but layoffs were the real topic.",
+   "ex_ja": "会議の表向きの目的は予算編成でしたが、実際は人員削減が本題でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_162",
+   "en": "ostracize",
+   "ja": "仲間はずれにする、排斥する",
+   "pos": "verb",
+   "ex_en": "Villagers ostracized the family after the lawsuit.",
+   "ex_ja": "訴訟の後、村人たちはその家族を排斥しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_163",
+   "en": "palliate",
+   "ja": "(症状などを)緩和する、軽減する",
+   "pos": "verb",
+   "ex_en": "The medicine palliates the pain but cannot cure the disease.",
+   "ex_ja": "その薬は痛みを緩和しますが、病気そのものは治せません。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_164",
+   "en": "panacea",
+   "ja": "万能薬、あらゆる問題の解決策",
+   "pos": "noun",
+   "ex_en": "Technology alone is not a panacea for educational inequality.",
+   "ex_ja": "テクノロジーだけが教育格差の万能薬ではありません。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_165",
+   "en": "paragon",
+   "ja": "模範、典型",
+   "pos": "noun",
+   "ex_en": "Her grandmother, patient and generous, was a paragon of kindness.",
+   "ex_ja": "忍耐強く心優しい祖母は、親切の模範のような人でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_166",
+   "en": "parsimonious",
+   "ja": "けちな、倹約的な",
+   "pos": "adj",
+   "ex_en": "The parsimonious company cut even the coffee budget.",
+   "ex_ja": "その倹しすぎる会社はコーヒー予算まで削りました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_167",
+   "en": "patrimony",
+   "ja": "先祖伝来の財産、遺産",
+   "pos": "noun",
+   "ex_en": "The castle is part of the nation's cultural patrimony.",
+   "ex_ja": "その城は国の文化的遺産の一部です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_168",
+   "en": "paucity",
+   "ja": "欠乏、少ないこと",
+   "pos": "noun",
+   "ex_en": "A paucity of data made firm conclusions impossible.",
+   "ex_ja": "データ不足のため、確定的な結論を出せませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_169",
+   "en": "peccadillo",
+   "ja": "軽い罪、些細な過ち",
+   "pos": "noun",
+   "ex_en": "Arriving late is a peccadillo compared to missing the deadline entirely.",
+   "ex_ja": "遅刻は、締め切りを完全に守らないことに比べれば些細な過ちです。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_170",
+   "en": "pedantic",
+   "ja": "細かい知識をひけらかす、学究肌すぎる",
+   "pos": "adj",
+   "ex_en": "His pedantic corrections of minor grammar annoyed the whole class.",
+   "ex_ja": "彼の些細な文法の指摘はクラス中をいら立たせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_171",
+   "en": "peerless",
+   "ja": "無比の、並ぶ者のない",
+   "pos": "adj",
+   "ex_en": "The museum holds a peerless collection of Edo-period prints.",
+   "ex_ja": "その美術館は江戸期の版画の比類ないコレクションを所蔵しています。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_172",
+   "en": "penurious",
+   "ja": "極貧の、けちな",
+   "pos": "adj",
+   "ex_en": "He grew up penurious but never complained about it.",
+   "ex_ja": "彼は極貧の中で育ちましたが、決して愚痴をこぼしませんでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_173",
+   "en": "perfidious",
+   "ja": "裏切りの、不誠実な",
+   "pos": "adj",
+   "ex_en": "The perfidious ally sold military secrets to the enemy.",
+   "ex_ja": "その不誠実な同盟国は軍事機密を敵に売りました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_174",
+   "en": "perfunctory",
+   "ja": "おざなりな、形だけの",
+   "pos": "adj",
+   "ex_en": "He gave the report only a perfunctory glance before signing it.",
+   "ex_ja": "彼は報告書におざなりに目を通しただけで署名しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_175",
+   "en": "permeate",
+   "ja": "浸透する、行き渡る",
+   "pos": "verb",
+   "ex_en": "The smell of fresh bread permeated the whole house.",
+   "ex_ja": "焼きたてのパンの香りが家じゅうに漂いました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_176",
+   "en": "pernicious",
+   "ja": "有害な、悪質な",
+   "pos": "adj",
+   "ex_en": "Rumors had a pernicious effect on team morale.",
+   "ex_ja": "噂はチームの士気に悪影響を及ぼしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_177",
+   "en": "perspicacious",
+   "ja": "鋭い洞察力のある",
+   "pos": "adj",
+   "ex_en": "Her perspicacious reading of the market saved the firm millions.",
+   "ex_ja": "彼女の市場に対する鋭い読みは会社に数百万ドルの損失を防がせました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_178",
+   "en": "petulant",
+   "ja": "不機嫌な、わがままな",
+   "pos": "adj",
+   "ex_en": "He gave a petulant shrug when his idea was rejected.",
+   "ex_ja": "アイデアを却下されると、彼は拗ねたように肩をすくめました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_179",
+   "en": "philistine",
+   "ja": "教養のない人、俗物",
+   "pos": "noun",
+   "ex_en": "Calling opera boring, he revealed himself as a philistine.",
+   "ex_ja": "オペラは退屈だと言って、彼は教養のなさをさらけ出しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_180",
+   "en": "pique",
+   "ja": "立腹、むっとすること",
+   "pos": "noun",
+   "ex_en": "She left the meeting in a fit of pique.",
+   "ex_ja": "彼女はかっとして会議室を出て行きました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_181",
+   "en": "placate",
+   "ja": "なだめる、機嫌を取る",
+   "pos": "verb",
+   "ex_en": "Free tickets were offered to placate the disappointed fans.",
+   "ex_ja": "がっかりしたファンをなだめるために無料チケットが配られました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_182",
+   "en": "platitude",
+   "ja": "陳腐な言葉、常套句",
+   "pos": "noun",
+   "ex_en": "His speech was full of empty platitudes about teamwork.",
+   "ex_ja": "彼のスピーチはチームワークに関する中身のない常套句ばかりでした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_183",
+   "en": "plebeian",
+   "ja": "庶民の、俗っぽい",
+   "pos": "adj",
+   "ex_en": "The aristocrat dismissed football as plebeian entertainment.",
+   "ex_ja": "その貴族はサッカーを庶民の娯楽として見下しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_184",
+   "en": "plenitude",
+   "ja": "豊富、十分にあること",
+   "pos": "noun",
+   "ex_en": "The harvest festival celebrated the plenitude of autumn crops.",
+   "ex_ja": "収穫祭では秋の作物の豊饒が祝われました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_185",
+   "en": "polemic",
+   "ja": "論争的な文章・演説",
+   "pos": "noun",
+   "ex_en": "Her essay is a polemic against industrial farming.",
+   "ex_ja": "彼女のエッセイは工場式農業への痛烈な論争文です。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_186",
+   "en": "portend",
+   "ja": "前兆となる、予示する",
+   "pos": "verb",
+   "ex_en": "Dark clouds portended a violent storm.",
+   "ex_ja": "黒雲は激しい嵐の前兆でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_187",
+   "en": "prattle",
+   "ja": "おしゃべりをする、単調にぺちゃくちゃ話す",
+   "pos": "verb",
+   "ex_en": "The children prattled happily about their day at the beach.",
+   "ex_ja": "子どもたちは海での一日について楽しそうにおしゃべりしていました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_188",
+   "en": "precocious",
+   "ja": "早熟の、年齢以上に優れた",
+   "pos": "adj",
+   "ex_en": "The precocious child read novels meant for teenagers at age five.",
+   "ex_ja": "その早熟な子供は5歳で十代向けの小説を読みました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_189",
+   "en": "predilection",
+   "ja": "好み、偏愛",
+   "pos": "noun",
+   "ex_en": "He has a predilection for detective stories set in cold climates.",
+   "ex_ja": "彼は寒い地方を舞台にした推理小説を特に好みます。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_190",
+   "en": "prepossessing",
+   "ja": "好感を持たせる、魅力的な",
+   "pos": "adj",
+   "ex_en": "The candidate made a prepossessing first impression at the interview.",
+   "ex_ja": "その候補者は面接で良い第一印象を与えました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_191",
+   "en": "prescient",
+   "ja": "先見の明のある",
+   "pos": "adj",
+   "ex_en": "Her prescient warning about the housing bubble was ignored.",
+   "ex_ja": "住宅バブルについての彼女の先見性のある警告は無視されました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_192",
+   "en": "profligate",
+   "ja": "浪費的な、放縦な",
+   "pos": "adj",
+   "ex_en": "The profligate heir spent the family fortune in five years.",
+   "ex_ja": "その浪費家の相続人は5年で家の財産を使い果たしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_193",
+   "en": "proliferate",
+   "ja": "急増する、急速に広まる",
+   "pos": "verb",
+   "ex_en": "Smartphone apps continue to proliferate across every industry.",
+   "ex_ja": "スマートフォンアプリはあらゆる産業で増え続けています。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_194",
+   "en": "promulgation",
+   "ja": "公布、宣伝・普及",
+   "pos": "noun",
+   "ex_en": "The promulgation of the new law took effect on April 1.",
+   "ex_ja": "新しい法律の公布は4月1日に発効しました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_195",
+   "en": "propitious",
+   "ja": "好都合な、縁起の良い",
+   "pos": "adj",
+   "ex_en": "The calm sea offered propitious conditions for the crossing.",
+   "ex_ja": "穏やかな海は航海にとって好都合な状況でした。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_196",
+   "en": "prosaic",
+   "ja": "散文的な、平凡な",
+   "pos": "adj",
+   "ex_en": "He left a prosaic office job to become a fisherman.",
+   "ex_ja": "彼は平凡な事務職を辞めて漁師になりました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_197",
+   "en": "protean",
+   "ja": "変幻自在の、多様な姿を見せる",
+   "pos": "adj",
+   "ex_en": "The actress has shown her protean talent in comedies, tragedies, and musicals.",
+   "ex_ja": "その女優は喜劇・悲劇・ミュージカルで変幻自在の才能を見せました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_198",
+   "en": "proverbial",
+   "ja": "諺で知られる、言うまでもない",
+   "pos": "adj",
+   "ex_en": "His generosity has become proverbial throughout the town.",
+   "ex_ja": "彼の気前の良さは町じゅうで有名になっています。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_199",
+   "en": "provident",
+   "ja": "先を見越した、深慮遠謀の",
+   "pos": "adj",
+   "ex_en": "Their provident savings carried them through the recession.",
+   "ex_ja": "先を見据えた貯蓄のおかげで、彼らは不況を乗り切りました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sz_200",
+   "en": "puerile",
+   "ja": "子供っぽい、幼稚な",
+   "pos": "adj",
+   "ex_en": "The puerile prank wasted everyone's afternoon.",
+   "ex_ja": "その子供っぽいいたずらは皆の午後を無駄にしました。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  }
+ ]
+}

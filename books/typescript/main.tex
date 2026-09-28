@@ -501,6 +501,79 @@ if (r.ok) {
 
 \textbf{解答の指針:} \texttt{try} ブロックで \texttt{const res = await fetch(url)}、\texttt{if (!res.ok) throw new Error(\`HTTP \${res.status}\`)}、\texttt{return await res.json() as T}。
 
+\section{実践演習 — 型でリファクタリングする}
+
+この節では、「動くけれど型が弱い」コードを 3 題リファクタリングします。各題とも「まず問題点を自分の言葉で説明する」のが正しい手順です。型は最後の道具です。
+
+\subsection{第 1 題 — 眠っているユニオン}
+
+\begin{lstlisting}[language=TypeScript]
+// 変更前: kind はただの文字列で、中身の整合性は実行時次第
+function render(node: { kind: string; text?: string; src?: string }) {
+  if (node.kind === "text") return node.text ?? "";
+  if (node.kind === "image") return `<img src="${node.src}">`;
+  return "";
+}
+\end{lstlisting}
+
+\textbf{解答の指針:}\ 問題点は (1) \texttt{kind} にどんな文字列でも入る、(2) \texttt{text} と \texttt{src} が常に省略可能で「text ノードなのに src がある」不正状態が作れる、(3) 新しい kind を追加しても処理漏れが検出されない。判別可能ユニオン + \texttt{never} による網羅チェックで解決する:
+\begin{lstlisting}[language=TypeScript]
+type Node =
+  | { kind: "text"; text: string }
+  | { kind: "image"; src: string };
+
+function render(node: Node): string {
+  switch (node.kind) {
+    case "text": return node.text;
+    case "image": return `<img src="${node.src}">`;
+    default: { const _x: never = node; return _x; }
+  }
+}
+\end{lstlisting}
+
+\subsection{第 2 題 — any が広げる穴}
+
+\begin{lstlisting}[language=TypeScript]
+// 変更前: 入力をそのまま any で受けている
+function pick(objs: any[], key: any): any[] {
+  return objs.map((o) => o[key]);
+}
+\end{lstlisting}
+
+\textbf{解答の指針:}\ \texttt{any} はコンパイラの目を止めるので、\texttt{pick(users, "nmae")}(typo)も通ってしまう。ジェネリクスと \texttt{keyof} で「存在するキーだけ」に限定する:
+\begin{lstlisting}[language=TypeScript]
+function pick<T, K extends keyof T>(objs: T[], key: K): T[K][] {
+  return objs.map((o) => o[key]);
+}
+// pick(users, "nmae") はコンパイルエラーになる
+\end{lstlisting}
+
+\subsection{第 3 題 — 状態の組み合わせ}
+
+\begin{lstlisting}[language=TypeScript]
+// 変更前: boolean と optional の組み合わせで不正状態を許す
+interface Panel {
+  isLoading: boolean;
+  error?: string;
+  data?: User[];
+}
+\end{lstlisting}
+
+\textbf{解答の指針:}\ 「ローディング中なのにエラーとデータがある」など、実行時の不変条件が型に書かれていない。第 7 節の判別可能ユニオンで状態機械にする:
+\begin{lstlisting}[language=TypeScript]
+type Panel =
+  | { state: "loading" }
+  | { state: "error"; message: string }
+  | { state: "ready"; data: User[] };
+\end{lstlisting}
+描画側の \texttt{switch} は網羅チェックつきで書くため、状態の追加(\texttt{"empty"} など)に対してコンパイラが処理漏れを指摘してくれます。\textbf{「ありえない状態を型から消す」ことがリファクタリングの核心}です。
+
+\begin{quote}
+\textbf{【演習】}\ 第 1 題のコードに \texttt{\{ kind: "button"; label: string \}} を追加したとき、変更前と変更後のそれぞれで起きることを比較して説明せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 変更前は \texttt{kind} が \texttt{string} 型なので、render の if 文に case を足し忘れても黙って空文字を返す(バグは画面上で発覚)。変更後は \texttt{never} 代入がエラーになり、コンパイルの時点で追加箇所が分かる。
+
 \section{ユーティリティ型と実践設計}
 
 \subsection{組み込みユーティリティ型}

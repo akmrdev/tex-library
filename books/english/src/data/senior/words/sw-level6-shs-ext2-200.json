@@ -1,0 +1,2409 @@
+{
+ "meta": {
+  "file": "sw-level6-shs-ext2-200",
+  "stage": "senior",
+  "description": "高校拡張第2弾200語"
+ },
+ "words": [
+  {
+   "id": "sy_001",
+   "en": "abrupt",
+   "ja": "突然の、不意の",
+   "pos": "adj",
+   "ex_en": "The meeting came to an abrupt end when the fire alarm rang.",
+   "ex_ja": "火災報知器が鳴り、会議は突然終わりました。",
+   "level": 4,
+   "tags": [
+    "time"
+   ]
+  },
+  {
+   "id": "sy_002",
+   "en": "acclaim",
+   "ja": "称賛する、喝采する",
+   "pos": "verb",
+   "ex_en": "Critics acclaimed the young pianist's debut performance.",
+   "ex_ja": "批評家たちはその若いピアニストのデビュー演奏を称賛した。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_003",
+   "en": "accommodate",
+   "ja": "収容する、順応させる",
+   "pos": "verb",
+   "ex_en": "The hotel can accommodate up to 500 guests.",
+   "ex_ja": "そのホテルは最大500人の宿泊客を収容できる。",
+   "level": 4,
+   "tags": [
+    "housing"
+   ]
+  },
+  {
+   "id": "sy_004",
+   "en": "accumulate",
+   "ja": "蓄積する、ためる",
+   "pos": "verb",
+   "ex_en": "Dust had accumulated on the old bookshelves.",
+   "ex_ja": "古い本棚にはほこりがたまっていた。",
+   "level": 4,
+   "tags": [
+    "change"
+   ]
+  },
+  {
+   "id": "sy_005",
+   "en": "adhere",
+   "ja": "固守する、付着する",
+   "pos": "verb",
+   "ex_en": "All members must adhere to the safety rules.",
+   "ex_ja": "全員が安全規則を厳守しなければならない。",
+   "level": 4,
+   "tags": [
+    "rule"
+   ]
+  },
+  {
+   "id": "sy_006",
+   "en": "administer",
+   "ja": "管理する、投与する",
+   "pos": "verb",
+   "ex_en": "The nurse administered the vaccine to the children.",
+   "ex_ja": "看護師は子どもたちにワクチンを接種した。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_007",
+   "en": "aesthetic",
+   "ja": "美的な、審美眼のある",
+   "pos": "adj",
+   "ex_en": "The building's aesthetic design attracted many visitors.",
+   "ex_ja": "その建物の美的なデザインは多くの訪問者を魅了した。",
+   "level": 4,
+   "tags": [
+    "art"
+   ]
+  },
+  {
+   "id": "sy_008",
+   "en": "affiliate",
+   "ja": "提携する、関連付ける",
+   "pos": "verb",
+   "ex_en": "The university is affiliated with a famous hospital.",
+   "ex_ja": "その大学は有名な病院と提携している。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_009",
+   "en": "aggravate",
+   "ja": "悪化させる、怒らせる",
+   "pos": "verb",
+   "ex_en": "The cold weather aggravated his knee injury.",
+   "ex_ja": "寒い天候が彼のひざのけがを悪化させた。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_010",
+   "en": "aggregate",
+   "ja": "総計、集合体",
+   "pos": "noun",
+   "ex_en": "The aggregate of all donations reached one million yen.",
+   "ex_ja": "すべての寄付の総計は100万円に達した。",
+   "level": 4,
+   "tags": [
+    "quantity"
+   ]
+  },
+  {
+   "id": "sy_011",
+   "en": "alarm",
+   "ja": "驚かせる、警報を鳴らす",
+   "pos": "verb",
+   "ex_en": "The sudden noise alarmed the sleeping baby.",
+   "ex_ja": "突然の物音で眠っていた赤ちゃんは驚いた。",
+   "level": 4,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "sy_012",
+   "en": "alert",
+   "ja": "警戒した、機敏な",
+   "pos": "adj",
+   "ex_en": "Drivers must stay alert during heavy rain.",
+   "ex_ja": "大雨の間、運転手は警戒を怠ってはならない。",
+   "level": 4,
+   "tags": [
+    "perception"
+   ]
+  },
+  {
+   "id": "sy_013",
+   "en": "alleviate",
+   "ja": "緩和する、和らげる",
+   "pos": "verb",
+   "ex_en": "The new medicine alleviated her chronic pain.",
+   "ex_ja": "新薬は彼女の慢性的な痛みを和らげた。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_014",
+   "en": "amend",
+   "ja": "修正する、改正する",
+   "pos": "verb",
+   "ex_en": "The committee amended the bill before the vote.",
+   "ex_ja": "委員会は採決前にその法案を修正した。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_015",
+   "en": "anonymous",
+   "ja": "匿名の、無名の",
+   "pos": "adj",
+   "ex_en": "The donation was made by an anonymous supporter.",
+   "ex_ja": "その寄付は匿名の支援者によって行われた。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_016",
+   "en": "assert",
+   "ja": "断言する、主張する",
+   "pos": "verb",
+   "ex_en": "He asserted that the data was accurate.",
+   "ex_ja": "彼はそのデータが正確だと断言した。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_017",
+   "en": "assume",
+   "ja": "想定する、引き受ける",
+   "pos": "verb",
+   "ex_en": "I assume the train will be on time.",
+   "ex_ja": "電車は定刻通りだと想定している。",
+   "level": 4,
+   "tags": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "sy_018",
+   "en": "authentic",
+   "ja": "本物の、信頼できる",
+   "pos": "adj",
+   "ex_en": "This restaurant serves authentic Italian pasta.",
+   "ex_ja": "このレストランは本格的なイタリアンパスタを出す。",
+   "level": 4,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "sy_019",
+   "en": "avert",
+   "ja": "避ける、そらす",
+   "pos": "verb",
+   "ex_en": "Quick action averted a major disaster.",
+   "ex_ja": "素早い行動が大災害を免れさせた。",
+   "level": 4,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "sy_020",
+   "en": "barren",
+   "ja": "不毛な、実りのない",
+   "pos": "adj",
+   "ex_en": "Few plants can survive in this barren desert.",
+   "ex_ja": "この不毛の砂漠で生き残れる植物はほとんどない。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_021",
+   "en": "benevolent",
+   "ja": "慈悲深い、情け深い",
+   "pos": "adj",
+   "ex_en": "She is a benevolent leader who cares about her staff.",
+   "ex_ja": "彼女はスタッフを気にかける慈悲深いリーダーです。",
+   "level": 4,
+   "tags": [
+    "personality"
+   ]
+  },
+  {
+   "id": "sy_022",
+   "en": "bleak",
+   "ja": "荒涼とした、希望のない",
+   "pos": "adj",
+   "ex_en": "The company's future looks bleak after the scandal.",
+   "ex_ja": "スキャンダル後、その会社の将来は暗い。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_023",
+   "en": "bulk",
+   "ja": "大部分、かさ",
+   "pos": "noun",
+   "ex_en": "The bulk of the work was done by volunteers.",
+   "ex_ja": "仕事の大部分はボランティアによって行われた。",
+   "level": 4,
+   "tags": [
+    "quantity"
+   ]
+  },
+  {
+   "id": "sy_024",
+   "en": "bypass",
+   "ja": "迂回する、回避する",
+   "pos": "verb",
+   "ex_en": "We bypassed the traffic jam by taking a side road.",
+   "ex_ja": "脇道を通って渋滞を回避した。",
+   "level": 4,
+   "tags": [
+    "movement"
+   ]
+  },
+  {
+   "id": "sy_025",
+   "en": "capsule",
+   "ja": "カプセル、要約",
+   "pos": "noun",
+   "ex_en": "Take one capsule after each meal.",
+   "ex_ja": "毎食後にカプセルを1粒飲んでください。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_026",
+   "en": "census",
+   "ja": "国勢調査、人口調査",
+   "pos": "noun",
+   "ex_en": "The national census is conducted every ten years.",
+   "ex_ja": "国勢調査は10年ごとに実施される。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_027",
+   "en": "certify",
+   "ja": "証明する、認定する",
+   "pos": "verb",
+   "ex_en": "The doctor certified that he was fit to work.",
+   "ex_ja": "医師は彼が働ける健康状態だと証明した。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_028",
+   "en": "chronic",
+   "ja": "慢性的な、常習的な",
+   "pos": "adj",
+   "ex_en": "He suffers from chronic back pain.",
+   "ex_ja": "彼は慢性的な腰痛に悩まされている。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_029",
+   "en": "circulate",
+   "ja": "循環する、回覧する",
+   "pos": "verb",
+   "ex_en": "Blood circulates around the body through the heart.",
+   "ex_ja": "血液は心臓を通って体内を循環する。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_030",
+   "en": "cite",
+   "ja": "引用する、言及する",
+   "pos": "verb",
+   "ex_en": "She cited three studies to support her argument.",
+   "ex_ja": "彼女は自分の主張を支えるため3つの研究を引用した。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sy_031",
+   "en": "clause",
+   "ja": "条項、節",
+   "pos": "noun",
+   "ex_en": "Read the contract carefully before signing the clause.",
+   "ex_ja": "条項に署名する前に契約書をよく読んでください。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_032",
+   "en": "cluster",
+   "ja": "群れ、集団、房",
+   "pos": "noun",
+   "ex_en": "A cluster of stars shone in the night sky.",
+   "ex_ja": "星の集まりが夜空に輝いていた。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_033",
+   "en": "coarse",
+   "ja": "粗い、ざらざらした",
+   "pos": "adj",
+   "ex_en": "The coarse sand hurt my feet as I walked.",
+   "ex_ja": "歩いていると粗い砂が足に痛かった。",
+   "level": 4,
+   "tags": [
+    "perception"
+   ]
+  },
+  {
+   "id": "sy_034",
+   "en": "cognitive",
+   "ja": "認知の、認識の",
+   "pos": "adj",
+   "ex_en": "Puzzles improve children's cognitive abilities.",
+   "ex_ja": "パズルは子どもの認知能力を向上させる。",
+   "level": 4,
+   "tags": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "sy_035",
+   "en": "coherent",
+   "ja": "一貫した、首尾一貫した",
+   "pos": "adj",
+   "ex_en": "She gave a coherent explanation of the accident.",
+   "ex_ja": "彼女はその事故について一貫した説明をした。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_036",
+   "en": "coincide",
+   "ja": "同時に起こる、一致する",
+   "pos": "verb",
+   "ex_en": "My birthday coincides with the school festival this year.",
+   "ex_ja": "今年は私の誕生日が学園祭と重なっている。",
+   "level": 4,
+   "tags": [
+    "time"
+   ]
+  },
+  {
+   "id": "sy_037",
+   "en": "combat",
+   "ja": "戦う、闘う",
+   "pos": "verb",
+   "ex_en": "The government launched a campaign to combat poverty.",
+   "ex_ja": "政府は貧困と闘うための運動を始めた。",
+   "level": 4,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "sy_038",
+   "en": "commence",
+   "ja": "開始する、着手する",
+   "pos": "verb",
+   "ex_en": "The ceremony will commence at ten o'clock.",
+   "ex_ja": "式典は10時に開始されます。",
+   "level": 4,
+   "tags": [
+    "time"
+   ]
+  },
+  {
+   "id": "sy_039",
+   "en": "compact",
+   "ja": "コンパクトな、密集した",
+   "pos": "adj",
+   "ex_en": "This compact camera fits easily in your pocket.",
+   "ex_ja": "このコンパクトカメラはポケットに簡単に入る。",
+   "level": 4,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "sy_040",
+   "en": "compatible",
+   "ja": "互換性のある、両立できる",
+   "pos": "adj",
+   "ex_en": "This software is compatible with older computers.",
+   "ex_ja": "このソフトウェアは古いコンピューターと互換性がある。",
+   "level": 4,
+   "tags": [
+    "technology"
+   ]
+  },
+  {
+   "id": "sy_041",
+   "en": "compel",
+   "ja": "強制する、強いる",
+   "pos": "verb",
+   "ex_en": "The law compels drivers to wear seat belts.",
+   "ex_ja": "法律は運転手にシートベルト着用を義務付けている。",
+   "level": 4,
+   "tags": [
+    "rule"
+   ]
+  },
+  {
+   "id": "sy_042",
+   "en": "compelling",
+   "ja": "説得力のある、魅力的な",
+   "pos": "adj",
+   "ex_en": "She presented a compelling argument for change.",
+   "ex_ja": "彼女は変革を求める説得力のある議論を展開した。",
+   "level": 4,
+   "tags": [
+    "logic"
+   ]
+  },
+  {
+   "id": "sy_043",
+   "en": "compound",
+   "ja": "複合の、化合物",
+   "pos": "adj",
+   "ex_en": "This compound word is made of two nouns.",
+   "ex_ja": "この複合語は2つの名詞から成り立っている。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sy_044",
+   "en": "comprehend",
+   "ja": "理解する、把握する",
+   "pos": "verb",
+   "ex_en": "It is hard to comprehend the scale of the universe.",
+   "ex_ja": "宇宙の規模を理解するのは難しい。",
+   "level": 4,
+   "tags": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "sy_045",
+   "en": "compress",
+   "ja": "圧縮する、短縮する",
+   "pos": "verb",
+   "ex_en": "You can compress the file to make it smaller.",
+   "ex_ja": "ファイルを圧縮して小さくすることができます。",
+   "level": 4,
+   "tags": [
+    "technology"
+   ]
+  },
+  {
+   "id": "sy_046",
+   "en": "comprise",
+   "ja": "構成する、含む",
+   "pos": "verb",
+   "ex_en": "The committee comprises ten members from various fields.",
+   "ex_ja": "その委員会はさまざまな分野の10人のメンバーで構成されている。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_047",
+   "en": "compulsory",
+   "ja": "義務的な、必須の",
+   "pos": "adj",
+   "ex_en": "English is a compulsory subject in Japanese high schools.",
+   "ex_ja": "英語は日本の高校で必須科目である。",
+   "level": 4,
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "id": "sy_048",
+   "en": "concise",
+   "ja": "簡潔な、簡明な",
+   "pos": "adj",
+   "ex_en": "The summary should be concise and to the point.",
+   "ex_ja": "要約は簡潔で的を射たものであるべきだ。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_049",
+   "en": "concrete",
+   "ja": "具体的な、確かな",
+   "pos": "adj",
+   "ex_en": "The teacher asked for concrete examples in the essay.",
+   "ex_ja": "先生は作文で具体的な例を求めた。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sy_050",
+   "en": "condense",
+   "ja": "凝縮する、要約する",
+   "pos": "verb",
+   "ex_en": "Condense this passage into two sentences.",
+   "ex_ja": "この文章を2文に要約しなさい。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_051",
+   "en": "confer",
+   "ja": "授与する、協議する",
+   "pos": "verb",
+   "ex_en": "The university conferred an honorary degree on the scientist.",
+   "ex_ja": "大学はその科学者に名誉学位を授与した。",
+   "level": 4,
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "id": "sy_052",
+   "en": "confidential",
+   "ja": "秘密の、機密の",
+   "pos": "adj",
+   "ex_en": "The lawyer kept the client's information confidential.",
+   "ex_ja": "弁護士は依頼人の情報を秘密にしておいた。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_053",
+   "en": "conflict",
+   "ja": "衝突、紛争、対立",
+   "pos": "noun",
+   "ex_en": "The conflict between the two countries lasted for years.",
+   "ex_ja": "両国間の紛争は何年も続いた。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_054",
+   "en": "congest",
+   "ja": "混雑させる、詰まらせる",
+   "pos": "verb",
+   "ex_en": "Heavy traffic congested the streets around the stadium.",
+   "ex_ja": "激しい交通でスタジアム周辺の通りは混雑した。",
+   "level": 4,
+   "tags": [
+    "movement"
+   ]
+  },
+  {
+   "id": "sy_055",
+   "en": "consecutive",
+   "ja": "連続した、立て続けの",
+   "pos": "adj",
+   "ex_en": "The team won five consecutive games this season.",
+   "ex_ja": "そのチームは今シーズン5連勝した。",
+   "level": 4,
+   "tags": [
+    "time"
+   ]
+  },
+  {
+   "id": "sy_056",
+   "en": "consensus",
+   "ja": "合意、総意",
+   "pos": "noun",
+   "ex_en": "The committee finally reached a consensus on the budget.",
+   "ex_ja": "委員会はついに予算について合意に達した。",
+   "level": 4,
+   "tags": [
+    "agreement"
+   ]
+  },
+  {
+   "id": "sy_057",
+   "en": "consolidate",
+   "ja": "統合する、強化する",
+   "pos": "verb",
+   "ex_en": "The two schools were consolidated into one larger school.",
+   "ex_ja": "2つの学校は1つの大きな学校に統合された。",
+   "level": 4,
+   "tags": [
+    "change"
+   ]
+  },
+  {
+   "id": "sy_058",
+   "en": "conspicuous",
+   "ja": "目立つ、顕著な",
+   "pos": "adj",
+   "ex_en": "The tall tower is conspicuous from anywhere in the city.",
+   "ex_ja": "その高い塔は市内のどこからでも目立つ。",
+   "level": 4,
+   "tags": [
+    "perception"
+   ]
+  },
+  {
+   "id": "sy_059",
+   "en": "consume",
+   "ja": "消費する、食べる",
+   "pos": "verb",
+   "ex_en": "This car consumes a lot of fuel on highways.",
+   "ex_ja": "この車は高速道路で多くの燃料を消費する。",
+   "level": 4,
+   "tags": [
+    "economy"
+   ]
+  },
+  {
+   "id": "sy_060",
+   "en": "contaminate",
+   "ja": "汚染する、汚す",
+   "pos": "verb",
+   "ex_en": "The factory waste contaminated the nearby river.",
+   "ex_ja": "工場の廃棄物が近くの川を汚染した。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_061",
+   "en": "contemplate",
+   "ja": "熟考する、じっと見つめる",
+   "pos": "verb",
+   "ex_en": "She contemplated moving to a smaller town.",
+   "ex_ja": "彼女は小さな町への引っ越しを熟考した。",
+   "level": 4,
+   "tags": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "sy_062",
+   "en": "contend",
+   "ja": "主張する、競争する",
+   "pos": "verb",
+   "ex_en": "Some experts contend that the theory is outdated.",
+   "ex_ja": "その理論は時代遅れだと主張する専門家もいる。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_063",
+   "en": "contrary",
+   "ja": "反対の、逆の",
+   "pos": "adj",
+   "ex_en": "Contrary to my expectations, the test was easy.",
+   "ex_ja": "私の予想に反して、その試験は簡単だった。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_064",
+   "en": "convey",
+   "ja": "伝える、運ぶ",
+   "pos": "verb",
+   "ex_en": "Words cannot convey how grateful I am.",
+   "ex_ja": "言葉では感謝の気持ちを伝えきれない。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_065",
+   "en": "copyright",
+   "ja": "著作権",
+   "pos": "noun",
+   "ex_en": "You need permission to use copyrighted material.",
+   "ex_ja": "著作権のある資料を使うには許可が必要だ。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_066",
+   "en": "correlate",
+   "ja": "相互に関連する",
+   "pos": "verb",
+   "ex_en": "Stress levels correlate with lack of sleep.",
+   "ex_ja": "ストレスレベルは睡眠不足と相互に関連している。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_067",
+   "en": "corrupt",
+   "ja": "腐敗した、堕落した",
+   "pos": "adj",
+   "ex_en": "The corrupt official was arrested for bribery.",
+   "ex_ja": "その腐敗した役人は贈収賄で逮捕された。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_068",
+   "en": "counterpart",
+   "ja": "対応する人、相手方",
+   "pos": "noun",
+   "ex_en": "The Prime Minister met his French counterpart in Paris.",
+   "ex_ja": "首相はパリでフランスの相手方を訪問した。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_069",
+   "en": "credible",
+   "ja": "信頼できる、信用できる",
+   "pos": "adj",
+   "ex_en": "The witness gave a credible account of the event.",
+   "ex_ja": "その目撃者は事件について信頼できる証言をした。",
+   "level": 4,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "sy_070",
+   "en": "cumulative",
+   "ja": "累積の、蓄積する",
+   "pos": "adj",
+   "ex_en": "The cumulative effect of pollution is hard to measure.",
+   "ex_ja": "汚染の累積的な影響は測定が難しい。",
+   "level": 4,
+   "tags": [
+    "quantity"
+   ]
+  },
+  {
+   "id": "sy_071",
+   "en": "curriculum",
+   "ja": "教育課程、カリキュラム",
+   "pos": "noun",
+   "ex_en": "The school updated its science curriculum this year.",
+   "ex_ja": "その学校は今年、理科の教育課程を更新した。",
+   "level": 4,
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "id": "sy_072",
+   "en": "defect",
+   "ja": "欠陥、欠点",
+   "pos": "noun",
+   "ex_en": "The car was recalled because of a serious defect.",
+   "ex_ja": "その車は重大な欠陥のためリコールされた。",
+   "level": 4,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "sy_073",
+   "en": "deficient",
+   "ja": "不足している、欠乏した",
+   "pos": "adj",
+   "ex_en": "His diet is deficient in vitamins and minerals.",
+   "ex_ja": "彼の食事はビタミンとミネラルが不足している。",
+   "level": 4,
+   "tags": [
+    "quantity"
+   ]
+  },
+  {
+   "id": "sy_074",
+   "en": "defy",
+   "ja": "反抗する、無視する",
+   "pos": "verb",
+   "ex_en": "The athlete defied the odds and won the gold medal.",
+   "ex_ja": "その選手は不利な状況に逆らって金メダルを獲得した。",
+   "level": 4,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "sy_075",
+   "en": "delicate",
+   "ja": "繊細な、微妙な",
+   "pos": "adj",
+   "ex_en": "The surgeon performed a delicate operation on the baby.",
+   "ex_ja": "外科医は赤ちゃんに繊細な手術を行った。",
+   "level": 4,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "sy_076",
+   "en": "demolish",
+   "ja": "取り壊す、破壊する",
+   "pos": "verb",
+   "ex_en": "They demolished the old factory to build a park.",
+   "ex_ja": "彼らは公園を造るため古い工場を取り壊した。",
+   "level": 4,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "sy_077",
+   "en": "dense",
+   "ja": "密集した、濃い",
+   "pos": "adj",
+   "ex_en": "The dense fog made it hard to see the road.",
+   "ex_ja": "濃い霧で道路が見えにくかった。",
+   "level": 4,
+   "tags": [
+    "perception"
+   ]
+  },
+  {
+   "id": "sy_078",
+   "en": "desirable",
+   "ja": "望ましい、好ましい",
+   "pos": "adj",
+   "ex_en": "It is desirable to save money for the future.",
+   "ex_ja": "将来のために貯金するのは望ましいことだ。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_079",
+   "en": "deteriorate",
+   "ja": "悪化する、劣化する",
+   "pos": "verb",
+   "ex_en": "Her health deteriorated rapidly after the operation.",
+   "ex_ja": "手術後、彼女の健康状態は急速に悪化した。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_080",
+   "en": "devastate",
+   "ja": "壊滅させる、荒廃させる",
+   "pos": "verb",
+   "ex_en": "The earthquake devastated the coastal town.",
+   "ex_ja": "地震はその沿岸の町を壊滅させた。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_081",
+   "en": "diagnose",
+   "ja": "診断する、判断する",
+   "pos": "verb",
+   "ex_en": "The doctor diagnosed her illness as diabetes.",
+   "ex_ja": "医師は彼女の病気を糖尿病と診断した。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_082",
+   "en": "dictate",
+   "ja": "指示する、書き取らせる",
+   "pos": "verb",
+   "ex_en": "The boss dictated the letter to his secretary.",
+   "ex_ja": "上司は秘書にその手紙を書き取らせた。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_083",
+   "en": "diffuse",
+   "ja": "広がる、拡散する",
+   "pos": "verb",
+   "ex_en": "The smell of coffee diffused through the room.",
+   "ex_ja": "コーヒーの香りが部屋中に広がった。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_084",
+   "en": "dilemma",
+   "ja": "ジレンマ、板挟み",
+   "pos": "noun",
+   "ex_en": "She faced a dilemma between work and family.",
+   "ex_ja": "彼女は仕事と家庭の間で板挟みになった。",
+   "level": 4,
+   "tags": [
+    "choice"
+   ]
+  },
+  {
+   "id": "sy_085",
+   "en": "diligent",
+   "ja": "勤勉な、努力を惜しまない",
+   "pos": "adj",
+   "ex_en": "He is a diligent student who studies every day.",
+   "ex_ja": "彼は毎日勉強する勤勉な生徒だ。",
+   "level": 4,
+   "tags": [
+    "personality"
+   ]
+  },
+  {
+   "id": "sy_086",
+   "en": "dimension",
+   "ja": "寸法、次元、側面",
+   "pos": "noun",
+   "ex_en": "We need to measure the dimensions of the room.",
+   "ex_ja": "部屋の寸法を測る必要がある。",
+   "level": 4,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "sy_087",
+   "en": "discriminate",
+   "ja": "差別する、区別する",
+   "pos": "verb",
+   "ex_en": "It is illegal to discriminate against people by age.",
+   "ex_ja": "年齢で人を差別するのは違法だ。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_088",
+   "en": "disorder",
+   "ja": "障害、混乱",
+   "pos": "noun",
+   "ex_en": "The classroom fell into disorder when the teacher left.",
+   "ex_ja": "先生が去ると教室は混乱に陥った。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_089",
+   "en": "dispose",
+   "ja": "処分する、配置する",
+   "pos": "verb",
+   "ex_en": "Please dispose of the batteries in the recycling box.",
+   "ex_ja": "電池はリサイクルボックスに処分してください。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_090",
+   "en": "dispute",
+   "ja": "論争、紛争",
+   "pos": "noun",
+   "ex_en": "The dispute over the land lasted for decades.",
+   "ex_ja": "その土地をめぐる紛争は数十年続いた。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_091",
+   "en": "disrupt",
+   "ja": "混乱させる、中断させる",
+   "pos": "verb",
+   "ex_en": "The storm disrupted the train service for hours.",
+   "ex_ja": "嵐は数時間にわたり列車の運行を混乱させた。",
+   "level": 4,
+   "tags": [
+    "change"
+   ]
+  },
+  {
+   "id": "sy_092",
+   "en": "distort",
+   "ja": "歪める、曲解する",
+   "pos": "verb",
+   "ex_en": "The media distorted his words to attract attention.",
+   "ex_ja": "メディアは注目を集めるため彼の発言を歪めた。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_093",
+   "en": "divert",
+   "ja": "そらす、迂回させる",
+   "pos": "verb",
+   "ex_en": "The police diverted the traffic to another road.",
+   "ex_ja": "警察は交通を別の道路へ迂回させた。",
+   "level": 4,
+   "tags": [
+    "movement"
+   ]
+  },
+  {
+   "id": "sy_094",
+   "en": "domain",
+   "ja": "領域、分野、支配地",
+   "pos": "noun",
+   "ex_en": "Quantum physics is outside my domain of knowledge.",
+   "ex_ja": "量子物理学は私の知識の領域の外だ。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sy_095",
+   "en": "donate",
+   "ja": "寄付する、寄贈する",
+   "pos": "verb",
+   "ex_en": "She donated her old clothes to charity.",
+   "ex_ja": "彼女は古着を慈善団体に寄付した。",
+   "level": 4,
+   "tags": [
+    "support"
+   ]
+  },
+  {
+   "id": "sy_096",
+   "en": "doom",
+   "ja": "運命づける、破滅",
+   "pos": "verb",
+   "ex_en": "The project was doomed from the very beginning.",
+   "ex_ja": "その計画は最初から運命づけられていた。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_097",
+   "en": "drastic",
+   "ja": "劇的な、徹底的な",
+   "pos": "adj",
+   "ex_en": "The company made drastic cuts to its budget.",
+   "ex_ja": "その会社は予算を徹底的に削減した。",
+   "level": 4,
+   "tags": [
+    "change"
+   ]
+  },
+  {
+   "id": "sy_098",
+   "en": "eccentric",
+   "ja": "風変わりな、奇抜な",
+   "pos": "adj",
+   "ex_en": "The eccentric inventor kept dozens of cats at home.",
+   "ex_ja": "その風変わりな発明家は家で何十匹もの猫を飼っていた。",
+   "level": 4,
+   "tags": [
+    "personality"
+   ]
+  },
+  {
+   "id": "sy_099",
+   "en": "eclipse",
+   "ja": "覆い隠す、凌ぐ",
+   "pos": "verb",
+   "ex_en": "The new hit song eclipsed all previous records.",
+   "ex_ja": "新しいヒット曲はこれまでの記録をすべて覆した。",
+   "level": 4,
+   "tags": [
+    "change"
+   ]
+  },
+  {
+   "id": "sy_100",
+   "en": "elevate",
+   "ja": "高める、昇進させる",
+   "pos": "verb",
+   "ex_en": "Regular exercise elevates your mood and energy.",
+   "ex_ja": "定期的な運動は気分と活力を高める。",
+   "level": 4,
+   "tags": [
+    "change"
+   ]
+  },
+  {
+   "id": "sy_101",
+   "en": "embark",
+   "ja": "乗り出す、着手する",
+   "pos": "verb",
+   "ex_en": "She embarked on a new career as a writer.",
+   "ex_ja": "彼女は作家としての新しいキャリアに乗り出した。",
+   "level": 4,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "sy_102",
+   "en": "embed",
+   "ja": "埋め込む、深く刻む",
+   "pos": "verb",
+   "ex_en": "The video was embedded in the presentation slide.",
+   "ex_ja": "その動画はプレゼンのスライドに埋め込まれていた。",
+   "level": 4,
+   "tags": [
+    "technology"
+   ]
+  },
+  {
+   "id": "sy_103",
+   "en": "embody",
+   "ja": "体現する、具現化する",
+   "pos": "verb",
+   "ex_en": "She embodies the spirit of the Olympic games.",
+   "ex_ja": "彼女はオリンピックの精神を体現している。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_104",
+   "en": "empower",
+   "ja": "権限を与える、力を与える",
+   "pos": "verb",
+   "ex_en": "Education empowers people to change their lives.",
+   "ex_ja": "教育は人々に人生を変える力を与える。",
+   "level": 4,
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "id": "sy_105",
+   "en": "enact",
+   "ja": "制定する、実施する",
+   "pos": "verb",
+   "ex_en": "The government enacted a new law to protect privacy.",
+   "ex_ja": "政府はプライバシーを守る新しい法律を制定した。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_106",
+   "en": "encompass",
+   "ja": "含む、包括する",
+   "pos": "verb",
+   "ex_en": "The course encompasses history, art, and music.",
+   "ex_ja": "そのコースは歴史、芸術、音楽を含んでいる。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sy_107",
+   "en": "enroll",
+   "ja": "入学する、登録する",
+   "pos": "verb",
+   "ex_en": "She enrolled in a photography class last spring.",
+   "ex_ja": "彼女は去年の春、写真のクラスに入学した。",
+   "level": 4,
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "id": "sy_108",
+   "en": "entertain",
+   "ja": "楽しませる、もてなす",
+   "pos": "verb",
+   "ex_en": "The magician entertained the children for an hour.",
+   "ex_ja": "そのマジシャンは1時間、子どもたちを楽しませた。",
+   "level": 4,
+   "tags": [
+    "art"
+   ]
+  },
+  {
+   "id": "sy_109",
+   "en": "entitle",
+   "ja": "資格を与える、権利を与える",
+   "pos": "verb",
+   "ex_en": "This ticket entitles you to a free drink.",
+   "ex_ja": "このチケットで無料の飲み物1杯の権利が得られる。",
+   "level": 4,
+   "tags": [
+    "rule"
+   ]
+  },
+  {
+   "id": "sy_110",
+   "en": "enumerate",
+   "ja": "列挙する、数え上げる",
+   "pos": "verb",
+   "ex_en": "Please enumerate the reasons for your decision.",
+   "ex_ja": "あなたの決断の理由を列挙してください。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_111",
+   "en": "erupt",
+   "ja": "噴火する、爆発する",
+   "pos": "verb",
+   "ex_en": "The volcano erupted after being quiet for years.",
+   "ex_ja": "その火山は長年静かだった後、噴火した。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_112",
+   "en": "ethnic",
+   "ja": "民族の、エスニックの",
+   "pos": "adj",
+   "ex_en": "The city has a rich variety of ethnic foods.",
+   "ex_ja": "その都市には多様な民族料理がある。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_113",
+   "en": "evident",
+   "ja": "明らかな、明白な",
+   "pos": "adj",
+   "ex_en": "It is evident that she has practiced a lot.",
+   "ex_ja": "彼女がたくさん練習したことは明らかだ。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_114",
+   "en": "evolve",
+   "ja": "進化する、発展する",
+   "pos": "verb",
+   "ex_en": "The company evolved from a small family shop.",
+   "ex_ja": "その会社は小さな家族経営の店から発展した。",
+   "level": 4,
+   "tags": [
+    "change"
+   ]
+  },
+  {
+   "id": "sy_115",
+   "en": "exaggerate",
+   "ja": "誇張する、大げさに言う",
+   "pos": "verb",
+   "ex_en": "Don't exaggerate; the fish was only this big.",
+   "ex_ja": "誇張しないで、魚はこのくらいの大きさだったよ。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_116",
+   "en": "expel",
+   "ja": "追放する、退学させる",
+   "pos": "verb",
+   "ex_en": "He was expelled from school for cheating.",
+   "ex_ja": "彼はカンニングで学校を退学になった。",
+   "level": 4,
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "id": "sy_117",
+   "en": "extend",
+   "ja": "延長する、広げる",
+   "pos": "verb",
+   "ex_en": "The museum extended its opening hours in summer.",
+   "ex_ja": "その美術館は夏に開館時間を延長した。",
+   "level": 4,
+   "tags": [
+    "time"
+   ]
+  },
+  {
+   "id": "sy_118",
+   "en": "fabricate",
+   "ja": "捏造する、製造する",
+   "pos": "verb",
+   "ex_en": "The company fabricated the test results to sell more.",
+   "ex_ja": "その会社は売上を伸ばすため試験結果を捏造した。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_119",
+   "en": "fatal",
+   "ja": "致命的な、命に関わる",
+   "pos": "adj",
+   "ex_en": "The driver made a fatal mistake on the highway.",
+   "ex_ja": "その運転手は高速道路で致命的なミスを犯した。",
+   "level": 4,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "sy_120",
+   "en": "forbid",
+   "ja": "禁じる、禁止する",
+   "pos": "verb",
+   "ex_en": "The rules forbid smoking anywhere in the building.",
+   "ex_ja": "規則は建物内のどこでも喫煙を禁じている。",
+   "level": 4,
+   "tags": [
+    "rule"
+   ]
+  },
+  {
+   "id": "sy_121",
+   "en": "fragment",
+   "ja": "断片、破片",
+   "pos": "noun",
+   "ex_en": "Fragments of the broken vase lay on the floor.",
+   "ex_ja": "割れた花瓶の破片が床に散らばっていた。",
+   "level": 4,
+   "tags": [
+    "quantity"
+   ]
+  },
+  {
+   "id": "sy_122",
+   "en": "fraud",
+   "ja": "詐欺、不正",
+   "pos": "noun",
+   "ex_en": "He was sent to prison for credit card fraud.",
+   "ex_ja": "彼はクレジットカード詐欺で刑務所に入れられた。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_123",
+   "en": "harness",
+   "ja": "活用する、利用する",
+   "pos": "verb",
+   "ex_en": "The town harnesses solar energy for its streetlights.",
+   "ex_ja": "その町は街灯に太陽エネルギーを活用している。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_124",
+   "en": "hazard",
+   "ja": "危険、危険物",
+   "pos": "noun",
+   "ex_en": "Wet floors are a hazard in busy kitchens.",
+   "ex_ja": "濡れた床は忙しい厨房では危険だ。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_125",
+   "en": "hemisphere",
+   "ja": "半球",
+   "pos": "noun",
+   "ex_en": "The Northern Hemisphere has longer days in summer.",
+   "ex_ja": "北半球では夏に日が長くなる。",
+   "level": 4,
+   "tags": [
+    "geography"
+   ]
+  },
+  {
+   "id": "sy_126",
+   "en": "hollow",
+   "ja": "中空の、虚ろな",
+   "pos": "adj",
+   "ex_en": "The tree trunk was hollow inside after many years.",
+   "ex_ja": "その木の幹は長年の間に中が空洞になった。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_127",
+   "en": "humid",
+   "ja": "湿度の高い、蒸し暑い",
+   "pos": "adj",
+   "ex_en": "Tokyo is hot and humid during the summer.",
+   "ex_ja": "東京は夏の間、暑くて湿度が高い。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_128",
+   "en": "ignite",
+   "ja": "点火する、燃え上がらせる",
+   "pos": "verb",
+   "ex_en": "A single spark ignited the dry grass.",
+   "ex_ja": "ひとつの火花が乾いた草に引火した。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_129",
+   "en": "illuminate",
+   "ja": "照らす、明らかにする",
+   "pos": "verb",
+   "ex_en": "The fireworks illuminated the night sky.",
+   "ex_ja": "花火が夜空を照らした。",
+   "level": 4,
+   "tags": [
+    "perception"
+   ]
+  },
+  {
+   "id": "sy_130",
+   "en": "illustrate",
+   "ja": "説明する、挿絵を入れる",
+   "pos": "verb",
+   "ex_en": "The chart illustrates the growth of the economy.",
+   "ex_ja": "その図表は経済の成長を説明している。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sy_131",
+   "en": "immerse",
+   "ja": "浸す、没頭させる",
+   "pos": "verb",
+   "ex_en": "She immersed herself in the study of history.",
+   "ex_ja": "彼女は歴史の研究に没頭した。",
+   "level": 4,
+   "tags": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "sy_132",
+   "en": "immune",
+   "ja": "免疫のある、影響を受けない",
+   "pos": "adj",
+   "ex_en": "Children are immune to some diseases after vaccination.",
+   "ex_ja": "予防接種後、子どもはいくつかの病気に免疫がある。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_133",
+   "en": "impair",
+   "ja": "損なう、弱める",
+   "pos": "verb",
+   "ex_en": "Loud noise can impair your hearing permanently.",
+   "ex_ja": "大きな騒音は聴力を永久的に損なうことがある。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_134",
+   "en": "impulse",
+   "ja": "衝動、推進力",
+   "pos": "noun",
+   "ex_en": "She bought the dress on impulse without trying it on.",
+   "ex_ja": "彼女は試着もせず衝動的にそのドレスを買った。",
+   "level": 4,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "sy_135",
+   "en": "incline",
+   "ja": "傾ける、傾向がある",
+   "pos": "verb",
+   "ex_en": "I incline to agree with your opinion.",
+   "ex_ja": "私はあなたの意見に賛成の傾向がある。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_136",
+   "en": "incur",
+   "ja": "招く、負う",
+   "pos": "verb",
+   "ex_en": "He incurred huge debts by gambling.",
+   "ex_ja": "彼は賭博で莫大な借金を負った。",
+   "level": 4,
+   "tags": [
+    "economy"
+   ]
+  },
+  {
+   "id": "sy_137",
+   "en": "indigenous",
+   "ja": "先住の、土着の",
+   "pos": "adj",
+   "ex_en": "The island is home to many indigenous plants.",
+   "ex_ja": "その島には多くの固有植物が生息している。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_138",
+   "en": "inferior",
+   "ja": "劣った、下位の",
+   "pos": "adj",
+   "ex_en": "This product is inferior to the one we tried last time.",
+   "ex_ja": "この製品は前回試したものより劣っている。",
+   "level": 4,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "sy_139",
+   "en": "inflate",
+   "ja": "膨らませる、水増しする",
+   "pos": "verb",
+   "ex_en": "The dealer inflated the price of the old car.",
+   "ex_ja": "その販売店は中古車の値段を水増しした。",
+   "level": 4,
+   "tags": [
+    "economy"
+   ]
+  },
+  {
+   "id": "sy_140",
+   "en": "influential",
+   "ja": "影響力のある",
+   "pos": "adj",
+   "ex_en": "She is one of the most influential writers today.",
+   "ex_ja": "彼女は今日最も影響力のある作家の一人だ。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_141",
+   "en": "ingenious",
+   "ja": "独創的な、巧妙な",
+   "pos": "adj",
+   "ex_en": "He came up with an ingenious solution to the problem.",
+   "ex_ja": "彼はその問題に対する独創的な解決策を思いついた。",
+   "level": 4,
+   "tags": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "sy_142",
+   "en": "inherit",
+   "ja": "相続する、受け継ぐ",
+   "pos": "verb",
+   "ex_en": "She inherited a small house from her grandmother.",
+   "ex_ja": "彼女は祖母から小さな家を相続した。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_143",
+   "en": "inject",
+   "ja": "注入する、注射する",
+   "pos": "verb",
+   "ex_en": "The nurse injected the medicine into his arm.",
+   "ex_ja": "看護師は彼の腕に薬を注射した。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_144",
+   "en": "inspect",
+   "ja": "検査する、点検する",
+   "pos": "verb",
+   "ex_en": "Officials inspected the factory for safety problems.",
+   "ex_ja": "担当官は安全上の問題を調べるため工場を検査した。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_145",
+   "en": "inspire",
+   "ja": "奮起させる、刺激する",
+   "pos": "verb",
+   "ex_en": "Her speech inspired many young students.",
+   "ex_ja": "彼女のスピーチは多くの若い生徒を奮起させた。",
+   "level": 4,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "sy_146",
+   "en": "install",
+   "ja": "設置する、取り付ける",
+   "pos": "verb",
+   "ex_en": "We installed a new air conditioner in the bedroom.",
+   "ex_ja": "私たちは寝室に新しいエアコンを設置した。",
+   "level": 4,
+   "tags": [
+    "housing"
+   ]
+  },
+  {
+   "id": "sy_147",
+   "en": "instinct",
+   "ja": "本能、直感",
+   "pos": "noun",
+   "ex_en": "Birds build nests by instinct, not by learning.",
+   "ex_ja": "鳥は学習ではなく本能で巣を作る。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_148",
+   "en": "intense",
+   "ja": "激しい、強烈な",
+   "pos": "adj",
+   "ex_en": "The intense heat made it impossible to work outside.",
+   "ex_ja": "激しい暑さで外で働くことは不可能だった。",
+   "level": 4,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "sy_149",
+   "en": "interfere",
+   "ja": "干渉する、妨害する",
+   "pos": "verb",
+   "ex_en": "Don't interfere with the teacher's decision.",
+   "ex_ja": "先生の決定に干渉しないでください。",
+   "level": 4,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "sy_150",
+   "en": "internal",
+   "ja": "内部の、内側の",
+   "pos": "adj",
+   "ex_en": "The company is having an internal investigation.",
+   "ex_ja": "その会社は内部調査を行っている。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_151",
+   "en": "intimidate",
+   "ja": "威嚇する、おじけづかせる",
+   "pos": "verb",
+   "ex_en": "The gang tried to intimidate the new witness.",
+   "ex_ja": "そのギャングは新しい証人を威嚇しようとした。",
+   "level": 4,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "sy_152",
+   "en": "invade",
+   "ja": "侵略する、侵入する",
+   "pos": "verb",
+   "ex_en": "The army invaded the neighboring country at dawn.",
+   "ex_ja": "軍は夜明けに隣国を侵略した。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_153",
+   "en": "invalidate",
+   "ja": "無効にする、覆す",
+   "pos": "verb",
+   "ex_en": "The court invalidated the old election result.",
+   "ex_ja": "裁判所は古い選挙結果を無効にした。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_154",
+   "en": "isolate",
+   "ja": "孤立させる、隔離する",
+   "pos": "verb",
+   "ex_en": "The patient was isolated to stop the infection.",
+   "ex_ja": "感染を防ぐためその患者は隔離された。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_155",
+   "en": "levy",
+   "ja": "課す、徴収する",
+   "pos": "verb",
+   "ex_en": "The city levied a new tax on vacant houses.",
+   "ex_ja": "その市は空き家に新しい税金を課した。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_156",
+   "en": "liable",
+   "ja": "責任がある、負う傾向がある",
+   "pos": "adj",
+   "ex_en": "Parents are liable for damage caused by their children.",
+   "ex_ja": "親は子どもの起こした損害に対して責任がある。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_157",
+   "en": "literal",
+   "ja": "文字通りの、逐語の",
+   "pos": "adj",
+   "ex_en": "The literal meaning of the word is quite different.",
+   "ex_ja": "その言葉の文字通りの意味はかなり異なる。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_158",
+   "en": "magnify",
+   "ja": "拡大する、誇張する",
+   "pos": "verb",
+   "ex_en": "The microscope magnifies tiny cells a thousand times.",
+   "ex_ja": "顕微鏡は小さな細胞を1000倍に拡大する。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_159",
+   "en": "manifest",
+   "ja": "明らかな、明白な",
+   "pos": "adj",
+   "ex_en": "Her talent was manifest from an early age.",
+   "ex_ja": "彼女の才能は幼い頃から明らかだった。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_160",
+   "en": "migrate",
+   "ja": "移住する、移動する",
+   "pos": "verb",
+   "ex_en": "Many birds migrate south before winter comes.",
+   "ex_ja": "多くの鳥は冬が来る前に南へ移動する。",
+   "level": 4,
+   "tags": [
+    "movement"
+   ]
+  },
+  {
+   "id": "sy_161",
+   "en": "minimize",
+   "ja": "最小限にする、軽視する",
+   "pos": "verb",
+   "ex_en": "We should minimize the use of plastic bags.",
+   "ex_ja": "私たちはレジ袋の使用を最小限にすべきだ。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_162",
+   "en": "momentum",
+   "ja": "勢い、推進力",
+   "pos": "noun",
+   "ex_en": "The campaign gained momentum after the speech.",
+   "ex_ja": "その運動はスピーチの後、勢いを増した。",
+   "level": 4,
+   "tags": [
+    "movement"
+   ]
+  },
+  {
+   "id": "sy_163",
+   "en": "monopoly",
+   "ja": "独占、独占企業",
+   "pos": "noun",
+   "ex_en": "The company has a monopoly on high-speed trains.",
+   "ex_ja": "その会社は高速鉄道を独占している。",
+   "level": 4,
+   "tags": [
+    "economy"
+   ]
+  },
+  {
+   "id": "sy_164",
+   "en": "motive",
+   "ja": "動機、理由",
+   "pos": "noun",
+   "ex_en": "The police are looking for a motive for the crime.",
+   "ex_ja": "警察はその犯罪の動機を探している。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_165",
+   "en": "nurture",
+   "ja": "育てる、養育する",
+   "pos": "verb",
+   "ex_en": "Parents nurture their children with love and care.",
+   "ex_ja": "親は愛と気遣いで子どもを育てる。",
+   "level": 4,
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "id": "sy_166",
+   "en": "obligate",
+   "ja": "義務づける、強いる",
+   "pos": "verb",
+   "ex_en": "The contract obligates both sides to keep the secret.",
+   "ex_ja": "契約は両者に秘密を守る義務を課している。",
+   "level": 4,
+   "tags": [
+    "rule"
+   ]
+  },
+  {
+   "id": "sy_167",
+   "en": "obsolete",
+   "ja": "時代遅れの、廃れた",
+   "pos": "adj",
+   "ex_en": "These old computers are now obsolete.",
+   "ex_ja": "これらの古いコンピューターは今や時代遅れだ。",
+   "level": 4,
+   "tags": [
+    "technology"
+   ]
+  },
+  {
+   "id": "sy_168",
+   "en": "ominous",
+   "ja": "不吉な、前兆となる",
+   "pos": "adj",
+   "ex_en": "Dark clouds gathered, an ominous sign of a storm.",
+   "ex_ja": "暗い雲が集まり、嵐の不吉な前兆となった。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_169",
+   "en": "optimistic",
+   "ja": "楽観的な、楽天的な",
+   "pos": "adj",
+   "ex_en": "She remains optimistic about her job search.",
+   "ex_ja": "彼女は仕事探しについて楽観的でいる。",
+   "level": 4,
+   "tags": [
+    "personality"
+   ]
+  },
+  {
+   "id": "sy_170",
+   "en": "outweigh",
+   "ja": "勝る、上回る",
+   "pos": "verb",
+   "ex_en": "The benefits of the plan outweigh the risks.",
+   "ex_ja": "その計画の利益はリスクを上回る。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_171",
+   "en": "paradigm",
+   "ja": "規範、パラダイム",
+   "pos": "noun",
+   "ex_en": "The discovery created a new paradigm in physics.",
+   "ex_ja": "その発見は物理学に新しいパラダイムを生み出した。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sy_172",
+   "en": "passive",
+   "ja": "受動的な、消極的な",
+   "pos": "adj",
+   "ex_en": "He took a passive role in the group discussion.",
+   "ex_ja": "彼はグループ討論で受動的な役割をとった。",
+   "level": 4,
+   "tags": [
+    "personality"
+   ]
+  },
+  {
+   "id": "sy_173",
+   "en": "patent",
+   "ja": "特許、特許権",
+   "pos": "noun",
+   "ex_en": "The company owns the patent for the new battery.",
+   "ex_ja": "その会社は新しい電池の特許を所有している。",
+   "level": 4,
+   "tags": [
+    "technology"
+   ]
+  },
+  {
+   "id": "sy_174",
+   "en": "penetrate",
+   "ja": "貫通する、浸透する",
+   "pos": "verb",
+   "ex_en": "The bullet penetrated the metal door.",
+   "ex_ja": "銃弾は金属のドアを貫通した。",
+   "level": 4,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "sy_175",
+   "en": "perpetual",
+   "ja": "永久の、絶え間ない",
+   "pos": "adj",
+   "ex_en": "The village is covered in perpetual fog.",
+   "ex_ja": "その村は絶え間ない霧に覆われている。",
+   "level": 4,
+   "tags": [
+    "time"
+   ]
+  },
+  {
+   "id": "sy_176",
+   "en": "pertinent",
+   "ja": "適切な、関連のある",
+   "pos": "adj",
+   "ex_en": "Please stick to the pertinent questions in the interview.",
+   "ex_ja": "面接では関連のある質問に絞ってください。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_177",
+   "en": "phase",
+   "ja": "段階、局面",
+   "pos": "noun",
+   "ex_en": "The project is still in the planning phase.",
+   "ex_ja": "その計画はまだ企画段階にある。",
+   "level": 4,
+   "tags": [
+    "time"
+   ]
+  },
+  {
+   "id": "sy_178",
+   "en": "pledge",
+   "ja": "誓う、公約する",
+   "pos": "verb",
+   "ex_en": "The mayor pledged to reduce traffic in the city.",
+   "ex_ja": "市長は市内の交通量を減らすと誓った。",
+   "level": 4,
+   "tags": [
+    "agreement"
+   ]
+  },
+  {
+   "id": "sy_179",
+   "en": "pose",
+   "ja": "引き起こす、提起する",
+   "pos": "verb",
+   "ex_en": "Air pollution poses a serious threat to health.",
+   "ex_ja": "大気汚染は健康に深刻な脅威をもたらす。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_180",
+   "en": "practical",
+   "ja": "実用的な、実際の",
+   "pos": "adj",
+   "ex_en": "The course teaches practical skills for daily life.",
+   "ex_ja": "その講座は日常生活の実用的な技術を教える。",
+   "level": 4,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "sy_181",
+   "en": "predict",
+   "ja": "予言する、予測する",
+   "pos": "verb",
+   "ex_en": "Scientists predict a warmer winter this year.",
+   "ex_ja": "科学者たちは今年は暖冬になると予測している。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_182",
+   "en": "preserve",
+   "ja": "保存する、保護する",
+   "pos": "verb",
+   "ex_en": "We must preserve the forest for future generations.",
+   "ex_ja": "将来の世代のために森林を保護しなければならない。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_183",
+   "en": "priority",
+   "ja": "優先事項、優先度",
+   "pos": "noun",
+   "ex_en": "Safety is our top priority at the factory.",
+   "ex_ja": "工場では安全が最優先事項です。",
+   "level": 4,
+   "tags": [
+    "choice"
+   ]
+  },
+  {
+   "id": "sy_184",
+   "en": "proclaim",
+   "ja": "宣言する、公言する",
+   "pos": "verb",
+   "ex_en": "The country proclaimed its independence in 1945.",
+   "ex_ja": "その国は1945年に独立を宣言した。",
+   "level": 4,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "sy_185",
+   "en": "procure",
+   "ja": "調達する、入手する",
+   "pos": "verb",
+   "ex_en": "The hospital procured new machines with a grant.",
+   "ex_ja": "病院は助成金で新しい機器を調達した。",
+   "level": 4,
+   "tags": [
+    "economy"
+   ]
+  },
+  {
+   "id": "sy_186",
+   "en": "profound",
+   "ja": "深い、深遠な",
+   "pos": "adj",
+   "ex_en": "The book had a profound effect on my thinking.",
+   "ex_ja": "その本は私の考え方に深い影響を与えた。",
+   "level": 4,
+   "tags": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "sy_187",
+   "en": "prohibit",
+   "ja": "禁止する、禁じる",
+   "pos": "verb",
+   "ex_en": "The law prohibits the sale of alcohol to minors.",
+   "ex_ja": "法律は未成年へのアルコール販売を禁止している。",
+   "level": 4,
+   "tags": [
+    "law"
+   ]
+  },
+  {
+   "id": "sy_188",
+   "en": "project",
+   "ja": "予測する、投影する",
+   "pos": "verb",
+   "ex_en": "The company projects a 10% increase in sales.",
+   "ex_ja": "その会社は売上10%増を予測している。",
+   "level": 4,
+   "tags": [
+    "economy"
+   ]
+  },
+  {
+   "id": "sy_189",
+   "en": "prolong",
+   "ja": "延ばす、長引かせる",
+   "pos": "verb",
+   "ex_en": "The medicine prolonged his life by several years.",
+   "ex_ja": "その薬は彼の命を数年延ばした。",
+   "level": 4,
+   "tags": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "sy_190",
+   "en": "prominent",
+   "ja": "著名な、目立った",
+   "pos": "adj",
+   "ex_en": "She is a prominent figure in the field of biology.",
+   "ex_ja": "彼女は生物学の分野で著名な人物だ。",
+   "level": 4,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "sy_191",
+   "en": "promote",
+   "ja": "促進する、昇進させる",
+   "pos": "verb",
+   "ex_en": "The government promotes the use of renewable energy.",
+   "ex_ja": "政府は再生可能エネルギーの利用を促進している。",
+   "level": 4,
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "sy_192",
+   "en": "propel",
+   "ja": "推進する、駆り立てる",
+   "pos": "verb",
+   "ex_en": "The rocket is propelled by liquid fuel.",
+   "ex_ja": "そのロケットは液体燃料で推進される。",
+   "level": 4,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "sy_193",
+   "en": "proportion",
+   "ja": "割合、比率、バランス",
+   "pos": "noun",
+   "ex_en": "A large proportion of the students walk to school.",
+   "ex_ja": "生徒の大きな割合が歩いて学校に通う。",
+   "level": 4,
+   "tags": [
+    "quantity"
+   ]
+  },
+  {
+   "id": "sy_194",
+   "en": "prospect",
+   "ja": "見込み、可能性",
+   "pos": "noun",
+   "ex_en": "The prospect of rain forced us to cancel the picnic.",
+   "ex_ja": "雨の見込みのため私たちはピクニックを中止した。",
+   "level": 4,
+   "tags": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "sy_195",
+   "en": "provoke",
+   "ja": "引き起こす、怒らせる",
+   "pos": "verb",
+   "ex_en": "His rude comment provoked a strong reaction.",
+   "ex_ja": "彼の失礼な発言は強い反応を引き起こした。",
+   "level": 4,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "sy_196",
+   "en": "pursue",
+   "ja": "追い求める、追跡する",
+   "pos": "verb",
+   "ex_en": "She decided to pursue a career in medicine.",
+   "ex_ja": "彼女は医療の道を追い求めることにした。",
+   "level": 4,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "sy_197",
+   "en": "qualitative",
+   "ja": "質的な、性質上の",
+   "pos": "adj",
+   "ex_en": "The survey focused on qualitative data about habits.",
+   "ex_ja": "その調査は習慣に関する質的データに焦点を当てた。",
+   "level": 4,
+   "tags": [
+    "academic"
+   ]
+  },
+  {
+   "id": "sy_198",
+   "en": "quantify",
+   "ja": "数量化する、数値化する",
+   "pos": "verb",
+   "ex_en": "It is hard to quantify the value of friendship.",
+   "ex_ja": "友情の価値を数値化するのは難しい。",
+   "level": 4,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "sy_199",
+   "en": "quota",
+   "ja": "割り当て、ノルマ",
+   "pos": "noun",
+   "ex_en": "The company set a quota of fifty calls per day.",
+   "ex_ja": "その会社は1日50件の電話のノルマを設定した。",
+   "level": 4,
+   "tags": [
+    "quantity"
+   ]
+  },
+  {
+   "id": "sy_200",
+   "en": "radical",
+   "ja": "根本的な、急進的な",
+   "pos": "adj",
+   "ex_en": "The school needs radical changes to its system.",
+   "ex_ja": "その学校は制度の根本的な変更が必要だ。",
+   "level": 4,
+   "tags": [
+    "change"
+   ]
+  }
+ ]
+}

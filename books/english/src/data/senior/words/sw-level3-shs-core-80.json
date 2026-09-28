@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "file": "sw-level3-shs-core-80",
+    "stage": "senior",
+    "description": "高校頻出コア80語"
+  },
+  "words": [
+    {
+      "id": "sw002",
+      "en": "provide",
+      "ja": "提供する",
+      "pos": "verb",
+      "ex_en": "The school provides lunch for all students.",
+      "ex_ja": "その学校は全生徒に昼食を提供しています。",
+      "level": 3,
+      "tags": [
+        "give"
+      ]
+    },
+    {
+      "id": "sw003",
+      "en": "require",
+      "ja": "必要とする、要求する",
+      "pos": "verb",
+      "ex_en": "This job requires computer skills.",
+      "ex_ja": "この仕事はコンピューターのスキルを必要とします。",
+      "level": 3,
+      "tags": [
+        "need"
+      ]
+    },
+    {
+      "id": "sw006",
+      "en": "available",
+      "ja": "利用できる、入手可能な",
+      "pos": "adj",
+      "ex_en": "Tickets are available at the door.",
+      "ex_ja": "チケットは当日受付で手に入ります。",
+      "level": 3,
+      "tags": [
+        "use"
+      ]
+    },
+    {
+      "id": "sw007",
+      "en": "consider",
+      "ja": "考慮する、考える",
+      "pos": "verb",
+      "ex_en": "Please consider my suggestion carefully.",
+      "ex_ja": "私の提案をよく検討してください。",
+      "level": 3,
+      "tags": [
+        "thinking"
+      ]
+    },
+    {
+      "id": "sw009",
+      "en": "influence",
+      "ja": "影響、影響力",
+      "pos": "noun",
+      "ex_en": "His father had a great influence on his life.",
+      "ex_ja": "彼の父は彼の人生に大きな影響を与えました。",
+      "level": 3,
+      "tags": [
+        "effect"
+      ]
+    },
+    {
+      "id": "sw010",
+      "en": "suggest",
+      "ja": "示唆する、提案する",
+      "pos": "verb",
+      "ex_en": "The report suggests that exercise improves memory.",
+      "ex_ja": "その報告書は、運動が記憶力を高めることを示唆しています。",
+      "level": 3,
+      "tags": [
+        "idea"
+      ]
+    },
+    {
+      "id": "sw011",
+      "en": "remain",
+      "ja": "残る、～のままである",
+      "pos": "verb",
+      "ex_en": "Please remain in your seats until the bus stops.",
+      "ex_ja": "バスが止まるまで座席に座ったままいてください。",
+      "level": 3,
+      "tags": [
+        "state"
+      ]
+    },
+    {
+      "id": "sw012",
+      "en": "occur",
+      "ja": "起こる",
+      "pos": "verb",
+      "ex_en": "Earthquakes occur frequently in Japan.",
+      "ex_ja": "日本では地震が頻繁に起こります。",
+      "level": 3,
+      "tags": [
+        "happen"
+      ]
+    },
+    {
+      "id": "sw013",
+      "en": "contain",
+      "ja": "含む",
+      "pos": "verb",
+      "ex_en": "This juice contains no sugar.",
+      "ex_ja": "このジュースには砂糖が含まれていません。",
+      "level": 3,
+      "tags": [
+        "include"
+      ]
+    },
+    {
+      "id": "sw014",
+      "en": "express",
+      "ja": "表現する",
+      "pos": "verb",
+      "ex_en": "It is difficult to express my feelings in English.",
+      "ex_ja": "自分の気持ちを英語で表現するのは難しいです。",
+      "level": 3,
+      "tags": [
+        "language"
+      ]
+    },
+    {
+      "id": "sw016",
+      "en": "reduce",
+      "ja": "減らす、減少させる",
+      "pos": "verb",
+      "ex_en": "We must reduce plastic waste.",
+      "ex_ja": "プラスチックごみを減らさなければなりません。",
+      "level": 3,
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "id": "sw027",
+      "en": "education",
+      "ja": "教育",
+      "pos": "noun",
+      "ex_en": "Education gives people more chances in life.",
+      "ex_ja": "教育は人々に人生でより多くの機会を与えます。",
+      "level": 3,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "sw028",
+      "en": "opportunity",
+      "ja": "機会",
+      "pos": "noun",
+      "ex_en": "Studying abroad is a good opportunity to learn English.",
+      "ex_ja": "留学は英語を学ぶ良い機会です。",
+      "level": 3,
+      "tags": [
+        "chance"
+      ]
+    },
+    {
+      "id": "sw029",
+      "en": "situation",
+      "ja": "状況、事情",
+      "pos": "noun",
+      "ex_en": "The economic situation is getting better.",
+      "ex_ja": "経済状況は良くなっています。",
+      "level": 3,
+      "tags": [
+        "state"
+      ]
+    },
+    {
+      "id": "sw030",
+      "en": "attention",
+      "ja": "注意",
+      "pos": "noun",
+      "ex_en": "Pay attention to the traffic signals.",
+      "ex_ja": "交通信号に注意を払いなさい。",
+      "level": 3,
+      "tags": [
+        "care"
+      ]
+    },
+    {
+      "id": "sw034",
+      "en": "solve",
+      "ja": "解決する",
+      "pos": "verb",
+      "ex_en": "We need to find a way to solve this problem.",
+      "ex_ja": "この問題を解決する方法を見つける必要があります。",
+      "level": 3,
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "id": "sw037",
+      "en": "continue",
+      "ja": "続ける、続く",
+      "pos": "verb",
+      "ex_en": "The meeting continued until late at night.",
+      "ex_ja": "会議は夜遅くまで続きました。",
+      "level": 3,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "sw038",
+      "en": "accept",
+      "ja": "受け入れる",
+      "pos": "verb",
+      "ex_en": "She accepted his apology kindly.",
+      "ex_ja": "彼女は彼の謝罪を快く受け入れました。",
+      "level": 3,
+      "tags": [
+        "agree"
+      ]
+    },
+    {
+      "id": "sw039",
+      "en": "avoid",
+      "ja": "避ける",
+      "pos": "verb",
+      "ex_en": "Avoid eating too much junk food.",
+      "ex_ja": "ジャンクフードの食べすぎは避けましょう。",
+      "level": 3,
+      "tags": [
+        "danger"
+      ]
+    },
+    {
+      "id": "sw045",
+      "en": "various",
+      "ja": "さまざまな",
+      "pos": "adj",
+      "ex_en": "You can buy various fruits at this market.",
+      "ex_ja": "この市場ではさまざまな果物を買うことができます。",
+      "level": 3,
+      "tags": [
+        "variety"
+      ]
+    },
+    {
+      "id": "sw054",
+      "en": "similar",
+      "ja": "似ている",
+      "pos": "adj",
+      "ex_en": "My bag is similar to yours.",
+      "ex_ja": "私のかばんはあなたのものと似ています。",
+      "level": 3,
+      "tags": [
+        "same"
+      ]
+    },
+    {
+      "id": "sw058",
+      "en": "recently",
+      "ja": "最近、近頃",
+      "pos": "adv",
+      "ex_en": "Recently, more people work from home.",
+      "ex_ja": "最近、在宅で働く人が増えています。",
+      "level": 3,
+      "tags": [
+        "now"
+      ]
+    },
+    {
+      "id": "sw059",
+      "en": "however",
+      "ja": "しかしながら",
+      "pos": "adv",
+      "ex_en": "The plan sounds good. However, it costs too much.",
+      "ex_ja": "その計画は良さそうですが、しかしお金がかかりすぎます。",
+      "level": 3,
+      "tags": [
+        "contrast"
+      ]
+    },
+    {
+      "id": "sw060",
+      "en": "therefore",
+      "ja": "それゆえ、したがって",
+      "pos": "adv",
+      "ex_en": "He was tired; therefore, he went to bed early.",
+      "ex_ja": "彼は疲れていた。それゆえ、早く寝ました。",
+      "level": 3,
+      "tags": [
+        "result"
+      ]
+    },
+    {
+      "id": "sw061",
+      "en": "according to",
+      "ja": "～によると",
+      "pos": "phrase",
+      "ex_en": "According to the news, the storm will arrive tonight.",
+      "ex_ja": "ニュースによると、嵐は今夜到着する予定です。",
+      "level": 3,
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "sw063",
+      "en": "as well as",
+      "ja": "～と同様に、～もまた",
+      "pos": "phrase",
+      "ex_en": "She speaks French as well as English.",
+      "ex_ja": "彼女は英語だけでなくフランス語も話します。",
+      "level": 3,
+      "tags": [
+        "addition"
+      ]
+    },
+    {
+      "id": "sw064",
+      "en": "because of",
+      "ja": "～のために",
+      "pos": "phrase",
+      "ex_en": "The game was canceled because of the heavy rain.",
+      "ex_ja": "大雨のため、試合は中止になりました。",
+      "level": 3,
+      "tags": [
+        "reason"
+      ]
+    },
+    {
+      "id": "sw065",
+      "en": "in fact",
+      "ja": "実際には、実のところ",
+      "pos": "phrase",
+      "ex_en": "In fact, he finished the race first.",
+      "ex_ja": "実際には、彼がレースで最初にゴールしました。",
+      "level": 3,
+      "tags": [
+        "truth"
+      ]
+    },
+    {
+      "id": "sw066",
+      "en": "at least",
+      "ja": "少なくとも",
+      "pos": "phrase",
+      "ex_en": "You should sleep at least seven hours a day.",
+      "ex_ja": "1日少なくとも7時間は眠るべきです。",
+      "level": 3,
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "sw067",
+      "en": "deal with",
+      "ja": "処理する、対処する",
+      "pos": "phrase",
+      "ex_en": "How do you deal with stress?",
+      "ex_ja": "ストレスにはどのように対処していますか。",
+      "level": 3,
+      "tags": [
+        "handle"
+      ]
+    },
+    {
+      "id": "sw068",
+      "en": "take care of",
+      "ja": "世話をする、面倒を見る",
+      "pos": "phrase",
+      "ex_en": "She takes care of her younger brother.",
+      "ex_ja": "彼女は弟の世話をしています。",
+      "level": 3,
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "sw069",
+      "en": "look forward to",
+      "ja": "楽しみに待つ",
+      "pos": "phrase",
+      "ex_en": "I am looking forward to seeing you again.",
+      "ex_ja": "またお会いできるのを楽しみにしています。",
+      "level": 3,
+      "tags": [
+        "future"
+      ]
+    },
+    {
+      "id": "sw070",
+      "en": "point out",
+      "ja": "指摘する",
+      "pos": "phrase",
+      "ex_en": "The teacher pointed out my mistakes.",
+      "ex_ja": "先生は私の間違いを指摘しました。",
+      "level": 3,
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "sw071",
+      "en": "carry out",
+      "ja": "実行する",
+      "pos": "phrase",
+      "ex_en": "The team carried out the plan successfully.",
+      "ex_ja": "チームはその計画をうまく実行しました。",
+      "level": 3,
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sw072",
+      "en": "find out",
+      "ja": "見つけ出す、突き止める",
+      "pos": "phrase",
+      "ex_en": "I want to find out what happened here.",
+      "ex_ja": "ここで何が起きたのか突き止めたいです。",
+      "level": 3,
+      "tags": [
+        "search"
+      ]
+    },
+    {
+      "id": "sw073",
+      "en": "turn out",
+      "ja": "～ということがわかる",
+      "pos": "phrase",
+      "ex_en": "The rumor turned out to be true.",
+      "ex_ja": "そのうわさは本当だとわかりました。",
+      "level": 3,
+      "tags": [
+        "result"
+      ]
+    },
+    {
+      "id": "sw074",
+      "en": "make sure",
+      "ja": "確認する、確かにする",
+      "pos": "phrase",
+      "ex_en": "Make sure you lock the door before you leave.",
+      "ex_ja": "出かける前にドアのかぎをかけたか確認してください。",
+      "level": 3,
+      "tags": [
+        "check"
+      ]
+    },
+    {
+      "id": "sw075",
+      "en": "take place",
+      "ja": "行われる、開催される",
+      "pos": "phrase",
+      "ex_en": "The Olympic Games take place every four years.",
+      "ex_ja": "オリンピックは4年ごとに行われます。",
+      "level": 3,
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "sw076",
+      "en": "a lot of",
+      "ja": "多くの、たくさんの",
+      "pos": "phrase",
+      "ex_en": "A lot of tourists visit Kyoto in spring.",
+      "ex_ja": "春には多くの観光客が京都を訪れます。",
+      "level": 3,
+      "tags": [
+        "amount"
+      ]
+    },
+    {
+      "id": "sw078",
+      "en": "in order to",
+      "ja": "～するために",
+      "pos": "phrase",
+      "ex_en": "She got up early in order to catch the first train.",
+      "ex_ja": "始発電車に間に合うように早起きしました。",
+      "level": 3,
+      "tags": [
+        "aim"
+      ]
+    },
+    {
+      "id": "sw079",
+      "en": "even if",
+      "ja": "たとえ～でも",
+      "pos": "conj",
+      "ex_en": "Even if it rains, the game will go on.",
+      "ex_ja": "たとえ雨が降っても、試合は行われます。",
+      "level": 3,
+      "tags": [
+        "condition"
+      ]
+    },
+    {
+      "id": "sw080",
+      "en": "as long as",
+      "ja": "～さえすれば、～する限り",
+      "pos": "conj",
+      "ex_en": "You can stay here as long as you keep quiet.",
+      "ex_ja": "静かにしていれば、ここにいてもかまいません。",
+      "level": 3,
+      "tags": [
+        "condition"
+      ]
+    }
+  ]
+}

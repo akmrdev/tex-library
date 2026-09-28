@@ -1,0 +1,969 @@
+{
+  "meta": {
+    "file": "eik-pre1-80",
+    "stage": "eiken",
+    "description": "英検準1級レベル80語"
+  },
+  "words": [
+    {
+      "id": "ep1_001",
+      "en": "abbreviate",
+      "ja": "短縮する、略語にする",
+      "pos": "verb",
+      "ex_en": "The word 'advertisement' is often abbreviated to 'ad'.",
+      "ex_ja": "「advertisement」という語はしばしば「ad」と略されます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_002",
+      "en": "absurd",
+      "ja": "不条理な、ばかげた",
+      "pos": "adjective",
+      "ex_en": "It is absurd to expect a perfect score without studying.",
+      "ex_ja": "勉強せずに満点を期待するのはばかげています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_003",
+      "en": "accountable",
+      "ja": "説明責任がある、責任を負う",
+      "pos": "adjective",
+      "ex_en": "Managers are accountable for their team's performance.",
+      "ex_ja": "マネージャーはチームの業績に対して説明責任があります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_004",
+      "en": "adjacent",
+      "ja": "隣接した",
+      "pos": "adjective",
+      "ex_en": "The hotel is adjacent to the train station.",
+      "ex_ja": "そのホテルは駅に隣接しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_005",
+      "en": "adolescent",
+      "ja": "思春期の青少年",
+      "pos": "noun",
+      "ex_en": "Many adolescents struggle with peer pressure.",
+      "ex_ja": "多くの思春期の青少年は同輩からの圧力に悩みます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_006",
+      "en": "agile",
+      "ja": "敏捷な、機敏な",
+      "pos": "adjective",
+      "ex_en": "Cats are remarkably agile animals.",
+      "ex_ja": "猫は非常に敏捷な動物です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_007",
+      "en": "allege",
+      "ja": "(証拠なしに)主張する",
+      "pos": "verb",
+      "ex_en": "The report alleges that the company ignored safety rules.",
+      "ex_ja": "その報告は会社が安全規則を無視したと主張しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_008",
+      "en": "alliance",
+      "ja": "同盟、連合",
+      "pos": "noun",
+      "ex_en": "The two nations formed a military alliance.",
+      "ex_ja": "両国は軍事同盟を結成しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_009",
+      "en": "ample",
+      "ja": "十分な、豊富な",
+      "pos": "adjective",
+      "ex_en": "There is ample parking space behind the building.",
+      "ex_ja": "建物の裏には十分な駐車スペースがあります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_010",
+      "en": "appease",
+      "ja": "なだめる、鎮める",
+      "pos": "verb",
+      "ex_en": "The company raised wages to appease angry workers.",
+      "ex_ja": "会社は怒った労働者をなだめるために賃上げをしました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_011",
+      "en": "appraise",
+      "ja": "評価する、鑑定する",
+      "pos": "verb",
+      "ex_en": "An expert appraised the antique vase at ten thousand dollars.",
+      "ex_ja": "専門家はその骨董品の壺を1万ドルと鑑定しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_012",
+      "en": "apprehend",
+      "ja": "逮捕する;理解する",
+      "pos": "verb",
+      "ex_en": "Police finally apprehended the suspect at the border.",
+      "ex_ja": "警察はついに国境で容疑者を逮捕しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_013",
+      "en": "aptitude",
+      "ja": "素質、適性",
+      "pos": "noun",
+      "ex_en": "She has a natural aptitude for mathematics.",
+      "ex_ja": "彼女には数学の生来の適性があります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_014",
+      "en": "arid",
+      "ja": "乾燥した、乾いた",
+      "pos": "adjective",
+      "ex_en": "Little grows in the arid desert region.",
+      "ex_ja": "その乾燥した砂漠地帯ではほとんど何も育ちません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_015",
+      "en": "ascent",
+      "ja": "上昇、登り",
+      "pos": "noun",
+      "ex_en": "The ascent to the summit took six hours.",
+      "ex_ja": "頂上への登攀には6時間かかりました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_016",
+      "en": "aspire",
+      "ja": "切望する、目指す",
+      "pos": "verb",
+      "ex_en": "He aspires to become a professional musician.",
+      "ex_ja": "彼はプロの音楽家になることを目指しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_017",
+      "en": "assail",
+      "ja": "攻撃する",
+      "pos": "verb",
+      "ex_en": "Critics assailed the plan as too costly.",
+      "ex_ja": "批評家たちはその計画を費用がかかりすぎるとして攻撃しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_018",
+      "en": "astound",
+      "ja": "驚愕させる",
+      "pos": "verb",
+      "ex_en": "The magician's tricks astounded the audience.",
+      "ex_ja": "手品師のトリックは観客を驚かせました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_019",
+      "en": "attenuate",
+      "ja": "弱める、薄める",
+      "pos": "verb",
+      "ex_en": "Vaccines use attenuated viruses to build immunity.",
+      "ex_ja": "ワクチンは免疫をつけるために弱毒化したウイルスを使用します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_020",
+      "en": "audacious",
+      "ja": "大胆な、厚かましい",
+      "pos": "adjective",
+      "ex_en": "It was an audacious plan, but it worked.",
+      "ex_ja": "それは大胆な計画でしたが、うまくいきました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_021",
+      "en": "augment",
+      "ja": "増大させる、補強する",
+      "pos": "verb",
+      "ex_en": "She augments her income by teaching piano on weekends.",
+      "ex_ja": "彼女は週末にピアノを教えて収入を増やしています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_022",
+      "en": "bolster",
+      "ja": "支える、強化する",
+      "pos": "verb",
+      "ex_en": "The new data bolsters the theory.",
+      "ex_ja": "新しいデータはその理論を裏付けています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_023",
+      "en": "brisk",
+      "ja": "活発な、軽快な",
+      "pos": "adjective",
+      "ex_en": "We took a brisk walk before breakfast.",
+      "ex_ja": "朝食前に軽い早足の散歩をしました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_024",
+      "en": "candid",
+      "ja": "率直な、ありのままの",
+      "pos": "adjective",
+      "ex_en": "She gave a candid account of her failures.",
+      "ex_ja": "彼女は自分の失敗について率直に語りました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_025",
+      "en": "circumvent",
+      "ja": "回避する、出し抜く",
+      "pos": "verb",
+      "ex_en": "The company tried to circumvent the new regulations.",
+      "ex_ja": "その会社は新しい規制を回避しようとしました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_026",
+      "en": "coerce",
+      "ja": "強制する、無理強いする",
+      "pos": "verb",
+      "ex_en": "Employees cannot be coerced into working overtime.",
+      "ex_ja": "従業員に残業を強制することはできません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_027",
+      "en": "converge",
+      "ja": "集まる、一点に集束する",
+      "pos": "verb",
+      "ex_en": "Thousands of fans converged on the stadium.",
+      "ex_ja": "数千人のファンが競技場に集まりました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_028",
+      "en": "cordial",
+      "ja": "友好的な、心のこもった",
+      "pos": "adjective",
+      "ex_en": "The two leaders held cordial talks.",
+      "ex_ja": "両首脳は友好的な会談を行いました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_029",
+      "en": "corrode",
+      "ja": "腐食する",
+      "pos": "verb",
+      "ex_en": "Salt water corrodes metal pipes over time.",
+      "ex_ja": "塩水は時間とともに金属パイプを腐食させます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_030",
+      "en": "deem",
+      "ja": "みなす、判断する",
+      "pos": "verb",
+      "ex_en": "The project was deemed a success.",
+      "ex_ja": "その事業は成功とみなされました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "en": "abide",
+      "ja": "耐える、従う",
+      "pos": "verb",
+      "ex_en": "She cannot abide rudeness.",
+      "ex_ja": "彼女は無礼さに耐えられません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_031"
+    },
+    {
+      "en": "abound",
+      "ja": "豊富にある",
+      "pos": "verb",
+      "ex_en": "Opportunities abound in this city.",
+      "ex_ja": "この都市にはチャンスが豊富にあります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_032"
+    },
+    {
+      "en": "adverse",
+      "ja": "不利な",
+      "pos": "adj",
+      "ex_en": "The drug has adverse side effects.",
+      "ex_ja": "その薬には有害な副作用があります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_033"
+    },
+    {
+      "en": "allay",
+      "ja": "和らげる",
+      "pos": "verb",
+      "ex_en": "The report allayed public fears.",
+      "ex_ja": "その報告書は国民の不安を和らげました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_034"
+    },
+    {
+      "en": "amass",
+      "ja": "蓄積する",
+      "pos": "verb",
+      "ex_en": "He amassed a fortune in real estate.",
+      "ex_ja": "彼は不動産で財産を築きました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_035"
+    },
+    {
+      "en": "besiege",
+      "ja": "取り囲む",
+      "pos": "verb",
+      "ex_en": "The office was besieged by phone calls.",
+      "ex_ja": "オフィスは電話の嵐に包まれました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_036"
+    },
+    {
+      "en": "bestow",
+      "ja": "授与する",
+      "pos": "verb",
+      "ex_en": "The university bestowed an honorary degree on her.",
+      "ex_ja": "大学は彼女に名誉学位を授与しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_037"
+    },
+    {
+      "en": "cajole",
+      "ja": "丸め込む",
+      "pos": "verb",
+      "ex_en": "He cajoled his friend into lending him the car.",
+      "ex_ja": "彼は友だちを丸め込んで車を貸してもらいました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_038"
+    },
+    {
+      "en": "capitulate",
+      "ja": "降伏する",
+      "pos": "verb",
+      "ex_en": "Management finally capitulated to union demands.",
+      "ex_ja": "経営側はついに組合の要求に屈しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_039"
+    },
+    {
+      "en": "commensurate",
+      "ja": "釣り合った",
+      "pos": "adj",
+      "ex_en": "His salary is commensurate with his experience.",
+      "ex_ja": "彼の給与は経験に見合っています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_040"
+    },
+    {
+      "en": "complacent",
+      "ja": "自己満足な",
+      "pos": "adj",
+      "ex_en": "We must not be complacent about safety.",
+      "ex_ja": "安全について自己満足してはいけません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_041"
+    },
+    {
+      "en": "concur",
+      "ja": "同意する",
+      "pos": "verb",
+      "ex_en": "I concur with your opinion.",
+      "ex_ja": "私はあなたの意見に同意します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_042"
+    },
+    {
+      "en": "confide",
+      "ja": "打ち明ける",
+      "pos": "verb",
+      "ex_en": "She confided her worries to a friend.",
+      "ex_ja": "彼女は友だちに悩みを打ち明けました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_043"
+    },
+    {
+      "en": "connoisseur",
+      "ja": "鑑定家",
+      "pos": "noun",
+      "ex_en": "He is a connoisseur of fine wines.",
+      "ex_ja": "彼は高級ワインの鑑定家です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_044"
+    },
+    {
+      "en": "conspire",
+      "ja": "共謀する",
+      "pos": "verb",
+      "ex_en": "They conspired to hide the truth.",
+      "ex_ja": "彼らは真実を隠すために共謀しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_045"
+    },
+    {
+      "en": "construe",
+      "ja": "解釈する",
+      "pos": "verb",
+      "ex_en": "His silence was construed as agreement.",
+      "ex_ja": "彼の沈黙は同意と解釈されました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_046"
+    },
+    {
+      "en": "corroborate",
+      "ja": "裏付ける",
+      "pos": "verb",
+      "ex_en": "New evidence corroborated her story.",
+      "ex_ja": "新たな証拠が彼女の話を裏付けました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_047"
+    },
+    {
+      "en": "cryptic",
+      "ja": "謎めいた",
+      "pos": "adj",
+      "ex_en": "He left a cryptic message.",
+      "ex_ja": "彼は謎めいたメッセージを残しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_048"
+    },
+    {
+      "en": "culminate",
+      "ja": "頂点に達する",
+      "pos": "verb",
+      "ex_en": "Years of research culminated in this discovery.",
+      "ex_ja": "長年の研究がこの発見に結実しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_049"
+    },
+    {
+      "en": "curtail",
+      "ja": "縮小する",
+      "pos": "verb",
+      "ex_en": "The city curtailed spending on parks.",
+      "ex_ja": "市は公園への支出を縮小しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_050"
+    },
+    {
+      "en": "debunk",
+      "ja": "暴く",
+      "pos": "verb",
+      "ex_en": "Scientists debunked the popular myth.",
+      "ex_ja": "科学者たちはその俗説を暴きました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_051"
+    },
+    {
+      "en": "decry",
+      "ja": "非難する",
+      "pos": "verb",
+      "ex_en": "Critics decried the new policy.",
+      "ex_ja": "批評家たちは新政策を非難しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_052"
+    },
+    {
+      "en": "deference",
+      "ja": "敬意",
+      "pos": "noun",
+      "ex_en": "He treated the elderly with deference.",
+      "ex_ja": "彼はお年寄りを敬意をもって扱いました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_053"
+    },
+    {
+      "en": "delude",
+      "ja": "欺く",
+      "pos": "verb",
+      "ex_en": "Don't delude yourself.",
+      "ex_ja": "自分を欺いてはいけません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_054"
+    },
+    {
+      "en": "denounce",
+      "ja": "糾弾する",
+      "pos": "verb",
+      "ex_en": "Opposition leaders denounced the decision.",
+      "ex_ja": "野党指導者たちはその決定を糾弾しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_055"
+    },
+    {
+      "en": "depict",
+      "ja": "描く",
+      "pos": "verb",
+      "ex_en": "The mural depicts life in ancient times.",
+      "ex_ja": "その壁画は古代の生活を描いています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_056"
+    },
+    {
+      "en": "deride",
+      "ja": "あざ笑う",
+      "pos": "verb",
+      "ex_en": "His ideas were derided at first.",
+      "ex_ja": "彼の考えは最初あざ笑われました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_057"
+    },
+    {
+      "en": "deter",
+      "ja": "思いとどまらせる",
+      "pos": "verb",
+      "ex_en": "High prices deter many buyers.",
+      "ex_ja": "高価格が多くの買い手を思いとどまらせています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ],
+      "id": "ep1_058"
+    },
+    {
+      "id": "ep1_059",
+      "en": "discrepancy",
+      "ja": "食い違い",
+      "pos": "noun",
+      "ex_en": "There is a discrepancy between the two reports.",
+      "ex_ja": "2つの報告書の間に食い違いがあります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_060",
+      "en": "disparate",
+      "ja": "まったく異なる",
+      "pos": "adj",
+      "ex_en": "The group included disparate opinions.",
+      "ex_ja": "グループにはまったく異なる意見が含まれていました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_061",
+      "en": "divulge",
+      "ja": "漏らす",
+      "pos": "verb",
+      "ex_en": "He refused to divulge the details.",
+      "ex_ja": "彼は詳細を明かすことを拒みました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_062",
+      "en": "dogmatic",
+      "ja": "独断的な",
+      "pos": "adj",
+      "ex_en": "Her dogmatic style annoyed colleagues.",
+      "ex_ja": "彼女の独断的なスタイルは同僚を苛立たせました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_063",
+      "en": "ebullient",
+      "ja": "快活な",
+      "pos": "adj",
+      "ex_en": "His ebullient personality lights up the room.",
+      "ex_ja": "彼の快活な性格は部屋を明るくします。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_064",
+      "en": "eclectic",
+      "ja": "折衷的な",
+      "pos": "adj",
+      "ex_en": "The restaurant has an eclectic menu.",
+      "ex_ja": "そのレストランは多彩なメニューです。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_065",
+      "en": "elated",
+      "ja": "有頂天の",
+      "pos": "adj",
+      "ex_en": "She was elated by the good news.",
+      "ex_ja": "彼女は良い知らせに有頂天でした。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_066",
+      "en": "eloquent",
+      "ja": "雄弁な",
+      "pos": "adj",
+      "ex_en": "He gave an eloquent speech.",
+      "ex_ja": "彼は雄弁なスピーチを行いました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_067",
+      "en": "emulate",
+      "ja": "手本とする",
+      "pos": "verb",
+      "ex_en": "Young players emulate their heroes.",
+      "ex_ja": "若い選手たちはヒーローを手本にします。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_068",
+      "en": "enmity",
+      "ja": "敵意",
+      "pos": "noun",
+      "ex_en": "There was old enmity between them.",
+      "ex_ja": "彼らの間には古い敵意がありました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_069",
+      "en": "equitable",
+      "ja": "公正な",
+      "pos": "adj",
+      "ex_en": "We need an equitable solution.",
+      "ex_ja": "公正な解決策が必要です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_070",
+      "en": "erudite",
+      "ja": "博識な",
+      "pos": "adj",
+      "ex_en": "The professor is erudite and kind.",
+      "ex_ja": "その教授は博識で親切です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_071",
+      "en": "exacerbate",
+      "ja": "悪化させる",
+      "pos": "verb",
+      "ex_en": "Stress can exacerbate health problems.",
+      "ex_ja": "ストレスは健康問題を悪化させることがあります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_072",
+      "en": "exemplary",
+      "ja": "模範的な",
+      "pos": "adj",
+      "ex_en": "Her conduct was exemplary.",
+      "ex_ja": "彼女の行動は模範的でした。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_073",
+      "en": "exonerate",
+      "ja": "無罪と証明する",
+      "pos": "verb",
+      "ex_en": "DNA tests exonerated him.",
+      "ex_ja": "DNA鑑定により彼の無罪が証明されました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_074",
+      "en": "extol",
+      "ja": "褒め称える",
+      "pos": "verb",
+      "ex_en": "The review extolled the novel's virtues.",
+      "ex_ja": "書評はその小説の長所を褒め称えました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_075",
+      "en": "fledgling",
+      "ja": "初心者の",
+      "pos": "adj",
+      "ex_en": "A fledgling company needs support.",
+      "ex_ja": "新興企業には支援が必要です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_076",
+      "en": "frugal",
+      "ja": "質素な",
+      "pos": "adj",
+      "ex_en": "He leads a frugal life.",
+      "ex_ja": "彼は質素な生活を送っています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_077",
+      "en": "grievous",
+      "ja": "深刻な",
+      "pos": "adj",
+      "ex_en": "The decision caused grievous harm.",
+      "ex_ja": "その決定は深刻な被害をもたらしました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_078",
+      "en": "harbinger",
+      "ja": "前兆",
+      "pos": "noun",
+      "ex_en": "The robin is a harbinger of spring.",
+      "ex_ja": "コマドリは春の前兆です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_079",
+      "en": "impeccable",
+      "ja": "非の打ちどころがない",
+      "pos": "adj",
+      "ex_en": "Her English is impeccable.",
+      "ex_ja": "彼女の英語は非の打ちどころがありません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "ep1_080",
+      "en": "indignant",
+      "ja": "憤慨した",
+      "pos": "adj",
+      "ex_en": "He was indignant at the accusation.",
+      "ex_ja": "彼はその告発に憤慨しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    }
+  ]
+}

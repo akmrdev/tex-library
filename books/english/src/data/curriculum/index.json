@@ -1,0 +1,602 @@
+{
+  "version": "1.0.0",
+  "generated_note": "全32文法単元+350語のマスタインデックス",
+  "stages": {
+    "junior": {
+      "name": "中学英語",
+      "units": [
+        {
+          "unit": "j01",
+          "file": "data/junior/grammar/j01-be-verb.md",
+          "title": "be動詞(am/is/are)",
+          "stage": "junior",
+          "grade": 1,
+          "order": 1,
+          "keywords": [
+            "be動詞",
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "unit": "j02",
+          "file": "data/junior/grammar/j02-general-verbs-third-person-s.md",
+          "title": "一般動詞と三単現のs",
+          "stage": "junior",
+          "grade": 1,
+          "order": 2,
+          "keywords": [
+            "一般動詞",
+            "三単現",
+            "三人称単数"
+          ]
+        },
+        {
+          "unit": "j03",
+          "file": "data/junior/grammar/j03-negative-question-imperative.md",
+          "title": "否定文・疑問文・命令文",
+          "stage": "junior",
+          "grade": 1,
+          "order": 3,
+          "keywords": [
+            "否定文",
+            "疑問文",
+            "命令文"
+          ]
+        },
+        {
+          "unit": "j04",
+          "file": "data/junior/grammar/j04-pronouns.md",
+          "title": "代名詞(人称・所有・再帰)",
+          "stage": "junior",
+          "grade": 1,
+          "order": 4,
+          "keywords": [
+            "代名詞",
+            "人称代名詞",
+            "所有格"
+          ]
+        },
+        {
+          "unit": "j05",
+          "file": "data/junior/grammar/j05-nouns-plural-possessive.md",
+          "title": "名詞(複数形・所有格・可算/不可算)",
+          "stage": "junior",
+          "grade": 1,
+          "order": 5,
+          "keywords": [
+            "名詞",
+            "複数形",
+            "所有格"
+          ]
+        },
+        {
+          "unit": "j06",
+          "file": "data/junior/grammar/j06-articles-quantifiers.md",
+          "title": "冠詞と数量表現(a/an/the/some/any)",
+          "stage": "junior",
+          "grade": 2,
+          "order": 6,
+          "keywords": [
+            "冠詞",
+            "a",
+            "an",
+            "the",
+            "some",
+            "any"
+          ]
+        },
+        {
+          "unit": "j07",
+          "file": "data/junior/grammar/j07-present-progressive.md",
+          "title": "現在進行形",
+          "stage": "junior",
+          "grade": 1,
+          "order": 7,
+          "keywords": [
+            "現在進行形",
+            "be動詞+ing"
+          ]
+        },
+        {
+          "unit": "j08",
+          "file": "data/junior/grammar/j08-past-tense.md",
+          "title": "過去形(be動詞・一般動詞)",
+          "stage": "junior",
+          "grade": 2,
+          "order": 8,
+          "keywords": [
+            "過去形",
+            "規則変化",
+            "不規則変化"
+          ]
+        },
+        {
+          "unit": "j09",
+          "file": "data/junior/grammar/j09-past-progressive.md",
+          "title": "過去進行形",
+          "stage": "junior",
+          "grade": 2,
+          "order": 9,
+          "keywords": [
+            "過去進行形",
+            "while",
+            "when"
+          ]
+        },
+        {
+          "unit": "j10",
+          "file": "data/junior/grammar/j10-auxiliary-verbs.md",
+          "title": "助動詞(can/may/must/have to/should)",
+          "stage": "junior",
+          "grade": 2,
+          "order": 10,
+          "keywords": [
+            "助動詞",
+            "can",
+            "may",
+            "must",
+            "have to",
+            "should"
+          ]
+        },
+        {
+          "unit": "j11",
+          "file": "data/junior/grammar/j11-future-will-going-to.md",
+          "title": "未来表現(will/be going to)",
+          "stage": "junior",
+          "grade": 2,
+          "order": 11,
+          "keywords": [
+            "未来形",
+            "will",
+            "be going to",
+            "be about to"
+          ]
+        },
+        {
+          "unit": "j12",
+          "file": "data/junior/grammar/j12-comparison.md",
+          "title": "比較(比較級・最上級・as~as)",
+          "stage": "junior",
+          "grade": 2,
+          "order": 12,
+          "keywords": [
+            "比較",
+            "比較級",
+            "最上級",
+            "as as",
+            "原級"
+          ]
+        },
+        {
+          "unit": "j13",
+          "file": "data/junior/grammar/j13-conjunctions.md",
+          "title": "接続詞(and/or/but/so/when/if/because)",
+          "stage": "junior",
+          "grade": 2,
+          "order": 13,
+          "keywords": [
+            "接続詞",
+            "and",
+            "but",
+            "or",
+            "so",
+            "because",
+            "when",
+            "if"
+          ]
+        },
+        {
+          "unit": "j14",
+          "file": "data/junior/grammar/j14-prepositions.md",
+          "title": "前置詞(in/on/at/to/for/from/of/by/with等)",
+          "stage": "junior",
+          "grade": 2,
+          "order": 14,
+          "keywords": [
+            "前置詞",
+            "in",
+            "on",
+            "at",
+            "to",
+            "for",
+            "from",
+            "of",
+            "by",
+            "with"
+          ]
+        },
+        {
+          "unit": "j15",
+          "file": "data/junior/grammar/j15-infinitive-gerund.md",
+          "title": "不定詞と動名詞(to不定詞の3用法/enjoy,stop等)",
+          "stage": "junior",
+          "grade": 3,
+          "order": 15,
+          "keywords": [
+            "不定詞",
+            "動名詞",
+            "to不定詞",
+            "enjoy",
+            "stop",
+            "ing形"
+          ]
+        },
+        {
+          "unit": "j16",
+          "file": "data/junior/grammar/j16-passive-voice.md",
+          "title": "受動態(第4文型の受動態含む)",
+          "stage": "junior",
+          "grade": 3,
+          "order": 16,
+          "keywords": [
+            "受動態",
+            "受け身",
+            "passive voice",
+            "by",
+            "第4文型"
+          ]
+        },
+        {
+          "unit": "j17",
+          "file": "data/junior/grammar/j17-present-perfect.md",
+          "title": "現在完了(経験・継続・完了・結果/for/since/have been to)",
+          "stage": "junior",
+          "grade": 3,
+          "order": 17,
+          "keywords": [
+            "現在完了",
+            "経験",
+            "継続",
+            "完了",
+            "結果",
+            "for",
+            "since",
+            "have been to"
+          ]
+        },
+        {
+          "unit": "j18",
+          "file": "data/junior/grammar/j18-relative-pronoun-indirect-question.md",
+          "title": "関係代名詞と間接疑問文",
+          "stage": "junior",
+          "grade": 3,
+          "order": 18,
+          "keywords": [
+            "関係代名詞",
+            "who",
+            "which",
+            "that",
+            "間接疑問文",
+            "疑問詞"
+          ]
+        }
+      ]
+    },
+    "senior": {
+      "name": "高校英語",
+      "units": [
+        {
+          "unit": "s01",
+          "file": "data/senior/grammar/s01-five-sentence-patterns.md",
+          "title": "文の要素と5文型(SVOC)",
+          "stage": "senior",
+          "grade": 1,
+          "order": 1,
+          "keywords": [
+            "五文型",
+            "SVOC",
+            "第5文型"
+          ]
+        },
+        {
+          "unit": "s02",
+          "file": "data/senior/grammar/s02-tenses-sequence.md",
+          "title": "時制と時制の一致(12時制)",
+          "stage": "senior",
+          "grade": 1,
+          "order": 2,
+          "keywords": [
+            "時制",
+            "時制の一致",
+            "未来完了"
+          ]
+        },
+        {
+          "unit": "s03",
+          "file": "data/senior/grammar/s03-subjunctive-mood.md",
+          "title": "仮定法(過去・過去完了・were to)",
+          "stage": "senior",
+          "grade": 2,
+          "order": 3,
+          "keywords": [
+            "仮定法",
+            "were",
+            "if"
+          ]
+        },
+        {
+          "unit": "s04",
+          "file": "data/senior/grammar/s04-relatives.md",
+          "title": "関係詞(関係代名詞・関係副詞・複合関係詞)",
+          "stage": "senior",
+          "grade": 1,
+          "order": 4,
+          "keywords": [
+            "関係代名詞",
+            "関係副詞",
+            "what"
+          ]
+        },
+        {
+          "unit": "s05",
+          "file": "data/senior/grammar/s05-infinitive-advanced.md",
+          "title": "不定詞の発展(重要構文: too~to/seem to等)",
+          "stage": "senior",
+          "grade": 1,
+          "order": 5,
+          "keywords": [
+            "不定詞",
+            "too",
+            "to",
+            "構文",
+            "seem to",
+            "want to"
+          ]
+        },
+        {
+          "unit": "s06",
+          "file": "data/senior/grammar/s06-gerund-participle.md",
+          "title": "動名詞と分詞(後置修飾・補語用法)",
+          "stage": "senior",
+          "grade": 1,
+          "order": 6,
+          "keywords": [
+            "動名詞",
+            "分詞",
+            "現在分詞",
+            "過去分詞",
+            "後置修飾"
+          ]
+        },
+        {
+          "unit": "s07",
+          "file": "data/senior/grammar/s07-passive-causative-perception.md",
+          "title": "受動態・使役・知覚動詞(make/have/let/see+原形)",
+          "stage": "senior",
+          "grade": 2,
+          "order": 7,
+          "keywords": [
+            "受動態",
+            "使役動詞",
+            "知覚動詞",
+            "make",
+            "have",
+            "let",
+            "see"
+          ]
+        },
+        {
+          "unit": "s08",
+          "file": "data/senior/grammar/s08-auxiliary-verbs-advanced.md",
+          "title": "助動詞の発展(must have p.p.等)",
+          "stage": "senior",
+          "grade": 2,
+          "order": 8,
+          "keywords": [
+            "助動詞",
+            "完了形",
+            "must have done"
+          ]
+        },
+        {
+          "unit": "s09",
+          "file": "data/senior/grammar/s09-comparison-advanced.md",
+          "title": "比較の発展(no more than/not so much A as B等)",
+          "stage": "senior",
+          "grade": 2,
+          "order": 9,
+          "keywords": [
+            "比較",
+            "no more than",
+            "not so much A as B"
+          ]
+        },
+        {
+          "unit": "s10",
+          "file": "data/senior/grammar/s10-noun-it-wh-constructions.md",
+          "title": "名詞構文・it構文・wh構文(強調構文/what節)",
+          "stage": "senior",
+          "grade": 2,
+          "order": 10,
+          "keywords": [
+            "名詞構文",
+            "it構文",
+            "強調構文",
+            "what節"
+          ]
+        },
+        {
+          "unit": "s11",
+          "file": "data/senior/grammar/s11-emphasis-inversion-ellipsis.md",
+          "title": "強調・倒置・省略(so neither倒置/Only then)",
+          "stage": "senior",
+          "grade": 3,
+          "order": 11,
+          "keywords": [
+            "強調",
+            "倒置",
+            "省略"
+          ]
+        },
+        {
+          "unit": "s12",
+          "file": "data/senior/grammar/s12-participle-constructions.md",
+          "title": "分詞構文(時・理由・条件・譲歩/with構文)",
+          "stage": "senior",
+          "grade": 2,
+          "order": 12,
+          "keywords": [
+            "分詞構文",
+            "with構文",
+            "受動態"
+          ]
+        },
+        {
+          "unit": "s13",
+          "file": "data/senior/grammar/s13-reported-speech.md",
+          "title": "話法(直接話法⇔間接話法)",
+          "stage": "senior",
+          "grade": 3,
+          "order": 13,
+          "keywords": [
+            "話法",
+            "直接話法",
+            "間接話法"
+          ]
+        },
+        {
+          "unit": "s14",
+          "file": "data/senior/grammar/s14-key-constructions.md",
+          "title": "重要構文総まとめ(so that/not only A but also B/no sooner等)",
+          "stage": "senior",
+          "grade": 3,
+          "order": 14,
+          "keywords": [
+            "重要構文",
+            "so that",
+            "no sooner than"
+          ]
+        }
+      ]
+    }
+  },
+  "vocabulary": [
+    {
+      "file": "data/common-test/words/ct-science-60.json",
+      "count": 60,
+      "level": 3,
+      "description": "共通テスト科学系テーマ60語"
+    },
+    {
+      "file": "data/common-test/words/ct-society-60.json",
+      "count": 60,
+      "level": 3,
+      "description": "共通テスト社会系テーマ60語"
+    },
+    {
+      "file": "data/eiken/words/eik-lv2-70.json",
+      "count": 70,
+      "level": 3,
+      "description": "英検2級レベル70語"
+    },
+    {
+      "file": "data/eiken/words/eik-lv3-80.json",
+      "count": 80,
+      "level": 2,
+      "description": "英検3級レベル80語"
+    },
+    {
+      "file": "data/eiken/words/eik-lv4-80.json",
+      "count": 80,
+      "level": 2,
+      "description": "英検4級レベル80語"
+    },
+    {
+      "file": "data/eiken/words/eik-pre2-70.json",
+      "count": 70,
+      "level": 3,
+      "description": "英検準2級レベル70語"
+    },
+    {
+      "file": "data/junior/words/jw-level1-core-100.json",
+      "count": 100,
+      "level": 1,
+      "description": "中学必須コア100語"
+    },
+    {
+      "file": "data/junior/words/jw-level2-jhs-100.json",
+      "count": 100,
+      "level": 2,
+      "description": "中学発展100語"
+    },
+    {
+      "file": "data/junior/words/jw-level3-jhs-ext-200.json",
+      "count": 200,
+      "level": 2,
+      "description": "中学拡張200語"
+    },
+    {
+      "file": "data/senior/words/sw-level3-shs-core-80.json",
+      "count": 80,
+      "level": 3,
+      "description": "高校頻出コア80語"
+    },
+    {
+      "file": "data/senior/words/sw-level4-academic-70.json",
+      "count": 70,
+      "level": 4,
+      "description": "学术レベル70語"
+    },
+    {
+      "file": "data/senior/words/sw-level5-shs-ext-200.json",
+      "count": 200,
+      "level": 4,
+      "description": "高校拡張200語"
+    },
+    {
+      "file": "data/toeic/words/tw-business-100.json",
+      "count": 100,
+      "level": 4,
+      "description": "TOEICビジネス発展100語"
+    },
+    {
+      "file": "data/toeic/words/tw-core-100.json",
+      "count": 100,
+      "level": 3,
+      "description": "TOEIC頻出コア100語"
+    },
+    {
+      "file": "data/toeic/words/tw-part1-4-listening-150.json",
+      "count": 150,
+      "level": 3,
+      "description": "TOEICリスニング頻出150語"
+    }
+  ],
+  "recommended_order": [
+    "j01",
+    "j02",
+    "j03",
+    "j04",
+    "j05",
+    "j06",
+    "j07",
+    "j08",
+    "j09",
+    "j10",
+    "j11",
+    "j12",
+    "j13",
+    "j14",
+    "j15",
+    "j16",
+    "j17",
+    "j18",
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14"
+  ]
+}

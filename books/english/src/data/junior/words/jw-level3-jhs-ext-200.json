@@ -1,0 +1,2409 @@
+{
+ "meta": {
+  "file": "jw-level3-jhs-ext-200",
+  "stage": "junior",
+  "description": "中学拡張200語"
+ },
+ "words": [
+  {
+   "id": "jx_001",
+   "en": "ache",
+   "ja": "痛み",
+   "pos": "noun",
+   "ex_en": "I have a stomach ache after lunch.",
+   "ex_ja": "昼食の後、おなかが痛いです。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_002",
+   "en": "across",
+   "ja": "横切って;〜の向こうに",
+   "pos": "prep",
+   "ex_en": "We walked across the bridge to reach the museum.",
+   "ex_ja": "博物館に行くために橋を渡って歩きました。",
+   "level": 2,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jx_003",
+   "en": "action",
+   "ja": "行動;動作",
+   "pos": "noun",
+   "ex_en": "We must take action to protect the environment.",
+   "ex_ja": "環境を守るために行動を起こさなければなりません。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jx_004",
+   "en": "active",
+   "ja": "活発な",
+   "pos": "adj",
+   "ex_en": "My grandfather is still active at eighty.",
+   "ex_ja": "私の祖父は80歳でもまだ活発です。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jx_005",
+   "en": "actor",
+   "ja": "俳優",
+   "pos": "noun",
+   "ex_en": "The actor played the role of a brave knight.",
+   "ex_ja": "その俳優は勇敢な騎士の役を演じました。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_006",
+   "en": "add",
+   "ja": "加える",
+   "pos": "verb",
+   "ex_en": "Add some salt to the soup.",
+   "ex_ja": "スープに塩を少し加えてください。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_007",
+   "en": "admit",
+   "ja": "認める",
+   "pos": "verb",
+   "ex_en": "He admitted that he had broken the window.",
+   "ex_ja": "彼は窓を割ったことを認めました。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_008",
+   "en": "adventure",
+   "ja": "冒険",
+   "pos": "noun",
+   "ex_en": "Their trip to the jungle was a great adventure.",
+   "ex_ja": "ジャングルへの旅は素晴らしい冒険でした。",
+   "level": 2,
+   "tags": [
+    "story"
+   ]
+  },
+  {
+   "id": "jx_009",
+   "en": "advertisement",
+   "ja": "広告",
+   "pos": "noun",
+   "ex_en": "I saw an advertisement for a new smartphone on TV.",
+   "ex_ja": "テレビで新しいスマートフォンの広告を見ました。",
+   "level": 2,
+   "tags": [
+    "media"
+   ]
+  },
+  {
+   "id": "jx_010",
+   "en": "agent",
+   "ja": "代理人;店員",
+   "pos": "noun",
+   "ex_en": "The travel agent helped us book the flight.",
+   "ex_ja": "旅行会社の店員は私たちの飛行機の予約を手伝ってくれました。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_011",
+   "en": "agreement",
+   "ja": "同意;協定",
+   "pos": "noun",
+   "ex_en": "The two countries finally reached an agreement.",
+   "ex_ja": "両国はついに合意に達しました。",
+   "level": 2,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "jx_012",
+   "en": "aim",
+   "ja": "狙う;目指す",
+   "pos": "verb",
+   "ex_en": "She aims to pass the entrance exam.",
+   "ex_ja": "彼女は入試合格を目指しています。",
+   "level": 2,
+   "tags": [
+    "goal"
+   ]
+  },
+  {
+   "id": "jx_013",
+   "en": "airline",
+   "ja": "航空会社",
+   "pos": "noun",
+   "ex_en": "Which airline are you flying with?",
+   "ex_ja": "どの航空会社で飛ぶ予定ですか。",
+   "level": 2,
+   "tags": [
+    "travel"
+   ]
+  },
+  {
+   "id": "jx_014",
+   "en": "alive",
+   "ja": "生きて",
+   "pos": "adj",
+   "ex_en": "The old traditions are still alive in this village.",
+   "ex_ja": "古い伝統はこの村にまだ生きています。",
+   "level": 2,
+   "tags": [
+    "state"
+   ]
+  },
+  {
+   "id": "jx_015",
+   "en": "alone",
+   "ja": "ひとりで",
+   "pos": "adj",
+   "ex_en": "I stayed alone at home last night.",
+   "ex_ja": "昨夜はひとりで家にいました。",
+   "level": 2,
+   "tags": [
+    "state"
+   ]
+  },
+  {
+   "id": "jx_016",
+   "en": "along",
+   "ja": "〜に沿って",
+   "pos": "prep",
+   "ex_en": "We took a walk along the river after dinner.",
+   "ex_ja": "夕食後、川に沿って散歩しました。",
+   "level": 2,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jx_017",
+   "en": "aloud",
+   "ja": "声を出して",
+   "pos": "adv",
+   "ex_en": "The teacher asked me to read the poem aloud.",
+   "ex_ja": "先生は私にその詩を声に出して読むように言いました。",
+   "level": 2,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jx_018",
+   "en": "alphabet",
+   "ja": "アルファベット",
+   "pos": "noun",
+   "ex_en": "Children learn the alphabet at an early age.",
+   "ex_ja": "子どもたちは早いうちにアルファベットを覚えます。",
+   "level": 2,
+   "tags": [
+    "language"
+   ]
+  },
+  {
+   "id": "jx_019",
+   "en": "altogether",
+   "ja": "全部で;完全に",
+   "pos": "adv",
+   "ex_en": "There were twelve students altogether in the classroom.",
+   "ex_ja": "教室には全部で12人の生徒がいました。",
+   "level": 2,
+   "tags": [
+    "quantity"
+   ]
+  },
+  {
+   "id": "jx_020",
+   "en": "ambulance",
+   "ja": "救急車",
+   "pos": "noun",
+   "ex_en": "Call an ambulance! He is badly hurt.",
+   "ex_ja": "救急車を呼んでください。彼はひどいけがをしています。",
+   "level": 2,
+   "tags": [
+    "medical"
+   ]
+  },
+  {
+   "id": "jx_021",
+   "en": "amuse",
+   "ja": "楽しませる",
+   "pos": "verb",
+   "ex_en": "The clown amused the children at the party.",
+   "ex_ja": "ピエロはパーティーで子どもたちを楽しませました。",
+   "level": 2,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jx_022",
+   "en": "anger",
+   "ja": "怒り",
+   "pos": "noun",
+   "ex_en": "He couldn't hide his anger at the news.",
+   "ex_ja": "彼はその知らせに怒りを隠せませんでした。",
+   "level": 2,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jx_023",
+   "en": "ankle",
+   "ja": "足首",
+   "pos": "noun",
+   "ex_en": "She twisted her ankle while playing tennis.",
+   "ex_ja": "彼女はテニス中に足首をねじりました。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_024",
+   "en": "annoy",
+   "ja": "悩ませる;いらだたせる",
+   "pos": "verb",
+   "ex_en": "Loud noises annoy the neighbors at night.",
+   "ex_ja": "夜の大きな音は近所の人々を悩ませます。",
+   "level": 2,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jx_025",
+   "en": "annual",
+   "ja": "毎年の",
+   "pos": "adj",
+   "ex_en": "Our school holds an annual music festival in October.",
+   "ex_ja": "私たちの学校は10月に毎年恒例の音楽祭を開きます。",
+   "level": 2,
+   "tags": [
+    "time"
+   ]
+  },
+  {
+   "id": "jx_026",
+   "en": "apartment",
+   "ja": "アパート;マンション",
+   "pos": "noun",
+   "ex_en": "They moved into a small apartment near the station.",
+   "ex_ja": "彼らは駅の近くの小さなマンションに引っ越しました。",
+   "level": 2,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jx_027",
+   "en": "apologize",
+   "ja": "謝る",
+   "pos": "verb",
+   "ex_en": "You should apologize to her for being late.",
+   "ex_ja": "遅れたことを彼女に謝るべきです。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_028",
+   "en": "appetite",
+   "ja": "食欲",
+   "pos": "noun",
+   "ex_en": "Exercise gives me a good appetite.",
+   "ex_ja": "運動すると食欲が出ます。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_029",
+   "en": "apply",
+   "ja": "応募する;適用する",
+   "pos": "verb",
+   "ex_en": "I applied for a part-time job at the bakery.",
+   "ex_ja": "パン屋のアルバイトに応募しました。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_030",
+   "en": "arise",
+   "ja": "起こる;(問題が)生じる",
+   "pos": "verb",
+   "ex_en": "A problem arose during the trip.",
+   "ex_ja": "旅行中に問題が生じました。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jx_031",
+   "en": "arrest",
+   "ja": "逮捕する",
+   "pos": "verb",
+   "ex_en": "The police arrested the thief last night.",
+   "ex_ja": "警察は昨夜その泥棒を逮捕しました。",
+   "level": 2,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "jx_032",
+   "en": "artist",
+   "ja": "芸術家",
+   "pos": "noun",
+   "ex_en": "Her dream is to become a famous artist.",
+   "ex_ja": "彼女の夢は有名な画家になることです。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_033",
+   "en": "ashamed",
+   "ja": "恥じて",
+   "pos": "adj",
+   "ex_en": "I was ashamed of my mistake.",
+   "ex_ja": "私は自分の失敗を恥ずかしく思いました。",
+   "level": 2,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jx_034",
+   "en": "asleep",
+   "ja": "眠って",
+   "pos": "adj",
+   "ex_en": "The baby fell asleep in his mother's arms.",
+   "ex_ja": "赤ちゃんは母親の腕の中で眠りにつきました。",
+   "level": 2,
+   "tags": [
+    "state"
+   ]
+  },
+  {
+   "id": "jx_035",
+   "en": "aspect",
+   "ja": "面;側面",
+   "pos": "noun",
+   "ex_en": "Every aspect of the plan was discussed.",
+   "ex_ja": "計画のあらゆる面が議論されました。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jx_036",
+   "en": "attack",
+   "ja": "攻撃する",
+   "pos": "verb",
+   "ex_en": "A big dog attacked the cat in the garden.",
+   "ex_ja": "大きな犬が庭で猫を襲いました。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_037",
+   "en": "attract",
+   "ja": "引きつける",
+   "pos": "verb",
+   "ex_en": "The festival attracts many tourists every year.",
+   "ex_ja": "その祭りは毎年多くの観光客を引きつけます。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jx_038",
+   "en": "aunt",
+   "ja": "おば",
+   "pos": "noun",
+   "ex_en": "My aunt lives in Kyoto with her family.",
+   "ex_ja": "私のおばは家族と京都に住んでいます。",
+   "level": 2,
+   "tags": [
+    "family"
+   ]
+  },
+  {
+   "id": "jx_039",
+   "en": "author",
+   "ja": "著者;作家",
+   "pos": "noun",
+   "ex_en": "The author of this novel is only twenty-five years old.",
+   "ex_ja": "この小説の著者はわずか25歳です。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_040",
+   "en": "autumn",
+   "ja": "秋",
+   "pos": "noun",
+   "ex_en": "The leaves turn red in autumn.",
+   "ex_ja": "秋には葉が赤くなります。",
+   "level": 2,
+   "tags": [
+    "season"
+   ]
+  },
+  {
+   "id": "jx_041",
+   "en": "average",
+   "ja": "平均;普通の",
+   "pos": "noun",
+   "ex_en": "The average temperature in August is thirty degrees.",
+   "ex_ja": "8月の平均気温は30度です。",
+   "level": 2,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "jx_042",
+   "en": "awake",
+   "ja": "起きて;目が覚めて",
+   "pos": "adj",
+   "ex_en": "I was still awake at midnight.",
+   "ex_ja": "私は真夜中になってもまだ起きていました。",
+   "level": 2,
+   "tags": [
+    "state"
+   ]
+  },
+  {
+   "id": "jx_043",
+   "en": "award",
+   "ja": "賞",
+   "pos": "noun",
+   "ex_en": "She won an award for her science project.",
+   "ex_ja": "彼女は科学の作品で賞を取りました。",
+   "level": 2,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jx_044",
+   "en": "aware",
+   "ja": "気づいて",
+   "pos": "adj",
+   "ex_en": "We should be aware of the dangers of smoking.",
+   "ex_ja": "私たちは喫煙の危険性を認識すべきです。",
+   "level": 2,
+   "tags": [
+    "mind"
+   ]
+  },
+  {
+   "id": "jx_045",
+   "en": "awful",
+   "ja": "ひどい",
+   "pos": "adj",
+   "ex_en": "The weather was awful during our picnic.",
+   "ex_ja": "ピクニックの間、天気はひどかったです。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jx_046",
+   "en": "bake",
+   "ja": "焼く",
+   "pos": "verb",
+   "ex_en": "My mother bakes bread every Sunday morning.",
+   "ex_ja": "母は毎週日曜日の朝にパンを焼きます。",
+   "level": 2,
+   "tags": [
+    "cooking"
+   ]
+  },
+  {
+   "id": "jx_047",
+   "en": "balloon",
+   "ja": "風船",
+   "pos": "noun",
+   "ex_en": "The children released colorful balloons into the sky.",
+   "ex_ja": "子どもたちは色とりどりの風船を空に放しました。",
+   "level": 2,
+   "tags": [
+    "toy"
+   ]
+  },
+  {
+   "id": "jx_048",
+   "en": "bamboo",
+   "ja": "竹",
+   "pos": "noun",
+   "ex_en": "Pandas eat bamboo leaves.",
+   "ex_ja": "パンダは竹の葉を食べます。",
+   "level": 2,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jx_049",
+   "en": "ban",
+   "ja": "禁止する",
+   "pos": "verb",
+   "ex_en": "The city banned smoking in the park.",
+   "ex_ja": "市は公園での喫煙を禁止しました。",
+   "level": 2,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "jx_050",
+   "en": "bandage",
+   "ja": "包帯",
+   "pos": "noun",
+   "ex_en": "The nurse put a bandage on my cut finger.",
+   "ex_ja": "看護師は私の切った指に包帯を巻きました。",
+   "level": 2,
+   "tags": [
+    "medical"
+   ]
+  },
+  {
+   "id": "jx_051",
+   "en": "bargain",
+   "ja": "安く買う;駆け引き",
+   "pos": "noun",
+   "ex_en": "I got this jacket at a bargain price.",
+   "ex_ja": "このジャケットをお買い得価格で手に入れました。",
+   "level": 2,
+   "tags": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "jx_052",
+   "en": "barrel",
+   "ja": "たる",
+   "pos": "noun",
+   "ex_en": "The wine is stored in wooden barrels.",
+   "ex_ja": "ワインは木のたるに保管されています。",
+   "level": 2,
+   "tags": [
+    "object"
+   ]
+  },
+  {
+   "id": "jx_053",
+   "en": "base",
+   "ja": "土台;基地",
+   "pos": "noun",
+   "ex_en": "First, build a strong base for the tower.",
+   "ex_ja": "まず、塔のための強い土台を作りなさい。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jx_054",
+   "en": "basic",
+   "ja": "基本的な",
+   "pos": "adj",
+   "ex_en": "Learning basic cooking skills is important for everyone.",
+   "ex_ja": "基本的な料理のスキルを学ぶことは誰にとっても大切です。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jx_055",
+   "en": "basin",
+   "ja": "たらい;盆地",
+   "pos": "noun",
+   "ex_en": "She washed her hands in a basin of cold water.",
+   "ex_ja": "彼女は冷水のたらいで手を洗いました。",
+   "level": 2,
+   "tags": [
+    "object"
+   ]
+  },
+  {
+   "id": "jx_056",
+   "en": "basket",
+   "ja": "かご",
+   "pos": "noun",
+   "ex_en": "He carried the apples in a large basket.",
+   "ex_ja": "彼は大きなかごにりんごを入れて運びました。",
+   "level": 2,
+   "tags": [
+    "container"
+   ]
+  },
+  {
+   "id": "jx_057",
+   "en": "bat",
+   "ja": "コウモリ;バット",
+   "pos": "noun",
+   "ex_en": "A bat flew out of the cave at night.",
+   "ex_ja": "夜、コウモリが洞窟から飛び出しました。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jx_058",
+   "en": "bath",
+   "ja": "入浴;風呂",
+   "pos": "noun",
+   "ex_en": "I take a hot bath before going to bed.",
+   "ex_ja": "寝る前に熱いお風呂に入ります。",
+   "level": 2,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jx_059",
+   "en": "bathroom",
+   "ja": "浴室;トイレ",
+   "pos": "noun",
+   "ex_en": "The bathroom upstairs has a new shower.",
+   "ex_ja": "2階の浴室には新しいシャワーがあります。",
+   "level": 2,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jx_060",
+   "en": "bay",
+   "ja": "湾",
+   "pos": "noun",
+   "ex_en": "We watched the ships in Tokyo Bay.",
+   "ex_ja": "私たちは東京湾の船を眺めました。",
+   "level": 2,
+   "tags": [
+    "geography"
+   ]
+  },
+  {
+   "id": "jx_061",
+   "en": "bean",
+   "ja": "豆",
+   "pos": "noun",
+   "ex_en": "Coffee beans are grown in warm countries.",
+   "ex_ja": "コーヒー豆は暖かい国で育てられます。",
+   "level": 2,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jx_062",
+   "en": "beard",
+   "ja": "あごひげ",
+   "pos": "noun",
+   "ex_en": "My uncle grew a long beard last winter.",
+   "ex_ja": "叔父は昨冬、長いあごひげを生やしました。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_063",
+   "en": "beauty",
+   "ja": "美しさ",
+   "pos": "noun",
+   "ex_en": "We were amazed by the beauty of Mount Fuji.",
+   "ex_ja": "私たちは富士山の美しさに驚きました。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jx_064",
+   "en": "beef",
+   "ja": "牛肉",
+   "pos": "noun",
+   "ex_en": "Would you like beef or chicken for dinner?",
+   "ex_ja": "夕食には牛肉とチキンのどちらがいいですか。",
+   "level": 2,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jx_065",
+   "en": "beg",
+   "ja": "懇願する",
+   "pos": "verb",
+   "ex_en": "The boy begged his father to buy him a bike.",
+   "ex_ja": "少年は父親に自転車を買ってくれるよう懇願しました。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_066",
+   "en": "behave",
+   "ja": "振る舞う",
+   "pos": "verb",
+   "ex_en": "Please behave well at your grandmother's house.",
+   "ex_ja": "おばあさんの家では行儀よく振る舞いなさい。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_067",
+   "en": "belief",
+   "ja": "信念;信じること",
+   "pos": "noun",
+   "ex_en": "His belief in himself never changed.",
+   "ex_ja": "彼の自分自身への信念は決して変わりませんでした。",
+   "level": 2,
+   "tags": [
+    "mind"
+   ]
+  },
+  {
+   "id": "jx_068",
+   "en": "bell",
+   "ja": "鐘;ベル",
+   "pos": "noun",
+   "ex_en": "The school bell rings at eight thirty every morning.",
+   "ex_ja": "学校のベルは毎朝8時半に鳴ります。",
+   "level": 2,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jx_069",
+   "en": "belly",
+   "ja": "おなか",
+   "pos": "noun",
+   "ex_en": "The frog has a white belly.",
+   "ex_ja": "そのカエルは白いおなかをしています。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_070",
+   "en": "bend",
+   "ja": "曲げる;曲がる",
+   "pos": "verb",
+   "ex_en": "Bend your knees when you lift the heavy box.",
+   "ex_ja": "重い箱を持ち上げるときはひざを曲げなさい。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_071",
+   "en": "beneath",
+   "ja": "〜の下に",
+   "pos": "prep",
+   "ex_en": "The dog slept beneath the table.",
+   "ex_ja": "犬はテーブルの下で眠りました。",
+   "level": 2,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jx_072",
+   "en": "berry",
+   "ja": "ベリー;木の実",
+   "pos": "noun",
+   "ex_en": "We picked wild berries on the mountain path.",
+   "ex_ja": "私たちは山道で野いちごを摘みました。",
+   "level": 2,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jx_073",
+   "en": "beside",
+   "ja": "〜のそばに",
+   "pos": "prep",
+   "ex_en": "My bag is beside the chair.",
+   "ex_ja": "私のかばんは椅子のそばにあります。",
+   "level": 2,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jx_074",
+   "en": "bet",
+   "ja": "賭ける",
+   "pos": "verb",
+   "ex_en": "I bet our team will win the game tomorrow.",
+   "ex_ja": "明日の試合はうちのチームが勝つと賭けてもいいですよ。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_075",
+   "en": "beyond",
+   "ja": "〜の向こうに",
+   "pos": "prep",
+   "ex_en": "There are high mountains beyond the village.",
+   "ex_ja": "村の向こうに高い山々があります。",
+   "level": 2,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jx_076",
+   "en": "bill",
+   "ja": "請求書;(鳥の)くちばし",
+   "pos": "noun",
+   "ex_en": "The waiter brought us the bill after dinner.",
+   "ex_ja": "ウェイターは夕食後、私たちに請求書を持ってきました。",
+   "level": 2,
+   "tags": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "jx_077",
+   "en": "bind",
+   "ja": "縛る;製本する",
+   "pos": "verb",
+   "ex_en": "The farmers bind the rice plants into bundles.",
+   "ex_ja": "農家の人々は稲を束に縛ります。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_078",
+   "en": "biology",
+   "ja": "生物学",
+   "pos": "noun",
+   "ex_en": "We study biology in the science room on Tuesdays.",
+   "ex_ja": "私たちは火曜日に理科教室で生物学を勉強します。",
+   "level": 2,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jx_079",
+   "en": "birth",
+   "ja": "誕生;出生",
+   "pos": "noun",
+   "ex_en": "The birth of her baby made the whole family happy.",
+   "ex_ja": "彼女の赤ちゃんの誕生は家族みんなを幸せにしました。",
+   "level": 2,
+   "tags": [
+    "family"
+   ]
+  },
+  {
+   "id": "jx_080",
+   "en": "biscuit",
+   "ja": "ビスケット",
+   "pos": "noun",
+   "ex_en": "She ate two biscuits with her tea.",
+   "ex_ja": "彼女はお茶と一緒にビスケットを2枚食べました。",
+   "level": 2,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jx_081",
+   "en": "bite",
+   "ja": "かむ;かじる",
+   "pos": "verb",
+   "ex_en": "Our dog never bites people.",
+   "ex_ja": "うちの犬は決して人をかみません。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_082",
+   "en": "bitter",
+   "ja": "苦い",
+   "pos": "adj",
+   "ex_en": "This medicine tastes bitter but it works well.",
+   "ex_ja": "この薬は苦いのですが、よく効きます。",
+   "level": 2,
+   "tags": [
+    "taste"
+   ]
+  },
+  {
+   "id": "jx_083",
+   "en": "blade",
+   "ja": "刃",
+   "pos": "noun",
+   "ex_en": "Be careful! The blade of this knife is very sharp.",
+   "ex_ja": "気をつけてください。このナイフの刃はとても鋭いです。",
+   "level": 2,
+   "tags": [
+    "object"
+   ]
+  },
+  {
+   "id": "jx_084",
+   "en": "blame",
+   "ja": "責める",
+   "pos": "verb",
+   "ex_en": "Don't blame your brother for your own mistake.",
+   "ex_ja": "自分の失敗を弟のせいにしてはいけません。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_085",
+   "en": "blanket",
+   "ja": "毛布",
+   "pos": "noun",
+   "ex_en": "It was cold, so I used two blankets last night.",
+   "ex_ja": "寒かったので、昨夜は毛布を2枚使いました。",
+   "level": 2,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jx_086",
+   "en": "blind",
+   "ja": "目の見えない",
+   "pos": "adj",
+   "ex_en": "A blind man crossed the street with his dog.",
+   "ex_ja": "目の不自由な男性は犬と一緒に通りを渡りました。",
+   "level": 2,
+   "tags": [
+    "people"
+   ]
+  },
+  {
+   "id": "jx_087",
+   "en": "block",
+   "ja": "ふさぐ;街区",
+   "pos": "verb",
+   "ex_en": "A fallen tree blocked the road to the station.",
+   "ex_ja": "倒れた木が駅への道をふさぎました。",
+   "level": 2,
+   "tags": [
+    "city"
+   ]
+  },
+  {
+   "id": "jx_088",
+   "en": "blood",
+   "ja": "血",
+   "pos": "noun",
+   "ex_en": "The nurse took a small amount of blood for the test.",
+   "ex_ja": "看護師は検査のために少量の血液を採りました。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_089",
+   "en": "blow",
+   "ja": "吹く",
+   "pos": "verb",
+   "ex_en": "A strong wind blew all night long.",
+   "ex_ja": "強い風が一晩中吹きました。",
+   "level": 2,
+   "tags": [
+    "weather"
+   ]
+  },
+  {
+   "id": "jx_090",
+   "en": "blue",
+   "ja": "青い",
+   "pos": "adj",
+   "ex_en": "The sky was clear and blue this morning.",
+   "ex_ja": "今朝、空は晴れて青かったです。",
+   "level": 2,
+   "tags": [
+    "color"
+   ]
+  },
+  {
+   "id": "jx_091",
+   "en": "boil",
+   "ja": "沸かす;沸騰する",
+   "pos": "verb",
+   "ex_en": "Boil the water for five minutes before you use it.",
+   "ex_ja": "使う前に水を5分間沸かしてください。",
+   "level": 2,
+   "tags": [
+    "cooking"
+   ]
+  },
+  {
+   "id": "jx_092",
+   "en": "bomb",
+   "ja": "爆弾",
+   "pos": "noun",
+   "ex_en": "The museum shows what happened when the bomb fell.",
+   "ex_ja": "博物館では爆弾が落ちたとき何が起きたかを展示しています。",
+   "level": 2,
+   "tags": [
+    "history"
+   ]
+  },
+  {
+   "id": "jx_093",
+   "en": "bone",
+   "ja": "骨",
+   "pos": "noun",
+   "ex_en": "Dogs love bones more than anything.",
+   "ex_ja": "犬は何よりも骨が大好きです。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_094",
+   "en": "border",
+   "ja": "国境;境界",
+   "pos": "noun",
+   "ex_en": "We drove across the border into Canada.",
+   "ex_ja": "私たちは国境を越えてカナダへ車で行きました。",
+   "level": 2,
+   "tags": [
+    "geography"
+   ]
+  },
+  {
+   "id": "jx_095",
+   "en": "bore",
+   "ja": "退屈させる",
+   "pos": "verb",
+   "ex_en": "Long speeches often bore the audience.",
+   "ex_ja": "長い演説はしばしば聴衆を退屈させます。",
+   "level": 2,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jx_096",
+   "en": "boss",
+   "ja": "上司;ボス",
+   "pos": "noun",
+   "ex_en": "My boss is kind but works very hard.",
+   "ex_ja": "私の上司は親切ですが、とても働き者です。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_097",
+   "en": "bother",
+   "ja": "悩ませる;手間をかける",
+   "pos": "verb",
+   "ex_en": "Sorry to bother you, but can you help me?",
+   "ex_ja": "お手数ですが、手伝ってくれませんか。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_098",
+   "en": "bottom",
+   "ja": "底",
+   "pos": "noun",
+   "ex_en": "There are shells at the bottom of the pool.",
+   "ex_ja": "プールの底には貝殻があります。",
+   "level": 2,
+   "tags": [
+    "position"
+   ]
+  },
+  {
+   "id": "jx_099",
+   "en": "bounce",
+   "ja": "跳ね返る",
+   "pos": "verb",
+   "ex_en": "The ball bounced high over the fence.",
+   "ex_ja": "ボールはフェンスの上に高く跳ねました。",
+   "level": 2,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jx_100",
+   "en": "bowl",
+   "ja": "鉢;ボウル",
+   "pos": "noun",
+   "ex_en": "She mixed the eggs in a large bowl.",
+   "ex_ja": "彼女は大きなボウルで卵を混ぜました。",
+   "level": 2,
+   "tags": [
+    "kitchen"
+   ]
+  },
+  {
+   "id": "jx_101",
+   "en": "brain",
+   "ja": "脳",
+   "pos": "noun",
+   "ex_en": "Your brain works even while you sleep.",
+   "ex_ja": "眠っている間も脳は働いています。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_102",
+   "en": "brake",
+   "ja": "ブレーキ",
+   "pos": "noun",
+   "ex_en": "He pressed the brake when the light turned red.",
+   "ex_ja": "信号が赤になったとき彼はブレーキを踏みました。",
+   "level": 2,
+   "tags": [
+    "vehicle"
+   ]
+  },
+  {
+   "id": "jx_103",
+   "en": "brand",
+   "ja": "ブランド;商標",
+   "pos": "noun",
+   "ex_en": "Which brand of shoes does she like?",
+   "ex_ja": "彼女はどのブランドの靴が好きですか。",
+   "level": 2,
+   "tags": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "jx_104",
+   "en": "breath",
+   "ja": "息",
+   "pos": "noun",
+   "ex_en": "Take a deep breath before you speak.",
+   "ex_ja": "話す前に深呼吸をしてください。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_105",
+   "en": "breathe",
+   "ja": "呼吸する",
+   "pos": "verb",
+   "ex_en": "Fish cannot breathe out of water.",
+   "ex_ja": "魚は水中でしか呼吸できません。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_106",
+   "en": "breeze",
+   "ja": "そよ風",
+   "pos": "noun",
+   "ex_en": "A cool breeze blew in from the sea.",
+   "ex_ja": "海から涼しいそよ風が吹いてきました。",
+   "level": 2,
+   "tags": [
+    "weather"
+   ]
+  },
+  {
+   "id": "jx_107",
+   "en": "brick",
+   "ja": "れんが",
+   "pos": "noun",
+   "ex_en": "The old school was built with red bricks.",
+   "ex_ja": "その古い学校は赤いれんがで建てられました。",
+   "level": 2,
+   "tags": [
+    "building"
+   ]
+  },
+  {
+   "id": "jx_108",
+   "en": "bride",
+   "ja": "花嫁",
+   "pos": "noun",
+   "ex_en": "The bride wore a beautiful white dress.",
+   "ex_ja": "花嫁は美しい白いドレスを着ていました。",
+   "level": 2,
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "jx_109",
+   "en": "bridge",
+   "ja": "橋",
+   "pos": "noun",
+   "ex_en": "There is a long bridge over the river.",
+   "ex_ja": "川の上に長い橋があります。",
+   "level": 2,
+   "tags": [
+    "city"
+   ]
+  },
+  {
+   "id": "jx_110",
+   "en": "brilliant",
+   "ja": "すばらしい;才能あふれる",
+   "pos": "adj",
+   "ex_en": "She had a brilliant idea for the project.",
+   "ex_ja": "彼女はその企画についてすばらしいアイデアを思いつきました。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jx_111",
+   "en": "broad",
+   "ja": "広い",
+   "pos": "adj",
+   "ex_en": "The street is broad enough for two buses.",
+   "ex_ja": "その通りはバス2台が十分通れるほど広いです。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jx_112",
+   "en": "broadcast",
+   "ja": "放送する",
+   "pos": "verb",
+   "ex_en": "The game will be broadcast live tonight.",
+   "ex_ja": "その試合は今夜生放送されます。",
+   "level": 2,
+   "tags": [
+    "media"
+   ]
+  },
+  {
+   "id": "jx_113",
+   "en": "broom",
+   "ja": "ほうき",
+   "pos": "noun",
+   "ex_en": "Please sweep the floor with this broom.",
+   "ex_ja": "このほうきで床を掃いてください。",
+   "level": 2,
+   "tags": [
+    "tool"
+   ]
+  },
+  {
+   "id": "jx_114",
+   "en": "brush",
+   "ja": "ブラシ;磨く",
+   "pos": "noun",
+   "ex_en": "Brush your teeth twice a day.",
+   "ex_ja": "1日に2回歯を磨きなさい。",
+   "level": 2,
+   "tags": [
+    "daily-life"
+   ]
+  },
+  {
+   "id": "jx_115",
+   "en": "bubble",
+   "ja": "泡",
+   "pos": "noun",
+   "ex_en": "Bubbles rose from the bottom of the glass.",
+   "ex_ja": "グラスの底から泡が上がってきました。",
+   "level": 2,
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "jx_116",
+   "en": "bucket",
+   "ja": "バケツ",
+   "pos": "noun",
+   "ex_en": "He carried water from the well in a bucket.",
+   "ex_ja": "彼は井戸からバケツで水を運びました。",
+   "level": 2,
+   "tags": [
+    "container"
+   ]
+  },
+  {
+   "id": "jx_117",
+   "en": "bulb",
+   "ja": "電球;球根",
+   "pos": "noun",
+   "ex_en": "The bulb in the kitchen needs to be changed.",
+   "ex_ja": "台所の電球は交換が必要です。",
+   "level": 2,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jx_118",
+   "en": "bullet",
+   "ja": "弾丸",
+   "pos": "noun",
+   "ex_en": "The bullet went through the wooden door.",
+   "ex_ja": "弾丸は木のドアを貫通しました。",
+   "level": 2,
+   "tags": [
+    "history"
+   ]
+  },
+  {
+   "id": "jx_119",
+   "en": "bunch",
+   "ja": "束;ひと房",
+   "pos": "noun",
+   "ex_en": "She bought a bunch of grapes at the store.",
+   "ex_ja": "彼女は店でぶどうをひと房買いました。",
+   "level": 2,
+   "tags": [
+    "quantity"
+   ]
+  },
+  {
+   "id": "jx_120",
+   "en": "burn",
+   "ja": "燃やす;(やけど)する",
+   "pos": "verb",
+   "ex_en": "Be careful not to burn the toast.",
+   "ex_ja": "トーストを焦がさないように気をつけて。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_121",
+   "en": "bush",
+   "ja": "低木;やぶ",
+   "pos": "noun",
+   "ex_en": "A rabbit hid behind the bush.",
+   "ex_ja": "ウサギが低木の後ろに隠れました。",
+   "level": 2,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jx_122",
+   "en": "butcher",
+   "ja": "肉屋",
+   "pos": "noun",
+   "ex_en": "We buy fresh meat at the butcher near our house.",
+   "ex_ja": "家の近くの肉屋で新鮮な肉を買います。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_123",
+   "en": "button",
+   "ja": "ボタン",
+   "pos": "noun",
+   "ex_en": "One button fell off my coat.",
+   "ex_ja": "コートからボタンがひとつ取れました。",
+   "level": 2,
+   "tags": [
+    "clothes"
+   ]
+  },
+  {
+   "id": "jx_124",
+   "en": "buyer",
+   "ja": "買い手",
+   "pos": "noun",
+   "ex_en": "The buyer asked many questions about the car.",
+   "ex_ja": "買い手はその車について多くの質問をしました。",
+   "level": 2,
+   "tags": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "jx_125",
+   "en": "cable",
+   "ja": "ケーブル",
+   "pos": "noun",
+   "ex_en": "The workers laid a cable under the sea.",
+   "ex_ja": "作業員たちは海底にケーブルを敷設しました。",
+   "level": 2,
+   "tags": [
+    "technology"
+   ]
+  },
+  {
+   "id": "jx_126",
+   "en": "cage",
+   "ja": "かご;オリ",
+   "pos": "noun",
+   "ex_en": "The bird wants to get out of its cage.",
+   "ex_ja": "その鳥はかごから出たがっています。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jx_127",
+   "en": "candle",
+   "ja": "ろうそく",
+   "pos": "noun",
+   "ex_en": "We lit twelve candles on her birthday cake.",
+   "ex_ja": "彼女の誕生日ケーキに12本のろうそくを立てました。",
+   "level": 2,
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "jx_128",
+   "en": "canoe",
+   "ja": "カヌー",
+   "pos": "noun",
+   "ex_en": "They crossed the lake by canoe.",
+   "ex_ja": "彼らはカヌーで湖を渡りました。",
+   "level": 2,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jx_129",
+   "en": "canvas",
+   "ja": "キャンバス",
+   "pos": "noun",
+   "ex_en": "The painter showed us a canvas covered with stars.",
+   "ex_ja": "画家は星でいっぱいのキャンバスを見せてくれました。",
+   "level": 2,
+   "tags": [
+    "art"
+   ]
+  },
+  {
+   "id": "jx_130",
+   "en": "captain",
+   "ja": "船長;キャプテン",
+   "pos": "noun",
+   "ex_en": "The captain guided the ship through the storm.",
+   "ex_ja": "船長は嵐の中を船を導きました。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_131",
+   "en": "capture",
+   "ja": "捕らえる",
+   "pos": "verb",
+   "ex_en": "The photographer captured the moment perfectly.",
+   "ex_ja": "写真家はその瞬間を見事に捉えました。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_132",
+   "en": "carpet",
+   "ja": "じゅうたん",
+   "pos": "noun",
+   "ex_en": "A soft carpet covers the floor of the living room.",
+   "ex_ja": "柔らかいじゅうたんがリビングの床を覆っています。",
+   "level": 2,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jx_133",
+   "en": "carrot",
+   "ja": "にんじん",
+   "pos": "noun",
+   "ex_en": "Rabbits love carrots more than any other vegetable.",
+   "ex_ja": "ウサギは他の野菜よりもにんじんが大好きです。",
+   "level": 2,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jx_134",
+   "en": "cartoon",
+   "ja": "漫画;アニメ",
+   "pos": "noun",
+   "ex_en": "We watched a funny cartoon after school.",
+   "ex_ja": "放課後に面白いアニメを見ました。",
+   "level": 2,
+   "tags": [
+    "media"
+   ]
+  },
+  {
+   "id": "jx_135",
+   "en": "carve",
+   "ja": "彫る",
+   "pos": "verb",
+   "ex_en": "My grandfather can carve animals from wood.",
+   "ex_ja": "私の祖父は木から動物を彫ることができます。",
+   "level": 2,
+   "tags": [
+    "art"
+   ]
+  },
+  {
+   "id": "jx_136",
+   "en": "cast",
+   "ja": "配役;(票)を投じる",
+   "pos": "verb",
+   "ex_en": "She was cast as the lead in the school play.",
+   "ex_ja": "彼女は学校劇の主役に選ばれました。",
+   "level": 2,
+   "tags": [
+    "media"
+   ]
+  },
+  {
+   "id": "jx_137",
+   "en": "castle",
+   "ja": "城",
+   "pos": "noun",
+   "ex_en": "We visited an old castle in Germany last summer.",
+   "ex_ja": "昨夏、ドイツの古い城を訪れました。",
+   "level": 2,
+   "tags": [
+    "history"
+   ]
+  },
+  {
+   "id": "jx_138",
+   "en": "caution",
+   "ja": "注意;用心",
+   "pos": "noun",
+   "ex_en": "Cross the street with caution when it rains.",
+   "ex_ja": "雨の日は通りを渡るとき注意してください。",
+   "level": 2,
+   "tags": [
+    "safety"
+   ]
+  },
+  {
+   "id": "jx_139",
+   "en": "cave",
+   "ja": "洞窟",
+   "pos": "noun",
+   "ex_en": "Bears sleep inside the cave during winter.",
+   "ex_ja": "クマは冬の間、洞窟の中で眠ります。",
+   "level": 2,
+   "tags": [
+    "nature"
+   ]
+  },
+  {
+   "id": "jx_140",
+   "en": "ceiling",
+   "ja": "天井",
+   "pos": "noun",
+   "ex_en": "There is a beautiful painting on the ceiling.",
+   "ex_ja": "天井に美しい絵があります。",
+   "level": 2,
+   "tags": [
+    "building"
+   ]
+  },
+  {
+   "id": "jx_141",
+   "en": "ceremony",
+   "ja": "式典;儀式",
+   "pos": "noun",
+   "ex_en": "The graduation ceremony starts at ten in the morning.",
+   "ex_ja": "卒業式は朝10時に始まります。",
+   "level": 2,
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "jx_142",
+   "en": "champion",
+   "ja": "優勝者;チャンピオン",
+   "pos": "noun",
+   "ex_en": "She became the tennis champion at fifteen.",
+   "ex_ja": "彼女は15歳でテニスのチャンピオンになりました。",
+   "level": 2,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jx_143",
+   "en": "character",
+   "ja": "登場人物;性格",
+   "pos": "noun",
+   "ex_en": "Mickey Mouse is a famous cartoon character.",
+   "ex_ja": "ミッキーマウスは有名な漫画のキャラクターです。",
+   "level": 2,
+   "tags": [
+    "story"
+   ]
+  },
+  {
+   "id": "jx_144",
+   "en": "charge",
+   "ja": "請求する;充電する",
+   "pos": "verb",
+   "ex_en": "I need to charge my phone before we leave.",
+   "ex_ja": "出かける前にスマートフォンを充電する必要があります。",
+   "level": 2,
+   "tags": [
+    "technology"
+   ]
+  },
+  {
+   "id": "jx_145",
+   "en": "charm",
+   "ja": "魅力",
+   "pos": "noun",
+   "ex_en": "This small town has a special charm.",
+   "ex_ja": "この小さな町には特別な魅力があります。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jx_146",
+   "en": "chase",
+   "ja": "追いかける",
+   "pos": "verb",
+   "ex_en": "The cat chased the mouse around the kitchen.",
+   "ex_ja": "猫は台所中をネズミを追いかけて走りました。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_147",
+   "en": "cheer",
+   "ja": "応援する;元気づける",
+   "pos": "verb",
+   "ex_en": "Everyone cheered when our team scored.",
+   "ex_ja": "うちのチームが得点したときみんなが歓呼しました。",
+   "level": 2,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jx_148",
+   "en": "chef",
+   "ja": "シェフ",
+   "pos": "noun",
+   "ex_en": "The chef cooked a wonderful meal for us.",
+   "ex_ja": "シェフは私たちにすばらしい料理を作ってくれました。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_149",
+   "en": "chemistry",
+   "ja": "化学",
+   "pos": "noun",
+   "ex_en": "Chemistry is my favorite science class.",
+   "ex_ja": "化学は私の好きな理科の授業です。",
+   "level": 2,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jx_150",
+   "en": "cherry",
+   "ja": "さくらんぼ",
+   "pos": "noun",
+   "ex_en": "These cherries are sweet and very red.",
+   "ex_ja": "このさくらんぼは甘くてとても赤いです。",
+   "level": 2,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jx_151",
+   "en": "chew",
+   "ja": "かむ;噛む",
+   "pos": "verb",
+   "ex_en": "Chew your food well before you swallow it.",
+   "ex_ja": "飲み込む前に食べ物をよくかみなさい。",
+   "level": 2,
+   "tags": [
+    "body"
+   ]
+  },
+  {
+   "id": "jx_152",
+   "en": "chief",
+   "ja": "長;責任者",
+   "pos": "noun",
+   "ex_en": "The fire chief spoke to the news reporters.",
+   "ex_ja": "消防署長はニュース記者に話しました。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_153",
+   "en": "chimney",
+   "ja": "煙突",
+   "pos": "noun",
+   "ex_en": "White smoke rose from the chimney of the cottage.",
+   "ex_ja": "別荘の煙突から白い煙が上がりました。",
+   "level": 2,
+   "tags": [
+    "building"
+   ]
+  },
+  {
+   "id": "jx_154",
+   "en": "chocolate",
+   "ja": "チョコレート",
+   "pos": "noun",
+   "ex_en": "She gave me a box of chocolates on Valentine's Day.",
+   "ex_ja": "彼女はバレンタインデーにチョコレートの箱をくれました。",
+   "level": 2,
+   "tags": [
+    "food"
+   ]
+  },
+  {
+   "id": "jx_155",
+   "en": "choice",
+   "ja": "選択",
+   "pos": "noun",
+   "ex_en": "You have three choices: walk, ride a bike, or take the bus.",
+   "ex_ja": "選択肢が3つあります。歩くか、自転車に乗るか、バスに乗るかです。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jx_156",
+   "en": "circle",
+   "ja": "円;サークル",
+   "pos": "noun",
+   "ex_en": "We sat in a circle and told stories.",
+   "ex_ja": "私たちは輪になって座り、物語を語り合いました。",
+   "level": 2,
+   "tags": [
+    "shape"
+   ]
+  },
+  {
+   "id": "jx_157",
+   "en": "circus",
+   "ja": "サーカス",
+   "pos": "noun",
+   "ex_en": "The circus came to town with lions and acrobats.",
+   "ex_ja": "サーカスがライオンや曲芸師を連れて町に来ました。",
+   "level": 2,
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "jx_158",
+   "en": "classic",
+   "ja": "古典的な;定番の",
+   "pos": "adj",
+   "ex_en": "This song is a classic that everyone knows.",
+   "ex_ja": "この曲は誰もが知っている定番の名曲です。",
+   "level": 2,
+   "tags": [
+    "culture"
+   ]
+  },
+  {
+   "id": "jx_159",
+   "en": "clay",
+   "ja": "粘土",
+   "pos": "noun",
+   "ex_en": "We made cups out of clay in art class.",
+   "ex_ja": "美術の授業で粘土でコップを作りました。",
+   "level": 2,
+   "tags": [
+    "art"
+   ]
+  },
+  {
+   "id": "jx_160",
+   "en": "clerk",
+   "ja": "事務員;店員",
+   "pos": "noun",
+   "ex_en": "The clerk at the hotel gave us a map of the city.",
+   "ex_ja": "ホテルの係員は私たちに市の地図をくれました。",
+   "level": 2,
+   "tags": [
+    "job"
+   ]
+  },
+  {
+   "id": "jx_161",
+   "en": "cliff",
+   "ja": "がけ",
+   "pos": "noun",
+   "ex_en": "The house stands on the edge of a cliff.",
+   "ex_ja": "その家はがけの端に立っています。",
+   "level": 2,
+   "tags": [
+    "geography"
+   ]
+  },
+  {
+   "id": "jx_162",
+   "en": "cloth",
+   "ja": "布",
+   "pos": "noun",
+   "ex_en": "Wipe the table with this wet cloth.",
+   "ex_ja": "この濡れた布でテーブルを拭いてください。",
+   "level": 2,
+   "tags": [
+    "object"
+   ]
+  },
+  {
+   "id": "jx_163",
+   "en": "clue",
+   "ja": "手がかり",
+   "pos": "noun",
+   "ex_en": "The detective found a clue under the window.",
+   "ex_ja": "探偵は窓の下で手がかりを見つけました。",
+   "level": 2,
+   "tags": [
+    "story"
+   ]
+  },
+  {
+   "id": "jx_164",
+   "en": "coach",
+   "ja": "コーチ;指導する",
+   "pos": "noun",
+   "ex_en": "Our coach taught us how to pass the ball.",
+   "ex_ja": "私たちのコーチはボールのパスの仕方を教えてくれました。",
+   "level": 2,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "jx_165",
+   "en": "coal",
+   "ja": "石炭",
+   "pos": "noun",
+   "ex_en": "Coal was once the main fuel for trains.",
+   "ex_ja": "石炭はかつて列車の主な燃料でした。",
+   "level": 2,
+   "tags": [
+    "energy"
+   ]
+  },
+  {
+   "id": "jx_166",
+   "en": "coast",
+   "ja": "海岸",
+   "pos": "noun",
+   "ex_en": "We drove along the coast for two hours.",
+   "ex_ja": "私たちは海岸沿いを2時間車で走りました。",
+   "level": 2,
+   "tags": [
+    "geography"
+   ]
+  },
+  {
+   "id": "jx_167",
+   "en": "code",
+   "ja": "暗号;符号",
+   "pos": "noun",
+   "ex_en": "Can you break this secret code?",
+   "ex_ja": "この秘密の暗号を解読できますか。",
+   "level": 2,
+   "tags": [
+    "language"
+   ]
+  },
+  {
+   "id": "jx_168",
+   "en": "coin",
+   "ja": "硬貨",
+   "pos": "noun",
+   "ex_en": "I found an old coin in my pocket.",
+   "ex_ja": "ポケットの中で古い硬貨を見つけました。",
+   "level": 2,
+   "tags": [
+    "money"
+   ]
+  },
+  {
+   "id": "jx_169",
+   "en": "collar",
+   "ja": "えり;首輪",
+   "pos": "noun",
+   "ex_en": "Our dog has a red collar with his name on it.",
+   "ex_ja": "うちの犬は名前の入った赤い首輪をしています。",
+   "level": 2,
+   "tags": [
+    "animal"
+   ]
+  },
+  {
+   "id": "jx_170",
+   "en": "comedy",
+   "ja": "喜劇;コメディー",
+   "pos": "noun",
+   "ex_en": "We laughed a lot at the comedy show.",
+   "ex_ja": "私たちはコメディー番組で大いに笑いました。",
+   "level": 2,
+   "tags": [
+    "media"
+   ]
+  },
+  {
+   "id": "jx_171",
+   "en": "comfort",
+   "ja": "慰め;快適さ",
+   "pos": "noun",
+   "ex_en": "Her kind words were a great comfort to me.",
+   "ex_ja": "彼女の親切な言葉は私にとって大きな慰めになりました。",
+   "level": 2,
+   "tags": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "jx_172",
+   "en": "comic",
+   "ja": "漫画;おもしろい",
+   "pos": "noun",
+   "ex_en": "He reads a comic every week at the library.",
+   "ex_ja": "彼は毎週図書館で漫画を読みます。",
+   "level": 2,
+   "tags": [
+    "media"
+   ]
+  },
+  {
+   "id": "jx_173",
+   "en": "command",
+   "ja": "命令;指示",
+   "pos": "noun",
+   "ex_en": "The general gave a command to move forward.",
+   "ex_ja": "将軍は前進せよと命令しました。",
+   "level": 2,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "jx_174",
+   "en": "comment",
+   "ja": "コメント;意見",
+   "pos": "noun",
+   "ex_en": "Please leave a comment below the video.",
+   "ex_ja": "動画の下にコメントを残してください。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_175",
+   "en": "complain",
+   "ja": "文句を言う",
+   "pos": "verb",
+   "ex_en": "Don't complain about the food; be thankful.",
+   "ex_ja": "食べ物について文句を言わずに感謝しなさい。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_176",
+   "en": "compose",
+   "ja": "作曲する;構成する",
+   "pos": "verb",
+   "ex_en": "Beethoven composed many famous symphonies.",
+   "ex_ja": "ベートーベンは多くの有名な交響曲を作曲しました。",
+   "level": 2,
+   "tags": [
+    "music"
+   ]
+  },
+  {
+   "id": "jx_177",
+   "en": "concern",
+   "ja": "心配;関心事",
+   "pos": "noun",
+   "ex_en": "There is growing concern about air pollution in the city.",
+   "ex_ja": "市内の大気汚染への懸念が高まっています。",
+   "level": 2,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "jx_178",
+   "en": "concert",
+   "ja": "コンサート",
+   "pos": "noun",
+   "ex_en": "We went to a rock concert last weekend.",
+   "ex_ja": "先週末、ロックのコンサートに行きました。",
+   "level": 2,
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "jx_179",
+   "en": "conclude",
+   "ja": "結論づける;終わる",
+   "pos": "verb",
+   "ex_en": "The report concludes that exercise improves sleep.",
+   "ex_ja": "その報告書は運動が睡眠を改善すると結論づけています。",
+   "level": 2,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jx_180",
+   "en": "conduct",
+   "ja": "行う;導く",
+   "pos": "verb",
+   "ex_en": "The students conducted an experiment with plants.",
+   "ex_ja": "生徒たちは植物を使って実験を行いました。",
+   "level": 2,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jx_181",
+   "en": "confess",
+   "ja": "白状する;告白する",
+   "pos": "verb",
+   "ex_en": "He confessed that he had eaten all the cake.",
+   "ex_ja": "彼はケーキを全部食べてしまったと白状しました。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_182",
+   "en": "confuse",
+   "ja": "混乱させる",
+   "pos": "verb",
+   "ex_en": "The long directions confused me completely.",
+   "ex_ja": "長々とした説明に私は完全に混乱しました。",
+   "level": 2,
+   "tags": [
+    "mind"
+   ]
+  },
+  {
+   "id": "jx_183",
+   "en": "congratulate",
+   "ja": "祝う",
+   "pos": "verb",
+   "ex_en": "I called to congratulate her on her new job.",
+   "ex_ja": "新しい仕事のお祝いの電話をかけました。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_184",
+   "en": "conquer",
+   "ja": "征服する;打ち勝つ",
+   "pos": "verb",
+   "ex_en": "She finally conquered her fear of heights.",
+   "ex_ja": "彼女はついに高所恐怖を克服しました。",
+   "level": 2,
+   "tags": [
+    "mind"
+   ]
+  },
+  {
+   "id": "jx_185",
+   "en": "constant",
+   "ja": "絶え間ない",
+   "pos": "adj",
+   "ex_en": "The constant noise made it hard to study.",
+   "ex_ja": "絶え間ない騒音のために勉強しにくかったです。",
+   "level": 2,
+   "tags": [
+    "quality"
+   ]
+  },
+  {
+   "id": "jx_186",
+   "en": "contact",
+   "ja": "連絡;接触",
+   "pos": "noun",
+   "ex_en": "Keep in contact with your friends after you move.",
+   "ex_ja": "引っ越した後も友達と連絡を取り合いなさい。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_187",
+   "en": "contest",
+   "ja": "コンテスト;競争",
+   "pos": "noun",
+   "ex_en": "He entered a speech contest at his school.",
+   "ex_ja": "彼は学校の弁論大会に出場しました。",
+   "level": 2,
+   "tags": [
+    "school"
+   ]
+  },
+  {
+   "id": "jx_188",
+   "en": "convenience",
+   "ja": "便利さ",
+   "pos": "noun",
+   "ex_en": "I bought this phone for its convenience.",
+   "ex_ja": "このスマホは便利さゆえに買いました。",
+   "level": 2,
+   "tags": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "jx_189",
+   "en": "conversation",
+   "ja": "会話",
+   "pos": "noun",
+   "ex_en": "We had a long conversation about our future plans.",
+   "ex_ja": "私たちは将来の計画について長い会話をしました。",
+   "level": 2,
+   "tags": [
+    "communication"
+   ]
+  },
+  {
+   "id": "jx_190",
+   "en": "copper",
+   "ja": "銅",
+   "pos": "noun",
+   "ex_en": "This old pot is made of copper.",
+   "ex_ja": "この古い鍋は銅でできています。",
+   "level": 2,
+   "tags": [
+    "material"
+   ]
+  },
+  {
+   "id": "jx_191",
+   "en": "cottage",
+   "ja": "小さな家;別荘",
+   "pos": "noun",
+   "ex_en": "They spent the summer in a cottage by the lake.",
+   "ex_ja": "彼らは湖のそばの小さな別荘で夏を過ごしました。",
+   "level": 2,
+   "tags": [
+    "home"
+   ]
+  },
+  {
+   "id": "jx_192",
+   "en": "cotton",
+   "ja": "綿",
+   "pos": "noun",
+   "ex_en": "This shirt is made of soft cotton.",
+   "ex_ja": "このシャツは柔らかい綿でできています。",
+   "level": 2,
+   "tags": [
+    "material"
+   ]
+  },
+  {
+   "id": "jx_193",
+   "en": "cough",
+   "ja": "咳をする",
+   "pos": "verb",
+   "ex_en": "He has coughed all week because of his cold.",
+   "ex_ja": "風邪のせいで彼は一週間ずっと咳をしていました。",
+   "level": 2,
+   "tags": [
+    "medical"
+   ]
+  },
+  {
+   "id": "jx_194",
+   "en": "council",
+   "ja": "評議会;議会",
+   "pos": "noun",
+   "ex_en": "The city council decided to build a new library.",
+   "ex_ja": "市議会は新しい図書館を建設することを決めました。",
+   "level": 2,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "jx_195",
+   "en": "couple",
+   "ja": "一対;夫婦",
+   "pos": "noun",
+   "ex_en": "An elderly couple walked slowly through the park.",
+   "ex_ja": "老夫婦が公園をゆっくり歩いていました。",
+   "level": 2,
+   "tags": [
+    "people"
+   ]
+  },
+  {
+   "id": "jx_196",
+   "en": "court",
+   "ja": "裁判所;(テニスの)コート",
+   "pos": "noun",
+   "ex_en": "The case will be heard in court next Monday.",
+   "ex_ja": "その事件は来週月曜日に裁判所で審理されます。",
+   "level": 2,
+   "tags": [
+    "society"
+   ]
+  },
+  {
+   "id": "jx_197",
+   "en": "cousin",
+   "ja": "いとこ",
+   "pos": "noun",
+   "ex_en": "My cousin from Osaka is staying with us this week.",
+   "ex_ja": "大阪のいとこが今週うちに滞在しています。",
+   "level": 2,
+   "tags": [
+    "family"
+   ]
+  },
+  {
+   "id": "jx_198",
+   "en": "cover",
+   "ja": "覆う;表紙",
+   "pos": "verb",
+   "ex_en": "Cover the pot with a lid and wait ten minutes.",
+   "ex_ja": "鍋にふたをして10分待ちなさい。",
+   "level": 2,
+   "tags": [
+    "action"
+   ]
+  },
+  {
+   "id": "jx_199",
+   "en": "coward",
+   "ja": "臆病者",
+   "pos": "noun",
+   "ex_en": "Only a coward would leave his friends behind.",
+   "ex_ja": "友人を見捨てるのは臆病者だけです。",
+   "level": 2,
+   "tags": [
+    "people"
+   ]
+  },
+  {
+   "id": "jx_200",
+   "en": "crash",
+   "ja": "衝突する;墜落する",
+   "pos": "verb",
+   "ex_en": "The truck crashed into a tree by the road.",
+   "ex_ja": "トラックは道端の木に衝突しました。",
+   "level": 2,
+   "tags": [
+    "accident"
+   ]
+  }
+ ]
+}

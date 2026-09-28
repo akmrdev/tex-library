@@ -1,0 +1,1809 @@
+{
+  "meta": {
+    "file": "sw-level8-academic2-150",
+    "stage": "senior",
+    "description": "学術・抽象語彙150語"
+  },
+  "words": [
+    {
+      "id": "su_001",
+      "en": "abstraction",
+      "ja": "抽象化、抽象概念",
+      "pos": "noun",
+      "ex_en": "The map is an abstraction of the real landscape.",
+      "ex_ja": "地図は現実の風景を抽象化したものです。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_002",
+      "en": "alignment",
+      "ja": "整合、一致、調整",
+      "pos": "noun",
+      "ex_en": "The policy was changed to ensure alignment with international standards.",
+      "ex_ja": "その政策は国際基準との整合を確保するために変更されました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_003",
+      "en": "ambiguity",
+      "ja": "曖昧さ、多義性",
+      "pos": "noun",
+      "ex_en": "The ambiguity of the law led to years of legal disputes.",
+      "ex_ja": "その法律の曖昧さが長年の法的紛争を引き起こしました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_004",
+      "en": "antecedent",
+      "ja": "前例、先行詞、先行要因",
+      "pos": "noun",
+      "ex_en": "Historians looked for the antecedents of the revolution.",
+      "ex_ja": "歴史学者たちはその革命の前例を探しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_005",
+      "en": "arbitrariness",
+      "ja": "恣意性、任意性",
+      "pos": "noun",
+      "ex_en": "Critics pointed out the arbitrariness of the selection criteria.",
+      "ex_ja": "批評家たちは選考基準の恣意性を指摘しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_006",
+      "en": "asymmetry",
+      "ja": "非対称、不均衡",
+      "pos": "noun",
+      "ex_en": "There is an information asymmetry between sellers and buyers.",
+      "ex_ja": "売り手と買い手の間には情報の非対称があります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_007",
+      "en": "axiom",
+      "ja": "公理、原理",
+      "pos": "noun",
+      "ex_en": "The argument rests on the axiom that people act rationally.",
+      "ex_ja": "その議論は人が合理的に行動するという公理に立脚しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_008",
+      "en": "causality",
+      "ja": "因果関係、因果律",
+      "pos": "noun",
+      "ex_en": "Establishing causality requires more than correlation.",
+      "ex_ja": "因果関係の確立には相関関係以上のものが必要です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_009",
+      "en": "circularity",
+      "ja": "循環論法であること、循環性",
+      "pos": "noun",
+      "ex_en": "The definition was rejected because of its circularity.",
+      "ex_ja": "その定義は循環論法であるために却下されました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_010",
+      "en": "coherence",
+      "ja": "整合性、一貫性",
+      "pos": "noun",
+      "ex_en": "A good theory must have internal coherence.",
+      "ex_ja": "優れた理論は内部の整合性を備えていなければなりません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_011",
+      "en": "collectivism",
+      "ja": "集団主義",
+      "pos": "noun",
+      "ex_en": "The study compares individualism and collectivism across cultures.",
+      "ex_ja": "その研究は文化間で個人主義と集団主義を比較しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_012",
+      "en": "commodification",
+      "ja": "商品化",
+      "pos": "noun",
+      "ex_en": "The commodification of education concerns many scholars.",
+      "ex_ja": "教育の商品化は多くの研究者を懸念させています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_013",
+      "en": "complementarity",
+      "ja": "相互補完性",
+      "pos": "noun",
+      "ex_en": "The two approaches are best understood in terms of complementarity.",
+      "ex_ja": "その二つのアプローチは相互補完性の観点から理解するのが最善です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_014",
+      "en": "conflation",
+      "ja": "混同、融合",
+      "pos": "noun",
+      "ex_en": "The essay warns against the conflation of correlation with cause.",
+      "ex_ja": "その論文は相関と原因の混同を警戒しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_015",
+      "en": "conjecture",
+      "ja": "推測、憶測",
+      "pos": "noun",
+      "ex_en": "His explanation remains mere conjecture until evidence is found.",
+      "ex_ja": "彼の説明は証拠が見つかるまで単なる推測にとどまっています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_016",
+      "en": "consequentialism",
+      "ja": "結果主義",
+      "pos": "noun",
+      "ex_en": "Consequentialism judges actions by their outcomes.",
+      "ex_ja": "結果主義は行為をその結果によって判断します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_017",
+      "en": "constraint",
+      "ja": "制約、制限条件",
+      "pos": "noun",
+      "ex_en": "Budget constraints limited the scope of the research.",
+      "ex_ja": "予算の制約が研究の範囲を限定しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_018",
+      "en": "construct",
+      "ja": "構成概念、観念的な枠組み",
+      "pos": "noun",
+      "ex_en": "Intelligence is a theoretical construct, not a physical object.",
+      "ex_ja": "知能は物理的対象ではなく理論的な構成概念です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_019",
+      "en": "contingency",
+      "ja": "偶発性、不確定な事態",
+      "pos": "noun",
+      "ex_en": "History is shaped by both necessity and contingency.",
+      "ex_ja": "歴史は必然と偶発性の両方によって形作られます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_020",
+      "en": "contradiction",
+      "ja": "矛盾",
+      "pos": "noun",
+      "ex_en": "There is a contradiction between his words and his actions.",
+      "ex_ja": "彼の言葉と行動の間には矛盾があります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_021",
+      "en": "convergence",
+      "ja": "収束、融合、一致",
+      "pos": "noun",
+      "ex_en": "The convergence of the two fields produced new methods.",
+      "ex_ja": "その二分野の融合が新しい手法を生み出しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_022",
+      "en": "deconstruction",
+      "ja": "脱構築、解体",
+      "pos": "noun",
+      "ex_en": "Deconstruction reveals hidden assumptions in a text.",
+      "ex_ja": "脱構築はテクストに潜む前提を明らかにします。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_023",
+      "en": "demarcation",
+      "ja": "区分、境界設定",
+      "pos": "noun",
+      "ex_en": "The demarcation between science and pseudoscience is debated.",
+      "ex_ja": "科学と疑似科学の境界設定は議論されています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_024",
+      "en": "determinism",
+      "ja": "決定論",
+      "pos": "noun",
+      "ex_en": "Hard determinism denies the existence of free will.",
+      "ex_ja": "厳格な決定論は自由意志の存在を否定します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_025",
+      "en": "dialectic",
+      "ja": "弁証法",
+      "pos": "noun",
+      "ex_en": "The truth emerges through the dialectic of opposing views.",
+      "ex_ja": "真理は対立する見解の弁証法を通じて浮かび上がります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_026",
+      "en": "dichotomy",
+      "ja": "二分法、二項対立",
+      "pos": "noun",
+      "ex_en": "The dichotomy between nature and nurture is oversimplified.",
+      "ex_ja": "遺伝と環境という二分法は単純化されすぎています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_027",
+      "en": "discourse",
+      "ja": "言説、議論",
+      "pos": "noun",
+      "ex_en": "Media discourse shapes public opinion on immigration.",
+      "ex_ja": "メディアの言説は移民に関する世論を形作ります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_028",
+      "en": "disposition",
+      "ja": "傾向、性向",
+      "pos": "noun",
+      "ex_en": "Critical thinking is a skill and also a disposition.",
+      "ex_ja": "批判的思考は技能であると同時に性向でもあります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_029",
+      "en": "divergence",
+      "ja": "分岐、乖離",
+      "pos": "noun",
+      "ex_en": "There is a growing divergence between the two economic forecasts.",
+      "ex_ja": "その二つの経済予測の間で乖離が拡大しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_030",
+      "en": "dogma",
+      "ja": "定説、教義",
+      "pos": "noun",
+      "ex_en": "Good scientists question dogma rather than accept it.",
+      "ex_ja": "優れた科学者は定説を受け入れるのではなく疑問を持ちます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_031",
+      "en": "dualism",
+      "ja": "二元論",
+      "pos": "noun",
+      "ex_en": "Cartesian dualism separates mind from body.",
+      "ex_ja": "デカルトの二元論は心と身体を分離します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_032",
+      "en": "efficacy",
+      "ja": "有効性、効力",
+      "pos": "noun",
+      "ex_en": "Clinical trials tested the efficacy of the new drug.",
+      "ex_ja": "臨床試験では新薬の有効性が検証されました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_033",
+      "en": "embeddedness",
+      "ja": "埋め込み性、組み込まれていること",
+      "pos": "noun",
+      "ex_en": "Economic behavior shows its embeddedness in social relations.",
+      "ex_ja": "経済行動は社会関係への埋め込み性を示しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_034",
+      "en": "emergence",
+      "ja": "創発",
+      "pos": "noun",
+      "ex_en": "Consciousness may be an emergence from brain activity.",
+      "ex_ja": "意識は脳活動からの創発なのかもしれません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_035",
+      "en": "empiricism",
+      "ja": "経験主義",
+      "pos": "noun",
+      "ex_en": "British empiricism holds that knowledge comes from experience.",
+      "ex_ja": "英国経験主義は知識は経験に由来すると考えます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_036",
+      "en": "enigma",
+      "ja": "謎、不可解なもの",
+      "pos": "noun",
+      "ex_en": "The origin of language remains an enigma.",
+      "ex_ja": "言語の起源は依然として謎のままです。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_037",
+      "en": "epistemology",
+      "ja": "認識論",
+      "pos": "noun",
+      "ex_en": "Epistemology asks how we can know anything at all.",
+      "ex_ja": "認識論は私たちがそもそも何をどのように知りうるかを問います。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_038",
+      "en": "equilibrium",
+      "ja": "均衡、平衡状態",
+      "pos": "noun",
+      "ex_en": "The market moves toward equilibrium over time.",
+      "ex_ja": "市場は時間とともに均衡へと向かいます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_039",
+      "en": "essentialism",
+      "ja": "本質主義",
+      "pos": "noun",
+      "ex_en": "The article criticizes gender essentialism in psychology.",
+      "ex_ja": "その論文は心理学におけるジェンダー本質主義を批判しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_040",
+      "en": "exclusivity",
+      "ja": "排他性、独占性",
+      "pos": "noun",
+      "ex_en": "The exclusivity of the club limits membership to a few.",
+      "ex_ja": "そのクラブの排他性により会員は少数に限られます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_041",
+      "en": "exemplar",
+      "ja": "典型例、模範",
+      "pos": "noun",
+      "ex_en": "The paper provides exemplars of good scientific writing.",
+      "ex_ja": "その論文は優れた科学論文の典型例を示しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_042",
+      "en": "fallibility",
+      "ja": "誤りやすさ、可謬性",
+      "pos": "noun",
+      "ex_en": "Science advances by acknowledging its own fallibility.",
+      "ex_ja": "科学は自らの可謬性を認めることによって前進します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_043",
+      "en": "falsifiability",
+      "ja": "反証可能性",
+      "pos": "noun",
+      "ex_en": "Popper argued that falsifiability distinguishes science from myth.",
+      "ex_ja": "ポパーは反証可能性が科学と神話を区別すると論じました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_044",
+      "en": "feasibility",
+      "ja": "実行可能性",
+      "pos": "noun",
+      "ex_en": "A feasibility study was conducted before construction began.",
+      "ex_ja": "建設開始前に実行可能性調査が行われました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_045",
+      "en": "formalism",
+      "ja": "形式主義",
+      "pos": "noun",
+      "ex_en": "Legal formalism focuses on the letter of the law.",
+      "ex_ja": "法学における形式主義は法律の条文を重視します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_046",
+      "en": "generalization",
+      "ja": "一般化",
+      "pos": "noun",
+      "ex_en": "Careless generalization weakens an academic argument.",
+      "ex_ja": "軽率な一般化は学術的な議論を弱めます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_047",
+      "en": "granularity",
+      "ja": "粒度、細分化の程度",
+      "pos": "noun",
+      "ex_en": "The data was analyzed at a finer granularity.",
+      "ex_ja": "データはより細かい粒度で分析されました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_048",
+      "en": "hedonism",
+      "ja": "快楽主義",
+      "pos": "noun",
+      "ex_en": "Ethical hedonism identifies the good with pleasure.",
+      "ex_ja": "倫理的快楽主義は善を快楽と同一視します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_049",
+      "en": "hermeneutics",
+      "ja": "解釈学",
+      "pos": "noun",
+      "ex_en": "Hermeneutics studies how texts are interpreted.",
+      "ex_ja": "解釈学はテクストがどのように解釈されるかを研究します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_050",
+      "en": "heuristics",
+      "ja": "ヒューリスティック、発見的手法",
+      "pos": "noun",
+      "ex_en": "People often rely on heuristics when making quick decisions.",
+      "ex_ja": "人は素早く判断する際にしばしばヒューリスティックに依存します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_051",
+      "en": "hierarchy",
+      "ja": "階層、ヒエラルキー",
+      "pos": "noun",
+      "ex_en": "The theory arranges human needs in a hierarchy.",
+      "ex_ja": "その理論は人間の欲求を階層構造に配置します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_052",
+      "en": "holism",
+      "ja": "全体論",
+      "pos": "noun",
+      "ex_en": "Holism treats systems as wholes rather than parts.",
+      "ex_ja": "全体論はシステムを部分ではなく全体として扱います。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_053",
+      "en": "homogeneity",
+      "ja": "均質性、同質性",
+      "pos": "noun",
+      "ex_en": "The village showed remarkable cultural homogeneity.",
+      "ex_ja": "その村は顕著な文化的均質性を示していました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_054",
+      "en": "hybridity",
+      "ja": "混合性、ハイブリッド性",
+      "pos": "noun",
+      "ex_en": "Postcolonial theory emphasizes the hybridity of modern cultures.",
+      "ex_ja": "ポストコロニアル理論は現代文化の混合性を強調します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_055",
+      "en": "idealism",
+      "ja": "観念論、理想主義",
+      "pos": "noun",
+      "ex_en": "German idealism transformed modern philosophy.",
+      "ex_ja": "ドイツ観念論は近代哲学を変革しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_056",
+      "en": "impartiality",
+      "ja": "公正さ、偏りなさ",
+      "pos": "noun",
+      "ex_en": "Judges are expected to maintain strict impartiality.",
+      "ex_ja": "裁判官は厳格な公正さを保つことが期待されます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_057",
+      "en": "impermanence",
+      "ja": "無常、非永続性",
+      "pos": "noun",
+      "ex_en": "Buddhist thought stresses the impermanence of all things.",
+      "ex_ja": "仏教思想は万物の無常を強調します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_058",
+      "en": "incompatibility",
+      "ja": "両立不可能性、非互換性",
+      "pos": "noun",
+      "ex_en": "The incompatibility of the two theories sparked debate.",
+      "ex_ja": "その二つの理論の両立不可能性が論争を引き起こしました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_059",
+      "en": "indeterminacy",
+      "ja": "不確定性、未決定性",
+      "pos": "noun",
+      "ex_en": "Quantum physics introduced indeterminacy into science.",
+      "ex_ja": "量子物理学は科学に不確定性をもたらしました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_060",
+      "en": "induction",
+      "ja": "帰納",
+      "pos": "noun",
+      "ex_en": "Scientific induction draws general laws from particular cases.",
+      "ex_ja": "科学的帰納は個々の事例から一般的法則を導きます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_061",
+      "en": "instantiation",
+      "ja": "具体化、実体化",
+      "pos": "noun",
+      "ex_en": "Each document is an instantiation of the same template.",
+      "ex_ja": "各文書は同じテンプレートの具体化です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_062",
+      "en": "instrumentalism",
+      "ja": "道具主義",
+      "pos": "noun",
+      "ex_en": "Instrumentalism regards theories as tools for prediction.",
+      "ex_ja": "道具主義は理論を予測のための道具とみなします。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_063",
+      "en": "intentionality",
+      "ja": "意向性、意図性",
+      "pos": "noun",
+      "ex_en": "Philosophers debate the intentionality of mental states.",
+      "ex_ja": "哲学者たちは心的状態の意向性を議論しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_064",
+      "en": "interdependence",
+      "ja": "相互依存",
+      "pos": "noun",
+      "ex_en": "Global trade has created deep interdependence among nations.",
+      "ex_ja": "世界貿易は国家間の深い相互依存を生み出しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_065",
+      "en": "intertextuality",
+      "ja": "テクスト間性",
+      "pos": "noun",
+      "ex_en": "Literary critics analyze intertextuality between the two novels.",
+      "ex_ja": "文学批評家は二つの小説間のテクスト間性を分析します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_066",
+      "en": "intrinsic value",
+      "ja": "内在的価値",
+      "pos": "phrase",
+      "ex_en": "Many philosophers argue that nature has intrinsic value.",
+      "ex_ja": "多くの哲学者は自然には内在的価値があると論じています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_067",
+      "en": "irrefutability",
+      "ja": "反駁不能であること",
+      "pos": "noun",
+      "ex_en": "The data gave the conclusion near irrefutability.",
+      "ex_ja": "そのデータにより結論はほぼ反駁不能になりました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_068",
+      "en": "juxtaposition",
+      "ja": "並置、対比的配置",
+      "pos": "noun",
+      "ex_en": "The poem works through the juxtaposition of light and dark.",
+      "ex_ja": "その詩は光と闇の並置によって効果を生んでいます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_069",
+      "en": "legitimacy",
+      "ja": "正統性、正当性",
+      "pos": "noun",
+      "ex_en": "The election gave the new government legitimacy.",
+      "ex_ja": "その選挙が新政権に正統性を与えました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_070",
+      "en": "linearity",
+      "ja": "線形性、直線性",
+      "pos": "noun",
+      "ex_en": "The model assumes linearity between input and output.",
+      "ex_ja": "そのモデルは入力と出力の間の線形性を仮定しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_071",
+      "en": "malleability",
+      "ja": "可塑性、可鍛性",
+      "pos": "noun",
+      "ex_en": "Research highlights the malleability of memory.",
+      "ex_ja": "研究は記憶の可塑性を浮き彫りにしています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_072",
+      "en": "materiality",
+      "ja": "物質性、重要性",
+      "pos": "noun",
+      "ex_en": "The study examines the materiality of digital media.",
+      "ex_ja": "その研究はデジタルメディアの物質性を検討しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_073",
+      "en": "mediation",
+      "ja": "媒介、調停",
+      "pos": "noun",
+      "ex_en": "Culture acts as a mediation between individuals and society.",
+      "ex_ja": "文化は個人と社会の間を媒介する働きをします。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_074",
+      "en": "methodology",
+      "ja": "方法論",
+      "pos": "noun",
+      "ex_en": "The paper describes the methodology of the survey in detail.",
+      "ex_ja": "その論文は調査の方法論を詳述しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_075",
+      "en": "modality",
+      "ja": "様相、方式",
+      "pos": "noun",
+      "ex_en": "Learning through multiple modalities improves retention.",
+      "ex_ja": "複数の様式を通じた学習は記憶の定着を改善します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_076",
+      "en": "modernity",
+      "ja": "近代性、近代",
+      "pos": "noun",
+      "ex_en": "Sociologists link bureaucracy to the rise of modernity.",
+      "ex_ja": "社会学者は官僚制を近代の台頭と結び付けて考えます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_077",
+      "en": "morality",
+      "ja": "道徳、倫理",
+      "pos": "noun",
+      "ex_en": "Philosophers disagree about the origins of morality.",
+      "ex_ja": "哲学者たちは道徳の起源について意見が分かれています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_078",
+      "en": "multiplicity",
+      "ja": "多様性、多数性",
+      "pos": "noun",
+      "ex_en": "The text invites a multiplicity of interpretations.",
+      "ex_ja": "そのテクストは多様な解釈を呼び込んでいます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_079",
+      "en": "mutability",
+      "ja": "可変性、変わりやすさ",
+      "pos": "noun",
+      "ex_en": "The mutability of language reflects social change.",
+      "ex_ja": "言語の可変性は社会変化を反映しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_080",
+      "en": "naturalism",
+      "ja": "自然主義",
+      "pos": "noun",
+      "ex_en": "Philosophical naturalism rejects supernatural explanations.",
+      "ex_ja": "哲学的自然主義は超自然的説明を拒みます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_081",
+      "en": "necessity",
+      "ja": "必然性、必要性",
+      "pos": "noun",
+      "ex_en": "Logical necessity differs from mere probability.",
+      "ex_ja": "論理的必然性は単なる確率とは異なります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_082",
+      "en": "normativity",
+      "ja": "規範性",
+      "pos": "noun",
+      "ex_en": "The debate concerns the normativity of scientific standards.",
+      "ex_ja": "その議論は科学的基準の規範性に関わっています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_083",
+      "en": "objectivity",
+      "ja": "客観性",
+      "pos": "noun",
+      "ex_en": "Complete objectivity may be impossible in historical writing.",
+      "ex_ja": "歴史叙述において完全な客観性は不可能かもしれません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_084",
+      "en": "opacity",
+      "ja": "不透明性",
+      "pos": "noun",
+      "ex_en": "Critics noted the opacity of the algorithm's decisions.",
+      "ex_ja": "批評家たちはアルゴリズムの判断の不透明性を指摘しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_085",
+      "en": "particularity",
+      "ja": "特殊性、個別性",
+      "pos": "noun",
+      "ex_en": "History attends to the particularity of each case.",
+      "ex_ja": "歴史学は個々の事例の特殊性に注意を払います。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_086",
+      "en": "pedagogy",
+      "ja": "教育学、教授法",
+      "pos": "noun",
+      "ex_en": "The school adopted a new pedagogy based on inquiry.",
+      "ex_ja": "その学校は探究に基づく新しい教授法を採用しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_087",
+      "en": "permanence",
+      "ja": "永続性、恒久性",
+      "pos": "noun",
+      "ex_en": "Nothing in the physical world has absolute permanence.",
+      "ex_ja": "物理世界において絶対的な永続性を持つものはありません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_088",
+      "en": "perspectivism",
+      "ja": "視点主義",
+      "pos": "noun",
+      "ex_en": "Nietzsche's perspectivism denies a single objective viewpoint.",
+      "ex_ja": "ニーチェの視点主義は唯一の客観的視点を否定します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_089",
+      "en": "phenomenology",
+      "ja": "現象学",
+      "pos": "noun",
+      "ex_en": "Phenomenology studies experience as it is lived.",
+      "ex_ja": "現象学は生きられた経験そのものを研究します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_090",
+      "en": "pluralism",
+      "ja": "多元主義、多元性",
+      "pos": "noun",
+      "ex_en": "Political pluralism tolerates competing values.",
+      "ex_ja": "政治的多元主義は競合する価値を容認します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_091",
+      "en": "polarity",
+      "ja": "極性、対立",
+      "pos": "noun",
+      "ex_en": "The Cold War was defined by the polarity of two blocs.",
+      "ex_ja": "冷戦は二つの陣営による極性によって特徴づけられました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_092",
+      "en": "positivism",
+      "ja": "実証主義",
+      "pos": "noun",
+      "ex_en": "Logical positivism restricted meaningful statements to the verifiable.",
+      "ex_ja": "論理実証主義は意味のある命題を検証可能なものに限定しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_093",
+      "en": "pragmatism",
+      "ja": "プラグマティズム、実用主義",
+      "pos": "noun",
+      "ex_en": "American pragmatism judges ideas by their practical results.",
+      "ex_ja": "アメリカのプラグマティズムは観念を実践的結果で判断します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_094",
+      "en": "primacy",
+      "ja": "首要性、優位",
+      "pos": "noun",
+      "ex_en": "The theory asserts the primacy of perception.",
+      "ex_ja": "その理論は知覚の首要性を主張しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_095",
+      "en": "provisionality",
+      "ja": "暫定性、条件付きであること",
+      "pos": "noun",
+      "ex_en": "Scientific claims carry an inherent provisionality.",
+      "ex_ja": "科学的な主張には本来的な暫定性が伴います。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_096",
+      "en": "prudence",
+      "ja": "思慮分別、慎重さ",
+      "pos": "noun",
+      "ex_en": "Aristotle regarded prudence as the key practical virtue.",
+      "ex_ja": "アリストテレスは思慮分別を重要な実践徳とみなしました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_097",
+      "en": "qualia",
+      "ja": "クオリア、主観的質感",
+      "pos": "noun",
+      "ex_en": "Philosophers use qualia to describe the redness of red.",
+      "ex_ja": "哲学者は赤の赤らしさを表すのにクオリアを用います。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_098",
+      "en": "quintessence",
+      "ja": "精髄、典型",
+      "pos": "noun",
+      "ex_en": "The novel is considered the quintessence of romantic fiction.",
+      "ex_ja": "その小説はロマンチック小説の精髄とみなされています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_099",
+      "en": "rationality",
+      "ja": "合理性、理性",
+      "pos": "noun",
+      "ex_en": "Economics traditionally assumes the rationality of agents.",
+      "ex_ja": "経済学は伝統的に主体の合理性を仮定してきました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_100",
+      "en": "realism",
+      "ja": "実在論、リアリズム",
+      "pos": "noun",
+      "ex_en": "Scientific realism holds that unobservable entities exist.",
+      "ex_ja": "科学的実在論は観察不可能な実体が存在すると考えます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_101",
+      "en": "reciprocity",
+      "ja": "相互性、互恵関係",
+      "pos": "noun",
+      "ex_en": "Social trust grows through everyday reciprocity.",
+      "ex_ja": "社会的信頼は日常の相互性を通じて育ちます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_102",
+      "en": "reductionism",
+      "ja": "還元主義",
+      "pos": "noun",
+      "ex_en": "Critics accuse the model of crude reductionism.",
+      "ex_ja": "批評家たちはそのモデルを粗雑な還元主義だと非難します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_103",
+      "en": "reflexivity",
+      "ja": "再帰性、自己言及性",
+      "pos": "noun",
+      "ex_en": "Qualitative researchers practice reflexivity about their own bias.",
+      "ex_ja": "質的研究者は自身のバイアスへの再帰性を実践します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_104",
+      "en": "relativity",
+      "ja": "相対性",
+      "pos": "noun",
+      "ex_en": "Einstein's theory of relativity changed our idea of time.",
+      "ex_ja": "アインシュタインの相対性理論は時間の概念を変えました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_105",
+      "en": "representation",
+      "ja": "表象、表現、代表",
+      "pos": "noun",
+      "ex_en": "The painting is a representation of political power.",
+      "ex_ja": "その絵画は政治権力の表象です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_106",
+      "en": "rigor",
+      "ja": "厳密さ、厳格さ",
+      "pos": "noun",
+      "ex_en": "Peer review exists to maintain scientific rigor.",
+      "ex_ja": "査読は科学的な厳密さを維持するために存在します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_107",
+      "en": "robustness",
+      "ja": "頑健性、堅牢性",
+      "pos": "noun",
+      "ex_en": "The result showed robustness across different datasets.",
+      "ex_ja": "その結果は異なるデータセット間でも頑健性を示しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_108",
+      "en": "salience",
+      "ja": "顕著性、際立ち",
+      "pos": "noun",
+      "ex_en": "Media coverage increases the salience of an issue.",
+      "ex_ja": "メディア報道は問題の顕著性を高めます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_109",
+      "en": "secularism",
+      "ja": "世俗主義",
+      "pos": "noun",
+      "ex_en": "Secularism separates religion from state institutions.",
+      "ex_ja": "世俗主義は宗教と国家機関を分離します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_110",
+      "en": "semantics",
+      "ja": "意味論",
+      "pos": "noun",
+      "ex_en": "Semantics studies how meaning arises from language.",
+      "ex_ja": "意味論は言語から意味がどう生じるかを研究します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_111",
+      "en": "separability",
+      "ja": "分離可能性",
+      "pos": "noun",
+      "ex_en": "Quantum theory challenges the separability of particles.",
+      "ex_ja": "量子理論は粒子の分離可能性に疑問を投げかけます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_112",
+      "en": "simultaneity",
+      "ja": "同時性",
+      "pos": "noun",
+      "ex_en": "Relativity questions the absolute simultaneity of distant events.",
+      "ex_ja": "相対性理論は離れた出来事の絶対的同時性に疑問を投げかけます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_113",
+      "en": "solipsism",
+      "ja": "独我論",
+      "pos": "noun",
+      "ex_en": "Radical solipsism admits only one's own mind as real.",
+      "ex_ja": "過激な独我論は自分の心だけを実在として認めます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_114",
+      "en": "sophistry",
+      "ja": "詭弁",
+      "pos": "noun",
+      "ex_en": "The lawyer's argument was dismissed as sophistry.",
+      "ex_ja": "その弁護士の議論は詭弁として退けられました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_115",
+      "en": "stochasticity",
+      "ja": "確率的変動、無作為性",
+      "pos": "noun",
+      "ex_en": "Ecological models must account for environmental stochasticity.",
+      "ex_ja": "生態系モデルは環境の確率的変動を考慮しなければなりません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_116",
+      "en": "structuralism",
+      "ja": "構造主義",
+      "pos": "noun",
+      "ex_en": "Structuralism analyzes culture through underlying systems.",
+      "ex_ja": "構造主義は根底にある体系を通じて文化を分析します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_117",
+      "en": "subjectivity",
+      "ja": "主観性",
+      "pos": "noun",
+      "ex_en": "Interview data inevitably involves subjectivity.",
+      "ex_ja": "面接データには必然的に主観性が関わります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_118",
+      "en": "substantiation",
+      "ja": "実証、立証",
+      "pos": "noun",
+      "ex_en": "The claim needs further substantiation before publication.",
+      "ex_ja": "その主張は出版前にさらなる立証が必要です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_119",
+      "en": "syllogism",
+      "ja": "三段論法",
+      "pos": "noun",
+      "ex_en": "A classic syllogism moves from major premise to conclusion.",
+      "ex_ja": "古典的な三段論法は大前提から結論へ進みます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_120",
+      "en": "symbiosis",
+      "ja": "共生",
+      "pos": "noun",
+      "ex_en": "The theory describes a symbiosis of technology and culture.",
+      "ex_ja": "その理論は技術と文化の共生を記述しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_121",
+      "en": "synthesis",
+      "ja": "総合、統合",
+      "pos": "noun",
+      "ex_en": "The thesis offers a synthesis of economics and ethics.",
+      "ex_ja": "その論文は経済学と倫理学の統合を提示しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_122",
+      "en": "teleology",
+      "ja": "目的論",
+      "pos": "noun",
+      "ex_en": "Darwin's theory removed teleology from biology.",
+      "ex_ja": "ダーウィンの理論は生物学から目的論を取り除きました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_123",
+      "en": "temporality",
+      "ja": "時間性",
+      "pos": "noun",
+      "ex_en": "The novel experiments with narrative temporality.",
+      "ex_ja": "その小説は物語の時間性を実験しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_124",
+      "en": "theorization",
+      "ja": "理論化",
+      "pos": "noun",
+      "ex_en": "The data awaits systematic theorization.",
+      "ex_ja": "そのデータは体系的な理論化を待っています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_125",
+      "en": "totality",
+      "ja": "全体性、全体",
+      "pos": "noun",
+      "ex_en": "Marxist critics analyze society as a totality.",
+      "ex_ja": "マルクス主義批評は社会を全体性として分析します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_126",
+      "en": "transcendence",
+      "ja": "超越",
+      "pos": "noun",
+      "ex_en": "Mystics describe experiences of transcendence beyond the self.",
+      "ex_ja": "神秘主義者は自己を超えた超越の経験を描写します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_127",
+      "en": "transitivity",
+      "ja": "推移性、他動性",
+      "pos": "noun",
+      "ex_en": "Linguists examined the transitivity of the verb.",
+      "ex_ja": "言語学者はその動詞の他動性を調べました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_128",
+      "en": "transparency",
+      "ja": "透明性",
+      "pos": "noun",
+      "ex_en": "Citizens demand transparency in government spending.",
+      "ex_ja": "市民は政府支出の透明性を求めています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_129",
+      "en": "typology",
+      "ja": "類型論、類型学",
+      "pos": "noun",
+      "ex_en": "The book presents a typology of political regimes.",
+      "ex_ja": "その本は政治体制の類型論を提示しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_130",
+      "en": "ubiquity",
+      "ja": "遍在、どこにでもあること",
+      "pos": "noun",
+      "ex_en": "The ubiquity of smartphones has changed social habits.",
+      "ex_ja": "スマートフォンの普及により社会的習慣が変わりました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_131",
+      "en": "underdetermination",
+      "ja": "決定不足",
+      "pos": "noun",
+      "ex_en": "The evidence suffers from underdetermination of the theory.",
+      "ex_ja": "その証拠は理論の決定不足に悩まされています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_132",
+      "en": "uniformity",
+      "ja": "均一性、画一性",
+      "pos": "noun",
+      "ex_en": "Mass production enforces uniformity in design.",
+      "ex_ja": "大量生産はデザインにおける画一性を強います。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_133",
+      "en": "universality",
+      "ja": "普遍性",
+      "pos": "noun",
+      "ex_en": "Human rights claims rest on their universality.",
+      "ex_ja": "人権の主張はその普遍性に基づいています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_134",
+      "en": "utilitarianism",
+      "ja": "功利主義",
+      "pos": "noun",
+      "ex_en": "Utilitarianism seeks the greatest good for the greatest number.",
+      "ex_ja": "功利主義は最大多数の最大幸福を追求します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_135",
+      "en": "vagueness",
+      "ja": "曖昧さ、不明瞭さ",
+      "pos": "noun",
+      "ex_en": "The vagueness of the term invites misreading.",
+      "ex_ja": "その用語の曖昧さが誤読を招いています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_136",
+      "en": "variability",
+      "ja": "変動性、ばらつき",
+      "pos": "noun",
+      "ex_en": "Seasonal variability affects the reliability of the measurements.",
+      "ex_ja": "季節による変動性が測定値の信頼性に影響します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_137",
+      "en": "verification",
+      "ja": "検証",
+      "pos": "noun",
+      "ex_en": "Replication is central to the verification of results.",
+      "ex_ja": "再現は結果の検証において中心となります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_138",
+      "en": "viability",
+      "ja": "実行可能性、存続可能性",
+      "pos": "noun",
+      "ex_en": "Analysts questioned the long-term viability of the business model.",
+      "ex_ja": "アナリストたちはそのビジネスモデルの長期的な存続可能性に疑問を呈しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_139",
+      "en": "virtuality",
+      "ja": "仮想性",
+      "pos": "noun",
+      "ex_en": "The essay explores virtuality in digital environments.",
+      "ex_ja": "そのエッセイはデジタル環境における仮想性を探っています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_140",
+      "en": "aesthetic merit",
+      "ja": "美的価値、美的メリット",
+      "pos": "phrase",
+      "ex_en": "Judges assessed both the technical skill and aesthetic merit of each entry.",
+      "ex_ja": "審査員は各出品作品の技術力と美的価値の両方を評価しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_141",
+      "en": "causal mechanism",
+      "ja": "因果メカニズム",
+      "pos": "phrase",
+      "ex_en": "Identifying a causal mechanism strengthens any scientific explanation.",
+      "ex_ja": "因果メカニズムを特定することで科学的説明はいっそう強固になります。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_142",
+      "en": "conceptual clarity",
+      "ja": "概念の明確さ",
+      "pos": "phrase",
+      "ex_en": "Good definitions provide conceptual clarity for further analysis.",
+      "ex_ja": "優れた定義はその後の分析のための概念の明確さをもたらします。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_143",
+      "en": "critical scrutiny",
+      "ja": "批判的吟味",
+      "pos": "phrase",
+      "ex_en": "Every claim should withstand critical scrutiny before it is accepted.",
+      "ex_ja": "すべての主張は受け入れられる前に批判的吟味に耐えなければなりません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_144",
+      "en": "empirical grounding",
+      "ja": "経験的基盤",
+      "pos": "phrase",
+      "ex_en": "The argument gains empirical grounding from field data.",
+      "ex_ja": "その議論は現地データによって経験的基盤を得ています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_145",
+      "en": "ethical implication",
+      "ja": "倫理的帰結",
+      "pos": "phrase",
+      "ex_en": "Gene editing raises serious ethical implications.",
+      "ex_ja": "遺伝子編集は深刻な倫理的帰結をもたらします。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_146",
+      "en": "logical consistency",
+      "ja": "論理的整合性",
+      "pos": "phrase",
+      "ex_en": "A sound theory requires logical consistency among its parts.",
+      "ex_ja": "健全な理論には諸部分間の論理的整合性が必要です。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_147",
+      "en": "moral reasoning",
+      "ja": "道徳的推論",
+      "pos": "phrase",
+      "ex_en": "Children develop moral reasoning as they mature.",
+      "ex_ja": "子どもは成長するにつれて道徳的推論を発達させます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_148",
+      "en": "philosophical inquiry",
+      "ja": "哲学的探究",
+      "pos": "phrase",
+      "ex_en": "Consciousness remains a central topic of philosophical inquiry.",
+      "ex_ja": "意識は今なお哲学的探究の中心的テーマです。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_149",
+      "en": "tacit knowledge",
+      "ja": "暗黙知",
+      "pos": "phrase",
+      "ex_en": "Craftsmanship depends on tacit knowledge passed down by apprenticeship.",
+      "ex_ja": "職人技は徒弟制度で受け継がれる暗黙知に依存しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "su_150",
+      "en": "working hypothesis",
+      "ja": "作業仮説",
+      "pos": "phrase",
+      "ex_en": "We treat this idea as a working hypothesis, not a conclusion.",
+      "ex_ja": "この考えは結論ではなく作業仮説として扱います。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    }
+  ]
+}

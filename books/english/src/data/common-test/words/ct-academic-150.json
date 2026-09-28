@@ -1,0 +1,1857 @@
+{
+  "meta": {
+    "file": "ct-academic-150",
+    "stage": "common-test",
+    "description": "共通テスト学術語彙150語"
+  },
+  "words": [
+    {
+      "id": "cta_001",
+      "en": "abolish",
+      "ja": "廃止する",
+      "pos": "verb",
+      "ex_en": "The government voted to abolish the outdated tax system.",
+      "ex_ja": "政府は時代遅れの税制を廃止することを決議しました。",
+      "level": 4,
+      "tags": [
+        "society",
+        "history"
+      ]
+    },
+    {
+      "id": "cta_002",
+      "en": "accelerate",
+      "ja": "加速する",
+      "pos": "verb",
+      "ex_en": "Global warming has accelerated the melting of glaciers.",
+      "ex_ja": "地球温暖化は氷河の融解を加速させました。",
+      "level": 4,
+      "tags": [
+        "environment",
+        "science"
+      ]
+    },
+    {
+      "id": "cta_003",
+      "en": "accessible",
+      "ja": "利用しやすい、アクセスしやすい",
+      "pos": "adj",
+      "ex_en": "The new app makes medical advice accessible to rural residents.",
+      "ex_ja": "新しいアプリは地方の住民が医療アドバイスを利用しやすくしています。",
+      "level": 4,
+      "tags": [
+        "technology",
+        "society"
+      ]
+    },
+    {
+      "id": "cta_004",
+      "en": "appeal",
+      "ja": "魅力、訴え",
+      "pos": "noun",
+      "ex_en": "The city's historical appeal draws millions of tourists every year.",
+      "ex_ja": "その都市の歴史的な魅力は毎年何百万人もの観光客を引きつけています。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_005",
+      "en": "aspiration",
+      "ja": "抱負、願望",
+      "pos": "noun",
+      "ex_en": "Young voters have strong aspirations for political reform.",
+      "ex_ja": "若い有権者は政治改革に対して強い願望を持っています。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_006",
+      "en": "assimilate",
+      "ja": "同化する",
+      "pos": "verb",
+      "ex_en": "Immigrants often take generations to fully assimilate into a new culture.",
+      "ex_ja": "移民が新しい文化に完全に同化するには数世代かかることがよくあります。",
+      "level": 4,
+      "tags": [
+        "society",
+        "history"
+      ]
+    },
+    {
+      "id": "cta_007",
+      "en": "beneficial",
+      "ja": "有益な",
+      "pos": "adj",
+      "ex_en": "Moderate exercise is highly beneficial to both body and mind.",
+      "ex_ja": "適度な運動は心身の両方に非常に有益です。",
+      "level": 4,
+      "tags": [
+        "medicine",
+        "science"
+      ]
+    },
+    {
+      "id": "cta_008",
+      "en": "bizarre",
+      "ja": "奇妙な",
+      "pos": "adj",
+      "ex_en": "Scientists observed bizarre behavior in deep-sea creatures.",
+      "ex_ja": "科学者たちは深海生物の奇妙な行動を観察しました。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_009",
+      "en": "bureaucracy",
+      "ja": "官僚制度、官僚主義",
+      "pos": "noun",
+      "ex_en": "Excessive bureaucracy often delays the implementation of new policies.",
+      "ex_ja": "過度な官僚制度はしばしば新しい政策の実施を遅らせます。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_010",
+      "en": "chaotic",
+      "ja": "混沌とした、無秩序な",
+      "pos": "adj",
+      "ex_en": "Traffic became chaotic immediately after the power failure.",
+      "ex_ja": "停電の直後、交通は混沌とした状態になりました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_011",
+      "en": "characteristic",
+      "ja": "特徴的な",
+      "pos": "adj",
+      "ex_en": "Wooden pagodas are a characteristic feature of ancient Japanese architecture.",
+      "ex_ja": "木造の塔は古代日本建築の特徴的な要素です。",
+      "level": 4,
+      "tags": [
+        "history",
+        "culture"
+      ]
+    },
+    {
+      "id": "cta_012",
+      "en": "civic",
+      "ja": "市民の",
+      "pos": "adj",
+      "ex_en": "Serving the community is regarded as an important civic duty.",
+      "ex_ja": "地域に貢献することは重要な市民の義務とみなされています。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_013",
+      "en": "colonial",
+      "ja": "植民地の",
+      "pos": "adj",
+      "ex_en": "The museum preserves documents from the colonial period.",
+      "ex_ja": "その博物館は植民地時代の文書を保存しています。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_014",
+      "en": "comparable",
+      "ja": "匹敵する、比較できる",
+      "pos": "adj",
+      "ex_en": "The two regions face comparable economic challenges.",
+      "ex_ja": "その二つの地域は匹敵する経済的課題に直面しています。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_015",
+      "en": "condone",
+      "ja": "容認する、大目に見る",
+      "pos": "verb",
+      "ex_en": "Schools must not tolerate or condone any form of bullying.",
+      "ex_ja": "学校はいかなる形のいじめも許したり容認したりしてはなりません。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_016",
+      "en": "congestion",
+      "ja": "混雑、渋滞",
+      "pos": "noun",
+      "ex_en": "Congestion pricing has reduced traffic in the city center.",
+      "ex_ja": "渋滞料金制は市中心部の交通渋滞を減らしました。",
+      "level": 4,
+      "tags": [
+        "society",
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_017",
+      "en": "contingent",
+      "ja": "条件次第の",
+      "pos": "adj",
+      "ex_en": "Further investment is contingent on the success of the pilot project.",
+      "ex_ja": "追加投資は試験事業の成功いかんにかかっています。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_018",
+      "en": "conviction",
+      "ja": "確信、信念",
+      "pos": "noun",
+      "ex_en": "She spoke with deep conviction about educational equality.",
+      "ex_ja": "彼女は教育の平等について深い確信をもって語りました。",
+      "level": 4,
+      "tags": [
+        "academic",
+        "society"
+      ]
+    },
+    {
+      "id": "cta_019",
+      "en": "debris",
+      "ja": "がれき、残骸",
+      "pos": "noun",
+      "ex_en": "Debris from the destroyed satellite poses a risk to other spacecraft.",
+      "ex_ja": "破壊された衛星のがれきは他の宇宙船へのリスクとなっています。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_020",
+      "en": "decimal",
+      "ja": "小数",
+      "pos": "noun",
+      "ex_en": "Convert the fraction into a decimal before calculating the average.",
+      "ex_ja": "平均を計算する前に、その分数を小数に変換してください。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_021",
+      "en": "delineate",
+      "ja": "明確に記述する、描き出す",
+      "pos": "verb",
+      "ex_en": "The report clearly delineates the responsibilities of each department.",
+      "ex_ja": "その報告書は各部署の責任を明確に記述しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_022",
+      "en": "deliver",
+      "ja": "届ける、(演説などを)行う",
+      "pos": "verb",
+      "ex_en": "The mayor will deliver a speech at the opening ceremony.",
+      "ex_ja": "市長は開会式で演説を行う予定です。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_023",
+      "en": "demographic",
+      "ja": "人口統計の",
+      "pos": "adj",
+      "ex_en": "An aging population is a major demographic trend in many countries.",
+      "ex_ja": "人口の高齢化は多くの国における主要な人口統計上の傾向です。",
+      "level": 4,
+      "tags": [
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_024",
+      "en": "deploy",
+      "ja": "配置する、展開する",
+      "pos": "verb",
+      "ex_en": "The company plans to deploy solar panels across its factories.",
+      "ex_ja": "その会社はすべての工場に太陽光パネルを配置する計画です。",
+      "level": 4,
+      "tags": [
+        "technology",
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_025",
+      "en": "detrimental",
+      "ja": "有害な",
+      "pos": "adj",
+      "ex_en": "Noise pollution can be detrimental to human health.",
+      "ex_ja": "騒音公害は人の健康に有害となり得ます。",
+      "level": 4,
+      "tags": [
+        "environment",
+        "medicine"
+      ]
+    },
+    {
+      "id": "cta_026",
+      "en": "diploma",
+      "ja": "卒業証書、資格証書",
+      "pos": "noun",
+      "ex_en": "A diploma alone no longer guarantees a stable career.",
+      "ex_ja": "卒業証書だけでもう安定した職業が保証されるわけではありません。",
+      "level": 4,
+      "tags": [
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_027",
+      "en": "disable",
+      "ja": "無効にする、機能を失わせる",
+      "pos": "verb",
+      "ex_en": "The virus can disable the security software within minutes.",
+      "ex_ja": "そのウイルスは数分でセキュリティソフトを無効にすることができます。",
+      "level": 4,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "cta_028",
+      "en": "dissolve",
+      "ja": "溶解する、解散する",
+      "pos": "verb",
+      "ex_en": "Salt dissolves quickly in warm water.",
+      "ex_ja": "塩はぬるま湯の中ですぐに溶けます。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_029",
+      "en": "diverge",
+      "ja": "分岐する、乖離する",
+      "pos": "verb",
+      "ex_en": "The opinions of the two experts diverge sharply on this issue.",
+      "ex_ja": "二人の専門家の意見はこの問題について大きく乖離しています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_030",
+      "en": "doctrine",
+      "ja": "主義、教義",
+      "pos": "noun",
+      "ex_en": "The court rejected the legal doctrine established a century earlier.",
+      "ex_ja": "裁判所は一世紀前に確立された法理を退けました。",
+      "level": 4,
+      "tags": [
+        "history",
+        "society"
+      ]
+    },
+    {
+      "id": "cta_031",
+      "en": "durable",
+      "ja": "耐久性のある",
+      "pos": "adj",
+      "ex_en": "Consumers increasingly prefer durable goods over disposable products.",
+      "ex_ja": "消費者は使い捨て製品よりも耐久財を選ぶ傾向が強まっています。",
+      "level": 4,
+      "tags": [
+        "economy",
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_032",
+      "en": "dynamic",
+      "ja": "動的な、力動的な",
+      "pos": "adj",
+      "ex_en": "The city's economy remains dynamic despite global uncertainty.",
+      "ex_ja": "その都市の経済は世界的な不確実性にもかかわらず力動的であり続けています。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_033",
+      "en": "ecological",
+      "ja": "生態の、生態学の",
+      "pos": "adj",
+      "ex_en": "The dam project was criticized for its ecological impact.",
+      "ex_ja": "ダム計画は生態系への影響で批判されました。",
+      "level": 4,
+      "tags": [
+        "environment",
+        "science"
+      ]
+    },
+    {
+      "id": "cta_034",
+      "en": "embrace",
+      "ja": "快く受け入れる",
+      "pos": "verb",
+      "ex_en": "Many firms have embraced remote work since the pandemic.",
+      "ex_ja": "多くの企業はパンデミック以降、リモートワークを受け入れています。",
+      "level": 4,
+      "tags": [
+        "economy",
+        "technology"
+      ]
+    },
+    {
+      "id": "cta_035",
+      "en": "endorse",
+      "ja": "支持する、承認する",
+      "pos": "verb",
+      "ex_en": "Several prominent scientists endorsed the new climate agreement.",
+      "ex_ja": "数名の著名な科学者が新しい気候協定を支持しました。",
+      "level": 4,
+      "tags": [
+        "society",
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_036",
+      "en": "endure",
+      "ja": "耐え抜く、続く",
+      "pos": "verb",
+      "ex_en": "These traditions have endured for over a thousand years.",
+      "ex_ja": "これらの伝統は千年以上も続いてきました。",
+      "level": 4,
+      "tags": [
+        "history",
+        "culture"
+      ]
+    },
+    {
+      "id": "cta_037",
+      "en": "ensue",
+      "ja": "続いて起こる",
+      "pos": "verb",
+      "ex_en": "A heated debate ensued after the proposal was announced.",
+      "ex_ja": "提案が発表された後、激しい議論が巻き起こりました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_038",
+      "en": "entrepreneur",
+      "ja": "起業家",
+      "pos": "noun",
+      "ex_en": "Young entrepreneurs are driving innovation in renewable energy.",
+      "ex_ja": "若い起業家たちが再生可能エネルギー分野の革新を推進しています。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_039",
+      "en": "envisage",
+      "ja": "構想する、想定する",
+      "pos": "verb",
+      "ex_en": "The plan envisages a city where no one depends on private cars.",
+      "ex_ja": "その計画は誰も自家用車に依存しない都市を構想しています。",
+      "level": 4,
+      "tags": [
+        "society",
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_040",
+      "en": "epidemic",
+      "ja": "(病気などの)流行",
+      "pos": "noun",
+      "ex_en": "Vaccination campaigns helped contain the epidemic within months.",
+      "ex_ja": "予防接種キャンペーンにより、流行は数か月以内に抑え込まれました。",
+      "level": 4,
+      "tags": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "cta_041",
+      "en": "equip",
+      "ja": "身につけさせる、装備する",
+      "pos": "verb",
+      "ex_en": "Schools must equip students with skills for the digital age.",
+      "ex_ja": "学校は学生にデジタル時代に必要な技能を身につけさせなければなりません。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_042",
+      "en": "statute",
+      "ja": "法令、制定法",
+      "pos": "noun",
+      "ex_en": "Consumer rights are protected by statute in most countries.",
+      "ex_ja": "消費者の権利はほとんどの国で法令によって保護されています。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_043",
+      "en": "esteem",
+      "ja": "尊敬",
+      "pos": "noun",
+      "ex_en": "Scientists of great esteem gathered at the conference.",
+      "ex_ja": "高く尊敬される科学者たちがその会議に集まりました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_044",
+      "en": "excel",
+      "ja": "優れている",
+      "pos": "verb",
+      "ex_en": "Students excel when they receive timely feedback.",
+      "ex_ja": "学生は適切なタイミングでフィードバックを受けると優れた成果を上げます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_045",
+      "en": "exile",
+      "ja": "追放、亡命",
+      "pos": "noun",
+      "ex_en": "The writer spent decades in exile for criticizing the regime.",
+      "ex_ja": "その作家は政権を批判したため数十年間を亡命生活で過ごしました。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_046",
+      "en": "expedition",
+      "ja": "探検、遠征",
+      "pos": "noun",
+      "ex_en": "The expedition collected rock samples from the remote valley.",
+      "ex_ja": "探検隊は人里離れた谷から岩石サンプルを採取しました。",
+      "level": 4,
+      "tags": [
+        "science",
+        "history"
+      ]
+    },
+    {
+      "id": "cta_047",
+      "en": "exquisite",
+      "ja": "精巧な、絶美の",
+      "pos": "adj",
+      "ex_en": "The palace contains exquisite examples of traditional craftsmanship.",
+      "ex_ja": "その宮殿には伝統工芸の精巧な作品が収蔵されています。",
+      "level": 4,
+      "tags": [
+        "culture",
+        "history"
+      ]
+    },
+    {
+      "id": "cta_048",
+      "en": "extent",
+      "ja": "程度、範囲",
+      "pos": "noun",
+      "ex_en": "To some extent, technology determines how we work.",
+      "ex_ja": "ある程度まで、技術は私たちの働き方を決めています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_049",
+      "en": "faction",
+      "ja": "派閥",
+      "pos": "noun",
+      "ex_en": "The party split into two hostile factions over tax reform.",
+      "ex_ja": "その政党は税制改革をめぐり敵対する二つの派閥に分裂しました。",
+      "level": 4,
+      "tags": [
+        "society",
+        "history"
+      ]
+    },
+    {
+      "id": "cta_050",
+      "en": "feeble",
+      "ja": "弱々しい、貧弱な",
+      "pos": "adj",
+      "ex_en": "Critics called the government's response feeble and delayed.",
+      "ex_ja": "批評家たちは政府の対応を弱々しく、遅かったと評しました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_051",
+      "en": "fertile",
+      "ja": "肥沃な、(想像力など)豊かな",
+      "pos": "adj",
+      "ex_en": "The fertile plains along the river supported early civilizations.",
+      "ex_ja": "川沿いの肥沃な平野は初期文明を支えていました。",
+      "level": 4,
+      "tags": [
+        "history",
+        "science"
+      ]
+    },
+    {
+      "id": "cta_052",
+      "en": "flatten",
+      "ja": "平らにする、(曲線を)緩やかにする",
+      "pos": "verb",
+      "ex_en": "Lockdowns helped flatten the curve of infections.",
+      "ex_ja": "都市封鎖は感染曲線を緩やかにする助けになりました。",
+      "level": 4,
+      "tags": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "cta_053",
+      "en": "fluid",
+      "ja": "流体、液体",
+      "pos": "noun",
+      "ex_en": "The vaccine is stored as a clear fluid.",
+      "ex_ja": "そのワクチンは透明な液体として保存されます。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_054",
+      "en": "fraction",
+      "ja": "一部分、分数",
+      "pos": "noun",
+      "ex_en": "Only a small fraction of applicants are accepted each year.",
+      "ex_ja": "応募者のほんの一部しか毎年受け入れられません。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_055",
+      "en": "grievance",
+      "ja": "不満、苦情",
+      "pos": "noun",
+      "ex_en": "Workers submitted formal grievances about unpaid overtime.",
+      "ex_ja": "労働者たちは残業代未払いについて正式な苦情を申し立てました。",
+      "level": 4,
+      "tags": [
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_056",
+      "en": "homogeneous",
+      "ja": "同質の",
+      "pos": "adj",
+      "ex_en": "Japan's population is often described as relatively homogeneous.",
+      "ex_ja": "日本の人口は比較的同質的であるとしばしば説明されます。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_057",
+      "en": "horizon",
+      "ja": "地平、視野",
+      "pos": "noun",
+      "ex_en": "Studying abroad broadens students' intellectual horizons.",
+      "ex_ja": "海外留学は学生の知的視野を広げます。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_058",
+      "en": "imitate",
+      "ja": "模倣する",
+      "pos": "verb",
+      "ex_en": "Infants begin to imitate facial expressions within weeks of birth.",
+      "ex_ja": "乳児は生後数週間以内に表情の模倣を始めます。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_059",
+      "en": "immense",
+      "ja": "巨大な、莫大な",
+      "pos": "adj",
+      "ex_en": "Building the canal required an immense amount of labor.",
+      "ex_ja": "運河の建設には膨大な労働力が必要でした。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_060",
+      "en": "imminent",
+      "ja": "今にも起こりそうな",
+      "pos": "adj",
+      "ex_en": "Sensors warn residents of an imminent volcanic eruption.",
+      "ex_ja": "センサーが住民に火山噴火の切迫を警告します。",
+      "level": 4,
+      "tags": [
+        "science",
+        "society"
+      ]
+    },
+    {
+      "id": "cta_061",
+      "en": "impartial",
+      "ja": "公正な、偏らない",
+      "pos": "adj",
+      "ex_en": "Judges are expected to remain impartial at all times.",
+      "ex_ja": "裁判官は常に公正であり続けることが求められます。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_062",
+      "en": "incidence",
+      "ja": "発生(率)",
+      "pos": "noun",
+      "ex_en": "The incidence of skin cancer rises with UV exposure.",
+      "ex_ja": "皮膚がんの発生率は紫外線を浴びる量とともに上がります。",
+      "level": 4,
+      "tags": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "cta_063",
+      "en": "incredible",
+      "ja": "信じられないほどの",
+      "pos": "adj",
+      "ex_en": "The telescope captured incredible images of distant galaxies.",
+      "ex_ja": "その望遠鏡は遠くの銀河の驚くべき画像を捉えました。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_064",
+      "en": "indifferent",
+      "ja": "無関心な",
+      "pos": "adj",
+      "ex_en": "Voters seem increasingly indifferent to traditional party politics.",
+      "ex_ja": "有権者は従来の政党政治にますます無関心になっているようです。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_065",
+      "en": "indulge",
+      "ja": "(欲求を)思いきり満足させる",
+      "pos": "verb",
+      "ex_en": "Tourists indulged in local food during the festival.",
+      "ex_ja": "観光客は祭りの間、郷土料理を心ゆくまで楽しみました。",
+      "level": 4,
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "id": "cta_066",
+      "en": "inhabit",
+      "ja": "生息する、住む",
+      "pos": "verb",
+      "ex_en": "Rare birds inhabit the wetlands near the estuary.",
+      "ex_ja": "珍しい鳥たちが河口付近の湿地に生息しています。",
+      "level": 4,
+      "tags": [
+        "environment",
+        "science"
+      ]
+    },
+    {
+      "id": "cta_067",
+      "en": "inherent",
+      "ja": "本来備わった、生来の",
+      "pos": "adj",
+      "ex_en": "There are inherent risks in any medical procedure.",
+      "ex_ja": "どんな医療処置にも本来伴うリスクがあります。",
+      "level": 4,
+      "tags": [
+        "medicine",
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_068",
+      "en": "innovation",
+      "ja": "革新、技術革新",
+      "pos": "noun",
+      "ex_en": "Technological innovation has transformed global communication.",
+      "ex_ja": "技術革新は世界のコミュニケーションを一変させました。",
+      "level": 4,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "cta_069",
+      "en": "interior",
+      "ja": "内部の、内陸の",
+      "pos": "adj",
+      "ex_en": "The country's interior regions suffer from water shortages.",
+      "ex_ja": "その国の内陸地域は水不足に苦しんでいます。",
+      "level": 4,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_070",
+      "en": "intermediate",
+      "ja": "中級の、中間の",
+      "pos": "adj",
+      "ex_en": "The course is designed for intermediate learners of English.",
+      "ex_ja": "そのコースは中級レベルの英語学習者向けに設計されています。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_071",
+      "en": "intimate",
+      "ja": "親密な、詳細な",
+      "pos": "adj",
+      "ex_en": "The biography offers an intimate portrait of the scientist.",
+      "ex_ja": "その伝記はその科学者の親しみやすい人物像を描き出しています。",
+      "level": 4,
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "id": "cta_072",
+      "en": "undergo",
+      "ja": "経験する、受ける",
+      "pos": "verb",
+      "ex_en": "All participants must undergo a medical examination first.",
+      "ex_ja": "参加者は全員、まず健康診断を受けなければなりません。",
+      "level": 4,
+      "tags": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "cta_073",
+      "en": "transparent",
+      "ja": "透明な、透明性のある",
+      "pos": "adj",
+      "ex_en": "Citizens demand transparent decision-making by public institutions.",
+      "ex_ja": "市民は公共機関による透明性のある意思決定を求めています。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_074",
+      "en": "joint",
+      "ja": "共同の",
+      "pos": "adj",
+      "ex_en": "The two universities launched a joint research program.",
+      "ex_ja": "両大学は共同研究プログラムを開始しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_075",
+      "en": "journal",
+      "ja": "学術誌、日誌",
+      "pos": "noun",
+      "ex_en": "Her findings were published in a leading science journal.",
+      "ex_ja": "彼女の発見は著名な科学誌に掲載されました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_076",
+      "en": "junction",
+      "ja": "交差点、接合点",
+      "pos": "noun",
+      "ex_en": "Traffic accidents often occur at busy junctions.",
+      "ex_ja": "交通事故はしばしば交通量の多い交差点で起こります。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_077",
+      "en": "jurisdiction",
+      "ja": "司法権、管轄権",
+      "pos": "noun",
+      "ex_en": "The case falls outside the court's jurisdiction.",
+      "ex_ja": "その事件はその裁判所の管轄外にあります。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_078",
+      "en": "keen",
+      "ja": "熱心な、鋭い",
+      "pos": "adj",
+      "ex_en": "Researchers have a keen interest in sleep and memory.",
+      "ex_ja": "研究者たちは睡眠と記憶に強い関心を持っています。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_079",
+      "en": "lag",
+      "ja": "遅れ、時間のずれ",
+      "pos": "noun",
+      "ex_en": "There is a significant lag between research and clinical practice.",
+      "ex_ja": "研究と臨床現場の間には大きな時間のずれがあります。",
+      "level": 4,
+      "tags": [
+        "medicine",
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_080",
+      "en": "leverage",
+      "ja": "発言力、(人・資源の)活用",
+      "pos": "noun",
+      "ex_en": "Small nations gained leverage through international alliances.",
+      "ex_ja": "小国は国際同盟を通じて発言力を高めました。",
+      "level": 4,
+      "tags": [
+        "economy",
+        "history"
+      ]
+    },
+    {
+      "id": "cta_081",
+      "en": "liberal",
+      "ja": "自由主義的な、寛容な",
+      "pos": "adj",
+      "ex_en": "The university is known for its liberal atmosphere.",
+      "ex_ja": "その大学は自由な風土で知られています。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_082",
+      "en": "liberate",
+      "ja": "解放する",
+      "pos": "verb",
+      "ex_en": "The invention liberated workers from repetitive tasks.",
+      "ex_ja": "その発明は労働者を単調な作業から解放しました。",
+      "level": 4,
+      "tags": [
+        "technology",
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_083",
+      "en": "linger",
+      "ja": "長びいて残る",
+      "pos": "verb",
+      "ex_en": "Doubts about the data lingered among the reviewers.",
+      "ex_ja": "査読者の間ではデータへの疑念が残り続けました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_084",
+      "en": "literacy",
+      "ja": "読み書き能力、リテラシー",
+      "pos": "noun",
+      "ex_en": "Digital literacy is now essential in almost every job.",
+      "ex_ja": "デジタルリテラシーは今やすべての仕事で不可欠です。",
+      "level": 4,
+      "tags": [
+        "society",
+        "technology"
+      ]
+    },
+    {
+      "id": "cta_085",
+      "en": "strive",
+      "ja": "努める、奮闘する",
+      "pos": "verb",
+      "ex_en": "Engineers strive to make vehicles safer and lighter.",
+      "ex_ja": "技術者たちは自動車をより安全で軽量化しようと努めています。",
+      "level": 4,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "cta_086",
+      "en": "vital",
+      "ja": "極めて重要な、生命に関わる",
+      "pos": "adj",
+      "ex_en": "Clean water is vital to public health.",
+      "ex_ja": "清潔な水は公衆衛生にとって極めて重要です。",
+      "level": 4,
+      "tags": [
+        "medicine",
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_087",
+      "en": "medieval",
+      "ja": "中世の",
+      "pos": "adj",
+      "ex_en": "The castle preserves medieval fortifications intact.",
+      "ex_ja": "その城は中世の防壁をほぼ完全な状態で保存しています。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_088",
+      "en": "membrane",
+      "ja": "膜",
+      "pos": "noun",
+      "ex_en": "The cell membrane controls which substances enter the cell.",
+      "ex_ja": "細胞膜はどの物質が細胞内に入るかを制御します。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_089",
+      "en": "meticulous",
+      "ja": "綿密な、細心の",
+      "pos": "adj",
+      "ex_en": "The restoration required meticulous attention to detail.",
+      "ex_ja": "その修復には細部への綿密な注意が必要でした。",
+      "level": 4,
+      "tags": [
+        "culture",
+        "history"
+      ]
+    },
+    {
+      "id": "cta_090",
+      "en": "milestone",
+      "ja": "画期的な出来事、節目",
+      "pos": "noun",
+      "ex_en": "The treaty marked a milestone in arms reduction.",
+      "ex_ja": "その条約は軍縮における画期的な節目となりました。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_091",
+      "en": "ministry",
+      "ja": "省、中央官庁",
+      "pos": "noun",
+      "ex_en": "The Ministry of Education released new curriculum guidelines.",
+      "ex_ja": "教育省は新しいカリキュラム指針を発表しました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_092",
+      "en": "mobilize",
+      "ja": "動員する",
+      "pos": "verb",
+      "ex_en": "The government mobilized troops to deliver emergency supplies.",
+      "ex_ja": "政府は緊急支援物資を届けるために部隊を動員しました。",
+      "level": 4,
+      "tags": [
+        "society",
+        "history"
+      ]
+    },
+    {
+      "id": "cta_093",
+      "en": "mundane",
+      "ja": "平凡な、日常的な",
+      "pos": "adj",
+      "ex_en": "Robots are taking over mundane tasks in factories.",
+      "ex_ja": "ロボットが工場での単調な作業を引き受けています。",
+      "level": 4,
+      "tags": [
+        "technology",
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_094",
+      "en": "myth",
+      "ja": "神話、俗説",
+      "pos": "noun",
+      "ex_en": "Modern science has dispelled many myths about nutrition.",
+      "ex_ja": "近代科学は栄養に関する多くの俗説を払拭しました。",
+      "level": 4,
+      "tags": [
+        "culture",
+        "science"
+      ]
+    },
+    {
+      "id": "cta_095",
+      "en": "narrate",
+      "ja": "語る、叙述する",
+      "pos": "verb",
+      "ex_en": "The documentary narrates the rise and fall of the empire.",
+      "ex_ja": "その記録映画は帝国の興亡を語っています。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_096",
+      "en": "navigate",
+      "ja": "航行する、切り抜ける",
+      "pos": "verb",
+      "ex_en": "Ships once navigated these waters using only the stars.",
+      "ex_ja": "船はかつて星だけを頼りにこれらの海域を航行していました。",
+      "level": 4,
+      "tags": [
+        "history",
+        "science"
+      ]
+    },
+    {
+      "id": "cta_097",
+      "en": "neighboring",
+      "ja": "隣接した",
+      "pos": "adj",
+      "ex_en": "The conflict displaced thousands into neighboring countries.",
+      "ex_ja": "その紛争は何千人もの人々を隣国へ避難させました。",
+      "level": 4,
+      "tags": [
+        "history",
+        "society"
+      ]
+    },
+    {
+      "id": "cta_098",
+      "en": "neutral",
+      "ja": "中立の",
+      "pos": "adj",
+      "ex_en": "Switzerland remained neutral during both world wars.",
+      "ex_ja": "スイスは二つの世界大戦中、中立を保ちました。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_099",
+      "en": "nominal",
+      "ja": "名目上の、わずかな",
+      "pos": "adj",
+      "ex_en": "Workers pay a nominal fee for using the gym.",
+      "ex_ja": "従業員はジム利用のために名目上の少額の料金を支払います。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_100",
+      "en": "notify",
+      "ja": "通知する",
+      "pos": "verb",
+      "ex_en": "Users must be notified whenever their data is shared.",
+      "ex_ja": "利用者のデータが共有される際には必ず通知されなければなりません。",
+      "level": 4,
+      "tags": [
+        "technology",
+        "society"
+      ]
+    },
+    {
+      "id": "cta_101",
+      "en": "novel",
+      "ja": "新奇な、新しい",
+      "pos": "adj",
+      "ex_en": "The team proposed a novel approach to recycling plastics.",
+      "ex_ja": "チームはプラスチックの再利用への新しい手法を提案しました。",
+      "level": 4,
+      "tags": [
+        "science",
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_102",
+      "en": "nuisance",
+      "ja": "迷惑なもの(人)",
+      "pos": "noun",
+      "ex_en": "Noise from construction sites is a constant nuisance downtown.",
+      "ex_ja": "工事現場の騒音は中心街での絶え間ない迷惑です。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_103",
+      "en": "obstruct",
+      "ja": "妨げる、ふさぐ",
+      "pos": "verb",
+      "ex_en": "Fallen trees obstructed the main road for several days.",
+      "ex_ja": "倒木が数日間、幹線道路をふさいでしまいました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_104",
+      "en": "odds",
+      "ja": "見込み、不利な条件",
+      "pos": "noun",
+      "ex_en": "Against all odds, the small team completed the experiment.",
+      "ex_ja": "あらゆる困難にもかかわらず、少数のチームは実験をやり遂げました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_105",
+      "en": "opaque",
+      "ja": "不透明な",
+      "pos": "adj",
+      "ex_en": "The fund was criticized for its opaque accounting.",
+      "ex_ja": "そのファンドは不透明な会計処理で批判されました。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_106",
+      "en": "opponent",
+      "ja": "反対者、対戦相手",
+      "pos": "noun",
+      "ex_en": "Opponents of the dam argue it will destroy wildlife habitats.",
+      "ex_ja": "ダムの反対者たちは野生生物の生息地を破壊すると主張しています。",
+      "level": 4,
+      "tags": [
+        "environment",
+        "society"
+      ]
+    },
+    {
+      "id": "cta_107",
+      "en": "oppress",
+      "ja": "抑圧する",
+      "pos": "verb",
+      "ex_en": "For centuries the empire oppressed its minorities.",
+      "ex_ja": "何世紀もの間、その帝国は少数民族を抑圧してきました。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_108",
+      "en": "optimum",
+      "ja": "最適な",
+      "pos": "adj",
+      "ex_en": "Plants grow fastest under optimum light and temperature conditions.",
+      "ex_ja": "植物は最適な光と温度の条件のもとで最も速く成長します。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_109",
+      "en": "orbit",
+      "ja": "軌道",
+      "pos": "noun",
+      "ex_en": "The satellite entered a stable orbit around Earth.",
+      "ex_ja": "その衛星は地球周回の安定した軌道に入りました。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_110",
+      "en": "outbreak",
+      "ja": "(病気・戦争などの)発生、勃発",
+      "pos": "noun",
+      "ex_en": "The outbreak of cholera spread rapidly through the crowded city.",
+      "ex_ja": "コレラの発生は混雑した都市を通じて急速に広がりました。",
+      "level": 4,
+      "tags": [
+        "medicine",
+        "history"
+      ]
+    },
+    {
+      "id": "cta_111",
+      "en": "outcome",
+      "ja": "結果",
+      "pos": "noun",
+      "ex_en": "Education strongly influences long-term health outcomes.",
+      "ex_ja": "教育は長期的な健康状態に強く影響します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_112",
+      "en": "outline",
+      "ja": "概要を述べる、輪郭を描く",
+      "pos": "verb",
+      "ex_en": "The professor outlined the main arguments of his book.",
+      "ex_ja": "教授は自分の著書の主要な論点を概説しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_113",
+      "en": "outlook",
+      "ja": "見通し、物の見方",
+      "pos": "noun",
+      "ex_en": "The economic outlook for next year remains uncertain.",
+      "ex_ja": "来年の経済見通しは依然として不確かです。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_114",
+      "en": "pace",
+      "ja": "速度、ペース",
+      "pos": "noun",
+      "ex_en": "The pace of urbanization shows no sign of slowing.",
+      "ex_ja": "都市化の速度には鈍化の兆しが見られません。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_115",
+      "en": "paralyze",
+      "ja": "麻痺させる、機能停止にする",
+      "pos": "verb",
+      "ex_en": "Heavy snow paralyzed transportation across the region.",
+      "ex_ja": "大雪は地域全体の交通を麻痺させました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_116",
+      "en": "parameter",
+      "ja": "パラメータ、要素",
+      "pos": "noun",
+      "ex_en": "Temperature is a key parameter in the chemical reaction.",
+      "ex_ja": "温度はその化学反応における重要なパラメータです。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_117",
+      "en": "plunge",
+      "ja": "急落する",
+      "pos": "verb",
+      "ex_en": "Stock markets plunged after the announcement.",
+      "ex_ja": "その発表を受けて株式市場は急落しました。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_118",
+      "en": "ponder",
+      "ja": "熟考する",
+      "pos": "verb",
+      "ex_en": "Philosophers have pondered the nature of justice for millennia.",
+      "ex_ja": "哲学者たちは何千年もの間、正義の本質について熟考えてきました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_119",
+      "en": "postulate",
+      "ja": "仮定する、仮説を立てる",
+      "pos": "verb",
+      "ex_en": "Early physicists postulated that light travels in waves.",
+      "ex_ja": "初期の物理学者たちは光が波として進むと仮定しました。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_120",
+      "en": "predator",
+      "ja": "捕食者",
+      "pos": "noun",
+      "ex_en": "The removal of top predators disrupts entire ecosystems.",
+      "ex_ja": "最上位の捕食者を取り除くと生態系全体が乱れます。",
+      "level": 4,
+      "tags": [
+        "science",
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_121",
+      "en": "prevalent",
+      "ja": "広まっている、流行している",
+      "pos": "adj",
+      "ex_en": "Remote work has become prevalent in many industries.",
+      "ex_ja": "リモートワークは多くの産業で広く一般的になっています。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_122",
+      "en": "prime",
+      "ja": "主要な、最適な",
+      "pos": "adj",
+      "ex_en": "The valley was a prime site for the new settlement.",
+      "ex_ja": "その谷は新しい入植地にとって最適の場所でした。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_123",
+      "en": "principal",
+      "ja": "主要な、最も重要な",
+      "pos": "adj",
+      "ex_en": "The principal cause of deforestation is commercial farming.",
+      "ex_ja": "森林破壊の主な原因は商業農業です。",
+      "level": 4,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_124",
+      "en": "proximity",
+      "ja": "近さ、近接",
+      "pos": "noun",
+      "ex_en": "Property prices rise in close proximity to train stations.",
+      "ex_ja": "駅の近くでは不動産価格が上昇します。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_125",
+      "en": "quantitative",
+      "ja": "定量的な、量に関する",
+      "pos": "adj",
+      "ex_en": "Quantitative analysis confirmed the survey's initial findings.",
+      "ex_ja": "定量的な分析により、調査の当初の知見が裏付けられました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_126",
+      "en": "quarter",
+      "ja": "四半期、四分の一",
+      "pos": "noun",
+      "ex_en": "Company profits rose slightly in the second quarter.",
+      "ex_ja": "企業利益は第2四半期にわずかに増加しました。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_127",
+      "en": "ratio",
+      "ja": "比率",
+      "pos": "noun",
+      "ex_en": "The ratio of students to teachers affects learning outcomes.",
+      "ex_ja": "学生と教師の比率は学習成果に影響します。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_128",
+      "en": "rational",
+      "ja": "合理的な",
+      "pos": "adj",
+      "ex_en": "Economic models assume that consumers behave rationally.",
+      "ex_ja": "経済モデルは消費者が合理的に行動すると仮定しています。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_129",
+      "en": "readily",
+      "ja": "容易に、すぐに",
+      "pos": "adv",
+      "ex_en": "Information is now readily available online.",
+      "ex_ja": "情報は今やオンラインで簡単に入手できます。",
+      "level": 4,
+      "tags": [
+        "technology"
+      ]
+    },
+    {
+      "id": "cta_130",
+      "en": "rebel",
+      "ja": "反乱を起こす、反抗する",
+      "pos": "verb",
+      "ex_en": "Colonists rebelled against unfair taxation.",
+      "ex_ja": "植民地の人々は不当な課税に反乱を起こしました。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_131",
+      "en": "reciprocal",
+      "ja": "相互の、互恵的な",
+      "pos": "adj",
+      "ex_en": "The two nations signed a reciprocal trade agreement.",
+      "ex_ja": "両国は互恵貿易協定に署名しました。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_132",
+      "en": "reckon",
+      "ja": "見積もる、みなす",
+      "pos": "verb",
+      "ex_en": "Historians reckon the plague killed a third of Europe's population.",
+      "ex_ja": "歴史家たちはペストがヨーロッパ人口の三分の一を死に至らしめたと見積もっています。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_133",
+      "en": "refine",
+      "ja": "精製する、洗練させる",
+      "pos": "verb",
+      "ex_en": "Companies refine crude oil into fuel and plastics.",
+      "ex_ja": "企業は原油を燃料やプラスチックに精製します。",
+      "level": 4,
+      "tags": [
+        "economy",
+        "science"
+      ]
+    },
+    {
+      "id": "cta_134",
+      "en": "refute",
+      "ja": "反論する、論駁する",
+      "pos": "verb",
+      "ex_en": "Later studies refuted the original claim.",
+      "ex_ja": "その後の研究により、当初の主張は論駁されました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_135",
+      "en": "regime",
+      "ja": "政権、体制",
+      "pos": "noun",
+      "ex_en": "The new regime introduced sweeping land reforms.",
+      "ex_ja": "新政権は大規模な土地改革を実施しました。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "cta_136",
+      "en": "regulate",
+      "ja": "規制する、調整する",
+      "pos": "verb",
+      "ex_en": "Governments regulate emissions from factories and vehicles.",
+      "ex_ja": "政府は工場や自動車からの排出物を規制しています。",
+      "level": 4,
+      "tags": [
+        "society",
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_137",
+      "en": "relevant",
+      "ja": "関連のある",
+      "pos": "adj",
+      "ex_en": "Applicants should highlight experience relevant to the position.",
+      "ex_ja": "応募者はその職位に関連する経験を強調すべきです。",
+      "level": 4,
+      "tags": [
+        "economy",
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_138",
+      "en": "reliable",
+      "ja": "信頼できる",
+      "pos": "adj",
+      "ex_en": "Reliable weather forecasts help farmers plan harvests.",
+      "ex_ja": "信頼できる天気予報は農家の収穫計画に役立ちます。",
+      "level": 4,
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "cta_139",
+      "en": "reluctance",
+      "ja": "気乗りしないこと、消極姿勢",
+      "pos": "noun",
+      "ex_en": "Their reluctance to invest slowed the project's progress.",
+      "ex_ja": "彼らの投資への消極的な姿勢がプロジェクトの進展を遅らせました。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_140",
+      "en": "remainder",
+      "ja": "残り",
+      "pos": "noun",
+      "ex_en": "The remainder of the budget was allocated to education.",
+      "ex_ja": "予算の残りは教育に配分されました。",
+      "level": 4,
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cta_141",
+      "en": "remedy",
+      "ja": "解決策、治療薬",
+      "pos": "noun",
+      "ex_en": "Training programs offer a remedy for the skills shortage.",
+      "ex_ja": "研修プログラムは技能不足への解決策となります。",
+      "level": 4,
+      "tags": [
+        "economy",
+        "society"
+      ]
+    },
+    {
+      "id": "cta_142",
+      "en": "renowned",
+      "ja": "名高い、著名な",
+      "pos": "adj",
+      "ex_en": "The university is renowned for its medical research.",
+      "ex_ja": "その大学は医学研究で名高いです。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_143",
+      "en": "reside",
+      "ja": "住む、居住する",
+      "pos": "verb",
+      "ex_en": "Nearly half the population resides in urban areas.",
+      "ex_ja": "人口の半分近くが都市部に住んでいます。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_144",
+      "en": "resort",
+      "ja": "頼る、(手段に)訴える",
+      "pos": "verb",
+      "ex_en": "Farmers resorted to artificial irrigation during the drought.",
+      "ex_ja": "農家は干ばつの間、人工灌漑に頼らざるを得ませんでした。",
+      "level": 4,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_145",
+      "en": "respective",
+      "ja": "それぞれの、おのおのの",
+      "pos": "adj",
+      "ex_en": "The delegates returned to their respective countries after the summit.",
+      "ex_ja": "代表団はサミット終了後、それぞれの国へ戻りました。",
+      "level": 4,
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "cta_146",
+      "en": "reverse",
+      "ja": "逆にする、覆す",
+      "pos": "verb",
+      "ex_en": "It is nearly impossible to reverse environmental damage completely.",
+      "ex_ja": "環境破壊を完全に元通りにすることはほぼ不可能です。",
+      "level": 4,
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "cta_147",
+      "en": "revise",
+      "ja": "改訂する、修正する",
+      "pos": "verb",
+      "ex_en": "The authors revised the paper based on peer comments.",
+      "ex_ja": "著者たちは査読コメントに基づいて論文を改訂しました。",
+      "level": 4,
+      "tags": [
+        "academic"
+      ]
+    },
+    {
+      "id": "cta_148",
+      "en": "revive",
+      "ja": "復活させる、蘇らせる",
+      "pos": "verb",
+      "ex_en": "Local festivals were revived to attract tourism.",
+      "ex_ja": "観光客を呼び込むために地域の祭りが復活させられました。",
+      "level": 4,
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "id": "cta_149",
+      "en": "sacred",
+      "ja": "神聖な",
+      "pos": "adj",
+      "ex_en": "The river is considered sacred in local tradition.",
+      "ex_ja": "その川は地域の伝統において神聖なものとみなされています。",
+      "level": 4,
+      "tags": [
+        "history",
+        "culture"
+      ]
+    },
+    {
+      "id": "cta_150",
+      "en": "zenith",
+      "ja": "頂点、最盛期",
+      "pos": "noun",
+      "ex_en": "The empire reached its zenith in the sixteenth century.",
+      "ex_ja": "その帝国は16世紀に最盛期を迎えました。",
+      "level": 4,
+      "tags": [
+        "history"
+      ]
+    }
+  ]
+}

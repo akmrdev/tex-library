@@ -1,0 +1,1842 @@
+{
+  "meta": {
+    "file": "tw-email-formula-150",
+    "stage": "toeic",
+    "description": "TOEICメール定型表現150語句"
+  },
+  "words": [
+    {
+      "id": "te_001",
+      "en": "I am writing to inquire about",
+      "ja": "…についてお伺いしたく、ご連絡差し上げました",
+      "pos": "phrase",
+      "ex_en": "I am writing to inquire about the position advertised on your website.",
+      "ex_ja": "貴社ウェブサイトで募集されていた職位についてお伺いしたくご連絡しました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "inquiry"
+      ]
+    },
+    {
+      "id": "te_002",
+      "en": "I am writing to confirm",
+      "ja": "…を確認するためにご連絡差し上げています",
+      "pos": "phrase",
+      "ex_en": "I am writing to confirm our meeting on Friday at 10 a.m.",
+      "ex_ja": "金曜日午前10時の会議について確認するためご連絡しました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "confirmation"
+      ]
+    },
+    {
+      "id": "te_003",
+      "en": "I am writing to inform you of",
+      "ja": "…をお知らせするためにご連絡差し上げています",
+      "pos": "phrase",
+      "ex_en": "I am writing to inform you of a change in our office hours.",
+      "ex_ja": "営業時間の変更をお知らせするためご連絡いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "notification"
+      ]
+    },
+    {
+      "id": "te_004",
+      "en": "I am writing in response to",
+      "ja": "…への返信としてご連絡差し上げています",
+      "pos": "phrase",
+      "ex_en": "I am writing in response to your letter dated June 3.",
+      "ex_ja": "6月3日付けのお手紙への返信としてご連絡いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "reply"
+      ]
+    },
+    {
+      "id": "te_005",
+      "en": "I am writing regarding",
+      "ja": "…の件についてご連絡差し上げています",
+      "pos": "phrase",
+      "ex_en": "I am writing regarding the invoice we sent last month.",
+      "ex_ja": "先月お送りした請求書の件でご連絡いたします。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_006",
+      "en": "I am writing to request",
+      "ja": "…をお願いしたく、ご連絡差し上げました",
+      "pos": "phrase",
+      "ex_en": "I am writing to request a copy of the contract.",
+      "ex_ja": "契約書の写しをお願いしたくご連絡しました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_007",
+      "en": "Please find attached",
+      "ja": "…を添付いたしますのでご確認ください",
+      "pos": "phrase",
+      "ex_en": "Please find attached the revised schedule for your review.",
+      "ex_ja": "修正版のスケジュールを添付いたしますのでご確認ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "attachment"
+      ]
+    },
+    {
+      "id": "te_008",
+      "en": "Attached is",
+      "ja": "添付いたしましたのは…です",
+      "pos": "phrase",
+      "ex_en": "Attached is the report you requested last week.",
+      "ex_ja": "先週ご依頼のあった報告書を添付いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "attachment"
+      ]
+    },
+    {
+      "id": "te_009",
+      "en": "Enclosed please find",
+      "ja": "…を同封いたします",
+      "pos": "phrase",
+      "ex_en": "Enclosed please find two copies of the signed agreement.",
+      "ex_ja": "署名済みの契約書を2部同封いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "attachment"
+      ]
+    },
+    {
+      "id": "te_010",
+      "en": "I have attached",
+      "ja": "…を添付しました",
+      "pos": "phrase",
+      "ex_en": "I have attached the directions to our new office.",
+      "ex_ja": "新しいオフィスへの道順を添付しました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "attachment"
+      ]
+    },
+    {
+      "id": "te_011",
+      "en": "Please refer to the attached document",
+      "ja": "添付資料をご参照ください",
+      "pos": "phrase",
+      "ex_en": "Please refer to the attached document for the full price list.",
+      "ex_ja": "完全な価格表については添付資料をご参照ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "attachment"
+      ]
+    },
+    {
+      "id": "te_012",
+      "en": "We regret to inform you that",
+      "ja": "残念ながら…をお知らせいたします",
+      "pos": "phrase",
+      "ex_en": "We regret to inform you that the event has been canceled.",
+      "ex_ja": "イベントが中止となりましたことをお知らせいたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "apology"
+      ]
+    },
+    {
+      "id": "te_013",
+      "en": "We are pleased to inform you that",
+      "ja": "…をお知らせでき嬉しく思います",
+      "pos": "phrase",
+      "ex_en": "We are pleased to inform you that your application has been approved.",
+      "ex_ja": "お申し込みが承認されましたことをお知らせいたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "notification"
+      ]
+    },
+    {
+      "id": "te_014",
+      "en": "We would like to inform you that",
+      "ja": "…をお知らせいたします",
+      "pos": "phrase",
+      "ex_en": "We would like to inform you that our store will close early on Monday.",
+      "ex_ja": "月曜日は店舗が早く閉まることをお知らせいたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "notification"
+      ]
+    },
+    {
+      "id": "te_015",
+      "en": "Please be advised that",
+      "ja": "…につきあらかじめご了承ください",
+      "pos": "phrase",
+      "ex_en": "Please be advised that parking is limited during renovations.",
+      "ex_ja": "改修工事中は駐車場が制限されますことをご了承ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "notice"
+      ]
+    },
+    {
+      "id": "te_016",
+      "en": "This is to confirm that",
+      "ja": "このメールをもって…を確認いたします",
+      "pos": "phrase",
+      "ex_en": "This is to confirm that we received your payment on May 2.",
+      "ex_ja": "5月2日に支払いを受領したことを確認いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "confirmation"
+      ]
+    },
+    {
+      "id": "te_017",
+      "en": "This is a reminder that",
+      "ja": "…のご案内(リマインダー)です",
+      "pos": "phrase",
+      "ex_en": "This is a reminder that your subscription expires next week.",
+      "ex_ja": "来週でご契約が期限を迎えることのご案内です。",
+      "level": 3,
+      "tags": [
+        "email",
+        "reminder"
+      ]
+    },
+    {
+      "id": "te_018",
+      "en": "This is to notify you that",
+      "ja": "…を通知いたします",
+      "pos": "phrase",
+      "ex_en": "This is to notify you that the system will be unavailable tonight.",
+      "ex_ja": "今夜システムが利用不可となることをお知らせします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "notification"
+      ]
+    },
+    {
+      "id": "te_019",
+      "en": "in response to your inquiry",
+      "ja": "お問い合わせへの回答として",
+      "pos": "phrase",
+      "ex_en": "In response to your inquiry, we can offer a 10 percent discount.",
+      "ex_ja": "お問い合わせへの回答として、10パーセントの割引をご提案できます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "inquiry"
+      ]
+    },
+    {
+      "id": "te_020",
+      "en": "with reference to your email",
+      "ja": "あなたのメールに関連しまして",
+      "pos": "phrase",
+      "ex_en": "With reference to your email, we have updated the delivery date.",
+      "ex_ja": "メールの件に関連しまして、配送日を更新いたしました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "reply"
+      ]
+    },
+    {
+      "id": "te_021",
+      "en": "in reply to",
+      "ja": "…への返信として",
+      "pos": "phrase",
+      "ex_en": "In reply to your message, the samples were shipped today.",
+      "ex_ja": "メッセージへの返信ですが、サンプルは本日発送されました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "reply"
+      ]
+    },
+    {
+      "id": "te_022",
+      "en": "Thank you for your email",
+      "ja": "メールをお送りいただきありがとうございます",
+      "pos": "phrase",
+      "ex_en": "Thank you for your email about the upcoming conference.",
+      "ex_ja": "来たる会議についてのメールをありがとうございます。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_023",
+      "en": "Thank you for your inquiry",
+      "ja": "お問い合わせありがとうございます",
+      "pos": "phrase",
+      "ex_en": "Thank you for your inquiry about our training programs.",
+      "ex_ja": "当社研修プログラムへのお問い合わせありがとうございます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "inquiry"
+      ]
+    },
+    {
+      "id": "te_024",
+      "en": "Thank you for your prompt reply",
+      "ja": "迅速なご返信ありがとうございます",
+      "pos": "phrase",
+      "ex_en": "Thank you for your prompt reply to our request.",
+      "ex_ja": "依頼に対する迅速なご返信に感謝いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "reply"
+      ]
+    },
+    {
+      "id": "te_025",
+      "en": "apologize for the delay in replying",
+      "ja": "返信が遅れたことをお詫びします",
+      "pos": "phrase",
+      "ex_en": "I must apologize for the delay in replying to your message.",
+      "ex_ja": "メッセージへの返信が遅れましたことをお詫びします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "apology"
+      ]
+    },
+    {
+      "id": "te_026",
+      "en": "I would appreciate it if you could",
+      "ja": "…していただけると幸いです",
+      "pos": "phrase",
+      "ex_en": "I would appreciate it if you could send the file by Friday.",
+      "ex_ja": "金曜日までにファイルをお送りいただけると幸いです。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_027",
+      "en": "It would be greatly appreciated if",
+      "ja": "…していただければ大変ありがたく存じます",
+      "pos": "phrase",
+      "ex_en": "It would be greatly appreciated if you could reply by noon.",
+      "ex_ja": "正午までにご返信いただければ大変ありがたく存じます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_028",
+      "en": "Could you please confirm",
+      "ja": "…をご確認いただけますでしょうか",
+      "pos": "phrase",
+      "ex_en": "Could you please confirm the number of attendees?",
+      "ex_ja": "参加者数をご確認いただけますでしょうか。",
+      "level": 3,
+      "tags": [
+        "email",
+        "confirmation"
+      ]
+    },
+    {
+      "id": "te_029",
+      "en": "Could you please clarify",
+      "ja": "…を明確にしていただけますでしょうか",
+      "pos": "phrase",
+      "ex_en": "Could you please clarify which department handles refunds?",
+      "ex_ja": "返金を担当する部署を明確にしていただけますでしょうか。",
+      "level": 3,
+      "tags": [
+        "email",
+        "inquiry"
+      ]
+    },
+    {
+      "id": "te_030",
+      "en": "Would it be possible to",
+      "ja": "…することは可能でしょうか",
+      "pos": "phrase",
+      "ex_en": "Would it be possible to move the interview to next week?",
+      "ex_ja": "面接を来週に移すことは可能でしょうか。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_031",
+      "en": "Please let me know if",
+      "ja": "…であればお知らせください",
+      "pos": "phrase",
+      "ex_en": "Please let me know if the proposed time does not work for you.",
+      "ex_ja": "提案した時間が都合が悪い場合はお知らせください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_032",
+      "en": "Please let us know your availability",
+      "ja": "ご都合のよい時間をお知らせください",
+      "pos": "phrase",
+      "ex_en": "Please let us know your availability for a brief call this week.",
+      "ex_ja": "今週の簡単な電話でのご都合をお知らせください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "scheduling"
+      ]
+    },
+    {
+      "id": "te_033",
+      "en": "Please advise",
+      "ja": "ご指示(ご助言)いただけますようお願いします",
+      "pos": "phrase",
+      "ex_en": "The vendor has not responded, so please advise on the next step.",
+      "ex_ja": "業者から回答がないため、次の対応についてご指示ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_034",
+      "en": "Please do not hesitate to contact me",
+      "ja": "遠慮なく私までご連絡ください",
+      "pos": "phrase",
+      "ex_en": "Please do not hesitate to contact me if anything is unclear.",
+      "ex_ja": "不明な点があれば遠慮なくご連絡ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "closing"
+      ]
+    },
+    {
+      "id": "te_035",
+      "en": "Feel free to contact us",
+      "ja": "気軽にお問い合わせください",
+      "pos": "phrase",
+      "ex_en": "Feel free to contact us at any time during business hours.",
+      "ex_ja": "営業時間内であればいつでも気軽にお問い合わせください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "closing"
+      ]
+    },
+    {
+      "id": "te_036",
+      "en": "Should you have any questions",
+      "ja": "ご質問等ございましたら",
+      "pos": "phrase",
+      "ex_en": "Should you have any questions, our staff will be glad to help.",
+      "ex_ja": "ご質問等ございましたら、スタッフが喜んで対応いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "closing"
+      ]
+    },
+    {
+      "id": "te_037",
+      "en": "If you require further information",
+      "ja": "さらに詳しい情報が必要な場合には",
+      "pos": "phrase",
+      "ex_en": "If you require further information, please visit our website.",
+      "ex_ja": "さらに詳しい情報が必要な場合は、当社サイトをご覧ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "inquiry"
+      ]
+    },
+    {
+      "id": "te_038",
+      "en": "for further details",
+      "ja": "詳細については",
+      "pos": "phrase",
+      "ex_en": "Call our office for further details about the seminar.",
+      "ex_ja": "セミナーの詳細については当社オフィスへお電話ください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_039",
+      "en": "Please note that",
+      "ja": "…にご注意ください",
+      "pos": "phrase",
+      "ex_en": "Please note that prices are subject to change without notice.",
+      "ex_ja": "価格は予告なく変更される場合がありますのでご注意ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "notice"
+      ]
+    },
+    {
+      "id": "te_040",
+      "en": "Kindly note that",
+      "ja": "…につきあらかじめご了承願います",
+      "pos": "phrase",
+      "ex_en": "Kindly note that submissions after the deadline cannot be accepted.",
+      "ex_ja": "締め切り後の提出は受け付けられませんことをご了承ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "notice"
+      ]
+    },
+    {
+      "id": "te_041",
+      "en": "Please complete the form below",
+      "ja": "下記のフォームにご記入ください",
+      "pos": "phrase",
+      "ex_en": "Please complete the form below and return it by email.",
+      "ex_ja": "下記フォームにご記入のうえ、メールでご返送ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_042",
+      "en": "fill out the form",
+      "ja": "用紙に必要事項を記入する",
+      "pos": "phrase",
+      "ex_en": "All new employees must fill out the form before orientation.",
+      "ex_ja": "新入社員は全員、オリエンテーション前に用紙に記入しなければなりません。",
+      "level": 3,
+      "tags": [
+        "email",
+        "procedure"
+      ]
+    },
+    {
+      "id": "te_043",
+      "en": "sign and return",
+      "ja": "署名のうえご返送ください",
+      "pos": "phrase",
+      "ex_en": "Please sign and return the contract within five business days.",
+      "ex_ja": "契約書に署名のうえ、5営業日以内にご返送ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_044",
+      "en": "submit the application",
+      "ja": "申込書を提出する",
+      "pos": "phrase",
+      "ex_en": "You can submit the application online or by mail.",
+      "ex_ja": "申し込みはオンラインまたは郵送で提出できます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "procedure"
+      ]
+    },
+    {
+      "id": "te_045",
+      "en": "at your earliest convenience",
+      "ja": "できるだけ早くご都合のよい時に",
+      "pos": "phrase",
+      "ex_en": "Please send the signed form at your earliest convenience.",
+      "ex_ja": "署名済みの用紙をできるだけ早くお送りください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_046",
+      "en": "at your convenience",
+      "ja": "ご都合のよい時に",
+      "pos": "phrase",
+      "ex_en": "Please review the draft at your convenience.",
+      "ex_ja": "草稿をご都合のよい時にご確認ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_047",
+      "en": "in a timely manner",
+      "ja": "迅速かつ適切な時期に",
+      "pos": "phrase",
+      "ex_en": "We will respond to all complaints in a timely manner.",
+      "ex_ja": "苦情にはすべて迅速に対応いたします。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_048",
+      "en": "no later than",
+      "ja": "遅くとも…までに",
+      "pos": "phrase",
+      "ex_en": "Please submit your report no later than March 31.",
+      "ex_ja": "報告書は遅くとも3月31日までに提出してください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "deadline"
+      ]
+    },
+    {
+      "id": "te_049",
+      "en": "by the end of this week",
+      "ja": "今週末までに",
+      "pos": "phrase",
+      "ex_en": "The design team will finish the mockups by the end of this week.",
+      "ex_ja": "デザインチームは今週末までにモックアップを完成させます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "deadline"
+      ]
+    },
+    {
+      "id": "te_050",
+      "en": "before the deadline",
+      "ja": "締め切り前に",
+      "pos": "phrase",
+      "ex_en": "Applications must be received before the deadline of May 15.",
+      "ex_ja": "申し込みは5月15日の締め切り前までに到着しなければなりません。",
+      "level": 3,
+      "tags": [
+        "email",
+        "deadline"
+      ]
+    },
+    {
+      "id": "te_051",
+      "en": "in regard to",
+      "ja": "…に関して",
+      "pos": "phrase",
+      "ex_en": "I am contacting you in regard to the damaged shipment.",
+      "ex_ja": "破損した出荷品の件に関してご連絡いたします。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_052",
+      "en": "with regard to",
+      "ja": "…に関して",
+      "pos": "phrase",
+      "ex_en": "With regard to your complaint, we have started an internal review.",
+      "ex_ja": "ご苦情に関しましては、社内調査を開始いたしました。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_053",
+      "en": "in reference to",
+      "ja": "…に関連しまして",
+      "pos": "phrase",
+      "ex_en": "In reference to your order number 4482, the item is now in stock.",
+      "ex_ja": "注文番号4482に関しまして、商品が入荷しました。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_054",
+      "en": "pursuant to",
+      "ja": "…に従って、…に基づき",
+      "pos": "phrase",
+      "ex_en": "Pursuant to our agreement, payment is due within 30 days.",
+      "ex_ja": "契約に従い、支払いは30日以内に行うものとします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "business"
+      ]
+    },
+    {
+      "id": "te_055",
+      "en": "in accordance with",
+      "ja": "…に従って、…と一致して",
+      "pos": "phrase",
+      "ex_en": "Refunds are processed in accordance with our return policy.",
+      "ex_ja": "返金は返品ポリシーに従って処理されます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "policy"
+      ]
+    },
+    {
+      "id": "te_056",
+      "en": "as per your request",
+      "ja": "ご要望どおりに",
+      "pos": "phrase",
+      "ex_en": "As per your request, we have attached the latest catalog.",
+      "ex_ja": "ご要望どおり、最新のカタログを添付いたしました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_057",
+      "en": "as requested",
+      "ja": "ご依頼どおりに",
+      "pos": "phrase",
+      "ex_en": "As requested, I have forwarded the message to the manager.",
+      "ex_ja": "ご依頼どおり、メッセージをマネージャーに転送しました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_058",
+      "en": "as discussed",
+      "ja": "話し合ったとおりに",
+      "pos": "phrase",
+      "ex_en": "As discussed, we will deliver the equipment on Tuesday.",
+      "ex_ja": "打ち合わせどおり、機材は火曜日に納品いたします。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_059",
+      "en": "as agreed",
+      "ja": "合意したとおりに",
+      "pos": "phrase",
+      "ex_en": "As agreed, the rent will remain unchanged for one year.",
+      "ex_ja": "合意どおり、賃料は1年間変更されません。",
+      "level": 3,
+      "tags": [
+        "email",
+        "confirmation"
+      ]
+    },
+    {
+      "id": "te_060",
+      "en": "as mentioned above",
+      "ja": "上記のとおり",
+      "pos": "phrase",
+      "ex_en": "As mentioned above, the discount applies only to members.",
+      "ex_ja": "上記のとおり、割引は会員のみに適用されます。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_061",
+      "en": "as follows",
+      "ja": "下記のとおり",
+      "pos": "phrase",
+      "ex_en": "The schedule for next week is as follows.",
+      "ex_ja": "来週のスケジュールは下記のとおりです。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_062",
+      "en": "in the attachment",
+      "ja": "添付ファイルにて",
+      "pos": "phrase",
+      "ex_en": "You will find the full itinerary in the attachment.",
+      "ex_ja": "完全な旅程表は添付ファイルをご覧ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "attachment"
+      ]
+    },
+    {
+      "id": "te_063",
+      "en": "the following information",
+      "ja": "以下の情報",
+      "pos": "phrase",
+      "ex_en": "Please provide the following information when you register.",
+      "ex_ja": "ご登録の際は以下の情報をご提供ください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_064",
+      "en": "thank you in advance",
+      "ja": "よろしくお願いいたします(前もって感謝します)",
+      "pos": "phrase",
+      "ex_en": "Thank you in advance for your help with this matter.",
+      "ex_ja": "本件でお力添えいただけること、よろしくお願いいたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_065",
+      "en": "Thank you for your patience",
+      "ja": "お待たせしており申し訳ありません(お辛抱に感謝します)",
+      "pos": "phrase",
+      "ex_en": "Thank you for your patience while we update our system.",
+      "ex_ja": "システム更新中はお待たせしております。ご辛抱に感謝いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "apology"
+      ]
+    },
+    {
+      "id": "te_066",
+      "en": "we apologize for any inconvenience caused",
+      "ja": "ご不便をおかけしたことをお詫びいたします",
+      "pos": "phrase",
+      "ex_en": "We apologize for any inconvenience caused by the delay.",
+      "ex_ja": "遅延によりご不便をおかけしたことをお詫びいたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "apology"
+      ]
+    },
+    {
+      "id": "te_067",
+      "en": "We sincerely apologize for",
+      "ja": "…について深くお詫び申し上げます",
+      "pos": "phrase",
+      "ex_en": "We sincerely apologize for the error in your invoice.",
+      "ex_ja": "請求書の誤りにつきまして深くお詫び申し上げます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "apology"
+      ]
+    },
+    {
+      "id": "te_068",
+      "en": "Please accept our apologies for",
+      "ja": "…についてお詫び申し上げます",
+      "pos": "phrase",
+      "ex_en": "Please accept our apologies for the scheduling mix-up.",
+      "ex_ja": "スケジュールの手違いにつきましてお詫び申し上げます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "apology"
+      ]
+    },
+    {
+      "id": "te_069",
+      "en": "thank you for your understanding",
+      "ja": "ご理解ありがとうございます",
+      "pos": "phrase",
+      "ex_en": "Thank you for your understanding during this busy period.",
+      "ex_ja": "この繁忙期におけるご理解に感謝いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "apology"
+      ]
+    },
+    {
+      "id": "te_070",
+      "en": "Thank you for bringing this to our attention",
+      "ja": "ご指摘いただきありがとうございます",
+      "pos": "phrase",
+      "ex_en": "Thank you for bringing this error to our attention.",
+      "ex_ja": "この誤りをご指摘いただきありがとうございます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "feedback"
+      ]
+    },
+    {
+      "id": "te_071",
+      "en": "look forward to hearing from you",
+      "ja": "ご返信をお待ちしております",
+      "pos": "phrase",
+      "ex_en": "I look forward to hearing from you soon.",
+      "ex_ja": "近いうちにご返信いただければ幸いです。",
+      "level": 3,
+      "tags": [
+        "email",
+        "closing"
+      ]
+    },
+    {
+      "id": "te_072",
+      "en": "We look forward to your reply",
+      "ja": "ご返信をお待ち申し上げております",
+      "pos": "phrase",
+      "ex_en": "We look forward to your reply by the end of the month.",
+      "ex_ja": "月末までにご返信を賜れますと幸いです。",
+      "level": 3,
+      "tags": [
+        "email",
+        "closing"
+      ]
+    },
+    {
+      "id": "te_073",
+      "en": "look forward to seeing you at",
+      "ja": "…でお会いできるのを楽しみにしています",
+      "pos": "phrase",
+      "ex_en": "We look forward to seeing you at the annual conference.",
+      "ex_ja": "年次会議でお会いできるのを楽しみにしています。",
+      "level": 3,
+      "tags": [
+        "email",
+        "closing"
+      ]
+    },
+    {
+      "id": "te_074",
+      "en": "Please confirm your attendance",
+      "ja": "出席の可否をご確認ください",
+      "pos": "phrase",
+      "ex_en": "Please confirm your attendance by replying to this email.",
+      "ex_ja": "本メールへの返信で出席の可否をお知らせください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "confirmation"
+      ]
+    },
+    {
+      "id": "te_075",
+      "en": "Best regards",
+      "ja": "敬具(結びの挨拶)",
+      "pos": "phrase",
+      "ex_en": "Best regards, Kenji Sato, Sales Manager",
+      "ex_ja": "敬具 営業部長 佐藤 健二",
+      "level": 3,
+      "tags": [
+        "email",
+        "closing"
+      ]
+    },
+    {
+      "id": "te_076",
+      "en": "place an order",
+      "ja": "注文をする",
+      "pos": "phrase",
+      "ex_en": "You can place an order through our online store.",
+      "ex_ja": "当社オンラインストアから注文できます。",
+      "level": 3,
+      "tags": [
+        "email",
+        "business"
+      ]
+    },
+    {
+      "id": "te_077",
+      "en": "cancel the order",
+      "ja": "注文をキャンセルする",
+      "pos": "phrase",
+      "ex_en": "I would like to cancel the order placed on April 10.",
+      "ex_ja": "4月10日に行った注文をキャンセルしたいと思います。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_078",
+      "en": "process the order",
+      "ja": "注文を処理する",
+      "pos": "phrase",
+      "ex_en": "It takes two business days to process the order.",
+      "ex_ja": "注文の処理には2営業日かかります。",
+      "level": 3,
+      "tags": [
+        "email",
+        "business"
+      ]
+    },
+    {
+      "id": "te_079",
+      "en": "confirm receipt of",
+      "ja": "…の受領を確認する",
+      "pos": "phrase",
+      "ex_en": "Please confirm receipt of this email at your convenience.",
+      "ex_ja": "本メールの受領をご都合のよい時にご確認ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "confirmation"
+      ]
+    },
+    {
+      "id": "te_080",
+      "en": "acknowledge receipt of",
+      "ja": "…を受領したことを通知する",
+      "pos": "phrase",
+      "ex_en": "We acknowledge receipt of your payment dated July 1.",
+      "ex_ja": "7月1日付けのお支払いを受領いたしました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "confirmation"
+      ]
+    },
+    {
+      "id": "te_081",
+      "en": "upon receipt of",
+      "ja": "…を受け取り次第",
+      "pos": "phrase",
+      "ex_en": "Your membership card will be issued upon receipt of payment.",
+      "ex_ja": "お支払いを受け取り次第、会員カードを発行いたします。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_082",
+      "en": "once we receive",
+      "ja": "…を受け取り次第",
+      "pos": "phrase",
+      "ex_en": "Once we receive your documents, we will begin the review.",
+      "ex_ja": "書類を受け取り次第、審査を開始いたします。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_083",
+      "en": "request a refund",
+      "ja": "返金を請求する",
+      "pos": "phrase",
+      "ex_en": "The customer asked how to request a refund for the item.",
+      "ex_ja": "顧客は商品の返金請求方法を尋ねました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "request"
+      ]
+    },
+    {
+      "id": "te_084",
+      "en": "issue a refund",
+      "ja": "返金を行う",
+      "pos": "phrase",
+      "ex_en": "We will issue a refund within five business days.",
+      "ex_ja": "5営業日以内に返金いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "business"
+      ]
+    },
+    {
+      "id": "te_085",
+      "en": "make a reservation",
+      "ja": "予約をする",
+      "pos": "phrase",
+      "ex_en": "To make a reservation, please call the restaurant directly.",
+      "ex_ja": "ご予約はレストランへ直接お電話ください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_086",
+      "en": "confirm the reservation",
+      "ja": "予約を確定する",
+      "pos": "phrase",
+      "ex_en": "We will confirm the reservation once the table is available.",
+      "ex_ja": "席が空きしだい、予約を確定いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "confirmation"
+      ]
+    },
+    {
+      "id": "te_087",
+      "en": "schedule a meeting",
+      "ja": "会議の日程を設定する",
+      "pos": "phrase",
+      "ex_en": "Let me know if you are available so we can schedule a meeting.",
+      "ex_ja": "ご都合をお知らせいただければ、会議の日程を設定します。",
+      "level": 3,
+      "tags": [
+        "email",
+        "scheduling"
+      ]
+    },
+    {
+      "id": "te_088",
+      "en": "reschedule the meeting",
+      "ja": "会議の日程を変更する",
+      "pos": "phrase",
+      "ex_en": "We need to reschedule the meeting due to a client visit.",
+      "ex_ja": "顧客訪問のため、会議の日程を変更する必要があります。",
+      "level": 3,
+      "tags": [
+        "email",
+        "scheduling"
+      ]
+    },
+    {
+      "id": "te_089",
+      "en": "attend the meeting",
+      "ja": "会議に出席する",
+      "pos": "phrase",
+      "ex_en": "All department heads are required to attend the meeting.",
+      "ex_ja": "全部門の責任者が会議に出席しなければなりません。",
+      "level": 3,
+      "tags": [
+        "email",
+        "meeting"
+      ]
+    },
+    {
+      "id": "te_091",
+      "en": "be scheduled for",
+      "ja": "…に予定されている",
+      "pos": "phrase",
+      "ex_en": "The inspection is scheduled for the first week of June.",
+      "ex_ja": "検査は6月第1週に予定されています。",
+      "level": 3,
+      "tags": [
+        "email",
+        "scheduling"
+      ]
+    },
+    {
+      "id": "te_092",
+      "en": "be postponed until",
+      "ja": "…まで延期される",
+      "pos": "phrase",
+      "ex_en": "The launch event has been postponed until further notice.",
+      "ex_ja": "発表イベントは追って通知があるまで延期されました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "event"
+      ]
+    },
+    {
+      "id": "te_093",
+      "en": "be canceled due to",
+      "ja": "…のため中止になる",
+      "pos": "phrase",
+      "ex_en": "The workshop was canceled due to low enrollment.",
+      "ex_ja": "参加者不足のためワークショップは中止になりました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "event"
+      ]
+    },
+    {
+      "id": "te_094",
+      "en": "follow up on",
+      "ja": "…のその後を追う、…について再度連絡する",
+      "pos": "phrase",
+      "ex_en": "I am writing to follow up on my previous message.",
+      "ex_ja": "先日のメッセージの件で再度ご連絡差し上げました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "follow-up"
+      ]
+    },
+    {
+      "id": "te_095",
+      "en": "follow up with",
+      "ja": "…とその後の連絡を取る",
+      "pos": "phrase",
+      "ex_en": "Our staff will follow up with you by phone next week.",
+      "ex_ja": "来週、担当者がお電話でフォローアップいたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "follow-up"
+      ]
+    },
+    {
+      "id": "te_096",
+      "en": "look into the matter",
+      "ja": "件を調査する",
+      "pos": "phrase",
+      "ex_en": "We promise to look into the matter right away.",
+      "ex_ja": "ただちに件を調査することをお約束します。",
+      "level": 3,
+      "tags": [
+        "email",
+        "apology"
+      ]
+    },
+    {
+      "id": "te_097",
+      "en": "resolve the issue",
+      "ja": "問題を解決する",
+      "pos": "phrase",
+      "ex_en": "Our technical team is working to resolve the issue today.",
+      "ex_ja": "技術チームが本日中に問題を解決できるよう対応しています。",
+      "level": 3,
+      "tags": [
+        "email",
+        "support"
+      ]
+    },
+    {
+      "id": "te_098",
+      "en": "address the concern",
+      "ja": "懸念に対処する",
+      "pos": "phrase",
+      "ex_en": "We have taken steps to address the concern you raised.",
+      "ex_ja": "ご指摘の懸念に対処するための措置を講じました。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_099",
+      "en": "handle the situation",
+      "ja": "状況に対処する",
+      "pos": "phrase",
+      "ex_en": "Please contact the front desk, and they will handle the situation.",
+      "ex_ja": "フロントデスクへご連絡ください。担当者が対応いたします。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_100",
+      "en": "take immediate action",
+      "ja": "直ちに対応する",
+      "pos": "phrase",
+      "ex_en": "We will take immediate action to prevent this from happening again.",
+      "ex_ja": "再発防止のため直ちに対応いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "apology"
+      ]
+    },
+    {
+      "id": "te_101",
+      "en": "in the meantime",
+      "ja": "それまでの間に",
+      "pos": "phrase",
+      "ex_en": "In the meantime, please feel free to review the draft.",
+      "ex_ja": "それまでの間、草稿をご自由にご確認ください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_102",
+      "en": "in the near future",
+      "ja": "近いうちに",
+      "pos": "phrase",
+      "ex_en": "We plan to open a branch in Osaka in the near future.",
+      "ex_ja": "近いうちに大阪へ支店を開設する予定です。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_103",
+      "en": "at present",
+      "ja": "現在は",
+      "pos": "phrase",
+      "ex_en": "At present, all orders are being shipped within three days.",
+      "ex_ja": "現在、すべてのご注文を3日以内に発送しています。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_104",
+      "en": "as of",
+      "ja": "…時点で、…から",
+      "pos": "phrase",
+      "ex_en": "As of April 1, our new address will take effect.",
+      "ex_ja": "4月1日から新住所が有効になります。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_105",
+      "en": "effective immediately",
+      "ja": "即時発効で",
+      "pos": "phrase",
+      "ex_en": "The revised policy is effective immediately.",
+      "ex_ja": "改訂ポリシーは即時発効となります。",
+      "level": 3,
+      "tags": [
+        "email",
+        "policy"
+      ]
+    },
+    {
+      "id": "te_106",
+      "en": "valid until",
+      "ja": "…まで有効",
+      "pos": "phrase",
+      "ex_en": "The coupon is valid until the end of December.",
+      "ex_ja": "クーポンは12月末まで有効です。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_107",
+      "en": "out of date",
+      "ja": "期限切れの、時代遅れの",
+      "pos": "phrase",
+      "ex_en": "Your membership information may be out of date.",
+      "ex_ja": "会員情報が期限切れになっている可能性があります。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_108",
+      "en": "extend the deadline",
+      "ja": "締め切りを延長する",
+      "pos": "phrase",
+      "ex_en": "We decided to extend the deadline by one week.",
+      "ex_ja": "締め切りを1週間延長することにしました。",
+      "level": 3,
+      "tags": [
+        "email",
+        "deadline"
+      ]
+    },
+    {
+      "id": "te_109",
+      "en": "meet the deadline",
+      "ja": "締め切りに間に合わせる",
+      "pos": "phrase",
+      "ex_en": "Please contact us if you cannot meet the deadline.",
+      "ex_ja": "締め切りに間に合わない場合はご連絡ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "deadline"
+      ]
+    },
+    {
+      "id": "te_110",
+      "en": "miss the deadline",
+      "ja": "締め切りに間に合わない",
+      "pos": "phrase",
+      "ex_en": "Applicants who miss the deadline cannot be considered.",
+      "ex_ja": "締め切りに間に合わなかった応募者は審査対象外です。",
+      "level": 3,
+      "tags": [
+        "email",
+        "deadline"
+      ]
+    },
+    {
+      "id": "te_111",
+      "en": "behind schedule",
+      "ja": "予定より遅れて",
+      "pos": "phrase",
+      "ex_en": "Construction is two weeks behind schedule.",
+      "ex_ja": "建設工事が2週間遅れています。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_112",
+      "en": "as scheduled",
+      "ja": "予定どおりに",
+      "pos": "phrase",
+      "ex_en": "The shipment arrived as scheduled this morning.",
+      "ex_ja": "出荷品は本日朝、予定どおり到着しました。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_113",
+      "en": "in advance of",
+      "ja": "…に先立って",
+      "pos": "phrase",
+      "ex_en": "Please submit your slides in advance of the presentation.",
+      "ex_ja": "発表に先立ってスライドをご提出ください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_114",
+      "en": "subsequent to",
+      "ja": "…の後に",
+      "pos": "phrase",
+      "ex_en": "Changes made subsequent to signing require approval.",
+      "ex_ja": "署名後に行われる変更には承認が必要です。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_115",
+      "en": "as a result of",
+      "ja": "…の結果として",
+      "pos": "phrase",
+      "ex_en": "As a result of the storm, all flights were grounded.",
+      "ex_ja": "嵐のため、すべての飛行機が欠航しました。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_116",
+      "en": "owing to",
+      "ja": "…のために",
+      "pos": "phrase",
+      "ex_en": "Owing to increased demand, shipping times have doubled.",
+      "ex_ja": "需要増加のため、配送時間が2倍になりました。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_118",
+      "en": "in spite of",
+      "ja": "…にもかかわらず",
+      "pos": "phrase",
+      "ex_en": "In spite of the delay, we kept the original price.",
+      "ex_ja": "遅延にもかかわらず、元の価格を維持しました。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_119",
+      "en": "in addition to",
+      "ja": "…に加えて",
+      "pos": "phrase",
+      "ex_en": "In addition to the manual, you will receive a quick guide.",
+      "ex_ja": "マニュアルに加えて、クイックガイドをお受け取りいただけます。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_120",
+      "en": "in place of",
+      "ja": "…の代わりに",
+      "pos": "phrase",
+      "ex_en": "Ms. Lee will attend the meeting in place of Mr. Tanaka.",
+      "ex_ja": "田中氏の代わりにリー氏が会議に出席します。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_121",
+      "en": "in case of",
+      "ja": "…の場合には",
+      "pos": "phrase",
+      "ex_en": "In case of an emergency, dial extension 911.",
+      "ex_ja": "緊急の場合は内線911におかけください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_122",
+      "en": "in the event that",
+      "ja": "…という場合には",
+      "pos": "phrase",
+      "ex_en": "In the event that you cannot attend, please inform us early.",
+      "ex_ja": "出席できない場合は早めにお知らせください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_123",
+      "en": "provided that",
+      "ja": "…という条件で",
+      "pos": "phrase",
+      "ex_en": "Tickets are refundable provided that they are unused.",
+      "ex_ja": "未使用の場合に限り、チケットは返金可能です。",
+      "level": 3,
+      "tags": [
+        "email",
+        "policy"
+      ]
+    },
+    {
+      "id": "te_124",
+      "en": "unless otherwise noted",
+      "ja": "特に明記のない限り",
+      "pos": "phrase",
+      "ex_en": "All prices include tax unless otherwise noted.",
+      "ex_ja": "特に明記のない限り、価格は税込です。",
+      "level": 3,
+      "tags": [
+        "email",
+        "policy"
+      ]
+    },
+    {
+      "id": "te_125",
+      "en": "subject to change",
+      "ja": "変更される場合がある",
+      "pos": "phrase",
+      "ex_en": "The seminar dates are subject to change without notice.",
+      "ex_ja": "セミナー日程は予告なく変更される場合があります。",
+      "level": 3,
+      "tags": [
+        "email",
+        "notice"
+      ]
+    },
+    {
+      "id": "te_126",
+      "en": "under review",
+      "ja": "検討中で、審査中で",
+      "pos": "phrase",
+      "ex_en": "Your application is currently under review.",
+      "ex_ja": "お客様の申し込みは現在審査中です。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_127",
+      "en": "under consideration",
+      "ja": "検討中の",
+      "pos": "phrase",
+      "ex_en": "Two proposals are still under consideration.",
+      "ex_ja": "2つの提案がまだ検討中です。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_128",
+      "en": "take into account",
+      "ja": "考慮に入れる",
+      "pos": "phrase",
+      "ex_en": "We take into account all feedback from our customers.",
+      "ex_ja": "お客様からのフィードバックをすべて考慮に入れます。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_129",
+      "en": "keep in mind",
+      "ja": "心に留めておく",
+      "pos": "phrase",
+      "ex_en": "Please keep in mind that the lobby closes at 9 p.m.",
+      "ex_ja": "ロビーは午後9時に閉まることをご留意ください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_131",
+      "en": "bring to your attention",
+      "ja": "…に注意を喚起する",
+      "pos": "phrase",
+      "ex_en": "I would like to bring the safety issue to your attention.",
+      "ex_ja": "安全上の問題についてご留意いただきたいと思います。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_132",
+      "en": "draw your attention to",
+      "ja": "…にご注意ください(目を向けてほしい)",
+      "pos": "phrase",
+      "ex_en": "May I draw your attention to paragraph four of the contract?",
+      "ex_ja": "契約書第4項にご注目いただけますでしょうか。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_133",
+      "en": "contact you shortly",
+      "ja": "まもなくご連絡いたします",
+      "pos": "phrase",
+      "ex_en": "Our representative will contact you shortly after registration.",
+      "ex_ja": "ご登録後まもなく、担当者よりご連絡いたします。",
+      "level": 3,
+      "tags": [
+        "email",
+        "follow-up"
+      ]
+    },
+    {
+      "id": "te_134",
+      "en": "reach out to",
+      "ja": "…に連絡を取る",
+      "pos": "phrase",
+      "ex_en": "Please reach out to the support team if the problem persists.",
+      "ex_ja": "問題が解決しない場合はサポートチームにご連絡ください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_135",
+      "en": "stay in touch",
+      "ja": "連絡を保つ",
+      "pos": "phrase",
+      "ex_en": "Let us stay in touch about the upcoming project.",
+      "ex_ja": "今後のプロジェクトについて連絡を保ちましょう。",
+      "level": 3,
+      "tags": [
+        "email",
+        "closing"
+      ]
+    },
+    {
+      "id": "te_136",
+      "en": "forward the email",
+      "ja": "メールを転送する",
+      "pos": "phrase",
+      "ex_en": "Could you forward the email to your accounting department?",
+      "ex_ja": "そのメールを経理部門に転送していただけますか。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_137",
+      "en": "reply to",
+      "ja": "…に返信する",
+      "pos": "phrase",
+      "ex_en": "Please reply to this message by Friday afternoon.",
+      "ex_ja": "金曜日の午後までに本メッセージにご返信ください。",
+      "level": 3,
+      "tags": [
+        "email",
+        "reply"
+      ]
+    },
+    {
+      "id": "te_138",
+      "en": "respond to",
+      "ja": "…に応答する、対応する",
+      "pos": "phrase",
+      "ex_en": "We will respond to your complaint within two business days.",
+      "ex_ja": "ご苦情には2営業日以内に対応いたします。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_139",
+      "en": "on a regular basis",
+      "ja": "定期的に",
+      "pos": "phrase",
+      "ex_en": "The committee meets on a regular basis every month.",
+      "ex_ja": "委員会は毎月定期的に開催されます。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_140",
+      "en": "from time to time",
+      "ja": "時々",
+      "pos": "phrase",
+      "ex_en": "From time to time, we send special offers to our members.",
+      "ex_ja": "会員の皆さまには時々特別オファーをお送りしています。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_141",
+      "en": "in total",
+      "ja": "合計で",
+      "pos": "phrase",
+      "ex_en": "In total, 45 employees registered for the seminar.",
+      "ex_ja": "合計45名の社員がセミナーに登録しました。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_142",
+      "en": "on average",
+      "ja": "平均して",
+      "pos": "phrase",
+      "ex_en": "On average, customers receive their orders within four days.",
+      "ex_ja": "お客様は平均4日以内に商品を受け取ります。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_144",
+      "en": "no more than",
+      "ja": "多くとも…まで",
+      "pos": "phrase",
+      "ex_en": "The repair should take no more than three hours.",
+      "ex_ja": "修理は多くとも3時間で終わるはずです。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_145",
+      "en": "up to",
+      "ja": "…まで(上限)",
+      "pos": "phrase",
+      "ex_en": "Members can save up to 30 percent on select items.",
+      "ex_ja": "会員は対象商品を最大30パーセント割引で購入できます。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_146",
+      "en": "so that",
+      "ja": "…できるように",
+      "pos": "phrase",
+      "ex_en": "Please confirm today so that we can prepare the documents.",
+      "ex_ja": "書類を準備できるよう、本日中にご確認ください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_148",
+      "en": "make sure that",
+      "ja": "…を確実にする、必ず…する",
+      "pos": "phrase",
+      "ex_en": "Please make sure that your contact details are correct.",
+      "ex_ja": "連絡先情報が正しいか必ずご確認ください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_149",
+      "en": "check with",
+      "ja": "…に確認を取る",
+      "pos": "phrase",
+      "ex_en": "Please check with your manager before approving the budget.",
+      "ex_ja": "予算を承認する前にマネージャーに確認してください。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    },
+    {
+      "id": "te_150",
+      "en": "Thank you for your continued support",
+      "ja": "引き続きのご愛顧に感謝いたします",
+      "pos": "phrase",
+      "ex_en": "Thank you for your continued support of our company.",
+      "ex_ja": "弊社を引き続きご愛顧いただき、ありがとうございます。",
+      "level": 3,
+      "tags": [
+        "email"
+      ]
+    }
+  ]
+}

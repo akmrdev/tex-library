@@ -1,0 +1,2385 @@
+{
+  "meta": {
+    "file": "jw-level5-basic-200",
+    "stage": "junior",
+    "description": "中学基礎拡張第3弾200語"
+  },
+  "words": [
+    {
+      "id": "jz_001",
+      "en": "eyebrow",
+      "ja": "まゆげ",
+      "pos": "noun",
+      "ex_en": "She raised her eyebrows in surprise.",
+      "ex_ja": "彼女は驚いてまゆげを上げました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_002",
+      "en": "chin",
+      "ja": "あご",
+      "pos": "noun",
+      "ex_en": "He rested his chin on his hand.",
+      "ex_ja": "彼は手にあごをのせました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_003",
+      "en": "cheek",
+      "ja": "ほほ",
+      "pos": "noun",
+      "ex_en": "Her cheeks turned red in the cold.",
+      "ex_ja": "寒さで彼女のほほは赤くなりました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_004",
+      "en": "forehead",
+      "ja": "ひたい",
+      "pos": "noun",
+      "ex_en": "The mother touched her baby's soft forehead.",
+      "ex_ja": "母親は赤ちゃんの柔らかいひたいに触れました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_005",
+      "en": "lip",
+      "ja": "くちびる",
+      "pos": "noun",
+      "ex_en": "She bit her lip while waiting.",
+      "ex_ja": "待っている間、彼女はくちびるをかみました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_006",
+      "en": "tongue",
+      "ja": "舌",
+      "pos": "noun",
+      "ex_en": "The doctor asked me to show my tongue.",
+      "ex_ja": "医者は私に舌を見せるように言いました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_007",
+      "en": "thumb",
+      "ja": "親指",
+      "pos": "noun",
+      "ex_en": "I hurt my thumb while hammering.",
+      "ex_ja": "ハンマーを使っていて親指を痛めました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_008",
+      "en": "elbow",
+      "ja": "ひじ",
+      "pos": "noun",
+      "ex_en": "Be careful not to hit your elbow on the door.",
+      "ex_ja": "ドアにひじをぶつけないように気をつけて。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_009",
+      "en": "wrist",
+      "ja": "手首",
+      "pos": "noun",
+      "ex_en": "She wears a watch on her left wrist.",
+      "ex_ja": "彼女は左手首に時計をしています。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_010",
+      "en": "palm",
+      "ja": "手のひら",
+      "pos": "noun",
+      "ex_en": "The boy held a coin in his palm.",
+      "ex_ja": "少年は手のひらに硬貨を握っていました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_011",
+      "en": "fist",
+      "ja": "こぶし",
+      "pos": "noun",
+      "ex_en": "He shook his fist at the barking dog.",
+      "ex_ja": "彼はほえる犬にこぶしを振りました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_012",
+      "en": "rib",
+      "ja": "あばら骨",
+      "pos": "noun",
+      "ex_en": "He broke a rib playing rugby.",
+      "ex_ja": "ラグビーであばら骨を折りました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_013",
+      "en": "heel",
+      "ja": "かかと",
+      "pos": "noun",
+      "ex_en": "My heels hurt after the long walk.",
+      "ex_ja": "長く歩いてかかとが痛くなりました。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_014",
+      "en": "wrinkle",
+      "ja": "しわ",
+      "pos": "noun",
+      "ex_en": "Grandpa has wrinkles around his eyes.",
+      "ex_ja": "おじいちゃんは目のまわりにしわがあります。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_015",
+      "en": "mustache",
+      "ja": "口ひげ",
+      "pos": "noun",
+      "ex_en": "The man with a mustache is my uncle.",
+      "ex_ja": "口ひげを生やした男性は私のおじです。",
+      "level": 1,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_016",
+      "en": "bangs",
+      "ja": "前髪",
+      "pos": "noun",
+      "ex_en": "She cut her bangs too short.",
+      "ex_ja": "彼女は前髪を切りすぎました。",
+      "level": 2,
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "jz_017",
+      "en": "cushion",
+      "ja": "クッション",
+      "pos": "noun",
+      "ex_en": "I put a cushion on the chair.",
+      "ex_ja": "いすにクッションを置きました。",
+      "level": 1,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_018",
+      "en": "quilt",
+      "ja": "掛け布団",
+      "pos": "noun",
+      "ex_en": "It's cold, so I use a thick quilt.",
+      "ex_ja": "寒いので厚い掛け布団を使います。",
+      "level": 1,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_019",
+      "en": "mattress",
+      "ja": "マットレス",
+      "pos": "noun",
+      "ex_en": "This mattress is hard but good for my back.",
+      "ex_ja": "このマットレスは硬いけど腰にいいです。",
+      "level": 2,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_020",
+      "en": "sheet",
+      "ja": "シーツ",
+      "pos": "noun",
+      "ex_en": "Mom changed the sheets this morning.",
+      "ex_ja": "母は今朝シーツを替えました。",
+      "level": 1,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_021",
+      "en": "rug",
+      "ja": "敷物",
+      "pos": "noun",
+      "ex_en": "There is a round rug by the bed.",
+      "ex_ja": "ベッドの横に丸い敷物があります。",
+      "level": 2,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_022",
+      "en": "doorknob",
+      "ja": "ドアノブ",
+      "pos": "noun",
+      "ex_en": "The doorknob came off in my hand.",
+      "ex_ja": "ドアノブが手の中で外れました。",
+      "level": 2,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_023",
+      "en": "drawer",
+      "ja": "引き出し",
+      "pos": "noun",
+      "ex_en": "The pencils are in the top drawer.",
+      "ex_ja": "鉛筆は一番上の引き出しにあります。",
+      "level": 1,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_024",
+      "en": "cabinet",
+      "ja": "戸棚",
+      "pos": "noun",
+      "ex_en": "Put the cups back in the cabinet.",
+      "ex_ja": "コップを戸棚に戻しておいて。",
+      "level": 1,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_025",
+      "en": "kettle",
+      "ja": "やかん",
+      "pos": "noun",
+      "ex_en": "Put the kettle on for tea.",
+      "ex_ja": "お茶のためにお湯を沸かしてください。",
+      "level": 2,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_026",
+      "en": "teapot",
+      "ja": "ティーポット",
+      "pos": "noun",
+      "ex_en": "This teapot keeps the tea warm.",
+      "ex_ja": "このティーポットはお茶を温めておきます。",
+      "level": 2,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_027",
+      "en": "mug",
+      "ja": "マグカップ",
+      "pos": "noun",
+      "ex_en": "He drank hot cocoa from a big mug.",
+      "ex_ja": "彼は大きなマグカップでホットココアを飲みました。",
+      "level": 1,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_028",
+      "en": "saucer",
+      "ja": "受け皿",
+      "pos": "noun",
+      "ex_en": "Please put the cup on its saucer.",
+      "ex_ja": "カップを受け皿にのせてください。",
+      "level": 2,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_029",
+      "en": "napkin",
+      "ja": "ナプキン",
+      "pos": "noun",
+      "ex_en": "Wipe your mouth with your napkin.",
+      "ex_ja": "ナプキンで口をふきなさい。",
+      "level": 1,
+      "tags": [
+        "tableware"
+      ]
+    },
+    {
+      "id": "jz_030",
+      "en": "oven",
+      "ja": "オーブン",
+      "pos": "noun",
+      "ex_en": "Bake the bread in the oven for thirty minutes.",
+      "ex_ja": "パンをオーブンで30分焼きます。",
+      "level": 1,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_031",
+      "en": "microwave",
+      "ja": "電子レンジ",
+      "pos": "noun",
+      "ex_en": "Heat the soup in the microwave.",
+      "ex_ja": "スープを電子レンジで温めて。",
+      "level": 1,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_032",
+      "en": "fridge",
+      "ja": "冷蔵庫",
+      "pos": "noun",
+      "ex_en": "There's milk in the fridge.",
+      "ex_ja": "冷蔵庫に牛乳があります。",
+      "level": 1,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_033",
+      "en": "freezer",
+      "ja": "冷凍庫",
+      "pos": "noun",
+      "ex_en": "We keep ice cream in the freezer.",
+      "ex_ja": "アイスクリームは冷凍庫に入れています。",
+      "level": 1,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_034",
+      "en": "blender",
+      "ja": "ミキサー",
+      "pos": "noun",
+      "ex_en": "Make a banana shake with the blender.",
+      "ex_ja": "ミキサーでバナナシェイクを作って。",
+      "level": 2,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_035",
+      "en": "toaster",
+      "ja": "トースター",
+      "pos": "noun",
+      "ex_en": "Two slices of bread popped out of the toaster.",
+      "ex_ja": "トースターからパンが2枚飛び出しました。",
+      "level": 1,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_036",
+      "en": "frying pan",
+      "ja": "フライパン",
+      "pos": "noun",
+      "ex_en": "Cook the eggs in a frying pan.",
+      "ex_ja": "卵をフライパンで調理します。",
+      "level": 1,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_037",
+      "en": "spatula",
+      "ja": "へら",
+      "pos": "noun",
+      "ex_en": "Flip the pancake with a spatula.",
+      "ex_ja": "ヘラでパンケーキをひっくり返して。",
+      "level": 2,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_038",
+      "en": "ladle",
+      "ja": "おたま",
+      "pos": "noun",
+      "ex_en": "She served soup with a ladle.",
+      "ex_ja": "彼女はおたまでスープを出しました。",
+      "level": 2,
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "jz_039",
+      "en": "attic",
+      "ja": "屋根裏部屋",
+      "pos": "noun",
+      "ex_en": "Old photo albums are stored in the attic.",
+      "ex_ja": "古いアルバムは屋根裏部屋にしまわれています。",
+      "level": 2,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_040",
+      "en": "basement",
+      "ja": "地下室",
+      "pos": "noun",
+      "ex_en": "They play ping-pong in the basement.",
+      "ex_ja": "彼らは地下室で卓球をします。",
+      "level": 1,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_041",
+      "en": "porch",
+      "ja": "玄関ポーチ",
+      "pos": "noun",
+      "ex_en": "We sat on the porch watching the rain.",
+      "ex_ja": "私たちは玄関ポーチに座って雨を見ていました。",
+      "level": 2,
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "jz_042",
+      "en": "bolt",
+      "ja": "ボルト",
+      "pos": "noun",
+      "ex_en": "Tighten the bolts on the bicycle wheel.",
+      "ex_ja": "自転車の車輪のボルトを締めてください。",
+      "level": 1,
+      "tags": [
+        "tool"
+      ]
+    },
+    {
+      "id": "jz_043",
+      "en": "mop",
+      "ja": "モップ",
+      "pos": "noun",
+      "ex_en": "The floor is wet because I just mopped it.",
+      "ex_ja": "ちょうどモップをかけたので床が濡れています。",
+      "level": 1,
+      "tags": [
+        "cleaning"
+      ]
+    },
+    {
+      "id": "jz_044",
+      "en": "dustpan",
+      "ja": "ちりとり",
+      "pos": "noun",
+      "ex_en": "Get the dustpan and sweep up the crumbs.",
+      "ex_ja": "ちりとりを持ってきてパンくずを掃いてすくって。",
+      "level": 2,
+      "tags": [
+        "cleaning"
+      ]
+    },
+    {
+      "id": "jz_045",
+      "en": "sponge",
+      "ja": "スポンジ",
+      "pos": "noun",
+      "ex_en": "Wash the dishes with this sponge.",
+      "ex_ja": "このスポンジでお皿を洗って。",
+      "level": 1,
+      "tags": [
+        "cleaning"
+      ]
+    },
+    {
+      "id": "jz_046",
+      "en": "rag",
+      "ja": "ぼろきゅう",
+      "pos": "noun",
+      "ex_en": "He wiped the table with a damp rag.",
+      "ex_ja": "彼はぬれたぼろきゅうでテーブルをふきました。",
+      "level": 2,
+      "tags": [
+        "cleaning"
+      ]
+    },
+    {
+      "id": "jz_047",
+      "en": "clothesline",
+      "ja": "物干しざお",
+      "pos": "noun",
+      "ex_en": "Hang the sheets on the clothesline.",
+      "ex_ja": "シーツを物干しざおにかけて。",
+      "level": 1,
+      "tags": [
+        "laundry"
+      ]
+    },
+    {
+      "id": "jz_048",
+      "en": "clothespin",
+      "ja": "洗濯ばさみ",
+      "pos": "noun",
+      "ex_en": "The wind blew a clothespin off the line.",
+      "ex_ja": "風で洗濯ばさみが一本落ちました。",
+      "level": 2,
+      "tags": [
+        "laundry"
+      ]
+    },
+    {
+      "id": "jz_049",
+      "en": "hanger",
+      "ja": "ハンガー",
+      "pos": "noun",
+      "ex_en": "Your coat is on a hanger in the closet.",
+      "ex_ja": "あなたのコートはクローゼットのハンガーにかかっています。",
+      "level": 1,
+      "tags": [
+        "laundry"
+      ]
+    },
+    {
+      "id": "jz_050",
+      "en": "iron",
+      "ja": "アイロン",
+      "pos": "noun",
+      "ex_en": "Dad irons his shirt every morning.",
+      "ex_ja": "父は毎朝アイロンでワイシャツのしわを伸ばします。",
+      "level": 1,
+      "tags": [
+        "laundry"
+      ]
+    },
+    {
+      "id": "jz_051",
+      "en": "needle",
+      "ja": "縫い針",
+      "pos": "noun",
+      "ex_en": "Thread the needle for me, please.",
+      "ex_ja": "私に針に糸を通してください。",
+      "level": 1,
+      "tags": [
+        "sewing"
+      ]
+    },
+    {
+      "id": "jz_052",
+      "en": "thread",
+      "ja": "糸",
+      "pos": "noun",
+      "ex_en": "The red thread matches the button.",
+      "ex_ja": "赤い糸がボタンに合っています。",
+      "level": 1,
+      "tags": [
+        "sewing"
+      ]
+    },
+    {
+      "id": "jz_053",
+      "en": "zipper",
+      "ja": "チャック",
+      "pos": "noun",
+      "ex_en": "The zipper on my jacket is stuck.",
+      "ex_ja": "上着のチャックが動かなくなりました。",
+      "level": 2,
+      "tags": [
+        "clothing"
+      ]
+    },
+    {
+      "id": "jz_054",
+      "en": "crayon",
+      "ja": "クレヨン",
+      "pos": "noun",
+      "ex_en": "The children drew flowers with crayons.",
+      "ex_ja": "子どもたちはクレヨンで花を描きました。",
+      "level": 1,
+      "tags": [
+        "stationery"
+      ]
+    },
+    {
+      "id": "jz_055",
+      "en": "eraser",
+      "ja": "消しゴム",
+      "pos": "noun",
+      "ex_en": "May I borrow your eraser?",
+      "ex_ja": "消しゴムを借りてもいいですか。",
+      "level": 1,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jz_056",
+      "en": "ruler",
+      "ja": "定規",
+      "pos": "noun",
+      "ex_en": "Draw a straight line with a ruler.",
+      "ex_ja": "定規で直線を引きなさい。",
+      "level": 1,
+      "tags": [
+        "stationery"
+      ]
+    },
+    {
+      "id": "jz_057",
+      "en": "compass",
+      "ja": "コンパス",
+      "pos": "noun",
+      "ex_en": "Use a compass to draw a circle.",
+      "ex_ja": "コンパスを使って円を描きます。",
+      "level": 2,
+      "tags": [
+        "stationery"
+      ]
+    },
+    {
+      "id": "jz_058",
+      "en": "notebook",
+      "ja": "ノート",
+      "pos": "noun",
+      "ex_en": "I copied the new words into my notebook.",
+      "ex_ja": "新しい単語をノートに書き写しました。",
+      "level": 1,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jz_059",
+      "en": "glue",
+      "ja": "のり",
+      "pos": "noun",
+      "ex_en": "Put some glue on the paper and stick it on.",
+      "ex_ja": "紙にのりをつけてはってください。",
+      "level": 1,
+      "tags": [
+        "stationery"
+      ]
+    },
+    {
+      "id": "jz_060",
+      "en": "scissors",
+      "ja": "ハサミ",
+      "pos": "noun",
+      "ex_en": "These scissors cut well.",
+      "ex_ja": "このハサミはよく切れます。",
+      "level": 1,
+      "tags": [
+        "tool"
+      ]
+    },
+    {
+      "id": "jz_061",
+      "en": "sled",
+      "ja": "そり",
+      "pos": "noun",
+      "ex_en": "We rode our sled down the hill.",
+      "ex_ja": "丘をそりで滑り降りました。",
+      "level": 2,
+      "tags": [
+        "toy"
+      ]
+    },
+    {
+      "id": "jz_062",
+      "en": "kite",
+      "ja": "たこ",
+      "pos": "noun",
+      "ex_en": "Let's fly a kite at the beach.",
+      "ex_ja": "海辺でたこを揚げよう。",
+      "level": 1,
+      "tags": [
+        "toy"
+      ]
+    },
+    {
+      "id": "jz_063",
+      "en": "marble",
+      "ja": "ビー玉",
+      "pos": "noun",
+      "ex_en": "He collects colorful marbles.",
+      "ex_ja": "彼は色とりどりのビー玉を集めています。",
+      "level": 2,
+      "tags": [
+        "toy"
+      ]
+    },
+    {
+      "id": "jz_064",
+      "en": "yo-yo",
+      "ja": "ヨーヨー",
+      "pos": "noun",
+      "ex_en": "She can do tricks with her yo-yo.",
+      "ex_ja": "彼女はヨーヨーで技ができます。",
+      "level": 1,
+      "tags": [
+        "toy"
+      ]
+    },
+    {
+      "id": "jz_065",
+      "en": "puzzle",
+      "ja": "パズル",
+      "pos": "noun",
+      "ex_en": "We finished a 500-piece puzzle.",
+      "ex_ja": "500ピースのパズルを完成させました。",
+      "level": 1,
+      "tags": [
+        "toy"
+      ]
+    },
+    {
+      "id": "jz_066",
+      "en": "doll",
+      "ja": "にんぎょう",
+      "pos": "noun",
+      "ex_en": "Her favorite doll sits on the shelf.",
+      "ex_ja": "お気に入りのにんぎょうが棚に座っています。",
+      "level": 1,
+      "tags": [
+        "toy"
+      ]
+    },
+    {
+      "id": "jz_067",
+      "en": "whistle",
+      "ja": "笛",
+      "pos": "noun",
+      "ex_en": "The referee blew his whistle.",
+      "ex_ja": "審判は笛を鳴らしました。",
+      "level": 1,
+      "tags": [
+        "sound"
+      ]
+    },
+    {
+      "id": "jz_068",
+      "en": "harmonica",
+      "ja": "ハーモニカ",
+      "pos": "noun",
+      "ex_en": "Grandpa plays folk songs on his harmonica.",
+      "ex_ja": "おじいちゃんはハーモニカで民謡を吹きます。",
+      "level": 2,
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "jz_069",
+      "en": "violin",
+      "ja": "バイオリン",
+      "pos": "noun",
+      "ex_en": "She practices the violin every evening.",
+      "ex_ja": "彼女は毎晩バイオリンの練習をします。",
+      "level": 1,
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "jz_070",
+      "en": "drum",
+      "ja": "太鼓",
+      "pos": "noun",
+      "ex_en": "He beat the drum with two sticks.",
+      "ex_ja": "彼は2本のスティックで太鼓をたたきました。",
+      "level": 1,
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "jz_071",
+      "en": "flute",
+      "ja": "フルート",
+      "pos": "noun",
+      "ex_en": "The girl played a quiet song on her flute.",
+      "ex_ja": "女の子はフルートで静かな曲を演奏しました。",
+      "level": 1,
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "jz_072",
+      "en": "trumpet",
+      "ja": "トランペット",
+      "pos": "noun",
+      "ex_en": "My brother joined the band as a trumpet player.",
+      "ex_ja": "兄はトランペット奏者としてバンドに入りました。",
+      "level": 1,
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "jz_073",
+      "en": "cymbal",
+      "ja": "シンバル",
+      "pos": "noun",
+      "ex_en": "The drummer crashed the cymbals.",
+      "ex_ja": "ドラマーはシンバルを打ち合わせました。",
+      "level": 2,
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "jz_074",
+      "en": "tambourine",
+      "ja": "タンバリン",
+      "pos": "noun",
+      "ex_en": "Shake the tambourine to the beat.",
+      "ex_ja": "リズムに合わせてタンバリンを振って。",
+      "level": 2,
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "jz_075",
+      "en": "giraffe",
+      "ja": "キリン",
+      "pos": "noun",
+      "ex_en": "A giraffe eats leaves from tall trees.",
+      "ex_ja": "キリンは高い木の葉を食べます。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_076",
+      "en": "kangaroo",
+      "ja": "カンガルー",
+      "pos": "noun",
+      "ex_en": "A kangaroo carries its baby in its pouch.",
+      "ex_ja": "カンガルーは赤ちゃんを袋に入れて運びます。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_077",
+      "en": "camel",
+      "ja": "ラクダ",
+      "pos": "noun",
+      "ex_en": "Camels can walk for days without water.",
+      "ex_ja": "ラクダは水なしで何日も歩けます。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_078",
+      "en": "gorilla",
+      "ja": "ゴリラ",
+      "pos": "noun",
+      "ex_en": "The gorilla beat its chest.",
+      "ex_ja": "ゴリラは胸をたたきました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_079",
+      "en": "raccoon",
+      "ja": "アライグマ",
+      "pos": "noun",
+      "ex_en": "A raccoon got into the trash last night.",
+      "ex_ja": "昨夜アライグマがごみ箱をあさりました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_080",
+      "en": "squirrel",
+      "ja": "リス",
+      "pos": "noun",
+      "ex_en": "Squirrels store nuts for winter.",
+      "ex_ja": "リスは冬に備えて木の実をためます。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_081",
+      "en": "hedgehog",
+      "ja": "ハリネズミ",
+      "pos": "noun",
+      "ex_en": "A hedgehog rolls into a ball when scared.",
+      "ex_ja": "ハリネズミは怖いと丸くなります。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_082",
+      "en": "mole",
+      "ja": "もぐら",
+      "pos": "noun",
+      "ex_en": "A mole dug tunnels under our garden.",
+      "ex_ja": "もぐらが庭の下にトンネルを掘りました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_083",
+      "en": "deer",
+      "ja": "シカ",
+      "pos": "noun",
+      "ex_en": "We saw deer near the temple.",
+      "ex_ja": "お寺の近くでシカを見ました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_084",
+      "en": "fox",
+      "ja": "キツネ",
+      "pos": "noun",
+      "ex_en": "The fox hid behind the rocks.",
+      "ex_ja": "キツネは岩のかげに隠れました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_085",
+      "en": "crow",
+      "ja": "カラス",
+      "pos": "noun",
+      "ex_en": "Crows are clever birds.",
+      "ex_ja": "カラスは賢い鳥です。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_086",
+      "en": "sparrow",
+      "ja": "スズメ",
+      "pos": "noun",
+      "ex_en": "Sparrows gathered around the breadcrumbs.",
+      "ex_ja": "スズメたちがパンくずのまわりに集まりました。",
+      "level": 2,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_087",
+      "en": "pigeon",
+      "ja": "ハト",
+      "pos": "noun",
+      "ex_en": "Feed the pigeons in the park.",
+      "ex_ja": "公園でハトにエサをやって。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_088",
+      "en": "swan",
+      "ja": "白鳥",
+      "pos": "noun",
+      "ex_en": "A white swan glided across the pond.",
+      "ex_ja": "白鳥が池を優雅に進みました。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_089",
+      "en": "goldfish",
+      "ja": "金魚",
+      "pos": "noun",
+      "ex_en": "My goldfish swims in circles.",
+      "ex_ja": "私の金魚は円を描いて泳ぎます。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_090",
+      "en": "tadpole",
+      "ja": "オタマジャクシ",
+      "pos": "noun",
+      "ex_en": "Tadpoles grow into frogs.",
+      "ex_ja": "オタマジャクシはカエルに育ちます。",
+      "level": 1,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "jz_091",
+      "en": "grasshopper",
+      "ja": "バッタ",
+      "pos": "noun",
+      "ex_en": "A grasshopper jumped into the grass.",
+      "ex_ja": "バッタが草の中に跳びました。",
+      "level": 2,
+      "tags": [
+        "insect"
+      ]
+    },
+    {
+      "id": "jz_092",
+      "en": "ladybug",
+      "ja": "テントウムシ",
+      "pos": "noun",
+      "ex_en": "A red ladybug landed on my arm.",
+      "ex_ja": "赤いテントウムシが私の腕にとまりました。",
+      "level": 1,
+      "tags": [
+        "insect"
+      ]
+    },
+    {
+      "id": "jz_093",
+      "en": "firefly",
+      "ja": "ホタル",
+      "pos": "noun",
+      "ex_en": "We watched fireflies by the river.",
+      "ex_ja": "川のそばでホタルを見ました。",
+      "level": 1,
+      "tags": [
+        "insect"
+      ]
+    },
+    {
+      "id": "jz_094",
+      "en": "dragonfly",
+      "ja": "トンボ",
+      "pos": "noun",
+      "ex_en": "Dragonflies fly low before it rains.",
+      "ex_ja": "雨が降る前にはトンボが低く飛びます。",
+      "level": 1,
+      "tags": [
+        "insect"
+      ]
+    },
+    {
+      "id": "jz_095",
+      "en": "beetle",
+      "ja": "カブトムシ",
+      "pos": "noun",
+      "ex_en": "My brother caught a beetle in the woods.",
+      "ex_ja": "弟は森でカブトムシを捕まえました。",
+      "level": 1,
+      "tags": [
+        "insect"
+      ]
+    },
+    {
+      "id": "jz_096",
+      "en": "cicada",
+      "ja": "セミ",
+      "pos": "noun",
+      "ex_en": "Cicadas sing loudly in summer.",
+      "ex_ja": "夏はセミが大声で鳴きます。",
+      "level": 1,
+      "tags": [
+        "insect"
+      ]
+    },
+    {
+      "id": "jz_097",
+      "en": "web",
+      "ja": "クモの巣",
+      "pos": "noun",
+      "ex_en": "A spider spun a web between the branches.",
+      "ex_ja": "クモが枝の間に巣を張りました。",
+      "level": 1,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jz_098",
+      "en": "cocoon",
+      "ja": "まゆ",
+      "pos": "noun",
+      "ex_en": "Silkworms make cocoons.",
+      "ex_ja": "カイコはまゆを作ります。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jz_099",
+      "en": "caterpillar",
+      "ja": "いもむし",
+      "pos": "noun",
+      "ex_en": "A green caterpillar ate the cabbage leaf.",
+      "ex_ja": "緑のいもむしがキャベツの葉を食べていました。",
+      "level": 2,
+      "tags": [
+        "insect"
+      ]
+    },
+    {
+      "id": "jz_100",
+      "en": "moss",
+      "ja": "コケ",
+      "pos": "noun",
+      "ex_en": "Soft moss covered the stones.",
+      "ex_ja": "柔らかいコケが石をおおっていました。",
+      "level": 2,
+      "tags": [
+        "plant"
+      ]
+    },
+    {
+      "id": "jz_101",
+      "en": "corn",
+      "ja": "とうもろこし",
+      "pos": "noun",
+      "ex_en": "We roasted corn at the campfire.",
+      "ex_ja": "キャンプファイヤーでとうもろこしを焼きました。",
+      "level": 1,
+      "tags": [
+        "plant"
+      ]
+    },
+    {
+      "id": "jz_102",
+      "en": "acorn",
+      "ja": "どんぐり",
+      "pos": "noun",
+      "ex_en": "Acorns fall from the oak trees.",
+      "ex_ja": "どんぐりがオークの木から落ちます。",
+      "level": 1,
+      "tags": [
+        "plant"
+      ]
+    },
+    {
+      "id": "jz_103",
+      "en": "pine",
+      "ja": "マツ",
+      "pos": "noun",
+      "ex_en": "The wind blew through the pine trees.",
+      "ex_ja": "風が松林を吹き抜けました。",
+      "level": 1,
+      "tags": [
+        "plant"
+      ]
+    },
+    {
+      "id": "jz_104",
+      "en": "lemon",
+      "ja": "レモン",
+      "pos": "noun",
+      "ex_en": "This lemonade tastes sour.",
+      "ex_ja": "このレモネードは酸っぱい味がします。",
+      "level": 1,
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "jz_105",
+      "en": "peach",
+      "ja": "モモ",
+      "pos": "noun",
+      "ex_en": "The peach is ripe and sweet.",
+      "ex_ja": "モモは熟れて甘くなります。",
+      "level": 1,
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "jz_106",
+      "en": "persimmon",
+      "ja": "柿",
+      "pos": "noun",
+      "ex_en": "Persimmons ripen in late autumn.",
+      "ex_ja": "柿は晩秋に熟れます。",
+      "level": 2,
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "jz_107",
+      "en": "tangerine",
+      "ja": "ミカン",
+      "pos": "noun",
+      "ex_en": "Peel the tangerine and share it.",
+      "ex_ja": "ミカンの皮をむいてみんなに分けて。",
+      "level": 1,
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "jz_108",
+      "en": "melon",
+      "ja": "メロン",
+      "pos": "noun",
+      "ex_en": "Cut the melon into slices.",
+      "ex_ja": "メロンを切ってください。",
+      "level": 1,
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "jz_109",
+      "en": "watermelon",
+      "ja": "スイカ",
+      "pos": "noun",
+      "ex_en": "We chilled a watermelon in the river.",
+      "ex_ja": "川でスイカを冷やしました。",
+      "level": 1,
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "jz_110",
+      "en": "pear",
+      "ja": "梨",
+      "pos": "noun",
+      "ex_en": "This pear is big and juicy.",
+      "ex_ja": "この梨は大きくてみずみずしいです。",
+      "level": 1,
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "jz_111",
+      "en": "dew",
+      "ja": "露",
+      "pos": "noun",
+      "ex_en": "Dew sparkled on the grass at sunrise.",
+      "ex_ja": "日の出のとき草の上で露がきらめきました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jz_112",
+      "en": "drizzle",
+      "ja": "霧雨",
+      "pos": "noun",
+      "ex_en": "A light drizzle fell all afternoon.",
+      "ex_ja": "午後いっぱい霧雨が降りました。",
+      "level": 2,
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "jz_113",
+      "en": "thunder",
+      "ja": "雷",
+      "pos": "noun",
+      "ex_en": "Thunder rattled the windows last night.",
+      "ex_ja": "昨夜は雷が窓をガタガタ鳴らしました。",
+      "level": 1,
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "jz_114",
+      "en": "rainbow",
+      "ja": "虹",
+      "pos": "noun",
+      "ex_en": "A double rainbow appeared after the storm.",
+      "ex_ja": "嵐の後に二重の虹が出ました。",
+      "level": 1,
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "jz_115",
+      "en": "puddle",
+      "ja": "水たまり",
+      "pos": "noun",
+      "ex_en": "The kids jumped in every puddle.",
+      "ex_ja": "子どもたちは水たまりを次々と跳ねて回りました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jz_116",
+      "en": "meadow",
+      "ja": "草原",
+      "pos": "noun",
+      "ex_en": "Cows graze in the green meadow.",
+      "ex_ja": "牛が緑の草原で草を食んでいます。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jz_117",
+      "en": "straw",
+      "ja": "わら",
+      "pos": "noun",
+      "ex_en": "The scarecrow is stuffed with straw.",
+      "ex_ja": "かかしにはわらが詰められています。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "jz_118",
+      "en": "hay",
+      "ja": "干し草",
+      "pos": "noun",
+      "ex_en": "The horses eat hay in the winter.",
+      "ex_ja": "馬は冬に干し草を食べます。",
+      "level": 1,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "jz_119",
+      "en": "nest",
+      "ja": "巣",
+      "pos": "noun",
+      "ex_en": "A bird built a nest under the roof.",
+      "ex_ja": "鳥が屋根の下に巣を作りました。",
+      "level": 1,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jz_120",
+      "en": "hive",
+      "ja": "ミツバチの巣",
+      "pos": "noun",
+      "ex_en": "Bees fly back to the hive at dusk.",
+      "ex_ja": "ミツバチは夕方になると巣に戻ります。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jz_121",
+      "en": "kennel",
+      "ja": "犬小屋",
+      "pos": "noun",
+      "ex_en": "The dog sleeps in its kennel.",
+      "ex_ja": "犬は犬小屋で寝ます。",
+      "level": 2,
+      "tags": [
+        "pet"
+      ]
+    },
+    {
+      "id": "jz_122",
+      "en": "stable",
+      "ja": "馬小屋",
+      "pos": "noun",
+      "ex_en": "The stable smells of hay.",
+      "ex_ja": "馬小屋は干し草のにおいがします。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "jz_123",
+      "en": "barn",
+      "ja": "納屋",
+      "pos": "noun",
+      "ex_en": "They store tools in the old barn.",
+      "ex_ja": "彼らは古い納屋に道具をしまいます。",
+      "level": 2,
+      "tags": [
+        "farm"
+      ]
+    },
+    {
+      "id": "jz_124",
+      "en": "brook",
+      "ja": "小川",
+      "pos": "noun",
+      "ex_en": "We caught small fish in the brook.",
+      "ex_ja": "小川で小さな魚を捕まえました。",
+      "level": 2,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jz_125",
+      "en": "waterfall",
+      "ja": "滝",
+      "pos": "noun",
+      "ex_en": "The trail leads to a tall waterfall.",
+      "ex_ja": "その道は高い滝につながっています。",
+      "level": 1,
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "jz_127",
+      "en": "frost",
+      "ja": "霜",
+      "pos": "noun",
+      "ex_en": "Frost covered the fields this morning.",
+      "ex_ja": "今朝は霜が野原をおおいました。",
+      "level": 2,
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "jz_128",
+      "en": "dawn",
+      "ja": "夜明け",
+      "pos": "noun",
+      "ex_en": "We left the cabin at dawn.",
+      "ex_ja": "明け方に小屋を出発しました。",
+      "level": 1,
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "jz_129",
+      "en": "padlock",
+      "ja": "南京錠",
+      "pos": "noun",
+      "ex_en": "He locked the gate with a padlock.",
+      "ex_ja": "彼は門を南京錠でロックしました。",
+      "level": 2,
+      "tags": [
+        "tool"
+      ]
+    },
+    {
+      "id": "jz_130",
+      "en": "knot",
+      "ja": "結び目",
+      "pos": "noun",
+      "ex_en": "Learn to tie a tight knot.",
+      "ex_ja": "しっかりした結び目の結び方を覚えよう。",
+      "level": 2,
+      "tags": [
+        "tool"
+      ]
+    },
+    {
+      "id": "jz_131",
+      "en": "nail",
+      "ja": "釘",
+      "pos": "noun",
+      "ex_en": "Hammer a nail into the board.",
+      "ex_ja": "板に釘を打ってください。",
+      "level": 1,
+      "tags": [
+        "tool"
+      ]
+    },
+    {
+      "id": "jz_132",
+      "en": "screw",
+      "ja": "ねじ",
+      "pos": "noun",
+      "ex_en": "This screw won't come out.",
+      "ex_ja": "このねじはなかなか外れません。",
+      "level": 1,
+      "tags": [
+        "tool"
+      ]
+    },
+    {
+      "id": "jz_133",
+      "en": "hinge",
+      "ja": "丁番",
+      "pos": "noun",
+      "ex_en": "The gate squeaks because its hinge is rusty.",
+      "ex_ja": "門の丁番が錆びているのできしみます。",
+      "level": 2,
+      "tags": [
+        "tool"
+      ]
+    },
+    {
+      "id": "jz_134",
+      "en": "latch",
+      "ja": "掛け金具",
+      "pos": "noun",
+      "ex_en": "Slide the latch to close the gate.",
+      "ex_ja": "掛け金具をずらして門を閉めて。",
+      "level": 2,
+      "tags": [
+        "tool"
+      ]
+    },
+    {
+      "id": "jz_135",
+      "en": "cart",
+      "ja": "荷車",
+      "pos": "noun",
+      "ex_en": "He pushed a cart full of vegetables.",
+      "ex_ja": "彼は野菜を積んだ荷車を押しました。",
+      "level": 1,
+      "tags": [
+        "vehicle"
+      ]
+    },
+    {
+      "id": "jz_136",
+      "en": "wagon",
+      "ja": "荷馬車",
+      "pos": "noun",
+      "ex_en": "The kids pulled their wagon up the hill.",
+      "ex_ja": "子どもたちは荷車を引いて丘を上りました。",
+      "level": 1,
+      "tags": [
+        "vehicle"
+      ]
+    },
+    {
+      "id": "jz_137",
+      "en": "purse",
+      "ja": "財布",
+      "pos": "noun",
+      "ex_en": "She found a coin in her purse.",
+      "ex_ja": "彼女は財布の中に硬貨を見つけました。",
+      "level": 1,
+      "tags": [
+        "accessory"
+      ]
+    },
+    {
+      "id": "jz_138",
+      "en": "handkerchief",
+      "ja": "ハンカチ",
+      "pos": "noun",
+      "ex_en": "Wipe your hands with this handkerchief.",
+      "ex_ja": "このハンカチで手をふきなさい。",
+      "level": 1,
+      "tags": [
+        "accessory"
+      ]
+    },
+    {
+      "id": "jz_139",
+      "en": "backpack",
+      "ja": "リュック",
+      "pos": "noun",
+      "ex_en": "My backpack weighs five kilograms.",
+      "ex_ja": "リュックは5キログラムあります。",
+      "level": 1,
+      "tags": [
+        "bag"
+      ]
+    },
+    {
+      "id": "jz_140",
+      "en": "uniform",
+      "ja": "制服",
+      "pos": "noun",
+      "ex_en": "Students wear uniforms at that school.",
+      "ex_ja": "その学校では生徒は制服を着ます。",
+      "level": 1,
+      "tags": [
+        "clothing"
+      ]
+    },
+    {
+      "id": "jz_141",
+      "en": "grandparent",
+      "ja": "祖父母",
+      "pos": "noun",
+      "ex_en": "Each summer I visit my grandparents.",
+      "ex_ja": "毎夏、祖父母を訪ねます。",
+      "level": 1,
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "jz_142",
+      "en": "grandchild",
+      "ja": "孫",
+      "pos": "noun",
+      "ex_en": "She reads stories to her grandchildren.",
+      "ex_ja": "彼女は孫に昔話を読んで聞かせます。",
+      "level": 1,
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "jz_143",
+      "en": "sibling",
+      "ja": "兄弟姉妹",
+      "pos": "noun",
+      "ex_en": "I have three siblings.",
+      "ex_ja": "私には兄弟姉妹が3人います。",
+      "level": 2,
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "jz_144",
+      "en": "twin",
+      "ja": "双子",
+      "pos": "noun",
+      "ex_en": "The twins look exactly alike.",
+      "ex_ja": "双子は瓜二つです。",
+      "level": 1,
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "jz_145",
+      "en": "groom",
+      "ja": "花婿",
+      "pos": "noun",
+      "ex_en": "The groom smiled nervously at the guests.",
+      "ex_ja": "花婿は招待客に緊張しながら笑いました。",
+      "level": 2,
+      "tags": [
+        "wedding"
+      ]
+    },
+    {
+      "id": "jz_146",
+      "en": "widow",
+      "ja": "未亡人",
+      "pos": "noun",
+      "ex_en": "The old widow lives alone with her cat.",
+      "ex_ja": "その老未亡人は猫と一人で暮らしています。",
+      "level": 2,
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "jz_147",
+      "en": "orphan",
+      "ja": "孤児",
+      "pos": "noun",
+      "ex_en": "The story is about an orphan who finds a home.",
+      "ex_ja": "その物語は家を見つけた孤児についてです。",
+      "level": 2,
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "jz_148",
+      "en": "fever",
+      "ja": "熱",
+      "pos": "noun",
+      "ex_en": "The boy stayed home with a fever.",
+      "ex_ja": "少年は熱で家にいました。",
+      "level": 1,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jz_149",
+      "en": "sneeze",
+      "ja": "くしゃみ",
+      "pos": "noun",
+      "ex_en": "Cover your mouth when you sneeze.",
+      "ex_ja": "くしゃみをするときは口をおさえて。",
+      "level": 1,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jz_150",
+      "en": "bruise",
+      "ja": "あざ",
+      "pos": "noun",
+      "ex_en": "He has a bruise on his knee after the game.",
+      "ex_ja": "試合の後、彼はひざにあざを作りました。",
+      "level": 2,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jz_151",
+      "en": "scar",
+      "ja": "傷跡",
+      "pos": "noun",
+      "ex_en": "The cut healed but left a small scar.",
+      "ex_ja": "切り傷は治ったけど小さな傷跡が残りました。",
+      "level": 1,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jz_152",
+      "en": "ointment",
+      "ja": "塗り薬",
+      "pos": "noun",
+      "ex_en": "Apply this ointment twice a day.",
+      "ex_ja": "この塗り薬を1日2回ぬってください。",
+      "level": 2,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jz_153",
+      "en": "medicine",
+      "ja": "薬",
+      "pos": "noun",
+      "ex_en": "Take the medicine after meals.",
+      "ex_ja": "薬は食後に飲みます。",
+      "level": 1,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jz_154",
+      "en": "pill",
+      "ja": "錠剤",
+      "pos": "noun",
+      "ex_en": "She swallowed the pill with water.",
+      "ex_ja": "彼女は水で錠剤を飲み込みました。",
+      "level": 1,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "jz_155",
+      "en": "surgeon",
+      "ja": "外科医",
+      "pos": "noun",
+      "ex_en": "The surgeon operated for six hours.",
+      "ex_ja": "外科医は6時間手術をしました。",
+      "level": 2,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_156",
+      "en": "nurse",
+      "ja": "看護師",
+      "pos": "noun",
+      "ex_en": "The nurse checked my temperature.",
+      "ex_ja": "看護師は私の体温を測りました。",
+      "level": 1,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_157",
+      "en": "nightmare",
+      "ja": "悪夢",
+      "pos": "noun",
+      "ex_en": "I woke up from a terrible nightmare.",
+      "ex_ja": "ひどい悪夢から目が覚めました。",
+      "level": 2,
+      "tags": [
+        "sleep"
+      ]
+    },
+    {
+      "id": "jz_158",
+      "en": "whisper",
+      "ja": "ささやく",
+      "pos": "verb",
+      "ex_en": "She whispered the answer to me.",
+      "ex_ja": "彼女は私に答えをささやきました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_159",
+      "en": "shout",
+      "ja": "叫ぶ",
+      "pos": "verb",
+      "ex_en": "Don't shout in the library.",
+      "ex_ja": "図書館で叫んではいけません。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_160",
+      "en": "scream",
+      "ja": "悲鳴を上げる",
+      "pos": "verb",
+      "ex_en": "She screamed when she saw the snake.",
+      "ex_ja": "ヘビを見て彼女は悲鳴を上げました。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_161",
+      "en": "grin",
+      "ja": "にっと笑う",
+      "pos": "verb",
+      "ex_en": "He grinned and showed me his test score.",
+      "ex_ja": "彼はにっと笑ってテストの点数を見せてくれました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_162",
+      "en": "nod",
+      "ja": "うなずく",
+      "pos": "verb",
+      "ex_en": "She nodded to show that she agreed.",
+      "ex_ja": "彼女は賛成だと示すためにうなずきました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_163",
+      "en": "bow",
+      "ja": "おじぎする",
+      "pos": "verb",
+      "ex_en": "Japanese people bow when they greet each other.",
+      "ex_ja": "日本人はあいさつをするときおじぎをします。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_164",
+      "en": "kneel",
+      "ja": "ひざまずく",
+      "pos": "verb",
+      "ex_en": "He knelt down to tie his shoe.",
+      "ex_ja": "彼は靴ひもを結ぶためにひざまずきました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_165",
+      "en": "crawl",
+      "ja": "はう",
+      "pos": "verb",
+      "ex_en": "Babies crawl before they walk.",
+      "ex_ja": "赤ちゃんは歩く前にはいます。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_166",
+      "en": "stroll",
+      "ja": "散歩する",
+      "pos": "verb",
+      "ex_en": "We strolled along the beach after dinner.",
+      "ex_ja": "夕食後、私たちは海岸を散歩しました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_167",
+      "en": "wander",
+      "ja": "さまよう",
+      "pos": "verb",
+      "ex_en": "We wandered around the old town all morning.",
+      "ex_ja": "午前中いっぱい旧市街をぶらつきました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_168",
+      "en": "dash",
+      "ja": "駆け出す",
+      "pos": "verb",
+      "ex_en": "She dashed to the bus stop.",
+      "ex_ja": "彼女はバス停へ駆け出しました。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_169",
+      "en": "leap",
+      "ja": "跳ぶ",
+      "pos": "verb",
+      "ex_en": "The cat leaped over the fence.",
+      "ex_ja": "猫はフェンスを跳び越えました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_170",
+      "en": "skip",
+      "ja": "軽く跳んで進む",
+      "pos": "verb",
+      "ex_en": "The girl skipped down the sidewalk.",
+      "ex_ja": "女の子は歩道をスキップして進みました。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_171",
+      "en": "tiptoe",
+      "ja": "つま先立ちで歩く",
+      "pos": "verb",
+      "ex_en": "I tiptoed into the room so no one would wake up.",
+      "ex_ja": "誰も起こさないようにつま先立ちで部屋に入りました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_172",
+      "en": "limp",
+      "ja": "足を引きずる",
+      "pos": "verb",
+      "ex_en": "He limped home after twisting his ankle.",
+      "ex_ja": "足首をひねった後、彼は足を引きずって帰りました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_173",
+      "en": "tremble",
+      "ja": "震える",
+      "pos": "verb",
+      "ex_en": "Her hands trembled with cold.",
+      "ex_ja": "寒さで彼女の手は震えました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_174",
+      "en": "shiver",
+      "ja": "身震いする",
+      "pos": "verb",
+      "ex_en": "I shivered in the cold wind.",
+      "ex_ja": "冷たい風に身震いしました。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_175",
+      "en": "pour",
+      "ja": "注ぐ",
+      "pos": "verb",
+      "ex_en": "Pour the milk into the glass.",
+      "ex_ja": "グラスに牛乳を注いでください。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_176",
+      "en": "spill",
+      "ja": "こぼす",
+      "pos": "verb",
+      "ex_en": "Careful! You'll spill the juice.",
+      "ex_ja": "気をつけて、ジュースをこぼすよ。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_177",
+      "en": "splash",
+      "ja": "水をはねる",
+      "pos": "verb",
+      "ex_en": "The kids splashed water in the pool.",
+      "ex_ja": "子どもたちはプールで水をはねました。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_178",
+      "en": "rinse",
+      "ja": "すすぐ",
+      "pos": "verb",
+      "ex_en": "Rinse the rice before you cook it.",
+      "ex_ja": "米を炊く前にすすいでください。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_179",
+      "en": "scrub",
+      "ja": "こするように洗う",
+      "pos": "verb",
+      "ex_en": "Scrub the bathtub until it's clean.",
+      "ex_ja": "浴槽がきれいになるまでごしごし洗って。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_180",
+      "en": "wipe",
+      "ja": "ふく",
+      "pos": "verb",
+      "ex_en": "Wipe the table with a wet cloth.",
+      "ex_ja": "濡れた布でテーブルをふいてください。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_181",
+      "en": "fold",
+      "ja": "たたむ",
+      "pos": "verb",
+      "ex_en": "Fold the clothes and put them away.",
+      "ex_ja": "服をたたんでしまってください。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_182",
+      "en": "wrap",
+      "ja": "包む",
+      "pos": "verb",
+      "ex_en": "She wrapped the present in pretty paper.",
+      "ex_ja": "彼女はプレゼントをきれいな紙で包みました。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_183",
+      "en": "pinch",
+      "ja": "つまむ",
+      "pos": "verb",
+      "ex_en": "Ouch! Don't pinch my arm.",
+      "ex_ja": "いたっ、私の腕をつままないで。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_184",
+      "en": "grab",
+      "ja": "つかむ",
+      "pos": "verb",
+      "ex_en": "He grabbed his bag and ran out.",
+      "ex_ja": "彼はかばんをつかんで走り出しました。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_185",
+      "en": "squeeze",
+      "ja": "ぎゅっと握る",
+      "pos": "verb",
+      "ex_en": "Squeeze the lemon into the tea.",
+      "ex_ja": "レモンをお茶に絞ってください。",
+      "level": 2,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_186",
+      "en": "yawn",
+      "ja": "あくびをする",
+      "pos": "verb",
+      "ex_en": "I yawned because I was sleepy.",
+      "ex_ja": "眠かったのであくびをしました。",
+      "level": 1,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "jz_187",
+      "en": "carpenter",
+      "ja": "大工",
+      "pos": "noun",
+      "ex_en": "The carpenter built a wooden deck for us.",
+      "ex_ja": "大工さんが私たちに木のデッキを作ってくれました。",
+      "level": 1,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_188",
+      "en": "plumber",
+      "ja": "配管工",
+      "pos": "noun",
+      "ex_en": "We called a plumber to fix the leak.",
+      "ex_ja": "水漏れを直すために配管工を呼びました。",
+      "level": 2,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_189",
+      "en": "electrician",
+      "ja": "電気工事士",
+      "pos": "noun",
+      "ex_en": "An electrician repaired the broken light.",
+      "ex_ja": "電気工事士が壊れた照明を修理しました。",
+      "level": 2,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_190",
+      "en": "mechanic",
+      "ja": "整備士",
+      "pos": "noun",
+      "ex_en": "The mechanic fixed our car in an hour.",
+      "ex_ja": "整備士は1時間で車を直しました。",
+      "level": 1,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_191",
+      "en": "tailor",
+      "ja": "仕立て屋",
+      "pos": "noun",
+      "ex_en": "The tailor shortened my trousers.",
+      "ex_ja": "仕立て屋が私のズボンを詰めてくれました。",
+      "level": 2,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_192",
+      "en": "librarian",
+      "ja": "司書",
+      "pos": "noun",
+      "ex_en": "The librarian helped me find a book about space.",
+      "ex_ja": "司書さんが宇宙についての本を見つけるのを手伝ってくれました。",
+      "level": 1,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_193",
+      "en": "veterinarian",
+      "ja": "獣医師",
+      "pos": "noun",
+      "ex_en": "We took our sick cat to the veterinarian.",
+      "ex_ja": "具合の悪い猫を獣医師に連れて行きました。",
+      "level": 2,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_194",
+      "en": "architect",
+      "ja": "建築家",
+      "pos": "noun",
+      "ex_en": "The architect drew plans for the new library.",
+      "ex_ja": "建築家は新しい図書館の設計図を描きました。",
+      "level": 2,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_195",
+      "en": "journalist",
+      "ja": "ジャーナリスト",
+      "pos": "noun",
+      "ex_en": "The journalist wrote an article about the flood.",
+      "ex_ja": "ジャーナリストは洪水についての記事を書きました。",
+      "level": 2,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_196",
+      "en": "photographer",
+      "ja": "写真家",
+      "pos": "noun",
+      "ex_en": "A photographer took pictures of the wedding.",
+      "ex_ja": "写真家が結婚式の写真を撮りました。",
+      "level": 1,
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "id": "jz_198",
+      "en": "classmate",
+      "ja": "級友",
+      "pos": "noun",
+      "ex_en": "I met my old classmate at the station.",
+      "ex_ja": "駅で昔の級友に会いました。",
+      "level": 1,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jz_199",
+      "en": "textbook",
+      "ja": "教科書",
+      "pos": "noun",
+      "ex_en": "Bring your textbook to class tomorrow.",
+      "ex_ja": "明日は教科書を持ってきてください。",
+      "level": 1,
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "jz_200",
+      "en": "dormitory",
+      "ja": "寮",
+      "pos": "noun",
+      "ex_en": "He lives in a dormitory near campus.",
+      "ex_ja": "彼はキャンパスの近くの寮に住んでいます。",
+      "level": 2,
+      "tags": [
+        "school"
+      ]
+    }
+  ]
+}
