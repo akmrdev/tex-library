@@ -1,0 +1,38 @@
+[
+  {
+    "q": "重複なしの集合を表す組み込み型は?",
+    "choices": ["list", "tuple", "set", "dict"],
+    "answer": 2,
+    "explain": "set は重複を許さない集合型。list は順序つき可変、tuple は順序つき不変、dict はキーと値の組です。"
+  },
+  {
+    "q": "[x * 2 for x in range(4)] の結果は?",
+    "choices": ["[0, 2, 4, 6]", "[2, 4, 6, 8]", "[0, 1, 2, 3]", "エラー"],
+    "answer": 0,
+    "explain": "range(4) は 0〜3。それぞれ 2 倍して [0, 2, 4, 6]。内包表記は map/filter の短い書き方です。"
+  },
+  {
+    "q": "ファイルを確実に閉じたいときに使う構文は?",
+    "choices": ["try/open", "with open(...) as f:", "for f in file:", "def open()"],
+    "answer": 1,
+    "explain": "with 文はブロックを抜けると自動で close() を呼びます。例外が起きても確実に閉じられます。"
+  },
+  {
+    "q": "def f(x, y=10): return x + y のとき f(5) の戻り値は?",
+    "choices": ["5", "10", "15", "エラー"],
+    "answer": 2,
+    "explain": "y は省略時 10。f(5) は x=5, y=10 で 15。デフォルト引数は呼び出し側の省略を可能にします。"
+  },
+  {
+    "q": "実行時に KeyError になる可能性が高いコードは?",
+    "choices": ["d = {}; d[\"a\"] = 1", "d = {\"a\": 1}; d[\"a\"]", "d = {\"a\": 1}; d[\"b\"]", "d = {\"a\": 1}; d.get(\"b\")"],
+    "answer": 2,
+    "explain": "存在しないキーへの直接アクセスは KeyError。get(\"b\") は None を返し、例外にはなりません。"
+  },
+  {
+    "q": "from collections import Counter の Counter([\"a\", \"b\", \"a\"]) が返すものは?",
+    "choices": ["[\"a\", \"b\"]", "2", "{\"a\": 2, \"b\": 1}", "エラー"],
+    "answer": 2,
+    "explain": "Counter は要素の出現回数を数える辞書風オブジェクトで、最頻出の集計に便利です。"
+  }
+]

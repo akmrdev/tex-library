@@ -1,0 +1,369 @@
+\documentclass{article}
+\title{アルゴリズムとデータ構造 — 計算量の感覚をつくる}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{アルゴリズムとは — 「正しい」より「速い」}
+
+\textbf{アルゴリズム}は、問題を解く手順のことです。同じ問題にも手順は無数にあり、正しさは同じでも\textbf{所要時間が桁違い}に違うことがあります。この教科書の目標は、コードを書く前に「このやり方はデータが 100 万件になったら破綻するか?」と自問できる\textbf{計算量の感覚}を手に入れることです。
+
+\subsection{計算量(O 記法)}
+
+入力サイズ \(n\) に対して、基本操作が何回程度必要かを大まかに表すのが\textbf{O 記法}(ビッグオー)です。定数倍や細部を無視して\textbf{増加の傾向}だけを見ます。
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+\hline
+O 記法 & 名称 & \(n = 1{,}000\) での目安 & 例 \\
+\hline
+\(O(1)\) & 定数時間 & 1 回 & 辞書の参照 \\
+\(O(\log n)\) & 対数時間 & 約 10 回 & 二分探索 \\
+\(O(n)\) & 線形時間 & 1,000 回 & 全件スキャン \\
+\(O(n \log n)\) & 線形対数 & 約 10,000 回 & マージソート \\
+\(O(n^2)\) & 二乗時間 & 1,000,000 回 & 二重ループ \\
+\(O(2^n)\) & 指数時間 & 計算不能 & 全組合せの列挙 \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{quote}
+\textbf{【例】}\ \(O(n^2)\) のアルゴリズムで \(n\) を 10 倍にすると時間は 100 倍。1 秒だったものが 100 秒になります。一方 \(O(n \log n)\) なら 10 倍強。\textbf{計算量の違いは「少し速い/遅い」ではなく「動く/動かない」の違い}です。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ 次のコードの計算量を答えよ。
+\begin{lstlisting}[language=Python]
+total = 0
+for i in range(n):
+    for j in range(i, n):
+        total += 1
+\end{lstlisting}
+\end{quote}
+
+\textbf{解答の指針:}\ 実行回数は \(n + (n-1) + \cdots + 1 = \frac{n(n+1)}{2}\)。定数倍を無視して \(O(n^2)\)。内側の範囲が狭まっていても次数は変わらない、という感覚が大事です。
+
+\section{配列と連結リスト — 並べ方のトレードオフ}
+
+\subsection{配列}
+
+データを連続して並べる\textbf{配列}(Python の list の実体)は、次の性能特性をもちます。
+
+\begin{center}
+\begin{tabular}{|l|c|l|}
+\hline
+操作 & 計算量 & 備考 \\
+\hline
+添字アクセス & \(O(1)\) & 先頭位置から即座に計算できる \\
+末尾への追加 & \(O(1)\) & \\
+先頭・中間への挿入 & \(O(n)\) & 後ろをずらす必要がある \\
+値の検索 & \(O(n)\) & 全件見るしかない \\
+\hline
+\end{tabular}
+\end{center}
+
+「添字で引くのが速い、途中への挿入が苦手」という性格です。
+
+\subsection{連結リスト}
+
+各要素が「値 + 次の要素への参照」をもつ\textbf{連結リスト}は逆で、挿入・削除は\(O(1)\)(参照のつなぎ替えだけ)ですが、\(k\) 番目へのアクセスは先頭からたどるので \(O(n)\) です。
+
+\begin{quote}
+\textbf{【演習】}\ 「先頭への追加と末尾の参照がどちらも高速」なデータ構造を作りたい。配列と連結リストのどちらが向くか、理由とともに述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 連結リスト(先頭への挿入が \(O(1)\)、参照が \(O(n)\) は悩みどころだが、末尾参照専用のポインタを持てば解決)。この「両端で速い構造」の発想が次節のスタック・キュー、さらに双方向リスト・デックにつながります。
+
+\section{スタックとキュー — 追加と取り出しのルール}
+
+\begin{itemize}
+\item \textbf{スタック}: 後入れ先出し( LIFO )。皿の積み重ね。関数の呼び出し・「元に戻す」履歴の正体
+\item \textbf{キュー}: 先入れ先出し( FIFO )。待ち行列。タスク処理・幅優先探索の本体
+\end{itemize}
+
+\begin{lstlisting}[language=Python]
+# スタック(list の append / pop がそのまま使える)
+stack = []
+stack.append(1)
+stack.append(2)
+print(stack.pop())   # 2(最後に入れたもの)
+
+# キュー(from collections import deque)
+from collections import deque
+q = deque()
+q.append("a")
+q.append("b")
+print(q.popleft())   # "a"(最初に入れたもの)
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ 文字列が回文(前から読んでも後ろから読んでも同じ)かを、スタックの発想で判定する方法を述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 文字列を前半分スタックに積み、後ろから pop しながら比較。または単純に \texttt{s == s[::-1]}。構造の理解が目的なら積んで比較する手順を書いてみる。
+
+\section{探索 — 線形と二分}
+
+\subsection{線形探索と二分探索}
+
+\begin{lstlisting}[language=Python]
+# 線形探索: O(n)
+def linear_search(xs, target):
+    for i, x in enumerate(xs):
+        if x == target:
+            return i
+    return -1
+
+# 二分探索: O(log n) — ソート済みが前提
+def binary_search(xs, target):
+    lo, hi = 0, len(xs) - 1
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        if xs[mid] == target:
+            return mid
+        if xs[mid] < target:
+            lo = mid + 1     # 右半分を残す
+        else:
+            hi = mid - 1     # 左半分を捨てる
+    return -1
+\end{lstlisting}
+
+二分探索は\textbf{中央を見て半分を捨てる}手続きです。100 万件でも比較は 20 回程度(\(\log_2 10^6 \approx 20\))。\textbf{捨てる決断ができる = データが整列している}という前提が性能の源泉です。
+
+\begin{quote}
+\textbf{【演習】}\ 10 億件のソート済みデータから 1 件を二分探索するときの最大比較回数を求めよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \(\log_2 10^9 \approx 30\) 回。線形探索なら最大 10 億回。桁の違いは計算量の威力そのものです。
+
+\section{ソート — O(n log n) の理由}
+
+\subsection{単純ソートの限界}
+
+\textbf{選択ソート}は「最小値を探して先頭へ」を繰り返します。最小値探索が \(O(n)\)、それを \(n\) 回なので合計 \(O(n^2)\)。\textbf{挿入ソート}も同様に二重ループで \(O(n^2)\) です。小さい入力ではシンプルで速いこともありますが、規模に耐えません。
+
+\subsection{マージソート — 分割統治}
+
+\textbf{マージソート}は「半分に分けて、それぞれ整列し、併合する」再帰手続きです。
+
+\begin{lstlisting}[language=Python]
+def merge_sort(xs):
+    if len(xs) <= 1:
+        return xs
+    mid = len(xs) // 2
+    left = merge_sort(xs[:mid])    # 左半分を整列
+    right = merge_sort(xs[mid:])   # 右半分を整列
+    return merge(left, right)
+
+def merge(a, b):
+    out = []
+    while a and b:
+        out.append(a.pop(0) if a[0] <= b[0] else b.pop(0))
+    return out + a + b
+\end{lstlisting}
+
+計算量の解析:\textbf{分割の深さ}は \(n \to n/2 \to \cdots \to 1\) で \(\log_2 n\) 段、\textbf{各段の併合}は全体で \(O(n)\)。よって合計 \(O(n \log n)\)。\textbf{「分割統治」で指数が 1 つ落ちる}のがこの構造の核心です。
+
+\subsection{クイックソートとの比較}
+
+\textbf{クイックソート}は基準値(ピボット)より小さい/大きい組に分ける方法で、平均は \(O(n \log n)\)、\textbf{最悪}(ピボットが毎回最悪だと全く分かれない)は \(O(n^2)\) です。実装が単純で定数倍が速いため実用では人気ですが、「最悪でも保証」が必要ならマージソートやヒープソートを選びます。
+
+\begin{quote}
+\textbf{【演習】}\ 既にほぼ整列済みのデータに対して、素朴なクイックソート(常に先頭をピボットにする)の動作がどうなるか述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 分割が「0 個と \(n-1\) 個」にしか分かれず、再帰が \(n\) 段に達して \(O(n^2)\)。ピボットをランダム/中央値選択にする改良がある理由です。
+
+\section{ハッシュテーブル — 辞書の正体}
+
+Python の \texttt{dict}、JavaScript の \texttt{Map} が検索も挿入も平均 \(O(1)\) でできる理由が\textbf{ハッシュテーブル}です。
+
+仕組み:キーを\textbf{ハッシュ関数}で数値に変換し、その値を格納場所の番号に使います。「探す」のではなく「置く場所を計算する」ので、要素数によらずほぼ一定時間でアクセスできます。
+
+\begin{lstlisting}[language=Python]
+# 「出現回数を数える」— ハッシュテーブルの定番パターン
+def count_words(text):
+    counts = {}
+    for word in text.split():
+        counts[word] = counts.get(word, 0) + 1
+    return counts
+
+print(count_words("a b a c b a"))   # {'a': 3, 'b': 2, 'c': 1}
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【注意】}\ キーが衝突(同じ場所に複数入る)すると平均性能が落ち、\textbf{最悪}は \(O(n)\) になります。また順序は(実装によっては)保持されません。「順序が必要なら配列、即時参照が必要なら辞書」という使い分けの根拠です。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ 2 つのリストの共通要素を求める処理を「二重ループ」と「集合(set)」で書き、計算量を比較せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 二重ループは \(O(nm)\)。集合は片方を set にして (\(O(n)\))、もう片方で確認 (\(O(m)\)) で合計 \(O(n+m)\)。1 万件 × 1 万件では 1 億回と 2 万回の差です。
+
+\section{木構造と二分探索木}
+
+\textbf{木}は、1 つの親から複数の子へ枝分かれする構造です。ファイルシステム、HTML の DOM、組織図などが木です。
+
+\textbf{二分探索木}( BST )は「左の子 < 親 < 右の子」の規則で値を配置した木です。この規則のおかげで、検索が二分探索と同じ \(O(\log n)\) でできます(木が平均的な高さのとき)。
+
+\begin{lstlisting}[language=Python]
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+    def insert(self, value):
+        if value < self.value:
+            if self.left is None:
+                self.left = Node(value)
+            else:
+                self.left.insert(value)
+        else:
+            if self.right is None:
+                self.right = Node(value)
+            else:
+                self.right.insert(value)
+
+    def contains(self, value):
+        if value == self.value:
+            return True
+        if value < self.value:
+            return self.left.contains(value) if self.left else False
+        return self.right.contains(value) if self.right else False
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【注意】}\ ソート済みのデータを順に insert すると、木は一本の線(右だけ連鎖)になり検索は \(O(n)\) に劣化します。実用の平衡木(赤黒木など)は自動でバランスを保ちます。データベースのインデックス(『SQL・データベース入門』第 8 節)の実体もこの種の木です。
+\end{quote}
+
+\section{グラフ — 関係をたどる BFS と DFS}
+
+\textbf{グラフ}は点(頂点)と線(辺)で関係を表す構造で、SNS の友達関係、路線図、Web のリンクなどが例です。
+
+\begin{lstlisting}[language=Python]
+# 隣接辞書でグラフを表す
+graph = {
+    "A": ["B", "C"],
+    "B": ["A", "D"],
+    "C": ["A", "D"],
+    "D": ["B", "C", "E"],
+    "E": ["D"],
+}
+
+# 幅優先探索 (BFS): キューで「近い順」にたどる — 最短経路に使える
+from collections import deque
+
+def bfs(start, goal):
+    dist = {start: 0}
+    q = deque([start])
+    while q:
+        v = q.popleft()
+        if v == goal:
+            return dist[v]
+        for w in graph[v]:
+            if w not in dist:
+                dist[w] = dist[v] + 1
+                q.append(w)
+    return -1
+
+print(bfs("A", "E"))   # 3 (A->B->D->E など)
+
+# 深さ優先探索 (DFS): スタック(再帰)で「一本道を掘る」
+def dfs(v, goal, visited=None):
+    visited = visited or set()
+    if v == goal:
+        return True
+    visited.add(v)
+    return any(dfs(w, goal, visited) for w in graph[v] if w not in visited)
+\end{lstlisting}
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+\hline
+ & データ構造 & たどり方 & 代表的な用途 \\
+\hline
+BFS & キュー & 近い順 & 最短経路・距離 \\
+DFS & スタック/再帰 & 一本道 & 連結判定・全列挙 \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{quote}
+\textbf{【演習】}\ 迷路の最短経路を求めるのに BFS が適する理由を、「距離の性質」と結び付けて説明せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ BFS はスタートからの距離の小さい順に頂点を訪れるため、ゴールに最初に到達した経路が必ず最短(辺の重みがすべて同じ場合)。DFS は深い経路を先に試すので最初に見つかる経路は最短とは限りません。
+
+\section{動的計画法入門 — 重複を忘れる}
+
+\subsection{素朴な再帰の悲劇}
+
+フィボナッチ数列 \(F(n) = F(n-1) + F(n-2)\) を素朴な再帰で書くと、同じ値を何度も再計算し、計算量は \(O(2^n)\) に爆発します(\(F(40)\) で数秒〜)。
+
+\begin{lstlisting}[language=Python]
+# メモ化: 一度計算したら記録して再利用
+from functools import lru_cache
+
+@lru_cache(maxsize=None)
+def fib(n):
+    if n <= 1:
+        return n
+    return fib(n - 1) + fib(n - 2)
+
+print(fib(100))   # 即座に 354224848179261915075
+\end{lstlisting}
+
+記録により各 \(n\) の計算は 1 回だけになり、計算量は \(O(n)\) に落ちます。\textbf{重複する部分問題を 1 回だけ解く}——これが\textbf{動的計画法}( DP )の核心です。
+
+\subsection{部分和問題への応用}
+
+\begin{quote}
+\textbf{【例】}\ \texttt{nums = [2, 4, 7, 9]} の中からいくつか選んで合計を 13 にできるか。\textbf{到達できる合計値}の集合を順に広げます:
+\end{quote}
+
+\begin{lstlisting}[language=Python]
+def subset_sum(nums, target):
+    reachable = {0}
+    for x in nums:
+        reachable |= {s + x for s in reachable if s + x <= target}
+    return target in reachable
+
+print(subset_sum([2, 4, 7, 9], 13))   # True (4 + 9)
+\end{lstlisting}
+
+到達可能な合計の集合を更新していくこの手続きも DP です。全組合せ \(2^n\) 通りを列挙せず、\textbf{状態(合計値)の重複をまとめて}処理しています。
+
+\begin{quote}
+\textbf{【演習】}\ 階段を 1 段か 2 段ずつ登るとき、\(n\) 段の登り方が何通りあるか求める関数を DP で書け(ヒント: \(n\) 段目への到達方法は \(n-1\) 段目と \(n-2\) 段目から)。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{dp[0]=1, dp[1]=1, dp[i]=dp[i-1]+dp[i-2]} でループ。実はフィボナッチ数そのものです。
+
+\section{おわりに — 計算量を見る目}
+
+この教科書を通じて身につけた感覚を整理します。
+
+\begin{enumerate}
+\item \textbf{まず計算量}: コードを書く前に、ループの重なりから \(O\) を見積もる(第 1 節)
+\item \textbf{構造の性格を知る}: 配列は速い参照・遅い挿入、連結リストは逆(第 2 節)。順序の規則がスタック/キューを生む(第 3 節)
+\item \textbf{整列と分割統治}: ソート済みは二分探索で \(O(\log n)\)、分割統治でソート自体も \(O(n \log n)\)(第 4・5 節)
+\item \textbf{位置の計算で定数時間}: ハッシュテーブル(第 6 節)
+\item \textbf{関係と再利用}: グラフの探索(第 8 節)、重複問題のメモ化(第 9 節)
+\end{enumerate}
+
+プログラミング試験で問われるのは、暗記ではなくこの\textbf{見積もりと選択}です。Python 入門・SQL 入門(本図書館の他の教科書)と組み合わせて、実際にコードを書きながら確かめてください。
+
+\begin{quote}
+\textbf{【総合演習】}
+\begin{enumerate}
+\item 次のそれぞれの計算量を答えよ:(a) ソート済み配列の二分探索 (b) 長さ \(n\) の文字列の逆順との比較による回文判定 (c) 1000 件の辞書からの 1 件検索
+\item 「名前→電話番号」対応を、毎回線形探索するリストからハッシュテーブルに置き換えた。10 万件で検索時間が何分の 1 程度になるか、計算量から見積もれ。
+\item BFS と DFS のどちらを選ぶべきかを決める基準を 1 文で述べよ。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:}\ 1. (a) \(O(\log n)\) (b) \(O(n)\) (c) \(O(1)\)。2. 線形 \(O(n) = 10^5\) 回 → ハッシュ \(O(1)\)。定数に変わるので「何分の 1」ではなく桁で速くなる。3. 最短距離が要るなら BFS、存在確認や全列挙・バックトラックなら DFS。
+
+\end{document}

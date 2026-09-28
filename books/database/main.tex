@@ -1,0 +1,270 @@
+\documentclass{article}
+\title{SQL・データベース入門 — 表から学ぶデータの設計}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{データベースとは — 表で考える世界}
+
+\textbf{リレーショナルデータベース}( RDB )は、データを\textbf{表(テーブル)}の集まりとして管理する仕組みです。行(レコード)が 1 件のデータ、列(カラム)がその属性に対応します。Excel に似ていますが、次の点が決定的に違います。
+
+\begin{itemize}
+\item \textbf{大量のデータ}を高速に検索・集計できる
+\item \textbf{複数の表を関連づけて}扱える(リレーション)
+\item \textbf{同時書き込みの整合性}を保つ(トランザクション、第 6 節)
+\item \textbf{型と制約}で不正なデータの混入を防げる
+\end{itemize}
+
+データベースに指示を出す言語が \textbf{SQL} です。この教科書では無償で手軽な \textbf{SQLite} を前提にします。インストール不要で、macOS なら \texttt{sqlite3} コマンドが最初から入っています。
+
+\begin{lstlisting}[language=SQL]
+-- この教科書で使うサンプル(2 テーブル)
+-- users: ユーザー            orders: 注文
+-- id | name | age            id | user_id | item    | amount
+-- 1  | Alice | 31            1  | 1       | coffee  | 420
+-- 2  | Bob   | 25            2  | 1       | book    | 1500
+-- 3  | Carol | 37            3  | 2       | pen     | 180
+\end{lstlisting}
+
+\texttt{orders.user\_id} が \texttt{users.id} を指しているのがポイントです。この「他の表の主キーを参照する列」を\textbf{外部キー}と呼び、2 つの表をつなぐ鍵になります。
+
+\section{はじめての SELECT — 検索の基本形}
+
+\subsection{SELECT と WHERE}
+
+\begin{lstlisting}[language=SQL]
+SELECT * FROM users;                  -- 全列・全行
+SELECT name, age FROM users;          -- 列を選ぶ
+SELECT * FROM users WHERE age >= 30;  -- 行を絞る
+SELECT * FROM orders WHERE amount >= 1000 AND item <> 'pen';
+SELECT * FROM users ORDER BY age DESC;      -- 並べ替え(降順)
+SELECT * FROM orders LIMIT 3;               -- 先頭 3 行だけ
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ 注文テーブルから、金額が 500 以上 2000 以下の注文を「金額の安い順」で取得せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{SELECT * FROM orders WHERE amount BETWEEN 500 AND 2000 ORDER BY amount;}
+
+\subsection{パターンマッチと NULL}
+
+\begin{lstlisting}[language=SQL]
+SELECT * FROM users WHERE name LIKE 'A%';   -- A で始まる
+SELECT * FROM users WHERE name LIKE '%o%';  -- 途中に o を含む
+SELECT * FROM users WHERE age IS NULL;      -- NULL は = では比較できない
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【注意】}\ NULL は「値が未知」を表す特別な存在で、\texttt{= NULL} という比較は常に成立しません。\texttt{IS NULL} / \texttt{IS NOT NULL} を使います。初心者の定番バグです。
+\end{quote}
+
+\section{集計 — GROUP BY と集計関数}
+
+\begin{lstlisting}[language=SQL]
+SELECT COUNT(*) FROM orders;                    -- 行数
+SELECT SUM(amount), AVG(amount) FROM orders;    -- 合計と平均
+SELECT MIN(amount), MAX(amount) FROM orders;
+
+-- 商品ごとの注文数と合計金額
+SELECT item, COUNT(*), SUM(amount)
+FROM orders
+GROUP BY item;
+
+-- 集計結果に条件をつける(HAVING)
+SELECT item, SUM(amount) AS total
+FROM orders
+GROUP BY item
+HAVING SUM(amount) >= 1000;
+\end{lstlisting}
+
+句の評価順序を押さえると理解が速くなります:\textbf{FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT}。\texttt{WHERE} は集計\textbf{前}の行の条件、\texttt{HAVING} は集計\textbf{後}のグループの条件、という使い分けはこの順序から自然に導けます。
+
+\begin{quote}
+\textbf{【演習】}\ ユーザーごとの注文回数を「多い順」に取得せよ(ただし 2 回以上注文したユーザーのみ)。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{SELECT user\_id, COUNT(*) AS cnt FROM orders GROUP BY user\_id HAVING COUNT(*) >= 2 ORDER BY cnt DESC;}
+
+\section{テーブルの結合 — JOIN}
+
+\subsection{内部結合(INNER JOIN)}
+
+注文データには「誰の注文か」が \texttt{user\_id} としてだけ入っています。名前を表示するには \texttt{users} と結合します。
+
+\begin{lstlisting}[language=SQL]
+SELECT u.name, o.item, o.amount
+FROM orders o
+JOIN users u ON o.user_id = u.id;
+\end{lstlisting}
+
+\subsection{外部結合(LEFT JOIN)}
+
+「一度も注文していないユーザー」も一覧に出したい——内部結合では消えてしまう行を、左側のテーブルを基準にすべて残すのが \texttt{LEFT JOIN} です。一致しない部分は NULL で埋まります。
+
+\begin{lstlisting}[language=SQL]
+-- 注文がないユーザーを探す(左結合 + NULL 判定の定番パターン)
+SELECT u.name
+FROM users u
+LEFT JOIN orders o ON o.user_id = u.id
+WHERE o.id IS NULL;
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ ユーザー名ごとの合計購入金額を、注文が無いユーザーも 0 円として一覧せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{SELECT u.name, COALESCE(SUM(o.amount), 0) AS total FROM users u LEFT JOIN orders o ON o.user\_id = u.id GROUP BY u.id, u.name;} — \texttt{COALESCE} は NULL を別の値に置き換える関数です。
+
+\section{副問い合わせと CTE}
+
+\subsection{副問い合わせ(サブクエリ)}
+
+\begin{lstlisting}[language=SQL]
+-- 平均金額より高い注文を探す
+SELECT * FROM orders
+WHERE amount > (SELECT AVG(amount) FROM orders);
+
+-- 高額商品を買ったユーザー
+SELECT * FROM users
+WHERE id IN (SELECT user_id FROM orders WHERE amount >= 1500);
+\end{lstlisting}
+
+\subsection{CTE(WITH 句)で読みやすく}
+
+複雑なクエリは\textbf{共通テーブル式}( CTE )に名前を付けると読みやすくなります。
+
+\begin{lstlisting}[language=SQL]
+WITH big_orders AS (
+  SELECT * FROM orders WHERE amount >= 1500
+)
+SELECT u.name, COUNT(*) AS n
+FROM big_orders b
+JOIN users u ON u.id = b.user_id
+GROUP BY u.id;
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ 「平均注文金額を上回る注文をしたことがあるユーザー」の名前を CTE を使って取得せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{WITH avg\_o AS (SELECT AVG(amount) AS a FROM orders) SELECT DISTINCT u.name FROM orders o JOIN users u ON u.id = o.user\_id, avg\_o WHERE o.amount > (SELECT a FROM avg\_o);}
+
+\section{変更操作とトランザクション}
+
+\subsection{INSERT・UPDATE・DELETE}
+
+\begin{lstlisting}[language=SQL]
+INSERT INTO users (id, name, age) VALUES (4, 'Dave', 28);
+UPDATE users SET age = 29 WHERE name = 'Dave';
+DELETE FROM orders WHERE amount = 0;
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【注意:最重要】}\ \texttt{UPDATE} / \texttt{DELETE} で \texttt{WHERE} を書き忘れると\textbf{全行}が対象になります。実務では先に同じ \texttt{WHERE} で \texttt{SELECT} して対象行を確認し、その後に変更する——この手順を習慣にしてください。
+\end{quote}
+
+\subsection{トランザクション}
+
+複数の変更を\textbf{ひとまとまり}として扱う仕組みがトランザクションです。送金(「A から 100 減らす」「B に 100 増やす」)を考えれば必須性が分かります。片方だけ成功するとお金が消えます。
+
+\begin{lstlisting}[language=SQL]
+BEGIN;                             -- トランザクション開始
+UPDATE accounts SET balance = balance - 100 WHERE id = 1;
+UPDATE accounts SET balance = balance + 100 WHERE id = 2;
+COMMIT;                            -- まとめて確定(失敗時は ROLLBACK)
+\end{lstlisting}
+
+トランザクションの品質基準は\textbf{ACID 特性}と呼ばれます。
+
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+特性 & 意味 & 保証するもの \\
+\hline
+原子性 (Atomicity) & 全て実行 or 全く実行しない & 途中状態の不在 \\
+一貫性 (Consistency) & 制約を常に満たす & データの正しさ \\
+分離性 (Isolation) & 同時実行が互いに干渉しない & 並行処理の安全 \\
+永続性 (Durability) & 確定後は消えない & 障害耐性 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{テーブル設計と正規化}
+
+良いテーブル設計は、アプリケーションの寿命を決めます。\textbf{正規化}は「同じ事実を 1 箇所にしか書かない」ための整理手順です。
+
+\subsection{悪い設計の例}
+
+\begin{lstlisting}[language=SQL]
+-- 1 つの表に全部詰め込んだ失敗例
+-- orders_bad: id | user_name | items | total
+-- 1 | Alice      | coffee,book | 1920
+\end{lstlisting}
+
+この設計の問題点:
+\begin{itemize}
+\item \texttt{items} にカンマ区切りで複数商品(集計・検索が地獄になる)
+\item ユーザー名を注文のたびに繰り返し書く(改名したら全行書き替え)
+\item \texttt{total} を手計算で持つ(矛盾が生まれる)
+\end{itemize}
+
+\subsection{正規化のステップ}
+
+\begin{enumerate}
+\item \textbf{第 1 正規形(1NF)}: 1 セル 1 値。繰り返し・カンマ区切りをなくす
+\item \textbf{第 2 正規形(2NF)}: 主キーの一部だけで決まる列を分離する(複合主キーの場合)
+\item \textbf{第 3 正規形(3NF)}: 主キー以外に依存する列(推移依存)を分離する
+\end{enumerate}
+
+先の悪い例は、1NF 違反(\texttt{items})と 3NF 違反(\texttt{user\_name} は \texttt{user\_id} から決まる)を修正し、\texttt{users} / \texttt{orders} / \texttt{order\_items} の 3 表に分けるのが正解の形です。
+
+\begin{quote}
+\textbf{【注意】}\ 正規化しすぎると JOIN が増えて読みにくくなります。分析用の集計テーブルをわざと非正規化で持つ(データウェアハウスの定石)など、\textbf{正規化は原則、非正規化は意図的例外}が健全な姿勢です。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ 「注文テーブルに顧客の郵便番号と市区町村を直接持たせる設計」のどこが 3NF 違反か、またどう直すか述べよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 住所情報は顧客(\texttt{user\_id})から決まる列で、注文の主キーに依存していない(推移依存)。顧客テーブルに住所を持たせ、注文からは削除する。
+
+\section{インデックスと性能}
+
+\begin{lstlisting}[language=SQL]
+CREATE INDEX idx_orders_user ON orders(user_id);
+EXPLAIN QUERY PLAN SELECT * FROM orders WHERE user_id = 1;
+\end{lstlisting}
+
+インデックスは「本の索引」のように、特定の列の値から行を即座に引ける補助構造(木構造)です。\texttt{WHERE}・\texttt{JOIN} で使う列に張ると、全行スキャン(時間は行数に比例)が索引参照(ほぼ一定)に変わります。
+
+\begin{itemize}
+\item \textbf{張る場所}: 検索・結合・ソートでよく使う列
+\item \textbf{代償}: 書き込み(INSERT/UPDATE/DELETE)がわずかに遅くなる、容量を消費する
+\item \textbf{効かない例}: \texttt{LIKE '\%o\%'} のような前方一致なし検索、関数で列を加工した比較(\texttt{WHERE UPPER(name) = ...} など)は索引を使えないことが多い
+\end{itemize}
+
+\begin{quote}
+\textbf{【演習】}\ 「\texttt{orders} に \texttt{item} 列で検索するクエリが多い。インデックスを張るべきか判断せよ」という問いについて、確認すべき観点を 2 つ挙げよ。
+\end{quote}
+
+\textbf{解答の指針:}\ (1) 検索の頻度とテーブルの行数(数千行なら全スキャンでも十分速い)、(2) 書き込みの頻度(注文登録が圧倒的に多いテーブルではインデックスの追加コストも無視できない)。性能改善は計測(\texttt{EXPLAIN})してから、が原則。
+
+\section{おわりに — データと向き合う}
+
+この教科書の流れを振り返ります。SELECT で検索し(第 2 節)、GROUP BY で要約し(第 3 節)、JOIN で表をつなぎ(第 4 節)、複雑な問いを CTE で整理し(第 5 節)、変更はトランザクションで安全に(第 6 節)、そして設計は正規化で(第 7 節)、性能はインデックスで(第 8 節)支える——データを扱う仕事の 8 割はこの範囲で完結します。
+
+次の一歩として、SQLite(または PostgreSQL)を手元に用意して、自分の何か(家計・読書記録・学習ログ)を実際にテーブル設計して入れてみるのが最短の上達路です。
+
+\begin{quote}
+\textbf{【総合演習】}
+\begin{enumerate}
+\item \texttt{users} と \texttt{orders} から「Bob の注文金額の合計」を 1 クエリで取得せよ。
+\item 注文のないユーザーの名前を LEFT JOIN で取得せよ。
+\item 「ユーザーごとの注文回数と合計金額を、合計金額の降順で」取得せよ(注文 0 回のユーザーを含む)。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:}\ 1. \texttt{SELECT SUM(o.amount) FROM orders o JOIN users u ON u.id = o.user\_id WHERE u.name = 'Bob';}\ 2. 第 4 節のパターン。\ 3. \texttt{SELECT u.name, COUNT(o.id) AS cnt, COALESCE(SUM(o.amount), 0) AS total FROM users u LEFT JOIN orders o ON o.user\_id = u.id GROUP BY u.id ORDER BY total DESC;}(COUNT に \texttt{o.id} を使うと NULL は数えない点がポイント)
+
+\end{document}

@@ -1,0 +1,10 @@
+{
+  "slug": "database",
+  "title": "SQL・データベース入門 — 表から学ぶデータの設計",
+  "short": "SQL・DB",
+  "desc": "SELECT から JOIN、集計、トランザクション、正規化、インデックスまで。実行して確かめられる SQLite 向けの入門書。",
+  "icon": "🗄️",
+  "hue": 350,
+  "category": "プログラミング",
+  "tags": ["SQL", "設計", "SQLite"]
+}

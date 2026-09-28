@@ -125,7 +125,8 @@ function texForPdf(tex, slug) {
 \\IfFontExistsTF{Noto Sans CJK JP}{\\setCJKsansfont{Noto Sans CJK JP}}{\\setCJKsansfont{Hiragino Sans}}
 \\lstdefinelanguage{TypeScript}{sensitive=true,morekeywords={function,const,let,type,interface,class,return,if,else,async,await,new,private,public,protected,readonly,extends,implements,constructor,throw,while,for,of,in,import,from,export,switch,case,break,number,string,boolean,void,never,unknown,Promise,Record},morecomment=[l]{//},morecomment=[s]{/*}{*/},morestring=[b]'}
 \\lstdefinelanguage{JavaScript}{sensitive=true,morekeywords={function,return,const},morecomment=[l]{//},morestring=[b]'}
-\\lstdefinelanguage{Python}{sensitive=true,morekeywords={def,return,import,from,for,in,if,else,elif,print,len,range,sum,float,int,round,lambda,with,open,as,mean,statistics},morecomment=[l]{\\#},morestring=[b]',morestring=[b]"}
+\\lstdefinelanguage{Python}{sensitive=true,morekeywords={def,return,import,from,for,in,if,else,elif,print,len,range,sum,float,int,round,lambda,with,open,as,mean,statistics,class,self,None,True,False,and,or,not,try,except,while,break,continue,raise,pass,yield},morecomment=[l]{\\#},morestring=[b]',morestring=[b]"}
+\\lstdefinelanguage{SQL}{sensitive=false,morekeywords={SELECT,FROM,WHERE,GROUP,BY,ORDER,JOIN,LEFT,INNER,OUTER,ON,AS,AND,OR,NOT,NULL,IN,BETWEEN,LIKE,DISTINCT,LIMIT,HAVING,COUNT,SUM,AVG,MIN,MAX,INSERT,INTO,VALUES,UPDATE,SET,DELETE,CREATE,TABLE,INDEX,PRIMARY,KEY,FOREIGN,REFERENCES,ALTER,DROP,WITH,UNION,ALL,CASE,WHEN,THEN,ELSE,END,EXISTS,CHECK,DEFAULT},morecomment=[l]{--},morestring=[b]',morestring=[b]"}
 \\lstset{basicstyle=\\ttfamily\\footnotesize,breaklines=true,frame=single,backgroundcolor=\\color{gray!8},columns=fullflexible}
 \\setlength{\\parskip}{0.4em}
 `;
@@ -196,6 +197,9 @@ function buildBook(dir, wantPdf) {
     sections.push({ id: "quiz", title: "確認テスト", subs: [], num: sections.length + 1 });
   }
 
+  // フラッシュカード用の単語データ(src/data がある本のみ)
+  const hasFlashcards = existsSync(join(BOOKS_DIR, dir, "src", "data"));
+
   // 横断検索用に生本文から節ごとのプレーンテキストを抽出
   const rawParts = rawBody.split(/(?=<h1\b)/).filter((p) => /<h1[^>]*\bid=/.test(p));
   const sectionsText = rawParts.map((p) => stripTags(p).replace(/\\\(|\\\)|\\\[|\\\]/g, " ").replace(/\s+/g, " ").trim());
@@ -215,9 +219,11 @@ function buildBook(dir, wantPdf) {
   const content = htmlParts.join("\n");
   const toc = sections.map(({ id, title, subs, num }) => ({ id, title, subs: subs.map(({ id: sid, title: st, num: sn }) => ({ id: sid, title: st, num: sn })), num }));
 
-  const html = readerTemplate({ meta, toc, content, hasPdf, quiz });
+  const html = readerTemplate({ meta, toc, content, hasPdf, quiz, hasFlashcards });
   writeFileSync(join(outDir, "index.html"), html);
   console.log(`built book: ${slug} (${sections.length} sections, ${(html.length / 1024).toFixed(0)} KB)`);
+
+  if (hasFlashcards) buildFlashcards(dir, slug, meta);
   return {
     slug, title: meta.title, short: meta.short, desc: meta.desc,
     icon: meta.icon, hue: meta.hue, category: meta.category,
@@ -228,7 +234,114 @@ function buildBook(dir, wantPdf) {
   };
 }
 
-// ---------- テンプレート ----------
+// ---------- フラッシュカード ----------
+
+function buildFlashcards(dir, slug, meta) {
+  const dataDir = join(BOOKS_DIR, dir, "src", "data");
+  const decks = [];
+  for (const stage of readdirSync(dataDir).sort()) {
+    const wordsDir = join(dataDir, stage, "words");
+    if (!existsSync(wordsDir)) continue;
+    for (const f of readdirSync(wordsDir).sort()) {
+      if (!f.endsWith(".json")) continue;
+      const deck = JSON.parse(readFileSync(join(wordsDir, f), "utf8"));
+      const fallbackName = f.replace(/\.json$/, "").replace(/^[a-z]+-/, "").replace(/-/g, " ");
+      decks.push({
+        id: `${stage}-${f.replace(/\.json$/, "")}`,
+        name: deck.meta?.description ?? fallbackName,
+        words: (deck.words ?? []).map((w) => ({
+          id: w.id ?? `${stage}-${f}-${w.en}`,
+          en: w.en, ja: w.ja, ex_en: w.ex_en ?? "", ex_ja: w.ex_ja ?? "",
+        })),
+      });
+    }
+  }
+  const total = decks.reduce((n, d) => n + d.words.length, 0);
+  const outDir = join(DIST, "book", slug, "cards");
+  mkdirSync(outDir, { recursive: true });
+  writeFileSync(join(outDir, "decks.json"), JSON.stringify(decks));
+  writeFileSync(
+    join(outDir, "index.html"),
+    cardsTemplate({ meta, decks: decks.length, total }),
+  );
+  console.log(`built flashcards: ${slug} (${decks.length} decks, ${total} words)`);
+}
+
+function cardsTemplate({ meta, decks, total }) {
+  return `<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>単語カード — ${esc(meta.title)}</title>
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/app.css">
+<style>
+body.cards-page { background: var(--bg); min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 24px 16px 48px; font-family: var(--sans); }
+.cards-head { width: 100%; max-width: 720px; display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.cards-head a { color: var(--ink-soft); text-decoration: none; font-size: .85rem; }
+.cards-head h1 { font-size: 1.2rem; margin: 0; flex: 1; }
+#deck-chips { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; max-width: 720px; margin-bottom: 16px; }
+.deck-chip { border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 999px; padding: 5px 13px; font-size: .78rem; cursor: pointer; font-family: inherit; }
+.deck-chip.active { background: hsl(45, 70%, 50%); border-color: hsl(45, 70%, 50%); color: #1a2233; font-weight: 600; }
+#card-area { width: 100%; max-width: 720px; }
+#progress-line { display: flex; justify-content: space-between; font-size: .8rem; color: var(--ink-soft); margin-bottom: 8px; }
+#deck-bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; margin-bottom: 20px; }
+#deck-bar div { height: 100%; width: 0; background: hsl(45, 70%, 50%); transition: width .25s; }
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: 40px 24px; text-align: center; cursor: pointer; user-select: none; min-height: 220px; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+.card .en { font-size: 2rem; font-weight: 700; letter-spacing: .02em; }
+.card .ja { font-size: 1.15rem; color: var(--ink); }
+.card .ex { font-size: .88rem; color: var(--ink-soft); line-height: 1.6; }
+.card .hint { font-size: .74rem; color: var(--ink-soft); }
+.card-actions { display: flex; gap: 10px; margin-top: 16px; }
+.card-actions button { flex: 1; border-radius: 12px; padding: 12px 0; font-size: .95rem; font-family: inherit; cursor: pointer; border: 1px solid var(--line); background: var(--paper); color: var(--ink); }
+#btn-again { border-color: hsl(0, 55%, 55%); color: hsl(0, 60%, 45%); }
+#btn-mid { border-color: hsl(40, 80%, 50%); color: hsl(35, 70%, 38%); }
+#btn-ok { border-color: hsl(150, 55%, 42%); color: hsl(150, 55%, 32%); }
+.card-actions button:disabled { opacity: .4; cursor: default; }
+#filter-line { display: flex; gap: 8px; justify-content: center; margin-top: 18px; font-size: .8rem; }
+#filter-line button { border: 1px solid var(--line); background: var(--paper); color: var(--ink-soft); border-radius: 999px; padding: 4px 14px; cursor: pointer; font-family: inherit; }
+#filter-line button.active { color: var(--ink); border-color: var(--ink-soft); }
+#tts-note { margin-top: 12px; font-size: .72rem; color: var(--ink-soft); }
+#done-msg { display: none; width: 100%; max-width: 720px; text-align: center; padding: 60px 0; }
+#done-msg .big { font-size: 2rem; margin-bottom: 8px; }
+</style>
+</head>
+<body class="cards-page">
+<div class="cards-head">
+  <a href="/book/${esc(meta.slug)}/">← ${esc(meta.title)}</a>
+  <h1>🎴 単語カード(全${total}語)</h1>
+</div>
+<div id="deck-chips"></div>
+<div id="card-area">
+  <div id="progress-line"><span id="pos-text"></span><span id="ok-text"></span></div>
+  <div id="deck-bar"><div></div></div>
+  <div class="card" id="card">
+    <div class="en" id="card-en"></div>
+    <div class="ja" id="card-ja"></div>
+    <div class="ex" id="card-ex"></div>
+    <div class="hint">カードをタップして答えを表示</div>
+  </div>
+  <div class="card-actions">
+    <button id="btn-again">😅 わからない</button>
+    <button id="btn-mid">🤔 迷った</button>
+    <button id="btn-ok">✅ わかる</button>
+  </div>
+  <div id="filter-line">
+    <button data-filter="all">すべて</button>
+    <button data-filter="new" class="active">未学習</button>
+    <button data-filter="again">要復習</button>
+    <button id="btn-shuffle">シャッフル</button>
+    <button id="btn-tts">🔊 発音 ON/OFF</button>
+  </div>
+  <div id="tts-note">単語はカード表示時に自動で読み上げます(発音 ON 時)</div>
+</div>
+<div id="done-msg"><div class="big">🎉</div><div id="done-text"></div></div>
+<script src="/assets/flashcards.js"></script>
+</body>
+</html>`;
+}
+
 
 function esc(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -255,8 +368,9 @@ function prefsToolbar() {
 </div>`;
 }
 
-function readerTemplate({ meta, toc, content, hasPdf, quiz }) {
+function readerTemplate({ meta, toc, content, hasPdf, quiz, hasFlashcards }) {
   const pdfLink = hasPdf ? `<a class="pdf-link" href="book.pdf" download>⬇️ PDF 版</a>` : "";
+  const cardsLink = hasFlashcards ? `<a class="pdf-link" href="cards/">🎴 単語カード</a>` : "";
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -268,6 +382,7 @@ ${baseHead(`${meta.title} — TeX 図書館`, meta.desc)}
   <a class="toc-back" href="/">📚 TeX 図書館</a>
   <h2 class="toc-book"><span class="toc-icon">${meta.icon}</span>${esc(meta.title)}</h2>
   ${pdfLink}
+  ${cardsLink}
   <nav id="toc-nav"></nav>
   <div class="toc-progress"><div class="toc-progress-bar"><div id="toc-progress-fill"></div></div><span id="toc-progress-text"></span></div>
 </aside>

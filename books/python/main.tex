@@ -1,0 +1,335 @@
+\documentclass{article}
+\title{Python 入門 — データ分析への第一歩}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{この教科書のために — Python と開発環境}
+
+Python は「読みやすさ」を最優先に設計された言語で、データ分析・自動化・Web 開発・AI と、使われる分野が非常に広いです。この教科書では、文法の基本から標準ライブラリの使い方までを、\textbf{手元で実行しながら}学びます。本図書館の『統計学入門』の実習(データ集計)と直結する構成にしてあります。
+
+\subsection{環境を用意する}
+
+\begin{enumerate}
+\item \texttt{python.org} から Python 3 をインストールする(macOS なら \texttt{brew install python})
+\item 対話シェル(REPL)で試す: ターミナルで \texttt{python3} と入力すると、1 行ごとに実行して結果を返してくれる
+\item ファイルで実行する: \texttt{hello.py} を作り \texttt{python3 hello.py}
+\end{enumerate}
+
+\begin{lstlisting}[language=Python]
+# hello.py — Python の第一歩
+print("Hello, Python!")
+print(1 + 2 * 3)        # 演算子の優先順位は数学と同じ -> 7
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【補足】}\ プロジェクトごとにライブラリを分ける \texttt{venv}(仮想環境)は、分析を始める前に作る習慣をつけると後で楽になります:\texttt{python3 -m venv .venv} → 有効化は \texttt{source .venv/bin/activate}。
+\end{quote}
+
+\section{値と変数 — プログラムの材料}
+
+\subsection{基本の型}
+
+Python の値には型があります。よく使うのは次の 4 つです。
+
+\begin{lstlisting}[language=Python]
+n = 42            # int(整数)
+x = 3.14          # float(小数)
+s = "こんにちは"    # str(文字列)
+ok = True         # bool(真偽値: True / False)
+
+print(type(s))    # <class 'str'>
+\end{lstlisting}
+
+変数宣言に型を書かない(\textbf{動的型付け})のが Python の特徴です。ただし人間の読みやすさのために、コメントや型ヒントで意図を残すのが良い書き方です。
+
+\subsection{文字列の操作}
+
+文字列は分析の前処理(データの掃除)で頻出の操作対象です。
+
+\begin{lstlisting}[language=Python]
+name = "python"
+print(name.upper())       # PYTHON
+print(len(name))          # 6
+print("私の名前は" + name)   # 連結
+print(f"長さは {len(name)} 文字")  # f-string(埋め込み)が現代の標準
+print("csv,data,row".split(","))   # ['csv', 'data', 'row']
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ 変数 \texttt{price = 1980} を使って「合計は 1,980 円です」と f-string で表示せよ。ヒント: \texttt{f"{price:,}"} で 3 桁区切りになる。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{print(f"合計は {price:,} 円です")}。
+
+\section{データ構造 — リスト・タプル・辞書・集合}
+
+複数の値をまとめる型が 4 つあり、使い分けが Python 力の核になります。
+
+\begin{lstlisting}[language=Python]
+scores = [70, 85, 90]         # list: 順序あり・変更可(最頻出)
+point = (3, 4)                # tuple: 順序あり・変更不可
+ages = {"alice": 31, "bob": 25}  # dict: キーで引く辞書
+ids = {1, 2, 3}               # set: 重複なしの集合
+\end{lstlisting}
+
+\subsection{リスト}
+
+\begin{lstlisting}[language=Python]
+scores.append(78)      # 末尾に追加
+scores[0]              # 先頭(添字は 0 から)
+scores[-1]             # 末尾
+scores[1:3]            # スライス(1番目〜2番目)
+len(scores)            # 要素数
+sum(scores) / len(scores)   # 平均 — 分析の基本形
+\end{lstlisting}
+
+\subsection{辞書}
+
+\begin{lstlisting}[language=Python]
+user = {"name": "Alice", "age": 31}
+print(user["name"])        # Alice
+user["city"] = "Tokyo"     # 追加・更新
+print(user.get("email"))   # None(無いキーもエラーにならない)
+for key, value in user.items():
+    print(key, value)
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ 次の得点リストから、90 以上の値だけを集めたリストを作れ。
+\texttt{scores = [55, 92, 78, 90, 61, 100]}
+\end{quote}
+
+\textbf{解答の指針:}\ ループでも書けますが、内包表記なら 1 行です:
+\texttt{[s for s in scores if s >= 90]} → \texttt{[92, 90, 100]}。
+
+\section{制御構文 — 条件分岐と繰り返し}
+
+\subsection{if 文とインデント}
+
+Python は波括弧のかわりに\textbf{インデント}でブロックを表します(4 スペースが標準)。
+
+\begin{lstlisting}[language=Python]
+score = 78
+if score >= 90:
+    print("優")
+elif score >= 70:
+    print("良")
+else:
+    print("がんばろう")
+\end{lstlisting}
+
+\subsection{for と while}
+
+\begin{lstlisting}[language=Python]
+for name in ["alice", "bob", "carol"]:
+    print(f"こんにちは {name} さん")
+
+for i in range(5):        # 0,1,2,3,4
+    print(i)
+
+total = 0
+n = 1
+while total < 100:        # 条件が満たされる間ループ
+    total += n
+    n += 1
+\end{lstlisting}
+
+\subsection{内包表記}
+
+リストを作る繰り返しは\textbf{内包表記}にまとめると読みやすく速いです。
+
+\begin{lstlisting}[language=Python]
+squares = [x * x for x in range(1, 6)]     # [1, 4, 9, 16, 25]
+evens = [x for x in range(10) if x % 2 == 0]
+lengths = {name: len(name) for name in ["alice", "bob"]}
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ 1 から 100 までの 3 の倍数の合計を、内包表記 + \texttt{sum()} で 1 行で求めよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{sum(x for x in range(1, 101) if x \% 3 == 0)} → 1683。
+
+\section{関数 — 処理に名前をつける}
+
+\begin{lstlisting}[language=Python]
+def mean(values):
+    """平均を返す(ドキュメント文字列)。"""
+    return sum(values) / len(values)
+
+def describe(values):
+    """平均と標準偏差をまとめて返す。"""
+    m = mean(values)
+    var = sum((v - m) ** 2 for v in values) / len(values)
+    return m, var ** 0.5       # タプルで複数の値を返せる
+
+m, sd = describe([2, 4, 4, 4, 5, 5, 7, 9])
+print(m, sd)    # 5.0 2.0
+\end{lstlisting}
+
+ポイントは 3 つです。
+
+\begin{enumerate}
+\item \textbf{引数にデフォルト値}を持たせられる: \texttt{def f(x, times=1)}
+\item 戻り値は複数返せる(タプルとしてアンパック)
+\item 関数の外で定義された名前は外側から見えるが、内側で作った変数は\textbf{ローカル}(スコープ)
+\end{enumerate}
+
+\begin{quote}
+\textbf{【演習】}\ 「点数のリスト」と「合格点」を受け取り、合格者数と合格率(\%)を返す関数 \texttt{pass\_rate(scores, threshold)} を書け。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{passed = [s for s in scores if s >= threshold]} を作り、\texttt{return len(passed), 100 * len(passed) / len(scores)}。
+
+\section{モジュールと標準ライブラリ}
+
+\texttt{import} で他のモジュールの機能を使えます。標準ライブラリだけでかなり遠くまで行けます。
+
+\begin{lstlisting}[language=Python]
+import statistics, random
+from collections import Counter
+
+data = [random.randint(1, 6) for _ in range(1000)]  # サイコロ 1000 回
+
+print(statistics.mean(data))       # 平均(約 3.5 に近づく)
+print(statistics.stdev(data))      # 標準偏差
+print(Counter(data).most_common(2))  # 出現回数の多い順に 2 件
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ 上のコードを実行し、回数を 100000 に増やすと \texttt{mean} がどう変わるか確かめ、『統計学入門』の大数の法則と結び付けて説明せよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 試行回数が増えるほど標本平均が母平均 3.5 に近づく。大数の法則の直接の観察です。
+
+\section{ファイルと例外処理}
+
+\subsection{ファイルの読み書き}
+
+\begin{lstlisting}[language=Python]
+# 書き込み
+with open("scores.txt", "w") as f:
+    f.write("55\n92\n78\n")
+
+# 読み込み(with 文はブロックを抜けると自動で close する)
+with open("scores.txt") as f:
+    lines = f.read().splitlines()
+
+scores = [int(line) for line in lines]
+print(statistics.mean(scores))
+\end{lstlisting}
+
+\subsection{例外処理}
+
+\begin{lstlisting}[language=Python]
+def safe_div(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return None      # 0 除算は例外的な値で扱う
+    finally:
+        pass             # 成功・例外のどちらでも必ず通る後処理
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【演習】}\ \texttt{"abc"} が混ざった行があるリストを \texttt{int()} で変換するとき、変換できない行だけスキップするコードを \texttt{try / except ValueError} で書け。
+\end{quote}
+
+\textbf{解答の指針:}\ ループ内で \texttt{try: total += int(line) except ValueError: continue}。
+
+\section{クラスとオブジェクト}
+
+データと、それに対する操作をひとまとめにするのがクラスです。
+
+\begin{lstlisting}[language=Python]
+class ScoreBook:
+    def __init__(self):
+        self.scores = []          # 初期化(self = 自分自身)
+
+    def add(self, score):
+        if 0 <= score <= 100:
+            self.scores.append(score)
+
+    def mean(self):
+        if not self.scores:
+            return None
+        return sum(self.scores) / len(self.scores)
+
+book = ScoreBook()
+book.add(80)
+book.add(90)
+book.add(120)      # 範囲外なので無視される
+print(book.mean()) # 85.0
+\end{lstlisting}
+
+\begin{quote}
+\textbf{【補足】}\ 「データだけのまとめ」には \texttt{dataclass} が便利です:\texttt{@dataclass} を付けたクラスは \texttt{\_\_init\_\_} を自動生成します。分析コードでは「辞書か dataclass か」の選択が読みやすさを左右します。
+\end{quote}
+
+\section{データ分析の第一歩 — 実データを集計する}
+
+学んだ部品を組み合わせて、小さな分析を通しで行います。売上データ(CSV の各行が「日付,商品,金額」)を集計します。
+
+\begin{lstlisting}[language=Python]
+from collections import defaultdict
+import statistics
+
+raw = """2026-01-10,coffee,420
+2026-01-10,book,1500
+2026-01-11,coffee,420
+2026-01-11,pen,180
+2026-01-12,book,1500"""
+
+sales = []
+for line in raw.splitlines():
+    date, item, amount = line.split(",")
+    sales.append({"date": date, "item": item, "amount": int(amount)})
+
+# 商品別の合計金額
+totals = defaultdict(int)
+for row in sales:
+    totals[row["item"]] += row["amount"]
+print(dict(totals))    # {'coffee': 840, 'book': 3000, 'pen': 180}
+
+# 金額の要約統計量
+amounts = [row["amount"] for row in sales]
+print("平均:", statistics.mean(amounts))
+print("中央値:", statistics.median(amounts))
+print("標準偏差:", statistics.stdev(amounts))
+\end{lstlisting}
+
+この「読み込む → 構造化する → 集計する → 要約する」の流れは、pandas などの本格的な分析ライブラリでも同じです。\textbf{標準ライブラリで書けるうちに流れを体で覚える}ことが、後の学習速度を決めます。
+
+\begin{quote}
+\textbf{【演習】}\ 上のデータに「2026-01-12,coffee,420」を 1 行追加し、日付別の合計金額を辞書で求めよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \texttt{by\_date = defaultdict(int)} にして \texttt{by\_date[row["date"]] += row["amount"]}。結果は \texttt{\{'2026-01-10': 1920, '2026-01-11': 600, '2026-01-12': 1920\}}。
+
+\section{おわりに — 次の道具へ}
+
+この教科書で学んだ部品を振り返ります。値とデータ構造(リスト・辞書)、内包表記、関数、モジュール、ファイルと例外、クラス。そしてすべてを束ねた実データの集計です。
+
+次の一歩は次のどれかです。
+
+\begin{enumerate}
+\item \textbf{pandas}: 本格的な表データ処理。この教科書の \texttt{defaultdict} 集計が 1 行になる
+\item \textbf{matplotlib}: データの可視化(ヒストグラム・散布図)
+\item \textbf{自動化}: ファイルの一括処理・スクレイピングなど「手作業の置き換え」
+\end{enumerate}
+
+どの道でも、この教科書の内容は下地になります。
+
+\begin{quote}
+\textbf{【総合演習】}
+\begin{enumerate}
+\item \texttt{[1, 2, 3, 4]} の各要素を 2 乗したリストを内包表記で作れ。
+\item 辞書 \texttt{\{"a": 1, "b": 2\}} の値の合計を \texttt{sum()} で求めよ。
+\item 例外処理を使い、ユーザーに入力を促して数値になるまで繰り返す関数を書け。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:}\ 1. \texttt{[x ** 2 for x in [1, 2, 3, 4]]}。2. \texttt{sum({"a": 1, "b": 2}.values())}。3. \texttt{while True} で \texttt{input()} を受け、\texttt{int(s)} が成功したら return、\texttt{ValueError} なら再入力を促す。
+
+\end{document}
