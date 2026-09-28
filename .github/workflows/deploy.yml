@@ -40,9 +40,11 @@ jobs:
             aarch64) PANDOC_ARCH=arm64 ;;
             *) echo "unsupported arch: $(uname -m)" >&2; exit 1 ;;
           esac
+          TMP=$(mktemp -d)
           curl -fsSL "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-linux-${PANDOC_ARCH}.tar.gz" \
-            | sudo tar xz --strip-components=1 -C /usr/local/bin pandoc
-          sudo chmod +x /usr/local/bin/pandoc
+            | tar xz -C "${TMP}"
+          sudo install -m 755 "${TMP}/bin/pandoc" /usr/local/bin/pandoc
+          rm -rf "${TMP}"
           pandoc --version | head -1
 
       - name: ビルド
