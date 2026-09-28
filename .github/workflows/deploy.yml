@@ -32,7 +32,12 @@ jobs:
           sudo mv tectonic /usr/local/bin/
           tectonic --version
 
-      - name: ビルド(pandoc は runner にプリインストール済み)
+      - name: pandoc をインストール
+        run: |
+          sudo apt-get install -y pandoc
+          pandoc --version
+
+      - name: ビルド
         run: node build.mjs --pdf
 
       - name: JS 構文チェック
