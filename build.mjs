@@ -41,7 +41,7 @@ function runPandoc(texPath, format) {
 function prerenderMath(body) {
   const decode = (s) => s
     .replace(/&lt;/g, "<").replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"').replace(/&#x27;/g, "'")
+    .replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'")
     .replace(/&amp;/g, "&");
   const render = (tex, displayMode) => {
     try {
