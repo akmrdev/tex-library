@@ -32,10 +32,12 @@ jobs:
           sudo mv tectonic /usr/local/bin/
           tectonic --version
 
-      - name: pandoc をインストール
+      - name: pandoc 3.x をインストール
         run: |
-          sudo apt-get install -y pandoc
-          pandoc --version
+          curl -sL https://github.com/jgm/pandoc/releases/download/3.1.11/pandoc-3.1.11-arm64.tar.gz \
+            | sudo tar xz --strip-components=1 -C /usr/local/bin pandoc
+          sudo chmod +x /usr/local/bin/pandoc
+          pandoc --version | head -1
 
       - name: ビルド
         run: node build.mjs --pdf
