@@ -43,7 +43,7 @@ jobs:
           TMP=$(mktemp -d)
           curl -fsSL "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-linux-${PANDOC_ARCH}.tar.gz" \
             | tar xz -C "${TMP}"
-          sudo install -m 755 "${TMP}/bin/pandoc" /usr/local/bin/pandoc
+          sudo install -m 755 "${TMP}/pandoc-${PANDOC_VERSION}/bin/pandoc" /usr/local/bin/pandoc
           rm -rf "${TMP}"
           pandoc --version | head -1
 
