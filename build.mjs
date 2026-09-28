@@ -288,17 +288,26 @@ body.cards-page { background: var(--bg); min-height: 100vh; display: flex; flex-
 #progress-line { display: flex; justify-content: space-between; font-size: .8rem; color: var(--ink-soft); margin-bottom: 8px; }
 #deck-bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; margin-bottom: 20px; }
 #deck-bar div { height: 100%; width: 0; background: hsl(45, 70%, 50%); transition: width .25s; }
-.card { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: 40px 24px; text-align: center; cursor: pointer; user-select: none; min-height: 220px; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
-.card .en { font-size: 2rem; font-weight: 700; letter-spacing: .02em; }
-.card .ja { font-size: 1.15rem; color: var(--ink); }
-.card .ex { font-size: .88rem; color: var(--ink-soft); line-height: 1.6; }
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: 36px 24px 24px; text-align: center; cursor: pointer; user-select: none; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+.card .en { font-size: 2.2rem; font-weight: 700; letter-spacing: .02em; }
 .card .hint { font-size: .74rem; color: var(--ink-soft); }
-.card-actions { display: flex; gap: 10px; margin-top: 16px; }
-.card-actions button { flex: 1; border-radius: 12px; padding: 12px 0; font-size: .95rem; font-family: inherit; cursor: pointer; border: 1px solid var(--line); background: var(--paper); color: var(--ink); }
-#btn-again { border-color: hsl(0, 55%, 55%); color: hsl(0, 60%, 45%); }
-#btn-mid { border-color: hsl(40, 80%, 50%); color: hsl(35, 70%, 38%); }
-#btn-ok { border-color: hsl(150, 55%, 42%); color: hsl(150, 55%, 32%); }
-.card-actions button:disabled { opacity: .4; cursor: default; }
+#choices { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+#choices button {
+  border: 1px solid var(--line); background: var(--paper); color: var(--ink);
+  border-radius: 12px; padding: 14px 12px; font-size: .95rem; font-family: inherit; cursor: pointer;
+  transition: background .12s, border-color .12s; text-align: center; line-height: 1.5;
+}
+#choices button:hover:not(:disabled) { border-color: hsl(45, 70%, 45%); background: hsl(45, 80%, 95%); }
+html[data-theme="dark"] #choices button:hover:not(:disabled) { background: hsl(45, 40%, 20%); }
+#choices button:disabled { cursor: default; opacity: .8; }
+#choices button.correct { border-color: hsl(150, 55%, 42%); background: hsla(150, 55%, 42%, .15); font-weight: 600; opacity: 1; }
+#choices button.wrong { border-color: hsl(0, 55%, 50%); background: hsla(0, 55%, 50%, .12); opacity: 1; }
+#judge-msg { text-align: center; font-size: .9rem; margin-top: 12px; min-height: 1.4em; }
+#judge-msg .ex { display: block; font-size: .8rem; color: var(--ink-soft); margin-top: 4px; line-height: 1.6; }
+#judge-msg.good { color: hsl(150, 55%, 32%); }
+html[data-theme="dark"] #judge-msg.good { color: hsl(150, 55%, 55%); }
+#judge-msg.bad { color: hsl(0, 60%, 45%); }
+html[data-theme="dark"] #judge-msg.bad { color: hsl(0, 70%, 65%); }
 #filter-line { display: flex; gap: 8px; justify-content: center; margin-top: 18px; font-size: .8rem; }
 #filter-line button { border: 1px solid var(--line); background: var(--paper); color: var(--ink-soft); border-radius: 999px; padding: 4px 14px; cursor: pointer; font-family: inherit; }
 #filter-line button.active { color: var(--ink); border-color: var(--ink-soft); }
@@ -318,15 +327,10 @@ body.cards-page { background: var(--bg); min-height: 100vh; display: flex; flex-
   <div id="deck-bar"><div></div></div>
   <div class="card" id="card">
     <div class="en" id="card-en"></div>
-    <div class="ja" id="card-ja"></div>
-    <div class="ex" id="card-ex"></div>
-    <div class="hint">カードをタップして答えを表示</div>
+    <div class="hint">正しい意味を選んでください(タップで再読み上げ)</div>
   </div>
-  <div class="card-actions">
-    <button id="btn-again">😅 わからない</button>
-    <button id="btn-mid">🤔 迷った</button>
-    <button id="btn-ok">✅ わかる</button>
-  </div>
+  <div id="choices"></div>
+  <div id="judge-msg"></div>
   <div id="filter-line">
     <button data-filter="all">すべて</button>
     <button data-filter="new" class="active">未学習</button>
