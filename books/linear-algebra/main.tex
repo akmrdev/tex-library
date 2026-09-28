@@ -1,0 +1,436 @@
+\documentclass{article}
+\title{大学数学入門 — 線形代数と解析の基礎}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{この教科書のために — 数学的思考の準備}
+
+数学を学ぶとは、公式を暗記することではなく、\textbf{考え方の型}を手に入れることです。この教科書では、大学初年度に学ぶ線形代数と解析学(微積分)の中心的な考え方を、定義・定理・例を重ねながら学びます。
+
+\subsection{集合と論理}
+
+数学の言葉は「集合」と「論理」でできています。集合とは、ある条件を満たす対象を集めたものです。たとえば自然数の集合は
+\[ \mathbb{N} = \{1, 2, 3, \dots\} \]
+と書きます。\(x\) が集合 \(A\) に属するとき \(x \in A\)、含まれないとき \(x \notin A\) と書きます。
+
+2つの集合 \(A\), \(B\) に対して、「\(A\) のすべての元が \(B\) にも属する」とき、\(A\) は \(B\) の\textbf{部分集合}であるといい、\(A \subset B\) と書きます。
+
+\begin{quote}
+\textbf{【補足】}\ 「すべての \(x\) について \(P(x)\) が成り立つ」ことを全称命題といい \(\forall x,\ P(x)\)、「\(P(x)\) を満たす \(x\) が存在する」ことを存在命題といい \(\exists x,\ P(x)\) と書きます。証明で最もよく使う考え方が、\textbf{命題 \(P \Rightarrow Q\) の対偶 \(\lnot Q \Rightarrow \lnot P\) はもとの命題と同値}という事実です。
+\end{quote}
+
+\subsection{実数の連続性}
+
+実数 \(\mathbb{R}\) を特徴づける性質は\textbf{連続性}( completeness )です。直感的には「数直線に穴がない」ということです。これを厳密に述べる一つの方法が次の性質です。
+
+\begin{quote}
+\textbf{【定義:上界と上限】}\ 集合 \(A \subset \mathbb{R}\) に対して、\(A\) のすべての元 \(x\) が \(x \le M\) を満たす実数 \(M\) を \(A\) の\textbf{上界}という。\(A\) の上界のうち最小のものを\textbf{上限}( supremum )といい \(\sup A\) と書く。
+\end{quote}
+
+\[ \text{(実数の連続性)} \quad \mathbb{R}\text{ の空でない有界な部分集合は必ず上限をもつ} \]
+
+この一見地味な性質が、極限の存在・積分の定義・級数の理論など、解析学のすべての土台になります。
+
+\subsection{写像}
+
+集合 \(X\) の各元に集合 \(Y\) の元を一つずつ対応させる規則を\textbf{写像} \(f : X \to Y\) といいます。\(f\) が
+\begin{itemize}
+\item 異なる元に異なる値を対応させるとき\textbf{単射}
+\item \(Y\) のすべての元が \(f\) による像になっているとき\textbf{全射}
+\end{itemize}
+であるといいます。単射かつ全射な写像を\textbf{全単射}と呼び、このとき逆写像 \(f^{-1} : Y \to X\) が定まります。「逆が書ける」という概念が、後で学ぶ逆行列や逆関数定理の原形です。
+
+\begin{quote}
+\textbf{【演習】}\ \(f(x) = 2x + 1\) は \(\mathbb{R}\) から \(\mathbb{R}\) への全単射であることを示し、\(f^{-1}(y)\) を求めよ。
+\end{quote}
+
+\textbf{解答の指針:} \(f(x_1) = f(x_2) \Rightarrow x_1 = x_2\) で単射、\(y = 2x+1\) は \(x = (y-1)/2\) で解けるので全射。\(f^{-1}(y) = (y-1)/2\)。
+
+\section{ベクトルと空間}
+
+\subsection{ベクトルとは}
+
+大きさと向きをもつ量を\textbf{ベクトル}といい、実数の組
+\[ \boldsymbol{a} = \begin{pmatrix} a_1 \\ a_2 \\ \vdots \\ a_n \end{pmatrix} \]
+として表します。\(a_i\) を\textbf{成分}といいます。成分表示されたベクトルは、原点から点 \((a_1, \dots, a_n)\) への矢印と見なせます。
+
+ベクトルの和とスカラー倍は成分ごとに定義されます:
+\[ \boldsymbol{a} + \boldsymbol{b} = \begin{pmatrix} a_1 + b_1 \\ a_2 + b_2 \end{pmatrix}, \qquad c\,\boldsymbol{a} = \begin{pmatrix} c a_1 \\ c a_2 \end{pmatrix} \]
+
+\subsection{内積}
+
+ベクトルの間の最も重要な演算が\textbf{内積}です。\(n\) 次元の実ベクトル \(\boldsymbol{a}, \boldsymbol{b}\) に対して
+\[ \boldsymbol{a} \cdot \boldsymbol{b} = \boldsymbol{a}^{\top} \boldsymbol{b} = a_1 b_1 + a_2 b_2 + \cdots + a_n b_n \]
+と定義します。内積は「どれだけ同じ向きか」を測る量で、次の等式が幾何的な意味を与えます。
+
+\begin{quote}
+\textbf{【定理:内積と角度】}\ \(\boldsymbol{a} \neq \boldsymbol{0}\), \(\boldsymbol{b} \neq \boldsymbol{0}\) のなす角を \(\theta\) とすると
+\[ \cos\theta = \frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\|\boldsymbol{a}\|\, \|\boldsymbol{b}\|} \]
+が成り立つ。ここで \(\|\boldsymbol{a}\| = \sqrt{\boldsymbol{a} \cdot \boldsymbol{a}}\) はベクトルの大きさ(ノルム)。
+\end{quote}
+
+特に \(\boldsymbol{a} \cdot \boldsymbol{b} = 0\) のとき、2つのベクトルは\textbf{直交}するといいます。直交は「独立した情報をもつ」ことの幾何学的表現で、データ分析や機械学習でも中心的な役割を果たします。
+
+\subsection{線形結合と張る空間}
+
+ベクトル \(\boldsymbol{a}_1, \dots, \boldsymbol{a}_k\) とスカラー \(c_1, \dots, c_k\) に対する
+\[ c_1 \boldsymbol{a}_1 + c_2 \boldsymbol{a}_2 + \cdots + c_k \boldsymbol{a}_k \]
+を\textbf{線形結合}といいます。すべての線形結合で作れるベクトルの集合を\textbf{張る空間}といい
+\[ \mathrm{span}(\boldsymbol{a}_1, \dots, \boldsymbol{a}_k) = \{ c_1 \boldsymbol{a}_1 + \cdots + c_k \boldsymbol{a}_k \mid c_i \in \mathbb{R} \} \]
+と書きます。
+
+\begin{quote}
+\textbf{【例】}\ \(\boldsymbol{a}_1 = \begin{pmatrix} 1 \\ 0 \end{pmatrix}\), \(\boldsymbol{a}_2 = \begin{pmatrix} 0 \\ 1 \end{pmatrix}\) の張る空間は \(\mathbb{R}^2\) 全体。しかし \(\boldsymbol{a}_3 = \begin{pmatrix} 2 \\ 3 \end{pmatrix}\) を加えても張る空間は広がりません。\(\boldsymbol{a}_3 = 2\boldsymbol{a}_1 + 3\boldsymbol{a}_2\) と書けるからです。
+\end{quote}
+
+ベクトルの組が、お互いを線形結合で表せない(つまり余分なものを含まない)とき\textbf{線形独立}、そうでないとき\textbf{線形従属}といいます。空間の「大きさ」を測る\textbf{次元}とは、線形独立なベクトルの最大個数です。
+
+\begin{quote}
+\textbf{【演習】}\ 次のベクトルの組は線形独立か?
+\[ \boldsymbol{a}_1 = \begin{pmatrix} 1 \\ 2 \\ 1 \end{pmatrix}, \quad \boldsymbol{a}_2 = \begin{pmatrix} 0 \\ 1 \\ 3 \end{pmatrix}, \quad \boldsymbol{a}_3 = \begin{pmatrix} 1 \\ 1 \\ -2 \end{pmatrix} \]
+\end{quote}
+
+\textbf{解答の指針:} \(c_1 \boldsymbol{a}_1 + c_2 \boldsymbol{a}_2 + c_3 \boldsymbol{a}_3 = \boldsymbol{0}\) を成分ごとに立てると、第1式から \(c_1 + c_3 = 0\)、第2式から \(2c_1 + c_2 = 0\)、第3式から \(c_1 + 3c_2 - 2c_3 = 0\)。これを解くと \(c_1 = c_2 = c_3 = 0\) のみとなり、線形独立。
+
+\section{行列と連立一次方程式}
+
+\subsection{行列}
+
+実数を長方形の表に並べたものを\textbf{行列}といい、\(m\) 行 \(n\) 列の行列を
+\[ A = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & & & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} \]
+と書きます。行列は\textbf{線形写像}の表現です。\(A\) にベクトル \(\boldsymbol{x}\) を掛けることは、「\(\boldsymbol{x}\) を別のベクトル \(A\boldsymbol{x}\) へ移す変換」を意味します。
+
+行列の積 \(AB\) は「変換 \(B\) をしてから変換 \(A\) をする」合成を表し、積の順序が重要です。一般に \(AB \neq BA\) です。
+
+\subsection{連立一次方程式}
+
+\(n\) 元の連立一次方程式は行列の形にまとめられます:
+\[ A\boldsymbol{x} = \boldsymbol{b} \]
+これを解く基本操作は次の3つ(\textbf{掃き出し法}の柱)です。
+\begin{enumerate}
+\item ある式を定数倍する
+\item ある式の定数倍を別の式に加える
+\item 式の順序を入れ替える
+\end{enumerate}
+
+\begin{quote}
+\textbf{【例】}\ 次の連立方程式を解こう。
+\[ \begin{cases} x + 2y + z = 3 \\ 2x + 5y - z = -4 \\ 3x - 2y - z = 5 \end{cases} \]
+第1式を2倍して第2式から引くと \(y - 3z = -10\)。第1式を3倍して第3式から引くと \(-8y - 4z = -4\)。これらを解いて \(y = -1, z = 3\)、第1式に代入して \(x = 2\)。
+\end{quote}
+
+解の構造は次のように整理されます:
+\begin{itemize}
+\item 解が1つだけ存在(\textbf{一意解}): 逆行列 \(A^{-1}\) が存在するとき、\(\boldsymbol{x} = A^{-1}\boldsymbol{b}\)
+\item 解が無数にある: \(\mathrm{rank}(A) = \mathrm{rank}([A \mid \boldsymbol{b}]) < n\) のとき
+\item 解が存在しない: \(\mathrm{rank}(A) < \mathrm{rank}([A \mid \boldsymbol{b}])\) のとき
+\end{itemize}
+
+ここで \(\mathrm{rank}\) は\textbf{階数}、つまり行列が張る空間の次元です。
+
+\begin{quote}
+\textbf{【演習】}\ 次の連立方程式は解をもつか。もつならすべて求めよ。
+\[ \begin{cases} x + y + z = 2 \\ 2x + 2y + 2z = 4 \\ x - y + z = 0 \end{cases} \]
+\end{quote}
+
+\textbf{解答の指針:} 第2式は第1式の2倍なので実質2本の式。3元に対して独立な式が2本なので解は無数に存在。\(z = t\) とおくと \(x = 1 - t,\ y = 1\)、つまり \((x, y, z) = (1 - t,\ 1,\ t)\)。
+
+\section{行列式と逆行列}
+
+\subsection{行列式}
+
+正方行列 \(A\) に対して一つのスカラー値を対応させる操作が\textbf{行列式} \(\det A\) です。\(2 \times 2\) の場合
+\[ \det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc \]
+\(3 \times 3\) 以上は、任意の行(または列)についての展開で帰納的に計算します:
+\[ \det A = \sum_{j=1}^{n} (-1)^{i+j} a_{ij} \det A_{ij} \]
+ここで \(A_{ij}\) は \(A\) から第 \(i\) 行と第 \(j\) 列を取り除いた小行列です。
+
+行列式の幾何的意味は\textbf{体積(面積)の拡大率}です。\(2 \times 2\) 行列 \(A\) は平面上の図形を \(|\det A|\) 倍の面積に拡大します。符号は向きが反転したかどうかを表します。
+
+\begin{quote}
+\textbf{【定理:行列式の性質】}
+\begin{enumerate}
+\item \(\det(AB) = \det A \cdot \det B\)(積の行列式は積)
+\item \(\det A = 0 \iff\) \(A\) は正則でない(逆行列をもたない)
+\item 行(列)を入れ替えると符号が変わる
+\item ある行の定数倍を別の行に加えても行列式は不変
+\end{enumerate}
+\end{quote}
+
+\subsection{逆行列}
+
+正方行列 \(A\) に対して \(AA^{-1} = A^{-1}A = I\) となる行列 \(A^{-1}\) を\textbf{逆行列}といいます。\(I\) は単位行列です。逆行列の存在条件は \(\det A \neq 0\) であり、このとき \(A\) を\textbf{正則}であるといいます。
+
+\begin{quote}
+\textbf{【例】}\ \(A = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix}\) の逆行列を求める。\(\det A = 6 - 5 = 1 \neq 0\) なので正則。
+\[ A^{-1} = \frac{1}{\det A} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix} = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix} \]
+\end{quote}
+
+逆行列の存在は「変換が情報を失わない」ことと同値です。\(\det A = 0\) のとき、\(A\) は空間をつぶして低次元に落とすので、元に戻せません。
+
+\begin{quote}
+\textbf{【演習】}\ \(A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}\) は正則か。また方程式 \(A\boldsymbol{x} = \begin{pmatrix} 3 \\ 6 \end{pmatrix}\) の解をすべて求めよ。
+\end{quote}
+
+\textbf{解答の指針:} \(\det A = 4 - 4 = 0\) で正則でない。しかし \(\begin{pmatrix} 3 \\ 6 \end{pmatrix} = 3 \begin{pmatrix} 1 \\ 2 \end{pmatrix}\) なので解は存在し、\(x + 2y = 3\) を満たすすべての \((x, y) = (3 - 2t,\ t)\)。
+
+\section{固有値と固有ベクトル}
+
+\subsection{固有値問題}
+
+正方行列 \(A\) に対して
+\[ A\boldsymbol{v} = \lambda \boldsymbol{v} \quad (\boldsymbol{v} \neq \boldsymbol{0}) \]
+を満たすスカラー \(\lambda\) を\textbf{固有値}、ゼロでないベクトル \(\boldsymbol{v}\) を\textbf{固有ベクトル}といいます。固有ベクトルは「\(A\) による変換で向きが変わらない特別な方向」です。
+
+\((A - \lambda I)\boldsymbol{v} = \boldsymbol{0}\) にゼロでない解があるためには、\(\det(A - \lambda I) = 0\) が必要で十分です。この方程式を\textbf{固有方程式}(特性方程式)と呼びます。
+
+\begin{quote}
+\textbf{【例】}\ \(A = \begin{pmatrix} 3 & 1 \\ 0 & 2 \end{pmatrix}\) の固有値を求める。
+\[ \det(A - \lambda I) = \det \begin{pmatrix} 3 - \lambda & 1 \\ 0 & 2 - \lambda \end{pmatrix} = (3 - \lambda)(2 - \lambda) = 0 \]
+よって \(\lambda = 3, 2\)。\(\lambda = 3\) のとき \((A - 3I)\boldsymbol{v} = \boldsymbol{0}\) より \(v_2 = 0\) なので \(\boldsymbol{v} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}\)。同様に \(\lambda = 2\) に対して \(\boldsymbol{v} = \begin{pmatrix} -1 \\ 1 \end{pmatrix}\)。
+\end{quote}
+
+\subsection{対角化}
+
+\(A\) が \(n\) 個の線形独立な固有ベクトルをもつとき、\(A\) は\textbf{対角化}できます:
+\[ A = P D P^{-1}, \qquad D = \begin{pmatrix} \lambda_1 & & \\ & \ddots & \\ & & \lambda_n \end{pmatrix} \]
+ここで \(P\) の列に固有ベクトルを並べます。対角化の威力はべき乗計算に現れます:
+\[ A^k = P D^k P^{-1} \]
+対角行列のべき乗は成分ごとのべき乗なので簡単です。
+
+\begin{quote}
+\textbf{【応用:数列の漸化式】}\ \(\begin{pmatrix} u_{k+1} \\ v_{k+1} \end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} u_k \\ v_k \end{pmatrix}\) はフィボナッチ数列の生成と同じ形。この行列の固有値は \(\frac{1 \pm \sqrt{5}}{2}\)(黄金比!)で、フィボナッチ数の一般項 \(u_n = \frac{\phi^n - \psi^n}{\sqrt{5}}\) が得られる。ここで \(\phi = \frac{1+\sqrt{5}}{2}\)。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ \(A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}\) を対角化し、\(A^2\) の固有値の和を固有値から予測せよ。
+\end{quote}
+
+\textbf{解答の指針:} 固有方程式 \((4-\lambda)(3-\lambda) - 2 = 0\)、つまり \(\lambda^2 - 7\lambda + 10 = 0\) より \(\lambda = 2, 5\)。\(A^2\) の固有値は \(\lambda^2\) なので \(4, 25\)、和は \(29\)(これは \(\mathrm{tr}(A^2) = 16 + 9 + 2 \cdot 2 = 29\) とも一致する)。
+
+\section{微分の本質 — 変化率と極限}
+
+\subsection{極限と連続性}
+
+関数 \(f(x)\) が \(x = a\) で\textbf{極限値} \(L\) に収束するとき \(\lim_{x \to a} f(x) = L\) と書きます。厳密には「\(a\) に十分近い点では \(f(x)\) を \(L\) からいくらでも近くできる」という \(\varepsilon\)–\(\delta\) 論法で定義します:
+\[ \forall \varepsilon > 0,\ \exists \delta > 0 \text{ such that } 0 < |x - a| < \delta \Rightarrow |f(x) - L| < \varepsilon \]
+
+\begin{quote}
+\textbf{【例:重要極限】}\ \(\displaystyle \lim_{x \to 0} \frac{\sin x}{x} = 1\)。幾何的には、小さい角度では \(\sin x \approx x \approx \tan x\) が成り立つことに相当する。
+\end{quote}
+
+\subsection{導関数}
+
+関数 \(f\) の \(x = a\) における\textbf{微分係数}は瞬間の変化率です:
+\[ f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h} \]
+これを \(x\) の関数と見たものが\textbf{導関数} \(f'(x)\) です。微分可能性は連続性より強い条件で、微分可能なら連続ですが逆は成り立ちません(\(|x|\) の例)。
+
+主な公式(\(c\) は定数、\(u, v\) は \(x\) の関数):
+\[ (uv)' = u'v + uv', \qquad \left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}, \qquad (f(g(x)))' = f'(g(x))\, g'(x) \]
+
+\subsection{平均値の定理}
+
+\begin{quote}
+\textbf{【定理:平均値の定理】}\ \(f\) が閉区間 \([a, b]\) で連続、開区間 \((a, b)\) で微分可能なら、
+\[ \frac{f(b) - f(a)}{b - a} = f'(c) \]
+を満たす \(c \in (a, b)\) が存在する。
+\end{quote}
+
+これは「平均の変化率に等しい瞬間変化率がどこかで実現する」という意味で、不等式の証明や近似の理論に不可欠です。導関数が常に正なら関数は狭義単調増加、という基本的な事実もここから出ます。
+
+\begin{quote}
+\textbf{【演習】}\ \(f(x) = x^3 - 3x\) の増減と極値を求めよ。
+\end{quote}
+
+\textbf{解答の指針:} \(f'(x) = 3x^2 - 3 = 3(x-1)(x+1)\)。\(x = -1\) で極大値 \(2\)、\(x = 1\) で極小値 \(-2\)。
+
+\section{テイラー展開と近似}
+
+\subsection{多項式で関数を近似する}
+
+微分可能な関数 \(f(x)\) は、点 \(a\) のまわりで多項式で近似できます:
+\[ f(x) \approx f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x - a)^n \]
+右辺を \(n\) 次\textbf{テイラー多項式}といいます。\(a = 0\) の場合を特に\textbf{マクローリン展開}と呼びます。
+
+重要な展開(\(|x|\) が十分小さい範囲):
+\begin{align}
+e^x &= 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots \\
+\sin x &= x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots \\
+\cos x &= 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots \\
+\frac{1}{1-x} &= 1 + x + x^2 + x^3 + \cdots \quad (|x| < 1) \\
+\log(1+x) &= x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots \quad (-1 < x \le 1)
+\end{align}
+
+\begin{quote}
+\textbf{【例:平方根の近似】}\ \(\sqrt{1.1}\) を \(2\) 次まで近似する。\(\sqrt{1+x} \approx 1 + \frac{x}{2} - \frac{x^2}{8}\) より \(x = 0.1\) を代入して
+\[ \sqrt{1.1} \approx 1 + 0.05 - 0.00125 = 1.04875 \]
+実際の値は \(1.04880\cdots\) で、4桁一致。テイラー展開は計算機の内部でも実際に使われています。
+\end{quote}
+
+\subsection{剰余項}
+
+近似の誤差(\textbf{剰余項})は平均値の定理の一般化で評価できます:
+\[ f(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k + \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1} \]
+ただし \(c\) は \(a\) と \(x\) の間のどこか。誤差が \(x \to a\) で \((x-a)^{n+1}\) のオーダーで消えること、つまり近似の「精度の型」を読み取るのが解析学の肝です。
+
+\begin{quote}
+\textbf{【演習】}\ \(\cos 0.2\) をマクローリン展開の \(x^4\) 項まで使って近似し、剰余項で誤差を評価せよ。
+\end{quote}
+
+\textbf{解答の指針:} \(\cos x \approx 1 - x^2/2 + x^4/24\) より \(1 - 0.02 + 0.0000667 = 0.9800667\)。剰余項は \(\frac{\sin c}{120} x^5\) の形で \(|x^5/120| < 2.7 \times 10^{-7}\)。
+
+\section{積分の技法}
+
+\subsection{不定積分と定積分}
+
+微分の逆操作が\textbf{不定積分} \(F'(x) = f(x)\) なる \(F\) を求めること。区間 \([a, b]\) の\textbf{定積分}は
+\[ \int_a^b f(x)\, dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i)\, \Delta x \]
+つまり細長い長方形の面積和の極限として定義され、\textbf{微積分学の基本定理}
+\[ \int_a^b f(x)\, dx = F(b) - F(a) \]
+によって計算されます。
+
+\subsection{置換積分と部分積分}
+
+2つの基本技法を押さえます。
+
+\textbf{置換積分:} \(x = g(t)\) とおくと
+\[ \int f(g(t))\, g'(t)\, dt = \int f(x)\, dx \]
+
+\textbf{部分積分:} 積の微分公式を逆向きに使います。
+\[ \int u\, v'\, dx = uv - \int u'\, v\, dx \]
+
+\begin{quote}
+\textbf{【例】}\ \(\int x e^x\, dx\) を部分積分で計算する。\(u = x,\ v' = e^x\) とおくと \(u' = 1,\ v = e^x\) なので
+\[ \int x e^x\, dx = x e^x - \int e^x\, dx = (x - 1) e^x + C \]
+\end{quote}
+
+\subsection{広義積分}
+
+区間が無限に伸びる場合も極限として積分できます:
+\[ \int_1^{\infty} \frac{1}{x^2}\, dx = \lim_{b \to \infty} \left[ -\frac{1}{x} \right]_1^b = 1 \]
+一方 \(\int_1^\infty \frac{1}{x}\, dx\) は発散します。\(\frac{1}{x^p}\) の無限積分が \(p > 1\) で収束する事実は、統計学の期待値の存在条件など、応用分野で繰り返し現れます。
+
+\begin{quote}
+\textbf{【演習】}\ \(\int_0^1 x e^x\, dx\) を求めよ。
+\end{quote}
+
+\textbf{解答の指針:} 不定積分は \((x-1)e^x\)。定積分値は \([ (x-1)e^x ]_0^1 = 0 - (-1) = 1\)。
+
+\section{多変数関数の微分}
+
+\subsection{偏微分}
+
+2つ以上の変数をもつ関数 \(f(x, y)\) では、他の変数を固定して1つだけ微分する\textbf{偏微分}を考えます:
+\[ \frac{\partial f}{\partial x} = \lim_{h \to 0} \frac{f(x+h, y) - f(x, y)}{h} \]
+
+\begin{quote}
+\textbf{【例】}\ \(f(x, y) = x^2 y + \sin(xy)\) のとき
+\[ \frac{\partial f}{\partial x} = 2xy + y \cos(xy), \qquad \frac{\partial f}{\partial y} = x^2 + x \cos(xy) \]
+\end{quote}
+
+1変数の微分との決定的な違いは、\textbf{方向微分}を考えると見えてきます。任意の方向 \(\boldsymbol{u}\)(単位ベクトル)への変化率は、勾配ベクトル
+\[ \nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right) \]
+を使って \(D_{\boldsymbol{u}} f = \nabla f \cdot \boldsymbol{u}\) と書けます。つまり \(\nabla f\) は「最も急な上り方向」を指します。これは機械学習の\textbf{勾配降下法}の基礎です。
+
+\subsection{極値問題}
+
+\(f\) が点 \((a, b)\) で極値をとるなら \(\nabla f = \boldsymbol{0}\)(\textbf{停留条件})が必要です。2変数の場合の判定にはヘッセ行列を使います:
+\[ H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{xy} & f_{yy} \end{pmatrix}, \qquad D = f_{xx} f_{yy} - f_{xy}^2 \]
+\begin{itemize}
+\item \(D > 0\) かつ \(f_{xx} > 0\): 極小
+\item \(D > 0\) かつ \(f_{xx} < 0\): 極大
+\item \(D < 0\): 極値でない(鞍点)
+\end{itemize}
+
+\begin{quote}
+\textbf{【演習】}\ \(f(x, y) = x^2 + y^2 - xy + 3x\) の極値を求めよ。
+\end{quote}
+
+\textbf{解答の指針:} \(\frac{\partial f}{\partial x} = 2x - y + 3 = 0\), \(\frac{\partial f}{\partial y} = 2y - x = 0\)。第2式より \(x = 2y\)、代入して \(3y + 3 = 0\)、\(y = -1, x = -2\)。\(f_{xx} = 2, f_{yy} = 2, f_{xy} = -1\) より \(D = 3 > 0\) かつ \(f_{xx} > 0\) なので極小。値は \(f(-2, -1) = -3\)。
+
+\section{重積分と確率への応用}
+
+\subsection{重積分}
+
+2変数関数の積分は「曲面の下の体積」です:
+\[ \iint_D f(x, y)\, dA = \int \left( \int f(x, y)\, dx \right) dy \]
+矩形領域では1変数ずつ順に積分すればよく、これを\textbf{累次積分}といいます。
+
+\begin{quote}
+\textbf{【例】}\ \(D = [0, 1] \times [0, 2]\) 上で \(f(x, y) = xy\) を積分する。
+\[ \int_0^2 \int_0^1 xy\, dx\, dy = \int_0^2 \left[ \frac{x^2 y}{2} \right]_0^1 dy = \int_0^2 \frac{y}{2}\, dy = \left[ \frac{y^2}{4} \right]_0^2 = 1 \]
+\end{quote}
+
+\subsection{確率密度関数と重積分}
+
+連続型の確率変数の理論は重積分そのものです。確率密度関数 \(p(x, y)\) に対して
+\[ P((X, Y) \in D) = \iint_D p(x, y)\, dx\, dy, \qquad \iint_{\mathbb{R}^2} p(x, y)\, dx\, dy = 1 \]
+2次元正規分布の密度
+\[ p(x, y) = \frac{1}{2\pi \sigma_x \sigma_y} \exp\left( -\frac{1}{2} \left[ \frac{(x - \mu_x)^2}{\sigma_x^2} + \frac{(y - \mu_y)^2}{\sigma_y^2} \right] \right) \]
+が全空間で積分 1 になることは、累次積分とガウス積分
+\[ \int_{-\infty}^{\infty} e^{-t^2/2}\, dt = \sqrt{2\pi} \]
+から確かめられます。
+
+\begin{quote}
+\textbf{【演習】}\ 領域 \(D = \{(x, y) \mid 0 \le y \le x \le 1\}\) 上で \(f(x, y) = 6xy^2\) を積分せよ。結果が確率として妥当か(0 以上 1 以下か)確認せよ。
+\end{quote}
+
+\textbf{解答の指針:} \(\int_0^1 \int_0^x 6xy^2\, dy\, dx = \int_0^1 2x \cdot x^3\, dx = \int_0^1 2x^4\, dx = \frac{2}{5}\)。
+
+\section{級数と収束}
+
+\subsection{無限級数}
+
+数列の和 \(a_1 + a_2 + a_3 + \cdots\) の\textbf{部分和} \(S_n = \sum_{k=1}^n a_k\) が極限をもつとき、級数は収束するといいます。
+
+\begin{quote}
+\textbf{【定理:等比級数】}\ \(|r| < 1\) のとき
+\[ \sum_{k=0}^{\infty} r^k = \frac{1}{1 - r} \]
+\end{quote}
+
+等比級数が収束する「理由」は部分和 \(S_n = \frac{1 - r^{n+1}}{1-r}\) が \(|r| < 1\) で \(\frac{1}{1-r}\) に近づくからです。\(|r| \ge 1\) では項が消えないので発散します。
+
+\subsection{収束判定}
+
+代表的な判定法を2つ。
+
+\textbf{比較判定法:} \(0 \le a_k \le b_k\) で \(\sum b_k\) が収束すれば \(\sum a_k\) も収束。
+
+\textbf{比判定法(d'Alembert):} \(\displaystyle \lim_{k \to \infty} \frac{a_{k+1}}{a_k} = \rho\) なら、\(\rho < 1\) で収束、\(\rho > 1\) で発散。
+
+\begin{quote}
+\textbf{【例】}\ \(\displaystyle \sum_{k=1}^{\infty} \frac{1}{k!}\) は比判定法で \(\frac{a_{k+1}}{a_k} = \frac{1}{k+1} \to 0 < 1\) なので収束。その値は \(e\) です:
+\[ e = \sum_{k=0}^{\infty} \frac{1}{k!} \approx 2.71828 \]
+\end{quote}
+
+対照的に、調和級数 \(\sum \frac{1}{k}\) は項が 0 に近づくにもかかわらず発散します。「項が 0 に近づく」は収束の必要条件でしかありません。
+
+\begin{quote}
+\textbf{【演習】}\ \(\displaystyle \sum_{k=1}^{\infty} \frac{k}{2^k}\) の和を求めよ。ヒント: 等比級数を \(\displaystyle \sum_{k=1}^\infty k x^k = \frac{x}{(1-x)^2}\ (|x|<1)\) の形で使う。
+\end{quote}
+
+\textbf{解答の指針:} \(x = \frac{1}{2}\) を代入すると \(\frac{1/2}{(1/2)^2} = 2\)。
+
+\section{おわりに — 線形と非線形の間で}
+
+この教科書で学んだ2つの柱を振り返ります。
+
+\textbf{線形代数}は「加法とスカラー倍が保たれる世界」の理論です。連立方程式・変換・固有値・対角化はすべて、空間の構造をベクトルで読み解く一連の作戦でした。データはベクトルとして表現でき、主成分分析や推薦システムは固有値問題の応用です。
+
+\textbf{解析学}は「変化と極限」の理論です。微分は瞬間の変化率、積分は蓄積、級数は無限の足し算を極限として扱いました。テイラー展開に見たように、複雑な関数も局所的には多項式で捉えられます。
+
+そして両者はつながっています。多変数関数の微分は本質的に線形代数(ヤコビ行列・ヘッセ行列)であり、非線形の世界を線形の道具で近似するのが解析学の基本的な発想です。次の一歩としては、フーリエ解析、常微分方程式、確率過程などがこの教科書の自然な延長線上にあります。
+
+\begin{quote}
+\textbf{【総合演習】}
+\begin{enumerate}
+\item \(A = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}\) は \(\mathbb{R}^2\) 上で何を表すか。固有値は実数にもつか。
+\item \(f(x) = x e^{-x^2}\) の極値を求めよ。
+\item \(\displaystyle \int_0^\infty x e^{-x}\, dx\) を計算せよ(部分積分)。この値は指数分布の期待値でもある。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:} 1. 90度回転。固有方程式 \(\lambda^2 + 1 = 0\) より実固有値なし(回転は向きを保てない)。2. \(f'(x) = e^{-x^2}(1 - 2x^2)\) より \(x = \frac{1}{\sqrt{2}}\) で極大値 \(\frac{1}{\sqrt{2}} e^{-1/2}\)。3. 部分積分で \([-x e^{-x}]_0^\infty + \int_0^\infty e^{-x}\, dx = 1\)。
+
+\end{document}

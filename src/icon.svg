@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#1a2233"/>
+  <rect x="18" y="22" width="26" height="56" rx="3" fill="#5b8def"/>
+  <rect x="48" y="28" width="26" height="50" rx="3" fill="#8fb3f5"/>
+  <rect x="22" y="30" width="18" height="3" rx="1.5" fill="#dbe6ff"/>
+  <rect x="22" y="38" width="18" height="3" rx="1.5" fill="#dbe6ff"/>
+  <rect x="22" y="46" width="14" height="3" rx="1.5" fill="#dbe6ff"/>
+  <text x="62" y="52" font-size="18" fill="#1a2233" font-family="serif" text-anchor="middle">∑</text>
+</svg>

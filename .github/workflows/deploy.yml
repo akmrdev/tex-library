@@ -1,0 +1,42 @@
+name: deploy
+
+# main に push するたび: pandoc でビルド → Cloudflare Pages へ自動デプロイ
+# 事前にリポジトリの Secrets に CLOUDFLARE_API_TOKEN と CLOUDFLARE_ACCOUNT_ID を
+# 設定しておく必要があります(未設定ならビルド検証だけ走ってスキップします)。
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      HAS_CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: ビルド(pandoc は runner にプリインストール済み)
+        run: node build.mjs
+
+      - name: JS 構文チェック
+        run: |
+          node --check assets/reader.js
+          node --check assets/bookshelf.js
+
+      - name: Cloudflare Pages へデプロイ
+        if: env.HAS_CF_TOKEN == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=tex-library --branch=main --commit-dirty=true
+
+      - name: デプロイ スキップ通知
+        if: env.HAS_CF_TOKEN != 'true'
+        run: echo "CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID が未設定のためデプロイをスキップしました"

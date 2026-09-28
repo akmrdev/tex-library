@@ -1,0 +1,12 @@
+{
+  "name": "TeX 図書館",
+  "short_name": "TeX 図書館",
+  "description": "TeX で書かれた教科書をブラウザで読む図書館",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f6f2",
+  "theme_color": "#1a2233",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

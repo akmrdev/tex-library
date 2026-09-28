@@ -1,0 +1,8 @@
+{
+  "name": "tex-library",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

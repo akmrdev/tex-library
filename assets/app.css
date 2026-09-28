@@ -1,0 +1,127 @@
+/* TeX 図書館 — 共通スタイル */
+:root {
+  --bg: #f7f6f2;
+  --paper: #ffffff;
+  --ink: #23272f;
+  --ink-soft: #5a6270;
+  --line: #e4e1d8;
+  --accent: hsl(var(--hue, 220), 55%, 45%);
+  --accent-soft: hsl(var(--hue, 220), 55%, 95%);
+  --mono: "SF Mono", Menlo, Consolas, "Noto Sans Mono", monospace;
+  --serif: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  --sans: -apple-system, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.75; }
+
+/* ---------- 本棚 ---------- */
+.shelf-header { max-width: 960px; margin: 0 auto; padding: 48px 24px 8px; }
+.shelf-header h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: 0.02em; }
+.shelf-header p { color: var(--ink-soft); margin: 0; }
+.shelf-grid { max-width: 960px; margin: 24px auto; padding: 0 24px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.book-card {
+  background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 22px;
+  display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: inherit;
+  transition: transform .15s ease, box-shadow .15s ease; position: relative; overflow: hidden;
+}
+.book-card::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 5px; background: hsl(var(--hue), 55%, 50%); }
+.book-card:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(30, 35, 50, .12); }
+.book-icon { font-size: 2rem; line-height: 1; }
+.book-card h2 { margin: 0; font-size: 1.15rem; line-height: 1.4; }
+.book-desc { margin: 0; font-size: .88rem; color: var(--ink-soft); flex: 1; }
+.book-meta { display: flex; gap: 8px; flex-wrap: wrap; }
+.book-meta span { font-size: .72rem; background: hsl(var(--hue), 40%, 95%); color: hsl(var(--hue), 45%, 35%); border-radius: 999px; padding: 2px 10px; }
+.book-progress { font-size: .78rem; color: var(--ink-soft); }
+.book-progress .bar { height: 5px; background: var(--line); border-radius: 999px; overflow: hidden; margin-top: 4px; }
+.book-progress .fill { height: 100%; background: hsl(var(--hue), 55%, 50%); border-radius: 999px; transition: width .3s; }
+.shelf-footer { text-align: center; color: var(--ink-soft); font-size: .8rem; padding: 32px 0 48px; }
+.shelf-footer code { background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; }
+.resume-badge { display: inline-block; font-size: .72rem; background: hsl(var(--hue), 55%, 50%); color: #fff; border-radius: 999px; padding: 2px 10px; }
+
+/* ---------- リーダー ---------- */
+body.reader { display: flex; }
+#toc {
+  width: 272px; flex-shrink: 0; position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  background: #202634; color: #cfd6e4; padding: 20px 0 16px; font-size: .84rem;
+}
+.toc-back { display: block; color: #8fa0c0; text-decoration: none; padding: 0 20px 12px; font-weight: 600; border-bottom: 1px solid #2d3547; }
+.toc-back:hover { color: #fff; }
+.toc-book { font-size: .95rem; color: #fff; margin: 16px 20px 8px; line-height: 1.4; }
+.toc-icon { margin-right: 6px; }
+#toc-nav a { display: block; color: #aab4c8; text-decoration: none; padding: 5px 20px; border-left: 3px solid transparent; line-height: 1.5; }
+#toc-nav a.sub { padding-left: 38px; font-size: .78rem; color: #8792a8; }
+#toc-nav a:hover { color: #fff; }
+#toc-nav a.active { color: #fff; border-left-color: hsl(var(--hue, 220), 70%, 60%); background: rgba(255,255,255,.05); }
+#toc-nav a.done::after { content: " ✓"; color: hsl(var(--hue, 220), 70%, 65%); }
+.toc-progress { padding: 16px 20px 0; color: #8792a8; font-size: .75rem; }
+.toc-progress-bar { height: 4px; background: #2d3547; border-radius: 999px; overflow: hidden; margin-bottom: 6px; }
+#toc-progress-fill { height: 100%; width: 0; background: hsl(var(--hue, 220), 70%, 60%); }
+
+#content { flex: 1; min-width: 0; padding: 48px 32px 80px; }
+.book-header { max-width: 760px; margin: 0 auto 8px; }
+.book-title { font-family: var(--serif); font-size: 1.9rem; margin: 0 0 6px; line-height: 1.35; }
+.book-desc { color: var(--ink-soft); margin: 0; }
+#toc-toggle { display: none; }
+
+#search-box { max-width: 760px; margin: 20px auto 8px; position: relative; }
+#search-input {
+  width: 100%; padding: 10px 16px; border: 1px solid var(--line); border-radius: 10px;
+  font-size: .9rem; font-family: inherit; background: var(--paper); color: var(--ink);
+}
+#search-input:focus { outline: 2px solid hsl(var(--hue, 220), 55%, 60%); outline-offset: -1px; }
+#search-results {
+  display: none; position: absolute; z-index: 30; inset: calc(100% + 4px) 0 auto;
+  background: var(--paper); border: 1px solid var(--line); border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(30,35,50,.15); max-height: 320px; overflow-y: auto;
+}
+#search-results.open { display: block; }
+#search-results a { display: block; padding: 8px 14px; color: var(--ink); text-decoration: none; font-size: .84rem; border-bottom: 1px solid var(--line); }
+#search-results a:last-child { border-bottom: none; }
+#search-results a:hover { background: var(--accent-soft); }
+#search-results mark { background: hsl(var(--hue, 220), 80%, 85%); }
+#search-results .no-hit { padding: 10px 14px; color: var(--ink-soft); font-size: .84rem; }
+
+#book-body { max-width: 760px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 40px 48px 32px; font-family: var(--serif); font-size: 1.02rem; }
+.sec { padding-bottom: 8px; margin-bottom: 36px; border-bottom: 1px dashed var(--line); }
+.sec:last-child { border-bottom: none; margin-bottom: 0; }
+.sec h1 { font-family: var(--serif); font-size: 1.5rem; margin: 28px 0 16px; padding-bottom: 8px; border-bottom: 2px solid hsl(var(--hue, 220), 55%, 55%); }
+.sec h2 { font-family: var(--serif); font-size: 1.2rem; margin: 28px 0 10px; }
+.sec h3 { font-size: 1.05rem; margin: 22px 0 8px; }
+.sec p { margin: 0.7em 0; text-align: justify; }
+.sec ul, .sec ol { padding-left: 1.5em; }
+.sec li { margin: 0.3em 0; }
+.sec code { font-family: var(--mono); font-size: .86em; background: #f0efe9; border-radius: 4px; padding: 1px 5px; }
+.sec pre { background: #f6f8fa; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; overflow-x: auto; line-height: 1.55; }
+.sec pre code { background: none; padding: 0; font-size: .84rem; }
+/* 定義・定理・例などの引用ボックス */
+.sec blockquote { margin: 1.2em 0; padding: 12px 18px; border-radius: 10px; background: hsl(var(--hue, 220), 55%, 97%); border-left: 4px solid hsl(var(--hue, 220), 55%, 60%); }
+.sec blockquote p:first-child { margin-top: 0; }
+.sec blockquote p:last-child { margin-bottom: 0; }
+.sec table { border-collapse: collapse; margin: 1em auto; font-family: var(--sans); font-size: .92rem; }
+.sec th, .sec td { border: 1px solid var(--line); padding: 6px 14px; text-align: center; }
+.sec th { background: var(--accent-soft); }
+.katex { font-size: 1.06em; }
+.katex-display { overflow-x: auto; overflow-y: hidden; padding: 2px 0; }
+.sec-nav { display: flex; justify-content: space-between; gap: 12px; margin-top: 20px; font-family: var(--sans); }
+.sec-nav a { font-size: .8rem; color: hsl(var(--hue, 220), 50%, 45%); text-decoration: none; padding: 8px 12px; background: var(--bg); border-radius: 8px; max-width: 48%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sec-nav a:hover { background: var(--accent-soft); }
+.sec-nav .nav-prev:only-child, .sec-nav .nav-next:only-child { margin-left: auto; }
+.book-footer { max-width: 760px; margin: 32px auto 0; text-align: center; font-family: var(--sans); }
+.book-footer a { color: var(--ink-soft); }
+
+/* ---------- モバイル ---------- */
+@media (max-width: 900px) {
+  body.reader { display: block; }
+  #toc { position: fixed; z-index: 50; left: 0; top: 0; transform: translateX(-100%); transition: transform .2s ease; width: 300px; }
+  #toc.open { transform: none; box-shadow: 0 0 40px rgba(0,0,0,.4); }
+  #toc-overlay { display: none; position: fixed; inset: 0; z-index: 40; background: rgba(0,0,0,.4); }
+  #toc-overlay.show { display: block; }
+  #toc-toggle {
+    display: block; position: sticky; top: 8px; z-index: 10; margin: 0 0 12px;
+    border: 1px solid var(--line); background: var(--paper); border-radius: 8px; padding: 6px 14px; font-size: 1rem; cursor: pointer;
+  }
+  #content { padding: 20px 16px 64px; }
+  #book-body { padding: 24px 20px; }
+  .sec-nav a { max-width: 44%; }
+}

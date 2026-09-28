@@ -1,0 +1,10 @@
+{
+  "slug": "typescript",
+  "title": "TypeScript 入門 — 型から学ぶモダン開発",
+  "short": "TypeScript",
+  "desc": "型システムの基本からジェネリクス、クラス、非同期処理まで。実際に動くコード例で TypeScript の考え方を身につける。",
+  "icon": "🧩",
+  "hue": 30,
+  "category": "プログラミング",
+  "tags": ["型", "JavaScript"]
+}
