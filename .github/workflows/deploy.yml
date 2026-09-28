@@ -1,6 +1,6 @@
 name: deploy
 
-# main に push するたび: pandoc でビルド → Cloudflare Pages へ自動デプロイ
+# main に push するたび: pandoc/tectonic でビルド → Cloudflare Pages へ自動デプロイ
 # 事前にリポジトリの Secrets に CLOUDFLARE_API_TOKEN と CLOUDFLARE_ACCOUNT_ID を
 # 設定しておく必要があります(未設定ならビルド検証だけ走ってスキップします)。
 
@@ -21,13 +21,25 @@ jobs:
         with:
           node-version: 20
 
+      - name: CJK フォントをインストール(PDF 生成用)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+
+      - name: tectonic をインストール(PDF 生成用)
+        run: |
+          curl -sL https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.15.0/tectonic-0.15.0-x86_64-unknown-linux-musl.tar.gz | tar xz
+          sudo mv tectonic /usr/local/bin/
+          tectonic --version
+
       - name: ビルド(pandoc は runner にプリインストール済み)
-        run: node build.mjs
+        run: node build.mjs --pdf
 
       - name: JS 構文チェック
         run: |
           node --check assets/reader.js
           node --check assets/bookshelf.js
+          node --check assets/prefs.js
 
       - name: Cloudflare Pages へデプロイ
         if: env.HAS_CF_TOKEN == 'true'

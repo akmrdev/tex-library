@@ -1,0 +1,38 @@
+[
+  {
+    "q": "TypeScript の型はコンパイル後にどうなる?",
+    "choices": ["実行時に型検査として残る", "完全に消える(型消去)", "コメントとして残る", "JSON に変換される"],
+    "answer": 1,
+    "explain": "型は実行時には完全に消えるため、実行性能への影響はありません。"
+  },
+  {
+    "q": "interface Dog { name: string; bark(): void } に { name: \"X\" } を代入すると?",
+    "choices": ["OK(構造的部分型)", "エラー(bark がない)", "OK(名前が一致するから)", "警告のみ"],
+    "answer": 1,
+    "explain": "構造的部分型では要求されるプロパティがすべて揃っている必要があります。bark が足りないのでエラーです。"
+  },
+  {
+    "q": "switch 文の default で const _x: never = value と書く目的は?",
+    "choices": ["エラーを握りつぶすため", "ユニオンの全ケースを処理し忘れたらコンパイルエラーにするため", "実行速度を上げるため", "型を any にするため"],
+    "answer": 1,
+    "explain": "全ケース処理済みなら value は never 型。新ケースの追加時に代入がエラーになり、処理漏れを検出できます。"
+  },
+  {
+    "q": "function first<T>(items: T[]): T | undefined の利点は?",
+    "choices": ["実行が速くなる", "要素の型が何でも入力と出力の型の対応を保てる", "undefined が返らなくなる", "配列が空にできる"],
+    "answer": 1,
+    "explain": "ジェネリクスは「型を引数にする」仕組みで、number 配列なら number | undefined が返るという対応が保たれます。"
+  },
+  {
+    "q": "Pick<User, \"id\" | \"name\"> は何を作る?",
+    "choices": ["User から id と name を除いた型", "User の id と name だけをもつ型", "id と name の値の組", "User の全プロパティを省略可能にした型"],
+    "answer": 1,
+    "explain": "Pick は指定したキーだけを取り出します。除きたい場合は Omit です。"
+  },
+  {
+    "q": "isLoading: boolean と data?: User を別々にもつ設計の問題点は?",
+    "choices": ["コードが長くなる", "「ローディング中なのに data がある」などありえない状態が表現できてしまう", "JSON にできない", "unknown 型になる"],
+    "answer": 1,
+    "explain": "判別可能ユニオン(loading / ready / error)にすれば、ありえない組合せを型レベルで排除できます。"
+  }
+]

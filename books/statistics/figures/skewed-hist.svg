@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 320" font-family="sans-serif">
+<rect x="62.0" y="251.5" width="31.0" height="23.5" rx="3" fill="hsla(30,75%,55%,.7)"/><rect x="97.0" y="216.3" width="31.0" height="58.8" rx="3" fill="hsla(30,75%,55%,.7)"/><rect x="132.0" y="169.3" width="31.0" height="105.8" rx="3" fill="hsla(30,75%,55%,.7)"/><rect x="167.0" y="110.5" width="31.0" height="164.5" rx="3" fill="hsla(30,75%,55%,.7)"/><rect x="202.0" y="63.5" width="31.0" height="211.5" rx="3" fill="hsla(30,75%,55%,.7)"/><rect x="237.0" y="98.8" width="31.0" height="176.3" rx="3" fill="hsla(30,75%,55%,.7)"/><rect x="272.0" y="157.5" width="31.0" height="117.5" rx="3" fill="hsla(30,75%,55%,.7)"/><rect x="307.0" y="204.5" width="31.0" height="70.5" rx="3" fill="hsla(30,75%,55%,.7)"/><rect x="342.0" y="239.8" width="31.0" height="35.3" rx="3" fill="hsla(30,75%,55%,.7)"/><rect x="377.0" y="263.3" width="31.0" height="11.8" rx="3" fill="hsla(30,75%,55%,.7)"/>
+<line x1="60" y1="275" x2="430" y2="275" stroke="#23272f"/>
+<line x1="221.7" y1="275" x2="221.7" y2="40" stroke="hsl(220,60%,50%)" stroke-width="2"/>
+<line x1="207.0" y1="275" x2="207.0" y2="60" stroke="hsl(160,60%,40%)" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="227.7" y="52" font-size="13" fill="hsl(220,60%,45%)">平均</text>
+<text x="173.0" y="72" font-size="13" fill="#2b6e52">中央値</text>
+<text x="430" y="295" text-anchor="end" font-size="13" fill="#5a6270">年収(歪んだ分布)</text>
+</svg>

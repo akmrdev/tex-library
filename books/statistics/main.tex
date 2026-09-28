@@ -50,6 +50,12 @@
 
 使い分けの指針: 分布が左右対称に近ければ平均、歪んでいれば中央値が頑健です。平均はすべてのデータの情報を使う利点がある一方、外れ値に敏感という弱点をもちます。
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/skewed-hist.svg}
+\caption{右に歪んだ分布では、大きい値の一部が平均を中央値より右へ引き上げる。}
+\end{figure}
+
 \subsection{散らばりの尺度}
 
 中心だけではデータを語れません。散らばりの基本は\textbf{分散}です:
@@ -95,6 +101,12 @@
 \end{quote}
 
 また \(r \approx 0\) でも非線形な関係(放物線など)はありえます。相関係数は\textbf{直線的}な関係しか見ていない、という限界を常に意識しましょう。散布図を最初に描くのはこのためです。
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{figures/regression.svg}
+\caption{正の相関をもつ散布図と回帰直線。点が右上がりの帯状に並んでいる。}
+\end{figure}
 
 \begin{quote}
 \textbf{【演習】}\ 次のデータの相関係数を求めよ。
@@ -192,6 +204,12 @@
 釣り鐘型の対称な形をします。\(\mu = 0, \sigma^2 = 1\) に標準化したものを\textbf{標準正規分布}といい、累積確率は数表や計算機で求めます。有名な値として
 \[ P(-1 \le Z \le 1) \approx 0.683, \qquad P(-2 \le Z \le 2) \approx 0.954, \qquad P(-3 \le Z \le 3) \approx 0.997 \]
 があり、これらは「68–95–99.7 ルール」としてデータの感覚を掴むのに役立ちます。
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/normal.svg}
+\caption{標準正規分布の密度関数。平均から $\pm 1\sigma$ に約 68\%、$\pm 2\sigma$ に約 95\% が入る。}
+\end{figure}
 
 \begin{quote}
 \textbf{【演習】}\ 身長が平均 170 cm、標準偏差 6 cm の正規分布に従うとする。身長が 182 cm を超える確率はおおよそいくらか。

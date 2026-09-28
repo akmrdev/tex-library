@@ -1,4 +1,5 @@
-// リーダー: 目次生成・スクロールスパイ・読書進捗・検索・KaTeX/ハイライト描画
+// リーダー: 目次生成・スクロールスパイ・読書進捗・検索・ハイライト・クイズ
+// 数式はビルド時に KaTeX で HTML 化済み(実行時の数式描画なし)
 (function () {
   "use strict";
   var book = document.body.dataset.book;
@@ -20,14 +21,14 @@
   tocData.forEach(function (sec) {
     var a = document.createElement("a");
     a.href = "#" + sec.id;
-    a.textContent = sec.title;
+    a.textContent = sec.num + ". " + sec.title;
     a.dataset.sec = sec.id;
     tocNav.appendChild(a);
     links.push(a);
     sec.subs.forEach(function (sub) {
       var sa = document.createElement("a");
       sa.href = "#" + sub.id;
-      sa.textContent = sub.title;
+      sa.textContent = sub.num + " " + sub.title;
       sa.className = "sub";
       sa.dataset.sec = sub.id;
       tocNav.appendChild(sa);
@@ -37,13 +38,11 @@
 
   function markDone(id, done) {
     links.forEach(function (a) {
-      if (a.dataset.sec === id && a.classList.contains("sub")) a.classList.toggle("done", done);
+      if (a.dataset.sec === id) a.classList.toggle("done", done);
     });
-    links.forEach(function (a) { if (a.dataset.sec === id && !a.classList.contains("sub")) a.classList.toggle("done", done); });
   }
   tocData.forEach(function (sec) {
-    var done = progress.read.indexOf(sec.id) !== -1;
-    if (done) markDone(sec.id, true);
+    if (progress.read.indexOf(sec.id) !== -1) markDone(sec.id, true);
   });
 
   // ---- スクロールスパイ + 読了判定 ----
@@ -62,10 +61,8 @@
       activeId = cur.id;
       links.forEach(function (a) { a.classList.toggle("active", a.dataset.sec === activeId); });
       var a = tocNav.querySelector('a[data-sec="' + activeId + '"]');
-      if (a && a.classList.contains("sub")) a = tocNav.querySelector('a[data-sec="' + activeId + '"]');
       if (a) a.scrollIntoView({ block: "nearest" });
     }
-    // 表示率に応じて進捗バーを更新
     var total = document.documentElement.scrollHeight - window.innerHeight;
     var pct = total > 0 ? Math.min(100, Math.round((window.scrollY / total) * 100)) : 0;
     fill.style.width = pct + "%";
@@ -96,6 +93,7 @@
   // ---- モバイル目次 ----
   var toc = document.getElementById("toc");
   var overlay = document.getElementById("toc-overlay");
+  function closeToc() { toc.classList.remove("open"); overlay.classList.remove("show"); }
   document.getElementById("toc-toggle").addEventListener("click", function () {
     toc.classList.add("open");
     overlay.classList.add("show");
@@ -104,9 +102,8 @@
   tocNav.addEventListener("click", function (e) {
     if (e.target.tagName === "A") closeToc();
   });
-  function closeToc() { toc.classList.remove("open"); overlay.classList.remove("show"); }
 
-  // ---- 検索 ----
+  // ---- 検索(この本の中) ----
   var input = document.getElementById("search-input");
   var results = document.getElementById("search-results");
   var bodyText = {};
@@ -147,23 +144,123 @@
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
-  // ---- KaTeX / ハイライト描画 ----
-  function renderMath() {
-    if (window.renderMathInElement) {
-      renderMathInElement(document.getElementById("book-body"), {
-        delimiters: [
-          { left: "\\[", right: "\\]", display: true },
-          { left: "\\(", right: "\\)", display: false }
-        ],
-        throwOnError: false
+  // ---- コードブロックにコピーボタン ----
+  document.querySelectorAll("#book-body pre code").forEach(function (code) {
+    var btn = document.createElement("button");
+    btn.className = "copy-btn";
+    btn.type = "button";
+    btn.textContent = "コピー";
+    btn.addEventListener("click", function () {
+      navigator.clipboard.writeText(code.textContent).then(function () {
+        btn.textContent = "✓ コピーしました";
+        btn.classList.add("copied");
+        setTimeout(function () {
+          btn.textContent = "コピー";
+          btn.classList.remove("copied");
+        }, 1600);
       });
+    });
+    code.parentElement.appendChild(btn);
+  });
+
+  // ---- キーボード操作 ----
+  document.addEventListener("keydown", function (e) {
+    if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === "/") {
+      e.preventDefault();
+      input.focus();
+      return;
     }
+    if (e.key === "t" || e.key === "T") {
+      toc.classList.toggle("open");
+      overlay.classList.toggle("show");
+      return;
+    }
+    if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+      var idx = tocData.findIndex(function (s) { return s.id === activeId; });
+      if (idx === -1) idx = 0;
+      var next = e.key === "ArrowRight" ? Math.min(tocData.length - 1, idx + 1) : Math.max(0, idx - 1);
+      var target = document.getElementById(tocData[next].id);
+      if (target) target.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+
+  // ---- 確認テスト ----
+  var quizJson = document.getElementById("quiz-json");
+  if (quizJson) renderQuiz(JSON.parse(quizJson.textContent));
+
+  function renderQuiz(quiz) {
+    var root = document.getElementById("quiz-root");
+    var state = { correct: 0, answered: 0 };
+
+    function draw() {
+      root.innerHTML = "";
+      state = { correct: 0, answered: 0 };
+      quiz.forEach(function (item, qi) {
+        var box = document.createElement("div");
+        box.className = "quiz-q";
+        var q = document.createElement("p");
+        q.className = "q-text";
+        q.innerHTML = '<span class="q-num">Q' + (qi + 1) + '.</span>' + escapeHtml(item.q);
+        box.appendChild(q);
+        var ul = document.createElement("ul");
+        ul.className = "quiz-choices";
+        item.choices.forEach(function (c, ci) {
+          var li = document.createElement("li");
+          var b = document.createElement("button");
+          b.type = "button";
+          b.textContent = c;
+          b.addEventListener("click", function () {
+            box.classList.add("answered");
+            state.answered++;
+            var isRight = ci === item.answer;
+            if (isRight) state.correct++;
+            ul.querySelectorAll("button").forEach(function (btn, i) {
+              btn.disabled = true;
+              if (i === item.answer) btn.classList.add("correct");
+              else if (i === ci && !isRight) btn.classList.add("wrong");
+            });
+            if (state.answered === quiz.length) showScore();
+          });
+          li.appendChild(b);
+          ul.appendChild(li);
+        });
+        box.appendChild(ul);
+        var ex = document.createElement("p");
+        ex.className = "quiz-explain";
+        ex.textContent = "解説: " + item.explain;
+        box.appendChild(ex);
+        root.appendChild(box);
+      });
+      var score = document.createElement("p");
+      score.id = "quiz-score";
+      root.appendChild(score);
+      var retry = document.createElement("button");
+      retry.id = "quiz-retry";
+      retry.type = "button";
+      retry.textContent = "やり直す";
+      retry.addEventListener("click", draw);
+      root.appendChild(retry);
+    }
+
+    function showScore() {
+      var score = document.getElementById("quiz-score");
+      score.textContent = state.correct + " / " + quiz.length + " 問正解" +
+        (state.correct === quiz.length ? " — 完璧です🎉" : state.correct >= quiz.length * 0.7 ? " — 良くできました!" : " — 解説を読み直してみましょう");
+      if (progress.read.indexOf("quiz") === -1) {
+        progress.read.push("quiz");
+        markDone("quiz", true);
+        saveProgress();
+      }
+    }
+
+    draw();
   }
+
+  // ---- 描画後処理と再開 ----
   if (window.hljs) hljs.highlightAll();
-  renderMath();
   updateSpy();
 
-  // 「つづきから」: 前回位置のクエリパラメータ対応 (?resume=sec-id は本棚側で付与)
   var params = new URLSearchParams(location.search);
   var resume = params.get("resume");
   if (resume && document.getElementById(resume)) {
@@ -172,7 +269,6 @@
     }, 300);
   }
 
-  // Service Worker
   if ("serviceWorker" in navigator && location.protocol === "https:") {
     navigator.serviceWorker.register("/sw.js").catch(function () {});
   }

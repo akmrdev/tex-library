@@ -6,7 +6,7 @@
   Cache-Control: no-cache
 /sw.js
   Cache-Control: no-cache
-/vendor/*
-  Cache-Control: public, max-age=31536000, immutable
-/fonts/*
+/search-index.json
+  Cache-Control: no-cache
+/vendor/katex/fonts/*
   Cache-Control: public, max-age=31536000, immutable
