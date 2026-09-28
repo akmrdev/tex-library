@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" font-family="sans-serif">
+  <rect x="0" y="0" width="400" height="300" fill="#ffffff"/>
+  <text x="200" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">粒子モデル: 状態は間隔と運動の違い</text>
+
+  <!-- 固体 (solid): 粒子は規則的に密に並ぶ -->
+  <g>
+    <rect x="20" y="44" width="110" height="156" fill="#eef4f2" stroke="#1f6f5c" stroke-width="1.2"/>
+    <circle cx="38" cy="68" r="11" fill="#1f6f5c"/><circle cx="64" cy="68" r="11" fill="#1f6f5c"/><circle cx="90" cy="68" r="11" fill="#1f6f5c"/><circle cx="116" cy="68" r="11" fill="#1f6f5c"/>
+    <circle cx="38" cy="94" r="11" fill="#1f6f5c"/><circle cx="64" cy="94" r="11" fill="#1f6f5c"/><circle cx="90" cy="94" r="11" fill="#1f6f5c"/><circle cx="116" cy="94" r="11" fill="#1f6f5c"/>
+    <circle cx="38" cy="120" r="11" fill="#1f6f5c"/><circle cx="64" cy="120" r="11" fill="#1f6f5c"/><circle cx="90" cy="120" r="11" fill="#1f6f5c"/><circle cx="116" cy="120" r="11" fill="#1f6f5c"/>
+    <circle cx="38" cy="146" r="11" fill="#1f6f5c"/><circle cx="64" cy="146" r="11" fill="#1f6f5c"/><circle cx="90" cy="146" r="11" fill="#1f6f5c"/><circle cx="116" cy="146" r="11" fill="#1f6f5c"/>
+    <circle cx="38" cy="172" r="11" fill="#1f6f5c"/><circle cx="64" cy="172" r="11" fill="#1f6f5c"/><circle cx="90" cy="172" r="11" fill="#1f6f5c"/><circle cx="116" cy="172" r="11" fill="#1f6f5c"/>
+    <text x="75" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">固体 solid</text>
+    <text x="75" y="242" text-anchor="middle" font-size="11" fill="#5a6270">決まった形・決まった体積</text>
+  </g>
+
+  <!-- 液体 (liquid): 粒子は近いが配列は不規則 -->
+  <g>
+    <rect x="145" y="44" width="110" height="156" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.2"/>
+    <circle cx="158" cy="178" r="11" fill="#2f5fa8"/><circle cx="184" cy="178" r="11" fill="#2f5fa8"/><circle cx="210" cy="178" r="11" fill="#2f5fa8"/><circle cx="236" cy="178" r="11" fill="#2f5fa8"/>
+    <circle cx="164" cy="150" r="11" fill="#2f5fa8"/><circle cx="192" cy="152" r="11" fill="#2f5fa8"/><circle cx="222" cy="149" r="11" fill="#2f5fa8"/><circle cx="246" cy="153" r="11" fill="#2f5fa8"/>
+    <circle cx="172" cy="122" r="11" fill="#2f5fa8"/><circle cx="204" cy="124" r="11" fill="#2f5fa8"/><circle cx="240" cy="121" r="11" fill="#2f5fa8"/>
+    <circle cx="196" cy="96" r="11" fill="#2f5fa8" opacity="0.55"/>
+    <text x="200" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">液体 liquid</text>
+    <text x="200" y="242" text-anchor="middle" font-size="11" fill="#5a6270">形は変わる・体積は変わらない</text>
+  </g>
+
+  <!-- 気体 (gas): 粒子は間隔が大きく自由に動く -->
+  <g>
+    <rect x="270" y="44" width="110" height="156" fill="#fbf3ea" stroke="#b06a1f" stroke-width="1.2"/>
+    <circle cx="292" cy="70" r="10" fill="#b06a1f"/><circle cx="350" cy="64" r="10" fill="#b06a1f"/><circle cx="315" cy="105" r="10" fill="#b06a1f"/>
+    <circle cx="368" cy="120" r="10" fill="#b06a1f"/><circle cx="283" cy="140" r="10" fill="#b06a1f"/><circle cx="335" cy="155" r="10" fill="#b06a1f"/>
+    <circle cx="300" cy="180" r="10" fill="#b06a1f"/><circle cx="362" cy="185" r="10" fill="#b06a1f"/>
+    <line x1="302" y1="70" x2="326" y2="66" stroke="#b06a1f" stroke-width="1.4"/>
+    <line x1="325" y1="105" x2="345" y2="112" stroke="#b06a1f" stroke-width="1.4"/>
+    <line x1="293" y1="140" x2="312" y2="150" stroke="#b06a1f" stroke-width="1.4"/>
+    <text x="325" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">気体 gas</text>
+    <text x="325" y="242" text-anchor="middle" font-size="11" fill="#5a6270">間隔が大きく自由に運動</text>
+  </g>
+
+  <text x="200" y="276" text-anchor="middle" font-size="12" fill="#23272f">状態変化でも粒子そのものは変化しない。変わるのは間隔と運動の自由さだけ。</text>
+</svg>
