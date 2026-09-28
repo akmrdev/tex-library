@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="sans-serif">
+<style>
+.ax{stroke:#2b3240}
+.lb{fill:#59616f}
+.st{stroke:#d5dae3}
+@media (prefers-color-scheme: dark){
+  .ax{stroke:#8d95a5}
+  .lb{fill:#aab2c0}
+  .st{stroke:#39404f}
+}
+</style>
+<line x1="104.0" y1="262.0" x2="604.0" y2="262.0" class="st" stroke-width="1"/>
+<line x1="104.0" y1="205.5" x2="604.0" y2="205.5" class="st" stroke-width="1"/>
+<line x1="104.0" y1="149.0" x2="604.0" y2="149.0" class="st" stroke-width="1"/>
+<line x1="104.0" y1="92.5" x2="604.0" y2="92.5" class="st" stroke-width="1"/>
+<line x1="104.0" y1="36.0" x2="604.0" y2="36.0" class="st" stroke-width="1"/>
+<line x1="104.0" y1="262.0" x2="604.0" y2="262.0" class="ax" stroke-width="1.5"/>
+<line x1="104.0" y1="36.0" x2="104.0" y2="262.0" class="ax" stroke-width="1.5"/>
+<line x1="104.0" y1="149.0" x2="112.3" y2="149.0" stroke="hsl(190,52%,52%)" stroke-width="7"/>
+<line x1="112.3" y1="92.5" x2="131.1" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<line x1="131.1" y1="36.0" x2="174.8" y2="36.0" stroke="hsl(255,60%,45%)" stroke-width="7"/>
+<line x1="174.8" y1="92.5" x2="193.6" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<line x1="193.6" y1="205.5" x2="212.3" y2="205.5" stroke="hsl(285,60%,54%)" stroke-width="7"/>
+<line x1="212.3" y1="149.0" x2="220.7" y2="149.0" stroke="hsl(190,52%,52%)" stroke-width="7"/>
+<line x1="220.7" y1="92.5" x2="260.2" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<line x1="260.2" y1="36.0" x2="289.4" y2="36.0" stroke="hsl(255,60%,45%)" stroke-width="7"/>
+<line x1="289.4" y1="92.5" x2="299.8" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<line x1="299.8" y1="205.5" x2="322.8" y2="205.5" stroke="hsl(285,60%,54%)" stroke-width="7"/>
+<line x1="322.8" y1="149.0" x2="335.2" y2="149.0" stroke="hsl(190,52%,52%)" stroke-width="7"/>
+<line x1="335.2" y1="92.5" x2="372.8" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<line x1="372.8" y1="36.0" x2="399.8" y2="36.0" stroke="hsl(255,60%,45%)" stroke-width="7"/>
+<line x1="399.8" y1="92.5" x2="412.3" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<line x1="412.3" y1="205.5" x2="435.2" y2="205.5" stroke="hsl(285,60%,54%)" stroke-width="7"/>
+<line x1="435.2" y1="149.0" x2="447.8" y2="149.0" stroke="hsl(190,52%,52%)" stroke-width="7"/>
+<line x1="447.8" y1="92.5" x2="479.0" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<line x1="479.0" y1="205.5" x2="506.1" y2="205.5" stroke="hsl(285,60%,54%)" stroke-width="7"/>
+<line x1="506.1" y1="149.0" x2="516.5" y2="149.0" stroke="hsl(190,52%,52%)" stroke-width="7"/>
+<line x1="516.5" y1="92.5" x2="545.7" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<line x1="545.7" y1="205.5" x2="574.8" y2="205.5" stroke="hsl(285,60%,54%)" stroke-width="7"/>
+<line x1="574.8" y1="149.0" x2="583.2" y2="149.0" stroke="hsl(190,52%,52%)" stroke-width="7"/>
+<line x1="583.2" y1="92.5" x2="593.6" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<line x1="593.6" y1="262.0" x2="604.0" y2="262.0" stroke="hsl(45,85%,52%)" stroke-width="7"/>
+<text x="104.0" y="282.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#59616f">0</text>
+<text x="166.5" y="282.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#59616f">1</text>
+<text x="229.0" y="282.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#59616f">2</text>
+<text x="291.5" y="282.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#59616f">3</text>
+<text x="354.0" y="282.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#59616f">4</text>
+<text x="416.5" y="282.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#59616f">5</text>
+<text x="479.0" y="282.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#59616f">6</text>
+<text x="541.5" y="282.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#59616f">7</text>
+<text x="604.0" y="282.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#59616f">8</text>
+<text x="604.0" y="302.0" font-size="12" text-anchor="end" font-weight="normal" fill="#59616f">就寝からの時間(時間)</text>
+<line x1="46.0" y1="262.0" x2="64.0" y2="262.0" stroke="hsl(45,85%,52%)" stroke-width="7"/>
+<text x="40.0" y="266.0" font-size="12" text-anchor="end" font-weight="normal" fill="#59616f">覚醒</text>
+<line x1="46.0" y1="205.5" x2="64.0" y2="205.5" stroke="hsl(285,60%,54%)" stroke-width="7"/>
+<text x="40.0" y="209.5" font-size="12" text-anchor="end" font-weight="normal" fill="#59616f">REM</text>
+<line x1="46.0" y1="149.0" x2="64.0" y2="149.0" stroke="hsl(190,52%,52%)" stroke-width="7"/>
+<text x="40.0" y="153.0" font-size="12" text-anchor="end" font-weight="normal" fill="#59616f">N1</text>
+<line x1="46.0" y1="92.5" x2="64.0" y2="92.5" stroke="hsl(205,62%,48%)" stroke-width="7"/>
+<text x="40.0" y="96.5" font-size="12" text-anchor="end" font-weight="normal" fill="#59616f">N2</text>
+<line x1="46.0" y1="36.0" x2="64.0" y2="36.0" stroke="hsl(255,60%,45%)" stroke-width="7"/>
+<text x="40.0" y="40.0" font-size="12" text-anchor="end" font-weight="normal" fill="#59616f">N3</text>
+<text x="40.0" y="24.0" font-size="12" text-anchor="end" font-weight="normal" fill="#7c8494">上 = 覚醒 / 下 = 深い睡眠</text>
+<text x="112.0" y="50.0" font-size="12" text-anchor="start" font-weight="normal" fill="hsl(285,60%,36%)">REM は後半夜ほど長くなる = 一晩 4〜6 サイクル</text>
+</svg>
