@@ -152,7 +152,7 @@
     return arr;
   }
 
-  // 正誤判定で記録: 正解 -> ok / 誤答 -> again
+  // 正誤判定で記録: 正解 -> ok / 誤答 -> again。進むかどうかはユーザーが選択。
   function answer(btn, correct, w) {
     var buttons = $("choices").querySelectorAll("button");
     buttons.forEach(function (b) {
@@ -178,12 +178,26 @@
     }
     save();
     speak(w.en);
-    setTimeout(function () {
-      state.pos++;
-      renderCard();
-      if (state.pos % 5 === 0) renderChips();
-    }, correct ? 900 : 1800);
+    $("btn-next").classList.add("show");
+    $("btn-next").focus();
   }
+
+  function advance() {
+    if (!$("btn-next").classList.contains("show")) return;
+    $("btn-next").classList.remove("show");
+    state.pos++;
+    renderCard();
+    if (state.pos % 5 === 0) renderChips();
+  }
+
+  // 解答済みのとき Enter / Space / → でも次へ
+  document.addEventListener("keydown", function (e) {
+    if (!$("btn-next").classList.contains("show")) return;
+    if (e.key === "Enter" || e.key === " " || e.key === "ArrowRight") {
+      e.preventDefault();
+      advance();
+    }
+  });
 
   fetch("decks.json")
     .then(function (r) { return r.json(); })
@@ -200,6 +214,7 @@
     var w = state.queue[state.pos];
     if (w) speak(w.en);
   });
+  $("btn-next").addEventListener("click", advance);
   document.getElementById("filter-line").addEventListener("click", function (e) {
     var b = e.target.closest("button");
     if (!b) return;

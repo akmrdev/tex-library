@@ -308,6 +308,13 @@ html[data-theme="dark"] #choices button:hover:not(:disabled) { background: hsl(4
 html[data-theme="dark"] #judge-msg.good { color: hsl(150, 55%, 55%); }
 #judge-msg.bad { color: hsl(0, 60%, 45%); }
 html[data-theme="dark"] #judge-msg.bad { color: hsl(0, 70%, 65%); }
+#btn-next {
+  display: none; margin: 14px auto 0; border: 1px solid hsl(45, 70%, 45%);
+  background: hsl(45, 80%, 92%); color: hsl(35, 70%, 30%); border-radius: 999px;
+  padding: 9px 34px; font-size: .95rem; font-family: inherit; cursor: pointer;
+}
+html[data-theme="dark"] #btn-next { background: hsl(45, 45%, 22%); color: hsl(45, 80%, 75%); }
+#btn-next.show { display: block; }
 #filter-line { display: flex; gap: 8px; justify-content: center; margin-top: 18px; font-size: .8rem; }
 #filter-line button { border: 1px solid var(--line); background: var(--paper); color: var(--ink-soft); border-radius: 999px; padding: 4px 14px; cursor: pointer; font-family: inherit; }
 #filter-line button.active { color: var(--ink); border-color: var(--ink-soft); }
@@ -331,6 +338,7 @@ html[data-theme="dark"] #judge-msg.bad { color: hsl(0, 70%, 65%); }
   </div>
   <div id="choices"></div>
   <div id="judge-msg"></div>
+  <button id="btn-next" type="button">次へ →</button>
   <div id="filter-line">
     <button data-filter="all">すべて</button>
     <button data-filter="new" class="active">未学習</button>
