@@ -20,27 +20,40 @@
 
   function statusOf(id) { return (status[id] && status[id].s) || "new"; }
 
+  // デッキ種別: "choice"(問題文+選択肢が確定済み) / "words"(単語+動的誤答)
+  function isWordDeck(deck) { return deck.type === "words"; }
+
   function buildQueue() {
     var deck = state.decks.find(function (d) { return d.id === state.deckId; });
     if (!deck) return;
-    var words = deck.words.filter(function (w) {
-      if (state.filter === "new") return statusOf(w.id) === "new";
-      if (state.filter === "again") return statusOf(w.id) === "again";
-      return true;
-    });
+    var items;
+    if (isWordDeck(deck)) {
+      items = deck.words.filter(function (w) {
+        if (state.filter === "new") return statusOf(w.id) === "new";
+        if (state.filter === "again") return statusOf(w.id) === "again";
+        return true;
+      });
+    } else {
+      items = deck.cards.filter(function (c) {
+        if (state.filter === "new") return statusOf(c.id) === "new";
+        if (state.filter === "again") return statusOf(c.id) === "again";
+        return true;
+      });
+    }
     if (state.shuffled) {
-      for (var i = words.length - 1; i > 0; i--) {
+      for (var i = items.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
-        var t = words[i]; words[i] = words[j]; words[j] = t;
+        var t = items[i]; items[i] = items[j]; items[j] = t;
       }
     }
-    state.queue = words;
+    state.queue = items;
     state.pos = 0;
   }
 
   function deckStats(deck) {
+    var items = isWordDeck(deck) ? deck.words : deck.cards;
     var ok = 0;
-    deck.words.forEach(function (w) { if (statusOf(w.id) === "ok") ok++; });
+    items.forEach(function (w) { if (statusOf(w.id) === "ok") ok++; });
     return ok;
   }
 
@@ -50,7 +63,7 @@
     state.decks.forEach(function (d) {
       var b = document.createElement("button");
       b.className = "deck-chip" + (d.id === state.deckId ? " active" : "");
-      b.textContent = d.name + "(" + deckStats(d) + "/" + d.words.length + ")";
+      b.textContent = d.name + "(" + deckStats(d) + "/" + (isWordDeck(d) ? d.words : d.cards).length + ")";
       b.addEventListener("click", function () {
         state.deckId = d.id;
         buildQueue();
@@ -110,20 +123,42 @@
     }
     area.style.display = "block";
     done.style.display = "none";
-    var w = state.queue[state.pos];
-    $("card-en").textContent = w.en;
+    var item = state.queue[state.pos];
+    var deck = state.decks.find(function (d) { return d.id === state.deckId; });
     $("judge-msg").textContent = "";
     $("judge-msg").className = "";
+    $("btn-next").classList.remove("show");
     $("pos-text").textContent = (state.pos + 1) + " / " + state.queue.length + " 枚目";
-    var deck = state.decks.find(function (d) { return d.id === state.deckId; });
-    $("ok-text").textContent = deck ? "✅ " + deckStats(deck) + "/" + deck.words.length + " 正解済み" : "";
+    $("ok-text").textContent = deck ? "✅ " + deckStats(deck) + "/" + (isWordDeck(deck) ? deck.words : deck.cards).length + " 正解済み" : "";
     $("deck-bar").firstElementChild.style.width = (100 * state.pos / Math.max(1, state.queue.length)) + "%";
-    renderChoices(w, deck);
-    speak(w.en);
+
+    if (isWordDeck(deck)) {
+      $("card-en").textContent = item.en;
+      renderWordChoices(item, deck);
+      speak(item.en);
+    } else {
+      $("card-en").innerHTML = item.q;   // ビルド時に KaTeX 済みの HTML
+      renderFixedChoices(item);
+    }
   }
 
-  // 正解 1 + 同じデッキから誤答 3 の選択肢をシャッフルして表示
-  function renderChoices(w, deck) {
+  // choice デッキ: 原稿に書かれた選択肢をシャッフルして表示
+  function renderFixedChoices(card) {
+    var box = $("choices");
+    box.innerHTML = "";
+    var opts = card.choices.map(function (c, i) { return { html: c, correct: i === card.answer }; });
+    shuffle(opts);
+    opts.forEach(function (opt) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.innerHTML = opt.html;
+      b.addEventListener("click", function () { judge(b, opt.correct, card); });
+      box.appendChild(b);
+    });
+  }
+
+  // words デッキ: 正解 1 + 同デッキから誤答 3
+  function renderWordChoices(w, deck) {
     var box = $("choices");
     box.innerHTML = "";
     var pool = (deck ? deck.words : []).filter(function (x) { return x.id !== w.id && x.ja !== w.ja; });
@@ -139,7 +174,7 @@
       var b = document.createElement("button");
       b.type = "button";
       b.textContent = ja;
-      b.addEventListener("click", function () { answer(b, ja === w.ja, w); });
+      b.addEventListener("click", function () { judge(b, ja === w.ja, w); });
       box.appendChild(b);
     });
   }
@@ -153,31 +188,42 @@
   }
 
   // 正誤判定で記録: 正解 -> ok / 誤答 -> again。進むかどうかはユーザーが選択。
-  function answer(btn, correct, w) {
+  function judge(btn, correct, item) {
     var buttons = $("choices").querySelectorAll("button");
+    var answerText = "";
     buttons.forEach(function (b) {
       b.disabled = true;
-      if (b.textContent === w.ja) b.classList.add("correct");
+      var isAnswer = isWordDeck(state.decks.find(function (d) { return d.id === state.deckId; }))
+        ? b.textContent === item.ja
+        : b.innerHTML === item.choices[item.answer];
+      if (isAnswer) { b.classList.add("correct"); answerText = b.textContent; }
       else if (b === btn && !correct) b.classList.add("wrong");
     });
     var msg = $("judge-msg");
     if (correct) {
       msg.textContent = "✅ 正解!";
       msg.className = "good";
-      status[w.id] = { s: "ok", t: Date.now() };
+      status[item.id] = { s: "ok", t: Date.now() };
     } else {
-      msg.textContent = "❌ 不正解 — 正解は「" + w.ja + "」";
+      msg.textContent = isWordDeck(state.decks.find(function (d) { return d.id === state.deckId; }))
+        ? "❌ 不正解" + (answerText ? " — 正解は「" + answerText + "」" : "")
+        : "❌ 不正解 — 正解の選択肢は緑で表示されています";
       msg.className = "bad";
-      status[w.id] = { s: "again", t: Date.now() };
+      status[item.id] = { s: "again", t: Date.now() };
     }
-    if (w.ex_en) {
+    if (item.ex_en) {
       var ex = document.createElement("span");
       ex.className = "ex";
-      ex.textContent = w.ex_en + (w.ex_ja ? " — " + w.ex_ja : "");
+      ex.textContent = item.ex_en + (item.ex_ja ? " — " + item.ex_ja : "");
       msg.appendChild(ex);
+    } else if (item.explain) {
+      var exp = document.createElement("span");
+      exp.className = "ex";
+      exp.innerHTML = item.explain;
+      msg.appendChild(exp);
     }
     save();
-    speak(w.en);
+    if (item.en) speak(item.en);
     $("btn-next").classList.add("show");
     $("btn-next").focus();
   }
@@ -207,12 +253,13 @@
       buildQueue();
       renderChips();
       renderCard();
-    });
+    })
+    .catch(function (e) { window.__cardErr = (e.stack || e.message); });
 
   // カード本体のクリックで再読み上げ
   $("card").addEventListener("click", function () {
     var w = state.queue[state.pos];
-    if (w) speak(w.en);
+    if (w && w.en) speak(w.en);
   });
   $("btn-next").addEventListener("click", advance);
   document.getElementById("filter-line").addEventListener("click", function (e) {

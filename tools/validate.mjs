@@ -99,6 +99,26 @@ if (existsSync(join(DIST, "search-index.json"))) {
   }
 }
 
+// ---- cards.js(学習カードデッキ) ----
+if (existsSync(BOOKS)) {
+  for (const slug of readdirSync(BOOKS)) {
+    const cfile = join(BOOKS, slug, "cards.js");
+    if (!existsSync(cfile)) continue;
+    const { createRequire } = await import("node:module");
+    const mod = createRequire(import.meta.url)(cfile);
+    const decks = mod.default?.decks ?? mod.decks ?? [];
+    decks.forEach((deck, di) => {
+      check(Array.isArray(deck.cards) && deck.cards.length >= 3, `books/${slug}/cards.js deck${di + 1}(${deck.name}): カードが少なすぎます`);
+      deck.cards.forEach((card, ci) => {
+        check(Array.isArray(card.choices) && card.choices.length >= 3, `books/${slug}/cards.js ${deck.id} Q${ci + 1}: 選択肢が3未満`);
+        check(Number.isInteger(card.answer) && card.answer >= 0 && card.answer < (card.choices?.length ?? 0),
+          `books/${slug}/cards.js ${deck.id} Q${ci + 1}: answer が範囲外`);
+        check(typeof card.q === "string" && card.q.length > 0, `books/${slug}/cards.js ${deck.id} Q${ci + 1}: 問題文がない`);
+      });
+    });
+  }
+}
+
 // ---- quiz.json ----
 if (existsSync(BOOKS)) {
   for (const slug of readdirSync(BOOKS)) {

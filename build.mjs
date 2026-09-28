@@ -16,6 +16,7 @@ const BOOKS_DIR = join(ROOT, "books");
 const DIST = join(ROOT, "dist");
 const SRC = join(ROOT, "src");
 const req = createRequire(import.meta.url);
+const VERSION = Date.now().toString(36);
 const katex = req(join(ROOT, "vendor/katex/katex.min.cjs"));
 
 function runPandoc(texPath, format) {
@@ -197,8 +198,8 @@ function buildBook(dir, wantPdf) {
     sections.push({ id: "quiz", title: "確認テスト", subs: [], num: sections.length + 1 });
   }
 
-  // フラッシュカード用の単語データ(src/data がある本のみ)
-  const hasFlashcards = existsSync(join(BOOKS_DIR, dir, "src", "data"));
+  // フラッシュカード(cards.js の新規デッキ or src/data の単語データ)
+  const hasFlashcards = existsSync(join(BOOKS_DIR, dir, "cards.js")) || existsSync(join(BOOKS_DIR, dir, "src", "data"));
 
   // 横断検索用に生本文から節ごとのプレーンテキストを抽出
   const rawParts = rawBody.split(/(?=<h1\b)/).filter((p) => /<h1[^>]*\bid=/.test(p));
@@ -223,7 +224,7 @@ function buildBook(dir, wantPdf) {
   writeFileSync(join(outDir, "index.html"), html);
   console.log(`built book: ${slug} (${sections.length} sections, ${(html.length / 1024).toFixed(0)} KB)`);
 
-  if (hasFlashcards) buildFlashcards(dir, slug, meta);
+  if (hasFlashcards) buildFlashcards(dir, slug, meta, loadCardDecks(dir, slug));
   return {
     slug, title: meta.title, short: meta.short, desc: meta.desc,
     icon: meta.icon, hue: meta.hue, category: meta.category,
@@ -236,27 +237,58 @@ function buildBook(dir, wantPdf) {
 
 // ---------- フラッシュカード ----------
 
-function buildFlashcards(dir, slug, meta) {
+// カード原稿(cards.js)内の \( \) / \[ \] をビルド時に KaTeX で HTML 化する
+function renderTexInString(s) {
+  return s
+    .replace(/\\\(([\s\S]*?)\\\)/g, (_, tex) => katex.renderToString(tex, { throwOnError: false }))
+    .replace(/\\\[([\s\S]*?)\\\]/g, (_, tex) => katex.renderToString(tex, { throwOnError: false, displayMode: true }));
+}
+
+// books/<slug>/cards.js の新規デッキ(選択式)を読み込んで数式をレンダリングする
+function loadCardDecks(dir, slug) {
+  const cardsFile = join(BOOKS_DIR, dir, "cards.js");
+  if (!existsSync(cardsFile)) return [];
+  const mod = req(cardsFile);          // ESM default export / CJS 4e215bfe5fdc
+  const raw = mod.default?.decks ?? mod.decks ?? [];
+  return raw.map((deck, di) => ({
+    id: deck.id ?? `deck-${di}`,
+    name: deck.name,
+    type: "choice",
+    cards: deck.cards.map((card, ci) => ({
+      id: `${slug}-${deck.id ?? di}-${ci}`,
+      q: renderTexInString(card.q),
+      choices: card.choices.map(renderTexInString),
+      answer: card.answer,
+      explain: renderTexInString(card.explain ?? ""),
+    })),
+  }));
+}
+
+function buildFlashcards(dir, slug, meta, extraDecks) {
   const dataDir = join(BOOKS_DIR, dir, "src", "data");
-  const decks = [];
-  for (const stage of readdirSync(dataDir).sort()) {
-    const wordsDir = join(dataDir, stage, "words");
-    if (!existsSync(wordsDir)) continue;
-    for (const f of readdirSync(wordsDir).sort()) {
-      if (!f.endsWith(".json")) continue;
-      const deck = JSON.parse(readFileSync(join(wordsDir, f), "utf8"));
-      const fallbackName = f.replace(/\.json$/, "").replace(/^[a-z]+-/, "").replace(/-/g, " ");
-      decks.push({
-        id: `${stage}-${f.replace(/\.json$/, "")}`,
-        name: deck.meta?.description ?? fallbackName,
-        words: (deck.words ?? []).map((w) => ({
-          id: w.id ?? `${stage}-${f}-${w.en}`,
-          en: w.en, ja: w.ja, ex_en: w.ex_en ?? "", ex_ja: w.ex_ja ?? "",
-        })),
-      });
+  const wordDecks = [];
+  if (existsSync(dataDir)) {
+    for (const stage of readdirSync(dataDir).sort()) {
+      const wordsDir = join(dataDir, stage, "words");
+      if (!existsSync(wordsDir)) continue;
+      for (const f of readdirSync(wordsDir).sort()) {
+        if (!f.endsWith(".json")) continue;
+        const deck = JSON.parse(readFileSync(join(wordsDir, f), "utf8"));
+        const fallbackName = f.replace(/\.json$/, "").replace(/^[a-z]+-/, "").replace(/-/g, " ");
+        wordDecks.push({
+          id: `${stage}-${f.replace(/\.json$/, "")}`,
+          name: deck.meta?.description ?? fallbackName,
+          type: "words",
+          words: (deck.words ?? []).map((w) => ({
+            id: w.id ?? `${stage}-${f}-${w.en}`,
+            en: w.en, ja: w.ja, ex_en: w.ex_en ?? "", ex_ja: w.ex_ja ?? "",
+          })),
+        });
+      }
     }
   }
-  const total = decks.reduce((n, d) => n + d.words.length, 0);
+  const decks = [...(extraDecks ?? []), ...wordDecks];
+  const total = decks.reduce((n, d) => n + (d.words?.length ?? d.cards?.length ?? 0), 0);
   const outDir = join(DIST, "book", slug, "cards");
   mkdirSync(outDir, { recursive: true });
   writeFileSync(join(outDir, "decks.json"), JSON.stringify(decks));
@@ -273,9 +305,10 @@ function cardsTemplate({ meta, decks, total }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>単語カード — ${esc(meta.title)}</title>
+<title>学習カード — ${esc(meta.title)}</title>
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/app.css">
+<link rel="stylesheet" href="/vendor/katex/katex.min.css">
 <style>
 body.cards-page { background: var(--bg); min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 24px 16px 48px; font-family: var(--sans); }
 .cards-head { width: 100%; max-width: 720px; display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
@@ -326,7 +359,7 @@ html[data-theme="dark"] #btn-next { background: hsl(45, 45%, 22%); color: hsl(45
 <body class="cards-page">
 <div class="cards-head">
   <a href="/book/${esc(meta.slug)}/">← ${esc(meta.title)}</a>
-  <h1>🎴 単語カード(全${total}語)</h1>
+  <h1>🎴 学習カード(全${total}問)</h1>
 </div>
 <div id="deck-chips"></div>
 <div id="card-area">
@@ -334,7 +367,7 @@ html[data-theme="dark"] #btn-next { background: hsl(45, 45%, 22%); color: hsl(45
   <div id="deck-bar"><div></div></div>
   <div class="card" id="card">
     <div class="en" id="card-en"></div>
-    <div class="hint">正しい意味を選んでください(タップで再読み上げ)</div>
+    <div class="hint">正しいものを選んでください(カードのタップで再読み上げ)</div>
   </div>
   <div id="choices"></div>
   <div id="judge-msg"></div>
@@ -349,7 +382,7 @@ html[data-theme="dark"] #btn-next { background: hsl(45, 45%, 22%); color: hsl(45
   <div id="tts-note">単語はカード表示時に自動で読み上げます(発音 ON 時)</div>
 </div>
 <div id="done-msg"><div class="big">🎉</div><div id="done-text"></div></div>
-<script src="/assets/flashcards.js"></script>
+<script src="/assets/flashcards.js?v=${VERSION}"></script>
 </body>
 </html>`;
 }
@@ -382,7 +415,7 @@ function prefsToolbar() {
 
 function readerTemplate({ meta, toc, content, hasPdf, quiz, hasFlashcards }) {
   const pdfLink = hasPdf ? `<a class="pdf-link" href="book.pdf" download>⬇️ PDF 版</a>` : "";
-  const cardsLink = hasFlashcards ? `<a class="pdf-link" href="cards/">🎴 単語カード</a>` : "";
+  const cardsLink = hasFlashcards ? `<a class="pdf-link" href="cards/">🎴 学習カード</a>` : "";
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -414,8 +447,8 @@ ${baseHead(`${meta.title} — TeX 図書館`, meta.desc)}
 <script id="toc-json" type="application/json">${JSON.stringify(toc)}</script>
 ${quiz ? `<script id="quiz-json" type="application/json">${JSON.stringify(quiz)}</script>` : ""}
 <script src="/vendor/hljs/highlight.min.js"></script>
-<script src="/assets/prefs.js"></script>
-<script src="/assets/reader.js"></script>
+<script src="/assets/prefs.js?v=${VERSION}"></script>
+<script src="/assets/reader.js?v=${VERSION}"></script>
 </body>
 </html>`;
 }
@@ -446,8 +479,8 @@ ${baseHead("TeX 図書館 — TeX 教科書ライブラリ", "TeX で書かれ�
   <p>教科書を追加するには <code>books/</code> に TeX を置いてビルド — <a href="https://github.com/akmrdev/tex-library" rel="noopener">GitHub</a></p>
 </footer>
 <script id="books-json" type="application/json">${JSON.stringify(books.map(({ sectionsText, toc, ...b }) => b))}</script>
-<script src="/assets/prefs.js"></script>
-<script src="/assets/bookshelf.js"></script>
+<script src="/assets/prefs.js?v=${VERSION}"></script>
+<script src="/assets/bookshelf.js?v=${VERSION}"></script>
 </body>
 </html>`;
 }
@@ -488,7 +521,7 @@ for (const f of ["manifest.webmanifest", "icon.svg", "_headers"]) {
   cpSync(join(SRC, f), join(DIST, f));
 }
 // SW にバージョンを埋め込んでデプロイごとにキャッシュを更新させる
-const version = Date.now().toString(36);
+const version = VERSION;
 const sw = readFileSync(join(SRC, "sw.js"), "utf8").replace(/__BUILD_VERSION__/g, version);
 writeFileSync(join(DIST, "sw.js"), sw);
 
