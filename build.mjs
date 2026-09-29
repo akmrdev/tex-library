@@ -494,7 +494,8 @@ function prefsToolbar() {
 function readerTemplate({ meta, toc, content, hasPdf, quiz, hasFlashcards }) {
   const pdfLink = hasPdf ? `<a class="pdf-link" href="book.pdf" download>⬇️ PDF 版</a>` : "";
   const cardsLink = hasFlashcards ? `<a class="pdf-link" href="cards/">🎴 学習カード</a>` : "";
-  const rsvpLink = meta.rsvp ? `<a class="pdf-link" href="/rsvp/?book=${esc(meta.slug)}">⚡ 速読で読む</a>` : "";
+  const rsvpLink = meta.rsvp ? `<a class="pdf-link" href="/rsvp/?book=${esc(meta.slug)}">⚡ 速読で読む</a>
+  <a class="pdf-link" href="/tts/?book=${esc(meta.slug)}">🔊 読み上げで聴く</a>` : "";
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -599,6 +600,8 @@ writeFileSync(join(DIST, "search-index.json"), JSON.stringify(searchEntries));
 writeFileSync(join(DIST, "rsvp-books.json"), JSON.stringify(rsvpBooks, null, 2));
 mkdirSync(join(DIST, "rsvp"), { recursive: true });
 cpSync(join(SRC, "rsvp", "index.html"), join(DIST, "rsvp", "index.html"));
+mkdirSync(join(DIST, "tts"), { recursive: true });
+cpSync(join(SRC, "tts", "index.html"), join(DIST, "tts", "index.html"));
 if (rsvpBooks.length) console.log(`built rsvp page: dist/rsvp/index.html (${rsvpBooks.length} books)`);
 else console.log("built rsvp page: dist/rsvp/index.html (rsvp 本なし — index のみ)");
 

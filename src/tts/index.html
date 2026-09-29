@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>読み上げリーダー — TeX 図書館</title>
+<meta name="description" content="音声読み上げリーダー — TeX 図書館の本を音声で聴く（RSVP 版と同じ本文を使用）">
+<meta name="theme-color" content="#0f1115">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #171a21;
+    --panel2: #1e222b;
+    --border: #2a2f3a;
+    --text: #e8eaf0;
+    --muted: #8a91a0;
+    --accent: #ff5c5c;
+    --accent2: #4da3ff;
+    --ok: #3ecf8e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px 48px;
+  }
+  h1 { font-size: 20px; font-weight: 600; margin-bottom: 4px; }
+  .sub { color: var(--muted); font-size: 12px; margin-bottom: 20px; }
+
+  .card {
+    width: 100%;
+    max-width: 760px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .card h2 { font-size: 14px; font-weight: 600; color: var(--muted); margin-bottom: 12px; }
+
+  /* ---- 入力エリア ---- */
+  textarea {
+    width: 100%;
+    height: 120px;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 12px;
+    resize: vertical;
+    font-family: inherit;
+  }
+  textarea:focus { outline: none; border-color: var(--accent2); }
+  .input-actions { display: flex; gap: 8px; margin-top: 10px; align-items: center; flex-wrap: wrap; }
+  .url-row { display: flex; gap: 8px; margin-top: 10px; }
+  .url-row input {
+    flex: 1;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 13px;
+    padding: 9px 12px;
+  }
+  .url-row input:focus { outline: none; border-color: var(--accent2); }
+  #import-status { color: var(--muted); font-size: 12px; margin-top: 6px; min-height: 1em; }
+
+  /* ---- 表示エリア ---- */
+  .display-wrap {
+    position: relative;
+    height: 150px;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .display-wrap .tag {
+    position: absolute;
+    top: 8px; left: 12px;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+  #current {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 34px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.8;
+    text-align: center;
+    overflow: hidden;
+  }
+  #current.idle { color: var(--muted); font-size: 16px; font-weight: 400; }
+  .statusbar {
+    display: flex;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 8px;
+    font-variant-numeric: tabular-nums;
+  }
+  .progress {
+    height: 5px;
+    background: var(--panel2);
+    border-radius: 3px;
+    margin-top: 8px;
+    overflow: hidden;
+  }
+  #progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent2), var(--accent));
+    transition: width 0.3s linear;
+  }
+
+  /* ---- コントロール ---- */
+  .controls { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+  button {
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.15s;
+    font-family: inherit;
+  }
+  button:hover { background: #262b36; }
+  button.primary { background: var(--accent2); border-color: var(--accent2); color: #0b0e13; font-weight: 600; }
+  button.primary:hover { filter: brightness(1.1); }
+  button:disabled { opacity: 0.4; cursor: default; }
+
+  /* ---- 全文パネル ---- */
+  #fulltext {
+    margin-top: 14px;
+    max-height: 320px;
+    overflow: auto;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 14px;
+    line-height: 2;
+  }
+  #fulltext .sent { cursor: pointer; border-radius: 4px; padding: 0 2px; }
+  #fulltext .sent:hover { background: #262b36; }
+  #fulltext .sent.cur { background: color-mix(in srgb, var(--accent2) 25%, transparent); color: #fff; }
+  #fulltext .sent.head { color: var(--accent2); font-weight: 600; }
+  #fulltext .sent.head.cur { background: color-mix(in srgb, var(--accent) 30%, transparent); }
+  .ft-toggle {
+    background: none; border: none; color: var(--accent2);
+    font-size: 12px; padding: 8px 0 0; cursor: pointer;
+  }
+
+  /* ---- 設定 ---- */
+  .settings { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px 24px; }
+  .setting label { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+  .setting label b { color: var(--text); font-variant-numeric: tabular-nums; }
+  input[type=range] { width: 100%; accent-color: var(--accent2); }
+  select {
+    width: 100%;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 13px;
+  }
+  .setting .status { font-size: 11px; color: var(--muted); margin-top: 4px; min-height: 1em; }
+
+  .hint { color: var(--muted); font-size: 12px; margin-top: 14px; line-height: 1.8; }
+  kbd {
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 11px;
+    font-family: inherit;
+  }
+
+  /* ---- 図書館ピッカー ---- */
+  .home-link {
+    display: inline-block;
+    color: var(--accent2);
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  .home-link:hover { text-decoration: underline; }
+  .home-link + .home-link { margin-left: 14px; }
+  .picker-list { display: flex; flex-direction: column; gap: 8px; }
+  .picker-book {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: border-color .15s, background .15s;
+  }
+  .picker-book:hover { border-color: var(--accent2); }
+  .picker-book.active {
+    border-color: var(--accent2);
+    background: color-mix(in srgb, var(--accent2) 12%, var(--panel2));
+  }
+  .picker-book .pk-icon { font-size: 1.5rem; line-height: 1; flex-shrink: 0; }
+  .picker-book .pk-main { flex: 1; min-width: 0; }
+  .picker-book .pk-title { font-size: .95rem; font-weight: 600; }
+  .picker-book .pk-desc {
+    font-size: .75rem;
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .picker-book .pk-btn { padding: 6px 14px; font-size: .8rem; flex-shrink: 0; }
+  .picker-book .pk-sub {
+    padding: 6px 10px;
+    font-size: .75rem;
+    flex-shrink: 0;
+    color: var(--accent2);
+    background: none;
+    border: 1px solid var(--border);
+    text-decoration: none;
+  }
+  .picker-book .pk-sub:hover { border-color: var(--accent2); background: none; }
+  .picker-note { color: var(--muted); font-size: .85rem; line-height: 1.8; }
+  #picker-status { color: var(--muted); font-size: 12px; margin-top: 8px; min-height: 1em; }
+</style>
+</head>
+<body>
+
+<h1>読み上げリーダー</h1>
+<div class="sub">Text-to-Speech — 本文を音声で読み上げます（RSVP 速読リーダーと同じ本文を使用）</div>
+<div>
+  <a class="home-link" href="/">📚 TeX 図書館に戻る</a>
+  <a class="home-link" href="/rsvp/">⚡ RSVP 速読で読む</a>
+</div>
+
+<div class="card" id="picker-card">
+  <h2>🔊 図書館の本から選ぶ</h2>
+  <div class="picker-list" id="picker-list"><div class="picker-note">本の一覧を読み込んでいます…</div></div>
+  <div id="picker-status" role="status"></div>
+</div>
+
+<div class="card">
+  <textarea id="input" placeholder="読み上げたい文章を貼り付けてください"></textarea>
+  <div class="input-actions">
+    <button id="btn-load">読み込む</button>
+    <button id="btn-sample">サンプル文を入れる</button>
+    <button id="btn-paste">📋 貼り付け</button>
+    <button id="btn-clear">🗑 クリア</button>
+    <button id="btn-file">📄 ファイルを開く</button>
+    <input type="file" id="file-input" accept=".txt,.md,.markdown,.text,text/plain,text/markdown" hidden>
+  </div>
+  <div class="url-row">
+    <input id="url-input" type="url" placeholder="https:// — 記事のURLを入れて本文を取り込む">
+    <button id="btn-import">URLから取り込む</button>
+  </div>
+  <div id="import-status"></div>
+</div>
+
+<div class="card">
+  <div class="display-wrap">
+    <span class="tag">NOW READING</span>
+    <div id="current" class="idle">テキストを読み込んでください</div>
+  </div>
+  <div class="statusbar">
+    <span id="status-pos">0 / 0</span>
+    <span id="status-eta">残り —</span>
+  </div>
+  <div class="progress"><div id="progress-fill"></div></div>
+  <div class="controls">
+    <button id="btn-start" class="primary" disabled>▶ 開始</button>
+    <button id="btn-prev" disabled>◀ 前の文</button>
+    <button id="btn-next" disabled>次の文 ▶</button>
+    <button id="btn-reset" disabled>⟲ 停止して先頭へ</button>
+  </div>
+  <button class="ft-toggle" id="btn-fulltext">▼ 全文を表示</button>
+  <div id="fulltext" hidden></div>
+</div>
+
+<div class="card">
+  <div class="settings">
+    <div class="setting">
+      <label>速度 <b id="val-rate">1.0×</b></label>
+      <input type="range" id="set-rate" min="0.5" max="2" step="0.05" value="1">
+    </div>
+    <div class="setting">
+      <label>音声</label>
+      <select id="set-voice"></select>
+      <div class="status" id="voice-status">日本語の音声を優先して選択しています</div>
+    </div>
+  </div>
+  <div class="hint">
+    <kbd>Space</kbd> 開始/一時停止　<kbd>Esc</kbd> 停止して先頭へ　<kbd>←</kbd><kbd>→</kbd> 前の文/次の文<br>
+    全文パネルの文をクリックすると、その文から読み上げます。設定・文章・読み途中の位置はブラウザ（localStorage）に保存され、続きから再開できます。
+    音声は OS の音声合成を使用します。macOS では「システム設定 → 音声読み上げ」で日本語の声（Kyoko など）を追加するとより自然になります。
+  </div>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const $ = id => document.getElementById(id);
+  const input = $("input"), currentEl = $("current");
+  const btnStart = $("btn-start"), btnReset = $("btn-reset"), btnPrev = $("btn-prev"), btnNext = $("btn-next");
+  const posEl = $("status-pos"), etaEl = $("status-eta"), fillEl = $("progress-fill");
+  const importStatus = $("import-status");
+  const fulltextEl = $("fulltext");
+  const fileInput = $("file-input");
+  const pickerList = $("picker-list"), pickerStatus = $("picker-status");
+  const setRate = $("set-rate"), setVoice = $("set-voice"), voiceStatus = $("voice-status");
+
+  // 音声が使えない環境でも閲覧自体はできるようにする
+  const synth = window.speechSynthesis || null;
+
+  // ---- 状態 ----
+  let sentences = [];   // 文ごとの原文
+  let index = 0;        // 次に読む文
+  let speaking = false; // utterance を連鎖中
+  let paused = false;
+  let gen = 0;          // 世代カウンタ(停止済みの onend を無視するため)
+  let activeSlug = "";
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  function hashStr(s) {
+    let h = 5381;
+    for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
+    return String(h);
+  }
+
+  // ---- 設定（localStorage に保存） ----
+  const settings = Object.assign(
+    { rate: 1, voice: "", text: "", posHash: "", posIndex: 0, fulltext: false },
+    JSON.parse(localStorage.getItem("tts-settings") || "{}")
+  );
+  function saveSettings() {
+    settings.text = input.value;
+    const { text, ...persist } = settings;
+    try { localStorage.setItem("tts-text", text); } catch (e) { /* 長文すぎる場合は本文を保存せず設定だけ残す */ }
+    try { localStorage.setItem("tts-settings", JSON.stringify(persist)); } catch (e) { /* noop */ }
+  }
+
+  // ---- 文分割 ----
+  // rsvp.txt は見出しが「N. タイトル」の1行になっているので、それも文の単位として扱う
+  function splitSentences(text) {
+    const out = [];
+    for (const para of text.split(/\n+/)) {
+      const p = para.trim();
+      if (!p) continue;
+      // 長すぎる文は読み上げの区切り(、／；：)で補助分割する
+      for (const s of p.split(/(?<=[。！？!?])/)) {
+        const t = s.trim();
+        if (!t) continue;
+        if (t.length <= 120) { out.push(t); continue; }
+        let buf = "";
+        for (const part of t.split(/(?<=[、；：,;])/)) {
+          buf += part;
+          if (buf.length >= 60) { out.push(buf.trim()); buf = ""; }
+        }
+        if (buf.trim()) out.push(buf.trim());
+      }
+    }
+    return out;
+  }
+
+  const HEAD_RE = /^\d+(\.\d+)*\.?\s/;
+
+  function buildSentences() {
+    const text = input.value.trim();
+    stopSpeak();
+    sentences = splitSentences(text);
+    index = 0;
+    // 前回の続きから（同じテキストのときだけ）
+    if (settings.posHash && settings.posHash === hashStr(text)
+        && settings.posIndex > 0 && settings.posIndex < sentences.length) {
+      index = settings.posIndex;
+    }
+    renderFulltext();
+    renderIdle();
+    updateStatus();
+    setButtons();
+  }
+
+  function savePos() {
+    if (index > 0 && index < sentences.length) {
+      settings.posHash = hashStr(input.value);
+      settings.posIndex = index;
+    } else {
+      settings.posHash = "";
+      settings.posIndex = 0;
+    }
+    saveSettings();
+  }
+
+  // ---- 音声の選択 ----
+  // 学習カードと同じ慣行: 変な内蔵音声はブラックリストで除外
+  const AVOID = /Albert|Bahh|Bells|Boing|Bubbles|Cellos|Jester|Junior|Organ|Trinoids|Whisper|Wobble|Zarvox|Bad News|Good News|Superstar|Grandma|Grandpa|Eddy|Flo|Reed|Rocko|Sandy|Shelley|Fred|Kathy|Ralph/i;
+  const PREFERRED_JP = ["Kyoko", "Otoya", "Erika", "Google 日本語", "Google Japanese", "Nanami", "O-Ren", "Sayaka", "水野", "Kenji"];
+  let voices = [];
+
+  function loadVoices() {
+    if (!synth) return;
+    voices = synth.getVoices().filter(v => !AVOID.test(v.name));
+    if (!voices.length) return;
+    buildVoiceSelect();
+    pickDefaultVoice();
+  }
+
+  function buildVoiceSelect() {
+    const ja = voices.filter(v => /^ja([-_]|$)/i.test(v.lang));
+    const rest = voices.filter(v => !/^ja([-_]|$)/i.test(v.lang));
+    setVoice.innerHTML = "";
+    if (ja.length) {
+      const g = document.createElement("optgroup");
+      g.label = "日本語";
+      for (const v of ja) g.appendChild(new Option(`${v.name}（${v.lang}）`, v.name));
+      setVoice.appendChild(g);
+    }
+    if (rest.length) {
+      const g = document.createElement("optgroup");
+      g.label = "その他の言語";
+      for (const v of rest) g.appendChild(new Option(`${v.name}（${v.lang}）`, v.name));
+      setVoice.appendChild(g);
+    }
+    if (settings.voice && voices.some(v => v.name === settings.voice)) {
+      setVoice.value = settings.voice;
+    }
+  }
+
+  function pickDefaultVoice() {
+    if (settings.voice && voices.some(v => v.name === settings.voice)) return;
+    const ja = voices.filter(v => /^ja([-_]|$)/i.test(v.lang));
+    let pick = null;
+    for (const name of PREFERRED_JP) {
+      pick = ja.find(v => v.name.indexOf(name) !== -1);
+      if (pick) break;
+    }
+    if (!pick) pick = ja.find(v => v.lang === "ja-JP") || ja[0] || null;
+    if (pick) {
+      settings.voice = pick.name;
+      setVoice.value = pick.name;
+      voiceStatus.textContent = `「${pick.name}」を使用します`;
+    }
+  }
+
+  function currentVoice() {
+    return voices.find(v => v.name === setVoice.value) || null;
+  }
+
+  // ---- 表示 ----
+  function renderIdle() {
+    if (index > 0 && index < sentences.length) {
+      currentEl.textContent = `前回の続き（${Math.round(index / Math.max(1, sentences.length) * 100)}%）から Space で再開`;
+    } else {
+      currentEl.textContent = !sentences.length
+        ? "上に文章を入れて「読み込む」"
+        : "Space で読み上げを開始";
+    }
+    currentEl.classList.add("idle");
+    currentEl.style.fontSize = "";
+    markCurrent();
+  }
+
+  function renderCurrent() {
+    const s = sentences[index];
+    if (!s) { renderIdle(); return; }
+    currentEl.classList.remove("idle");
+    currentEl.textContent = s;
+    // 長い文は表示枠に収まるように縮小
+    currentEl.style.fontSize = "22px";
+    const wrap = currentEl.parentElement;
+    if (currentEl.scrollHeight > wrap.clientHeight && currentEl.scrollHeight > 0) {
+      currentEl.style.fontSize = `${Math.max(13, Math.floor(22 * (wrap.clientHeight - 44) / currentEl.scrollHeight))}px`;
+    }
+    markCurrent();
+  }
+
+  function renderFulltext() {
+    if (fulltextEl.hidden) return;
+    fulltextEl.innerHTML = sentences.map((s, i) => {
+      const cls = ["sent"];
+      if (HEAD_RE.test(s)) cls.push("head");
+      return `<div class="${cls.join(" ")}" data-i="${i}">${escapeHtml(s)}</div>`;
+    }).join("") || "<div class='picker-note'>（空）</div>";
+    markCurrent();
+  }
+
+  function markCurrent() {
+    if (fulltextEl.hidden) return;
+    const prev = fulltextEl.querySelector(".sent.cur");
+    if (prev) prev.classList.remove("cur");
+    const el = fulltextEl.querySelector(`.sent[data-i="${index}"]`);
+    if (el) {
+      el.classList.add("cur");
+      const r = el.getBoundingClientRect(), p = fulltextEl.getBoundingClientRect();
+      if (r.top < p.top + 40 || r.bottom > p.bottom - 40) {
+        el.scrollIntoView({ block: "center", behavior: "smooth" });
+      }
+    }
+  }
+
+  function updateStatus() {
+    posEl.textContent = `${Math.min(index, sentences.length)} / ${sentences.length}`;
+    fillEl.style.width = sentences.length ? `${(index / sentences.length) * 100}%` : "0%";
+    if (index < sentences.length) {
+      const remain = sentences.slice(index).reduce((a, s) => a + s.length, 0);
+      // 日本語 TTS は rate 1.0 でおよそ毎秒 6 文字
+      const sec = remain / (6 * settings.rate);
+      etaEl.textContent = sec > 90 ? `残り 約 ${Math.ceil(sec / 60)} 分` : `残り 約 ${Math.ceil(sec)} 秒`;
+    } else {
+      etaEl.textContent = "残り —";
+    }
+  }
+
+  function setButtons() {
+    btnStart.disabled = !sentences.length;
+    btnPrev.disabled = btnNext.disabled = btnReset.disabled = !sentences.length;
+    btnStart.textContent = speaking && !paused ? "⏸ 一時停止" : (index > 0 && index < sentences.length ? "▶ 再開" : "▶ 開始");
+  }
+
+  // ---- 読み上げループ ----
+  function speakFrom(i) {
+    if (!synth || !sentences.length) return;
+    gen++;
+    const myGen = gen;
+    index = Math.max(0, Math.min(i, sentences.length - 1));
+    speaking = true;
+    paused = false;
+    speakNext(myGen);
+    setButtons();
+  }
+
+  function speakNext(myGen) {
+    if (myGen !== gen) return;
+    if (index >= sentences.length) { finish(); return; }
+    const s = sentences[index];
+    renderCurrent();
+    updateStatus();
+    const u = new SpeechSynthesisUtterance(s);
+    const v = currentVoice();
+    if (v) u.voice = v;
+    u.lang = v ? v.lang : "ja-JP";
+    u.rate = settings.rate;
+    u.onend = () => {
+      if (myGen !== gen) return;
+      index++;
+      savePos();
+      if (index >= sentences.length) { finish(); return; }
+      speakNext(myGen);
+    };
+    u.onerror = (e) => {
+      if (myGen !== gen) return;
+      // interrupt(c cancel) 由来のエラーは停止操作なので無視、それ以外は次の文へ
+      if (e && e.error === "interrupted" || e && e.error === "canceled") return;
+      index++;
+      if (index >= sentences.length) { finish(); return; }
+      speakNext(myGen);
+    };
+    synth.speak(u);
+  }
+
+  function pauseSpeak() {
+    if (!synth || !speaking) return;
+    // プラットフォーム差が大きい pause() に頼らず、現在の文を中断して位置を覚える方式
+    gen++;
+    speaking = false;
+    paused = true;
+    synth.cancel();
+    savePos();
+    setButtons();
+  }
+
+  function resumeSpeak() {
+    speakFrom(index);
+  }
+
+  function stopSpeak() {
+    gen++;
+    speaking = false;
+    paused = false;
+    if (synth) synth.cancel();
+  }
+
+  function finish() {
+    gen++;
+    speaking = false;
+    paused = false;
+    savePos();
+    index = 0;
+    renderIdle();
+    updateStatus();
+    setButtons();
+  }
+
+  function stop() {
+    stopSpeak();
+    savePos();
+    index = 0;
+    settings.posHash = ""; settings.posIndex = 0;
+    saveSettings();
+    renderIdle();
+    updateStatus();
+    setButtons();
+  }
+
+  // ---- UI イベント ----
+  btnStart.addEventListener("click", () => {
+    if (!sentences.length) return;
+    if (speaking && !paused) pauseSpeak();
+    else if (index >= sentences.length) speakFrom(0);
+    else resumeSpeak();
+  });
+  btnReset.addEventListener("click", stop);
+  btnPrev.addEventListener("click", () => { if (index > 0) { stopSpeak(); index--; renderCurrent(); updateStatus(); setButtons(); } });
+  btnNext.addEventListener("click", () => { if (index < sentences.length - 1) { stopSpeak(); index++; renderCurrent(); updateStatus(); setButtons(); } });
+  fulltextEl.addEventListener("click", (e) => {
+    const t = e.target.closest(".sent");
+    if (!t) return;
+    stopSpeak();
+    speakFrom(+t.dataset.i);
+  });
+  $("btn-fulltext").addEventListener("click", () => {
+    settings.fulltext = fulltextEl.hidden;
+    fulltextEl.hidden = !settings.fulltext;
+    $("btn-fulltext").textContent = settings.fulltext ? "▲ 全文を隠す" : "▼ 全文を表示";
+    if (settings.fulltext) renderFulltext();
+    saveSettings();
+  });
+
+  setRate.addEventListener("input", () => {
+    settings.rate = +setRate.value;
+    $("val-rate").textContent = `${settings.rate.toFixed(2).replace(/\.?0+$/, "")}×`;
+    updateStatus();
+    // 速度変更は次の文から反映（読み上げ中なら現在の文をやり直す）
+    if (speaking && !paused) { const at = index; stopSpeak(); speakFrom(at); }
+    saveSettings();
+  });
+  setVoice.addEventListener("change", () => {
+    settings.voice = setVoice.value;
+    const v = currentVoice();
+    if (v) voiceStatus.textContent = `「${v.name}」を使用します`;
+    if (speaking && !paused) { const at = index; stopSpeak(); speakFrom(at); }
+    saveSettings();
+  });
+
+  // ---- キーボード ----
+  document.addEventListener("keydown", (e) => {
+    if (e.target === input || e.target === $("url-input")) return;
+    if (e.code === "Space") { e.preventDefault(); btnStart.click(); }
+    else if (e.key === "Escape") stop();
+    else if (e.key === "ArrowLeft") btnPrev.click();
+    else if (e.key === "ArrowRight") btnNext.click();
+  });
+
+  window.addEventListener("beforeunload", () => { stopSpeak(); savePos(); });
+
+  // ---- 入力・ボタン ----
+  function loadText(text, label) {
+    input.value = text;
+    saveSettings();
+    activeSlug = "";
+    buildSentences();
+    importStatus.textContent = label;
+  }
+  $("btn-load").addEventListener("click", () => { stop(); saveSettings(); buildSentences(); });
+  $("btn-sample").addEventListener("click", () => {
+    loadText("読み上げリーダーは、テキストを音声で読み上げるアプリです。RSVP速読リーダーが「目で速く読む」のに対し、こちらは「耳で聴く」ためのリーダーです。音声合成エンジンには、ブラウザに組み込まれた Web Speech API を使用しています。文ごとに区切って読み進めるので、途中で一時停止しても、同じ文の頭から再開できます。手を離して、耳で学習したいときにお使いください。", "サンプル文を読み込みました。Space で開始します。");
+  });
+  $("btn-clear").addEventListener("click", () => {
+    loadText("", "クリアしました");
+  });
+  $("btn-paste").addEventListener("click", async () => {
+    try {
+      const text = await navigator.clipboard.readText();
+      if (!text.trim()) { importStatus.textContent = "クリップボードは空です"; return; }
+      loadText(text.trim(), `貼り付けました（${text.trim().length.toLocaleString()} 文字）`);
+    } catch (e) {
+      importStatus.textContent = "クリップボードを読めませんでした（ブラウザの権限が必要です）。テキストエリアに直接ペーストしてください。";
+      input.focus();
+    }
+  });
+  $("btn-file").addEventListener("click", () => fileInput.click());
+  fileInput.addEventListener("change", () => {
+    const f = fileInput.files[0];
+    if (!f) return;
+    const r = new FileReader();
+    r.onload = () => loadText(r.result, `「${f.name}」を読み込みました（${r.result.length.toLocaleString()} 文字）`);
+    r.readAsText(f);
+    fileInput.value = "";
+  });
+  input.addEventListener("dragover", e => e.preventDefault());
+  input.addEventListener("drop", e => {
+    e.preventDefault();
+    const f = e.dataTransfer.files[0];
+    if (f) { fileInput.files = e.dataTransfer.files; fileInput.dispatchEvent(new Event("change")); }
+  });
+
+  // ---- URL 取り込み（RSVP 版と同じ経路） ----
+  async function importUrl() {
+    const url = $("url-input").value.trim();
+    if (!/^https?:\/\//.test(url)) { importStatus.textContent = "URLを入力してください"; return; }
+    importStatus.textContent = "本文を取得中…";
+    let text = "";
+    try {
+      const r = await fetch(`https://r.jina.ai/${url}`);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      text = await r.text();
+      const m = text.indexOf("Markdown Content:");
+      if (m >= 0) text = text.slice(m + "Markdown Content:".length);
+    } catch (e) {
+      try {
+        const r = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`);
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const html = await r.text();
+        const doc = new DOMParser().parseFromString(html, "text/html");
+        doc.querySelectorAll("script,style,nav,header,footer,aside").forEach(el => el.remove());
+        text = doc.body.textContent;
+      } catch (e2) {
+        importStatus.textContent = `取得に失敗しました（${e2.message}）。CORS で取得できない場合は文章をコピーして貼り付けてください。`;
+        return;
+      }
+    }
+    text = text
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+      .replace(/^#{1,6}\s+/gm, "")
+      .replace(/^[>\-*\s]*\n/gm, "\n")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+    if (!text) { importStatus.textContent = "本文が空でした"; return; }
+    loadText(text, `取り込み完了（${text.length.toLocaleString()} 文字）`);
+  }
+  $("btn-import").addEventListener("click", importUrl);
+
+  // PWA: 図書館サイト共通の SW をルートスコープで登録
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+    navigator.serviceWorker.register("/sw.js").catch(() => {});
+  }
+
+  // ---- 図書館ピッカー（rsvp.txt を流用） ----
+  function markActive(slug) {
+    activeSlug = slug;
+    pickerList.querySelectorAll(".picker-book").forEach(el => {
+      el.classList.toggle("active", el.dataset.slug === slug);
+    });
+  }
+
+  function loadLibraryBook(slug, title) {
+    pickerStatus.textContent = `「${title}」を読み込み中…`;
+    fetch(`/book/${slug}/rsvp.txt`)
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.text(); })
+      .then(text => {
+        if (!text.trim()) throw new Error("本文が空です");
+        input.value = text;
+        stop();
+        saveSettings();
+        buildSentences();
+        markActive(slug);
+        pickerStatus.textContent = `${title} を読み込みました（${text.length.toLocaleString()} 文字）。Space で読み上げを開始します。`;
+      })
+      .catch(e => {
+        pickerStatus.textContent = `「${title}」の読み込みに失敗しました（${e.message}）。`;
+      });
+  }
+
+  function initPicker() {
+    const want = new URLSearchParams(location.search).get("book");
+    fetch("/rsvp-books.json")
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then(books => {
+        if (!Array.isArray(books) || books.length === 0) {
+          pickerList.innerHTML = '<div class="picker-note">図書館の本はまだありません。上のテキストエリアに文章を貼り付けてそのまま使えます。</div>';
+          return;
+        }
+        pickerList.innerHTML = "";
+        for (const b of books) {
+          const row = document.createElement("div");
+          row.className = "picker-book";
+          row.dataset.slug = b.slug;
+          const icon = document.createElement("span");
+          icon.className = "pk-icon";
+          icon.textContent = b.icon || "📘";
+          const main = document.createElement("div");
+          main.className = "pk-main";
+          const t = document.createElement("div");
+          t.className = "pk-title";
+          t.textContent = b.title || b.slug;
+          const d = document.createElement("div");
+          d.className = "pk-desc";
+          d.textContent = b.desc || b.short || "";
+          main.append(t, d);
+          const rsvpLink = document.createElement("a");
+          rsvpLink.className = "pk-sub";
+          rsvpLink.href = `/rsvp/?book=${encodeURIComponent(b.slug)}`;
+          rsvpLink.title = "RSVP 速読リーダーで開く";
+          rsvpLink.textContent = "⚡ 速読";
+          rsvpLink.addEventListener("click", e => e.stopPropagation());
+          const btn = document.createElement("button");
+          btn.className = "pk-btn";
+          btn.type = "button";
+          btn.textContent = "聴く";
+          row.append(icon, main, rsvpLink, btn);
+          row.addEventListener("click", () => loadLibraryBook(b.slug, b.title || b.slug));
+          pickerList.appendChild(row);
+        }
+        if (want) {
+          const hit = books.find(x => x.slug === want);
+          loadLibraryBook(want, (hit && hit.title) || want);
+        }
+      })
+      .catch(e => {
+        pickerList.innerHTML = `<div class="picker-note">本の一覧を取得できませんでした（${escapeHtml(e.message)}）。上のテキストエリアに文章を貼り付けて使えます。</div>`;
+        if (want) loadLibraryBook(want, want);
+      });
+  }
+
+  // ---- 初期化 ----
+  {
+    const savedText = localStorage.getItem("tts-text") ?? settings.text;
+    if (savedText) input.value = savedText;
+  }
+  setRate.value = settings.rate;
+  $("val-rate").textContent = `${settings.rate.toFixed(2).replace(/\.?0+$/, "")}×`;
+  fulltextEl.hidden = !settings.fulltext;
+  $("btn-fulltext").textContent = settings.fulltext ? "▲ 全文を隠す" : "▼ 全文を表示";
+  if (synth) {
+    loadVoices();
+    synth.onvoiceschanged = loadVoices;
+    // Chromium 系は初回 getVoices() が空のことがあるのでポーリング
+    (function ensureVoices(n) {
+      if (voices.length || n > 20 || !synth) return;
+      setTimeout(() => { loadVoices(); ensureVoices(n + 1); }, 300);
+    })(0);
+  } else {
+    voiceStatus.textContent = "このブラウザは音声合成に対応していません。テキストの閲覧のみ可能です。";
+  }
+  buildSentences();
+  initPicker();
+})();
+</script>
+</body>
+</html>

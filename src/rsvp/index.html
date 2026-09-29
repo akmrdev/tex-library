@@ -334,6 +334,16 @@
     white-space: nowrap;
   }
   .picker-book .pk-btn { padding: 6px 14px; font-size: .8rem; flex-shrink: 0; }
+  .picker-book .pk-sub {
+    padding: 6px 10px;
+    font-size: .75rem;
+    flex-shrink: 0;
+    color: var(--accent2);
+    background: none;
+    border: 1px solid var(--border);
+    text-decoration: none;
+  }
+  .picker-book .pk-sub:hover { border-color: var(--accent2); background: none; }
   .picker-note { color: var(--muted); font-size: .85rem; line-height: 1.8; }
   #picker-status { color: var(--muted); font-size: 12px; margin-top: 8px; min-height: 1em; }
 </style>
@@ -343,6 +353,7 @@
 <h1>RSVP 速読リーダー</h1>
 <div class="sub">Rapid Serial Visual Presentation — 単語（文節）を固定位置に高速表示して読む</div>
 <a class="home-link" href="/">📚 TeX 図書館に戻る</a>
+<a class="home-link" href="/tts/">🔊 読み上げで聴く</a>
 
 <div class="card" id="picker-card">
   <h2>⚡ 図書館の本から選ぶ（RSVP 版）</h2>
@@ -1365,11 +1376,17 @@
           d.className = "pk-desc";
           d.textContent = b.desc || b.short || "";
           main.append(t, d);
+          const ttsLink = document.createElement("a");
+          ttsLink.className = "pk-sub";
+          ttsLink.href = `/tts/?book=${encodeURIComponent(b.slug)}`;
+          ttsLink.title = "読み上げリーダーで開く";
+          ttsLink.textContent = "🔊 聴く";
+          ttsLink.addEventListener("click", e => e.stopPropagation());
           const btn = document.createElement("button");
           btn.className = "pk-btn";
           btn.type = "button";
           btn.textContent = "選ぶ";
-          row.append(icon, main, btn);
+          row.append(icon, main, ttsLink, btn);
           row.addEventListener("click", () => loadLibraryBook(b.slug, b.title || b.slug));
           pickerList.appendChild(row);
         }

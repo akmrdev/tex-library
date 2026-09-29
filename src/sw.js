@@ -4,7 +4,7 @@ const CORE = [
   "/vendor/katex/katex.min.css", "/vendor/hljs/highlight.min.js",
   "/vendor/hljs/github.min.css", "/vendor/hljs/github-dark.min.css",
   "/icon.svg", "/manifest.webmanifest",
-  "/rsvp/", "/rsvp-books.json"
+  "/rsvp/", "/rsvp-books.json", "/tts/"
 ];
 
 self.addEventListener("install", (e) => {
