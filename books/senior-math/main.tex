@@ -1,0 +1,187 @@
+\documentclass{article}
+\title{高校数学やり直し — 二次関数・三角比・指数対数・数列}
+\author{TeX 図書館}
+
+\begin{document}
+
+\section{この教科書のために — 崖を登り直す}
+
+「中学までは分かったのに、高校数学で崖に突き当たった」——最もよくある挫折パターンです。この教科書は、大学数学・統計・プログラミングで必要になる高校数学の\textbf{4 大分野}(二次関数・三角比・指数対数・数列)を、式変形の練習を重ねながら徹底的に復習します。
+
+方針は 2 つです。\textbf{(1)} すべての節で「式変形を手でやる」(\textbf{(2)} 各分野が『大学数学入門』のどこに繋がるかを明示する。数学は知識の積み上げというより\textbf{手順の自動化}であり、この本は自動化のための反復を提供します。
+
+\section{二次関数 — 平方完成を自動化する}
+
+\subsection{平方完成}
+
+二次関数 \(y = ax^2 + bx + c\) の核心は\textbf{平方完成}です:
+\[ y = a\left(x + \frac{b}{2a}\right)^2 + c - \frac{b^2}{4a} \]
+これで頂点 \(\left(-\frac{b}{2a},\ c - \frac{b^2}{4a}\right)\)、最大最小、放物線の向きがすべて読めます。
+
+\begin{quote}
+\textbf{【例】}\ \(y = x^2 - 4x + 1\) を平方完成する。
+\[ y = (x^2 - 4x) + 1 = (x-2)^2 - 4 + 1 = (x-2)^2 - 3 \]
+頂点 \((2, -3)\)、下に凸。最小値 \(-3\) を \(x = 2\) でとる。
+\end{quote}
+
+\subsection{判別式と解の配置}
+
+\(\frac{D}{4} = b^2 - ac\)(\(D = b^2 - 4ac\) の 4 分の 1 版)で実数解の有無が分かります:
+\begin{itemize}
+\item \(D > 0\): 異なる 2 実数解(放物線が x 軸と 2 点で交わる)
+\item \(D = 0\): 重解(接する)
+\item \(D < 0\): 実数解なし(交わらない)
+\end{itemize}
+
+\begin{quote}
+\textbf{【演習】}\ \(y = x^2 - 2x + k\) が x 軴と接するような \(k\) を求めよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 接する = 重解なので \(D/4 = 1 - k = 0\)、よって \(k = 1\)。
+
+\section{三角比 — 単位円で考える}
+
+\subsection{定義と基本恒等式}
+
+単位円(半径 1)上の点 \((\cos\theta, \sin\theta)\) から:
+\[ \sin^2\theta + \cos^2\theta = 1, \qquad \tan\theta = \frac{\sin\theta}{\cos\theta} \]
+
+角度の加法定理:
+\[ \sin(\alpha \pm \beta) = \sin\alpha\cos\beta \pm \cos\alpha\sin\beta \]
+\[ \cos(\alpha \pm \beta) = \cos\alpha\cos\beta \mp \sin\alpha\sin\beta \]
+
+加法定理から倍角公式(2 倍角)が自動的に出ます:
+\[ \sin 2\theta = 2\sin\theta\cos\theta, \qquad \cos 2\theta = 1 - 2\sin^2\theta = 2\cos^2\theta - 1 \]
+
+\begin{quote}
+\textbf{【演習】}\ \(\cos 2\theta = 1 - 2\sin^2\theta\) を加法定理から導け。
+\end{quote}
+
+\textbf{解答の指針:}\ \(\cos(2\theta) = \cos(\theta + \theta) = \cos^2\theta - \sin^2\theta\)。基本恒等式 \(\cos^2\theta = 1 - \sin^2\theta\) を代入して変形。
+
+\subsection{正弦定理・余弦定理}
+
+三角形(角 A, B, C、対辺 a, b, c)で:
+\[ \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R, \qquad a^2 = b^2 + c^2 - 2bc\cos A \]
+
+余弦定理は「3 辺から角度を求める」「2 辺 1 角から残りを求める」万能道具です(\(A = 90°\) のとき \(\cos A = 0\) となりピタゴラスの定理に一致する点に注意)。
+
+\begin{quote}
+\textbf{【演習】}\ \(b = 5, c = 7, A = 60°\) のとき \(a\) を求めよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \(a^2 = 25 + 49 - 2 \cdot 5 \cdot 7 \cdot \frac{1}{2} = 39\)、\(a = \sqrt{39}\)。
+
+\section{指数関数と対数関数 — 増減の言語}
+
+\subsection{指数法則}
+
+\[ a^m \cdot a^n = a^{m+n}, \qquad (a^m)^n = a^{mn}, \qquad (ab)^n = a^n b^n \]
+指数を\textbf{分数や負数}に拡張すると \(a^{1/2} = \sqrt{a}\)、\(a^{-n} = \frac{1}{a^n}\) が定義されます。
+
+\subsection{対数 — 指数を求める操作}
+
+\[ a^x = N \iff x = \log_a N \quad (a > 0,\ a \neq 1) \]
+
+対数の 3 大法則:
+\[ \log_a MN = \log_a M + \log_a N, \qquad \log_a \frac{M}{N} = \log_a M - \log_a N, \qquad \log_a M^p = p \log_a M \]
+\textbf{掛け算が足し算になる}——計算機時代以前はこれが人類の乗算手段でした。自然対数 \(\ln\) は底 \(e \approx 2.718\) で、微分可能な性質から解析学の主役です。
+
+\begin{quote}
+\textbf{【例】}\ \(\log_2 8 + \log_2 4 = \log_2 32 = 5\)。\(\log_2 8 = 3, \log_2 4 = 2\) と一致します。
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ \(\log_{10} 2 = 0.301\) のとき、\(\log_{10} 5\) を求めよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \(5 = 10/2\) なので \(\log_{10} 5 = \log_{10} 10 - \log_{10} 2 = 1 - 0.301 = 0.699\)。
+
+\subsection{指数・対数の応用}
+
+人口増加・複利・半減期はすべて指数モデル \(y = Ca^x\) です。『ファイナンス基礎』の複利、『投資の数学』の 72 の法則はここに接続します:
+\[ C(1.05)^n = 2C \iff n = \frac{\log 2}{\log 1.05} \approx 14.2 \text{ 年} \]
+
+\section{数列 — 規則と和の言葉}
+
+\subsection{等差・等比}
+
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+ & 一般項 & 初項から第 n 項までの和 \\
+\hline
+等差数列(公差 \(d\)) & \(a_n = a + (n-1)d\) & \(S_n = \frac{n\{2a + (n-1)d\}}{2}\) \\
+等比数列(公比 \(r\)) & \(a_n = ar^{n-1}\) & \(S_n = \frac{a(1 - r^n)}{1 - r}\) (\(r \neq 1\)) \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{quote}
+\textbf{【演習】}\ 等差数列の第 3 項が 10、第 7 項が 22 のとき、一般項を求めよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \(a + 2d = 10, a + 6d = 22\) より \(4d = 12\)、\(d = 3, a = 4\)。一般項 \(a_n = 3n + 1\)。
+
+\subsection{階差数列と漸化式}
+
+一般項が見えない数列には\textbf{隣の項との差}(階差)を作ります。階差が等比なら元は「等比の和」の形に書けます。また
+\[ a_{n+1} = a_n + f(n) \text{ 型は階差数列、 } a_{n+1} = p\,a_n + q \text{ 型は特性方程式 } \alpha = p\alpha + q \text{ の解で変形} \]
+が定番の処理手順です。
+
+\begin{quote}
+\textbf{【演習】}\ \(a_1 = 1,\ a_{n+1} = 2a_n + 3\) の一般項を求めよ。
+\end{quote}
+
+\textbf{解答の指針:}\ 特性方程式 \(\alpha = 2\alpha + 3\) の解は \(\alpha = -3\)。\(\{a_n + 3\}\) は公比 2 の等比数列なので \(a_n + 3 = 4 \cdot 2^{n-1}\)、\(a_n = 2^{n+1} - 3\)。
+
+\section{数学的帰納法 — 無限への足場}
+
+命題 \(P(n)\) を「\(n = 1\) で成り立つ」ことと「\(n = k\) で成り立つなら \(n = k + 1\) でも成り立つ」ことの 2 段階で証明するのが数学的帰納法です。ドミノ倒しの構造です。
+
+\begin{quote}
+\textbf{【例】}\ \(\displaystyle \sum_{k=1}^{n} k = \frac{n(n+1)}{2}\) を帰納法で証明する。
+\begin{enumerate}
+\item \(n = 1\): 左辺 1、右辺 \(\frac{1 \cdot 2}{2} = 1\)。成立
+\item \(n = m\) で成立と仮定:\(\sum_{k=1}^{m} k = \frac{m(m+1)}{2}\)
+\item \(n = m+1\): 左辺 \(= \frac{m(m+1)}{2} + (m+1) = \frac{(m+1)(m+2)}{2}\) = 右辺。成立
+\end{enumerate}
+\end{quote}
+
+\begin{quote}
+\textbf{【演習】}\ \(\displaystyle \sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}\) が成り立つことを数学的帰納法で証明せよ(計算量が多いので、まず \(n = 2\) の成立を確認してから全体をやる)。
+\end{quote}
+
+\section{集合と場合の数 — 数え上げの道具}
+
+\begin{itemize}
+\item \textbf{和の法則・積の法則}: 場合分けは足す、段階は掛ける
+\item \textbf{順列と組合せ}: \({}_n\mathrm{P}_r = \frac{n!}{(n-r)!}\)、\({}_n\mathrm{C}_r = \frac{n!}{r!(n-r)!}\)
+\item \textbf{二項定理}: \((a+b)^n = \sum_{k=0}^{n} {}_n\mathrm{C}_k\, a^{n-k} b^k\) ——パスカルの三角形の正体
+\end{itemize}
+
+\begin{quote}
+\textbf{【演習】}\ \((x + 2)^5\) の展開式における \(x^3\) の係数を求めよ。
+\end{quote}
+
+\textbf{解答の指針:}\ \({}_5\mathrm{C}_2 \cdot x^3 \cdot 2^2 = 10 \times 4 = 40\)。
+
+\section{おわりに — 自動化された手順}
+
+この教科書で自動化した手順を振り返ります:平方完成(§2)、単位円による三角比と加法定理(§3)、対数の 3 法則(§4)、等差・等比と漸化式の処理(§5)、帰納法(§6)、数え上げ(§7)。
+
+\textbf{高校数学の「分からない」の多くは、手順の自動化が未完了であること}に起因します。各節の演習を 2 周すること(1 周目は解答を見ながら、2 周目は白紙から)で自動化が完了します。次の一歩は『大学数学入門』です——微積分と線形代数は、この教科書の道具を限界操作と線形化に拡張したものです。
+
+\begin{quote}
+\textbf{【総合演習】}
+\begin{enumerate}
+\item \(y = -2x^2 + 8x - 3\) の頂点と最大値を求めよ。
+\item \(\log_3 81\) を求めよ。
+\item 初項 4、公比 \(\frac{1}{2}\) の等比数列の初項から第 5 項までの和を求めよ。
+\item \((a + b)^4\) の展開式の \(a^2b^2\) の係数を求めよ。
+\end{enumerate}
+\end{quote}
+
+\textbf{解答の指針:}\ 1. \(y = -2(x-2)^2 + 5\)、頂点 \((2, 5)\)、最大値 5。2. \(3^4 = 81\) より 4。3. \(4 \times \frac{1 - (1/2)^5}{1 - 1/2} = 4 \times \frac{31/32}{1/2} = \frac{31}{4}\)。4. \({}_4\mathrm{C}_2 = 6\)。
+
+\end{document}
