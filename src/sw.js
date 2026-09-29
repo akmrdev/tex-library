@@ -3,7 +3,8 @@ const CORE = [
   "/", "/assets/app.css", "/assets/bookshelf.js", "/assets/reader.js", "/assets/prefs.js",
   "/vendor/katex/katex.min.css", "/vendor/hljs/highlight.min.js",
   "/vendor/hljs/github.min.css", "/vendor/hljs/github-dark.min.css",
-  "/icon.svg", "/manifest.webmanifest"
+  "/icon.svg", "/manifest.webmanifest",
+  "/rsvp/", "/rsvp-books.json"
 ];
 
 self.addEventListener("install", (e) => {

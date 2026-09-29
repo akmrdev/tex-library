@@ -58,6 +58,11 @@ html[data-fs="l"] .prefs button[data-pref="font"] { font-size: 1.05rem; }
   font-size: .95rem; font-family: inherit; background: var(--paper); color: var(--ink);
 }
 .shelf-search input:focus { outline: 2px solid hsl(var(--hue, 220), 55%, 60%); outline-offset: -1px; }
+.shelf-rsvp {
+  display: inline-block; border: 1px solid var(--line); background: var(--paper); color: var(--ink);
+  border-radius: 10px; padding: 10px 14px; font-size: .9rem; text-decoration: none; white-space: nowrap;
+}
+.shelf-rsvp:hover { border-color: var(--accent); background: var(--accent-soft); }
 #global-results {
   display: none; position: absolute; z-index: 30; top: calc(100% + 6px); left: 0; right: 0;
   background: var(--paper); border: 1px solid var(--line); border-radius: 12px;

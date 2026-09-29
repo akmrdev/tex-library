@@ -1,0 +1,11 @@
+{
+  "slug": "speedreading",
+  "title": "速読の科学 — RSVP と読書研究",
+  "short": "速読の科学",
+  "desc": "目の運動から RSVP の原理、研究知見(Benedetto・Rayner・Acklin)、実践の使い方まで。速読を「根拠とともに」理解し、日常の読書に組み込むための本。",
+  "icon": "⚡",
+  "hue": 32,
+  "category": "リファレンス",
+  "tags": ["速読", "RSVP", "読書"],
+  "rsvp": true
+}

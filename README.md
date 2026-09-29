@@ -30,8 +30,23 @@ build.mjs ──▶ dist/ (本棚 + リーダー静的サイト)
 - コードブロックのコピーボタン
 - 進捗の JSON 書き出し / 読み込み(本棚フッター)
 - 画面外の節は `content-visibility: auto` で描画をスキップし、長い本でもスクロールが軽い
+- **⚡ 速読（RSVP)**: 専用ページ `/rsvp/` で本を高速流し読み（`"rsvp": true` の本のみ）
 - PWA(SW は HTML を network-first で取得するため、デプロイ後は常に最新が表示される)
 - **ビルド時の整合性検証**(`tools/validate.mjs`): アンカーの飛び先・TOC・search-index・quiz.json を検査し、違反があればビルドが失敗する
+
+## ⚡ 速読（RSVP 版）
+
+**`/rsvp/`** に RSVP(Rapid Serial Visual Presentation)速読リーダーを同梱している
+(vendored `src/rsvp/index.html` をビルド時に `dist/rsvp/` へコピー)。
+本棚ヘッダーの「⚡ 速読」、リーダーのサイドバーの「⚡ 速読で読む」
+(`?book=<slug>` で自動読み込み)、または直接開いて本を選べる。
+貼り付け・テキスト/PDF ファイル・URL 取り込み・速度設定・統計もそのまま使える。
+
+- 対象は `books/<slug>/book.json` に `"rsvp": true` を書いた本
+- ビルド時に自動生成:
+  - **`dist/book/<slug>/rsvp.txt`** — RSVP 専用フォーマット(本文の全文プレーンテキスト)。
+    マークアップ・KaTeX 数式・コードは取り除き、ブロックの境目は空行、見出しは「N. タイトル」の 1 行になる
+  - **`dist/rsvp-books.json`** — RSVP 版の本のインデックス(`{slug, title, short, desc, icon, hue}`)
 
 ## 教科書の追加・更新
 

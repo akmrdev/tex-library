@@ -18,6 +18,8 @@ const SRC = join(ROOT, "src");
 const req = createRequire(import.meta.url);
 const VERSION = Date.now().toString(36);
 const katex = req(join(ROOT, "vendor/katex/katex.min.cjs"));
+// book.json に "rsvp": true の本のインデックス(dist/rsvp-books.json 用)
+const rsvpBooks = [];
 
 function runPandoc(texPath, format) {
   const r = spawnSync("pandoc", [
@@ -106,6 +108,67 @@ function numberHeadings(parts, sections) {
 
 function stripTags(s) {
   return s.replace(/<[^>]+>/g, "").trim();
+}
+
+// ---------- RSVP 専用フォーマット(rsvp.txt) ----------
+
+// HTML エンティティをデコード(数値参照 + 主要な名前付き参照)
+function decodeEntities(s) {
+  return s
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
+    .replace(/&quot;/g, '"').replace(/&apos;/g, "'")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&");
+}
+
+// KaTeX が出力した <span class="katex…">…</span> をタグの対応を取りながら丸ごと削除する
+// (RSVP は数式を読めないため、レンダリング結果も原文 TeX も含め取り除く)
+function stripKatex(html) {
+  let out = "", pos = 0;
+  for (;;) {
+    const start = html.indexOf('<span class="katex', pos);
+    if (start === -1) return out + html.slice(pos);
+    out += html.slice(pos, start);
+    let depth = 0, i = start;
+    const re = /<span\b[^>]*>|<\/span>/g;
+    re.lastIndex = start;
+    let m;
+    while ((m = re.exec(html))) {
+      depth += m[0][1] === "/" ? -1 : 1;
+      i = m.index + m[0].length;
+      if (depth === 0) break;
+    }
+    pos = i;
+  }
+}
+
+// 本文 HTML から RSVP 用のプレーンテキストを抽出する。
+// 仕様: スクリプト/ナビ/コード/数式は取り除き、ブロックの境目は空行に、
+// 見出しは「N. タイトル」の 1 行に。段落は空行区切り・UTF-8 で書き出す。
+function htmlToRsvpText(html) {
+  let s = html;
+  // 本文として読む価値のない(あるいは読めない)要素を取り除く
+  s = s.replace(/<script\b[\s\S]*?<\/script>/gi, "");
+  s = s.replace(/<style\b[\s\S]*?<\/style>/gi, "");
+  s = s.replace(/<nav\b[\s\S]*?<\/nav>/gi, "");          // 節の前後ナビ
+  s = s.replace(/<summary\b[\s\S]*?<\/summary>/gi, "");  // 「解答を表示」ラベル
+  s = s.replace(/<pre\b[\s\S]*?<\/pre>/gi, "");          // コードブロック
+  s = s.replace(/<code\b[\s\S]*?<\/code>/gi, "");        // インラインコード
+  s = stripKatex(s);
+  s = s.replace(/<span class="math (?:inline|display)">[\s\S]*?<\/span>/g, ""); // プリレンダ前の数式
+  // 節番号は「1. 」形式に置き換えて見出しを読みやすく
+  s = s.replace(/<span class="sec-num">([\s\S]*?)<\/span>/g, "$1. ");
+  // ブロックの終わりを空行に、<br> は改行に
+  s = s.replace(/<\/(p|h[1-6]|li|div|tr|blockquote|figcaption|section|table|ul|ol)>/gi, "\n\n");
+  s = s.replace(/<br\s*\/?>/gi, "\n");
+  // 残りのタグはすべて除去
+  s = s.replace(/<[^>]+>/g, "");
+  s = decodeEntities(s);
+  // 空白を整える: 行内の連続空白は 1 つに、3 つ以上の改行は空行 1 つに
+  s = s.replace(/[ \t\u00a0]+/g, " ").replace(/ *\n */g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+  return s + "\n";
 }
 
 // ---------- PDF 生成(tectonic があれば) ----------
@@ -221,6 +284,17 @@ function buildBook(dir, wantPdf) {
     htmlParts.push(`<section class="sec" id="quiz">\n<h1 id="quiz"><span class="sec-num">${sections.length}</span>確認テスト</h1>\n<p>各教科書の内容を確認する全${quiz.length}問。選ぶと正否と解説が表示されます。</p>\n<div id="quiz-root"></div>\n</section>`);
   }
   const content = htmlParts.join("\n");
+
+  // RSVP 専用フォーマット: book.json に "rsvp": true の本は全文プレーンテキストを生成
+  if (meta.rsvp) {
+    writeFileSync(join(outDir, "rsvp.txt"), htmlToRsvpText(content), "utf8");
+    rsvpBooks.push({
+      slug, title: meta.title, short: meta.short, desc: meta.desc,
+      icon: meta.icon, hue: meta.hue,
+    });
+    console.log(`built rsvp: ${slug} → rsvp.txt`);
+  }
+
   const toc = sections.map(({ id, title, subs, num }) => ({ id, title, subs: subs.map(({ id: sid, title: st, num: sn }) => ({ id: sid, title: st, num: sn })), num }));
 
   const html = readerTemplate({ meta, toc, content, hasPdf, quiz, hasFlashcards });
@@ -231,6 +305,7 @@ function buildBook(dir, wantPdf) {
   return {
     slug, title: meta.title, short: meta.short, desc: meta.desc,
     icon: meta.icon, hue: meta.hue, category: meta.category,
+    rsvp: !!meta.rsvp,
     tags: meta.tags ?? [],
     sections: sections.length,
     sectionsText,
@@ -419,6 +494,7 @@ function prefsToolbar() {
 function readerTemplate({ meta, toc, content, hasPdf, quiz, hasFlashcards }) {
   const pdfLink = hasPdf ? `<a class="pdf-link" href="book.pdf" download>⬇️ PDF 版</a>` : "";
   const cardsLink = hasFlashcards ? `<a class="pdf-link" href="cards/">🎴 学習カード</a>` : "";
+  const rsvpLink = meta.rsvp ? `<a class="pdf-link" href="/rsvp/?book=${esc(meta.slug)}">⚡ 速読で読む</a>` : "";
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -431,6 +507,7 @@ ${baseHead(`${meta.title} — TeX 図書館`, meta.desc)}
   <h2 class="toc-book"><span class="toc-icon">${meta.icon}</span>${esc(meta.title)}</h2>
   ${pdfLink}
   ${cardsLink}
+  ${rsvpLink}
   <nav id="toc-nav"></nav>
   <div class="toc-progress"><div class="toc-progress-bar"><div id="toc-progress-fill"></div></div><span id="toc-progress-text"></span></div>
 </aside>
@@ -467,6 +544,7 @@ ${baseHead("TeX 図書館 — TeX 教科書ライブラリ", "TeX で書かれ�
   <h1>📚 TeX 図書館</h1>
   <p>TeX で書かれた教科書をブラウザで読むライブラリ。数式は組み込み済み、読書進捗はこのブラウザに保存されます。</p>
   <div class="shelf-search">${prefsToolbar()}
+    <a class="shelf-rsvp" href="/rsvp/">⚡ 速読</a>
     <input id="global-search" type="search" placeholder="すべての教科書を横断検索…" autocomplete="off">
     <div id="global-results"></div>
   </div>
@@ -516,6 +594,13 @@ for (const b of books) {
   });
 }
 writeFileSync(join(DIST, "search-index.json"), JSON.stringify(searchEntries));
+
+// RSVP 専用フォーマット: 本の一覧と RSVP ページ(dist/rsvp/)
+writeFileSync(join(DIST, "rsvp-books.json"), JSON.stringify(rsvpBooks, null, 2));
+mkdirSync(join(DIST, "rsvp"), { recursive: true });
+cpSync(join(SRC, "rsvp", "index.html"), join(DIST, "rsvp", "index.html"));
+if (rsvpBooks.length) console.log(`built rsvp page: dist/rsvp/index.html (${rsvpBooks.length} books)`);
+else console.log("built rsvp page: dist/rsvp/index.html (rsvp 本なし — index のみ)");
 
 for (const item of ["vendor", "assets"]) {
   cpSync(join(ROOT, item), join(DIST, item), { recursive: true });

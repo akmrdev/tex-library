@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RSVP 速読リーダー — TeX 図書館</title>
+<meta name="description" content="RSVP(Rapid Serial Visual Presentation)速読リーダー — TeX 図書館の本を高速で流し読みする">
+<meta name="theme-color" content="#0f1115">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #171a21;
+    --panel2: #1e222b;
+    --border: #2a2f3a;
+    --text: #e8eaf0;
+    --muted: #8a91a0;
+    --accent: #ff5c5c;
+    --accent2: #4da3ff;
+    --ok: #3ecf8e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px 48px;
+  }
+  h1 { font-size: 20px; font-weight: 600; margin-bottom: 4px; }
+  .sub { color: var(--muted); font-size: 12px; margin-bottom: 20px; }
+
+  .card {
+    width: 100%;
+    max-width: 760px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .card h2 { font-size: 14px; font-weight: 600; color: var(--muted); margin-bottom: 12px; }
+
+  /* ---- 入力エリア ---- */
+  textarea {
+    width: 100%;
+    height: 140px;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 12px;
+    resize: vertical;
+    font-family: inherit;
+  }
+  textarea:focus { outline: none; border-color: var(--accent2); }
+  .input-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .url-row { display: flex; gap: 8px; margin-top: 10px; }
+  .url-row input {
+    flex: 1;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 13px;
+    padding: 9px 12px;
+  }
+  .url-row input:focus { outline: none; border-color: var(--accent2); }
+  #import-status { color: var(--muted); font-size: 12px; margin-top: 6px; min-height: 1em; }
+
+  /* ---- 表示エリア ---- */
+  .display-wrap {
+    position: relative;
+    height: 200px;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    touch-action: pan-y;
+  }
+  .guide-top, .guide-bottom {
+    position: absolute;
+    left: 20px; right: 20px;
+    height: 1px;
+    background: var(--border);
+  }
+  .guide-top { top: 38px; }
+  .guide-bottom { bottom: 38px; }
+  .pivot-mark {
+    position: absolute;
+    top: 38px; bottom: 38px;
+    left: 50%;
+    width: 1px;
+    background: color-mix(in srgb, var(--accent) 30%, transparent);
+    transform: translateX(-0.5px);
+  }
+  #word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 600;
+    white-space: nowrap;
+    font-feature-settings: "palt";
+    letter-spacing: 0.02em;
+    visibility: visible;
+  }
+  #word .orp { color: var(--accent); }
+  #word.idle { color: var(--muted); font-size: 18px; font-weight: 400; }
+  .display-wrap.next #word { top: 40%; }
+  #next-line {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: var(--muted);
+    white-space: nowrap;
+    display: none;
+  }
+  .display-wrap.next #next-line { display: block; }
+  #countdown {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--accent2);
+    background: color-mix(in srgb, var(--panel2) 80%, transparent);
+  }
+  #countdown.hidden, #replay.hidden, #peek.hidden, #break.hidden { display: none; }
+  #replay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 36px;
+    font-size: 19px;
+    line-height: 1.9;
+    text-align: center;
+    background: color-mix(in srgb, var(--panel2) 92%, transparent);
+    overflow: hidden;
+  }
+  #replay .tag, #peek .tag, #break .tag {
+    position: absolute;
+    top: 8px; left: 12px;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+  #peek {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px 30px;
+    font-size: 14px;
+    line-height: 1.8;
+    background: color-mix(in srgb, var(--panel2) 96%, transparent);
+    overflow: auto;
+    cursor: pointer;
+  }
+  #peek .cur { color: var(--accent); font-weight: 600; }
+  #peek .dim { color: var(--muted); }
+  #break {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: color-mix(in srgb, var(--panel2) 92%, transparent);
+    text-align: center;
+  }
+  #break .big { font-size: 40px; }
+  #break .note { color: var(--muted); font-size: 13px; }
+
+  .statusbar {
+    display: flex;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 8px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---- 進捗バー ---- */
+  .progress {
+    height: 5px;
+    background: var(--panel2);
+    border-radius: 3px;
+    margin-top: 8px;
+    overflow: hidden;
+  }
+  #progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent2), var(--accent));
+    transition: width 0.15s linear;
+  }
+
+  /* ---- コントロール ---- */
+  .controls { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+  button {
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.15s;
+    font-family: inherit;
+  }
+  button:hover { background: #262b36; }
+  button.primary { background: var(--accent2); border-color: var(--accent2); color: #0b0e13; font-weight: 600; }
+  button.primary:hover { filter: brightness(1.1); }
+  button:disabled { opacity: 0.4; cursor: default; }
+
+  /* ---- 設定 ---- */
+  .settings { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px 24px; }
+  .setting label { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+  .setting label b { color: var(--text); font-variant-numeric: tabular-nums; }
+  input[type=range] { width: 100%; accent-color: var(--accent2); }
+  select {
+    width: 100%;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 13px;
+  }
+  .setting.chk label { justify-content: flex-start; gap: 8px; align-items: center; cursor: pointer; color: var(--text); margin-bottom: 0; }
+  .setting.chk input { accent-color: var(--accent2); }
+  .setting .status { font-size: 11px; color: var(--muted); margin-top: 4px; min-height: 1em; }
+
+  /* ---- 統計 ---- */
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+  .stat {
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+  .stat .v { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .stat .k { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .chart { display: flex; align-items: flex-end; gap: 8px; margin-top: 14px; }
+  .chart .col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+  .chart .bar {
+    width: 100%; max-width: 32px;
+    background: linear-gradient(180deg, var(--accent2), transparent);
+    border-radius: 3px 3px 0 0;
+  }
+  .chart .lbl { font-size: 10px; color: var(--muted); }
+
+  /* ---- 視線較正 ---- */
+  #calib { position: fixed; inset: 0; display: none; background: rgba(0,0,0,0.88); z-index: 60; }
+  #calib.show { display: block; }
+  #calib .instr {
+    position: absolute; top: 24px; left: 0; right: 0;
+    text-align: center; color: var(--text); font-size: 15px;
+  }
+  #calib .dot {
+    position: absolute; width: 26px; height: 26px; border-radius: 50%;
+    background: var(--accent); transform: translate(-50%, -50%);
+    cursor: pointer;
+    box-shadow: 0 0 0 5px color-mix(in srgb, var(--accent) 25%, transparent);
+  }
+  #calib .dot.done { background: var(--ok); pointer-events: none; }
+
+  .hint { color: var(--muted); font-size: 12px; margin-top: 14px; line-height: 1.8; }
+  kbd {
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 11px;
+    font-family: inherit;
+  }
+
+  /* ---- 図書館ピッカー（RSVP 版の本を選ぶ） ---- */
+  .home-link {
+    display: inline-block;
+    color: var(--accent2);
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  .home-link:hover { text-decoration: underline; }
+  .picker-list { display: flex; flex-direction: column; gap: 8px; }
+  .picker-book {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: border-color .15s, background .15s;
+  }
+  .picker-book:hover { border-color: var(--accent2); }
+  .picker-book.active {
+    border-color: var(--accent2);
+    background: color-mix(in srgb, var(--accent2) 12%, var(--panel2));
+  }
+  .picker-book .pk-icon { font-size: 1.5rem; line-height: 1; flex-shrink: 0; }
+  .picker-book .pk-main { flex: 1; min-width: 0; }
+  .picker-book .pk-title { font-size: .95rem; font-weight: 600; }
+  .picker-book .pk-desc {
+    font-size: .75rem;
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .picker-book .pk-btn { padding: 6px 14px; font-size: .8rem; flex-shrink: 0; }
+  .picker-note { color: var(--muted); font-size: .85rem; line-height: 1.8; }
+  #picker-status { color: var(--muted); font-size: 12px; margin-top: 8px; min-height: 1em; }
+</style>
+</head>
+<body>
+
+<h1>RSVP 速読リーダー</h1>
+<div class="sub">Rapid Serial Visual Presentation — 単語（文節）を固定位置に高速表示して読む</div>
+<a class="home-link" href="/">📚 TeX 図書館に戻る</a>
+
+<div class="card" id="picker-card">
+  <h2>⚡ 図書館の本から選ぶ（RSVP 版）</h2>
+  <div class="picker-list" id="picker-list"><div class="picker-note">本の一覧を読み込んでいます…</div></div>
+  <div id="picker-status" role="status"></div>
+</div>
+
+<div class="card">
+  <textarea id="input" placeholder="読みたい文章を貼り付けてください"></textarea>
+  <div class="input-actions">
+    <button id="btn-load">表示エリアに読み込む</button>
+    <button id="btn-sample">サンプル文を入れる</button>
+    <button id="btn-paste">📋 貼り付け</button>
+    <button id="btn-clear">🗑 クリア</button>
+    <button id="btn-file">📄 ファイルを開く</button>
+    <input type="file" id="file-input" accept=".txt,.md,.markdown,.text,.pdf,text/plain,text/markdown,application/pdf" hidden>
+  </div>
+  <div class="hint" style="margin-top:6px">テキストファイル（.txt / .md）とPDF（テキスト層のあるもの）は、ここにドラッグ&ドロップでも読み込めます。</div>
+  <div class="url-row">
+    <input id="url-input" type="url" placeholder="https:// — 記事のURLを入れて本文を取り込む">
+    <button id="btn-import">URLから取り込む</button>
+  </div>
+  <div id="import-status"></div>
+</div>
+
+<div class="card">
+  <div class="display-wrap" id="display-wrap">
+    <div class="guide-top"></div>
+    <div class="guide-bottom"></div>
+    <div class="pivot-mark"></div>
+    <div id="word" class="idle">テキストを読み込んでください</div>
+    <div id="next-line"></div>
+    <div id="replay" class="hidden"><span class="tag">CONTEXT</span><span id="replay-text"></span></div>
+    <div id="peek" class="hidden"><span class="tag">PEEK — クリック/任意のキーで戻る</span><div id="peek-body"></div></div>
+    <div id="break" class="hidden"><span class="tag">BREAK</span><div class="big">☕</div><div>しばらく読み続けました。少し目を休めましょう</div><div class="note">クリックまたは任意のキーで再開</div></div>
+    <div id="countdown" class="hidden">3</div>
+  </div>
+  <div class="statusbar">
+    <span id="status-pos">0 / 0</span>
+    <span id="status-eta">残り —</span>
+    <span id="status-actual">実測 —</span>
+    <span id="status-wpm">— wpm</span>
+  </div>
+  <div class="progress"><div id="progress-fill"></div></div>
+  <div class="controls">
+    <button id="btn-start" class="primary" disabled>▶ 開始</button>
+    <button id="btn-reset" disabled>⟲ 停止して先頭へ</button>
+    <button id="btn-back" disabled>◀ 10語戻る</button>
+    <button id="btn-fwd" disabled>10語進む ▶</button>
+    <button id="btn-peek" disabled>👁 前後を見る</button>
+  </div>
+</div>
+
+<div class="card">
+  <div class="settings">
+    <div class="setting">
+      <label>速度 <b id="val-wpm">400 wpm</b></label>
+      <input type="range" id="set-wpm" min="100" max="1200" step="25" value="400">
+    </div>
+    <div class="setting">
+      <label>1表示あたりの最大文字数 <b id="val-chunk">6</b></label>
+      <input type="range" id="set-chunk" min="2" max="14" step="1" value="6">
+    </div>
+    <div class="setting">
+      <label>文字サイズ <b id="val-font">40 px</b></label>
+      <input type="range" id="set-font" min="24" max="80" step="2" value="40">
+    </div>
+    <div class="setting">
+      <label>区切り方</label>
+      <select id="set-split">
+        <option value="auto">自動判定（推奨）</option>
+        <option value="jp">日本語（文節風）</option>
+        <option value="en">英語（単語）</option>
+      </select>
+    </div>
+    <div class="setting chk">
+      <label><input type="checkbox" id="set-replay"> 文末で全文を一瞬表示</label>
+      <div class="status">文脈を確認してから次の文へ（Rayner 2016 の後戻り問題への対処）</div>
+    </div>
+    <div class="setting chk">
+      <label><input type="checkbox" id="set-next"> 次のチャンクを2段目に表示</label>
+      <div class="status">フレーズの流れを掴みやすくする（FRED 方式の簡易版）</div>
+    </div>
+    <div class="setting chk">
+      <label><input type="checkbox" id="set-adaptive"> 適応速度</label>
+      <div class="status">カタカナ語・数字は遅く、短い語は速く表示</div>
+    </div>
+    <div class="setting">
+      <label>ウォームアップ</label>
+      <select id="set-warmup">
+        <option value="0">なし</option>
+        <option value="10" selected>10秒</option>
+        <option value="30">30秒</option>
+        <option value="60">60秒</option>
+      </select>
+    </div>
+    <div class="setting">
+      <label>語間ブランク <b id="val-gap">0 ms</b></label>
+      <input type="range" id="set-gap" min="0" max="120" step="10" value="0">
+      <div class="status">語の間に無表示フレームを挟み、残像を消す</div>
+    </div>
+    <div class="setting">
+      <label>休憩リマインダー</label>
+      <select id="set-break">
+        <option value="0">なし</option>
+        <option value="3">3分ごと</option>
+        <option value="5" selected>5分ごと</option>
+        <option value="10">10分ごと</option>
+      </select>
+    </div>
+    <div class="setting chk">
+      <label><input type="checkbox" id="set-kuromoji"> 形態素解析で分割（日本語）</label>
+      <div class="status" id="kuromoji-status">初回のみ辞書（約5MB）を読み込みます。オフのときは文字種ベースの簡易分割</div>
+    </div>
+    <div class="setting chk">
+      <label><input type="checkbox" id="set-gaze"> 視線追跡で自動停止</label>
+      <div class="status" id="gaze-status">カメラ使用。画面外を見たら一時停止します</div>
+      <button id="btn-calib" style="margin-top:8px; padding:6px 12px; font-size:12px">視線を較正する（9点）</button>
+    </div>
+  </div>
+  <div class="hint">
+    <kbd>Space</kbd> 開始/一時停止　<kbd>Esc</kbd> 停止して先頭へ　<kbd>↑</kbd><kbd>↓</kbd> 速度変更　<kbd>←</kbd><kbd>⇧→</kbd> 10語戻る/進む　<kbd>→</kbd> 前後の文を見る（Peek）<br>
+    スマホ: 表示エリアをタップで再生/一時停止、左右スワイプで10語移動。設定・文章・統計はブラウザ（localStorage）に保存され、読み途中の位置も記憶されます。
+  </div>
+</div>
+
+<div class="card">
+  <h2>読書統計</h2>
+  <div class="stats-grid" id="stats"></div>
+  <div class="chart" id="chart"></div>
+</div>
+
+<div id="calib">
+  <div class="instr">9つの点を順にクリック/タップしてください（視線追跡の較正）</div>
+  <div id="calib-dots"></div>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const $ = id => document.getElementById(id);
+  const input = $("input"), wordEl = $("word"), countdownEl = $("countdown");
+  const displayWrap = $("display-wrap"), nextLineEl = $("next-line");
+  const replayEl = $("replay"), replayText = $("replay-text");
+  const peekEl = $("peek"), peekBody = $("peek-body");
+  const breakEl = $("break");
+  const btnStart = $("btn-start"), btnReset = $("btn-reset"), btnBack = $("btn-back"), btnPeek = $("btn-peek"), btnFwd = $("btn-fwd");
+  const posEl = $("status-pos"), etaEl = $("status-eta"), wpmEl = $("status-wpm"), actualEl = $("status-actual");
+  const fillEl = $("progress-fill");
+  const importStatus = $("import-status");
+  const kuromojiStatus = $("kuromoji-status"), gazeStatus = $("gaze-status");
+  const fileInput = $("file-input");
+  const calibEl = $("calib"), calibDots = $("calib-dots");
+
+  // ---- 状態 ----
+  let tokens = [];        // [{text, pause, sIdx}]
+  let sentences = [];     // 文ごとの原文
+  let index = 0;
+  let running = false;
+  let curSentenceIdx = 0;
+  let sessionTokens = 0, sessionChars = 0, readMs = 0, lastBreakAt = 0, sessionStartTokenAt = 0;
+  let peekWasRunning = false;
+  let gazeAuto = false;
+  let cdTimer = null;
+  let restoredPos = false;
+  // 実測速度計測（壁時間。一時停止中は tick がないので自然に除外される）
+  let tickWall = 0, wallMs = 0, replayMs = 0;
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  // 保留中のタイマー（pause で全部キャンセル）
+  let timers = [];
+  function schedule(fn, ms) { const id = setTimeout(() => { timers = timers.filter(t => t !== id); fn(); }, ms); timers.push(id); return id; }
+  function clearTimers() { timers.forEach(clearTimeout); timers = []; }
+
+  // ---- 設定（localStorage に保存） ----
+  const settings = Object.assign(
+    { wpm: 400, chunk: 6, font: 40, split: "auto",
+      replay: true, next: false, adaptive: true, warmup: 10,
+      gap: 0, breakMin: 5, gaze: false, kuromoji: false,
+      text: "", posHash: "", posIndex: 0 },
+    JSON.parse(localStorage.getItem("rsvp-settings") || "{}")
+  );
+  // 本文は別キーに保存（長文でも設定の保存が壊れないように）。旧形式の text は移行元として使う
+  delete settings.posText;
+  function saveSettings() {
+    settings.text = input.value; // 実行中の一時保持用（永続は rsvp-text に分離）
+    const { text, ...persist } = settings;
+    try { localStorage.setItem("rsvp-text", text); } catch (e) { /* 長文すぎる場合は本文を保存せず設定だけ残す */ }
+    try { localStorage.setItem("rsvp-settings", JSON.stringify(persist)); } catch (e) { /* noop */ }
+  }
+  function hashStr(s) {
+    let h = 5381;
+    for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
+    return String(h);
+  }
+
+  // ---- トークン化 ----
+  const PAUSE_STRONG = 2.6;  // 。！？.!? で文末
+  const PAUSE_WEAK = 1.5;    // 、など
+
+  function isJP(s) {
+    const jp = (s.match(/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/g) || []).length;
+    return jp > s.replace(/\s/g, "").length * 0.3;
+  }
+
+  function splitSentences(text) {
+    return text.split(/(?<=[。！？!?])|\n+/).map(s => s.trim()).filter(Boolean);
+  }
+
+  function tokenizeJP(text) {
+    const re = /([\u3400-\u9fff\uf900-\ufaff々〆ヶ]+|[\u30a0-\u30ffー]+|[\u3040-\u309fー]+|[A-Za-z0-9]+(?:['’-][A-Za-z]+)*|[^\s\u3400-\u9fff\uf900-\ufaff々〆ヶ\u3040-\u30ffーA-Za-z0-9]+)/g;
+    return text.match(re) || [];
+  }
+
+  function tokenizeEN(text) {
+    return text.split(/\s+/).filter(Boolean);
+  }
+
+  // ---- 形態素解析（kuromoji, 任意） ----
+  let kTokenizer = null, kLoading = false;
+  const KUROMOJI_DIC = "https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict/";
+
+  function loadKuromoji() {
+    if (kTokenizer) return Promise.resolve(kTokenizer);
+    if (kLoading) return new Promise((res, rej) => {
+      const iv = setInterval(() => {
+        if (kTokenizer) { clearInterval(iv); res(kTokenizer); }
+        else if (!kLoading) { clearInterval(iv); rej(new Error("load failed")); }
+      }, 200);
+    });
+    kLoading = true;
+    kuromojiStatus.textContent = "辞書を読み込み中…（初回のみ、数MB）";
+    return new Promise((res, rej) => {
+      const fin = (err, tok) => {
+        kLoading = false;
+        if (err) {
+          kuromojiStatus.textContent = "辞書の読み込みに失敗。文字種ベースの分割にフォールバックします";
+          rej(err);
+        } else {
+          kTokenizer = tok;
+          kuromojiStatus.textContent = "形態素解析で分割しています";
+          res(tok);
+        }
+      };
+      const s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/build/kuromoji.js";
+      s.onload = () => kuromoji.builder({ dicPath: KUROMOJI_DIC }).build(fin);
+      s.onerror = () => fin(new Error("kuromoji script load failed"));
+      document.head.appendChild(s);
+    });
+  }
+
+  function tokenizeJPKuromoji(text) {
+    const kt = kTokenizer.tokenize(text);
+    const chunks = [];
+    let cur = "";
+    for (const t of kt) {
+      const sf = t.surface_form, p = t.pos || "";
+      if (/^[、。！？!?…，,\.\s「」『』（）]+$/.test(sf)) {
+        if (cur) { chunks.push(cur); cur = ""; }
+        chunks.push(sf);
+        continue;
+      }
+      const attach = cur && (p.startsWith("助詞") || p.startsWith("助動詞") || p.startsWith("記号"));
+      if (attach) cur += sf;
+      else { if (cur) chunks.push(cur); cur = sf; }
+    }
+    if (cur) chunks.push(cur);
+    return chunks;
+  }
+
+  function groupTokens(raw, sIdx) {
+    const maxLen = settings.chunk;
+    const out = [];
+    let buf = "", bufPause = 0;
+    const flush = () => {
+      if (buf) { out.push({ text: buf, pause: bufPause, sIdx }); buf = ""; bufPause = 0; }
+    };
+    for (const t of raw) {
+      const isPunct = /^[^\u3040-\u30ff\u3400-\u9fff\uf900-\ufaffA-Za-z0-9]+$/.test(t);
+      let p = 0;
+      if (isPunct) p = /[。！？\.\!\?]/.test(t) ? PAUSE_STRONG : PAUSE_WEAK;
+      if (isPunct && buf) { buf += t; bufPause = p; flush(); continue; }
+      // 単体で上限を超える塊（形態素解析由来など）は硬分割
+      if (!buf && t.length > maxLen) {
+        for (let i = 0; i < t.length; i += maxLen) {
+          out.push({ text: t.slice(i, i + maxLen), pause: 0, sIdx });
+        }
+        continue;
+      }
+      if (buf && (buf + t).length > maxLen) flush();
+      buf += t; bufPause = Math.max(bufPause, p);
+      if (p) flush();
+    }
+    flush();
+    return out;
+  }
+
+  function buildTokens() {
+    const text = input.value.trim();
+    const mode = settings.split === "auto" ? (isJP(text) ? "jp" : "en") : settings.split;
+    sentences = splitSentences(text);
+    tokens = [];
+    sentences.forEach((s, sIdx) => {
+      let raw;
+      if (mode === "jp" && settings.kuromoji && kTokenizer) {
+        raw = tokenizeJPKuromoji(s);
+      } else {
+        raw = mode === "jp" ? tokenizeJP(s) : tokenizeEN(s);
+      }
+      tokens.push(...groupTokens(raw, sIdx));
+    });
+    // 形態素解析が有効でまだ辞書が無い場合、裏で読み込めてから再構築
+    if (mode === "jp" && settings.kuromoji && !kTokenizer) {
+      loadKuromoji().then(() => { if (settings.kuromoji) buildTokens(); }).catch(() => {});
+    }
+    // 前回の続きから（同じテキストのときだけ）
+    restoredPos = false;
+    index = 0;
+    if (settings.posHash && settings.posHash === hashStr(input.value)
+        && settings.posIndex > 0 && settings.posIndex < tokens.length) {
+      index = settings.posIndex;
+      restoredPos = true;
+    }
+    renderIdle();
+    updateStatus();
+  }
+
+  // ---- 再読位置の保存 ----
+  function savePos() {
+    if (index > 0 && index < tokens.length) {
+      settings.posHash = hashStr(input.value);
+      settings.posIndex = index;
+    } else {
+      settings.posHash = "";
+      settings.posIndex = 0;
+    }
+    saveSettings();
+  }
+
+  // ---- 速度計算 ----
+  function intervalMs(tok) {
+    let base = 60000 / settings.wpm;
+    const len = [...tok.text].length;
+    base *= 1 + Math.max(0, len - 4) * 0.06;              // 長いチャンクは遅く
+    if (settings.adaptive) {
+      if (/[\u30a0-\u30ff]/.test(tok.text)) base *= 1.2;   // カタカナ語
+      if (/\d/.test(tok.text)) base *= 1.2;                // 数字
+      if (len <= 2) base *= 0.85;                          // 短い語
+    }
+    if (settings.warmup > 0 && readMs < settings.warmup * 1000) {
+      base *= 1 + 0.5 * (1 - readMs / (settings.warmup * 1000)); // ウォームアップ: 最大1.5倍遅くから設定速度へ
+    }
+    return base;
+  }
+  const totalMs = tok => intervalMs(tok) * (tok.pause || 1);
+
+  // ---- 表示 ----
+  function orpIndex(s) {
+    const n = [...s].length;
+    if (n <= 1) return 0;
+    return Math.min(Math.floor((n - 1) / 3) + (n >= 6 ? 1 : 0), n - 1);
+  }
+
+  function renderToken(tok) {
+    const chars = [...tok.text];
+    const oi = orpIndex(tok.text);
+    let html = "";
+    chars.forEach((c, i) => {
+      const escaped = c.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      html += i === oi ? `<span class="orp">${escaped}</span>` : escaped;
+    });
+    wordEl.classList.remove("idle");
+    wordEl.innerHTML = html;
+    // チャンクが表示枠を超えるときは自動で縮小（モバイル等の狭い画面向け）
+    wordEl.style.fontSize = `${settings.font}px`;
+    const allowed = displayWrap.clientWidth - 36;
+    if (wordEl.scrollWidth > allowed && wordEl.scrollWidth > 0) {
+      wordEl.style.fontSize = `${Math.max(13, Math.floor(settings.font * allowed / wordEl.scrollWidth))}px`;
+    }
+    // ORP 文字の中心を表示エリア中央の縦線に揃える
+    const orpSpan = wordEl.querySelector(".orp");
+    if (orpSpan) {
+      const wrapRect = displayWrap.getBoundingClientRect();
+      const r = orpSpan.getBoundingClientRect();
+      const cur = parseFloat(wordEl.dataset.shift || 0);
+      const shift = cur + (wrapRect.left + wrapRect.width / 2) - (r.left + r.width / 2);
+      wordEl.dataset.shift = shift;
+      wordEl.style.transform = `translate(calc(-50% + ${shift}px), -50%)`;
+    }
+    // 2段表示: 次のチャンクをプレビュー
+    if (settings.next && tokens[index] && index < tokens.length) {
+      nextLineEl.textContent = tokens[index].text;
+      displayWrap.classList.add("next");
+    } else {
+      displayWrap.classList.remove("next");
+    }
+  }
+
+  function renderIdle() {
+    wordEl.dataset.shift = 0;
+    wordEl.style.transform = "translate(-50%, -50%)";
+    wordEl.classList.add("idle");
+    displayWrap.classList.remove("next");
+    nextLineEl.textContent = "";
+    wordEl.textContent = !tokens.length
+      ? "上に文章を入れて「表示エリアに読み込む」"
+      : restoredPos ? `前回の続き（${Math.round(index / tokens.length * 100)}%）から Space で再開` : "Space で開始";
+  }
+
+  // ---- 文末リプレイ ----
+  function showReplay(sIdx, done) {
+    let s = sentences[sIdx];
+    const truncated = s.length > 160;
+    replayText.textContent = truncated ? s.slice(0, 160) + "…" : s;
+    replayText.style.fontSize = s.length > 80 ? `${Math.max(13, settings.font * 0.32)}px` : "";
+    replayEl.classList.remove("hidden");
+    wordEl.style.visibility = "hidden";
+    const ms = Math.min(4200, 600 + s.length * 26);
+    replayMs += ms;
+    schedule(() => {
+      replayEl.classList.add("hidden");
+      wordEl.style.visibility = "";
+      done();
+    }, ms);
+  }
+
+  // ---- Peek（前後の文を見る） ----
+  function peek() {
+    if (!tokens.length) return;
+    peekWasRunning = running;
+    if (running) pause();
+    const parts = [];
+    for (let i = curSentenceIdx - 1; i <= curSentenceIdx + 1; i++) {
+      if (i < 0 || i >= sentences.length) continue;
+      parts.push(`<div class="${i === curSentenceIdx ? "cur" : "dim"}">${escapeHtml(sentences[i])}</div>`);
+    }
+    peekBody.innerHTML = parts.join("");
+    peekEl.classList.remove("hidden");
+  }
+  function closePeek() {
+    peekEl.classList.add("hidden");
+    if (peekWasRunning) start(false);
+  }
+
+  // ---- 休憩リマインダー ----
+  function checkBreak() {
+    if (settings.breakMin > 0 && readMs - lastBreakAt >= settings.breakMin * 60000) {
+      lastBreakAt = readMs;
+      pause();
+      breakEl.classList.remove("hidden");
+    }
+  }
+  function closeBreak() {
+    breakEl.classList.add("hidden");
+    start(false);
+  }
+
+  // ---- 再生ループ ----
+  function tick() {
+    if (index >= tokens.length) { finish(); return; }
+    const now = performance.now();
+    if (tickWall > 0) wallMs += now - tickWall;
+    tickWall = now;
+    const tok = tokens[index];
+    curSentenceIdx = tok.sIdx;
+    renderToken(tok);
+    updateStatus();
+    index++;
+    sessionTokens++; sessionChars += tok.text.length;
+    const total = totalMs(tok);
+    readMs += total;
+    schedule(checkBreak, 0);
+    if (settings.gap > 0) schedule(() => { wordEl.style.visibility = "hidden"; }, Math.max(0, total - settings.gap));
+    schedule(() => {
+      wordEl.style.visibility = "";
+      // 文末リプレイ
+      if (settings.replay && tok.pause === PAUSE_STRONG && sentences[tok.sIdx]) {
+        showReplay(tok.sIdx, tick);
+      } else {
+        tick();
+      }
+    }, total);
+  }
+
+  function start(withCountdown = true) {
+    if (running || !tokens.length) return;
+    if (index >= tokens.length) index = 0;
+    running = true;
+    setButtons();
+    if (!withCountdown) { tick(); return; }
+    let n = 3;
+    countdownEl.classList.remove("hidden");
+    countdownEl.textContent = n;
+    cdTimer = setInterval(() => {
+      n--;
+      if (n <= 0) {
+        clearInterval(cdTimer);
+        countdownEl.classList.add("hidden");
+        if (running) tick();
+      } else {
+        countdownEl.textContent = n;
+      }
+    }, 500);
+  }
+
+  function pause() {
+    running = false;
+    clearTimers();
+    clearInterval(cdTimer);
+    countdownEl.classList.add("hidden");
+    wordEl.style.visibility = "";
+    tickWall = 0;
+    savePos();
+    setButtons();
+  }
+
+  function finish() {
+    pause();
+    saveSession();
+    index = 0;
+    renderIdle();
+    updateStatus();
+    setButtons();
+  }
+
+  function stop() {
+    pause();
+    saveSession();
+    sessionTokens = 0; sessionChars = 0; readMs = 0; lastBreakAt = 0;
+    wallMs = 0; replayMs = 0; tickWall = 0;
+    settings.posHash = ""; settings.posIndex = 0;
+    index = 0;
+    renderIdle();
+    updateStatus();
+  }
+
+  function back(n) {
+    const wasRunning = running;
+    pause();
+    index = Math.max(0, index - n);
+    if (tokens[index]) renderToken(tokens[index]);
+    updateStatus();
+    if (wasRunning) start(false);
+  }
+
+  function forward(n) {
+    const wasRunning = running;
+    pause();
+    index = Math.min(tokens.length, index + n);
+    if (tokens[index]) renderToken(tokens[index]);
+    else renderIdle();
+    updateStatus();
+    if (wasRunning && index < tokens.length) start(false);
+  }
+
+  // ---- UI 状態 ----
+  function setButtons() {
+    btnStart.textContent = running ? "⏸ 一時停止" : (index > 0 && index < tokens.length ? "▶ 再開" : "▶ 開始");
+    btnReset.disabled = btnBack.disabled = btnFwd.disabled = btnPeek.disabled = !tokens.length;
+    btnStart.disabled = !tokens.length;
+  }
+
+  function updateStatus() {
+    posEl.textContent = `${Math.min(index, tokens.length)} / ${tokens.length}`;
+    fillEl.style.width = tokens.length ? `${(index / tokens.length) * 100}%` : "0%";
+    if (index < tokens.length) {
+      const remain = tokens.slice(index).reduce((s, t) => s + totalMs(t), 0);
+      etaEl.textContent = `残り ${Math.ceil(remain / 60000 * 10) / 10} 分`;
+    } else {
+      etaEl.textContent = "残り —";
+    }
+    wpmEl.textContent = `${settings.wpm} wpm`;
+    const ms = wallMs - replayMs;
+    actualEl.textContent = (sessionTokens > 2 && ms > 500)
+      ? `実測 ${Math.round(sessionTokens / ms * 60000)} wpm`
+      : "実測 —";
+  }
+
+  // ---- 統計 ----
+  function loadStats() {
+    return JSON.parse(localStorage.getItem("rsvp-stats") || '{"sessions":[]}');
+  }
+  function saveSession() {
+    if (sessionTokens === 0) return;
+    const stats = loadStats();
+    stats.sessions.push({
+      d: new Date().toISOString().slice(0, 10),
+      tokens: sessionTokens,
+      chars: sessionChars,
+      ms: Math.round(readMs),
+    });
+    if (stats.sessions.length > 500) stats.sessions = stats.sessions.slice(-500);
+    try { localStorage.setItem("rsvp-stats", JSON.stringify(stats)); } catch (e) { /* noop */ }
+    sessionTokens = 0; sessionChars = 0; readMs = 0; lastBreakAt = 0;
+    renderStats();
+  }
+  function renderStats() {
+    const stats = loadStats();
+    const total = stats.sessions.reduce(
+      (a, s) => ({ chars: a.chars + s.chars, ms: a.ms + s.ms, n: a.n + 1 }),
+      { chars: 0, ms: 0, n: 0 }
+    );
+    const today = new Date().toISOString().slice(0, 10);
+    const todayChars = stats.sessions.filter(s => s.d === today).reduce((a, s) => a + s.chars, 0);
+    const mins = Math.round(total.ms / 60000);
+    $("stats").innerHTML = [
+      [total.n.toLocaleString(), "セッション"],
+      [total.chars.toLocaleString(), "累計文字数"],
+      [todayChars.toLocaleString(), "今日の文字数"],
+      [mins >= 1 ? `${mins} 分` : `${total.ms < 1000 ? 0 : Math.round(total.ms / 1000)} 秒`, "累計読書時間"],
+    ].map(([v, k]) => `<div class="stat"><div class="v">${v}</div><div class="k">${k}</div></div>`).join("");
+    // 直近7日間のミニグラフ
+    const days = [];
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date(Date.now() - i * 86400000);
+      days.push({ key: d.toISOString().slice(0, 10), lbl: `${d.getMonth() + 1}/${d.getDate()}`, chars: 0 });
+    }
+    stats.sessions.forEach(s => { const day = days.find(d => d.key === s.d); if (day) day.chars += s.chars; });
+    const max = Math.max(1, ...days.map(d => d.chars));
+    $("chart").innerHTML = days.map(d =>
+      `<div class="col"><div class="bar" style="height:${Math.max(2, d.chars / max * 44)}px" title="${d.chars.toLocaleString()} 文字"></div><div class="lbl">${d.lbl}</div></div>`
+    ).join("");
+  }
+
+  // ---- URL 取り込み ----
+  async function importUrl() {
+    const url = $("url-input").value.trim();
+    if (!/^https?:\/\//.test(url)) { importStatus.textContent = "URLを入力してください"; return; }
+    importStatus.textContent = "本文を取得中…";
+    let text = "";
+    try {
+      // r.jina.ai がページを本文抽出して返す（CORS 対応）
+      const r = await fetch(`https://r.jina.ai/${url}`);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      text = await r.text();
+      const m = text.indexOf("Markdown Content:");
+      if (m >= 0) text = text.slice(m + "Markdown Content:".length);
+    } catch (e) {
+      try {
+        const r = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`);
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const html = await r.text();
+        const doc = new DOMParser().parseFromString(html, "text/html");
+        doc.querySelectorAll("script,style,nav,header,footer,aside").forEach(el => el.remove());
+        text = doc.body.textContent;
+      } catch (e2) {
+        importStatus.textContent = `取得に失敗しました（${e2.message}）。CORS で取得できない場合は文章をコピーして貼り付けてください。`;
+        return;
+      }
+    }
+    // マークダウン記法・余分な空白を整理
+    text = text
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+      .replace(/^#{1,6}\s+/gm, "")
+      .replace(/^[>\-*\s]*\n/gm, "\n")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+    if (!text) { importStatus.textContent = "本文が空でした"; return; }
+    input.value = text;
+    saveSettings();
+    buildTokens();
+    importStatus.textContent = `取り込み完了（${text.length.toLocaleString()} 文字）`;
+  }
+
+  // ---- 視線追跡 ----
+  let gazeActive = false, lastGazeIn = 0, gazeInterval = null;
+
+  function loadScript(src) {
+    return new Promise((res, rej) => {
+      const s = document.createElement("script");
+      s.src = src;
+      s.onload = res;
+      s.onerror = () => rej(new Error("script load failed"));
+      document.head.appendChild(s);
+    });
+  }
+
+  async function enableGaze() {
+    gazeStatus.textContent = "WebGazer を読み込み中…（カメラを許可してください）";
+    try {
+      if (!window.webgazer) {
+        await loadScript("https://cdn.jsdelivr.net/npm/webgazer@2.1.0/dist/webgazer.min.js");
+      }
+      webgazer.setGazeListener((data) => {
+        if (!data) return;
+        const r = displayWrap.getBoundingClientRect();
+        if (data.x >= r.left && data.x <= r.right && data.y >= r.top && data.y <= r.bottom) {
+          lastGazeIn = Date.now();
+        }
+      });
+      await webgazer.begin();
+      webgazer.showVideoPreview(false).showPredictionPoints(false);
+      gazeActive = true;
+      lastGazeIn = Date.now();
+      gazeStatus.textContent = "動作中 — 画面外を見ると一時停止します";
+      gazeInterval = setInterval(() => {
+        const inView = Date.now() - lastGazeIn < 1500;
+        if (running && !inView) { gazeAuto = true; pause(); }
+        else if (!running && gazeAuto && inView) { gazeAuto = false; start(false); }
+      }, 500);
+    } catch (e) {
+      gazeStatus.textContent = "利用できません（カメラ未許可または読み込み失敗）";
+      $("set-gaze").checked = false;
+      settings.gaze = false;
+      saveSettings();
+    }
+  }
+
+  function disableGaze() {
+    gazeActive = false; gazeAuto = false;
+    clearInterval(gazeInterval);
+    try { if (window.webgazer) webgazer.end(); } catch (e) { /* noop */ }
+    gazeStatus.textContent = "カメラ使用。画面外を見たら一時停止します";
+  }
+
+  // ---- 視線較正（9点クリック） ----
+  async function calibrateGaze() {
+    if (!settings.gaze) {
+      setGaze.checked = true;
+      settings.gaze = true;
+      saveSettings();
+      await enableGaze();
+      if (!gazeActive) return; // カメラ許可が得られなかった
+    }
+    calibDots.innerHTML = "";
+    for (const fy of [0.15, 0.5, 0.85]) {
+      for (const fx of [0.15, 0.5, 0.85]) {
+        const d = document.createElement("div");
+        d.className = "dot";
+        d.style.left = `${fx * 100}%`;
+        d.style.top = `${fy * 100}%`;
+        d.addEventListener("click", () => {
+          try { webgazer.recordScreenPosition(fx * innerWidth, fy * innerHeight, "click"); } catch (e) { /* noop */ }
+          d.classList.add("done");
+          if ([...calibDots.children].every(c => c.classList.contains("done"))) {
+            setTimeout(() => calibEl.classList.remove("show"), 350);
+            gazeStatus.textContent = "較正完了 — 画面外を見ると一時停止します";
+          }
+        });
+        calibDots.appendChild(d);
+      }
+    }
+    calibEl.classList.add("show");
+  }
+
+  // ---- 設定 UI ----
+  const setWpm = $("set-wpm"), setChunk = $("set-chunk"), setFont = $("set-font"), setSplit = $("set-split");
+  const setReplay = $("set-replay"), setNext = $("set-next"), setAdaptive = $("set-adaptive");
+  const setWarmup = $("set-warmup"), setGap = $("set-gap"), setBreak = $("set-break"), setGaze = $("set-gaze");
+  const setKuromoji = $("set-kuromoji");
+
+  function applySettingsToUI() {
+    setWpm.value = settings.wpm; $("val-wpm").textContent = `${settings.wpm} wpm`;
+    setChunk.value = settings.chunk; $("val-chunk").textContent = settings.chunk;
+    setFont.value = settings.font; $("val-font").textContent = `${settings.font} px`;
+    setSplit.value = settings.split;
+    setReplay.checked = settings.replay;
+    setNext.checked = settings.next;
+    setAdaptive.checked = settings.adaptive;
+    setWarmup.value = String(settings.warmup);
+    setGap.value = settings.gap; $("val-gap").textContent = `${settings.gap} ms`;
+    setBreak.value = String(settings.breakMin);
+    setGaze.checked = settings.gaze;
+    setKuromoji.checked = settings.kuromoji;
+    wordEl.style.fontSize = `${settings.font}px`;
+    replayEl.style.fontSize = `${Math.max(14, settings.font * 0.45)}px`;
+  }
+
+  setWpm.addEventListener("input", () => {
+    settings.wpm = +setWpm.value;
+    $("val-wpm").textContent = `${settings.wpm} wpm`;
+    saveSettings(); updateStatus();
+  });
+  setChunk.addEventListener("input", () => {
+    settings.chunk = +setChunk.value;
+    $("val-chunk").textContent = settings.chunk;
+    saveSettings(); buildTokens();
+  });
+  setFont.addEventListener("input", () => {
+    settings.font = +setFont.value;
+    $("val-font").textContent = `${settings.font} px`;
+    wordEl.style.fontSize = `${settings.font}px`;
+    replayEl.style.fontSize = `${Math.max(14, settings.font * 0.45)}px`;
+    saveSettings();
+    if (tokens[index]) renderToken(tokens[index]);
+  });
+  setSplit.addEventListener("change", () => { settings.split = setSplit.value; saveSettings(); buildTokens(); });
+  setReplay.addEventListener("change", () => { settings.replay = setReplay.checked; saveSettings(); });
+  setNext.addEventListener("change", () => { settings.next = setNext.checked; saveSettings(); });
+  setAdaptive.addEventListener("change", () => { settings.adaptive = setAdaptive.checked; saveSettings(); });
+  setWarmup.addEventListener("change", () => { settings.warmup = +setWarmup.value; saveSettings(); });
+  setGap.addEventListener("input", () => {
+    settings.gap = +setGap.value;
+    $("val-gap").textContent = `${settings.gap} ms`;
+    saveSettings();
+  });
+  setBreak.addEventListener("change", () => { settings.breakMin = +setBreak.value; saveSettings(); });
+  setKuromoji.addEventListener("change", () => {
+    settings.kuromoji = setKuromoji.checked;
+    saveSettings();
+    if (settings.kuromoji) {
+      // 辞書がなければ読み込み、終わったら再構築
+      buildTokens();
+    } else {
+      kuromojiStatus.textContent = "オフ。文字種ベースの簡易分割を使用中";
+    }
+  });
+  setGaze.addEventListener("change", () => {
+    settings.gaze = setGaze.checked;
+    saveSettings();
+    if (settings.gaze) enableGaze(); else disableGaze();
+  });
+
+  // ---- 入力・ボタン ----
+  $("btn-load").addEventListener("click", () => { stop(); saveSettings(); buildTokens(); setButtons(); });
+  $("btn-sample").addEventListener("click", () => {
+    input.value = "速読のRSVP（Rapid Serial Visual Presentation）は、単語を画面上の同じ位置に次々と高速で切り替えて表示する読書手法です。私たちが普段の読書で費やしている時間の多くは、眼球を次の注視点へ動かすサッカードと呼ばれる運動です。RSVPはこの目の動きを不要にすることで、読書速度の制約を取り払います。慣れてくると毎分四百語を超える速度でも読めるようになります。一方で、一度流れた単語を後戻りして読み返すことができないため、難解な文章や数式を含む文書には向いていません。まずは遅めの速度から始めて、少しずつ上げていくのがおすすめです。";
+    saveSettings(); buildTokens(); setButtons();
+  });
+  $("btn-import").addEventListener("click", importUrl);
+  btnStart.addEventListener("click", () => running ? pause() : start());
+  btnReset.addEventListener("click", stop);
+  btnBack.addEventListener("click", () => back(10));
+  btnFwd.addEventListener("click", () => forward(10));
+  btnPeek.addEventListener("click", () => peekEl.classList.contains("hidden") ? peek() : closePeek());
+  $("btn-calib").addEventListener("click", calibrateGaze);
+
+  // ---- ファイル読み込み ----
+  function readFile(f) {
+    if (f.type === "application/pdf" || /\.pdf$/i.test(f.name)) { extractPdf(f); return; }
+    const r = new FileReader();
+    r.onload = () => {
+      input.value = r.result;
+      saveSettings();
+      stop();
+      buildTokens();
+      setButtons();
+    };
+    r.readAsText(f);
+  }
+
+  // ---- PDF からの本文抽出（pdf.js を遅延ロード） ----
+  function loadPdfJs() {
+    if (window.pdfjsLib) return Promise.resolve();
+    return loadScript("https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js").then(() => {
+      pdfjsLib.GlobalWorkerOptions.workerSrc =
+        "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js";
+    });
+  }
+
+  async function extractPdf(f) {
+    importStatus.textContent = "PDF を解析中…";
+    try {
+      await loadPdfJs();
+      const buf = await f.arrayBuffer();
+      const pdf = await pdfjsLib.getDocument({ data: buf }).promise;
+      let out = "";
+      for (let i = 1; i <= pdf.numPages; i++) {
+        importStatus.textContent = `PDF を解析中…（${i} / ${pdf.numPages} ページ）`;
+        const page = await pdf.getPage(i);
+        const tc = await page.getTextContent();
+        for (const it of tc.items) {
+          out += it.str;
+          if (it.hasEOL) out += "\n";
+        }
+        out += "\n";
+      }
+      const text = out.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+      if (!text) {
+        importStatus.textContent = "テキスト層がありません（スキャン画像のPDFは対応外です）";
+        return;
+      }
+      input.value = text;
+      saveSettings();
+      stop();
+      buildTokens();
+      setButtons();
+      importStatus.textContent = `PDF から取り込み完了（${text.length.toLocaleString()} 文字 / ${pdf.numPages} ページ）`;
+    } catch (e) {
+      importStatus.textContent = `PDFの解析に失敗しました（${e.message}）`;
+    }
+  }
+  $("btn-paste").addEventListener("click", async () => {
+    try {
+      const text = await navigator.clipboard.readText();
+      if (!text.trim()) { importStatus.textContent = "クリップボードは空です"; return; }
+      input.value = text.trim();
+      saveSettings();
+      stop();
+      buildTokens();
+      setButtons();
+      importStatus.textContent = `貼り付けました（${text.trim().length.toLocaleString()} 文字）`;
+    } catch (e) {
+      importStatus.textContent = "クリップボードを読めませんでした（ブラウザの権限が必要です）。テキストエリアに直接ペーストしてください。";
+      input.focus();
+    }
+  });
+  $("btn-clear").addEventListener("click", () => {
+    input.value = "";
+    saveSettings();
+    stop();
+    buildTokens();
+    setButtons();
+    importStatus.textContent = "";
+  });
+  $("btn-file").addEventListener("click", () => fileInput.click());
+  fileInput.addEventListener("change", () => {
+    const f = fileInput.files[0];
+    if (f) readFile(f);
+    fileInput.value = "";
+  });
+  input.addEventListener("dragover", e => e.preventDefault());
+  input.addEventListener("drop", e => {
+    e.preventDefault();
+    const f = e.dataTransfer.files[0];
+    if (f) readFile(f);
+  });
+
+  // ---- タッチ操作（モバイル） ----
+  let touchStart = null;
+  displayWrap.addEventListener("touchstart", e => {
+    touchStart = { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() };
+  }, { passive: true });
+  displayWrap.addEventListener("touchend", e => {
+    if (!touchStart) return;
+    // オーバーレイが開いているときは触らない
+    if (!peekEl.classList.contains("hidden") || !breakEl.classList.contains("hidden")) { touchStart = null; return; }
+    const dx = e.changedTouches[0].clientX - touchStart.x;
+    const dy = e.changedTouches[0].clientY - touchStart.y;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      dx < 0 ? forward(10) : back(10);
+    } else if (Date.now() - touchStart.t < 400 && Math.abs(dx) < 12 && Math.abs(dy) < 12) {
+      running ? pause() : start();
+    }
+    touchStart = null;
+  }, { passive: true });
+  peekEl.addEventListener("click", closePeek);
+  breakEl.addEventListener("click", closeBreak);
+
+  // キーボード操作
+  document.addEventListener("keydown", e => {
+    if (e.target === input || e.target === $("url-input")) return;
+    if (!breakEl.classList.contains("hidden")) { closeBreak(); return; }
+    if (!peekEl.classList.contains("hidden")) { closePeek(); return; }
+    if (e.code === "Space") { e.preventDefault(); running ? pause() : start(); }
+    else if (e.key === "Escape") stop();
+    else if (e.key === "ArrowUp") { setWpm.value = Math.min(1200, settings.wpm + 25); setWpm.dispatchEvent(new Event("input")); }
+    else if (e.key === "ArrowDown") { setWpm.value = Math.max(100, settings.wpm - 25); setWpm.dispatchEvent(new Event("input")); }
+    else if (e.key === "ArrowLeft") back(10);
+    else if (e.key === "ArrowRight" && e.shiftKey) forward(10);
+    else if (e.key === "ArrowRight") peek();
+  });
+
+  window.addEventListener("beforeunload", () => { savePos(); saveSession(); });
+
+  // PWA: Service Worker（http/https 経由のときのみ。file:// では何もしない）
+  // 図書館サイト共通の SW をルートスコープで登録する（オフライン対応はサイト全体で有効）
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+    navigator.serviceWorker.register("/sw.js").catch(() => {});
+  }
+
+  // ---- 図書館ピッカー（RSVP 専用フォーマット: /book/<slug>/rsvp.txt） ----
+  const pickerList = $("picker-list"), pickerStatus = $("picker-status");
+
+  function markActive(slug) {
+    pickerList.querySelectorAll(".picker-book").forEach(el => {
+      el.classList.toggle("active", el.dataset.slug === slug);
+    });
+  }
+
+  // 本の rsvp.txt（本文のプレーンテキスト）を取り込んで表示エリアに読み込む
+  function loadLibraryBook(slug, title) {
+    pickerStatus.textContent = `「${title}」を読み込み中…`;
+    fetch(`/book/${slug}/rsvp.txt`)
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.text(); })
+      .then(text => {
+        if (!text.trim()) throw new Error("本文が空です");
+        input.value = text;
+        stop();
+        saveSettings();
+        buildTokens();
+        setButtons();
+        markActive(slug);
+        pickerStatus.textContent = `${title} を読み込みました（${text.length.toLocaleString()} 文字）。Space で開始します。`;
+      })
+      .catch(e => {
+        pickerStatus.textContent = `「${title}」の読み込みに失敗しました（${e.message}）。`;
+      });
+  }
+
+  function initPicker() {
+    const want = new URLSearchParams(location.search).get("book");
+    fetch("/rsvp-books.json")
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then(books => {
+        if (!Array.isArray(books) || books.length === 0) {
+          pickerList.innerHTML = '<div class="picker-note">RSVP 版の本はまだありません。下のテキストエリアに文章を貼り付けてそのまま使えます。</div>';
+          return;
+        }
+        pickerList.innerHTML = "";
+        for (const b of books) {
+          const row = document.createElement("div");
+          row.className = "picker-book";
+          row.dataset.slug = b.slug;
+          const icon = document.createElement("span");
+          icon.className = "pk-icon";
+          icon.textContent = b.icon || "📘";
+          const main = document.createElement("div");
+          main.className = "pk-main";
+          const t = document.createElement("div");
+          t.className = "pk-title";
+          t.textContent = b.title || b.slug;
+          const d = document.createElement("div");
+          d.className = "pk-desc";
+          d.textContent = b.desc || b.short || "";
+          main.append(t, d);
+          const btn = document.createElement("button");
+          btn.className = "pk-btn";
+          btn.type = "button";
+          btn.textContent = "選ぶ";
+          row.append(icon, main, btn);
+          row.addEventListener("click", () => loadLibraryBook(b.slug, b.title || b.slug));
+          pickerList.appendChild(row);
+        }
+        // ?book=<slug> ディープリンクで自動読み込み
+        if (want) {
+          const hit = books.find(x => x.slug === want);
+          loadLibraryBook(want, (hit && hit.title) || want);
+        }
+      })
+      .catch(e => {
+        pickerList.innerHTML = `<div class="picker-note">本の一覧を取得できませんでした（${escapeHtml(e.message)}）。下のテキストエリアに文章を貼り付けて使えます。</div>`;
+        // 一覧が取れなくても ?book=<slug> なら読み込みを試みる
+        if (want) loadLibraryBook(want, want);
+      });
+  }
+
+  // ---- 初期化 ----
+  applySettingsToUI();
+  {
+    // 本文は rsvp-text キーから復元。旧形式（settings.text）なら移行
+    const savedText = localStorage.getItem("rsvp-text") ?? settings.text;
+    if (savedText) input.value = savedText;
+  }
+  buildTokens();
+  setButtons();
+  renderStats();
+  initPicker();
+})();
+</script>
+</body>
+</html>
