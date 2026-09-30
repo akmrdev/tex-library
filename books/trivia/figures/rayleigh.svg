@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">レイリー散乱: 波長の 4 乗に反比例して散る</text>
+
+  <!-- 座標軸 -->
+  <line x1="60" y1="40" x2="60" y2="250" stroke="#23272f" stroke-width="1.5"/>
+  <line x1="60" y1="250" x2="410" y2="250" stroke="#23272f" stroke-width="1.5"/>
+  <text x="418" y="254" font-size="11" fill="#23272f">波長</text>
+  <text x="52" y="34" text-anchor="end" font-size="11" fill="#23272f">散乱の強さ</text>
+
+  <!-- 4乗カーブ: 紫(短)が高く 赤(長)が低い -->
+  <path d="M 70,60 C 140,80 220,180 400,240" fill="none" stroke="#6a4fa3" stroke-width="3"/>
+
+  <!-- 波長の位置に色帯 -->
+  <rect x="70" y="256" width="30" height="10" fill="#6a4fa3"/>
+  <rect x="100" y="256" width="30" height="10" fill="#2f5fa8"/>
+  <rect x="130" y="256" width="30" height="10" fill="#4da3ff"/>
+  <rect x="160" y="256" width="30" height="10" fill="#3ecf8e"/>
+  <rect x="190" y="256" width="30" height="10" fill="#c9d54a"/>
+  <rect x="220" y="256" width="30" height="10" fill="#e8a13c"/>
+  <rect x="250" y="256" width="30" height="10" fill="#c0392b"/>
+  <text x="70" y="280" font-size="10" fill="#5a6270">紫(短波長)</text>
+  <text x="250" y="280" font-size="10" fill="#5a6270">赤(長波長)</text>
+
+  <!-- 注釈 -->
+  <text x="340" y="70" font-size="12" fill="#2f5fa8" font-weight="bold">青は約 5 倍散る</text>
+  <line x1="96" y1="64" x2="270" y2="66" stroke="#8a93a5" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="270" y1="66" x2="270" y2="230" stroke="#8a93a5" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="60" y1="230" x2="270" y2="230" stroke="#8a93a5" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="68" y="226" font-size="10" fill="#5a6270">赤の散乱量</text>
+  <text x="276" y="234" font-size="10" fill="#5a6270">青の波長</text>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="294" text-anchor="middle" font-size="12" fill="#5a6270">空が青い=散らされた青が目に届く。夕焼け=青は散らし尽くされ、赤が届く。</text>
+</svg>

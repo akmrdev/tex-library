@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">モーターの原理: 磁場の中のコイルに力が働く</text>
+
+  <!-- 磁石 N(左) S(右) -->
+  <rect x="60" y="90" width="40" height="150" rx="6" fill="#f6d7d4" stroke="#c0392b" stroke-width="1.8"/>
+  <text x="80" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#c0392b">N</text>
+  <rect x="340" y="90" width="40" height="150" rx="6" fill="#d7e4f6" stroke="#2f5fa8" stroke-width="1.8"/>
+  <text x="360" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#2f5fa8">S</text>
+
+  <!-- 磁場の向き N→S -->
+  <g stroke="#b8bfd0" stroke-width="1.2" stroke-dasharray="6 4">
+    <line x1="104" y1="120" x2="336" y2="120"/>
+    <line x1="104" y1="165" x2="336" y2="165"/>
+    <line x1="104" y1="210" x2="336" y2="210"/>
+  </g>
+  <polygon points="342,165 332,160 332,170" fill="#b8bfd0"/>
+  <text x="220" y="86" text-anchor="middle" font-size="11" fill="#8a93a5">磁場 N → S</text>
+
+  <!-- コイル(回転軸に対して縦長の枠) -->
+  <rect x="165" y="110" width="110" height="110" rx="10" fill="none" stroke="#1f6f5c" stroke-width="3.5"/>
+  <!-- 軸 -->
+  <line x1="145" y1="165" x2="295" y2="165" stroke="#23272f" stroke-width="1.5"/>
+  <circle cx="220" cy="165" r="4" fill="#23272f"/>
+
+  <!-- 力の矢印(コイルの左辺: 上向き) -->
+  <line x1="165" y1="200" x2="165" y2="146" stroke="#c0392b" stroke-width="2.5"/>
+  <polygon points="165,140 160,152 170,152" fill="#c0392b"/>
+  <text x="150" y="140" font-size="11" fill="#c0392b" font-weight="bold">力</text>
+  <!-- 力の矢印(コイルの右辺: 下向き) -->
+  <line x1="275" y1="130" x2="275" y2="184" stroke="#c0392b" stroke-width="2.5"/>
+  <polygon points="275,190 270,178 280,178" fill="#c0392b"/>
+  <text x="288" y="196" font-size="11" fill="#c0392b" font-weight="bold">力</text>
+
+  <!-- 回転の矢印 -->
+  <path d="M 220,108 A 58 30 0 0 1 296,138" fill="none" stroke="#8e6c1f" stroke-width="1.8"/>
+  <polygon points="300,144 292,132 286,142" fill="#8e6c1f"/>
+  <text x="296" y="126" font-size="11" fill="#8e6c1f" font-weight="bold">回転</text>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="262" text-anchor="middle" font-size="12" fill="#5a6270">磁場の中の電流に力が働く(左辺は上、右辺は下)= コイルが回ろうとする。</text>
+  <text x="220" y="282" text-anchor="middle" font-size="12" fill="#5a6270">半回転ごとに電流を反転(整流子)すれば、同じ向きの力が続いて回り続ける。</text>
+  <text x="220" y="304" text-anchor="middle" font-size="12" fill="#5a6270">逆にコイルを回せば電気が生まれる(発電機)。同じ構造の逆向きの使い方。</text>
+</svg>

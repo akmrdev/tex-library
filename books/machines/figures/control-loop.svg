@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">フィードバック制御: 目標と現在の差を小さくし続ける</text>
+
+  <!-- ボックス 4 つ(ループ) -->
+  <rect x="40" y="60" width="110" height="56" rx="10" fill="#eef7f3" stroke="#1f6f5c" stroke-width="1.8"/>
+  <text x="95" y="84" text-anchor="middle" font-size="12" font-weight="bold" fill="#23272f">① 目標</text>
+  <text x="95" y="102" text-anchor="middle" font-size="10" fill="#5a6270">「30 度まで」</text>
+
+  <rect x="190" y="60" width="110" height="56" rx="10" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.8"/>
+  <text x="245" y="84" text-anchor="middle" font-size="12" font-weight="bold" fill="#23272f">② センサー</text>
+  <text x="245" y="102" text-anchor="middle" font-size="10" fill="#5a6270">いま何度かを測る</text>
+
+  <rect x="290" y="160" width="110" height="56" rx="10" fill="#fff7e8" stroke="#8e6c1f" stroke-width="1.8"/>
+  <text x="345" y="184" text-anchor="middle" font-size="12" font-weight="bold" fill="#23272f">③ 比較</text>
+  <text x="345" y="202" text-anchor="middle" font-size="10" fill="#5a6270">誤差 = 目標 − 現在</text>
+
+  <rect x="110" y="160" width="110" height="56" rx="10" fill="#fdecec" stroke="#c0392b" stroke-width="1.8"/>
+  <text x="165" y="184" text-anchor="middle" font-size="12" font-weight="bold" fill="#23272f">④ 操作</text>
+  <text x="165" y="202" text-anchor="middle" font-size="10" fill="#5a6270">モーターを動かす</text>
+
+  <!-- 矢印 -->
+  <line x1="150" y1="88" x2="184" y2="88" stroke="#23272f" stroke-width="2"/>
+  <polygon points="190,88 178,83 178,93" fill="#23272f"/>
+  <line x1="300" y1="105" x2="336" y2="154" stroke="#23272f" stroke-width="2"/>
+  <polygon points="339,160 330,150 326,160" fill="#23272f"/>
+  <line x1="284" y1="196" x2="226" y2="196" stroke="#23272f" stroke-width="2"/>
+  <polygon points="220,196 232,191 232,201" fill="#23272f"/>
+  <line x1="140" y1="154" x2="104" y2="120" stroke="#23272f" stroke-width="2"/>
+  <polygon points="100,114 100,126 110,120" fill="#23272f"/>
+
+  <!-- 機械(対象) -->
+  <rect x="40" y="220" width="360" height="34" rx="8" fill="#e9ebee" stroke="#5a6270" stroke-width="1.2"/>
+  <text x="220" y="242" text-anchor="middle" font-size="12" fill="#23272f">機械(ロボットの腕・エレベーター・掃除ロボット)</text>
+  <line x1="95" y1="116" x2="95" y2="214" stroke="#5a6270" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="165" y1="216" x2="165" y2="250" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="278" text-anchor="middle" font-size="12" fill="#5a6270">ループを高速で回し続けることで、自動で「動かす → 確認 → 修正」ができる。</text>
+  <text x="220" y="296" text-anchor="middle" font-size="12" fill="#5a6270">修正が強すぎると振動、弱すぎると遅い。素早く行き過ぎないバランスが設計の核心。</text>
+</svg>

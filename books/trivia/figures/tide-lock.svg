@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">潮汐固定: 自転周期と公転周期が一致する</text>
+
+  <!-- 公転軌道(点線) -->
+  <circle cx="110" cy="150" r="150" fill="none" stroke="#d8dce2" stroke-width="1.2" stroke-dasharray="6 4"/>
+
+  <!-- 地球 -->
+  <circle cx="110" cy="150" r="40" fill="#d7e9f7" stroke="#2f5fa8" stroke-width="2"/>
+  <text x="110" y="156" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f5fa8">地球</text>
+  <!-- 地球の自転 -->
+  <path d="M 110,108 A 42 42 0 0 1 148,126" fill="none" stroke="#5a6270" stroke-width="1.8"/>
+  <polygon points="153,130 143,120 139,129" fill="#5a6270"/>
+  <text x="110" y="94" text-anchor="middle" font-size="11" fill="#5a6270">自転 1 日</text>
+
+  <!-- 月(軌道上、同じ面を内向き) -->
+  <circle cx="260" cy="150" r="24" fill="#e9ebee" stroke="#5a6270" stroke-width="2"/>
+  <circle cx="253" cy="143" r="5" fill="#c8cdd6"/>
+  <circle cx="265" cy="152" r="7" fill="#c8cdd6"/>
+  <circle cx="254" cy="158" r="4" fill="#c8cdd6"/>
+  <text x="260" y="196" text-anchor="middle" font-size="12" font-weight="bold" fill="#23272f">月(裏側は見えない)</text>
+
+  <!-- 月の自転(赤) -->
+  <path d="M 260,120 A 30 30 0 0 1 288,148" fill="none" stroke="#c0392b" stroke-width="1.8"/>
+  <polygon points="291,153 283,142 278,151" fill="#c0392b"/>
+  <text x="308" y="108" text-anchor="start" font-size="11" fill="#c0392b" font-weight="bold">自転 27.3 日</text>
+
+  <!-- 公転(茶) 軌道に沿った矢印 -->
+  <path d="M 249,203 A 150 150 0 0 1 236,229" fill="none" stroke="#8e6c1f" stroke-width="1.8"/>
+  <polygon points="233,234 236,222 244,230" fill="#8e6c1f"/>
+  <text x="262" y="222" text-anchor="start" font-size="11" fill="#8e6c1f" font-weight="bold">公転 27.3 日</text>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="240" text-anchor="middle" font-size="12" fill="#5a6270">自転と公転が同じ 27.3 日 = 地球からは常に同じ面が見える。</text>
+  <text x="220" y="260" text-anchor="middle" font-size="12" fill="#5a6270">潮汐力が長い時間をかけて調整した結果で、偶然ではない。</text>
+  <text x="220" y="284" text-anchor="middle" font-size="12" fill="#5a6270">同じ「周期の同期」で、通信衛星は静止軌道(自転と同じ周期)に置かれる。</text>
+</svg>

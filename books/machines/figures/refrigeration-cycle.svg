@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="400" viewBox="0 0 440 400" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="400" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">冷媒サイクル: 圧縮と膨張で沸点を変え、熱を運ぶ</text>
+
+  <!-- 熱の出入り -->
+  <rect x="40" y="46" width="130" height="58" rx="10" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.8"/>
+  <text x="105" y="70" text-anchor="middle" font-size="12" font-weight="bold" fill="#2f5fa8">冷たい側(庫内)</text>
+  <text x="105" y="90" text-anchor="middle" font-size="10" fill="#5a6270">熱を奪われる</text>
+  <line x1="105" y1="104" x2="105" y2="130" stroke="#2f5fa8" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="105,136 100,126 110,126" fill="#2f5fa8"/>
+
+  <rect x="270" y="46" width="130" height="58" rx="10" fill="#fdeeee" stroke="#c0392b" stroke-width="1.8"/>
+  <text x="335" y="70" text-anchor="middle" font-size="12" font-weight="bold" fill="#c0392b">暖かい側(室外)</text>
+  <text x="335" y="90" text-anchor="middle" font-size="10" fill="#5a6270">熱を捨てる</text>
+  <line x1="335" y1="130" x2="335" y2="158" stroke="#c0392b" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="335,136 330,146 340,146" fill="#c0392b"/>
+
+  <!-- ④ 蒸発器(TL) -->
+  <rect x="50" y="140" width="130" height="60" rx="10" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.8"/>
+  <text x="115" y="164" text-anchor="middle" font-size="12" font-weight="bold" fill="#23272f">④ 蒸発器</text>
+  <text x="115" y="182" text-anchor="middle" font-size="10" fill="#5a6270">低圧で沸騰</text>
+  <text x="115" y="196" text-anchor="middle" font-size="10" fill="#5a6270">周囲から熱を奪う</text>
+
+  <!-- ② 凝縮器(TR) -->
+  <rect x="260" y="140" width="130" height="60" rx="10" fill="#fdeeee" stroke="#c0392b" stroke-width="1.8"/>
+  <text x="325" y="164" text-anchor="middle" font-size="12" font-weight="bold" fill="#23272f">② 凝縮器</text>
+  <text x="325" y="182" text-anchor="middle" font-size="10" fill="#5a6270">高圧で液化</text>
+  <text x="325" y="196" text-anchor="middle" font-size="10" fill="#5a6270">熱を外へ捨てる</text>
+
+  <!-- ① 圧縮機(BR) -->
+  <circle cx="325" cy="300" r="26" fill="#fff7e8" stroke="#8e6c1f" stroke-width="2"/>
+  <text x="325" y="297" text-anchor="middle" font-size="11" font-weight="bold" fill="#8e6c1f">①圧縮</text>
+  <text x="325" y="311" text-anchor="middle" font-size="9" fill="#8e6c1f">電力</text>
+
+  <!-- ③ 膨張弁(BL) -->
+  <polygon points="100,310 134,310 117,282" fill="#eef7f3" stroke="#1f6f5c" stroke-width="2"/>
+  <text x="117" y="330" text-anchor="middle" font-size="11" font-weight="bold" fill="#1f6f5c">③膨張弁</text>
+  <text x="117" y="346" text-anchor="middle" font-size="9" fill="#5a6270">急に減圧</text>
+
+  <!-- ループの矢印(反時計まわり) -->
+  <!-- 蒸発器 → 圧縮機 -->
+  <path d="M 150,200 L 150,300 L 295,300" fill="none" stroke="#23272f" stroke-width="2"/>
+  <polygon points="302,300 290,295 290,305" fill="#23272f"/>
+  <text x="225" y="292" text-anchor="middle" font-size="10" fill="#5a6270">冷たいガス</text>
+  <!-- 圧縮機 → 凝縮器 -->
+  <line x1="325" y1="272" x2="325" y2="204" stroke="#23272f" stroke-width="2"/>
+  <polygon points="325,198 320,210 330,210" fill="#23272f"/>
+  <text x="340" y="250" text-anchor="start" font-size="10" fill="#5a6270">高温高圧</text>
+  <!-- 凝縮器 → 膨張弁 -->
+  <path d="M 270,200 L 270,258 L 117,258 L 117,278" fill="none" stroke="#23272f" stroke-width="2"/>
+  <polygon points="117,284 112,274 122,274" fill="#23272f"/>
+  <text x="200" y="250" text-anchor="middle" font-size="10" fill="#5a6270">中温の液体</text>
+  <!-- 膨張弁 → 蒸発器 -->
+  <path d="M 100,300 L 70,300 L 70,206" fill="none" stroke="#23272f" stroke-width="2"/>
+  <polygon points="70,200 65,212 75,212" fill="#23272f"/>
+  <text x="80" y="290" text-anchor="start" font-size="10" fill="#5a6270">低温低圧</text>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="368" text-anchor="middle" font-size="12" fill="#5a6270">圧縮で沸点を上げて熱を捨て、膨張で沸点を下げて熱を奪う。</text>
+  <text x="220" y="388" text-anchor="middle" font-size="12" fill="#5a6270">冷蔵庫とエアコンは同じ構造。蒸発器をどちら側に置くかの違い。</text>
+</svg>
