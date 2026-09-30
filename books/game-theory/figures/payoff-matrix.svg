@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">利得表: ます目は 2 人の選択の交点</text>
+
+  <!-- 表 -->
+  <rect x="110" y="60" width="150" height="60" fill="#eef2f7" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="260" y="60" width="150" height="60" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="110" y="120" width="150" height="60" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="260" y="120" width="150" height="60" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+
+  <!-- 列ラベル(相手) -->
+  <text x="185" y="52" text-anchor="middle" font-size="13" fill="#2f5fa8" font-weight="bold">相手: ドライブ</text>
+  <text x="335" y="52" text-anchor="middle" font-size="13" fill="#2f5fa8" font-weight="bold">相手: 映画</text>
+  <!-- 行ラベル(自分) -->
+  <text x="100" y="95" text-anchor="end" font-size="13" fill="#1f6f5c" font-weight="bold">自分: ドライブ</text>
+  <text x="100" y="155" text-anchor="end" font-size="13" fill="#1f6f5c" font-weight="bold">自分: 映画</text>
+
+  <!-- 利得 -->
+  <text x="185" y="86" text-anchor="middle" font-size="14" font-weight="bold" fill="#23272f">(3, 2)</text>
+  <text x="185" y="104" text-anchor="middle" font-size="10" fill="#5a6270">一緒にドライブ</text>
+  <text x="335" y="86" text-anchor="middle" font-size="14" font-weight="bold" fill="#23272f">(0, 0)</text>
+  <text x="335" y="104" text-anchor="middle" font-size="10" fill="#5a6270">別行動</text>
+  <text x="185" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#23272f">(0, 0)</text>
+  <text x="185" y="164" text-anchor="middle" font-size="10" fill="#5a6270">別行動</text>
+  <text x="335" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#23272f">(2, 3)</text>
+  <text x="335" y="164" text-anchor="middle" font-size="10" fill="#5a6270">一緒に映画</text>
+
+  <!-- 均衡のます目をハイライト -->
+  <rect x="110" y="60" width="150" height="60" fill="#ff5c5c" opacity="0.12"/>
+  <rect x="260" y="120" width="150" height="60" fill="#ff5c5c" opacity="0.12"/>
+  <text x="185" y="200" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">↑均衡</text>
+  <text x="335" y="200" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">↑均衡</text>
+
+  <!-- 補足 -->
+  <text x="220" y="238" text-anchor="middle" font-size="12" fill="#5a6270">行を選ぶのは自分、列を選ぶのは相手。ます目は合意でなく交点で決まる。</text>
+  <text x="220" y="258" text-anchor="middle" font-size="12" fill="#5a6270">均衡は 2 つ(左上と右下)。どちらに落ち着くかは合図や慣習しだい。</text>
+  <text x="220" y="284" text-anchor="middle" font-size="12" fill="#5a6270">利得は(自分, 相手)の順で、数字は順序さえ合っていれば十分。</text>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">RSA の流れ: 公開鍵で暗号化、秘密鍵だけが復号</text>
+
+  <!-- 送信者 -->
+  <rect x="30" y="70" width="110" height="120" rx="12" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.5"/>
+  <text x="85" y="98" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">送信者</text>
+  <text x="85" y="122" text-anchor="middle" font-size="11" fill="#5a6270">平文 m</text>
+  <text x="85" y="146" text-anchor="middle" font-size="12" fill="#2f5fa8" font-weight="bold">公開鍵 (N, e) で</text>
+  <text x="85" y="166" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f5fa8">c = m^e mod N</text>
+
+  <!-- 受信者 -->
+  <rect x="300" y="70" width="110" height="120" rx="12" fill="#eef7f3" stroke="#1f6f5c" stroke-width="1.5"/>
+  <text x="355" y="98" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">受信者</text>
+  <text x="355" y="122" text-anchor="middle" font-size="11" fill="#5a6270">平文 m を得る</text>
+  <text x="355" y="146" text-anchor="middle" font-size="12" fill="#1f6f5c" font-weight="bold">秘密鍵 d で</text>
+  <text x="355" y="166" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f6f5c">m = c^d mod N</text>
+
+  <!-- 通信路 -->
+  <line x1="145" y1="130" x2="295" y2="130" stroke="#23272f" stroke-width="2"/>
+  <polygon points="302,130 290,125 290,135" fill="#23272f"/>
+  <text x="222" y="118" text-anchor="middle" font-size="12" fill="#23272f" font-weight="bold">暗号文 c</text>
+  <text x="222" y="150" text-anchor="middle" font-size="10" fill="#c0392b">盗み見ても、d がないと戻せない</text>
+
+  <!-- 鍵の作成メモ -->
+  <rect x="70" y="216" width="300" height="66" rx="10" fill="#fff7e8" stroke="#8e6c1f" stroke-width="1.2"/>
+  <text x="220" y="240" text-anchor="middle" font-size="12" fill="#23272f" font-weight="bold">鍵の作成: 素数 p, q → N = pq(公開)</text>
+  <text x="220" y="262" text-anchor="middle" font-size="12" fill="#5a6270">秘密鍵 d を作るには p, q が必要 = N の素因数分解が必要</text>
+  <text x="220" y="298" text-anchor="middle" font-size="12" fill="#5a6270">易しい方向(べき乗)と難しい方向(分解)の差が、扉の 1 方向性になる</text>
+</svg>

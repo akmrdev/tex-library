@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">モジュラ計算: 12 の世界の時計の算数</text>
+
+  <!-- 時計盤 -->
+  <circle cx="220" cy="150" r="90" fill="none" stroke="#23272f" stroke-width="1.8"/>
+  <!-- 目盛と数字 -->
+  <g font-size="12" fill="#23272f" text-anchor="middle">
+    <text x="220" y="74">0(12)</text>
+    <text x="285" y="92">1</text>
+    <text x="320" y="156">2</text>
+    <text x="285" y="222">3</text>
+    <text x="220" y="252">4</text>
+    <text x="155" y="222">5</text>
+    <text x="120" y="156">6</text>
+    <text x="155" y="92">7</text>
+  </g>
+  <g stroke="#5a6270" stroke-width="1">
+    <line x1="220" y1="60" x2="220" y2="70"/>
+    <line x1="302" y1="108" x2="294" y2="113"/>
+    <line x1="310" y1="150" x2="300" y2="150"/>
+    <line x1="302" y1="192" x2="294" y2="187"/>
+    <line x1="220" y1="240" x2="220" y2="230"/>
+    <line x1="138" y1="192" x2="146" y2="187"/>
+    <line x1="130" y1="150" x2="140" y2="150"/>
+    <line x1="138" y1="108" x2="146" y2="113"/>
+  </g>
+
+  <!-- 針: 14 = 2 -->
+  <line x1="220" y1="150" x2="292" y2="148" stroke="#c0392b" stroke-width="2.5"/>
+  <circle cx="220" cy="150" r="4" fill="#c0392b"/>
+  <text x="330" y="146" font-size="12" fill="#c0392b" font-weight="bold">14 mod 12 = 2</text>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="272" text-anchor="middle" font-size="12" fill="#5a6270">13 時は 1 時。足し算・掛け算・べき乗は動くが、結果はすべて余りに折り返される</text>
+  <text x="220" y="292" text-anchor="middle" font-size="12" fill="#5a6270">「結果から何を掛けたか探す」のが難しい = 暗号の鍵の材料</text>
+</svg>

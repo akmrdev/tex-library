@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">ハッシュ: 戻せない指紋</text>
+
+  <!-- じょうご -->
+  <polygon points="150,70 290,70 250,150 190,150" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.8"/>
+  <rect x="214" y="150" width="12" height="30" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.8"/>
+
+  <!-- 入力(上) -->
+  <text x="60" y="95" font-size="12" fill="#23272f">「こんにちは」</text>
+  <line x1="145" y1="90" x2="185" y2="100" stroke="#5a6270" stroke-width="1.2"/>
+  <text x="60" y="125" font-size="12" fill="#23272f">長いファイル</text>
+  <line x1="140" y1="120" x2="185" y2="120" stroke="#5a6270" stroke-width="1.2"/>
+  <text x="60" y="155" font-size="12" fill="#23272f">1 文字だけ違う文</text>
+  <line x1="145" y1="150" x2="185" y2="140" stroke="#5a6270" stroke-width="1.2"/>
+
+  <!-- 出力(下): 固定長 -->
+  <rect x="140" y="190" width="160" height="44" rx="8" fill="#eef7f3" stroke="#1f6f5c" stroke-width="1.5"/>
+  <text x="220" y="217" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f6f5c">a3f1…(固定長)</text>
+  <text x="220" y="260" text-anchor="middle" font-size="12" fill="#5a6270">入力が少し違えば、値はまったく違う</text>
+  <text x="220" y="282" text-anchor="middle" font-size="12" fill="#5a6270">値から元の入力は復元できない(一方向)</text>
+</svg>
