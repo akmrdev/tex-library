@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">sin と cos のグラフ: 同じ形で π/2 ずれ、2π で繰り返す</text>
+
+  <!-- 座標軸: x=40..410 は 0..2π(370px)、中心 y=150、振幅 60 -->
+  <line x1="40" y1="150" x2="410" y2="150" stroke="#5a6270" stroke-width="1"/>
+  <line x1="40" y1="80" x2="40" y2="220" stroke="#5a6270" stroke-width="1.2"/>
+  <text x="34" y="76" text-anchor="end" font-size="11" fill="#5a6270">1</text>
+  <text x="34" y="228" text-anchor="end" font-size="11" fill="#5a6270">-1</text>
+
+  <!-- sin: 青 0..2π 振幅60 -->
+  <path d="M 40,150
+           Q 132,30 225,150
+           Q 317,270 410,150"
+        fill="none" stroke="#2f5fa8" stroke-width="2.5"/>
+  <!-- cos: 緑 1 から始まる(π/2 ずれ) -->
+  <path d="M 40,90
+           C 120,90 145,210 225,210
+           C 305,210 330,90 410,90"
+        fill="none" stroke="#1f6f5c" stroke-width="2.5"/>
+
+  <!-- 目盛: π/2 ごと -->
+  <g font-size="10" fill="#5a6270" text-anchor="middle">
+    <text x="40" y="238">0</text>
+    <text x="133" y="238">π/2</text>
+    <text x="225" y="238">π</text>
+    <text x="317" y="238">3π/2</text>
+    <text x="410" y="238">2π</text>
+  </g>
+  <g stroke="#5a6270" stroke-width="1">
+    <line x1="133" y1="146" x2="133" y2="154"/>
+    <line x1="225" y1="146" x2="225" y2="154"/>
+    <line x1="317" y1="146" x2="317" y2="154"/>
+    <line x1="410" y1="146" x2="410" y2="154"/>
+  </g>
+
+  <!-- 凡例 -->
+  <text x="55" y="100" font-size="12" fill="#2f5fa8" font-weight="bold">sin(0 から始まる)</text>
+  <text x="300" y="80" font-size="12" fill="#1f6f5c" font-weight="bold">cos(1 から始まる)</text>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="266" text-anchor="middle" font-size="12" fill="#5a6270">周期 2π(1 周で元に戻る)、振幅 1。cos は sin を左に π/2 ずらしただけ。</text>
+  <text x="220" y="288" text-anchor="middle" font-size="12" fill="#5a6270">振幅 A・周期 2π/b・始まり c の 3 つのつまみで y = A sin(bθ + c) を作る。</text>
+</svg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">ベクトルの足し算と内積</text>
+
+  <!-- ===== 左: 足し算(引き継ぎ) ===== -->
+  <text x="110" y="52" text-anchor="middle" font-size="13" fill="#23272f" font-weight="bold">足し算: 矢印を引き継ぐ</text>
+  <!-- a: (0,0)->(80,-60) 始点(50,200) -->
+  <line x1="50" y1="200" x2="130" y2="140" stroke="#1f6f5c" stroke-width="2.5"/>
+  <polygon points="137,135 124,138 130,148" fill="#1f6f5c"/>
+  <text x="76" y="158" font-size="13" fill="#1f6f5c" font-weight="bold">a</text>
+  <!-- b: 引き継ぎ (130,140)->(190,170) -->
+  <line x1="130" y1="140" x2="190" y2="170" stroke="#2f5fa8" stroke-width="2.5"/>
+  <polygon points="197,174 184,172 189,162" fill="#2f5fa8"/>
+  <text x="164" y="150" font-size="13" fill="#2f5fa8" font-weight="bold">b</text>
+  <!-- 和: (50,200)->(190,170) -->
+  <line x1="50" y1="200" x2="190" y2="170" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="6 3"/>
+  <polygon points="197,169 185,163 184,175" fill="#c0392b"/>
+  <text x="100" y="224" font-size="13" fill="#c0392b" font-weight="bold">a + b</text>
+
+  <!-- ===== 右: 内積 ===== -->
+  <text x="330" y="52" text-anchor="middle" font-size="13" fill="#23272f" font-weight="bold">内積: 向きの似ている度合い</text>
+  <!-- a: (260,210)->(360,150) -->
+  <line x1="260" y1="210" x2="360" y2="150" stroke="#1f6f5c" stroke-width="2.5"/>
+  <polygon points="367,146 354,148 360,158" fill="#1f6f5c"/>
+  <text x="318" y="170" font-size="13" fill="#1f6f5c" font-weight="bold">a</text>
+  <!-- b: (260,210)->(350,250) -->
+  <line x1="260" y1="210" x2="350" y2="250" stroke="#2f5fa8" stroke-width="2.5"/>
+  <polygon points="357,253 345,254 349,243" fill="#2f5fa8"/>
+  <text x="332" y="266" font-size="13" fill="#2f5fa8" font-weight="bold">b</text>
+  <!-- 角 -->
+  <path d="M 295,193 A 40 40 0 0 1 296,221" fill="none" stroke="#8e6c1f" stroke-width="1.5"/>
+  <text x="302" y="212" font-size="12" fill="#8e6c1f" font-weight="bold">θ</text>
+
+  <!-- 内積の読み -->
+  <text x="330" y="288" text-anchor="middle" font-size="12" fill="#5a6270">同じ向き → 正(最大)、垂直 → 0、逆向き → 負</text>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="308" text-anchor="middle" font-size="12" fill="#5a6270">a・b = |a||b|cos θ = 成分の積の和(a1b1 + a2b2)。内積が 0 なら垂直。</text>
+</svg>
