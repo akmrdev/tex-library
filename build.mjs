@@ -535,6 +535,7 @@ ${quiz ? `<script id="quiz-json" type="application/json">${JSON.stringify(quiz)}
 }
 
 function bookshelfTemplate(books) {
+  const total = books.length;
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -543,14 +544,27 @@ ${baseHead("TeX 図書館 — TeX 教科書ライブラリ", "TeX で書かれ�
 <body class="shelf">
 <header class="shelf-header">
   <h1>📚 TeX 図書館</h1>
-  <p>TeX で書かれた教科書をブラウザで読むライブラリ。数式は組み込み済み、読書進捗はこのブラウザに保存されます。</p>
+  <p>TeX で書かれた教科書をブラウザで読むライブラリ。数式は組み込み済み、読書進捗はこのブラウザに保存されます。収録 ${total} 冊。</p>
   <div class="shelf-search">${prefsToolbar()}
     <a class="shelf-rsvp" href="/rsvp/">⚡ 速読</a>
+    <a class="shelf-rsvp" href="/tts/">🔊 読み上げ</a>
     <input id="global-search" type="search" placeholder="すべての教科書を横断検索…" autocomplete="off">
     <div id="global-results"></div>
   </div>
+  <details class="shelf-paths">
+    <summary>🗺️ 何から読む? — 学習パス</summary>
+    <div class="path-list">
+      <div class="path"><b>数学を学び直す</b><span>中学数学 → 高校数学 → 大学数学 → 線形代数 応用編</span></div>
+      <div class="path"><b>データを読めるようになる</b><span>統計学入門 → ベイズ統計入門 → 時系列分析入門 → 機械学習入門</span></div>
+      <div class="path"><b>投資の土台を築く</b><span>ファイナンス基礎 → 投資の数学 → 株式投資の基礎 → テクニカル分析入門</span></div>
+      <div class="path"><b>プログラミングを始める</b><span>Web フロントエンド入門 → Python 入門 → TypeScript 入門 → アルゴリズムとデータ構造</span></div>
+      <div class="path"><b>理科・語学を学び直す</b><span>高校化学やり直し → 高校物理やり直し → 英語教科書</span></div>
+      <div class="path"><b>思考と文章を鍛える</b><span>論理の組み立て方 → 文章の技術 → 名スピーチ講義</span></div>
+    </div>
+  </details>
+  <div class="shelf-filters" id="shelf-filters" role="tablist"></div>
 </header>
-<main id="shelf" class="shelf-grid"></main>
+<main id="shelf"></main>
 <footer class="shelf-footer">
   <div class="progress-io">
     <button id="progress-export">⬆️ 進捗を書き出す</button>

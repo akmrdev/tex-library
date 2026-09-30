@@ -1,8 +1,37 @@
-// 本棚: 教科書カード + 横断検索 + 進捗の書き出し/読み込み
+// 本棚: カテゴリ別の書架 + 絞り込み + 教科書カード + 横断検索 + 進捗の書き出し/読み込み
 (function () {
   "use strict";
   var books = JSON.parse(document.getElementById("books-json").textContent);
   var shelf = document.getElementById("shelf");
+  var filtersEl = document.getElementById("shelf-filters");
+
+  // カテゴリを大きな書架(棚)にまとめる
+  var GROUPS = [
+    { id: "math",    name: "数学・論理",     match: ["数学", "統計", "論理学"] },
+    { id: "prog",    name: "プログラミング", match: ["プログラミング", "AI", "実習書"] },
+    { id: "money",   name: "投資・金融",     match: ["投資", "経済"] },
+    { id: "science", name: "理科・健康",     match: ["理科", "物理", "健康と性能"] },
+    { id: "study",   name: "学習・語学",     match: ["学習法", "勉強法", "英語"] },
+    { id: "culture", name: "芸術・社会",     match: ["芸術", "心理学"] },
+    { id: "ref",     name: "リファレンス",   match: ["リファレンス", "問題集", "辞典", "読み物"] }
+  ];
+  function groupOf(category) {
+    for (var i = 0; i < GROUPS.length; i++) {
+      if (GROUPS[i].match.indexOf(category) !== -1) return GROUPS[i].id;
+    }
+    return "misc";
+  }
+  function groupName(id) {
+    if (id === "misc") return "その他";
+    for (var i = 0; i < GROUPS.length; i++) if (GROUPS[i].id === id) return GROUPS[i].name;
+    return id;
+  }
+  var order = GROUPS.map(function (g) { return g.id; }).concat(["misc"]);
+
+  // 絞り込み状態(localStorage に保存)
+  var filter = "all";
+  try { filter = localStorage.getItem("texlib-shelf-filter") || "all"; } catch (e) {}
+  if (filter !== "all" && order.indexOf(filter) === -1) filter = "all";
 
   function progressOf(slug) {
     var progress = { read: [], last: null };
@@ -10,34 +39,90 @@
     return progress;
   }
 
+  function cardOf(b) {
+    var progress = progressOf(b.slug);
+    var pct = Math.min(100, Math.round((progress.read.length / Math.max(1, b.sections)) * 100));
+    var card = document.createElement("a");
+    card.className = "book-card";
+    card.href = "/book/" + b.slug + "/" + (progress.last && pct > 0 && pct < 100 ? "?resume=" + progress.last : "");
+    card.style.setProperty("--hue", b.hue);
+
+    var progressHtml = "";
+    if (pct > 0) {
+      progressHtml = '<div class="book-progress">' +
+        (pct >= 100 ? "読了 🎉 " : '<span class="resume-badge">つづきから</span> ') +
+        pct + "% (" + progress.read.length + "/" + b.sections + " 節)" +
+        '<div class="bar"><div class="fill" style="width:' + pct + '%"></div></div></div>';
+    }
+    var extras = b.rsvp ? '<span class="rsvp-chip">⚡ 速読対応</span>' : "";
+
+    card.innerHTML =
+      '<div class="book-icon">' + b.icon + "</div>" +
+      "<h2>" + esc(b.title) + "</h2>" +
+      '<p class="book-desc">' + esc(b.desc) + "</p>" +
+      '<div class="book-meta"><span>' + esc(b.category) + "</span><span>" + b.sections + " 節</span>" +
+      b.tags.map(function (t) { return "<span>" + esc(t) + "</span>"; }).join("") + extras + "</div>" +
+      progressHtml;
+    return card;
+  }
+
+  function sectionOf(groupId, groupBooks) {
+    var sec = document.createElement("section");
+    sec.className = "shelf-group";
+    var h = document.createElement("h2");
+    h.innerHTML = esc(groupName(groupId)) + ' <span class="count">' + groupBooks.length + " 冊</span>";
+    var grid = document.createElement("div");
+    grid.className = "shelf-grid";
+    groupBooks.forEach(function (b) { grid.appendChild(cardOf(b)); });
+    sec.appendChild(h);
+    sec.appendChild(grid);
+    return sec;
+  }
+
   function render() {
     shelf.innerHTML = "";
-    books.forEach(function (b) {
-      var progress = progressOf(b.slug);
-      var pct = Math.min(100, Math.round((progress.read.length / Math.max(1, b.sections)) * 100));
-      var card = document.createElement("a");
-      card.className = "book-card";
-      card.href = "/book/" + b.slug + "/" + (progress.last && pct > 0 && pct < 100 ? "?resume=" + progress.last : "");
-      card.style.setProperty("--hue", b.hue);
+    var byGroup = {};
+    order.forEach(function (id) { byGroup[id] = []; });
+    books.forEach(function (b) { byGroup[groupOf(b.category)].push(b); });
 
-      var progressHtml = "";
-      if (pct > 0) {
-        progressHtml = '<div class="book-progress">' +
-          (pct >= 100 ? "読了 🎉 " : '<span class="resume-badge">つづきから</span> ') +
-          pct + "% (" + progress.read.length + "/" + b.sections + " 節)" +
-          '<div class="bar"><div class="fill" style="width:' + pct + '%"></div></div></div>';
-      }
+    if (filter === "all") {
+      order.forEach(function (id) {
+        if (byGroup[id].length) shelf.appendChild(sectionOf(id, byGroup[id]));
+      });
+    } else {
+      shelf.appendChild(sectionOf(filter, byGroup[filter]));
+    }
+  }
 
-      card.innerHTML =
-        '<div class="book-icon">' + b.icon + "</div>" +
-        "<h2>" + esc(b.title) + "</h2>" +
-        '<p class="book-desc">' + esc(b.desc) + "</p>" +
-        '<div class="book-meta"><span>' + esc(b.category) + "</span><span>" + b.sections + " 節</span>" +
-        b.tags.map(function (t) { return "<span>" + esc(t) + "</span>"; }).join("") + "</div>" +
-        progressHtml;
-      shelf.appendChild(card);
+  // ---- 絞り込みチップ ----
+  function renderFilters() {
+    var byGroup = {};
+    order.forEach(function (id) { byGroup[id] = 0; });
+    books.forEach(function (b) { byGroup[groupOf(b.category)]++; });
+
+    filtersEl.innerHTML = "";
+    var mk = function (id, label, count) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "shelf-chip" + (filter === id ? " active" : "");
+      btn.setAttribute("aria-pressed", filter === id ? "true" : "false");
+      btn.innerHTML = esc(label) + ' <span class="chip-count">' + count + "</span>";
+      btn.addEventListener("click", function () {
+        filter = id;
+        try { localStorage.setItem("texlib-shelf-filter", filter); } catch (e) {}
+        renderFilters();
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      filtersEl.appendChild(btn);
+    };
+    mk("all", "すべて", books.length);
+    order.forEach(function (id) {
+      if (byGroup[id]) mk(id, groupName(id), byGroup[id]);
     });
   }
+
+  renderFilters();
   render();
 
   function esc(s) {

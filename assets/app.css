@@ -48,6 +48,41 @@ body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--s
 html[data-fs="s"] .prefs button[data-pref="font"] { font-size: .7rem; }
 html[data-fs="l"] .prefs button[data-pref="font"] { font-size: 1.05rem; }
 
+/* ---------- 学習パス ---------- */
+.shelf-paths { max-width: 720px; margin: 18px auto 0; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); font-size: .88rem; }
+.shelf-paths summary {
+  cursor: pointer; user-select: none; padding: 11px 18px; color: var(--accent); font-weight: 600;
+}
+.shelf-paths[open] summary { border-bottom: 1px dashed var(--line); }
+.shelf-paths summary:hover { background: var(--accent-soft); border-radius: 12px 12px 0 0; }
+.path-list { padding: 10px 18px 14px; display: grid; gap: 10px; }
+.path { display: flex; flex-direction: column; gap: 2px; }
+.path b { font-size: .82rem; color: var(--ink); }
+.path span { color: var(--ink-soft); font-size: .82rem; }
+
+/* ---------- 絞り込みチップ ---------- */
+.shelf-filters { max-width: 960px; margin: 20px auto 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.shelf-chip {
+  border: 1px solid var(--line); background: var(--paper); color: var(--ink);
+  border-radius: 999px; padding: 7px 16px; font-size: .84rem; font-family: inherit; cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.shelf-chip:hover { border-color: var(--accent); background: var(--accent-soft); }
+.shelf-chip.active { border-color: var(--accent); background: var(--accent-soft); font-weight: 600; }
+.shelf-chip .chip-count { color: var(--ink-soft); font-size: .74rem; margin-left: 4px; font-variant-numeric: tabular-nums; }
+.shelf-chip.active .chip-count { color: var(--accent); }
+
+/* ---------- カテゴリ別の書架 ---------- */
+.shelf-group { max-width: 960px; margin: 28px auto 0; padding: 0 24px; }
+.shelf-group h2 {
+  font-size: 1.05rem; margin: 0 0 4px; padding-left: 10px; border-left: 4px solid hsl(var(--hue, 220), 55%, 55%);
+  display: flex; align-items: baseline; gap: 8px;
+}
+.shelf-group .count { font-size: .76rem; color: var(--ink-soft); font-weight: 400; }
+.shelf-group .shelf-grid { margin-top: 12px; padding: 0; margin-bottom: 0; }
+.rsvp-chip { background: hsl(280, 45%, 93%) !important; color: hsl(280, 45%, 35%) !important; }
+html[data-theme="dark"] .rsvp-chip { background: hsl(280, 35%, 22%) !important; color: hsl(280, 60%, 74%) !important; }
+
 /* ---------- 本棚 ---------- */
 .shelf-header { max-width: 960px; margin: 0 auto; padding: 48px 24px 8px; }
 .shelf-header h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: 0.02em; }
