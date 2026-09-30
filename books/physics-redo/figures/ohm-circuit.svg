@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">オームの法則 V = RI と直列・並列</text>
+
+  <!-- ===== 左: 単純な回路 ===== -->
+  <rect x="40" y="60" width="140" height="120" fill="none" stroke="#23272f" stroke-width="1.8"/>
+  <!-- 電池(下边中央) -->
+  <line x1="98" y1="180" x2="98" y2="172" stroke="#23272f" stroke-width="2"/>
+  <line x1="122" y1="188" x2="122" y2="180" stroke="#23272f" stroke-width="4"/>
+  <line x1="98" y1="188" x2="98" y2="180" stroke="#23272f" stroke-width="2"/>
+  <line x1="122" y1="180" x2="122" y2="172" stroke="#23272f" stroke-width="4"/>
+  <text x="110" y="206" text-anchor="middle" font-size="11" fill="#23272f">電池 V</text>
+  <!-- 抵抗(右边中央) -->
+  <rect x="172" y="106" width="16" height="28" fill="#dbe9f7" stroke="#2f5fa8" stroke-width="1.8"/>
+  <text x="196" y="124" font-size="11" fill="#2f5fa8">R</text>
+  <!-- 電流の向き -->
+  <polygon points="120,52 130,58 120,64" fill="#c0392b"/>
+  <line x1="112" y1="58" x2="126" y2="58" stroke="#c0392b" stroke-width="2"/>
+  <text x="96" y="52" font-size="11" fill="#c0392b" font-weight="bold">電流 I</text>
+
+  <!-- ===== 右上: 直列 ===== -->
+  <text x="110" y="238" text-anchor="middle" font-size="12" fill="#23272f" font-weight="bold">直列: 1 本道</text>
+  <line x1="40" y1="248" x2="180" y2="248" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="70" y="240" width="12" height="16" fill="#dbe9f7" stroke="#2f5fa8" stroke-width="1.5"/>
+  <rect x="130" y="240" width="12" height="16" fill="#dbe9f7" stroke="#2f5fa8" stroke-width="1.5"/>
+  <text x="110" y="282" text-anchor="middle" font-size="12" fill="#1f6f5c" font-weight="bold">R = R1 + R2(足し算)</text>
+  <text x="110" y="298" text-anchor="middle" font-size="10" fill="#5a6270">電流はどこでも同じ</text>
+
+  <!-- ===== 右側: 並列 ===== -->
+  <text x="330" y="218" text-anchor="middle" font-size="12" fill="#23272f" font-weight="bold">並列: 枝分かれ</text>
+  <line x1="260" y1="248" x2="290" y2="248" stroke="#23272f" stroke-width="1.5"/>
+  <line x1="370" y1="248" x2="400" y2="248" stroke="#23272f" stroke-width="1.5"/>
+  <!-- 上の枝 -->
+  <line x1="290" y1="248" x2="300" y2="232" stroke="#23272f" stroke-width="1.5"/>
+  <line x1="300" y1="232" x2="360" y2="232" stroke="#23272f" stroke-width="1.5"/>
+  <line x1="360" y1="232" x2="370" y2="248" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="316" y="224" width="12" height="16" fill="#dbe9f7" stroke="#2f5fa8" stroke-width="1.5"/>
+  <!-- 下の枝 -->
+  <line x1="290" y1="248" x2="300" y2="264" stroke="#23272f" stroke-width="1.5"/>
+  <line x1="300" y1="264" x2="360" y2="264" stroke="#23272f" stroke-width="1.5"/>
+  <line x1="360" y1="264" x2="370" y2="248" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="316" y="256" width="12" height="16" fill="#dbe9f7" stroke="#2f5fa8" stroke-width="1.5"/>
+  <text x="330" y="290" text-anchor="middle" font-size="12" fill="#1f6f5c" font-weight="bold">1/R = 1/R1 + 1/R2</text>
+  <text x="330" y="306" text-anchor="middle" font-size="10" fill="#5a6270">電圧はどの枝でも同じ</text>
+
+  <!-- 中央区切り -->
+  <line x1="228" y1="60" x2="228" y2="310" stroke="#d8dce2" stroke-width="1"/>
+
+  <!-- 上部メモ -->
+  <text x="330" y="96" text-anchor="middle" font-size="12" fill="#23272f">水路のたとえ</text>
+  <text x="330" y="118" text-anchor="middle" font-size="11" fill="#5a6270">電圧 = 落差</text>
+  <text x="330" y="136" text-anchor="middle" font-size="11" fill="#5a6270">電流 = 流量</text>
+  <text x="330" y="154" text-anchor="middle" font-size="11" fill="#5a6270">抵抗 = 水路の細さ</text>
+  <text x="330" y="176" text-anchor="middle" font-size="11" fill="#5a6270">落差 2 倍 → 流量 2 倍</text>
+  <text x="330" y="194" text-anchor="middle" font-size="11" fill="#5a6270">細さ 2 倍 → 流量 半分</text>
+</svg>

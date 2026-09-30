@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">切り離し図: 斜面上の物体に働く力をすべて書き込む</text>
+
+  <!-- 斜面 -->
+  <polygon points="60,260 360,260 360,100" fill="#eef2f7" stroke="#23272f" stroke-width="1.5"/>
+
+  <!-- 物体(斜面に平行な四角) 斜面の傾き: 底边300 高さ160 → 角度約28度 -->
+  <g transform="translate(250,177) rotate(-28.07)">
+    <rect x="-24" y="-44" width="48" height="44" fill="#dbe9f7" stroke="#2f5fa8" stroke-width="1.5"/>
+  </g>
+
+  <!-- 重力 mg: 鉛直下向き(物体の重心 250,155 から) -->
+  <line x1="250" y1="155" x2="250" y2="245" stroke="#c0392b" stroke-width="2.5"/>
+  <polygon points="250,253 245,241 255,241" fill="#c0392b"/>
+  <text x="258" y="240" font-size="13" fill="#c0392b" font-weight="bold">重力 mg(地球が及ぼす)</text>
+
+  <!-- 垂直抗力 N: 斜面に垂直(約28度左上方向) -->
+  <line x1="250" y1="155" x2="200" y2="110" stroke="#1f6f5c" stroke-width="2.5"/>
+  <polygon points="195,106 206,110 199,119" fill="#1f6f5c"/>
+  <text x="120" y="100" font-size="13" fill="#1f6f5c" font-weight="bold">垂直抗力 N(斜面が及ぼす)</text>
+
+  <!-- 摩擦 f: 斜面に沿って上向き -->
+  <line x1="250" y1="155" x2="303" y2="106" stroke="#8e6c1f" stroke-width="2.5"/>
+  <polygon points="308,102 297,104 303,113" fill="#8e6c1f"/>
+  <text x="300" y="92" font-size="13" fill="#8e6c1f" font-weight="bold">摩擦 f(斜面が及ぼす)</text>
+
+  <!-- 補足メモ -->
+  <text x="70" y="292" font-size="12" fill="#5a6270">力の出所は「地球・接触面・糸やばね・人の押し引き」の 4 種。</text>
+  <text x="70" y="310" font-size="12" fill="#5a6270">慣性の力(遠心力など)は矢印に書き込まない。</text>
+</svg>

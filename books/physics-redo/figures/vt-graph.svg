@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">v-t グラフ: 傾きが加速度、面積が変位</text>
+
+  <!-- 座標軸 -->
+  <line x1="60" y1="40" x2="60" y2="260" stroke="#23272f" stroke-width="1.5"/>
+  <line x1="60" y1="260" x2="400" y2="260" stroke="#23272f" stroke-width="1.5"/>
+  <polygon points="60,34 56,44 64,44" fill="#23272f"/>
+  <polygon points="406,260 396,256 396,264" fill="#23272f"/>
+  <text x="40" y="52" font-size="13" fill="#23272f">v</text>
+  <text x="410" y="276" font-size="13" fill="#23272f">t</text>
+
+  <!-- 面積(変位) -->
+  <polygon points="60,120 300,120 300,260 60,260" fill="#dbe9f7" opacity="0.85"/>
+  <text x="180" y="200" text-anchor="middle" font-size="13" fill="#2f5fa8" font-weight="bold">面積 = 変位 x</text>
+  <text x="180" y="218" text-anchor="middle" font-size="11" fill="#2f5fa8">台形の面積の公式で x を復元できる</text>
+
+  <!-- 速度の直線 -->
+  <line x1="60" y1="120" x2="300" y2="60" stroke="#1f6f5c" stroke-width="2.5"/>
+  <circle cx="60" cy="120" r="4" fill="#1f6f5c"/>
+  <text x="88" y="112" font-size="12" fill="#1f6f5c" font-weight="bold">初速度 v0(縦軸との交点)</text>
+
+  <!-- 傾きの説明 -->
+  <line x1="150" y1="101.3" x2="190" y2="101.3" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="190" y1="101.3" x2="190" y2="91.3" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="196" y="96" font-size="12" fill="#c0392b" font-weight="bold">傾き = 加速度 a</text>
+
+  <!-- 時間の目盛 -->
+  <line x1="300" y1="260" x2="300" y2="266" stroke="#23272f" stroke-width="1.5"/>
+  <text x="300" y="282" text-anchor="middle" font-size="12" fill="#23272f">t</text>
+  <line x1="300" y1="120" x2="300" y2="260" stroke="#5a6270" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- 凡例メモ -->
+  <text x="220" y="306" text-anchor="middle" font-size="12" fill="#5a6270">直線(等加速度運動)を描けば、3 つの公式はすべて読み取れる</text>
+</svg>
