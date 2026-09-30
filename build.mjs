@@ -530,6 +530,7 @@ ${quiz ? `<script id="quiz-json" type="application/json">${JSON.stringify(quiz)}
 <script src="/vendor/hljs/highlight.min.js"></script>
 <script src="/assets/prefs.js?v=${VERSION}"></script>
 <script src="/assets/reader.js?v=${VERSION}"></script>
+<script src="/assets/marker.js?v=${VERSION}"></script>
 </body>
 </html>`;
 }

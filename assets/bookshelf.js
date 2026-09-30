@@ -212,7 +212,7 @@
         var data = JSON.parse(reader.result);
         var imported = 0;
         Object.keys(data).forEach(function (key) {
-          if (key.indexOf("texlib-") === 0 && (key.indexOf("texlib-progress:") === 0 || key === "texlib-prefs")) {
+          if (key.indexOf("texlib-") === 0 && (key.indexOf("texlib-progress:") === 0 || key.indexOf("texlib-hl:") === 0 || key === "texlib-prefs")) {
             localStorage.setItem(key, data[key]);
             imported++;
           }

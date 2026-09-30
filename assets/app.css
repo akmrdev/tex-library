@@ -280,6 +280,31 @@ details.answer .answer-body {
 .book-footer { max-width: 760px; margin: 32px auto 0; text-align: center; font-family: var(--sans); }
 .book-footer a { color: var(--ink-soft); }
 
+/* ---------- マーカー ---------- */
+mark.hl {
+  background: hsl(55, 90%, 70%);
+  color: inherit; padding: 1px 0; border-radius: 2px; cursor: pointer;
+}
+mark.hl-green { background: hsl(130, 55%, 72%); }
+mark.hl-pink { background: hsl(340, 75%, 80%); }
+mark.hl-blue { background: hsl(200, 75%, 76%); }
+html[data-theme="dark"] mark.hl { color: #1a1d24; }
+#hl-bar {
+  position: absolute; z-index: 60; display: flex; gap: 6px;
+  background: var(--paper); border: 1px solid var(--line); border-radius: 10px;
+  padding: 6px; box-shadow: 0 8px 24px var(--shadow);
+}
+#hl-bar[hidden] { display: none; }
+.hl-btn {
+  width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--line);
+  cursor: pointer; padding: 0;
+}
+.hl-btn:hover { transform: scale(1.08); }
+.hl-swatch-yellow { background: hsl(55, 90%, 70%); }
+.hl-swatch-green { background: hsl(130, 55%, 72%); }
+.hl-swatch-pink { background: hsl(340, 75%, 80%); }
+.hl-swatch-blue { background: hsl(200, 75%, 76%); }
+
 /* ---------- モバイル ---------- */
 @media (max-width: 900px) {
   body.reader { display: block; }
