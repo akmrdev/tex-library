@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="280" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">鍵盤と半音: 白鍵 7 + 黒鍵 5 = 1 オクターブ 12 段</text>
+
+  <!-- 白鍵: 幅50 x7 = 350 起点30 -->
+  <rect x="30" y="50" width="50" height="150" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="80" y="50" width="50" height="150" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="130" y="50" width="50" height="150" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="180" y="50" width="50" height="150" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="230" y="50" width="50" height="150" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="280" y="50" width="50" height="150" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+  <rect x="330" y="50" width="50" height="150" fill="#ffffff" stroke="#23272f" stroke-width="1.5"/>
+
+  <!-- 黒鍵(ミファ・シドの間にはない) -->
+  <rect x="68" y="50" width="24" height="92" fill="#23272f"/>
+  <rect x="118" y="50" width="24" height="92" fill="#23272f"/>
+  <rect x="268" y="50" width="24" height="92" fill="#23272f"/>
+  <rect x="318" y="50" width="24" height="92" fill="#23272f"/>
+  <rect x="368" y="50" width="24" height="92" fill="#23272f"/>
+
+  <!-- 音名ラベル -->
+  <text x="55" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">ド</text>
+  <text x="105" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">レ</text>
+  <text x="155" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">ミ</text>
+  <text x="205" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">ファ</text>
+  <text x="255" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">ソ</text>
+  <text x="305" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">ラ</text>
+  <text x="355" y="222" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">シ</text>
+
+  <!-- ドをハイライト -->
+  <rect x="30" y="50" width="50" height="150" fill="#ff5c5c" opacity="0.18"/>
+  <text x="55" y="196" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="bold">家(主音)</text>
+
+  <!-- 半音の注釈: ミファ・シド -->
+  <line x1="155" y1="214" x2="205" y2="214" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="180" y="248" text-anchor="middle" font-size="11" fill="#c0392b">ミファ・シドの間は黒鍵なし(半音違い)</text>
+
+  <!-- 全音・半音の凡例 -->
+  <text x="220" y="272" text-anchor="middle" font-size="12" fill="#5a6270">隣り合う鍵 = 半音 1 つ。黒鍵を挟む白鍵同士 = 全音(半音 2 つ)</text>
+</svg>

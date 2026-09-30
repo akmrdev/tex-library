@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">ビッグファイブ: 5 本の連続した次元</text>
+
+  <!-- 軸: x=90..390 -->
+  <g font-size="12">
+    <!-- 外向性 -->
+    <text x="80" y="64" text-anchor="end" fill="#23272f" font-weight="bold">外向性</text>
+    <line x1="90" y1="60" x2="390" y2="60" stroke="#d8dce2" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="280" cy="60" r="8" fill="#2f5fa8"/>
+    <text x="90" y="46" font-size="10" fill="#5a6270">静かで内省的</text>
+    <text x="390" y="46" text-anchor="end" font-size="10" fill="#5a6270">社交的で活発</text>
+
+    <!-- 調和性 -->
+    <text x="80" y="114" text-anchor="end" fill="#23272f" font-weight="bold">調和性</text>
+    <line x1="90" y1="110" x2="390" y2="110" stroke="#d8dce2" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="230" cy="110" r="8" fill="#1f6f5c"/>
+    <text x="90" y="96" font-size="10" fill="#5a6270">批判的で競争的</text>
+    <text x="390" y="96" text-anchor="end" font-size="10" fill="#5a6270">協力的で信頼</text>
+
+    <!-- 誠実性 -->
+    <text x="80" y="164" text-anchor="end" fill="#23272f" font-weight="bold">誠実性</text>
+    <line x1="90" y1="160" x2="390" y2="160" stroke="#d8dce2" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="320" cy="160" r="8" fill="#8e6c1f"/>
+    <text x="90" y="146" font-size="10" fill="#5a6270">柔軟で即興</text>
+    <text x="390" y="146" text-anchor="end" font-size="10" fill="#5a6270">計画的で几帳面</text>
+
+    <!-- 神経症傾向 -->
+    <text x="80" y="214" text-anchor="end" fill="#23272f" font-weight="bold">神経症傾向</text>
+    <line x1="90" y1="210" x2="390" y2="210" stroke="#d8dce2" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="200" cy="210" r="8" fill="#c0392b"/>
+    <text x="90" y="196" font-size="10" fill="#5a6270">気分が安定</text>
+    <text x="390" y="196" text-anchor="end" font-size="10" fill="#5a6270">不安を感じやすい</text>
+
+    <!-- 開放性 -->
+    <text x="80" y="264" text-anchor="end" fill="#23272f" font-weight="bold">開放性</text>
+    <line x1="90" y1="260" x2="390" y2="260" stroke="#d8dce2" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="260" cy="260" r="8" fill="#6a4fa3"/>
+    <text x="90" y="246" font-size="10" fill="#5a6270">慣れたものを好む</text>
+    <text x="390" y="246" text-anchor="end" font-size="10" fill="#5a6270">新しい経験を好む</text>
+  </g>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="294" text-anchor="middle" font-size="12" fill="#5a6270">点は「どこかにいる位置」の例。良い・悪いの軸ではなく、</text>
+  <text x="220" y="312" text-anchor="middle" font-size="12" fill="#5a6270">すべての人は各次元の中間のどこかに連続的に位置します</text>
+</svg>

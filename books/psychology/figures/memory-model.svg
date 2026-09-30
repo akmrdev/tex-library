@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">記憶の 3 段階モデル</text>
+
+  <!-- 箱 3 つ -->
+  <rect x="30" y="70" width="100" height="90" rx="10" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.5"/>
+  <text x="80" y="105" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">感覚記憶</text>
+  <text x="80" y="124" text-anchor="middle" font-size="10" fill="#5a6270">数秒未満</text>
+  <text x="80" y="140" text-anchor="middle" font-size="10" fill="#5a6270">受信バッファ</text>
+
+  <rect x="170" y="70" width="100" height="90" rx="10" fill="#fff7e8" stroke="#8e6c1f" stroke-width="1.5"/>
+  <text x="220" y="105" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">短期記憶</text>
+  <text x="220" y="124" text-anchor="middle" font-size="10" fill="#5a6270">約 4 つ分・数十秒</text>
+  <text x="220" y="140" text-anchor="middle" font-size="10" fill="#5a6270">作業台</text>
+
+  <rect x="310" y="70" width="100" height="90" rx="10" fill="#eef7f3" stroke="#1f6f5c" stroke-width="1.5"/>
+  <text x="360" y="105" text-anchor="middle" font-size="13" font-weight="bold" fill="#23272f">長期記憶</text>
+  <text x="360" y="124" text-anchor="middle" font-size="10" fill="#5a6270">容量ほぼ無限</text>
+  <text x="360" y="140" text-anchor="middle" font-size="10" fill="#5a6270">数日から一生</text>
+
+  <!-- 矢印 -->
+  <line x1="130" y1="115" x2="163" y2="115" stroke="#23272f" stroke-width="2"/>
+  <polygon points="170,115 158,110 158,120" fill="#23272f"/>
+  <line x1="270" y1="115" x2="303" y2="115" stroke="#23272f" stroke-width="2"/>
+  <polygon points="310,115 298,110 298,120" fill="#23272f"/>
+  <text x="150" y="103" text-anchor="middle" font-size="10" fill="#5a6270">注意</text>
+  <text x="290" y="103" text-anchor="middle" font-size="10" fill="#5a6270">固定化</text>
+
+  <!-- 消える矢印 -->
+  <line x1="80" y1="160" x2="80" y2="192" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="80,199 75,188 85,188" fill="#c0392b"/>
+  <text x="80" y="215" text-anchor="middle" font-size="10" fill="#c0392b">減衰</text>
+  <line x1="220" y1="160" x2="220" y2="192" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="220,199 215,188 225,188" fill="#c0392b"/>
+  <text x="220" y="215" text-anchor="middle" font-size="10" fill="#c0392b">放置で消失</text>
+
+  <!-- 想起の矢印(長期から短期へ) -->
+  <path d="M 360,160 C 360,190 300,175 235,150" fill="none" stroke="#1f6f5c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="228,147 240,147 235,157" fill="#1f6f5c"/>
+  <text x="330" y="196" text-anchor="middle" font-size="10" fill="#1f6f5c">想起(思い出す操作は記憶を強化する)</text>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="244" text-anchor="middle" font-size="12" fill="#5a6270">短期の 4 つ分を「まとまり」にすると実質容量が増える(チャンキング)</text>
+  <text x="220" y="264" text-anchor="middle" font-size="12" fill="#5a6270">読み返すより「思い出してから答え合わせ」のほうが残る(テスト効果)</text>
+</svg>

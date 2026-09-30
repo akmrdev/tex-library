@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">トライアド: 積み方の違いが明暗を作る</text>
+
+  <!-- ===== C コード(メジャー): ドミソ ===== -->
+  <text x="120" y="52" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f6f5c">C コード(メジャー)</text>
+  <!-- 音の積み木: 上=ソ 中=ミ 下=ド -->
+  <rect x="60" y="70" width="120" height="44" rx="8" fill="#eef7f3" stroke="#1f6f5c" stroke-width="1.5"/>
+  <text x="120" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">ソ(5度)</text>
+  <rect x="60" y="126" width="120" height="44" rx="8" fill="#eef7f3" stroke="#1f6f5c" stroke-width="1.5"/>
+  <text x="120" y="154" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">ミ(3度)</text>
+  <rect x="60" y="182" width="120" height="44" rx="8" fill="#ff5c5c" opacity="0.16" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="120" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#c0392b">ド(家)</text>
+
+  <!-- 間隔の注釈 -->
+  <line x1="196" y1="148" x2="196" y2="92" stroke="#1f6f5c" stroke-width="1.5"/>
+  <polygon points="196,88 192,98 200,98" fill="#1f6f5c"/>
+  <polygon points="196,152 192,142 200,142" fill="#1f6f5c"/>
+  <text x="212" y="118" font-size="11" fill="#1f6f5c">長 3 度</text>
+  <text x="212" y="132" font-size="10" fill="#1f6f5c">半音 4 つ</text>
+  <line x1="196" y1="204" x2="196" y2="148" stroke="#1f6f5c" stroke-width="1.5"/>
+  <polygon points="196,144 192,154 200,154" fill="#1f6f5c"/>
+  <polygon points="196,208 192,198 200,198" fill="#1f6f5c"/>
+  <text x="212" y="174" font-size="11" fill="#1f6f5c">短 3 度</text>
+  <text x="212" y="188" font-size="10" fill="#1f6f5c">半音 3 つ</text>
+
+  <!-- 区切り -->
+  <line x1="270" y1="50" x2="270" y2="250" stroke="#d8dce2" stroke-width="1"/>
+
+  <!-- ===== Am コード(マイナー): ラドミ ===== -->
+  <text x="350" y="52" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f5fa8">Am コード(マイナー)</text>
+  <rect x="290" y="70" width="120" height="44" rx="8" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.5"/>
+  <text x="350" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">ミ(5度)</text>
+  <rect x="290" y="126" width="120" height="44" rx="8" fill="#eef2f7" stroke="#2f5fa8" stroke-width="1.5"/>
+  <text x="350" y="154" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">ド(3度)</text>
+  <rect x="290" y="182" width="120" height="44" rx="8" fill="#ff5c5c" opacity="0.16" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="350" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#c0392b">ラ(家)</text>
+
+  <line x1="426" y1="148" x2="426" y2="92" stroke="#2f5fa8" stroke-width="1.5"/>
+  <polygon points="426,88 422,98 430,98" fill="#2f5fa8"/>
+  <polygon points="426,152 422,142 430,142" fill="#2f5fa8"/>
+  <text x="318" y="118" font-size="11" fill="#2f5fa8">短 3 度</text>
+  <text x="318" y="132" font-size="10" fill="#2f5fa8">半音 3 つ</text>
+  <text x="286" y="174" font-size="11" fill="#2f5fa8">長 3 度</text>
+  <text x="286" y="188" font-size="10" fill="#2f5fa8">半音 4 つ</text>
+
+  <!-- 下部注釈 -->
+  <text x="220" y="256" text-anchor="middle" font-size="12" fill="#5a6270">下から「長3+短3」が明るいメジャー、「短3+長3」が暗いマイナー。</text>
+  <text x="220" y="276" text-anchor="middle" font-size="12" fill="#5a6270">差は 3 度の音の半音 1 つだけ。</text>
+</svg>

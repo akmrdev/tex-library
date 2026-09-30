@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">補完の錯視: 描かれていない三角形が見える</text>
+
+  <!-- 3つのパックマン: 欠けた部分が内側を向く -->
+  <!-- 上: 中心(220,90) 欠けは下向き -->
+  <path d="M 220,90 L 245,133.3 A 50 50 0 1 0 195,133.3 Z" fill="#23272f"/>
+  <!-- 左下: 中心(145,215) 欠けは右上向き -->
+  <path d="M 145,215 L 195,215.9 A 50 50 0 1 1 170.8,172.1 Z" fill="#23272f"/>
+  <!-- 右下: 中心(295,215) 欠けは左上向き -->
+  <path d="M 295,215 L 245,215.9 A 50 50 0 1 0 269.3,172.1 Z" fill="#23272f"/>
+
+  <!-- 見える白い三角形の輪郭(点線で案内) -->
+  <polygon points="220,90 145,215 295,215" fill="none" stroke="#c8cdd6" stroke-width="1.2" stroke-dasharray="5 4"/>
+
+  <text x="220" y="266" text-anchor="middle" font-size="12" fill="#5a6270">白い三角形の輪郭は 1 本も描かれていないのに、</text>
+  <text x="220" y="286" text-anchor="middle" font-size="12" fill="#5a6270">脳が欠けた円を「遮られた円」と解釈して補完する</text>
+</svg>

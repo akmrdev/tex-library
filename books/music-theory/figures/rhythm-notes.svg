@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#23272f">音符の長さ: 1 小節 = 4 分音符 4 個ぶん</text>
+
+  <!-- 拍の目盛り(上段: 4分音符4個) -->
+  <line x1="30" y1="70" x2="410" y2="70" stroke="#5a6270" stroke-width="1"/>
+  <line x1="30" y1="60" x2="30" y2="80" stroke="#5a6270" stroke-width="1"/>
+  <line x1="125" y1="60" x2="125" y2="80" stroke="#5a6270" stroke-width="1"/>
+  <line x1="220" y1="60" x2="220" y2="80" stroke="#5a6270" stroke-width="1"/>
+  <line x1="315" y1="60" x2="315" y2="80" stroke="#5a6270" stroke-width="1"/>
+  <line x1="410" y1="60" x2="410" y2="80" stroke="#5a6270" stroke-width="1"/>
+  <text x="77" y="55" text-anchor="middle" font-size="10" fill="#5a6270">1拍</text>
+  <text x="172" y="55" text-anchor="middle" font-size="10" fill="#5a6270">2拍</text>
+  <text x="267" y="55" text-anchor="middle" font-size="10" fill="#5a6270">3拍</text>
+  <text x="362" y="55" text-anchor="middle" font-size="10" fill="#5a6270">4拍</text>
+
+  <!-- 4分音符 x4: 楕円+縦棒 -->
+  <g fill="#2f5fa8" stroke="#2f5fa8">
+    <ellipse cx="77" cy="105" rx="10" ry="7"/><line x1="87" y1="105" x2="87" y2="80" stroke-width="2"/>
+    <ellipse cx="172" cy="105" rx="10" ry="7"/><line x1="182" y1="105" x2="182" y2="80" stroke-width="2"/>
+    <ellipse cx="267" cy="105" rx="10" ry="7"/><line x1="277" y1="105" x2="277" y2="80" stroke-width="2"/>
+    <ellipse cx="362" cy="105" rx="10" ry="7"/><line x1="372" y1="105" x2="372" y2="80" stroke-width="2"/>
+  </g>
+  <text x="220" y="132" text-anchor="middle" font-size="12" fill="#23272f">4 分音符: 拍 1 つぶん(1 小節に 4 個)</text>
+
+  <!-- 2分音符 x2 -->
+  <g fill="#ffffff" stroke="#2f5fa8">
+    <ellipse cx="172" cy="162" rx="10" ry="7" stroke-width="2"/><line x1="182" y1="162" x2="182" y2="137" stroke-width="2"/>
+    <ellipse cx="362" cy="162" rx="10" ry="7" stroke-width="2"/><line x1="372" y1="162" x2="372" y2="137" stroke-width="2"/>
+  </g>
+  <text x="220" y="189" text-anchor="middle" font-size="12" fill="#23272f">2 分音符: 拍 2 つぶん(白抜きの頭)</text>
+
+  <!-- 8分音符 x8(旗つき2個で表現) -->
+  <g fill="#2f5fa8" stroke="#2f5fa8">
+    <ellipse cx="77" cy="219" rx="9" ry="6"/><line x1="86" y1="219" x2="86" y2="196" stroke-width="2"/>
+    <path d="M 86,196 Q 98,202 96,214" fill="none" stroke-width="2"/>
+    <ellipse cx="172" cy="219" rx="9" ry="6"/><line x1="181" y1="219" x2="181" y2="196" stroke-width="2"/>
+    <path d="M 181,196 Q 193,202 191,214" fill="none" stroke-width="2"/>
+    <ellipse cx="267" cy="219" rx="9" ry="6"/><line x1="276" y1="219" x2="276" y2="196" stroke-width="2"/>
+    <path d="M 276,196 Q 288,202 286,214" fill="none" stroke-width="2"/>
+    <ellipse cx="362" cy="219" rx="9" ry="6"/><line x1="371" y1="219" x2="371" y2="196" stroke-width="2"/>
+    <path d="M 371,196 Q 383,202 381,214" fill="none" stroke-width="2"/>
+  </g>
+  <text x="220" y="246" text-anchor="middle" font-size="12" fill="#23272f">8 分音符: 拍 2 分の 1(1 拍に 2 個、旗が目印)</text>
+
+  <!-- 全音符 -->
+  <ellipse cx="220" cy="272" rx="16" ry="10" fill="none" stroke="#2f5fa8" stroke-width="2.5"/>
+  <text x="252" y="277" font-size="12" fill="#23272f">全音符: 拍 4 つぶん(棒なし白抜き)</text>
+</svg>
